@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://dynamicssquare.com',
+  siteUrl: 'https://www.dynamicssquare.com',
   generateRobotsTxt: false,
   sitemapSize: 7000,
 }

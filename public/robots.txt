@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dynamicssquare.com/sitemap.xml
+Sitemap: https://www.dynamicssquare.com/sitemap.xml
