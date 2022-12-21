@@ -152,7 +152,7 @@ const Footer = () =>{
                       Submit
                     </button>
                     <div className={display} role="status">
-                      <span className="visually-hidden">Loading...</span>
+                      <span className="visually-hidden">Loading....</span>
                     </div>
                   </div>
                 </form>
