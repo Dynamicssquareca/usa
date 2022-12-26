@@ -59,9 +59,9 @@ const ContactUs = () => {
             </div>
 
             <div className="row neew-pd0 justify-content-center">
-              <div className="col-lg-9">
+              <div className="col-lg-10">
                 <div className="row">
-                  <div className="col-lg-6 col-sm-12">
+                  <div className="col-lg-5 col-sm-12 align-self-center">
                     <div className="addre-left">
                       <p>
                       2372 Morse Ave, Ste. 310 Irvine,
@@ -76,16 +76,19 @@ const ContactUs = () => {
                       </a>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12">
+                  <div className="col-lg-7 col-sm-12 align-self-center">
                     <div className="addre-rigt">
                       <div className="cont-info">
-                        <i className="bi bi-telephone"></i>{" "}
-                        <span>+1-281-899-0865</span>
+                      <span style={{color:'#343434',fontWeight:'500'}}>Sales Support : </span>
+                      <span>+1-281-899-0865</span>
                       </div>
                       <div className="cont-info">
-                        <i className="bi bi-envelope"></i>{" "}
+                      <span style={{color:'#343434',fontWeight:'500'}}>Technical Support : </span>
+                      <span>+1-281-899-0716</span>
+                      </div>
+                      <div className="cont-info">
+                      <span style={{color:'#343434',fontWeight:'500'}}>Email Us : </span>
                         <span>
-                          {" "}
                           <a href="mailto:info@dynamicssquare.com">
                             info@dynamicssquare.com
                           </a>

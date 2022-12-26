@@ -1,6 +1,8 @@
 {
-  "name": "dscanada",
+  "name": "ds-us",
+  "homepage": "https://www.dynamicssquare.com/",
   "version": "0.1.0",
+  "proxy": "http://localhost:3000",
   "private": true,
   "scripts": {
     "dev": "next dev",
