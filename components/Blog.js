@@ -10,7 +10,7 @@ const Blog = () => {
 
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
-            <Link href="https://www.dynamicssquare.com/blog/what-are-dynamics-365-for-sales-benefits-and-capabilities/">
+            <Link href="https://blog.dynamicssquare.com/what-are-dynamics-365-for-sales-benefits-and-capabilities/">
             <a
             >
               <img
@@ -24,7 +24,7 @@ const Blog = () => {
           </div>
           <div className="blogs-extra-left-content">
             <h4>
-              <Link href="https://www.dynamicssquare.com/blog/what-are-dynamics-365-for-sales-benefits-and-capabilities/">
+              <Link href="https://blog.dynamicssquare.com/what-are-dynamics-365-for-sales-benefits-and-capabilities/">
               <a
               >
                What are the Benefits and Capabilities of Microsoft Dynamics 365 for Sales?
@@ -36,7 +36,7 @@ const Blog = () => {
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
-            <Link href="https://www.dynamicssquare.com/blog/microsoft-dynamics-nav-vs-business-central/">
+            <Link href="https://blog.dynamicssquare.com/microsoft-dynamics-nav-vs-business-central/">
             <a>
               <img
                 src="/img/Microsoft-Dynamics-NAV-and-Business-Central.jpg"
@@ -49,7 +49,7 @@ const Blog = () => {
           </div>
           <div className="blogs-extra-left-content">
             <h4>
-              <Link    href="https://www.dynamicssquare.com/blog/microsoft-dynamics-nav-vs-business-central/">
+              <Link    href="https://blog.dynamicssquare.com/microsoft-dynamics-nav-vs-business-central/">
               <a>
                What is the Difference between Microsoft Dynamics NAV and Dynamics 365 Business Central?
               </a>
@@ -60,7 +60,7 @@ const Blog = () => {
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
-            <Link href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/">
+            <Link href="https://blog.dynamicssquare.com/why-your-business-needs-power-bi/">
             <a
             >
               <img
@@ -74,7 +74,7 @@ const Blog = () => {
           </div>
           <div className="blogs-extra-left-content">
             <h4>
-              <Link href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/">
+              <Link href="https://blog.dynamicssquare.com/why-your-business-needs-power-bi/">
               <a>
                 Why Your Business Needs Power BI?
               </a>
@@ -85,7 +85,7 @@ const Blog = () => {
         </div>
         <div className="blogs-extra-left">
           <div className="blogs-extra-left-img">
-            <Link  href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/">
+            <Link  href="https://blog.dynamicssquare.com/how-to-generate-interactive-reports-in-power-bi/">
             <a>
               <img
                 src="/img/Generate-Interactive-Reports-in-Power-BI.jpg"
@@ -98,7 +98,7 @@ const Blog = () => {
           </div>
           <div className="blogs-extra-left-content">
             <h4>
-              <Link  href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/">
+              <Link  href="https://blog.dynamicssquare.com/how-to-generate-interactive-reports-in-power-bi/">
               <a>
                How to Generate Interactive Reports in Power BI?
               </a>

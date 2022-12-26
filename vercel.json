@@ -1,6 +1,37 @@
 {
-    "redirects": [
-      { "source": "/products/crm/", "destination": "/products/microsoft-dynamics-crm/", "permanent": true }
+  "redirects": [
+    { "source": "/products/crm/", "destination": "/products/microsoft-dynamics-crm/", "permanent": true },
+    { "source": "/blog/", "destination": "https://blog.dynamicssquare.com/", "permanent": true },
+    { "source": "/blog/features-dynamics-365-business-central/", "destination": "https://blog.dynamicssquare.com/features-dynamics-365-business-central/", "permanent": true },
+    { "source": "/blog/crm-software-for-real-estate/", "destination": "https://blog.dynamicssquare.com/crm-software-for-real-estate/", "permanent": true },
+    { "source": "/blog/business-central-demo-and-trial/", "destination": "https://blog.dynamicssquare.com/business-central-demo-and-trial/", "permanent": true },
+    { "source": "/blog/small-business-leaders-need-power-bi/", "destination": "https://blog.dynamicssquare.com/small-business-leaders-need-power-bi/", "permanent": true },
+    { "source": "/blog/dynamics-365-sales-professional-vs-sales-enterprise/", "destination": "https://blog.dynamicssquare.com/dynamics-365-sales-professional-vs-sales-enterprise/", "permanent": true },
+    { "source": "/blog/what-is-manufacturing-erp-software/", "destination": "https://blog.dynamicssquare.com/what-is-manufacturing-erp-software/", "permanent": true },
+    { "source": "/blog/why-erp-software-is-important/", "destination": "https://blog.dynamicssquare.com/why-erp-software-is-important/", "permanent": true },
+    { "source": "/blog/what-are-dynamics-365-for-sales-benefits-and-capabilities/", "destination": "https://blog.dynamicssquare.com/what-are-dynamics-365-for-sales-benefits-and-capabilities/", "permanent": true },
+    { "source": "/blog/microsoft-dynamics-nav-vs-business-central/", "destination": "https://blog.dynamicssquare.com/microsoft-dynamics-nav-vs-business-central/", "permanent": true },
+    { "source": "/blog/why-your-business-needs-power-bi/", "destination": "https://blog.dynamicssquare.com/why-your-business-needs-power-bi/", "permanent": true },
+    { "source": "/blog/how-to-generate-interactive-reports-in-power-bi/", "destination": "https://blog.dynamicssquare.com/how-to-generate-interactive-reports-in-power-bi/", "permanent": true },
+    { "source": "/blog/how-to-clean-irrelevant-data-in-power-bi-and-ways-to-transform-the-data/", "destination": "https://blog.dynamicssquare.com/how-to-clean-irrelevant-data-in-power-bi-and-ways-to-transform-the-data/", "permanent": true },
+    { "source": "/blog/an-introduction-to-microsoft-power-bi/", "destination": "https://blog.dynamicssquare.com/an-introduction-to-microsoft-power-bi/", "permanent": true },
+    { "source": "/blog/power-bi-architecture-and-its-components-explained/", "destination": "https://blog.dynamicssquare.com/power-bi-architecture-and-its-components-explained/", "permanent": true },
+    { "source": "/blog/dynamics-nav-to-dynamics-365-business-central/", "destination": "https://blog.dynamicssquare.com/dynamics-nav-to-dynamics-365-business-central/", "permanent": true },
+    { "source": "/blog/what-is-microsoft-build-everything-you-need-to-know-about/", "destination": "https://blog.dynamicssquare.com/what-is-microsoft-build-everything-you-need-to-know-about/", "permanent": true },
+    { "source": "/blog/dynamics-365-business-central-2022-wave-1/", "destination": "https://blog.dynamicssquare.com/dynamics-365-business-central-2022-wave-1/", "permanent": true },
+    { "source": "/blog/business-central-vs-dynamics-365-crm/", "destination": "https://blog.dynamicssquare.com/business-central-vs-dynamics-365-crm/", "permanent": true },
+    { "source": "/blog/dynamics-365-business-central-vs-dynamics-gp/", "destination": "https://blog.dynamicssquare.com/dynamics-365-business-central-vs-dynamics-gp/", "permanent": true },
+    { "source": "/blog/dynamics-365-business-central-vs-finance-supply-chain/", "destination": "https://blog.dynamicssquare.com/dynamics-365-business-central-vs-finance-supply-chain/", "permanent": true },
+    { "source": "/blog/migrate-dynamics-ax-to-dynamics-365/", "destination": "https://blog.dynamicssquare.com/migrate-dynamics-ax-to-dynamics-365/", "permanent": true },
+    { "source": "/blog/why-do-smbs-need-crm-software-solutions/", "destination": "https://blog.dynamicssquare.com/why-do-smbs-need-crm-software-solutions/", "permanent": true },
+    { "source": "/blog/10-biggest-technology-trends-in-2022/", "destination": "https://blog.dynamicssquare.com/10-biggest-technology-trends-in-2022/", "permanent": true },
+    { "source": "/blog/what-is-microsoft-azure-iot-internet-of-things/", "destination": "https://blog.dynamicssquare.com/what-is-microsoft-azure-iot-internet-of-things/", "permanent": true },
+    { "source": "/blog/10-best-erp-systems-for-small-businesses-in-2022/", "destination": "https://blog.dynamicssquare.com/10-best-erp-systems-for-small-businesses-in-2022/", "permanent": true },
+    { "source": "/blog/what-is-azure-iot-central/", "destination": "https://blog.dynamicssquare.com/what-is-azure-iot-central/", "permanent": true },
+    { "source": "/blog/what-is-azure-iot-hub/", "destination": "https://blog.dynamicssquare.com/what-is-azure-iot-hub/", "permanent": true },
+    { "source": "/blog/what-is-dynamics-365-supply-chain-management/", "destination": "https://blog.dynamicssquare.com/what-is-dynamics-365-supply-chain-management/", "permanent": true },
+    { "source": "/blog/power-bi-for-mac/", "destination": "https://blog.dynamicssquare.com/power-bi-for-mac/", "permanent": true },
+    { "source": "/blog/what-is-microsoft-dynamics-365-finance/", "destination": "https://blog.dynamicssquare.com/what-is-microsoft-dynamics-365-finance/", "permanent": true }
 
-    ]
-  }
+  ]
+}

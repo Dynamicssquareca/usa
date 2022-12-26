@@ -836,7 +836,7 @@ class Header extends Component {
                     <ul>
                       <li>
                         <a
-                          href="https://www.dynamicssquare.com/blog/"
+                          href="https://blog.dynamicssquare.com/"
                           rel=""
                           target="_self"
                         >
@@ -1305,7 +1305,7 @@ class Header extends Component {
                               <ul>
                                 <li>
                                   <a
-                                    href="https://www.dynamicssquare.com/blog/"
+                                    href="https://blog.dynamicssquare.com/"
                                     target="_self"
                                     rel=""
                                   >
