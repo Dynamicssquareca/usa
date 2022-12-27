@@ -6,7 +6,7 @@
     { "source": "/blog/blog-category/dynamics-365/field-service/", "destination": "/products/microsoft-dynamics-365-field-service/", "permanent": true },
     { "source": "/customer-service-insights/", "destination": "/products/microsoft-dynamics-365-customer-service/", "permanent": true },
     { "source": "/blog/blog/dynamics-365-business-central-vs-finance-supply-chain/", "destination": "https://blog.dynamicssquare.com/dynamics-365-business-central-vs-finance-supply-chain/", "permanent": true },
-    
+    { "source": "/en-sg/products/microsoft-power-bi.html", "destination": "https://www.dynamicssquare.com.sg/microsoft-power-bi/", "permanent": true },
     { "source": "/blog/blog/dynamics-365-business-central-vs-dynamics-gp/", "destination": "https://blog.dynamicssquare.com/dynamics-365-business-central-vs-dynamics-gp/", "permanent": true },
     { "source": "/why-choose-microsoft-dynamics-365-business-central", "destination": "/why-choose-microsoft-dynamics-365-business-central/", "permanent": true },
     { "source": "/why-choose-microsoft-dynamics-365-business-central.html", "destination": "/why-choose-microsoft-dynamics-365-business-central/", "permanent": true },
