@@ -11,10 +11,10 @@ const PowerAutomate = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power Automate | Workflow Automation Tool</title>
+        <title>Microsoft Power Automate - Create Low Code Automation Tools</title>
         <meta
           name="description"
-          content="Power Automate offers the ability to easily create workflows directly in your applications with a no-code approach that connects to hundreds of popular"
+          content="Implement Microsoft Power Automate - a low-cost low-code automation from Microsoft. Reduce lead times & increase output while improving process control."
         />
         <link
           rel="canonical"
@@ -33,10 +33,7 @@ const PowerAutomate = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Microsoft Power Automate</h1>
-              <p>
-                Automate processes and increase productivity with Power
-                Automate. No coding Required.
-              </p>
+              <p>Enable automation in different apps and services with a breeze, solve real business problems rapidly, and enhance performance, reliability, and productivity with Microsoft Power Automate.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -44,7 +41,7 @@ const PowerAutomate = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Start Automating</span>
                     </a>
                   </Link>
                 </div>
@@ -63,16 +60,16 @@ const PowerAutomate = () => {
 
       <section>
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
           <header className="section-header">
-            <h2>What is Power Automate?</h2>
+            <h2>What Is Microsoft Power Automate?</h2>
             <p>
-              Power Automate offers the ability to easily create workflows
-              directly in your applications with a no-code approach that
-              connects to hundreds of popular applications and services on the
-              market. Sync files, get notifications, collect data, and much
-              more.
+            Whether you want to call multiple data flows or reduce the need to duplicate work and effort or would like to send out total reports in time, you're looking for automation. With a no-code approach, you can create workflows and connect them to hundreds of popular apps and services.<br /><br />Power Automate helps your team easily get started by enabling automation, creating useful apps, and building workflows with little effort, saving a lot of time and tons of development costs.  
             </p>
           </header>
+          </div>
+         </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -93,7 +90,7 @@ const PowerAutomate = () => {
                             alt="icons-power-automate_Quick-and-Secure"
                           />
                         </div>
-                        <span>Quick and Secure</span>
+                        <span>Agility & Security</span>
                       </button>
                     </h3>
                     <div
@@ -103,14 +100,7 @@ const PowerAutomate = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Creating automated systems through Power Automate is not
-                        just quick and easy but also quite secure. The platform
-                        comes loaded with features such as drag and drop,
-                        prebuilt connectors, and low code to create repetitive
-                        activities in automated flows that are also very easy.
-                        Most importantly, all the automated tasks are kept
-                        secure within your Microsoft cloud and you do not have
-                        to worry about any data getting leaked or stolen.
+                       <p>Power Automate Platform comes loaded with powerful features such as drag and drop, prebuilt connectors, and low-code development to quickly and securely create automated systems.</p>
                       </div>
                     </div>
                   </div>
@@ -131,7 +121,7 @@ const PowerAutomate = () => {
                             alt="icons-power-automate_Enhanced-Efficiency"
                           />
                         </div>
-                        <span>Enhanced Efficiency</span>
+                        <span>Increased Efficiency</span>
                       </button>
                     </h3>
                     <div
@@ -141,15 +131,7 @@ const PowerAutomate = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        While the platform helps in creating automated flows, it
-                        also allows you to record the processes from start to
-                        end. You can visualize the recording process and analyze
-                        the flow and understand it will actually happen. This
-                        way, you can check out in advance how the flow is going
-                        to work and look before you actually finalize a
-                        particular automated flow. Thus, no more guesswork as
-                        you can be pretty sure about the automated flow process
-                        that you are finalizing for your data or system.
+                       <p>Record your processes from start to end and visualize and analyze the workflows to understand whether they will happen, reducing the guesswork while automating flow processes to finalize them for your data or system.</p>
                       </div>
                     </div>
                   </div>
@@ -177,7 +159,7 @@ const PowerAutomate = () => {
                             alt="icons-power-automate_AI-Support"
                           />
                         </div>
-                        <span>AI Support</span>
+                        <span>AI-Driven</span>
                       </button>
                     </h3>
                     <div
@@ -187,26 +169,8 @@ const PowerAutomate = () => {
                       data-bs-parent="#acccm"
                     >
                       <div className="accordion-body">
-                        Another great thing about Power Automate is that it is
-                        supported by an AI system. The Artificial Intelligence
-                        system does not just make the working of the system
-                        interesting and easy but also quite helpful for the
-                        users. It is due to AI technology that you will be able
-                        to create new flows on the basis of models that are
-                        existing already. The platform can detect texts and
-                        images to help you in creating your flow or even help
-                        you in analyzing data.
-                        <br />
-                        <br />
-                        Another great thing about Power Automate is that it is
-                        supported by an AI system. The Artificial Intelligence
-                        system does not just make the working of the system
-                        interesting and easy but also quite helpful for the
-                        users. It is due to AI technology that you will be able
-                        to create new flows on the basis of models that are
-                        existing already. The platform can detect texts and
-                        images to help you in creating your flow or even help
-                        you in analyzing data.
+                        <p>Power Automate is driven by Microsoft's AI technology. Artificial Intelligence not only makes automation easy and interesting but also assists users in several ways. Start creating new flows based on existing business models.</p>
+                        <p>The Power Automate platform also helps you in analyzing and visualizing data using different innovative <Link href="/products/microsoft-dynamics-365-ai/">Microsoft Dynamics 365 AI</Link> tools. </p>
                       </div>
                     </div>
                   </div>
@@ -227,7 +191,7 @@ const PowerAutomate = () => {
                             alt="icons-power-automate_Highly-Compatible"
                           />
                         </div>
-                        <span>Highly Compatible</span>
+                        <span>High Compatibility</span>
                       </button>
                     </h3>
                     <div
@@ -237,15 +201,7 @@ const PowerAutomate = () => {
                       data-bs-parent="#acccm"
                     >
                       <div className="accordion-body">
-                        Another great thing about this platform is that it is
-                        highly compatible with different devices and platforms.
-                        Whether you are using Power Automate for web on your
-                        desktop or you are using it in the form of an
-                        application on your smartphone, it will work the same
-                        and will offer you the same features and functions.
-                        Thus, you can get the right one based on your comfort
-                        and requirement and start using it at your own
-                        convenience.
+                       <p>The best part of this automation platform is that it's highly compatible with different devices and platforms. Meaning, apps developed using this platform are consistent (offering the same features and functionality) with web, desktop, smartphone/mobiles, or Microsoft Teams.</p>
                       </div>
                     </div>
                   </div>
@@ -261,12 +217,8 @@ const PowerAutomate = () => {
           <div className="row">
             <div className="col-lg-5 align-self-center">
               <div className="wy-sultion-left-head">
-                <h2>What are Power Automate Features</h2>
-                <h3>
-                  Power Automate is available in four different versions from
-                  which you can select the right one depending upon your
-                  requirements.
-                </h3>
+                <h2>What are the features of Microsoft Power Automate? </h2>
+                <h3>Power Automate is available in four different versions. You can choose the one that is best for your needs.</h3>
               </div>
             </div>
             <div className="col-lg-7">
@@ -275,30 +227,25 @@ const PowerAutomate = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        For
+                      Power Automate
                         <br />
-                        Desktop
+                        for Desktop 
                       </h3>
                       <div className="overlay">
                         <p>
-                          You can select Power Automate for desktop so that you
-                          can work on your desktop from the comfort of your
-                          office and create automated flows on Windows 11 OS.
+                        Create automated flows or automate your Windows desktop to reduce repetitive tasks. With Power Automate, you have the power of UI-based Robotics Process Automation (RPA) to automate flows right from the menu of your Windows 11.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        For
+                      Power Automate
                         <br />
-                        Mobile
+                        for Mobiles 
                       </h3>
                       <div className="overlay">
                         <p>
-                          With Power Automate for Mobile, you can complete the
-                          task of creating automated flows on your mobile phone
-                          itself from anywhere and at any time at your
-                          convenience.
+                        Run and manage cloud flows on the go; that is, complete creating automated flows on your mobile phone itself from anywhere, any time at your convenience.
                         </p>
                       </div>
                     </div>
@@ -308,34 +255,25 @@ const PowerAutomate = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        For
+                      Power Automate
                         <br />
-                        Web
+                        for Web
                       </h3>
                       <div className="overlay">
                         <p>
-                          Create your flows with the help of Power Automate for
-                          the web. Just sign in to your account from any web
-                          browser on any device. You can even save the created
-                          flow and then check it later on from the device you
-                          usually use the system.
+                        With a central portal like Power Automate for the web, you can create and save flows, check them later, and can do more from any device and web browser.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        For
+                      Power Automate
                         <br />
-                        Microsoft Teams
+                        for Microsoft Teams 
                       </h3>
                       <div className="overlay">
                         <p>
-                          The most innovative type of Power Automate for
-                          Microsoft Teams. This allows the user to create flows
-                          in the Microsoft cloud for the conversation of the
-                          entire team who are a part of the Microsoft Teams. The
-                          whole team can check out the flow and can work
-                          accordingly.
+                        Power Automate for Microsoft Teams allows you to create flows in the Microsoft cloud for teamwork, allowing collaboration and enhancing productivity.
                         </p>
                       </div>
                     </div>
@@ -383,9 +321,7 @@ const PowerAutomate = () => {
               <div className="side-heading">
                 <h2>Power Automate Services</h2>
                 <p>
-                  We offer a full range of services to support you on your
-                  Dynamics journey including implementation, upgrade and
-                  support.
+                Transform the way business is done, streamline and digitize how you operate and manage your services.
                 </p>
               </div>
               <div className="busine_service_bottom-right">
@@ -398,9 +334,7 @@ const PowerAutomate = () => {
                 <div className="card_new_content">
                   <h3>Implementation</h3>
                   <p>
-                    Successfully implement Power Automate solutions by our
-                    experts to ensure your needs are met on time and within
-                    budget.
+                  Successfully implement Power Automate solutions with <Link href="/">Dynamics Square</Link>. We are a Microsoft Gold Certified Partner and deliver innovative solutions on time, within the budget, without compromising.
                   </p>
                   <div className="action-content">
                     <Link href="#exampleModal">
@@ -419,8 +353,7 @@ const PowerAutomate = () => {
                 <div className="card_new_content">
                   <h3>Support</h3>
                   <p>
-                    Get constant and seamless support from Dynamics Square team
-                    to create and manage your work flows.
+                  Get constant and seamless support from the Dynamics Square team to ensure you have what you have been waiting for years.
                   </p>
                   <div className="action-content">
                     <Link href="#exampleModal">
@@ -435,27 +368,26 @@ const PowerAutomate = () => {
       </section>
       <section id="pricing" className="pricing">
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
           <header className="section-header">
-            <h2>Power Automate Pricing</h2>
-            <p>
-              Best for businesses that want predictable licensing with per user
-              or per flow plans
-            </p>
+            <h2>Non-Scary Power Automate Pricing</h2>
+            <p>Things with us are less spooky. Here are the plans that are best for businesses looking for predictable licensing by the user or by the flow.</p>
           </header>
+          </div>
+         </div>
           <div className="row gy-4 p-9">
             <div className="col-lg-4">
               <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>License by user</p>
+                <h3>License by user</h3>
                 <span className="cs-colo">Per user plan</span>
                 <div className="price">
-                  <sup>$</sup>15<span>Per-User/Month</span>
+                  $15<span>Per-User/Month</span>
                 </div>
                 <p className="small-tt">
-                  Allow individual users to automate cloud apps, services, and
-                  data with digital process automation (DPA). This plan allows
-                  users to create and run unlimited flows.
+                Automate cloud apps, services, and data by using digital process automation (DPA). Users can create and run unlimited flows with this plan. 
                 </p>
+                <p>Includes the following:</p>
                 <ul>
                   <li>Cloud flows (DPA)</li>
                 </ul>
@@ -464,17 +396,15 @@ const PowerAutomate = () => {
 
             <div className="col-lg-4">
               <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>License by user</p>
+                <h3>License by user</h3>
                 <span className="cs-colo">Per user plan with attended RPA</span>
                 <div className="price">
-                  <sup>$</sup>40<span>Per-User/Month</span>
+                  $40<span>Per-User/Month</span>
                 </div>
                 <p className="small-tt">
-                  Allow same capabilities as the base user plan, plus the
-                  ability to automate legacy apps on a desktop via robotic
-                  process automation (RPA) in attended mode.
+                Provides the same features as the base user plan, plus the ability to automate desktop legacy apps via robotic process automation (RPA).  
                 </p>
+                <p>Includes the following: </p>
                 <ul>
                   <li>Cloud flows (DPA)</li>
                   <li>Desktop flows (RPA) in attended mode</li>
@@ -485,17 +415,16 @@ const PowerAutomate = () => {
 
             <div className="col-lg-4">
               <div className="box box-99">
-                <h3>Subscription Plans</h3>
-                <p>License by flow</p>
-                <span className="cs-colo">Per flow plan</span>
+                <h3>License by flow</h3>
+                <span className="cs-colo">Per-flow plan</span>
                 <div className="price">
-                  <sup>$</sup>100
+                  $100
                   <span>Per Active User/App/Month minimum 5 flows(1,2)</span>
                 </div>
                 <p className="small-tt">
-                  Allow unlimited users within an organization to run digital
-                  process automation (DPA) from the same flow.
+                Streamline digital process automation (DPA) for unlimited users within an organization. 
                 </p>
+                <p>Includes the following:</p>
                 <ul>
                   <li>Cloud flows (DPA)</li>
                 </ul>

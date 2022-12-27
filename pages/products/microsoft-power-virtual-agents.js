@@ -11,12 +11,10 @@ const PowerVirtualAgents = () => {
   return (
     <>
       <Head>
-        <title>
-          What is Microsoft Power Virtual Agents? | Intelligent Bots
-        </title>
+        <title>Exploring Microsoft Power Virtual Agents to Create Bots</title>
         <meta
           name="description"
-          content="Power Virtual Agents is a tool to build powerful chatbots without the need to write code, and that allows you to automate communication with potential clients or employees."
+          content="Implement Microsoft Power Virtual Agents - low code bots, maximizing customer engagement and response times. Contact Dynamics Square to boost your ops."
         />
         <link
           rel="canonical"
@@ -39,10 +37,7 @@ const PowerVirtualAgents = () => {
                 <br />
                 Power Virtual Agents
               </h1>
-              <p>
-                Enhance customer experience and boost sales using AI enabled
-                chatbots built with Power Virtual Agents.
-              </p>
+              <p>Bring low-code and pro-code bot development into one canvas. Create and deploy intelligent conversational bots to rapidly respond to employee and customer needs - at scale - with Power Virtual Agents.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -50,7 +45,7 @@ const PowerVirtualAgents = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Get Started</span>
                     </a>
                   </Link>
                 </div>
@@ -69,17 +64,14 @@ const PowerVirtualAgents = () => {
 
       <section>
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
           <header className="section-header">
-            <h2>What is Power Virtual Agents?</h2>
-            <p>
-              Power Virtual Agents is a tool to build powerful chatbots without
-              the need to write code, and that allows you to automate
-              communication with potential clients or employees. The goal is to
-              easily create and maintain virtual agents without programming,
-              using a guided graphical interface without the need for data
-              analysts or developers.
-            </p>
+            <h2>What Is Microsoft Power Virtual Agents?</h2>
+            <p>If you're looking to find faster ways to engage with your employees and customers, Power Agents are here for you to end your pursuit. Power Agents, help you build ultra-modern, AI-powered bots, making human-tech interaction less complex.<br /><br />In other words, Power Agents, with low-code approach/UI-based app development empower you to simplify or automate communication within the organization and with your customers. By creating this extra help, you can understand more about your employees as well as customers, and can easily resolve issues requiring complex conversations. </p>
           </header>
+          </div>
+         </div>
           <div className="row p-lg-6">
             <div className="col-lg-6">
               <div className="finace-acc">
@@ -100,7 +92,7 @@ const PowerVirtualAgents = () => {
                             alt="icons-power-apps_Quick-and-Easy"
                           />
                         </div>
-                        <span>Easy Chatbot Creation</span>
+                        <span>Agile Bot Creation</span>
                       </button>
                     </h3>
                     <div
@@ -110,17 +102,7 @@ const PowerVirtualAgents = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        The very first feature of the platform is no doubt the
-                        easy-to-use graphical interface that helps in creating
-                        chatbots in a super comfortable and easy way. The
-                        creator does not have to be any developer, data
-                        scientist, or AI expert.
-                        <br />
-                        <br />
-                        The platform offers a plethora of tools and functions
-                        that help the user in understanding how to do what in
-                        creating the chatbot that is required for the purposes
-                        that the organization has.
+                        <p>Enable faster and more powerful bots' development using automation, AI-Builder, and collaborative low-code graphical interface. No need for experience/training in coding. Make, test, and publish your intelligent bots now with ease.</p>
                       </div>
                     </div>
                   </div>
@@ -141,7 +123,7 @@ const PowerVirtualAgents = () => {
                             alt="icons-power-apps_App-Development"
                           />
                         </div>
-                        <span>Instant Actions</span>
+                        <span>Quick Actions Anywhere</span>
                       </button>
                     </h3>
                     <div
@@ -151,25 +133,7 @@ const PowerVirtualAgents = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Not only creating the chatbots is easy, taking action
-                        with the chatbots is equally convenient. Once the
-                        chatbot is ready, you can instantly integrate it into
-                        the service or product that you have targeted earlier.
-                        <br />
-                        <br />
-                        It also allows you to check records of conversations
-                        that have already taken place for taking references.
-                        Also, the tool allows you to integrate functions such as
-                        handing over the chat conversation to some live agents
-                        in case of extreme necessity or also to call up the
-                        APIs.
-                        <br />
-                        <br />
-                        You can also integrate other tools along with Virtual
-                        Agents to get a better result such as integrating Power
-                        Automate to create automated workflows. Similarly, you
-                        can integrate Microsoft Bot Framework to handle complex
-                        situations.
+                       <p>Understand your customers and employees by communicating with them in multiple languages across websites, mobile apps, Facebook, Microsoft Teams, or any other channel supported by <Link href="/products/azure-iot-internet-of-things/">Azure Bot Framework</Link>.</p>
                       </div>
                     </div>
                   </div>
@@ -197,7 +161,7 @@ const PowerVirtualAgents = () => {
                             alt="icons-power-apps_Enhancing-Capabilities"
                           />
                         </div>
-                        <span>Smarter Bots</span>
+                        <span>Compliance and Governance</span>
                       </button>
                     </h3>
                     <div
@@ -207,23 +171,7 @@ const PowerVirtualAgents = () => {
                       data-bs-parent="#acccm"
                     >
                       <div className="accordion-body">
-                        The platform does not just help you in coming up with
-                        chatbots but also helps you in creating them in a much
-                        smarter way. Thus it offers you suggestions about the
-                        topics on which you can create chatbots. It helps you in
-                        creating rich chats that are not just customized but are
-                        available in natural language to convince the customers
-                        and clients much better.
-                        <br />
-                        <br />
-                        The tool makes use of insights that are data-driven as
-                        well as are well-supported by AI technology. This
-                        enhances the performance of the chatbots that are being
-                        created with the use of the platform. Moreover, this
-                        tool from Microsoft has come up to be one of the best
-                        options to create chatbots that are not just helpful for
-                        the organizations in saving time but also are created in
-                        the most professional way to offer high-end results.
+                       <p>Keep compliance and governance in check by deploying bots using central administration, built-in security roles, and simple management across environments.</p>
                       </div>
                     </div>
                   </div>
@@ -244,7 +192,7 @@ const PowerVirtualAgents = () => {
                             alt="icons-power-apps_Responsive-Design"
                           />
                         </div>
-                        <span>Easy to Start</span>
+                        <span>Track Critical KPIs</span>
                       </button>
                     </h3>
                     <div
@@ -254,26 +202,7 @@ const PowerVirtualAgents = () => {
                       data-bs-parent="#acccm"
                     >
                       <div className="accordion-body">
-                        Once you are convinced with the features and working of
-                        the tool, you will surely wish to try out this wonder
-                        option to create chatbots for your organization too.
-                        <br />
-                        <br />
-                        The best thing is that if you are already using
-                        Microsoft Office 365, you will already get this tool
-                        integrated into it. The existence of power virtual
-                        agents for office 365 is a great thing that will allow
-                        the users to make use of the tool without the
-                        requirement of downloading any extra tool on the
-                        systems.
-                        <br />
-                        <br />
-                        All you need to do is to search for Power Virtual Agents
-                        in your Microsoft Office 365 applications and then you
-                        can get started with it instantly. Take a dive into a
-                        huge number of features and functions available and then
-                        start trying out the functions to create your own
-                        chatbots using the platform instantly.
+                       <p>With self-learning AI powered by natural language processing (NLP), you can track critical KPIs and identify potential bot topics automatically.</p>
                       </div>
                     </div>
                   </div>
@@ -290,7 +219,7 @@ const PowerVirtualAgents = () => {
             <div className="col-lg-5 align-self-center">
               <div className="wy-sultion-left-head">
                 <h2>Why choose Power Virtual Agents?</h2>
-                <h3>What are Power Virtual Agents Features</h3>
+                <h3>With hundreds of pre-built connectors, numerous templates, and AI assistance, it's easy to automate repetitive tasks.</h3>
               </div>
             </div>
             <div className="col-lg-7 align-self-center">
@@ -299,31 +228,24 @@ const PowerVirtualAgents = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Easy
+                      Simplified 
                         <br />
                         Integration
                       </h3>
                       <div className="overlay">
                         <p>
-                          Easily register, create the bot and embed it on your
-                          website with just a few clicks. There is no
-                          infrastructure to maintain and no complex systems to
-                          implement.
+                        You can register, create the bot, and embed it on your website in just a few clicks. Neither complex systems nor infrastructure needs to be maintained.
                         </p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        No Coding
+                      Low-Code
                         <br />
-                        Required
+                        Approach
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Train your teams by allowing them to easily build bots
-                          without the need for intermediaries, coding or
-                          artificial intelligence expertise.
-                        </p>
+                        <p>Empower your team to build intelligent bots without the need for intermediaries, coding, or AI expertise. The power of bots can improve engagement, and hence the efficiency of the sales team.</p>
                       </div>
                     </div>
                   </div>
@@ -332,29 +254,22 @@ const PowerVirtualAgents = () => {
                   <div className="why-solution-wrapper">
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Automate
+                      Automate
                         <br />
                         Queries
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Easily automate the most common common queries thanks
-                          to the Power Virtual Agent chatbot.
-                        </p>
+                        <p>A chatbot powered by Power Virtual Agent allows you to automate the most common queries.</p>
                       </div>
                     </div>
                     <div className="why-solution-wrapper-inner">
                       <h3>
-                        Customer
+                      Customer
                         <br />
-                        Satisfaction
+                        Experience
                       </h3>
                       <div className="overlay">
-                        <p>
-                          Improve customer satisfaction by enabling customers to
-                          quickly self-help and resolve issues 24/7 using
-                          personalized bot conversations.
-                        </p>
+                        <p>Using personalized bot conversations, improve customer experience by enabling self-help for customers and quickly resolving their issues.</p>
                       </div>
                     </div>
                   </div>
@@ -399,11 +314,7 @@ const PowerVirtualAgents = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>Power Virtual Agents Services</h2>
-                <p>
-                  We offer a full range of services to support you on your
-                  Dynamics journey including implementation, upgrade and
-                  support.
-                </p>
+                <p>Power Agents automate repetitive tasks and business processes, allowing you to focus your energy on what's important.</p>
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
@@ -414,11 +325,7 @@ const PowerVirtualAgents = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Implementation</h3>
-                  <p>
-                    Successfully implement Power Virtual Agents solutions by our
-                    experts to ensure your needs are met on time and within
-                    budget.
-                  </p>
+                  <p>Our experts successfully implement Power Virtual Agents solutions on time and within budget to ensure you have the right solution to answer your employees and customers.</p>
                   <div className="action-content">
                     <Link href="#exampleModal">
                       <a data-bs-toggle="modal">Get Started</a>
@@ -436,10 +343,7 @@ const PowerVirtualAgents = () => {
                 </div>
                 <div className="card_new_content">
                   <h3>Support</h3>
-                  <p>
-                    Get constant and seamless support from Dynamics Square team
-                    to manage your Chat bot
-                  </p>
+                  <p>Manage your smart bots with Dynamics Square's 24/7 support.</p>
                   <div className="action-content">
                     <Link href="#exampleModal">
                       <a data-bs-toggle="modal">Get Started</a>
@@ -455,39 +359,31 @@ const PowerVirtualAgents = () => {
         <div className="container">
           <header className="section-header">
             <h2>Power Virtual Agents Pricing</h2>
-            <p>
-              Explore Power Apps Plans, Costs, And Availability To Start Running
-              Your Business Apps.
-            </p>
+            <p>See Power Apps plans, pricing, and availability for your business.</p>
           </header>
           <div className="row gy-4 p-9 justify-content-center">
             <div className="col-lg-4">
               <div className="box box-99">
                 <h3>Power Virtual Agents</h3>
                 <div className="price">
-                  <sup>$</sup>200<span>Per month for 2,000 sessions(2)</span>
+                  $200<span>Per month for 2,000 sessions(2)</span>
                 </div>
                 <p className="small-tt">
-                  Run intelligent chatbots across websites and other channels.
+                Run intelligent chatbots across websites and other channels. 
                 </p>
                 <ul>
-                  <li>
-                    Requires access to the Microsoft 365 admin center with
-                    global administrator or billing administrator roles.
-                  </li>
+                  <li>Requires access to the Microsoft 365 admin center with global administrator or billing administrator roles.</li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-4">
               <div className="box box-99">
-                <h3>Sessions add-on</h3>
+                <h3>Session's add-on</h3>
                 <div className="price">
-                  <sup>$</sup>100<span>Per month for 1,000 sessions(2)</span>
+                  $100<span>Per month for 1,000 sessions(2)</span>
                 </div>
-                <p className="small-tt">
-                  Add additional sessions to your Power Virtual Agents plan.
-                </p>
+                <p className="small-tt">Add additional sessions to your Power Virtual Agents plan.</p>
                 <ul>
                   <li>Requires a Power Virtual Agents license.</li>
                 </ul>
@@ -498,9 +394,29 @@ const PowerVirtualAgents = () => {
               <div className="price-btn price-btnasd d-flex justify-content-center">
                 <Link href="#exampleModal">
                   <a data-bs-toggle="modal" className="btn-get-red">
-                    <span>Get Power Apps Now</span>
+                    <span>Activate Power Agents Now!</span>
                   </a>
                 </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-7">
+              <div className="call-to-action-content">
+                <h3>Looking To Incorporate Conversational Bots Into Your Business Processes?</h3>
+                <div className="text-center m-o-t new-btn-nn">
+                  <a
+                    data-bs-toggle="modal"
+                    href="#exampleModal"
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Talk To Our Experts</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -525,14 +441,14 @@ const PowerVirtualAgents = () => {
               </div>
               <div className="blogs-extra-right">
                 <ul>
-                  <li>
-                    <Link href="/what-is-power-bi/">
+                  {/* <li>
+                    <Link href="https://www.dynamicssquare.com/blog/what-is-power-bi/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i>What is
                         Power BI?
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       target="_blank"
@@ -553,30 +469,30 @@ const PowerVirtualAgents = () => {
                       Licensing Guide
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/power-bi-architecture/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Architecture
                       </a>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/power-bi-reports/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Reports
                       </a>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="/implement-power-bi-for-your-business/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i>Why Your
                         Business Should Implement Power BI?
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

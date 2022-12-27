@@ -7,10 +7,10 @@ const PowerPlatform = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power Platform - Dynamics Square</title>
+        <title>Microsoft Power Platform: Develop Low-Code Power Apps</title>
         <meta
           name="description"
-          content="Microsoft Power Platform allows you to deliver personalization, analyze data, develop better applications, automate various processes, and respond to the generated insights."
+          content="Easily drive high business growth in an era of creativity and innovation with innovative solutions like creating instant apps using Microsoft's Power Platform."
         />
         <link
           rel="canonical"
@@ -22,15 +22,10 @@ const PowerPlatform = () => {
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-                Power <br />
-                Platform
+              Microsoft <br />
+              Power Platform
               </h1>
-              <p>
-                Analyze data, create solutions, automate processes and create
-                virtual agents with Microsoft Power Platform. Power Platform
-                brings together the power of Power BI, Power Apps and Power
-                Automate (Flow).
-              </p>
+              <p>Create a culture of innovation and realize the untapped potential with Microsoft Power Platform - the building blocks of increasing the ROI.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -53,17 +48,14 @@ const PowerPlatform = () => {
 
       <section className="new-bg">
         <div className="container">
-          <header className="section-header">
-            <h2>What is Power Platform?</h2>
-            <p>
-              Power Platform is a set of Microsoft solutions that enables you to
-              build intelligent, scalable, and automated applications for
-              multiple devices with little to no code. Power BI, Power Apps,
-              Power Automate, and Power Virtual Agents are based on Common Data
-              Service, which stores all the business data and facilitates its
-              security and uses in the different applications.
-            </p>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>What Is Microsoft Power Platform?</h2>
+            <p>Giving everyone in your team access to innovative tools in a managed and compliant way can be effective in increasing efficiency and gaining a competitive advantage in today's tech-driven world. Microsoft-developed Power Platform provides this opportunity to empower your people in the organization.<br /><br />This next-gen platform lets you create smart, scalable, and automated applications for multiple devices with a low-coding approach. Curious minds can join code-first developers to build mobile and web-first apps by utilizing Power Apps, Power Automate, Power BI, Power Virtual Agent, and AI Builder.</p>
           </header>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -79,20 +71,14 @@ const PowerPlatform = () => {
               <div className="commen-rit-info">
                 <h3>Power BI</h3>
                 <p>
-                  <strong>The Business Intelligence solution</strong>
+                  <strong>Business Intelligence at Your Fingertips</strong>
                 </p>
                 <p>
-                  Power BI a business analytics solution that enables you to visualize
-                  data and share information across your organization. It is a
-                  reporting tool capable of unifying data from multiple sources
-                  (including Business Central) to create immersive, interactive
-                  dashboards and reports that provide actionable insights and
-                  improve business results. It is a cloud-based platform that
-                  provides a single view of your business KPIs.
+                Developed by Microsoft, Power BI is a business analytics and reporting tool that allows you to visualize data collected from multiple sources; including <Link href="/products/dynamics-365-business-central/">Business Central</Link> and other Microsoft business apps to create immersive, interactive dashboards and reports that provide actionable insights. <br /><br />Power BI is a cloud-based and unified service that lets you share crucial information across your organization to boost ROIs.
                 </p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-power-bi/">
-                    Find Out More
+                  Explore More 
                   </Link>
                 </div>
               </div>
@@ -104,20 +90,12 @@ const PowerPlatform = () => {
               <div className="commen-rit-info">
                 <h3>Power Apps</h3>
                 <p>
-                  <strong>Create business apps without codes</strong>
+                  <strong>Create Low-Code Business Applications</strong>
                 </p>
-                <p>
-                  Microsoft Power Apps{" "}
-                  allows you to create applications without the need to have
-                  knowledge of code in an agile and fast way. Develop
-                  applications from scratch or using predefined templates.
-                  Building applications with Power Apps helps everyone from
-                  business analysts to professional developers to work together
-                  more efficiently and innovatively.
-                </p>
+                <p>Microsoft's Power Apps is an innovative and powerful platform that allows creators to build apps without writing code. Power Apps means "code in an agile and fast way". Anyone with little to no knowledge of app development can begin creating apps from scratch. Power Apps bring efficiency and innovation right into your organization's core business practices.</p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-power-apps/">
-                  Find Out More
+                  Build Your First App
                   </Link>
                 </div>
               </div>
@@ -139,18 +117,12 @@ const PowerPlatform = () => {
               <div className="commen-rit-info">
                 <h3>Power Automate</h3>
                 <p>
-                  <strong>Solution for defining workflow automations</strong>
+                  <strong>Define Your Workflow Automations</strong>
                 </p>
-                <p>Power Automate offers the ability to efficiently automate workflow directly
-                  in your applications with a no-code approach that connects to
-                  hundreds of the most popular applications and services on the
-                  market. Connect to your data from any device or place to
-                  create automated workflows that enable collaboration and
-                  productivity for your business.
-                </p>
+                <p>No-code automation with Power Automate is easy and convenient, connecting to the most popular applications and services on the market. Simplify collaboration and enhance productivity with automated workflows that are accessible from any device or location.</p>
                 <div className="cltt-actt">
                   <Link href="/products/microsoft-power-automate/">
-                    Find Out More
+                  Learn More 
                   </Link>
                 </div>
               </div>
@@ -162,20 +134,11 @@ const PowerPlatform = () => {
               <div className="commen-rit-info">
                 <h3>Power Virtual Agents</h3>
                 <p>
-                  <strong>
-                    Tool to create intelligent chatbots. No Codes Required
-                  </strong>
+                  <strong>Create Intelligent Chatbots Without Writing Codes</strong>
                 </p>
-                <p>Power Virtual Agents is a tool designed to create conversational experiences
-                  (chatbots) that offer support by easily creating and
-                  maintaining virtual agents, without the need for coding, using
-                  a guided graphical interface without the need for data
-                  analysts or developers.
-                </p>
+                <p>By using a guided graphical interface without needing professionals, Power Virtual Agents helps you build conversational experiences (or chatbots) that provide support to your online visitors. You can easily create and maintain these virtual agents since no coding is involved.</p>
                 <div className="cltt-actt">
-                  <Link href="/products/microsoft-power-virtual-agents/">
-                    Find Out More
-                  </Link>
+                  <Link href="/products/microsoft-power-virtual-agents/">Explore More</Link>
                 </div>
               </div>
             </div>
@@ -195,8 +158,7 @@ const PowerPlatform = () => {
               <div className="call-to-action-content">
                 <h3>Talk to our experts</h3>
                 <p>
-                  Looking to know more about Power Platform? Schedule a free
-                  demo!
+                Looking to Transform Your Business Ops, or Want to Streamline & Digitize How You Operate and Manage Your Services?
                 </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
@@ -204,7 +166,7 @@ const PowerPlatform = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Get In Touch</span>
                     </a>
                   </Link>
                 </div>
@@ -217,16 +179,11 @@ const PowerPlatform = () => {
       <section className="bg-333">
         <div className="container">
           <header className="section-header">
-            <h2>Power Platform and Business Central</h2>
+            <h2>Power Platform + Dynamics 365 Business Central</h2>
             <p>
-              <b>
-                All the potential of Power Platform integrated with your ERP
-              </b>
+              <b>All Power Integrated to Your All-In-One Most Modern ERP</b>
               <br />
-              <br />
-              Currently it is possible to use any of the Power Platform
-              applications with Dynamics 365 Business Central through different
-              connectors:
+              <br />Use any of the Power Platform app's different connectors to charge-up <Link href="/products/microsoft-dynamics-365/">Dynamics 365 Business</Link> and start shining connectors:
             </p>
           </header>
           <div className="row pad10x">
@@ -240,19 +197,14 @@ const PowerPlatform = () => {
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>
-                    Power BI + <br />
-                    Business Central
+                  Power BI + Business Central
                   </h3>
-                  <p>
-                    The reporting center role is embedded with Power BI. Through
-                    the Web Service connector, you can integrate the ERP data
-                    automatically.
-                  </p>
+                  <p>Integrated with Power BI, the reporting center role allows you to integrate ERP data automatically via a Web Service connector.</p>
                 </div>
                 <div className="btn-003">
                   <Link href="#exampleModal">
                     <a data-bs-toggle="modal" className="btn btn md btn-danger">
-                      Get Integration
+                    Start Integrating
                     </a>
                   </Link>
                 </div>
@@ -267,20 +219,13 @@ const PowerPlatform = () => {
                   />
                 </div>
                 <div className="commen-boc-2-info">
-                  <h3>
-                    Power Apps + <br />
-                    Business Central
-                  </h3>
-                  <p>
-                    To link Power Apps and Power Automate with Dynamics 365
-                    Business Central, it can be done through the available API
-                    connector.
-                  </p>
+                  <h3>Power Apps + Business Central</h3>
+                  <p>The API connector links Power Apps and Power Automate with Dynamics 365 Business Central.</p>
                 </div>
                 <div className="btn-003">
                   <Link href="#exampleModal">
                     <a data-bs-toggle="modal" className="btn btn md btn-danger">
-                      Get Integration
+                    Connect Now
                     </a>
                   </Link>
                 </div>
@@ -295,20 +240,13 @@ const PowerPlatform = () => {
                   />
                 </div>
                 <div className="commen-boc-2-info">
-                  <h3>
-                    Power Automate + <br />
-                    Business Central
-                  </h3>
-                  <p>
-                    Link the automation solution to Dynamics 365 Business
-                    Central <br />
-                    using reusable flow templates.
-                  </p>
+                  <h3>Power Automate + Business Central</h3>
+                  <p>Reusable flow templates allow you to link the automation solution to Dynamics 365 Business Central.</p>
                 </div>
                 <div className="btn-003">
                   <Link href="#exampleModal">
                     <a data-bs-toggle="modal" className="btn btn md btn-danger">
-                      Get Integration
+                    Start Linking 
                     </a>
                   </Link>
                 </div>
@@ -317,6 +255,153 @@ const PowerPlatform = () => {
           </div>
         </div>
       </section>
+
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="call-to-action-content">
+                <h3>Want to see Power Platform in Action?</h3>
+                <div className="text-center m-o-t new-btn-nn">
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Schedule a Free Demo</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-9">
+              <header className="section-header">
+                <h2>Looking to know more about Power Platform?</h2>
+                <p>Scroll Through Our FAQs Tailored For You!</p>
+              </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                     What is Microsoft Power Platform used for?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Industries across the globe are facing big challenges. Those who have been able to adapt by incorporating cloud technology have been shown to outpace their competitors.</p>
+                      <p>Companies that encourage digital skills throughout their organization to innovate and build their solutions through an intuitive low-code or no-code set of services must incorporate Power Platform.</p>
+                      <p>Combined with hundreds of available connectors out-of-the-box in the Microsoft Dataverse, it's easier than ever to create impactful solutions for one person or the entire organization.</p>
+                      <p>Plus, with seamless integration between Power Platform apps built by your team and familiar Microsoft products such as Microsoft 365, Dynamics 365, or Azure, organizations can break down traditional data silos to move together toward success in the digital-driven world.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                     What is the difference between Power Apps and Power Platforms?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>PowerApps is a platform for creating applications that is a part of Microsoft Power Platform and utilizes Azure cloud services. All Dynamics 365 applications—Sales, Service, Field Service, Marketing, and Talent—are built natively on the platform.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >Is Power Platform part of Office 365?</button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>No. Microsoft Power Platform is more than just a collection of different components. You can integrate them with Microsoft 365, Dynamics 365, Azure, and hundreds of other apps to provide end-to-end business apps.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                     Is Power Platform SaaS or PAAS?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Power BI is a SaaS (Software as a Service) online service. There are Power BI mobile apps for Android, Windows, and iOS.</p>
+                      <p>Moreover, Power BI, Power Apps, Power Automate, and Power Virtual Agents all use the Common Data Service (CDS), which stores and protects business data.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >How secure is the Microsoft Power Platform?</button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Built from the ground up, Microsoft Power Platform provides robust security, management, and compliance-and flexibility to grow as your business does. With Microsoft Power Platform, everyone can transform their business with minimal code.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </>
   );
 };
