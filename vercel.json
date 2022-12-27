@@ -81,7 +81,6 @@
     { "source": "/en-in/tag/crm-for-small-business/", "destination": "/products/microsoft-dynamics-crm/", "permanent": true },
     { "source": "/tag/crm-for-small-business/", "destination": "/products/microsoft-dynamics-crm/", "permanent": true },
     { "source": "/blog/dynamics-ax/microsoft-dynamics-ax-distributors/", "destination": "/products/microsoft-dynamics-ax/", "permanent": true },
-    { "source": "/wp-content/cache/min/1/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-table.css?ver=1655302509", "destination": "/", "permanent": true },
     { "source": "/en-in/blog/dynamics-365/benefits-integrating-document-management-crm/", "destination": "/", "permanent": true },
     { "source": "/microsoft-dynamics-365-project-service/", "destination": "/products/dynamics-365-project-operations/", "permanent": true },
     { "source": "/en-in/project/kyocera-asia/", "destination": "/", "permanent": true },
