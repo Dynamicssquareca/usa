@@ -7,10 +7,10 @@ const UpgradeServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Upgrade Services - Dynamics Square</title>
+        <title>Dynamics 365 ERP and CRM Upgrade Services in USA</title>
         <meta
           name="description"
-          content="Keep your business up to date with our Dynamics 365 Upgrade services. Improve your system with new functionalities and transform overall business flow."
+          content="Legacy ERP like Dynamics AX, NAV, or GP is outdated. It is more of a burden than an ERP solution. Contact Dynamics Square for ERP & CRM upgrade help."
         />
         <link
           rel="canonical"
@@ -21,12 +21,8 @@ const UpgradeServices = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
-              <h1>Dynamics 365 Upgrade Services</h1>
-              <p>
-                Improve your system with new functional capabilities, enable
-                quick user adaption, and transform your overall business flow
-                with our Dynamics 365 Upgrade services.
-              </p>
+              <h1>Dynamics 365 ERP and CRM Upgrade Services</h1>
+              <p>Experience next-gen cloud-based ERP and CRM solutions, boost production efficiencies, enhance customer experience, ease employees' workloads, and scale by adapting to the trends in your industry with our Dynamics 365 ERP and CRM software upgrade services.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -34,7 +30,7 @@ const UpgradeServices = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Get In Touch</span>
                     </a>
                   </Link>
                 </div>
@@ -55,12 +51,8 @@ const UpgradeServices = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
-                <h2>Why Upgrade to Dynamics 365?</h2>
-                <p>
-                  Are you looking for cost-effective solution, seamless
-                  integrations, advanced features and functionalities of a
-                  modern ERP? Consider upgrading to Dynamics 365.
-                </p>
+                <h2>Why should you consider moving to Dynamics 365?</h2>
+                <p>Do you need specific ERP and CRM solutions to streamline your core business operations, boost collaboration among different teams, increase ROI, and be capable of doing a little extra every time? <Link href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</Link>, a cloud-first comprehensive suite of business applications, is the right choice in today's digital world.</p>
               </header>
             </div>
           </div>
@@ -72,29 +64,7 @@ const UpgradeServices = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="custom-p-003">
-                <p>
-                  Enterprises cannot deny their continuously growing operations
-                  and dynamically changing behavior. Dynamics 365 upgrade
-                  services can help to ensure process continuity and
-                  profitability in the specific business domain. To manage and
-                  drive your customized operational requirement, upgrading your
-                  current system with an updated version like{" "}
-                  <Link href="/products/dynamics-365-business-central/">
-                    Business Central
-                  </Link>{" "}
-                  could be a productive and scalable deal for your business.
-                </p>
-                <p>
-                  Dynamics Square incorporates a team of certified Microsoft
-                  Professionals with extensive expertise in implementing a
-                  solution comprising specific business needs, custom
-                  configurations, and high-end process-centric integrations with
-                  your existing system or applications. Leveraging their
-                  hard-core upgrading capability and by understanding your
-                  specific workflow, we can upgrade your system whether from
-                  legacy system to cloud capabilities, NAV to Business Central,
-                  or AX to finance & Supply Chain at highly competitive rates.
-                </p>
+                <p>Your company is ready for expansion, but are your business apps? By upgrading to the latest enterprise resource planning (ERP) and customer relationship management (CRM) software under Dynamics 365, you not only get a scalable solution but also get the most recent and innovative cloud enterprise solution to modernize and make your organization digitally aware from the inside and out.<br /><br />Modern all-in-one ERP systems like <Link href="/products/dynamics-365-business-central/">Business Central</Link> can recognize your current needs and provide the right solution in today's chaotic economy. </p>
               </div>
               <div className="custom-btn-new">
                 <Link href="#exampleModal">
@@ -114,30 +84,20 @@ const UpgradeServices = () => {
 
       <section className="upgard-bg">
         <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
           <header className="section-header">
-            <h2>Microsoft Dynamics 365 Upgrades</h2>
-            <p>
-              Leverage new functionalities and capabilities by upgrading your
-              current ERP or CRM systems to Dynamics 365
-            </p>
+            <h2>Dynamics 365 Migration and Upgrading Services We Offer</h2>
+            <p>We provide you with modern business solutions with seamless integrations, advanced features, and functionalities at efficient costs</p>
           </header>
+          </div>
+         </div>
 
           <div className="row pad9x align-items-center">
             <div className="col-lg-7 align-self-center">
               <div className="commen-rit-info">
-                <h3>NAV To Business Central Upgrade</h3>
-                <p>
-                  Extend your business capabilities and your entire operational
-                  performance while reserving scalable opportunities to impact
-                  your production level and drive profitable business outcomes
-                  by upgrading your{" "}
-                  <Link href="/dynamics-nav-to-business-central/">
-                    NAV system to Business Central.
-                  </Link>{" "}
-                  Since, Microsoft has already announced to not providing any
-                  sort of support to older NAV versions. Thereby, it becomes
-                  essential to upgrade your existing system capabilities.
-                </p>
+                <h3>Upgrade Your Dynamics NAV to Dynamics 365 Business Central</h3>
+                <p>Improve your business skills and overall operational performance while maintaining scalable options to influence your production levels and generate profitable business outcomes by improving to a game-changing ERP software - <Link href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</Link>.</p>
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
@@ -160,23 +120,8 @@ const UpgradeServices = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="commen-rit-info">
-                <h3>AX To Finance & Supply Chain Upgrade</h3>
-                <p>
-                  Since Microsoft has abandoned the Dynamics AX implementation
-                  for new customers. However, existing customers are still able
-                  to leverage AX support from Microsoft. Further, by upgrading
-                  the Dynamics AX account with{" "}
-                  <Link href="/products/microsoft-dynamics-365-finance/">
-                    Dynamics 365 Finance
-                  </Link>{" "}
-                  &{" "}
-                  <Link href="/products/dynamics-365-supply-chain-management/">
-                    Supply Chain
-                  </Link>{" "}
-                  , enterprises can start utilizing the modernized and
-                  business-specific functionalities to speed up their
-                  operational flow and their growth strategy.
-                </p>
+                <h3>Dynamics AX To D365 Finance, Supply Chain Upgrade</h3>
+                <p>Microsoft's Dynamics AX is now available in two business modules: <Link href="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</Link> and <Link href="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain</Link>. However, existing Dynamics AX users will get continuous support. Enterprises looking to modernize their operations and supply chains can increase flow and develop growth strategies.</p>
               </div>
             </div>
           </div>
@@ -184,19 +129,8 @@ const UpgradeServices = () => {
           <div className="row pad9x ">
             <div className="col-lg-9 align-self-center">
               <div className="commen-rit-info">
-                <h3>Upgrade To Dynamics 365</h3>
-                <p>
-                  Enterprises that have been relying on legacy systems will not
-                  help them to produce maximum potential results if their
-                  processes are continuously increasing. When you analyze that
-                  your processes are being compromised, it's the time when you
-                  need to upgrade your system with{" "}
-                  <Link href="/products/microsoft-dynamics-365">
-                    Microsoft Dynamics 365
-                  </Link>
-                  . It can be implemented with your business-specific modules to
-                  start uplifting your efficiency level.
-                </p>
+                <h3>Migrate/Upgrade To Microsoft Dynamics 365</h3>
+                <p>Using legacy ERP and CRM systems to compete in today's digital world will not produce fruitful results. Welcome the change and opportunities by upgrading your outgrown ERP and CRM systems to a cloud-based suite of business applications, add-ons, and integrations.<br /><br />Maximize results by breaking down data silos into actionable insights. It's the right time to upgrade your system with Microsoft Dynamics 365 and gear up to boost your efficiency and productivity. </p>
               </div>
             </div>
             <div className="col-lg-3 align-self-center">
@@ -216,18 +150,15 @@ const UpgradeServices = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="call-to-action-content">
-                <h3>Connect to Reveal Solution</h3>
-                <p>
-                  To support and drive your specific workflow, our experts can
-                  suggest and implement the high-end solution for your business
-                </p>
+                <h3>Implement Future's Tech To Solve Today's Complexities</h3>
+                <p>Leverage key benefits of Innovative and Feature-rich ERP & CRM Platforms</p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Request a Call Back</span>
+                      <span>Connect to Discuss</span>
                     </a>
                   </Link>
                 </div>
@@ -242,11 +173,8 @@ const UpgradeServices = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
-                <h2>
-                  {" "}
-                  How Upgrading To Dynamics 365 With Dynamics Square Could Be A
-                  Growth Hacking Deal For Your Enterprise?
-                </h2>
+                <h2>Benefits Of Upgrading Your ERP and CRM With Us</h2>
+                <p>Begin your digital transformation journey with a <br />Microsoft Certified Dynamics 365 implementation Partner.</p>
               </header>
             </div>
           </div>
@@ -270,7 +198,7 @@ const UpgradeServices = () => {
                             alt="icons-upgrade-service_gold-partner"
                           />
                         </div>
-                        <span>Authorized Gold Partner</span>
+                        <span>A Trustworthy Partner</span>
                       </button>
                     </h3>
                     <div
@@ -280,14 +208,7 @@ const UpgradeServices = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Comprising extensive expertise along with years of
-                        proficiency, we are an authorized gold partner for
-                        Microsoft products and services. From seamless Dynamics
-                        365 implementation to upgrade and support, we take care
-                        of your entire system needs. Embedded with experts,
-                        advanced methodologies, and a secure data migration
-                        skill set, we can implement a highly productive and
-                        efficient solution for your enterprise.
+                      We are an authorized gold partner for Microsoft products and services. You can trust us. Our team comprises extensive expertise and years of proficiency in seamless <Link href="/our-services/dynamics-365-implementation-services/">Dynamics 365 implementation</Link>, upgrade and support.
                       </div>
                     </div>
                   </div>
@@ -308,7 +229,7 @@ const UpgradeServices = () => {
                             alt="icons-upgrade-service_Highly-Customized-Solution"
                           />
                         </div>
-                        <span>Enterprise-Centric Solution</span>
+                        <span>Enterprise-Grade Solutions</span>
                       </button>
                     </h3>
                     <div
@@ -318,10 +239,7 @@ const UpgradeServices = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        By deeply analyzing your business flow and evaluating
-                        required functional needs, our experts can suggest
-                        custom configured and enterprise-specific solutions for
-                        your business.
+                      By deeply analyzing your business flow and evaluating required functional needs, our team can suggest custom-configured and business-specific solutions for your enterprise. We ensure to take care of your entire system.
                       </div>
                     </div>
                   </div>
@@ -342,7 +260,7 @@ const UpgradeServices = () => {
                             alt="icons-upgrade-service_Secure-Data-Migration"
                           />
                         </div>
-                        <span>Secure & Reliable Migration</span>
+                        <span>Secure Data Migration</span>
                       </button>
                     </h3>
                     <div
@@ -352,12 +270,7 @@ const UpgradeServices = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Our experts can perform seamless Microsoft Dynamics 365
-                        upgrades and migrations while considering the strategic
-                        approach to ensure secure and reliable data migration.
-                        We carry out consistent and step-by-step migration that
-                        ensures successful data migration from your existing
-                        system to the newly configured system.
+                      We prefer quality for us and for you too. Our expert team can implement a highly productive and efficient ERP and CRM solution for your enterprise with advanced methodologies, and secure data migration skills. 
                       </div>
                     </div>
                   </div>
@@ -385,7 +298,7 @@ const UpgradeServices = () => {
                             alt="icons-upgrade-service_seamless-upgrade"
                           />
                         </div>
-                        <span>Seamless Upgrade</span>
+                        <span>Hassle-Free Upgrade</span>
                       </button>
                     </h3>
                     <div
@@ -394,18 +307,7 @@ const UpgradeServices = () => {
                       aria-labelledby="headingTwo"
                       data-bs-parent="#acc"
                     >
-                      <div className="accordion-body">
-                        Since Microsoft has extended the NAV with Business
-                        Central and{" "}
-                        <Link href="/products/microsoft-dynamics-ax/">
-                          Dynamics AX
-                        </Link>{" "}
-                        with Dynamics 365 Finance & Supply Chain, we can upgrade
-                        your system while considering your specific domain
-                        practices and operational flow. To drive a parallel
-                        approach, we can also ensure potential integration with
-                        either Microsoft apps or other third-party popular apps.
-                      </div>
+                      <div className="accordion-body">With years of industry experience, client knowledge, and agile practices, we can seamlessly upgrade your system to help you create modern operational flows. Our team can integrate other Microsoft businesses and popular third-party apps with a parallel approach.</div>
                     </div>
                   </div>
                   <hr />
@@ -425,7 +327,7 @@ const UpgradeServices = () => {
                             alt="icons-upgrade-service_Competitive-Pricing"
                           />
                         </div>
-                        <span>Cost-Effective</span>
+                        <span>Low-Cost Implementation</span>
                       </button>
                     </h3>
                     <div
@@ -434,15 +336,7 @@ const UpgradeServices = () => {
                       aria-labelledby="headingTwo"
                       data-bs-parent="#acc"
                     >
-                      <div className="accordion-body">
-                        Combining our extensive proficiency in implementing
-                        Microsoft applications, upgrading your system, and
-                        providing high-end support; we can offer you the best
-                        quote for your upgrading needs compared to other
-                        Microsoft partners. Businesses can avail of Microsoft
-                        Dynamics 365 upgrades and migrations at 40% reduced
-                        pricing compared to the global market.
-                      </div>
+                      <div className="accordion-body">In comparison with other Microsoft partners, we have extensive expertise in the development of Microsoft applications, system upgrades, and high-end support. By upgrading or migrating with us, you can save 40% off.</div>
                     </div>
                   </div>
                   <hr />
@@ -462,7 +356,7 @@ const UpgradeServices = () => {
                             alt="icons-upgrade-service_Post-Support"
                           />
                         </div>
-                        <span>Flexible Post Support</span>
+                        <span>24*7*365 Flexible Support</span>
                       </button>
                     </h3>
                     <div
@@ -471,15 +365,7 @@ const UpgradeServices = () => {
                       aria-labelledby="headingTwo"
                       data-bs-parent="#acc"
                     >
-                      <div className="accordion-body">
-                        Post Support plays a vital role to ensure quick user
-                        adaption and instantly bringing strategic operational
-                        flow. Through our high-equipped support services, we
-                        take responsibility for your end-to-end support needs.
-                        Whether your need arises for annual support services,
-                        independent assignment support, or prepaid hour support,
-                        we can serve matching your customized requirement.
-                      </div>
+                      <div className="accordion-body">We know post-implementation support plays an important role in bringing strategic operational flows. That's why we provide end-to-end support. Whether you need annual support, independent assignment support, or prepaid hour support, Dynamics Square can meet all your needs.</div>
                     </div>
                   </div>
                 </div>

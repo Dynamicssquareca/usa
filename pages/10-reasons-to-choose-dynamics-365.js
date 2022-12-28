@@ -197,10 +197,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Monitors web chats, posts, or other relevant content
-                        through smart social marketing application enabling
-                        businesses to get familiar with the target audience and
-                        build marketing tactics to improve customer engagements.
+                       <p>Monitors web chats, posts, or other relevant content via smart social media marketing apps and insights, allowing your marketing team to become more acquainted with their target audience so that they can develop trend-based marketing strategies to increase organic customer engagement.</p>
                       </div>
                     </div>
                   </div>
@@ -218,7 +215,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">5</span>
                         </div>
-                        <span>Data security</span>
+                        <span>Advanced Data Security</span>
                       </button>
                     </h3>
                     <div
@@ -228,10 +225,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Safeguards information for cloud based applications and
-                        data sources through robust access controls that include
-                        physical datacenter, service hosting platform, network
-                        connectivity, and user / administrator access levels.
+                       <p>Protect your data by choosing cloud-based ERP applications and strict access to control information sharing. Microsoft's physical data centers, service hosting platforms, network connectivity, and user/administrator access levels are top-notch. No need to worry about data security.</p>
                       </div>
                     </div>
                   </div>
@@ -256,7 +250,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">6</span>
                         </div>
-                        <span>Improved resource scheduling</span>
+                        <span>Enhanced Resource Scheduling</span>
                       </button>
                     </h3>
                     <div
@@ -266,11 +260,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Aligns business resources, including time, resources,
-                        and workforce through lead scoring and list validation
-                        features enabling sales teams to generate consistent
-                        leads, acquire new customers, and retain existing
-                        patrons.
+                        <p>Through lead scoring and list validation features, your sales teams can better generate consistent leads, acquire new customers, and retain existing customers.</p>
                       </div>
                     </div>
                   </div>
@@ -288,7 +278,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">7</span>
                         </div>
-                        <span>Contact management</span>
+                        <span>Excellent Contact Management</span>
                       </button>
                     </h3>
                     <div
@@ -298,11 +288,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Collects, updates, organizes, and even archives
-                        customer's contact information through an embedded
-                        Microsoft Excel online integration that enables users to
-                        seamlessly manage and control their critical CRM
-                        databases.
+                        <p>Collects, updates, organizes, and even helps you archive customer contact information via an embedded Microsoft Excel online integration. It allows your employees to manage and control critical CRM databases in real time.</p>
                       </div>
                     </div>
                   </div>
@@ -320,7 +306,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">8</span>
                         </div>
-                        <span>Reduced downtime</span>
+                        <span>Reduced Machinery Downtime</span>
                       </button>
                     </h3>
                     <div
@@ -330,11 +316,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Facilitates a proactive service model through a robust
-                        field service management solution that unifies
-                        predictive maintenance with machine learning and <Link href="/products/azure-iot-internet-of-things/">Internet of Things (IoT)</Link>
-                        , thus minimizing operational
-                        downtimes.
+                       <p>Facilitate a proactive service model for your employees by providing them with a strong field service management solution that combines predictive maintenance with machine learning models and can use the Internet of Things (IoT) to reduce operational downtime of machines.</p>
                       </div>
                     </div>
                   </div>
@@ -352,7 +334,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">9</span>
                         </div>
-                        <span>Scalable architect</span>
+                        <span>Scalable Software Architecture</span>
                       </button>
                     </h3>
                     <div
@@ -362,11 +344,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Integrates seamlessly with business management solutions
-                        and Microsoft Office applications to deliver
-                        comprehensive solutions, enabling CRM teams to
-                        successfully manage business interactions and customer
-                        relations.
+                       <p>You can seamlessly integrate Dynamics 365 with other business management solutions and Office 365 applications to provide comprehensive business solutions to allow CRM teams to successfully manage customer interactions and customer relationships.</p>
                       </div>
                     </div>
                   </div>
@@ -384,7 +362,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">10</span>
                         </div>
-                        <span>Intelligent budgeting</span>
+                        <span>Intelligent Budgeting</span>
                       </button>
                     </h3>
                     <div
@@ -394,10 +372,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Monitors and analyzes current service requirements to
-                        predict future demand trends while also recommends
-                        relevant and prompt tactics, empowering budgeting teams
-                        to smartly execute anticipated financial expenses.
+                        <p>Monitor and analyze your current requirements to forecast future demands and trends while also recommending relevant and timely tactics, enabling your budgeting teams to execute anticipated financial expenses intelligently.</p>
                       </div>
                     </div>
                   </div>
@@ -418,12 +393,9 @@ const WhyMigrade360a = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left">
-                <h3>Migrate to Microsoft Dynamics 365</h3>
+                <h3>Digitally Transform Your Business by Migrating to Microsoft Dynamics 365  </h3>
                 <p>
-                  We helped several organizations with their digital
-                  transformation aspirations. From upgrade and implementation to
-                  support, and audit services, we have got it all covered for
-                  you.
+                Since the inception of Dynamics Square a decade back, we have been assisting several business organizations in achieving their digital transformation goals. Our dynamic experts have you covered everything; from upgrading your legacy ERP software to implementing, supporting, and providing audit services. 
                 </p>
                 <div className="m-o-t m-o-t-inde">
                   <Link  href="#exampleModal"><a

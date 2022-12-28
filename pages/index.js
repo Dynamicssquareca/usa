@@ -8,31 +8,6 @@ import { Pagination, Autoplay, FreeMode } from "swiper";
 import Link from "next/link";
 
 export default function Home() {
-  // const addJsonLd = () => {
-  //   return {
-  //     _html: `
-  //           @context": "http://schema.org",
-  //           "@type": "Person",
-  //           address: {
-  //             "@type": "PostalAddress",
-  //             addressLocality: "Seattle",
-  //             addressRegion: "WA",
-  //             postalCode: "98052",
-  //             streetAddress: "N. Whitworth"
-  //           },
-  //           colleague: [
-  //             "http://www.dynamicssquare.com/",
-  //             "http://www.dynamicssquare.com/"
-  //           ],
-  //           email: "mailto:jane-doe@xyz.edu",
-  //           image: "janedoe.jpg",
-  //           jobTitle: "Professor",
-  //           name: "Jane Doe",
-  //           telephone: "(425) 123-4567",
-  //           url: "http://www.dynamicssquare.com/"
-  //     `
-  //   }
-  // }
   return (
     <>
       <Head>
@@ -44,28 +19,235 @@ export default function Home() {
           content="Dynamics Square is USA's leading Gold Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, training & consulting services."
         />
         <link rel="canonical" href="https://www.dynamicssquare.com/" />
-        <meta property="og:title" content="Dynamics Square is" />
-        <meta name="og:description" content="Dynamics Square is" />
-        <meta
-          property="og:url"
-          content="https://www.dynamicssquare.com/img/about.jpg"
+        <meta property="og:title" content="USA's Trusted Microsoft Gold Partner | Dynamics Square" />
+        <meta property="og:site_name" content="Dynamics Square" />
+        <meta property="og:url" content="https://www.dynamicssquare.com" />
+        <meta property="og:description" content="Dynamics Square is USA's leading Gold Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, training and consulting services." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://www.dynamicssquare.com/img/home-page-og.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.com/" />
+        <meta property="twitter:title" content="USA's Trusted Microsoft Gold Partner | Dynamics Square" />
+        <meta property="twitter:description" content="Dynamics Square is USA's leading Gold Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, training and consulting services." />
+        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/home-page-og.png" />
+
+
+
+
+           <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              
+              "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://www.dynamicssquare.com/#organization",
+                "name": "Dynamics Square",
+                "url": "https://www.dynamicssquare.com/",
+                "sameAs": [
+                    "https://www.facebook.com/dynamicssquareusa",
+                    "https://twitter.com/dsquare_usa",
+                    "https://www.linkedin.com/showcase/dynamics-square-usa/",
+                    "https://www.youtube.com/c/DynamicsSquare"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://www.dynamicssquare.com/#logo",
+                    "inLanguage": "en-US",
+                    "url": "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+                    "contentUrl": "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+                    "width": "1024",
+                    "height": "1024",
+                    "caption": "Dynamics Square"
+                },
+                "image": { "@id": "https://www.dynamicssquare.com/#logo" }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://www.dynamicssquare.com/#website",
+                "url": "https://www.dynamicssquare.com/",
+                "name": "Microsoft Dynamics 365 and Cloud consultancy experts at Dynamics Square USA.",
+                "description": "Implementing cloud-based ERP, CRM, and other Microsoft cloud solutions simplifies complex business processes and challenges.",
+                "publisher": { "@id": "https://www.dynamicssquare.com/#organization" },
+                "potentialAction": [{ "@type": "SearchAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://www.dynamicssquare.com/?s={search_term_string}" }, "query-input": "required name=search_term_string" }],
+                "inLanguage": "en-US"
+            },
+            {
+                "@type": "ImageObject",
+                "@id": "hhttps://www.dynamicssquare.com/#primaryimage",
+                "inLanguage": "en-US",
+                "url": "https://www.dynamicssquare.com/img/home-page-og.png",
+                "contentUrl": "https://www.dynamicssquare.com/img/home-page-og.png",
+                "width": "800",
+                "height": "400",
+                "caption": "dynamicssquare"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://www.dynamicssquare.com/#webpage",
+                "url": "https://www.dynamicssquare.com/",
+                "name": "Dynamics Square | CRM and ERP Consultants in the USA",
+                "isPartOf": { "@id": "https://www.dynamicssquare.com/#website" },
+                "about": { "@id": "https://www.dynamicssquare.com/#organization" },
+                "primaryImageOfPage": { "@id": "https://www.dynamicssquare.com/#primaryimage" },
+                "datePublished": "2016-10-15T06:09:16+00:00",
+                "dateModified": "2022-12-22T09:15:37+00:00",
+                "description": "Providing CRM, ERP, and Microsoft cloud solutions tailored to your specific needs, we are CRM and ERP consultants in the USA.",
+                "breadcrumb": { "@id": "https://www.dynamicssquare.com/#breadcrumb" },
+                "inLanguage": "en-US",
+                "potentialAction": [{ "@type": "ReadAction", "target": ["https://www.dynamicssquare.com/"] }]
+            },
+            { "@type": "BreadcrumbList", "@id": "https://www.dynamicssquare.com/#breadcrumb", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home" }] }
+        ]
+
+            })
+          }}
         />
-        <meta
-          property="og:image"
-          content="https://www.dynamicssquare.com/img/about.jpg"
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              
+              "@context" : "http://schema.org",
+"@type" : "Organization",
+"name" : "Dynamics Square USA Ltd.",
+"description" : "By providing unbiased advice on ERP and CRM solutions, we help businesses grow at scale.",
+"image" : "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+"alternateName" : "Dynamics Square Software company in California, USA",
+"telephone" : "+12137840845, +12818990865",
+"email" : "info@dynamicssquare.com",
+"address" : {
+"@type" : "PostalAddress",
+"streetAddress" : "2372 Morse Ave, Ste. 310",
+"addressLocality" : "82372 Morse Ave, Ste. 310, Irvine, California 92614",
+"addressRegion" : "California",
+"addressCountry" : "USA",
+"postalCode" : "92614"
+},
+  "brand":{
+  "@type":"Brand",
+  "name":"Dynamics Square USA Ltd.",
+  "logo": "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg"
+ },
+"aggregateRating": 
+    {
+      "@type": "AggregateRating",
+	  "ratingValue": "5.8",
+	  "reviewCount": "22"
+	},
+"url" : "https://www.dynamicssquare.com/",
+"sameAs" : [
+"https://www.facebook.com/dynamicssquareusa",
+"https://twitter.com/dsquare_usa",
+"https://www.linkedin.com/showcase/dynamics-square-usa/",
+"https://www.youtube.com/c/DynamicsSquare"
+]
+
+            })
+          }}
         />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Microsoft Dynamics 365 Partner Canada| Dynamics Square"
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+    "@type": "WebPage",
+    "Headline": "We assist you in effectively leveraging CRM, ERP, and cloud technologies.",
+    "description": "There is a goal, a vision, or an issue you need to address. A team of 140+ Microsoft certified consultants, creative thinkers, and developers is proactively available to help you on your digital transformation journey. The mission of our company is to alleviate your problems and make your vision a reality.",
+    "Keywords" :["erp consultants usa","crm consultancy","d365 business central","crm expert online","d365 for finance","dynamics crm implementation","d365 field service","crm implementation services"]
+            })
+          }}
         />
-        <meta
-          name="twitter:description"
-          content="Dynamics Square is USA&#039;s leading Gold Microsoft Dynamics 365 Partner helping businesses to achieve desired results with Dynamics 365 apps and services."
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context" : "https://schema.org",
+    "@type" : "WebSite",
+    "name" : "Dynamics Square USA Ltd.",
+    "alternateName" : "Dynamics Square Software company in California, USA",
+    "url" : "https://www.dynamicssquare.com/"
+            })
+          }}
         />
-        <meta
-          name="twitter:image"
-          content="https://www.dynamicssquare.com/img/about.jpg"
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context" : "http://schema.org",
+"@type" : "localBusiness",
+"name" : "Dynamics Square USA Ltd.",
+"description" : "By providing unbiased advice on ERP and CRM solutions, we help businesses grow at scale.",
+"image" : "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+"alternateName" : "Dynamics Square Software company in California, USA",
+"telephone" : "+12137840845, +12818990865",
+"email" : "info@dynamicssquare.com",
+"priceRange": "$$$-$$$",
+"address" : {
+"@type" : "PostalAddress",
+"streetAddress" : "2372 Morse Ave, Ste. 310",
+"addressLocality" : "2372 Morse Ave, Ste. 310, Irvine, California 92614",
+"addressRegion" : "California",
+"addressCountry" : "USA",
+"postalCode" : "92614"
+},
+ "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.6855366020848,
+        "longitude": -117.84693918690395
+      },
+      
+  "brand":{
+  "@type":"Brand",
+  "name":"Dynamics Square USA Ltd.",
+  "logo": "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg"
+ },
+"aggregateRating": 
+    {
+      "@type": "AggregateRating",
+      "ratingValue": "5.8",
+	  "reviewCount": "22"
+	},
+    
+    "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednessday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "5:00"
+        },
+         {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday - closed"
+          
+      
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday - Closed"
+        
+        }
+        ],
+    
+      
+"url" : "https://www.dynamicssquare.com/",
+"sameAs" : [
+"https://www.facebook.com/dynamicssquareusa",
+"https://twitter.com/dsquare_usa",
+"https://www.linkedin.com/showcase/dynamics-square-usa/",
+"https://www.youtube.com/c/DynamicsSquare"
+]
+            })
+          }}
         />
       </Head>
 
