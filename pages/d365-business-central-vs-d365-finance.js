@@ -102,7 +102,7 @@ const BCvsFinance = () => {
                       <b>Busted:</b> Target the exact nature of your business
                       problems and avoid all hassles by revealing the specific
                       areas that are painful to address with the help of a
-                      trustworthy vendor like Dynamics Square and make the right
+                      trustworthy vendor like <Link href="/"><a></a></Link> and make the right
                       choice.
                     </p>
                     <p>
@@ -380,7 +380,7 @@ const BCvsFinance = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                       <p>Buckle up and do your work to the best of your abilities. Get into know the processes of international inter-company trading, complex supply chains, financial compliance, mixed-mode manufacturing, and similar others.<br /><br />Search for vendors and select the one that resonates most with your needs. Then go for Dynamics 365 Finance if you have larger business operations & finances to manage or choose Dynamics 365 Business Central if you have a small or medium-sized business that needs to perform locally.</p>
+                       <p>Buckle up and do your work to the best of your abilities. Get into know the processes of international inter-company trading, complex supply chains, financial compliance, mixed-mode manufacturing, and similar others.<br /><br />Search for vendors and select the one that resonates most with your needs. Then go for <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> if you have larger business operations & finances to manage or choose <Link href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</Link> if you have a small or medium-sized business that needs to perform locally.</p>
                       </div>
                     </div>
                   </div>

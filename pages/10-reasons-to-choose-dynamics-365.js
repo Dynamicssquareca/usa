@@ -6,8 +6,8 @@ const WhyMigrade360a = () => {
   return (
     <>
       <Head>
-      <title>Top 10 Reasons to Choose Microsoft Dynamics 365</title>
-<meta name="description" content="Microsoft Dynamics 365 can flexibly be deployed in-cloud or on-premise, enabling businesses to attune their organizational tools seamlessly with the altering business environment."/>
+      <title>10 Reasons to Migrate your legacy ERP to Dynamics 365</title>
+<meta name="description" content="What are the top 10 reasons for migrating to Dynamics 365 from older ERPs & CRMs like SAP B1, Dynamics AX, Dynamics NAV, or Tally Prime?"/>
 <link rel="canonical" href="https://www.dynamicssquare.com/10-reasons-to-choose-dynamics-365/" />
       </Head>
      
@@ -16,7 +16,7 @@ const WhyMigrade360a = () => {
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
               <h1>
-                10 Reasons Why Migrate To Microsoft Dynamics 365
+              Top 10 Reasons to Migrate Your Legacy ERP To Dynamics 365 
               </h1>
               <div>
                 <div className="text-center text-lg-start">
@@ -24,7 +24,7 @@ const WhyMigrade360a = () => {
                     data-bs-toggle="modal"
                     className="btn-get-started scrollto"
                   >
-                    <span>Schedule a Demo</span></a>
+                    <span>Get a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -41,31 +41,11 @@ const WhyMigrade360a = () => {
 
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
               <header className="section-header">
                 <p>
-                  <Link href="/products/microsoft-dynamics-365/">
-                    Microsoft Dynamics 365
-                  </Link>{" "}
-                  empowers enterprises, of all dimensions, to scale-up their
-                  productive capabilities through advanced integrations with{" "}
-                  <Link href="/products/microsoft-power-bi/">Power BI</Link>
-                  , SharePoint, Office 365 and meaningful real-time business
-                  insights.
-                  <br />
-                  <br />
-                  Dynamics 365 smartly embeds powerful Microsoft Business
-                  Applications that deliver a precise view of all customers'
-                  engagements.
-                  <br />
-                  <br />
-                  Dynamics 365 can flexibly be deployed{" "}
-                  <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/">
-                    in-cloud or on-premise
-                  </Link>
-                  , enabling businesses to attune their organizational tools
-                  seamlessly with the altering business environment.
+                Even though many enterprise-grade software providers on the market offer ERP (Enterprise Resource Planning) and CRM (Customer Relationship Management) solutions, you should consider switching to <Link href="/products/microsoft-dynamics-365/">Microsoft Dynamics 365</Link>.<br /><br />Because Dynamics 365 is a cloud-based suite of business applications with several integrations and add-ons and are less expensive to implement or customize since it uses cloud technology.<br /><br />The cloud accounting modules in Dynamics 365, such as <Link href="/products/dynamics-365-business-central/">Business Central</Link>, are ideal for small and medium-sized businesses that want to manage their finances, sales, supply chains, and product distribution, as well as gather insights to improve customer experience and boost customer engagement.<br /><br />With Dynamics 365, you can empower your employees in all dimensions and expand your production capabilities. Integrate advanced data visualization add-ons such as <Link href="/products/microsoft-power-bi/">Power BI (Business Intelligence)</Link>, SharePoint, and Office 365 apps for real-time actionable insights for business growth. 
                 </p>
               </header>
             </div>
@@ -86,28 +66,11 @@ const WhyMigrade360a = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
-                <h2>
-                  Is Dynamics 365 Right  For Your Business?
-                </h2>
+                <h2>Is Microsoft Dynamics 365 The Best Fit For Your Enterprise?</h2>
               </div>
               <div className="custom-p-001">
                 <p>
-                  Microsoft Dynamics 365 is a combination of customer
-                  relationship management (CRM) and enterprise resource planning
-                  (ERP) software, backed with high-end business intelligence and
-                  productivity tools.
-                  <br />
-                  <br />
-                  Dynamics 365 provides a 360-degree view of your business
-                  processes, sales insights, business financials, operations and
-                  much more. <br />
-                  <br />
-                  We're{" "}
-                  <Link href="/products/microsoft-dynamics-365/">
-                    Microsoft Dynamics 365 experts
-                  </Link>{" "}
-                  in the UK helping small to enterprise level organizations with
-                  their digital transformation a success.
+                Microsoft Dynamics 365 is a comprehensive suite of business management software that comprises customer relationship management (CRM) and enterprise resource planning (ERP) modules backed by Microsoft's super business intelligence and productivity tools. This software can be customized into a solution that fits right for your business ops and not the other way around.<br /><br />All the Dynamics 365 products are made to work together, providing you with a 360-degree view of your business activities such as sales, marketing, accounting, finances, SCM (Supply Chain Management) operations, human resources, and more.<br /><br /><Link href="/">Dynamics Square</Link> is a USA's leading Microsoft Certified Dynamics 365 Partner, helping small to medium-sized organizations with enterprise-grade modern ERP and CRM solutions and supporting them in their digital transformation journey. Start connecting your every employee to connect the entire business, and hence connect with every customer.  
                 </p>
               </div>
             </div>
@@ -140,7 +103,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">1</span>
                         </div>
-                        <span>Critical business insights</span>
+                        <span>Actionable Insights</span>
                       </button>
                     </h3>
                     <div
@@ -150,10 +113,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Generates real time business insights leveraging an
-                        advanced Power BI interface enabling businesses to
-                        ensure all business functions are performing in sync
-                        with the set Key Performance Indicators (KPIs).
+                       <p>By integrating Power BI into Dynamics 365 modules, you can get real-time actionable insights, allowing you to ensure that all your business operations are running smoothly by the set Key Performance Indicators (KPIs).</p>
                       </div>
                     </div>
                   </div>
@@ -171,7 +131,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">2</span>
                         </div>
-                        <span>Centralized information source</span>
+                        <span>Centralized Source of Information</span>
                       </button>
                     </h3>
                     <div
@@ -181,10 +141,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Unifies advanced Customer Relationship Management (CRM)
-                        features leveraging Microsoft Outlook integration while
-                        seamlessly connects users to a centralized platform,
-                        enabling businesses to efficiently streamline workflows.
+                        <p>Dynamics 365 modules provide you with a unified and advanced user interface to see and manage all Customer Relationship Management (CRM) aspects. Leverage the latest features by integrating Microsoft Outlook and Microsoft Team to streamline workflows.</p>
                       </div>
                     </div>
                   </div>
@@ -202,7 +159,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">3</span>
                         </div>
-                        <span>Ease of accessibility</span>
+                        <span>Accessibility</span>
                       </button>
                     </h3>
                     <div
@@ -212,10 +169,7 @@ const WhyMigrade360a = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        Enables anywhere and anytime work capabilities through
-                        licensed mobile applications, available for iOS,
-                        Android, and Windows, empowering users to be productive
-                        and stay engaged with customers, round the clock.
+                       <p>Enable work capabilities anywhere and anytime with Dynamics 365 mobile applications for iOS, Android, and Windows, empowering your organization to be productive and more engaged with customers 24/7/365.</p>
                       </div>
                     </div>
                   </div>
@@ -233,7 +187,7 @@ const WhyMigrade360a = () => {
                         <div className="wr-in">
                           <span className="number-st">4</span>
                         </div>
-                        <span>Social media monitoring</span>
+                        <span>Social Media Insights</span>
                       </button>
                     </h3>
                     <div

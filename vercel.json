@@ -172,7 +172,6 @@
     { "source": "/en-in/tag/application-area-in-nav-2017/", "destination": "/products/microsoft-dynamics-nav/", "permanent": true },
     { "source": "/microsoft-teams/", "destination": "/", "permanent": true },
     { "source": "/en-in/tag/sharepoint-2016/", "destination": "/", "permanent": true },
-    { "source": "/products/dynamics-365-non-profit-accelerator/", "destination": "/products/dynamics-365-non-profit-accelerator/", "permanent": true },
     { "source": "/blog/what-is-azure-iot-hub/2/", "destination": "/blog/what-is-azure-iot-hub/", "permanent": true },
     { "source": "/uncategorized/how-to-generate-interactive-reports-in-power-bi/", "destination": "https://blog.dynamicssquare.com/how-to-generate-interactive-reports-in-power-bi/", "permanent": true },
     { "source": "/topics/microsoft-nav-2017/", "destination": "/products/microsoft-dynamics-nav/", "permanent": true },
