@@ -533,7 +533,7 @@ const AboutUs = () => {
                       <p>Leverage the power of next-gen technologies like Azure, IoT, IIoT, AI, and ML. Save time and money by connecting your business to intelligent Microsoft Cloud Ecosystem.</p>
                       <ul className="new-com-list">
                         <li>
-                          <a href="/products/microsoft-dynamics-365-mixed-reality/">
+                          <a href="/products/microsoft-dynamics-365/mixed-reality/">
                           <img src="/img/group-1998.png" alt="group-2192" />
                           <span>Mixed <br /> Reality</span>
                           </a>

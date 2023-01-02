@@ -8,7 +8,7 @@ const BcAdvantages = () => {
       <Head>
       <title>Dynamics 365 Business Central Advantages & Capabilities</title>
 <meta name="description" content="Dynamics 365 Business Central Advantages And Capabilities Business Central from Dynamics 365 is a tool that has been used by businesses from all over the world for the proper management and operations of different organizations."/>
-<link rel="canonical" href="https//www.dynamicssquare.com/products/dynamics-365-business-central/advantages-capabilities/" />
+<link rel="canonical" href="https://www.dynamicssquare.com/products/dynamics-365-business-central/advantages-capabilities/" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">

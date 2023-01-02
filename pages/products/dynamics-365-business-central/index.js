@@ -3294,21 +3294,21 @@ const BusinessCentral = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="https://www.dynamicssquare.com/upgrade-dynamics-nav-to-dynamics-365-business-central/">
+                    <Link href="https://www.dynamicssquare.com/dynamics-nav-to-business-central/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i> Why to
                         Upgrade Dynamics NAV to Business Central
                       </a>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="https://www.dynamicssquare.com/reasons-to-upgrade-accounting-software/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i> Is Your
                         Business Outgrowing Your Accounting Software?
                       </a>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

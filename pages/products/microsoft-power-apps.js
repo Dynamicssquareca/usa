@@ -828,26 +828,16 @@ const PowerApps = () => {
                     </a>
                   </li>
                   <li>
-                    <Link href="/power-bi-architecture/">
-                      <a>
+                    <a href="https://blog.dynamicssquare.com/power-bi-architecture-and-its-components-explained/">
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Architecture
-                      </a>
-                    </Link>
+                    </a>
                   </li>
                   <li>
                     <Link href="/power-bi-reports/">
                       <a>
                         <i className="bi bi-box-arrow-up-right"></i>Power BI
                         Reports
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/implement-power-bi-for-your-business/">
-                      <a>
-                        <i className="bi bi-box-arrow-up-right"></i>Why Your
-                        Business Should Implement Power BI?
                       </a>
                     </Link>
                   </li>

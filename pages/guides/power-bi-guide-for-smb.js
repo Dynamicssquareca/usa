@@ -253,7 +253,7 @@ const PowerBIGuide = () => {
               </div>
               <div className="iner-pp">
                 <img
-                  src="/img/Group-2175.png"
+                  src="/img/group-2175.png"
                   alt="Data visualisation makes 5X faster decisions"
                 />
               </div>
@@ -1616,7 +1616,7 @@ const PowerBIGuide = () => {
                   </a>
                 </Link>
               </div>
-              <div class="cont-table-inner">
+              <div className="cont-table-inner">
                 <p>
                   <b className="h3">Health Industry Used Cases</b>
                 </p>
