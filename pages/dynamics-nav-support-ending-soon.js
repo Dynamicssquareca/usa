@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Script from 'next/script';
 import Link from 'next/link';
 import FormCampaign from '../components/FormCampaign';
+import FooterHide from '../components/FooterHide';
 const DynamicsNavSupportEndingSoon = () => {
   return (
     <>
@@ -337,6 +338,7 @@ const DynamicsNavSupportEndingSoon = () => {
           </div>
         </div>
       </section>
+      <FooterHide />
       
     </>
   );

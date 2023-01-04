@@ -182,13 +182,10 @@ const Footer = () =>{
                   </div>
                 </div>
                 <div className="col-sm-4 col-md-6 col-lg-6 hide-c">
-                  <Image
+                  <img
                     src="/img/contactfor-sede-img.jpg"
                     alt="contactfor-sede-img"
                     className="image-cover"
-                    width={545}
-                    height={641}
-                    layout="responsive"
                   />
                 </div>
               </div>
