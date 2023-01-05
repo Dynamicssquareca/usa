@@ -10,7 +10,7 @@ const FormCampaign = () => {
     setDisplay("spinner-border text-success");
     e.preventDefault();
 
-    emailjs.sendForm('service_rb24nny', 'template_2q1k4hy', form.current, 'rkNd-nNe8gDdNeZT5')
+    emailjs.sendForm('service_rb24nny', 'template_hw10izk', form.current, 'rkNd-nNe8gDdNeZT5')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
