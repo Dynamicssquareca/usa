@@ -15,7 +15,7 @@ const DynamicsNavSupportEndingSoon = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/upgrade-nav-to-business-centeral/"
+          href="https://www.dynamicssquare.com/upgrade-nav-to-business-central/"
         />
       </Head>
       <section className="Solution-banner hero-1 hero">
