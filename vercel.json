@@ -218,7 +218,7 @@
     { "source": "/ecommerce", "destination": "/industries/ecommerce/", "statusCode": 301 },
     { "source": "/ecommerce/", "destination": "/industries/ecommerce/", "statusCode": 301 },
     { "source": "/blog/what-is-microsoft-azure-iot-internet-of-things/2/", "destination": "https://blog.dynamicssquare.com/what-is-microsoft-azure-iot-internet-of-things/", "statusCode": 301 },
-    { "source": "/products/erp", "destination": "/products/microsoft-dynamics-erp/", "statusCode": 301 },
+    { "source": "/products/erp/", "destination": "/products/microsoft-dynamics-erp/", "statusCode": 301 },
     { "source": "/food-and-beverages", "destination": "/industries/food-and-beverages/", "statusCode": 301 },
     { "source": "/food-and-beverages/", "destination": "/industries/food-and-beverages/", "statusCode": 301 },
     { "source": "/en-sg/tag/microsoft-dynamics-sharepoint/feed/", "destination": "https://www.dynamicssquare.com.sg/", "statusCode": 301 },
