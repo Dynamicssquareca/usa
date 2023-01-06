@@ -85,7 +85,7 @@ const MicrosoftDynamicsNAV = () => {
                   stocks, and customers.
                 </p>
                 <p>
-                  Being UK's leading{" "}
+                  Being USA leading{" "}
                   <Link href="/">Microsoft Gold Partner</Link>, we help
                   businesses of all sizes grow faster and on a larger scale by
                   providing value for money. Get in touch with our Microsoft
@@ -480,7 +480,7 @@ const MicrosoftDynamicsNAV = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading">
                 <h2>
-                  Microsoft Dynamics <br /> NAV Partner UK{" "}
+                  Microsoft Dynamics <br /> NAV Partner USA{" "}
                 </h2>
                 <p>
                   Dynamics Square is with you to help your business grow,

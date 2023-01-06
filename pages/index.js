@@ -77,7 +77,7 @@ export default function Home() {
             },
             {
                 "@type": "ImageObject",
-                "@id": "hhttps://www.dynamicssquare.com/#primaryimage",
+                "@id": "https://www.dynamicssquare.com/#primaryimage",
                 "inLanguage": "en-US",
                 "url": "https://www.dynamicssquare.com/img/home-page-og.png",
                 "contentUrl": "https://www.dynamicssquare.com/img/home-page-og.png",
