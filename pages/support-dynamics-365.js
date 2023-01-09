@@ -18,16 +18,14 @@ const SupportDynamics365Mailer = () => {
       </Head>
       <section
         className="Solution-banner"
-        style={{ overflow: "hidden", paddingBottom: "0px" }}
+        style={{ overflow: "hidden", paddingBottom: "20px" }}
       >
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Utilize your resources to the fullest extent possible</h1>
-              <p>SMBs require an optimal support system to assure process continuity, stabilize process optimization, and focus on business scope.Businesses should take advantage of proactive support services for D365 Business Central from a reliable partner like Dynamics Square.</p>
-              <p>
-                <b>Will handle every aspect of your Dynamics 365 system requirements:</b>
-              </p>
+              <p>SMBs require an optimal support system to assure process continuity, stabilize process optimization, and focus on business scope. Businesses should take advantage of proactive support services for D365 Business Central from a reliable partner like Dynamics Square.</p>
+           
               <ul className="checkmark">
                 <li>Ad-hoc Support to instantly resolve the issues whenever encountered.</li>
                 <li>Prepaid Hours Support to provide 50 hours of priority support to our clients.</li>
@@ -49,8 +47,7 @@ const SupportDynamics365Mailer = () => {
         <div className="container">
           <header className="section-header">
             <h2>
-              More Reasons to Upgrade from <br />
-              NAV to Busines Central
+            How we support clients in a unique way?
             </h2>
           </header>
          
@@ -71,7 +68,7 @@ const SupportDynamics365Mailer = () => {
                         <div className="wr-in">
                           <img src="/img/Flexible subscription.svg" alt="icons" />
                         </div>
-                        <span>Premier Support for Dynamics 365</span>
+                        <span>Premier Support for Dynamics 365 Business Central</span>
                       </button>
                     </h3>
                     <div
@@ -154,7 +151,7 @@ const SupportDynamics365Mailer = () => {
       <section className="bg-333">
         <div className="container">
           <div className='row justify-content-center' style={{paddingBottom:"20px"}}>
-            <div className='col-lg-7'>
+            <div className='col-lg-9'>
             <header className="section-header">
             <h2>Some FAQs About Dynamics 365 BC - Support</h2>
           </header>
@@ -168,7 +165,7 @@ const SupportDynamics365Mailer = () => {
             <p style={{color:'var(--color-red)',fontSize:'20px'}}><b>How often does Business Central online get updated?</b></p>
             <p>Business Central online is a solution that includes a Microsoft-managed platform as well as business capabilities. Many Microsoft partners offer additional business, such as addressing specific industry or localization requirements. Both business functionality and service components are monitored continuously and updated as appropriate.</p>
             <p style={{color:'var(--color-red)',fontSize:'20px'}}><b>Is the Windows client supported? </b></p>
-            <p>The first releases of Business Central on premises included an installable client derived from Microsoft Dynamics NAV. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", is no longer available for Business Central.  </p>
+            <p>The first releases of Business Central on premises included an installable client derived from <Link href="/products/microsoft-dynamics-nav/"><a>Microsoft Dynamics NAV</a></Link>. Starting with 2019 release wave 2, this legacy component, referred to as "the Windows client", is no longer available for Business Central.</p>
             </div>
           </div>
         </div>
@@ -179,7 +176,7 @@ const SupportDynamics365Mailer = () => {
             <div className="col-lg-8">
             <div className="call-to-action-content">
                 <h3>Why should you choose Dynamics Square? </h3>
-                <p>If you are looking for support for Dynamics 365 BC, you can reach out to a certified partner or a third-party cloud service/solution provider (CSP) like Dynamics Square which specializes in providing support for Dynamics NAV, Microsoft Dynamics 365, and Power BI.</p>
+                <p>If you are looking for support for Dynamics 365 BC, you can reach out to a certified partner or a third-party cloud service/solution provider (CSP) like Dynamics Square which specializes in providing support for Dynamics NAV, Microsoft Dynamics 365,Microsoft Dynamics GP, Microsoft Dynamics AX  Power BI and third party tools integration.</p>
               </div>
             </div>
             <div className="col-lg-4">
