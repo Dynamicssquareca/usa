@@ -26,6 +26,91 @@ const BusinessCentral = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/products/dynamics-365-business-central/"
         />
+        <meta name="keywords" content="Business Central, Microsoft Dynamics 365 Business Central, Dynamics 365 Business Central, Microsoft Dynamics 365 Pricing, Business Central Team Member License, Dynamics 365 Business Central Essentials, ERP Microsoft Dynamics 365, Microsfot 365 Business, Dynamics 365 Business Central Pricing, Microsoft Business Central Partner, Business Central Integration, Microsoft Business Central Cost, Business Central Support, Microsoft Dynamics 365 Business Central Cost" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.dynamicssquare.com/products/dynamics-365-business-central/" />
+        <meta property="og:title" content="Dynamics 365 Business Central: Microsoft's Leading Cloud ERP" />
+        <meta property="og:description" content="Business Central brings ops to a unified cloud platform for high productivity. Contact a Dynamics 365 implementation partner like Dynamics Square for support."/>
+        <meta property="og:image" content="https://www.dynamicssquare.com/img/Dynamics-365-Business-Central.png" />
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:url" content="https://www.dynamicssquare.com/products/dynamics-365-business-central/" />
+        <meta property="twitter:title" content=" Dynamics 365 Business Central: Microsoft's Leading Cloud ERP" />
+        <meta property="twitter:description" content="Business Central brings ops to a unified cloud platform for high productivity. Contact a Dynamics 365 implementation partner like Dynamics Square for support."/>
+        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/Dynamics-365-Business-Central.png" />
+
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+
+
+              "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is Dynamics 365 Business Central?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dynamics 365 Business Central is a complete business solution package that comes with both on-cloud and on-premised facilitation and is designed to support and drive entire enterprise practices. Business Central is simple to use and comprises excel-like functionality, thereby, advanced excel users can instantly start leveraging the Business Central capabilities. It empowers enterprises to streamline and automate their tasks and processes by enabling connected and collaborative experiences. With Business Central, enterprises can manage their end-to-end process flow from finance and supply chain to sales, warehousing, project management, manufacturing & distribution to project automation, reporting & analytics, and more."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What is the relationship between Business Central and Dynamics NAV?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dynamics 365 Business Central is the updated version of Dynamics NAV. With its upgrade, Microsoft changed its name too. The Core functionality remains the same and is updated with advanced features and navigation to support modern enterprises to serve every industry. However, existing Dynamics NAV users can still avail themselves of Dynamics Square's Support Services. Dynamics Square offers exceptionally reliable and efficient NAV and Business Central Support Services at cost-effective rates."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What do I need to do to upgrade to Dynamics 365 Business Central?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you are willing to upgrade to Dynamics 365 Business Central, Dynamics Square can implement a highly configured solution for your business. Upgrading to Dynamics 365 either from NAV or other existing systems requires experts' practice and years of proficiency. The team at Dynamics Square comprises all the required skill sets and years of expertise to implement a solution fulfilling your customized business needs. For more clarification or avail of our free system health check, or call us today for any Dynamics 365 help."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How does Dynamics 365 Business Central support different industries?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Business Central is designed and configured to support all industries from E-commerce to food & beverages, Manufacturing, and Distribution, and Professional Services to Non-Profit. Business Central could be quite an effective deal for your Startups too if you are willing to jumpstart your business and start simplifying and enabling automation in your practices from the very initial. To know more about how Business Central can be implemented for your specific industry to drive an effective and efficient approach throughout your business premises, contact our professionals today."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What is the price of Dynamics 365 Business Central?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text":"When you plan for Dynamics 365 Business Central implementation, your pricing may vary depending on your process requirement and the complexity of your business flow. Here are the standard options available for buying Business Central:<ul><li>Essential - You will be charged $70 per user/per month for the Business Central essential plan.</li><li>Premium - Premium plan will ask you to pay $100 per user/per month.</li><li>Team Member</li></ul>To know which plan would be a cost-effective and process-efficient deal for your business, just call our experts, we are here to help."
+       }
+     }, {
+        "@type": "Question",
+        "name": "How can I continue to receive Dynamics 365 Business Central support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dynamics Square has a highly embedded support system to provide timely, efficient, and flexible support to our clients. Whether your requirement goes for end-user training, prepaid hour support, or ad-hoc support, we believe in a flexible support model suited to your specific requirement and budget. To know more about how our support model works and which support plan could be a vital one for your business, connect to our experts today."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How does Dynamics 365 Business Central integrate with Power BI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Business Central is an all-in-one solution for all your business requirements. Enterprises can manage their entire practices including sales, finance, customers, manufacturing, supply chain, project operations, human resources, and reporting & analytics. Since Business Central is quite flexible and thereby, can be integrated with any of Microsoft's business applications as well as with your existing system configurations. Thus, if your requirement goes for advanced reporting capabilities, then Power BI is the high-end solution. You can integrate Business Central with Power BI to drive effective reporting strategies and avail of required key analytics to strengthen your decision-making."
+        }
+        }]
+
+              
+            })
+          }}
+        />
+
+        
+<script type="application/ld+json">
+    {
+      
+    }
+    </script>
+
+
       </Head>
       <ModalVideo
         channel="youtube"
@@ -3028,7 +3113,7 @@ const BusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                      How is Business Central related to Dynamics NAV?
+                     What is the relationship between Business Central and Dynamics NAV?
                     </button>
                   </h3>
                   <div
@@ -3049,7 +3134,7 @@ const BusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
                     >
-                      How do I upgrade to Dynamics 365 Business Central?
+                     What do I need to do to upgrade to Dynamics 365 Business Central?
                     </button>
                   </h3>
                   <div
@@ -3075,7 +3160,7 @@ const BusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
                     >
-                    What industries can Dynamics 365 Business Central Support?
+                    How does Dynamics 365 Business Central support different industries?
                     </button>
                   </h3>
                   <div
@@ -3097,7 +3182,7 @@ const BusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                      How much does Dynamics 365 Business Central cost?
+                     What is the price of Dynamics 365 Business Central?
                     </button>
                   </h3>
                   <div
@@ -3140,8 +3225,7 @@ const BusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
                     >
-                      How do I get ongoing support for Dynamics 365 Business
-                      Central?
+                     How can I continue to receive Dynamics 365 Business Central support?
                     </button>
                   </h3>
                   <div
@@ -3174,7 +3258,7 @@ const BusinessCentral = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-7"
                     >
-                      How does Power BI Fit with Dynamics 365 Business Central?
+                     How does Dynamics 365 Business Central integrate with Power BI?
                     </button>
                   </h3>
                   <div
