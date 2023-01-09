@@ -317,11 +317,10 @@ const Footer = () =>{
             <div className="row gy-4">
               <div className="col-lg-5 col-md-12 footer-info">
                 <a href="/" className="logo d-flex align-items-center">
-                  <Image
+                  <img
                     src="/img/dsuk-footer-logo.svg"
                     alt="dsuk-footer-logo"
-                    width={282}
-                    height={20}
+                  
                   />
                 </a>
                 <p>
@@ -330,19 +329,17 @@ const Footer = () =>{
                   next-gen Microsoft Business Apps from our highly skilled
                   Microsoft consultants.
                 </p>
-                <Image
+                <img
                   src="/img/microsoft-partner.svg"
                   alt="microsoft-partner"
                   className="footer-img"
-                  width={210}
-                  height={74}
+                 
                 />
-                <Image
+                <img
                   src="/img/Tech-For-Socil-Impact.svg"
                   alt="Tech-For-Socil-Impact"
                   className="footer-img"
-                  width={210}
-                  height={74}
+            
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">
