@@ -6,12 +6,10 @@ const BusinessCentralPricingLicensing = () => {
   return (
     <>
       <Head>
-        <title>
-          Dynamics 365 Business Central Pricing and Licensing | Dynamics Square
-        </title>
+        <title>Dynamics 365 Business Central: Pricing, Licensing, & Features</title>
         <meta
           name="description"
-          content="Dynamics 365 Business Central pricing and licensing model that is specifically designed for small to medium-sized businesses. Packages includes Team Members, Essentials and Premium."
+          content="Explore the features, Pricing and Licensing model for Microsoft Dynamics 365 Business Central – a comprehensive business management software."
         />
         <link
           rel="canonical"

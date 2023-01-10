@@ -22,6 +22,7 @@ import CookieConsent from 'react-cookie-consent';
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   if(router.asPath =='/contact-us/' ||
+      router.asPath =='/contact-us/?utm_source=email&utm_medium=contact-us&utm_campaign=festiveseason_dec&utm_term=ds_us' ||
       router.asPath =='/subscriber-thank-you/' ||
       router.asPath =='/email-dynamics365-crm/' ||
       router.asPath =='/emailer-power-bi/' ||
@@ -31,6 +32,7 @@ function MyApp({ Component, pageProps }) {
       router.asPath =='/email-wms/' ||
       router.asPath == '/thank-you/email-subscriber/' ||
       router.asPath == '/subscribe-updates/' ||
+      router.asPath == '/subscribe-updates/?utm_source=email&utm_medium=subscribe_updates&utm_campaign=navtobc_jan&utm_term=ds_us' ||
       router.asPath == '/support-dynamics-365/' ||
       router.asPath == '/support-dynamics-365/#' ||
       router.asPath == '/support-dynamics-365/?utm_source=Email&utm_medium=navtobc_campaign&utm_campaign=business_central_support&utm_term=us' ||
