@@ -32,11 +32,13 @@ function MyApp({ Component, pageProps }) {
       router.asPath == '/thank-you/email-subscriber/' ||
       router.asPath == '/subscribe-updates/' ||
       router.asPath == '/support-dynamics-365/' ||
+      router.asPath == '/support-dynamics-365/#' ||
+      router.asPath == '/support-dynamics-365/?utm_source=Email&utm_medium=navtobc_campaign&utm_campaign=business_central_support&utm_term=us' ||
       router.asPath == '/thank-you/' ||
       router.asPath == '/thanks-webinar-registration/' ||
       router.asPath == '/upgrade-nav-to-business-central/' ||
       router.asPath == '/upgrade-nav-to-business-central/#' ||
-      router.asPath == '/upgrade-nav-to-business-central/?' ||
+      router.asPath == '/upgrade-nav-to-business-central/?utm_source=Email&utm_medium=navtobc_campaign&utm_campaign=upgrade_nav_to_business_central&utm_term=us' ||
       router.asPath == '/dynamics-nav-support-ending-soon/'
       
   )  {
