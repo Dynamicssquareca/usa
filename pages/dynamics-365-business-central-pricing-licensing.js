@@ -22,9 +22,9 @@ const BusinessCentralPricingLicensing = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-4 align-self-center">
-              <h1>Dynamics 365 Business Central Pricing & Licensing</h1>
+              <h1>Get Started with Dynamics 365 Business Central: Affordable Pricing & Licensing </h1>
               <p>
-                D365 Business Central Pricing and Licensing is designed for
+              Dynamics 365 Business Central Pricing and Licensing is designed for
                 small to mid-sized businesses (SMBs) to manage accounting,
                 finances, sales, service, and operations.
               </p>
@@ -70,34 +70,30 @@ const BusinessCentralPricingLicensing = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
                 <h2>
-                  Pricing & Licensing for <br /> D365 Business Central
+                Pricing & Licensing for Microsoft Dynamics 365 Business Central 
                 </h2>
               </div>
               <div className="custom-p-001">
                 <p>
-                  Microsoft offers a subscription-based approach for Dynamics
-                  365 Business Central and other Business Apps. If you want to
-                  buy D365 Business Central, you must acquire a subscription as
-                  per your company's requirements. Business Central's licensing
+                  Microsoft offers a subscription-based approach for <Link href="/products/dynamics-365-business-central/"><a>Dynamics
+                  365 Business Central</a></Link> and <b>other Business Apps</b>. If you want to
+                  buy Dynamics 365 Business Central, you must acquire a subscription as
+                  per your company's requirements. 
+                </p>
+                <p>Business Central's licensing
                   is accessible on a per-user, per-month basis. Because
                   Microsoft does not directly market this product to end users
                   due to its versatility and customizability. You must get this
-                  from a reputable{" "}
-                  <Link href="/products/microsoft-dynamics-365/">
-                    Dynamics 365 Implementation Partner
-                  </Link>{" "}
-                  like Dynamics Square - a trusted and reliable Gold Microsoft
-                  Partner.
-                </p>
+                  from a reputable <b>Dynamics 365 Implementation Partner</b> like <b>Dynamics Square</b> - a trusted and reliable Gold Microsoft Partner.</p>
                 <p>
                   Our team knows trust plays a key role in relationships and is
-                  always prepared to assist you with the{" "}
+                  always prepared to assist you with the successful{" "}
                   <Link href="/dynamics-365-business-central-implementation/">
-                    successful implementation of Dynamics 365 Business Central
+                     implementation of Dynamics 365 Business Central
                   </Link>
                   . Get in touch with us to try this intelligent business or get
-                  help in upgrading your Dynamics NAV ERP system to D365
-                  Business Central.
+                  help in <Link href="/upgrade-nav-to-business-central/"><a>upgrading your Dynamics NAV ERP system to Dynamics 365
+                  Business Central</a></Link>.
                 </p>
               </div>
             </div>
@@ -114,12 +110,10 @@ const BusinessCentralPricingLicensing = () => {
             <div className="col-lg-4">
               <div className="box">
                 <h3>
-                  Business Central
-                  <br />
-                  Essentials
+                Dynamics 365 Business Central Essentials
                 </h3>
                 <div className="price">
-                  <sup>$</sup>70<span>Per-User/Per Month</span>
+                  $70<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li>
@@ -146,12 +140,10 @@ const BusinessCentralPricingLicensing = () => {
             <div className="col-lg-4">
               <div className="box">
                 <h3>
-                  Business Central
-                  <br />
-                  Essentials
+                Dynamics 365 Business Central Premium
                 </h3>
                 <div className="price">
-                  <sup>$</sup>100<span>Per-User/Per Month</span>
+                  $100<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li>
@@ -184,12 +176,10 @@ const BusinessCentralPricingLicensing = () => {
             <div className="col-lg-4">
               <div className="box">
                 <h3>
-                  Business Central
-                  <br />
-                  Essentials
+                Dynamics 365 Business Central Team Members
                 </h3>
                 <div className="price">
-                  <sup>$</sup>8<span>Per-User/Per Month</span>
+                  $8<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li>
@@ -267,7 +257,7 @@ const BusinessCentralPricingLicensing = () => {
                             alt="icons-azure_cloud-embed"
                           />
                         </div>
-                        <span>Team Member Plan</span>
+                        <span>Features of Team Member License</span>
                       </button>
                     </h3>
                     <div
@@ -277,21 +267,7 @@ const BusinessCentralPricingLicensing = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>
-                          The most economical subscription for Business Central
-                          is the Team Member License. Only the basic
-                          functionality for accessing corporate data is included
-                          in this inexpensive plan.
-                        </p>
-                        <p>
-                          According to the rights granted by the admin, this
-                          plan permits users to gather and distribute a limited
-                          amount of data. Some of the core tasks, including data
-                          entry, uploading purchase data, approvals, report
-                          forwarding, and self-service (for a delightful
-                          customer experience), are allocated to the team
-                          members.
-                        </p>
+                        <p>Users can view Business Central dashboards, run reports, and edit existing records. However, team member licenses have some limitations: users cannot add new customers, generate sales invoices, or enter journal entries.</p>
                       </div>
                     </div>
                   </div>
@@ -312,7 +288,7 @@ const BusinessCentralPricingLicensing = () => {
                             alt="icons-azure_agile"
                           />
                         </div>
-                        <span>Essential Plan</span>
+                        <span>Features of Essentials License</span>
                       </button>
                     </h3>
                     <div
@@ -322,24 +298,7 @@ const BusinessCentralPricingLicensing = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>
-                          <Link href="/products/dynamics-365-business-central/">
-                            Dynamics 365 Business Central
-                          </Link>{" "}
-                          Essentials is designed for management roles, where
-                          employees can manage different operations: finance,
-                          supply chain management (SCM), product distribution,
-                          project management (PM), accounting, customer
-                          relationship management (CRM), and human resources
-                          management (HRM).
-                        </p>
-                        <p>
-                          You can monitor your various departments' operations
-                          and get real-time information with the essential plan.
-                          With this subscription, you can make quick
-                          modifications either for improvements or based on
-                          specific process management.
-                        </p>
+                        <p>Users can handle a wide range of features and functionalities with Dynamics 365 Business Central Essentials license, including financial management, HRM, advanced AI forecasting, CRM, project management, supply chain management, warehouse management, and more.</p>
                       </div>
                     </div>
                   </div>
@@ -360,7 +319,7 @@ const BusinessCentralPricingLicensing = () => {
                             alt="icons-azure_project-management"
                           />
                         </div>
-                        <span>Premium Plan</span>
+                        <span>Features of Premium License</span>
                       </button>
                     </h3>
                     <div
@@ -370,20 +329,7 @@ const BusinessCentralPricingLicensing = () => {
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
-                        <p>
-                          D365 Business Central premium is designed for business
-                          owners, decision-makers, and key stakeholders. You can
-                          manage and monitor manufacturing, customer
-                          interactions, sales, inventory, purchasing, and more,
-                          all in one place.
-                        </p>
-                        <p>
-                          The premium plan includes all the features of the
-                          essential plan, plus the ability to monitor your
-                          manufacturing and service areas like supply planning,
-                          demand forecasting, service orders, prices, item
-                          management, contract agreements and more.
-                        </p>
+                        <p>Access to the features of Essentials License plus Manufacturing & distribution, advanced warehouse management, and Field Service Management capabilities.</p>
                       </div>
                     </div>
                   </div>
@@ -422,34 +368,18 @@ const BusinessCentralPricingLicensing = () => {
             </div>
             <div className="col-lg-8 align-self-center">
               <div className="side-heading-custom-01">
-                <h2>Dynamics 365 Business Central Implementation Cost</h2>
+                <h2>Business Central Implementation and Licensing </h2>
               </div>
               <div className="custom-p-001">
-                <p>
-                  <Link href="/dynamics-nav-to-business-central/">
-                    Upgrading from Dynamics NAV to Business Central
-                  </Link>{" "}
-                  or implementing Business Central right from scratch is a
-                  straightforward process. For a quick and hassle-free upgrade,
-                  you can book a call with us. One of our experts will connect
-                  with you to understand your business needs and send you a
-                  quote concerning the set-up cost, D365 Business Central
-                  implementation time, customization needs (if any), and the
-                  list of resources needed to implement Business Central at your
-                  premises.{" "}
-                </p>
-                <p>
-                  Our team not only helps you with the details of implementation
-                  cost, but we also let you know the exact process we follow and
-                  how we provide training about the user interface (UI) and
-                  usability of this powerful business management application.
-                </p>
-                <p>
-                  <b>Note:</b> The average cost of adopting Microsoft Dynamics
-                  365 varies significantly based on criteria such as the size of
-                  the business, whether Premium or Essentials licenses are
-                  purchased, and the complexity of the implementation.{" "}
-                </p>
+                <p>All business apps under <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> suite have simplified licensing, and Business Central is no different. It is known that <b>Dynamics 365 Business Central</b> is implemented via a global network of Dynamics 365 partners that own real industry expertise like <Link href="/"><a>Dynamics Square</a></Link>. So, connect with a Dynamics 365 Partner like us and <Link href="/dynamics-365-business-central-upgrade/"><a>request a Business Central Demo</a></Link> to evaluate its capabilities, pricing, and licensing.</p>
+                <p><b>For your understanding:</b></p>
+                <p>Business Central is designed and built for mid-market size companies to large international groups that need <Link href="https://www.dynamicssquare.com/products/microsoft-dynamics-365/"><a>modern ERP and CRM applications </a></Link> to meet their core business requirements (by configuring it to match your unique business processes) which range from accounting and financial management, sales, marketing, service module, and project management to supply chain, inventory, and operations management.</p>
+                <p><b>The implementation of a cloud ERP product like Dynamics 365 Business Central includes the following steps:</b></p>
+                <ul>
+                  <li>System setup and configuration</li>
+                  <li>Migration of your legacy data</li>
+                  <li>And finally, user training and <Link href="/dynamics-365-business-central-support/"><a>post-implementation support</a></Link>.</li>
+                </ul>
               </div>
             </div>
           </div>
@@ -558,7 +488,7 @@ const BusinessCentralPricingLicensing = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
                     >
-                      What is Microsoft Dynamics 365 Business Central?
+                     Can I get Dynamics 365 Business Central for free? 
                     </button>
                   </h3>
                   <div
@@ -567,17 +497,7 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        D365 Business Central is a cloud-based intelligent ERP
-                        solution developed by Microsoft to assist
-                        small-to-medium-sized businesses in managing their core
-                        business operations. Employees can effectively manage
-                        all processes thanks to Business Central's dynamic and
-                        user-friendly interface. Its customization flexibility
-                        enables you to streamline all your business processes
-                        and gives you the ability to access it anytime, anywhere
-                        and on any device.
-                      </p>
+                      <p>There is a <a href="free trial available for Business Central" rel="nofollow">free trial available for Business Central</a>. Once you sign up, you'll have access to many of the app's features. With the trial, you can test the app with sample data.</p>
                     </div>
                   </div>
                 </div>
@@ -589,7 +509,7 @@ const BusinessCentralPricingLicensing = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
                     >
-                      Can I get a demo before purchasing it?
+                     What is the pricing and licensing model for the Dynamics 365 Business Central?
                     </button>
                   </h3>
                   <div
@@ -598,18 +518,7 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        By logging in to the portal using your Microsoft Account
-                        ID, you can see all Business Central offerings as a
-                        demo. Or reach out to us to get to know more about{" "}
-                        <Link
-                          href="https://www.dynamicssquare.com/blog/business-central-demo-and-trial/"
-                          target="_self"
-                        >
-                          Business Central free trial
-                        </Link>
-                        , pricing and the cost of implementation.
-                      </p>
+                      <p>It costs $100 per named user per month to license Dynamics 365 Business Central Premium. Dynamics 365 Business Central includes all its functionality.</p><p>A Premium edition of the software has functionality for manufacturing, distribution, and financials, as well as field service and a light CRM (customer relationship management) app.</p>
                     </div>
                   </div>
                 </div>
@@ -620,9 +529,7 @@ const BusinessCentralPricingLicensing = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
-                    >
-                      How different are Dynamics NAV and Business Central?
-                    </button>
+                    >How does Dynamics 365 licensing work?</button>
                   </h3>
                   <div
                     id="faq-content-3"
@@ -630,23 +537,7 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        In comparison to Dynamics 365 Business Central, Dynamics
-                        NAV is an older version. There is no discontinuation of
-                        Dynamics NAV by Microsoft, but instead 365 Business
-                        Central is a result of a series of technological
-                        advancements, adding lots of new features and benefits
-                        to the user's experience.
-                      </p>
-                      <p>
-                        It should be noted that NAV cannot be operated or
-                        structured on-premises, whereas Business Central can. In
-                        addition, Business Central can be arranged on premises,
-                        in the cloud, and in hybrid environments. Anywhere,
-                        anytime, and from any device you want, Business Central
-                        provides flexibility in operating and managing the
-                        business.
-                      </p>
+                      <p>Licensing is primarily done through named user subscriptions. There are two types of Dynamics 365 users. There are two types of users: "full users" and "light users." Full users are those whose work requires the application's functionality.</p>
                     </div>
                   </div>
                 </div>
@@ -657,9 +548,7 @@ const BusinessCentralPricingLicensing = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
-                    >
-                      Is customization available for Business Central?
-                    </button>
+                    >What is the price of implementing Dynamics 365 Business Central?</button>
                   </h3>
                   <div
                     id="faq-content-4"
@@ -667,13 +556,10 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        One of the greatest benefits of Dynamics 365 Business
-                        Central is its ability to be customized according to the
-                        needs of the business. Dynamics Square can help you
-                        overcome any obstacles that might arise if your business
-                        has different kinds of conditions.
-                      </p>
+                      <p>Below is the Business Central Implementation Package that we mostly suggest to our delighted customers.</p>
+                      <p>It ranges between $100,000 to $300,000 price tag.</p>
+                      <p>It seems exceedingly high because the implementation of a CRM or ERP solution for a global organization that employs 100s and 1000s of employees is complex.</p>
+                      <p>We understand, but it is a one-time implementation cost to deploy your preferred license.</p>
                     </div>
                   </div>
                 </div>
@@ -685,7 +571,7 @@ const BusinessCentralPricingLicensing = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
                     >
-                      How to buy the Business Central Subscription?
+                     What is the number of companies you can have in Business Central?
                     </button>
                   </h3>
                   <div
@@ -694,14 +580,7 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Microsoft does not sell licenses or subscriptions
-                        directly to end users for Business Central. A licensed
-                        version of the program can be purchased from an
-                        authorized vendor partner, like Dynamics Square. In
-                        addition, the vendor partner is responsible for all
-                        support and services.
-                      </p>
+                      <p>It is 5 when you create them at first. But if you want to increase 5 by 1 or more companies in Dynamics 365 Business Central, go to My Settings under the setup gear icon and follow the given instructions.</p>
                     </div>
                   </div>
                 </div>
@@ -712,9 +591,7 @@ const BusinessCentralPricingLicensing = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-6"
-                    >
-                      Can I set up the Business Central on-premises?
-                    </button>
+                    >How does Business Central licensing work?</button>
                   </h3>
                   <div
                     id="faq-content-6"
@@ -722,13 +599,7 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Yes, after using Business Central on-premises, you can
-                        deploy it in the cloud (SaaS or PaaS). It is possible to
-                        deploy Business Central in SaaS (public cloud), PaaS
-                        (private cloud), and on-premises. But the answer depends
-                        on your requirements.
-                      </p>
+                      <p>Countless sandbox environments are included with a Dynamics 365 Business Central license. Each license includes 80 GB of data storage but added storage can be purchased if necessary.</p>
                     </div>
                   </div>
                 </div>
@@ -740,8 +611,7 @@ const BusinessCentralPricingLicensing = () => {
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-7"
                     >
-                      Is Dynamics 365 Business Central available on mobile
-                      devices?
+                    How many objects are in Business Central?
                     </button>
                   </h3>
                   <div
@@ -750,187 +620,33 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Mobile devices are supported for viewing and operating
-                        the processes. Using devices like mobile phones,
-                        tablets, and PCs with a supported browser and an active
-                        internet connection you can easily access Business
-                        Central.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-8"
-                    >
-                      What are the capabilities of Dynamics 365 Business
-                      Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-8"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        You can manage and streamline your business with
-                        Dynamics 365 Business Central from one platform. As a
-                        result, all processes and operations are smooth and
-                        minimal human interaction is required, making it simpler
-                        to use and understand.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-9"
-                    >
-                      How will customers update to the new versions of Dynamics
-                      365 Business Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-9"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        No user can manually update the version of Dynamics 365
-                        Business Central since cloud technology makes sure of
-                        it. When there is a new update sent out by Microsoft, it
-                        will automatically be updated following previous
-                        notifications regarding changes. That's the finest
-                        attribute resulting in no money and physical exertion.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-11"
-                    >
-                      Who can install/uninstall customized extensions of
-                      Dynamics 365 Business Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-11"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        Only the admin or the customer has the power to add or
-                        manage the extension of Business Central. If the
-                        customer needs any changes to its version of Business
-                        Central, they need to contact Dynamics Square to settle
-                        all their problems.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-12"
-                    >
-                      Does a customer need an Office 365 subscription to use
-                      Dynamics 365 Business Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-12"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        No, but for a seamless experience, you can integrate
-                        Office 365 with Dynamics 365 Business Central. Without
-                        Office, you can work at Business Central but with
-                        limited features and tools.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="accordion-item">
-                  <h3 className="accordion-header">
-                    <button
-                      className="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#faq-content-13"
-                    >
-                      What's new in Dynamics 365 Business Central?
-                    </button>
-                  </h3>
-                  <div
-                    id="faq-content-13"
-                    className="accordion-collapse collapse"
-                    data-bs-parent="#faqlist1"
-                  >
-                    <div className="accordion-body">
-                      <p>
-                        <b>
-                          Some of the new features in Dynamics 365 Business
-                          Central include:
-                        </b>
-                      </p>
-                      <ul>
-                        <li>
-                          Better financial and supply chain sectors, as well as
-                          improved reporting.
-                        </li>
-                        <li>
-                          Increased availability at the national and regional
-                          levels.
-                        </li>
-                        <li>
-                          AL developer productivity has increased in Visual
-                          Studio Code.
-                        </li>
-                        <li>
-                          Governance and administrative aspects have been
-                          improved.
-                        </li>
-                        <li>
-                          Integration with Microsoft Power Platform is seamless.
-                        </li>
-                        <li>Improved Onboarding Capabilities</li>
-                        <li>
-                          Microsoft 365 boosts the overall productivity of your
-                          organization.
-                        </li>
-                        <li>Enhanced user experience.</li>
-                      </ul>
-                      <p>
-                        <b>Read more here:</b>{" "}
-                        <a href="https://www.erpsoftwareblog.com/2022/07/dynamics-365-business-central-2022-wave-2/">
-                          {" "}
-                          Dynamics 365 Business Central 2022 Wave 2: What's New
-                          & Planned?
-                        </a>
-                      </p>
+                      <p><b>We have charted the database specifications for you:</b></p>
+                      <table class="table table-striped align-middle">
+                        <thead>
+                          <tr>
+                            <th>Feature</th>
+                            <th> Characteristic</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Database maximum number of objects</td>
+                            <td>2,147,483,647</td>
+                          </tr>
+                          <tr>
+                            <td>Database file size</td>
+                            <td>524,272 terabytes</td>
+                          </tr>
+                          <tr>
+                            <td>Maximum # of physical disk files</td>
+                            <td>32,767</td>
+                          </tr>
+                          <tr>
+                            <td>Largest no. of characters in application object names</td>
+                            <td>30</td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
                 </div>

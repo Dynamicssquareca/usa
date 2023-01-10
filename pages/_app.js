@@ -35,6 +35,8 @@ function MyApp({ Component, pageProps }) {
       router.asPath == '/thank-you/' ||
       router.asPath == '/thanks-webinar-registration/' ||
       router.asPath == '/upgrade-nav-to-business-central/' ||
+      router.asPath == '/upgrade-nav-to-business-central/#' ||
+      router.asPath == '/upgrade-nav-to-business-central/?' ||
       router.asPath == '/dynamics-nav-support-ending-soon/'
       
   )  {

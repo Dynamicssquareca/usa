@@ -601,6 +601,22 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/products/microsoft-dynamics-365-finance-operations/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/F&Q.png"
+                                            alt="F&Q"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Dynamics F&O</span>
+                                          <p>Accelerate your Finance and Inventory more Efficiently</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>

@@ -25,7 +25,7 @@ const DynamicsNavSupportEndingSoon = () => {
               <h1>
               Stop procrastinating. It's time to make a move! 
               </h1>
-              <p>Get up and upgrade your NAV/Navision to Dynamics 365 <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>, and get started to: </p>
+              <p>Get up and upgrade your NAV/Navision to <Link href="/products/dynamics-365-business-central/"><a> Dynamics 365 Business Central</a></Link>, and get started to: </p>
               <ul className="checkmark">
                 <li>Create Faster, deliver quickly & Collaborate anytime, anywhere </li>
                 <li>Boost your ROIs using next-level intelligent reporting and analytics </li>

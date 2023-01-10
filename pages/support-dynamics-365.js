@@ -68,7 +68,7 @@ const SupportDynamics365Mailer = () => {
                         <div className="wr-in">
                           <img src="/img/Flexible subscription.svg" alt="icons" />
                         </div>
-                        <span>Premier Support for Dynamics 365 Business Central</span>
+                        <span>Premier Support </span>
                       </button>
                     </h3>
                     <div
@@ -176,7 +176,7 @@ const SupportDynamics365Mailer = () => {
             <div className="col-lg-8">
             <div className="call-to-action-content">
                 <h3>Why should you choose Dynamics Square? </h3>
-                <p>If you are looking for support for Dynamics 365 BC, you can reach out to a certified partner or a third-party cloud service/solution provider (CSP) like Dynamics Square which specializes in providing support for Dynamics NAV, Microsoft Dynamics 365,Microsoft Dynamics GP, Microsoft Dynamics AX  Power BI and third party tools integration.</p>
+                <p>If you are looking for support for Dynamics 365 BC, you can reach out to a certified partner or a third-party cloud service/solution provider (CSP) like Dynamics Square which specializes in providing support for Dynamics NAV, Microsoft Dynamics 365,Microsoft Dynamics GP, Microsoft Dynamics AX, Power BI and third party tools integration.</p>
               </div>
             </div>
             <div className="col-lg-4">

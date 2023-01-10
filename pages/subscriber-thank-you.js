@@ -18,7 +18,8 @@ export default function SubscriberThank() {
       <div className="container">
         <div className="row justify-content-center ">
           <div className="col-lg-7 align-self-center text-center custom0004">
-            <h1>Thank You For <br />Subscribe Our Website</h1>
+            <h1>Thank You !</h1>
+            <h2>Stay connected for newest insights and updates.</h2>
             <div className="text-center">
               <div className="">
                 <a href="/" className="btn-get-started scrollto">
