@@ -545,7 +545,7 @@ const ContactUs = () => {
                           <div className="icons-left">
                             <i className="bi bi-telephone"></i>
                           </div>
-                          <div className="content-right">+65 313 84108</div>
+                          <div className="content-right">+65 6232 6935</div>
                         </div>
                         <div className="contact-list">
                           <div className="icons-left">
