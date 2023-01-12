@@ -17,10 +17,10 @@ const BusinessCentral = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Business Central: Microsoft's Leading Cloud ERP</title>
+        <title>Dynamics 365 Business Central Partner USA | Dynamics Square</title>
         <meta
           name="description"
-          content="Business Central brings ops to a unified cloud platform for high productivity. Contact a Dynamics 365 implementation partner like Dynamics Square for support."
+          content="Looking for a trusted Dynamics 365 Business Central partner in the USA? Contact Dynamics Square to drive growth and sustainability in your business."
         />
         <link
           rel="canonical"

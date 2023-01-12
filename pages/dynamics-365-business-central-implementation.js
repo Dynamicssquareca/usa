@@ -240,7 +240,7 @@ const BusinessCentralImplementation = () => {
                             alt="icons_warehouse"
                           />
                         </div>
-                        <span>Warehouse Mangagement</span>
+                        <span>Warehouse Management</span>
                       </button>
                     </h3>
                     <div
