@@ -134,7 +134,7 @@ const FooterHide = () =>{
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                  800 Steeles Ave. W. #B10155 Thornhill, ON. L4J 7L23E2
+                  800 Steeles Ave. W. #B10155 Thornhill, ON. L4J 7L2
                 </div>
               </div>
               <div className="contact-list">
