@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Head from 'next/head';
-import Image from 'next/image';
-import Script from 'next/script';
-import Link from 'next/link';
+import Head from "next/head";
+import Image from "next/image";
+import Script from "next/script";
+import Link from "next/link";
 import ModalVideo from "react-modal-video";
 import Blog from "../../components/Blog";
 const Finance = () => {
@@ -91,7 +91,7 @@ const Finance = () => {
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -109,7 +109,6 @@ const Finance = () => {
                     <div
                       id="fin1"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
@@ -124,7 +123,7 @@ const Finance = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -142,7 +141,6 @@ const Finance = () => {
                     <div
                       id="fin2"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
                       data-bs-parent="#accnew"
                     >
                       <div className="accordion-body">
@@ -164,7 +162,7 @@ const Finance = () => {
                 <hr className="mob-disp" />
                 <div className="accordion" id="accnews">
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -182,7 +180,6 @@ const Finance = () => {
                     <div
                       id="fin3"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
@@ -197,7 +194,7 @@ const Finance = () => {
                   </div>
                   <hr />
                   <div className="accordion-item">
-                    <h3 className="accordion-header" id="headingTwo">
+                    <h3 className="accordion-header">
                       <button
                         className="accordion-button collapsed"
                         type="button"
@@ -218,7 +215,6 @@ const Finance = () => {
                     <div
                       id="fin4"
                       className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
                       data-bs-parent="#accnews"
                     >
                       <div className="accordion-body">
@@ -810,7 +806,7 @@ const Finance = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <Link href="/pdf/Nucleus-Research.pdf" >
+                    <Link href="/pdf/Nucleus-Research.pdf">
                       <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i>Nucleus
                         Research Report 2020 - Dynamics 365 Finance
@@ -818,7 +814,7 @@ const Finance = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pdf/forrester.pdf" >
+                    <Link href="/pdf/forrester.pdf">
                       <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i>Forrester
                         Report - The Economic Impact of Dynamics 365 Finance
@@ -826,9 +822,7 @@ const Finance = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/Top-8-Trends-Every-CFO-Should-Know.pdf"
-                    >
+                    <Link href="/pdf/Top-8-Trends-Every-CFO-Should-Know.pdf">
                       <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i>Top 8 Trends
                         Every CFO Should Know
@@ -836,9 +830,7 @@ const Finance = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/A-New-Approach-to-Evaluating-ERP.pdf"
-                    >
+                    <Link href="/pdf/A-New-Approach-to-Evaluating-ERP.pdf">
                       <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i>A New Approach
                         to Evaluating ERP
@@ -846,9 +838,7 @@ const Finance = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/Modular-ERP-The-Key-to-Corporate-Agility.pdf"
-                    >
+                    <Link href="/pdf/Modular-ERP-The-Key-to-Corporate-Agility.pdf">
                       <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i>Modular ERP:
                         The Key to Corporate Agility
@@ -856,9 +846,7 @@ const Finance = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf"
-                    >
+                    <Link href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf">
                       <a target="_blank">
                         <i className="bi bi-file-earmark-pdf"></i>Licensing
                         Guide
@@ -873,9 +861,7 @@ const Finance = () => {
               <div className="blogs-extra-right">
                 <ul>
                   <li>
-                    <Link
-                      href="https://youtu.be/jTgqXkQvv1c"
-                    >
+                    <Link href="https://youtu.be/jTgqXkQvv1c">
                       <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
                         Finance: Collections automation
@@ -883,9 +869,7 @@ const Finance = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="https://youtu.be/jTgqXkQvv1c"
-                    >
+                    <Link href="https://youtu.be/jTgqXkQvv1c">
                       <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
                         Finance: Vendor invoice automation
@@ -893,9 +877,7 @@ const Finance = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      href="https://youtu.be/V8EErSL028w"
-                    >
+                    <Link href="https://youtu.be/V8EErSL028w">
                       <a target="_blank">
                         <i className="bi bi-box-arrow-up-right"></i>Dynamics 365
                         Finance: Asset leasing
