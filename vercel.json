@@ -327,7 +327,12 @@
     { "source": "/dynamics-365-scm-cloud-vs-on-premise/", "destination": "/microsoft-dynamics-365-cloud-vs-on-premise/", "statusCode": 301 },
     { "source": "/power-bi-architecture/", "destination": "https://blog.dynamicssquare.com/power-bi-architecture-and-its-components-explained/", "statusCode": 301 },
     { "source": "/products/microsoft-dynamics-365-mixed-reality/", "destination": "/products/microsoft-dynamics-365/mixed-reality/", "statusCode": 301 },
-    { "source": "/upgrade-dynamics-nav-to-dynamics-365-business-central/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 }
-
+    { "source": "/upgrade-dynamics-nav-to-dynamics-365-business-central/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 },
+    { "source": "/email-ax-to-finance/", "destination": "https://blog.dynamicssquare.com/migrate-dynamics-ax-to-dynamics-365/", "statusCode": 301 },
+    { "source": "/email-dynamics365-crm/", "destination": "/products/microsoft-dynamics-crm/", "statusCode": 301 },
+    { "source": "/email-gp-to-bc/", "destination": "https://blog.dynamicssquare.com/dynamics-365-business-central-vs-dynamics-gp/", "statusCode": 301 },
+    { "source": "/emailer-power-bi/", "destination": "/products/microsoft-power-bi/", "statusCode": 301 },
+    { "source": "/upgrade-nav-to-business-central/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 },
+    { "source": "/support-dynamics-365/", "destination": "/products/microsoft-dynamics-365/", "statusCode": 301 }
   ]
 }
