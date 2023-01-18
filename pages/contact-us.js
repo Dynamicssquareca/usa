@@ -399,7 +399,7 @@ const ContactUs = () => {
                           <div className="icons-left">
                             <i className="bi bi-telephone"></i>
                           </div>
-                          <div className="content-right">+1 778 652 3656</div>
+                          <div className="content-right">+1 778 381 5388</div>
                         </div>
                         <div className="contact-list">
                           <div className="icons-left">
@@ -429,7 +429,7 @@ const ContactUs = () => {
                           <div className="icons-left">
                             <i className="bi bi-telephone"></i>
                           </div>
-                          <div className="content-right">+1 289 807 2802</div>
+                          <div className="content-right">+1 289 807 0740</div>
                         </div>
                         <div className="contact-list">
                           <div className="icons-left">

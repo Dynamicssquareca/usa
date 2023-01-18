@@ -268,8 +268,8 @@ const Footer = () =>{
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <a target="_self" rel="" href="tel:+17786523656">
-                    +1 778 652 3656
+                  <a target="_self" rel="" href="tel:+17783815388">
+                  +1 778 381 5388
                   </a>
                 </div>
               </div>
@@ -295,8 +295,8 @@ const Footer = () =>{
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <a target="_self" rel="" href="tel:+12898072802">
-                    +1 289 807 2802
+                  <a target="_self" rel="" href="tel:+12898070740">
+                  +1 289 807 0740
                   </a>
                 </div>
               </div>
