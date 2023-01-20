@@ -17,6 +17,7 @@ const FinanceCloudvsOnpremise = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/dynamics-365-finance-cloud-vs-on-premise/"
         />
+          <meta name="robots" content="noindex, nofollow" />
       </Head>
 
       <section className="Solution-banner hero-1 hero">

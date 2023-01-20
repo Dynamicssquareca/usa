@@ -15,6 +15,7 @@ const DynamicsNavnowBusinessCentral = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/dynamics-nav-is-now-dynamics-365-business-central/"
         />
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
 
       <section className="Solution-banner hero-1 hero">

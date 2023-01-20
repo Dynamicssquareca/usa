@@ -15,6 +15,7 @@ const Dynamics365vsSalesForce = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/dynamics-365-vs-salesforce/"
         />
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
 
       <section className="Solution-banner hero-1 hero">
