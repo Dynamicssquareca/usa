@@ -37,16 +37,13 @@ const PowerBIGuide = () => {
         <title>Power BI: The Definitive Guide For SMBs</title>
         <meta
           name="description"
-          content="A complete guide to Power BI. Learn how to transform your data into interactive reports that drive results."
+          content="A comprehensive guide to Power BI, including how to create interactive reports that drive results."
         />
         <meta
           name="keywords"
           content="power bi guide, guide to power bi, ultimate power bi guide, comprehensive power bi guide, power bi guide for SMBs, power bi buisness guide, power bi guide for business"
         />
-        <meta
-          name="robots"
-          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
-        />
+        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.com/guides/power-bi-guide-for-smb/"
