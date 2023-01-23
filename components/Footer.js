@@ -320,7 +320,8 @@ const Footer = () =>{
                   <img
                     src="/img/dsuk-footer-logo.svg"
                     alt="dsuk-footer-logo"
-                  
+                    width="230"
+                    height="81"
                   />
                 </a>
                 <p>
@@ -333,13 +334,16 @@ const Footer = () =>{
                   src="/img/microsoft-partner.svg"
                   alt="microsoft-partner"
                   className="footer-img"
+                  width="230"
+                  height="81"
                  
                 />
                 <img
                   src="/img/Tech-For-Socil-Impact.svg"
                   alt="Tech-For-Socil-Impact"
                   className="footer-img"
-            
+                  width="230"
+                  height="81"
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">

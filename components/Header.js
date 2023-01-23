@@ -28,6 +28,8 @@ class Header extends Component {
                   <img
                     src="/img/dynamicssqure-logo.svg"
                     alt="Dynamics Square logo"
+                    width="282"
+                    height="19"
                   />
                 </a>
               </div>
@@ -116,6 +118,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-businesscentral.svg"
                                             alt="dynamics-365-businesscentral"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -135,6 +139,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-finance.svg"
                                             alt="dynamics-365-finance"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -151,6 +157,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-supplychainmanagement.svg"
                                             alt="dynamics-365-supplychainmanagement"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -171,6 +179,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-customer-engagement.svg"
                                             alt="dynamics-365-customer-engagement"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -189,6 +199,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-sales.svg"
                                             alt="dynamics-365-sales"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -207,6 +219,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-customer-service.svg"
                                             alt="dynamics-365-customer-service"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -226,6 +240,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-fieldservice.svg"
                                             alt="dynamics-365-fieldservice"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -245,6 +261,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-commerce.svg"
                                             alt="dynamics-365-commerce"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -264,6 +282,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-project-management.svg"
                                             alt="dynamics-365-project-management"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -283,6 +303,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-marketing.svg"
                                             alt="dynamics-365-marketing"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -302,6 +324,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/dynamics-365-HRM.svg"
                                             alt="dynamics-365-HRM"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -326,6 +350,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/iot-hub.svg"
                                             alt="iot-hub"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -345,6 +371,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/iot-central.svg"
                                             alt="iot-central"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -364,6 +392,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/iot-sphere.svg"
                                             alt="iot-sphere"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -383,6 +413,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/iot-edge.svg"
                                             alt="iot-edge"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -402,6 +434,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/digital-twins.svg"
                                             alt="digital-twins"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -420,6 +454,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/machine-learning.svg"
                                             alt="machine-learning"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -448,6 +484,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/power-bi.svg"
                                             alt="power-bi"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -467,6 +505,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/power-apps.svg"
                                             alt="power-apps"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -486,6 +526,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/power-automate.svg"
                                             alt="power-automate"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -505,6 +547,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/virtual agent.svg"
                                             alt="virtual agent"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -533,6 +577,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/NAV.png"
                                             alt="NAV"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -551,6 +597,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/CRM.png"
                                             alt="CRM"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -570,6 +618,8 @@ class Header extends Component {
                                           <img
                                             src="/img//menu-icons/AX.png"
                                             alt="AX"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -589,6 +639,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/GP.png"
                                             alt="GP"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -608,6 +660,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/F&Q.png"
                                             alt="F&Q"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -633,6 +687,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/azure.svg"
                                             alt="azure"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -652,6 +708,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/mixed-Reality-icons.svg"
                                             alt="mixed-Reality-icons"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -671,6 +729,8 @@ class Header extends Component {
                                           <img
                                             src="/img/menu-icons/AI.svg"
                                             alt="AI"
+                                            width="48"
+                                            height="48"
                                           />
                                         </div>
                                         <div className="content">
@@ -911,11 +971,11 @@ class Header extends Component {
                 >
                   <div className="offcanvas-header">
                     <a href="/" className="logo d-flex align-items-center">
-                      <Image
+                      <img
                         src="/img/dynamicssqure-logo.svg"
                         alt="Dynamics Square logo"
-                        width={550}
-                        height={90}
+                        width="282"
+                    height="19"
                       />
                     </a>
                     <button

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 const Blog = () => {
   return (
     <>
@@ -13,11 +14,11 @@ const Blog = () => {
             <Link href="https://blog.dynamicssquare.com/what-are-dynamics-365-for-sales-benefits-and-capabilities/">
             <a
             >
-              <img
+              <Image
                 src="/img/MicrosoftTeams-image-4.jpg"
                 alt="imgs"
-                width="200"
-                height="104"
+                width={1200}
+                height={627}
               />
             </a>
             </Link>
@@ -38,11 +39,11 @@ const Blog = () => {
           <div className="blogs-extra-left-img">
             <Link href="https://blog.dynamicssquare.com/microsoft-dynamics-nav-vs-business-central/">
             <a>
-              <img
+              <Image
                 src="/img/Microsoft-Dynamics-NAV-and-Business-Central.jpg"
                 alt="imgs"
-                width="200"
-                height="104"
+                width={1200}
+                height={627}
               />
             </a>
             </Link>
@@ -63,11 +64,11 @@ const Blog = () => {
             <Link href="https://blog.dynamicssquare.com/why-your-business-needs-power-bi/">
             <a
             >
-              <img
+              <Image
                 src="/img/Why-Your-Business-Needs-Power-B.jpg"
                 alt="imgas"
-                width="200"
-                height="104"
+                width={1200}
+                height={627}
               />
             </a>
             </Link>
@@ -87,11 +88,11 @@ const Blog = () => {
           <div className="blogs-extra-left-img">
             <Link  href="https://blog.dynamicssquare.com/how-to-generate-interactive-reports-in-power-bi/">
             <a>
-              <img
+              <Image
                 src="/img/Generate-Interactive-Reports-in-Power-BI.jpg"
                 alt="imgs"
-                width="200"
-                height="104"
+                width={1200}
+                height={627}
               />
             </a>
             </Link>

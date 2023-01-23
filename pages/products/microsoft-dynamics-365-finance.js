@@ -101,7 +101,7 @@ const Finance = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Budget.svg" alt="icons" />
+                          <img src="/img/Budget.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Forecasting & Budgeting</span>
                       </button>
@@ -133,7 +133,7 @@ const Finance = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img src="/img/Financials-3.svg" alt="icons" />
+                          <img src="/img/Financials-3.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Project Management</span>
                       </button>
@@ -172,7 +172,7 @@ const Finance = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Project.svg" alt="icons" />
+                          <img src="/img/Project.svg" alt="icons" width="36" height="36" />
                         </div>
                         <span>Finance & Accounting</span>
                       </button>
@@ -207,6 +207,7 @@ const Finance = () => {
                           <img
                             src="/img/International-Accounting-3.svg"
                             alt="icons"
+                            width="36" height="36"
                           />
                         </div>
                         <span>Global Financial Management</span>
@@ -385,6 +386,8 @@ const Finance = () => {
                   <img
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -405,6 +408,8 @@ const Finance = () => {
                   <img
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
@@ -425,6 +430,8 @@ const Finance = () => {
                   <img
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width="64"
+                    height="64"
                   />
                 </div>
                 <div className="card_new_content">
