@@ -424,7 +424,7 @@ const Footer = () =>{
                     <i className="bi bi-chevron-right"></i>
                     <a
                       target="_self"
-                      href="https://www.dynamicssquare.com/blog/"
+                      href="https://blogdynamicssquare.ca/"
                       rel=""
                     >
                       Blog
