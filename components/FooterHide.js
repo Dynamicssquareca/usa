@@ -264,7 +264,7 @@ const FooterHide = () =>{
                     <i className="bi bi-chevron-right"></i>
                     <a
                       target="_self"
-                      href="https://blog.dynamicssquare.ca/"
+                      href="https://blog.dynamicssquare.com/"
                       rel=""
                     >
                       Blog

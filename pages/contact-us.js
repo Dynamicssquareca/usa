@@ -799,7 +799,7 @@ const ContactUs = () => {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>
-                    <a href="/blog/" rel="">
+                    <a href="https://blog.dynamicssquare.com/" rel="">
                       Blog
                     </a>
                   </li>
