@@ -13,7 +13,7 @@ const MigrateFandSC = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.co.uk/why-to-migrate-to-d365-finance-supply-chain/"
+          href="https://www.dynamicssquare.com/why-to-migrate-to-d365-finance-supply-chain/"
         />
       </Head>
       <section className="Solution-banner hero-1 hero">

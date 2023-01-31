@@ -11,7 +11,7 @@ export default function SubscriberThank() {
       />
       <link
         rel="canonical"
-        href="https://www.dynamicssquare.com/thank-you/"
+        href="https://www.dynamicssquare.com/subscriber-thank-you/"
       />
     </Head>
     <section className="Solution-banner hero-1 custom-pd-4">
