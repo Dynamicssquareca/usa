@@ -165,7 +165,7 @@ const PowerBIImplementation = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Contact our Business Central Support team now!</span>
+                      <span>Contact our Business Central Experts Now!</span>
                     </a>
                   </Link>
                 </div>
@@ -282,7 +282,7 @@ const PowerBIImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>It is difficult to say the specific <b>cost of NaviPayroll integration</b> with Business Central as it may vary depending on several factors such as the specific configuration and custom requirements, the vendor, and the region. It's best to <b>contact NaviPayroll</b> or a <b>Microsoft Partner</b> like <b>Dynamics Square</b> for a detailed and accurate quote.</p>
+                      <p>It is difficult to say the specific <b>cost of NaviPayroll integration</b> with Business Central as it may vary depending on several factors such as the specific configuration and custom requirements, the vendor, and the region. It's best to <b>contact Microsoft Gold Partners</b> like <b>Dynamics Square</b> for a detailed and accurate quote.</p>
                       <p><Link href="/"><a>You can find an overview of Microsoft Gold Partners here </a></Link></p>
                     </div>
                   </div>
