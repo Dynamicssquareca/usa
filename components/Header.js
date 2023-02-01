@@ -793,6 +793,11 @@ class Header extends Component {
                                 D365 Business Central vs. NetSuite
                               </a>
                             </li>
+                            <li>
+                              <a href="/payroll-for-business-central-nav/">
+                              Payroll for Business Central
+                              </a>
+                            </li>
                           </ul>
                         </div>
                       </div>
