@@ -164,56 +164,6 @@ const Partner = () => {
             </div>
           </div>
         </section>
-
-
-        <section className="busine_service_bottom custom0001">
-          <div className="container">
-            <div className="row g-5">
-            <div className="col-lg-8 align-self-center">
-            <div className="side-heading">
-                  <h3>
-                  WMS Mobile - Tasklet Factory
-                  </h3>
-                </div>
-                <div className="custom002">
-                  <p>WMS Mobile is a powerful solution capable of streamlining warehouse operations and optimising existing processes for enhanced ROI. Along with a user-friendly scanner solution, it offers seamless connectivity in online as well as offline modes, eliminating the dependability of a sustainable internet connection. WMS Mobile is so powerful that it easily integrates with Microsoft Dynamics 365 SCM/FO/AX or Microsoft Dynamics 365 BC/NAV without any issue, resulting in consistent growth and rapid scalability.</p>
-                  <a href="http://www.taskletfactory.com" target="_blank">
-                  www.taskletfactory.com
-                  </a>
-                </div>
-              </div>
-              <div className="col-lg-1 align-self-center"></div>
-              <div className="col-lg-3 align-self-center">
-                <img src="/img/tasklet-factoty-logo.png" alt="tasklet-factoty-logo" />
-              </div>
-             
-             
-            </div>
-          </div>
-        </section>
-        <section className="busine_service_bottom custom0002">
-          <div className="container">
-            <div className="row g-5">
-              <div className="col-lg-3 align-self-center">
-                <img src="/img/continialogo.svg" alt="continialogo" />
-              </div>
-              <div className="col-lg-1 align-self-center"></div>
-              <div className="col-lg-8 align-self-center">
-              <div className="side-heading">
-                  <h3>
-                  Continia - Expense Management
-                  </h3>
-                </div>
-                <div className="custom002">
-                  <p>With more than 30 years of experience, Continia has been in the industry to automate and simplify complex financial processes. It has over 15000+ global customers who are availing of a fully connected experience after integrating this solution with Business Central. With effective use, you can automate up to 90% of your recurring and manual processes to get enhanced productivity and maximised revenue.</p>
-                  <a href="https://www.continia.com" target="_blank">
-                  https://www.continia.com
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </>
     );
   };
