@@ -254,13 +254,15 @@ const Footer = () =>{
             </div>
 
             <div className="col-lg-3">
-              <div className="const-list-name">British Columbia</div>
+              <div className="const-list-name">Chicago</div>
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                  398-2416 Main St. Vancouver BC V5T 3E2
+                111 North Wabash Ave. Ste.100
+                The Garland Building
+                Chicago, IL 60602
                 </div>
               </div>
               <div className="contact-list">
@@ -268,8 +270,8 @@ const Footer = () =>{
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <a target="_self" rel="" href="tel:+17783815388">
-                  +1 778 381 5388
+                  <a target="_self" rel="" href="+1 281 899 0865">
+                  +1 281 899 0865
                   </a>
                 </div>
               </div>
@@ -281,13 +283,13 @@ const Footer = () =>{
               </div>
             </div>
             <div className="col-lg-3">
-              <div className="const-list-name">Ontario</div>
+              <div className="const-list-name">New Jersey</div>
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                  800 Steeles Ave. W. #B10155 Thornhill, ON. L4J 7L2
+                500 Paterson Plank Road Union City, NJ 07087
                 </div>
               </div>
               <div className="contact-list">
@@ -295,8 +297,8 @@ const Footer = () =>{
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <a target="_self" rel="" href="tel:+12898070740">
-                  +1 289 807 0740
+                  <a target="_self" rel="" href="tel:+1 213 784 0845">
+                 +1 213 784 0845
                   </a>
                 </div>
               </div>

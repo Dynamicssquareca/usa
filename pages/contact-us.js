@@ -247,7 +247,7 @@ const ContactUs = () => {
                     aria-labelledby="profile-tab"
                   >
                     <div className="row justify-content-center">
-                      <div className="col-lg-4">
+                      <div className="col-lg-3">
                         <div className="cont-hh">
                           <h3>California</h3>
                         </div>
@@ -276,7 +276,7 @@ const ContactUs = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="col-lg-4">
+                      <div className="col-lg-3">
                         <div className="cont-hh">
                           <h3>Texas</h3>
                         </div>
@@ -293,6 +293,67 @@ const ContactUs = () => {
                             <i className="bi bi-telephone"></i>
                           </div>
                           <div className="content-right">+1 281 899 0865</div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-envelope"></i>
+                          </div>
+                          <div className="content-right">
+                            <a href="mailto:info@dynamicssquare.com">
+                              info@dynamicssquare.com
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-3">
+                        <div className="cont-hh">
+                          <h3>Chicago</h3>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-geo-alt"></i>
+                          </div>
+                          <div className="content-right">
+                          111 North Wabash Ave. Ste.100
+                          The Garland Building
+                          Chicago, IL 60602
+                          </div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-telephone"></i>
+                          </div>
+                          <div className="content-right">+1 281 899 0865</div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-envelope"></i>
+                          </div>
+                          <div className="content-right">
+                            <a href="mailto:info@dynamicssquare.com">
+                              info@dynamicssquare.com
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-3">
+                        <div className="cont-hh">
+                          <h3>New Jersey</h3>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-geo-alt"></i>
+                          </div>
+                          <div className="content-right">
+                          500 Paterson Plank Road
+                          Union City, NJ 07087
+                          </div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-telephone"></i>
+                          </div>
+                          <div className="content-right">+1 213 784 0845</div>
                         </div>
                         <div className="contact-list">
                           <div className="icons-left">
