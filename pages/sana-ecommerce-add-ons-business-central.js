@@ -39,10 +39,10 @@ const SanaEcommerce = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/Dynamics-365-Business-Central.png"
-                alt="Microsoft Dynamics 365 Finance"
-                width={868}
-                height={487}
+                src="/img/Sana-Commerce-banner.png"
+                alt="Sana-Commerce-banner"
+                width={960}
+                height={666}
               />
             </div>
           </div>
@@ -65,8 +65,8 @@ const SanaEcommerce = () => {
                 <table className="table table-striped align-middle ">
                   <thead>
                     <tr>
-                      <th>Key Features</th>
-                      <th>Availability</th>
+                      <th><center>Key Features</center></th>
+                      <th><center>Availability</center></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -207,10 +207,10 @@ const SanaEcommerce = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <Image
-                      src="/img/manufacturing side.png"
+                      src="/img/Sana-Commerce-side.png"
                       className="fix-im"
-                      alt="manufacturing side"
-                      width={553} height={531}
+                      alt="Sana-Commerce-side"
+                      width={1085} height={656}
                     />
                   </div>
                 </div>
@@ -325,7 +325,7 @@ const SanaEcommerce = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p><b>No.</b> However, if you upgrade your Dynamics NAV to Business Central, so that you can take advantage of cloud technology in order to make business operations more agile and profitable.</p>
+                      <p><b>No.</b> However, if you upgrade your <Link href="/dynamics-nav-to-business-central/"><a>Dynamics NAV to Business Central</a></Link>, so that you can take advantage of cloud technology in order to make business operations more agile and profitable.</p>
                     </div>
                   </div>
                 </div>

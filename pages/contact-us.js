@@ -766,6 +766,7 @@ const ContactUs = () => {
                   <img
                     src="/img/dsuk-footer-logo.svg"
                     alt="dsuk-footer-logo"
+                    style={{marginBottom:"20px"}}
                   />
                 </Link>
                 <p>
