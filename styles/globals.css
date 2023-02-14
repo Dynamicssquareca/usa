@@ -607,6 +607,24 @@ border:none
 .mobile-new-nav .accordion-item .accordion-body .iner-list ul li a:hover{
     color: var(--color-red);
 }
+
+.cont-m-mobile{
+  position: absolute;
+    left: -50px;
+    top: 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+.cont-m-mobile a{
+  line-height: 1.8;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 1px 0px 6px #0000003d;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -8453,6 +8471,8 @@ color:var(--color-red)
   color: var(--color-red);
 }
 
+
+
 /*media*/
 
 @media (min-width: 991px) {
@@ -10028,3 +10048,8 @@ ul.checkmark li {
   margin-bottom:10px;
   color:#000
 }
+@media (min-width: 1181px){
+  .cont-m-mobile{
+   display:none
+  }
+  }

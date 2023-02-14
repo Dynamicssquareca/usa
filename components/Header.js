@@ -958,6 +958,15 @@ class Header extends Component {
             </nav>
             <div className="mobile-menu-section-wr">
               <div className="togglr-icon-nav">
+              <div className="cont-m-mobile">
+              <a
+                      target="_self"
+                      className="getstarted custtss"
+                      href="tel:+12818990865"
+                    >
+                      <i className="bi bi-telephone-fill"></i>
+                    </a>
+                  </div>
                 <a
                   href="#offcanvasWithBothOptions"
                   data-bs-toggle="offcanvas"
