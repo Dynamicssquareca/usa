@@ -270,9 +270,10 @@ const Footer = () =>{
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <a target="_self" rel="" href="+1 281 899 0865">
-                  +1 281 899 0865
+                <a target="_self" rel="" href="tel:+13124881043">
+                  +1 312 488 1043
                   </a>
+                 
                 </div>
               </div>
               <div className="contact-list">
@@ -297,8 +298,8 @@ const Footer = () =>{
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <a target="_self" rel="" href="tel:+1 213 784 0845">
-                 +1 213 784 0845
+                <a target="_self" rel="" href="tel:+17328930520">
+                  +1 732 893 0520
                   </a>
                 </div>
               </div>
