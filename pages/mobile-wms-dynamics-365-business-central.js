@@ -114,7 +114,7 @@ const MobileWms = () => {
                         aria-expanded="false"
                         aria-controls="fin1"
                       >
-                        <span>1 - Built specifically for Business Central</span>
+                        <span>Built specifically for Business Central</span>
                       </button>
                     </h3>
                     <div
@@ -139,7 +139,7 @@ const MobileWms = () => {
                         aria-expanded="false"
                         aria-controls="fin2"
                       >
-                        <span>2 - Real-Time Access for Production Data and Inventory</span>
+                        <span>Real-Time Access for Production Data and Inventory</span>
                       </button>
                     </h3>
                     <div
@@ -171,7 +171,7 @@ const MobileWms = () => {
                         aria-expanded="false"
                         aria-controls="fin3"
                       >
-                        <span>3 - Seamless Warehouse Operations Streamlining </span>
+                        <span>Seamless Warehouse Operations Streamlining </span>
                       </button>
                     </h3>
                     <div
@@ -243,7 +243,7 @@ const MobileWms = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Warehouse Insight by Insight Works for <b>Dynamics 365 Business Central supports</b> a wide range of smart electronic devices, including mobile computers - tablets, smartphones, wearables, and more.</p>
+                      <p>Warehouse Insight by Insight Works for <Link href="/dynamics-365-business-central-support/"><a>Dynamics 365 Business Central supports</a></Link> a wide range of smart electronic devices, including mobile computers - tablets, smartphones, wearables, and more.</p>
                       <p>This versatility of this software piece allows you to either utilize existing technology or customize your hardware choices to meet the unique requirements of your warehouse setting. Major leaders like Datalogic, Zebra, and Honeywell support this platform.</p>
                     </div>
                   </div>
