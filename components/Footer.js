@@ -260,9 +260,9 @@ const Footer = () =>{
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                111 North Wabash Ave. Ste. 100 <br />{" "}
+                111 North Wabash Ave. Ste. 100,{" "}
                 The Garland Building
-                Chicago, <br />IL 60602
+                Chicago, IL 60602
                 </div>
               </div>
               <div className="contact-list">

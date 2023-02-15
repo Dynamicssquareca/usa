@@ -135,7 +135,7 @@ export default function Home() {
 "aggregateRating": 
     {
       "@type": "AggregateRating",
-	  "ratingValue": "5.8",
+	  "ratingValue": "4.4",
 	  "reviewCount": "22"
 	},
 "url" : "https://www.dynamicssquare.com/",
@@ -208,7 +208,7 @@ export default function Home() {
 "aggregateRating": 
     {
       "@type": "AggregateRating",
-      "ratingValue": "5.8",
+      "ratingValue": "4.4",
 	  "reviewCount": "22"
 	},
     
