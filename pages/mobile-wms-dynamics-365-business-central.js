@@ -44,10 +44,10 @@ const MobileWms = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/Dynamics-365-Finance-Banner.svg"
+                src="/img/mobile-wmp-banner.png"
                 alt="Microsoft Dynamics 365 Finance"
-                width={868}
-                height={487}
+                width={864}
+                height={452}
               />
             </div>
           </div>
@@ -72,9 +72,9 @@ const MobileWms = () => {
             <div className="col-lg-5 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/microosoft-partner.png"
+                  src="/img/mobile-wmp-siede.png"
                   alt="microosoft-partner.png"
-                  width={625} height={651}
+                  width={1085} height={656}
                 />
               </div>
             </div>
