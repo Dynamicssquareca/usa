@@ -902,10 +902,10 @@ class Header extends Component {
                         <a href="/why-us/">Why Us</a>
                       </li>
                       <li>
-                        <a href="/partner/">Partner</a>
+                        <a href="/partner/">Partners</a>
                       </li>
                       <li>
-                        <a href="/career/">Career</a>
+                        <a href="/career/">Careers</a>
                       </li>
                     </ul>
                   </li>
@@ -921,18 +921,18 @@ class Header extends Component {
                           rel=""
                           target="_self"
                         >
-                          Blog
+                          Blogs
                         </a>
                       </li>
                       <li>
-                        <a href="/ebook/">eBook</a>
+                        <a href="/ebook/">eBooks</a>
                       </li>
 
                       <li>
                         <a href="/case-studies/">Case Studies</a>
                       </li>
                       <li>
-                        <a href="/guides/">guides</a>
+                        <a href="/guides/">Guides</a>
                       </li>
                       <li>
                         <a href="/webinars/">Webinars</a>
@@ -1359,10 +1359,10 @@ class Header extends Component {
                                   <a href="/why-us/">Why Us</a>
                                 </li>
                                 <li>
-                                  <a href="/partner/">Partner</a>
+                                  <a href="/partner/">Partners</a>
                                 </li>
                                 <li>
-                                  <a href="/career/">Career</a>
+                                  <a href="/career/">Careers</a>
                                 </li>
                               </ul>
                             </div>
@@ -1403,14 +1403,14 @@ class Header extends Component {
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="/ebook/">eBook</a>
+                                  <a href="/ebook/">eBooks</a>
                                 </li>
 
                                 <li>
                                   <a href="/case-studies/">Case Studies</a>
                                 </li>
                                 <li>
-                                  <a href="/guides/">guides</a>
+                                  <a href="/guides/">Guides</a>
                                 </li>
                                 <li>
                                   <a href="/webinars/">Webinars</a>
