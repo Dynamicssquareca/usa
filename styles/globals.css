@@ -10052,3 +10052,7 @@ ul.checkmark li {
    display:none
   }
   }
+
+  .tik-check i{
+    color:green
+  }
