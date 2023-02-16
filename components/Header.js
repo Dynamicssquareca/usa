@@ -61,6 +61,16 @@ class Header extends Component {
                             </div>
                             <div
                               className="nav-link"
+                              id="v-pills-addon-tab"
+                              data-bs-toggle="pill"
+                              data-bs-target="#v-pills-addon"
+                            >
+                              <a href="#">
+                                <span>Add On</span>
+                              </a>
+                            </div>
+                            <div
+                              className="nav-link"
                               id="v-pills-profile-tab"
                               data-bs-toggle="pill"
                               data-bs-target="#v-pills-profile"
@@ -333,6 +343,69 @@ class Header extends Component {
                                           <p>
                                             Optimize Your Resource Utilization
                                           </p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="tab-pane fade"
+                              id="v-pills-addon"
+                            >
+                              <div className="container">
+                                <div className="row">
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/payroll-for-business-central-nav/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/navi_payroll.png"
+                                            alt="navi_payroll"
+                                            width="48"
+                                            height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Payroll for BC</span>
+                                          <p>Trusted Payroll & HR Solutions for Business Central</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/sana-ecommerce-add-ons-business-central/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/Sana_Commerce.png"
+                                            alt="Sana_Commerce"
+                                            width="48"
+                                            height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Sana Commerce</span>
+                                          <p>Scalable E-Commerce Platform for Business Central ERP</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/mobile-wms-dynamics-365-business-central/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/Insight_Work.png"
+                                            alt="Insight_Work"
+                                            width="48"
+                                            height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Insight Work(WMS)</span>
+                                          <p>Integrated WMS Solution for Dynamics 365 Business Central</p>
                                         </div>
                                       </a>
                                     </div>
@@ -791,11 +864,6 @@ class Header extends Component {
                             <li>
                               <a href="/dynamics-365-business-central-vs-netsuite/">
                                 D365 Business Central vs. NetSuite
-                              </a>
-                            </li>
-                            <li>
-                              <a href="/payroll-for-business-central-nav/">
-                              Payroll for Business Central
                               </a>
                             </li>
                           </ul>
