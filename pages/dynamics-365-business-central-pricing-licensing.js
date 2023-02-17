@@ -9,7 +9,7 @@ const BusinessCentralPricingLicensing = () => {
         <title>Dynamics 365 Business Central: Pricing, Licensing, & Features</title>
         <meta
           name="description"
-          content="Explore the features, Pricing and Licensing model for Microsoft Dynamics 365 Business Central – a comprehensive business management software."
+          content="Explore the features, Pricing and Licensing model for Microsoft Dynamics 365 Business Central - a comprehensive business management software."
         />
         <link
           rel="canonical"
@@ -495,7 +495,7 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>There is a <a href="free trial available for Business Central" rel="nofollow">free trial available for Business Central</a>. Once you sign up, you'll have access to many of the app's features. With the trial, you can test the app with sample data.</p>
+                      <p>There is a <a href="https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/" rel="nofollow">free trial available for Business Central</a>. Once you sign up, you'll have access to many of the app's features. With the trial, you can test the app with sample data.</p>
                     </div>
                   </div>
                 </div>

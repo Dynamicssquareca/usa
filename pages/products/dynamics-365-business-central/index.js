@@ -3214,6 +3214,7 @@ const BusinessCentral = () => {
                         process-efficient deal for your business, just call our
                         experts, we are here to help.
                       </p>
+                      <p>Know more about <Link href="/dynamics-365-business-central-pricing-licensing/"><a>affordable Pricing and Licensing for Dynamics 365 Business Central</a></Link> in detail.</p>
                     </div>
                   </div>
                 </div>
