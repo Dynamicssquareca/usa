@@ -495,7 +495,7 @@ const BusinessCentralPricingLicensing = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>There is a <a href="https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/" rel="nofollow">free trial available for Business Central</a>. Once you sign up, you'll have access to many of the app's features. With the trial, you can test the app with sample data.</p>
+                      <p>There is a <a href="https://learn.microsoft.com/en-us/training/modules/trial-dynamics-365-business-central/" rel="nofollow" target="_blank">free trial available for Business Central</a>. Once you sign up, you'll have access to many of the app's features. With the trial, you can test the app with sample data.</p>
                     </div>
                   </div>
                 </div>
