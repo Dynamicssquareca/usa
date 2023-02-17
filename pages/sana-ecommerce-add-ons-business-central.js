@@ -8,7 +8,7 @@ const SanaEcommerce = () => {
   return (
     <>
       <Head>
-        <title>Sana Commerce: Power Up Dynamics 365 Business Central </title>
+        <title>Sana Commerce: Power Up Dynamics 365 Business Central</title>
         <meta
           name="description"
           content="Sana Commerce add-on changes the way D365 Business Central or NAV operates e-Commerce. Streamline & improve customer satisfaction from day one."
