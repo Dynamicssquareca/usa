@@ -15,8 +15,7 @@ const SanaEcommerce = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/sana-ecommerce-add-ons-business-central/"
-        />
+          href="https://www.dynamicssquare.com/sana-ecommerce-add-ons-business-central/" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
