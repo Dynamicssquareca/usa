@@ -11,7 +11,7 @@ const MobileWms = () => {
   return (
     <>
       <Head>
-        <title>Warehouse Insight App for Integration for D365 Business Central</title>
+        <title>Warehouse Insight Works: WMS App for Business Central</title>
         <meta
           name="description"
           content="Warehouse Insight from Insight Works is a warehouse management system add-on for Dynamics 365 Business Central Cloud by DMSI Works. Get solution?"

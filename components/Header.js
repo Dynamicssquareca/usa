@@ -66,7 +66,7 @@ class Header extends Component {
                               data-bs-target="#v-pills-addon"
                             >
                               <a href="#">
-                                <span>Add On</span>
+                                <span>Add-ons</span>
                               </a>
                             </div>
                             <div
