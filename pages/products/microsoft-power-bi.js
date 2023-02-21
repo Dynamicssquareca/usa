@@ -36,7 +36,7 @@ const PowerBI = () => {
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Microsoft Power BI: Analytics for Every Organization </h1>
-              <p>Don't Settle for Just any BI (Business Intelligence) platform. Transform your data into immediate impact with Microsoft Power BI! This end-to-end BI platform enables you to do more with less, making it easier than ever to create a sole source of truth and uncover powerful insights that can drive tangible results.</p>
+              <p>Don't Settle for Just any BI (Business Intelligence) platform. Transform your data into immediate impact with <b>Microsoft Power BI!</b> This end-to-end BI platform enables you to do more with less, making it easier than ever to create a sole source of truth and uncover powerful insights that can drive tangible results.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -69,11 +69,12 @@ const PowerBI = () => {
               <header className="section-header">
                 <h2>What is Power BI?</h2>
                 <p>Transform your data into actionable insights with Microsoft Power BI - a cloud-based analytics service that empowers you to create and share data visualizations, dashboards, reports, and more in real-time. With advanced analytics features like <Link href="/products/azure-machine-learning/"><a>Machine Learning</a></Link> and <Link href="/products/microsoft-dynamics-365-ai/"><a>AI (Artificial Intelligence)</a></Link>, Power BI is one of the most innovative BI platforms available. Its intuitive interface and robust features, including custom visuals and data alerts, make it an ideal tool for data professionals and business leaders.</p>
-                <p><b>Microsoft Power BI Is Available In the Following Versions </b></p>
+               
               </header>
             </div>
           </div>
           <div className="row p-lg-6">
+          <h3 style={{textAlign:'center',fontWeight:'600',fontSize:'24px',marginBottom:'40px',color:'#1d3557'}}>Microsoft Power BI Is Available In the Following Versions</h3>
             <div className="col-lg-6">
               <div className="finace-acc">
                 <div className="accordion" id="accnew">
@@ -377,7 +378,7 @@ const PowerBI = () => {
                   Pro
                 </h3>
                 <div className="price price-power">
-                  <sup>$</sup>9.99<span>Per-User/Per Month</span>
+                  <sup>$</sup>9.99<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li>
@@ -438,7 +439,7 @@ const PowerBI = () => {
                   Premium
                 </h3>
                 <div className="price price-power">
-                  <sup>$</sup>20<span>Per-User/Per Month</span>
+                  <sup>$</sup>20<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li>
