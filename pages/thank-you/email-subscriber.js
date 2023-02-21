@@ -17,9 +17,7 @@ const ThankYouEmailSubscriber = () => {
               <h2>Stay connected for newest insights and updates.</h2>
               <div className="text-center">
                 <div className="">
-                  <Link href="/">
-                    <a className="btn-get-started scrollto"><span>Back to Home</span></a>
-                  </Link>
+                    <a href="/" className="btn-get-started scrollto"><span>Back to Home</span></a>
                 </div>
               </div>
             </div>

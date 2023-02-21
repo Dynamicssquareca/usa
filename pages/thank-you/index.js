@@ -31,7 +31,7 @@ const ThankYou = () => {
                 Thanks for getting in touch - someone will contact you soon!
               </h2>
               <div className="text-center">
-                <div className="">
+                <div>
                   <a href="/" className="btn-get-started scrollto">
                     <span>Back to Home</span>
                   </a>
