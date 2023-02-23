@@ -419,7 +419,7 @@ const Marketing = () => {
                   </b>
                 </p>
                 <div className="price">
-                  $1,500<span>Per-User/Per Month</span>
+                  $1,500<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

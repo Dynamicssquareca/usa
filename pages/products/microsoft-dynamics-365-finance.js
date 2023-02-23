@@ -471,7 +471,7 @@ const Finance = () => {
               <div className="box box-22">
                 <h3>For First Dynamics App</h3>
                 <div className="price">
-                  <sup>$</sup>180<span>Per-User/Per Month</span>
+                  $180<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -485,7 +485,7 @@ const Finance = () => {
               <div className="box box-22">
                 <h3>For Subsequent Dynamics App</h3>
                 <div className="price">
-                  <sup>$</sup>30<span>Per-User/Per Month</span>
+                  $30<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

@@ -468,7 +468,7 @@ const FieldService = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Field Service</h3>
                 <div className="price">
-                  <sup>$</sup>95<span>Per-User/Month</span>
+                  $95<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

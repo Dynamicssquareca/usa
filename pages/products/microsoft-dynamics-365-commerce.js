@@ -437,7 +437,7 @@ your scaling opportunities with Microsoft’s digital commerce solution.
                 Dynamics 365 Commerce
                 </h3>
                 <div className="price">
-                  <sup>$</sup>180<span>Per-User/Per Month</span>
+                  $180<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -452,7 +452,7 @@ your scaling opportunities with Microsoft’s digital commerce solution.
                 E-Commerce Add-In for Dynamics 365 Commerce
                 </h3>
                 <div className="price">
-                  <sup>$</sup>4,000<span>Per-User/Per Month</span>
+                  $4,000<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

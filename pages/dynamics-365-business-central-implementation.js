@@ -451,7 +451,7 @@ const BusinessCentralImplementation = () => {
                   Essentials
                 </h3>
                 <div className="price">
-                  <sup>$</sup>70<span>Per-User/Per Month</span>
+                  $70<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -469,7 +469,7 @@ const BusinessCentralImplementation = () => {
                   Premium
                 </h3>
                 <div className="price">
-                  <sup>$</sup>100<span>Per-User/Per Month</span>
+                  $100<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

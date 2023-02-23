@@ -378,7 +378,7 @@ const PowerBI = () => {
                   Pro
                 </h3>
                 <div className="price price-power">
-                  <sup>$</sup>9.99<span>Per-User/Month</span>
+                  $9.99<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li>
@@ -439,7 +439,7 @@ const PowerBI = () => {
                   Premium
                 </h3>
                 <div className="price price-power">
-                  <sup>$</sup>20<span>Per-User/Month</span>
+                  $20<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li>
@@ -500,7 +500,7 @@ const PowerBI = () => {
                   Premium
                 </h3>
                 <div className="price price-power">
-                  <sup>$</sup>4,995<span>Per Capacity/Month</span>
+                  $4,995<span>Per Capacity/Month</span>
                 </div>
                 <ul>
                   <li>

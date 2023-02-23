@@ -405,7 +405,7 @@ const ProjectOperations = () => {
               Pricing Plan
                 </h3>
                 <div className="price">
-                  <sup>$</sup>120<span>Per-User/Month</span>
+                  $120<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

@@ -502,7 +502,7 @@ const SupplyChainManagement = () => {
                   Supply Chain Management
                 </h3>
                 <div className="price">
-                  <sup>$</sup>180<span>Per-User/Per Month</span>
+                  $180<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
