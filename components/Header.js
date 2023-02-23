@@ -866,6 +866,11 @@ class Header extends Component {
                                 D365 Business Central vs. NetSuite
                               </a>
                             </li>
+                            <li>
+                              <a href="/dynamics-365-business-central-vs-finance-operations/">
+                                D365 Business Central vs. Finance Operations
+                              </a>
+                            </li>
                           </ul>
                         </div>
                       </div>
