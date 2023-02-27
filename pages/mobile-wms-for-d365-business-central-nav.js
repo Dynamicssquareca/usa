@@ -82,7 +82,7 @@ const PowerBIImplementation = () => {
                 <h2>Why Choose Mobile WMS from Tasklet Factory?</h2>
               </div>
               <div className="custom-p-001">
-                <p>Get up and running in just two days with any Microsoft Dynamics 365 ERP. This user-friendly scanner solution works offline, saving costs for warehouses with limited Wi-Fi coverage.</p>
+                <p>Get up and running in just two days with any <Link href="/products/microsoft-dynamics-erp/"><a>Microsoft Dynamics 365 ERP</a></Link>. This user-friendly scanner solution works offline, saving costs for warehouses with limited Wi-Fi coverage.</p>
                 <p>Find a trustworthy <Link href="/"><a>Microsoft Gold Partner</a></Link> like <b>Dynamics Square</b> or get a <b>FREE Call</b> to learn more.</p>
               </div>
               <div className="finace-acc">
@@ -218,7 +218,7 @@ const PowerBIImplementation = () => {
                 <h2>Who should choose Mobile WMS from Tasklet Factory?</h2>
               </div>
               <div className="custom-p-001">
-                <p><a href="https://taskletfactory.com/about/mobile-wms/" target="_blank">Mobile WMS from Tasklet Factory</a> can benefit a wide range of businesses that operate in industries such as retail, manufacturing, distribution, and logistics, and including the companies that:</p>
+                <p><a href="https://taskletfactory.com/about/mobile-wms/" target="_blank" rel="nofollow">Mobile WMS from Tasklet Factory</a> can benefit a wide range of businesses that operate in industries such as retail, manufacturing, distribution, and logistics, and including the companies that:</p>
                 <ul>
                   <li>Have a high volume of inventory and transactions that need to be tracked and managed.</li>
                   <li>Need to increase the accuracy and efficiency of their warehouse operations.</li>

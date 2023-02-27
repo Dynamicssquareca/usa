@@ -106,7 +106,7 @@ const SanaEcommerce = () => {
               <div className="col-lg-6 align-self-center">
                 <h2>What You Sow, You Reap - True with Continia!</h2>
                 <p><b>Benefits of Using Continia Add-Ons for Your Business</b></p>
-                <p>With a powerful tool and its features, Continia Add-Ons are designed to help you do more with less and achieve new heights.</p>
+                <p>With a powerful tool and its features, <a href="https://www.continia.com/solutions/" target="_blank" rel="nofollow">Continia Add-Ons</a> are designed to help you do more with less and achieve new heights.</p>
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="content-icons-modil-1">
@@ -273,8 +273,8 @@ const SanaEcommerce = () => {
                       <p>Expense Management solution is available exclusively through the network of expert Continia partners like <b>Dynamics Square</b>, who are all official <Link href="/products/dynamics-365-business-central/"><a>Gold Microsoft Dynamics 365 Business Central Partners</a></Link>.</p>
                       <p>With their specialized knowledge and expertise, you'll be guided through the process of integrating Expense Management seamlessly into your existing Business Central setup.</p>
                       <p>Don't hesitate to get in touch with your dedicated and trusted Continia partner today and get started with enhanced workflows right away!</p>
-                      <p>Check the lists of countries in which Continia is available: <a href="https://docs.continia.com/en-us/continia-expense-management/development-and-administration/countries-and-languages" target="_blank">Availability of Continia</a></p>
-                      <p>And for supported languages, click here: <a href="https://docs.continia.com/en-us/continia-expense-management/development-and-administration/on-premises/countries-and-languages-on-premises" target="_blank">Languages that Continia Supports</a></p>
+                      <p>Check the lists of countries in which Continia is available: <a href="https://docs.continia.com/en-us/continia-expense-management/development-and-administration/countries-and-languages" target="_blank" rel="nofollow">Availability of Continia</a></p>
+                      <p>And for supported languages, click here: <a href="https://docs.continia.com/en-us/continia-expense-management/development-and-administration/on-premises/countries-and-languages-on-premises" target="_blank" rel="nofollow">Languages that Continia Supports</a></p>
                     </div>
                   </div>
                 </div>
