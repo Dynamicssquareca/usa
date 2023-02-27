@@ -436,7 +436,7 @@ const BusinessCentralImplementation = () => {
               Implementation Pricing
             </h2>
             <p>
-              As a leading Microsoft Dynamics 365 Business Central partners UK,
+              As a leading Microsoft Dynamics 365 Business Central partners USA,
               we provide cost effective Business Central Implementation plans.
             </p>
           </header>
