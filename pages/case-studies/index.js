@@ -244,6 +244,52 @@ const CaseStudyList = () => {
                         </div>
                       </div>
                     </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/Discovery-Cube-logo.png"
+                            alt="Discovery-Cube-logo"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Discovery Science Foundation (Now Discovery Cube OC & LA)
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/discovery-cube/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img style={{width:'140px'}}
+                            src="/img/msh-logo.svg"
+                            alt="msh-logo"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          NIMR Tanzania & Management Sciences for Health (MSH)
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/msh-dynamics-ax-implementation/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
                     {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
@@ -439,6 +485,52 @@ const CaseStudyList = () => {
                         <div className="btn-003">
                           <a
                             href="/case-studies/spectra/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img
+                            src="/img/Discovery-Cube-logo.png"
+                            alt="Discovery-Cube-logo"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          Discovery Science Foundation (Now Discovery Cube OC & LA)
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/discovery-cube/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <img style={{width:'140px'}}
+                            src="/img/msh-logo.svg"
+                            alt="msh-logo"
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>
+                          NIMR Tanzania & Management Sciences for Health (MSH)
+                          </p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/msh-dynamics-ax-implementation/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
