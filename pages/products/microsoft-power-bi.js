@@ -193,7 +193,7 @@ const PowerBI = () => {
               <div className="wy-sultion-left-head">
                 <h2>Features, Benefits, and Capabilities of Power BI</h2>
                 <h3>Choose Microsoft Power BI and take control of your data today!</h3>
-                <p>Want to Learn New Features and Capabilities of Power BI? Follow: <Link href="https://blog.dynamicssquare.com/microsoft-power-bi-2023-feature-update/"><a>Microsoft Power BI 2023 Feature Update: What's new?</a></Link></p>
+                <p>Want to Learn New Features and Capabilities of Power BI? Follow: <Link href="https://blog.dynamicssquare.com/new-feature-update-for-power-bi/"><a>Microsoft Power BI 2023 Feature Update: What's new?</a></Link></p>
               </div>
             </div>
             <div className="col-lg-7 align-self-center">

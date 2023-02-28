@@ -390,6 +390,7 @@ border:none
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
+  margin-top: 2px;
 }
 
 .navbar a:hover,
@@ -7393,11 +7394,11 @@ overflow:hidden
 }
 .tabls-cloud .table > thead > tr > th {
   padding: 25px 30px;
-  border: none;
+  border: 1px solid #cfcfcf;
 }
 .tabls-cloud .table > tbody > tr > td {
   padding: 25px 30px;
-  border: none;
+  border: 1px solid #cfcfcf;
 }
 .extr-cont {
   padding: 60px 0px;
@@ -9374,7 +9375,7 @@ color:var(--color-red)
   }
 
   .extra-height {
-    height: 530px;
+    height: 520px;
     overflow: hidden;
   }
 }
