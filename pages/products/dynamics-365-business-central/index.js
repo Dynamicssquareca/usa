@@ -124,11 +124,7 @@ const BusinessCentral = () => {
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
               <h1>Microsoft Dynamics 365 Business Central</h1>
-              <p>
-                Streamline across your business practices to maximize growth
-                potential, drive sustainability, and improve outcomes by
-                implementing Microsoft Dynamics 365 Business Central.
-              </p>
+              <p>Streamline your growing business, boost growth, and drive sustainability with Dynamics 365 Business Central - the ultimate cloud-based accounting and ERP solution. Get in touch with a trusted Business Central partner today and take your business to new heights!</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
