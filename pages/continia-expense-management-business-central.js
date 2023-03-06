@@ -52,8 +52,8 @@ const SanaEcommerce = () => {
             <div className="col-lg-9 col-md-9">
               <header className="section-header">
                 <h2>Why Use Continia Solutions?</h2>
-                <p>Do you want an efficient way to streamline your accounting processes and cash flows? Look no further than <b>Continia's finance automation solutions</b> - simple and easy to use. With these add-on solutions built inside <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> (Formerly <b>Dynamics NAV</b>), you can simplify everything from employee expense reporting, and invoice processes to vendor payments and bank reconciliations. Plus, this intuitive software makes it easy to learn and use, so you can get up and run in no time.</p>
-                <p>Peacefully show the door to all your frustrations and gracefully welcome streamlined accounting with Continia - a modern way to Work Faster with all your tools in one place!</p>
+                <p>Do you want an efficient way to streamline your accounting processes and cash flows? Look no further than simple and easy to use <b>Continia Expense Management (or Continia Expense Management Business Central)</b> solutions <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link> (Formerly <b>Dynamics NAV</b>), you can simplify everything from employee expense reporting, and invoice processes to vendor payments and bank reconciliations. Plus, this intuitive software makes it easy to learn and use, so you can get up and run in no time.</p>
+                <p>Peacefully show the door to all your frustrations and gracefully welcome streamlined accounting with <b>Continia - a modern way to Work Faster</b> with all your tools in one place!</p>
               </header>
             </div>
           </div>
