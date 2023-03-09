@@ -20,7 +20,7 @@ const MicrosoftDynamicsGP = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>Microsoft Dynamics GP (Great Plains)</h1>
+              <h1>Microsoft Dynamics GP (Great Plains) </h1>
               <p>Enable Dynamics GP for optimized financial management, increased real-time financial visibility, and improved decision-making. Or <b>upgrade to Dynamics 365 Business Central</b> for a more robust business management experience.</p>
               <div>
                 <div className="text-center text-lg-start">
