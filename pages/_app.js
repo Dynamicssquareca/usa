@@ -32,7 +32,9 @@ function MyApp({ Component, pageProps }) {
       router.asPath == '/subscribe-updates/?utm_source=email&utm_medium=subscribe_updates&utm_campaign=navtobc_jan&utm_term=ds_us' ||
       router.asPath == '/thank-you/' ||
       router.asPath == '/thanks-webinar-registration/' ||
-      router.asPath == '/dynamics-nav-support-ending-soon/' 
+      router.asPath == '/dynamics-nav-support-ending-soon/' ||
+      router.asPath =='/schedule-a-demo/'  ||
+      router.asPath =='/schedule-a-demo' 
       
   )  {
     return (
