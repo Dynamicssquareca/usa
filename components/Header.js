@@ -410,6 +410,42 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/continia-expense-management-business-central/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/continia.png"
+                                            alt="continia"
+                                            width="48"
+                                            height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Continia Software</span>
+                                          <p>Unified platform to automate all your payment reconciliations</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/mobile-wms-for-d365-business-central-nav">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/taskley-logo-im.png"
+                                            alt="taskley-logo-im"
+                                            width="48"
+                                            height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Tasklet's Mobile WMS</span>
+                                          <p>A software solution designed to improve warehouse operations</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>

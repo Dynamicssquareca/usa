@@ -36,10 +36,10 @@ const SanaEcommerce = () => {
             </div>
             <div className="col-lg-6 align-self-center">
               <Image
-                src="/img/Sana-Commerce-banner.png"
+                src="/img/continia-adon.png"
                 alt="Sana-Commerce-banner"
-                width={960}
-                height={666}
+                width={992}
+                height={665}
               />
             </div>
           </div>
@@ -192,7 +192,7 @@ const SanaEcommerce = () => {
                 <div className="busine_service_bottom-left">
                   <div className="busine_service_bottom-right">
                     <Image
-                      src="/img/Sana-Commerce-side.png"
+                      src="/img/continia-adon2.png"
                       className="fix-im"
                       alt="Sana-Commerce-side"
                       width={1085} height={656}

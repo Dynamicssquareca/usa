@@ -45,7 +45,7 @@ const PowerBIImplementation = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/Payroll-for-Business-Central.png" alt="Payroll-for-Business-Central" width={864} height={500} />
+              <Image src="/img/tasklet.png" alt="tasklet" width={762} height={566} />
             </div>
           </div>
         </div>
@@ -70,9 +70,9 @@ const PowerBIImplementation = () => {
             <div className="col-lg-5 align-self-center">
               <div className="busine_service_bottom-left custom012">
                 <Image
-                  src="/img/NaviPayroll-Dynamics-365-Business-Central.png"
-                  alt="NaviPayroll-Dynamics-365-Business-Central"
-                  width={625} height={651}
+                  src="/img/Tasklet-factoryadon.png"
+                  alt="Tasklet-factoryadon"
+                  width={1085} height={656}
                 />
               </div>
             </div>

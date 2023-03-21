@@ -202,7 +202,7 @@ const MicrosoftDynamicsGP = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Need Next-Level Business Management across your Enterprise?</h3>
-                <p>Choose Business Central. <Link href="/comparing-dynamics-gp-vs-business-central/"><a>Compare Business Central & Dynamics GP Here</a></Link>.</p>
+                <p>Choose Business Central. <Link href="https://blog.dynamicssquare.com/comparing-dynamics-gp-vs-business-central/"><a>Compare Business Central & Dynamics GP Here</a></Link>.</p>
                 <p><b>Migrate your data to</b> <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics Business Central</a></Link> and avoid all your business management complexities. With Business Central's cloud power, you can access and monitor your business operations. Your business management is a few clicks away!</p>
                 <div className="text-center m-o-t new-btn-nn">
                 <Link href="#exampleModal">
