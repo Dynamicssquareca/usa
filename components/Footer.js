@@ -428,7 +428,7 @@ const Footer = () =>{
                     <a
                       target="_self"
                       href="https://blog.dynamicssquare.com/"
-                      rel=""
+
                     >
                       Blogs
                     </a>
@@ -445,7 +445,6 @@ const Footer = () =>{
                 <div className="social-links mt-3">
                   <a
                     target="_blank"
-                    rel=""
                     href="https://twitter.com/dsquare_usa"
                     className="twitter"
                   >
@@ -453,7 +452,6 @@ const Footer = () =>{
                   </a>
                   <a
                     target="_blank"
-                    rel=""
                     href="https://www.facebook.com/dynamicssquareusa"
                     className="facebook"
                   >
@@ -461,7 +459,6 @@ const Footer = () =>{
                   </a>
                   <a
                     target="_blank"
-                    rel=""
                     href="https://www.youtube.com/c/DynamicsSquare"
                     className="instagram"
                   >
@@ -469,7 +466,6 @@ const Footer = () =>{
                   </a>
                   <a
                     target="_blank"
-                    rel=""
                     href="https://www.linkedin.com/showcase/dynamics-square-usa/"
                     className="linkedin"
                   >

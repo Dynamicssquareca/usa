@@ -276,9 +276,11 @@ export default function Home() {
                 <div className="bnner_inline_images">
                   <ul>
                     <li>
-                      <img
+                      <Image
                         src="/img/Microsoft-Partner-black.png"
                         alt="Microsoft Partner black.png"
+                        width={206}
+                        height={67}
                       />
                     </li>
                   </ul>
@@ -299,6 +301,8 @@ export default function Home() {
                           <img
                             src="/img/business-center-logo.svg"
                             alt="business-center-logo"
+                            width="34"
+                            height="34"
                           />
                           <span>
                             Business <br />
@@ -312,7 +316,8 @@ export default function Home() {
                     <div className="list-n-wrp">
                       <Link href="/products/microsoft-azure/">
                         <a>
-                          <img src="/img/azur-icons.svg" alt="azur-icons" />
+                          <img src="/img/azur-icons.svg" alt="azur-icons" width="34"
+                            height="34" />
                           <span>Azure</span>
                         </a>
                       </Link>
@@ -326,7 +331,8 @@ export default function Home() {
                         <a>
                           <img
                             src="/img/Powerapps_power-apps.svg"
-                            alt="Powerapps_power-apps"
+                            alt="Powerapps_power-apps" width="34"
+                            height="34"
                           />
                           <span>
                             Power
@@ -340,7 +346,8 @@ export default function Home() {
                     <div className="list-n-wrp">
                       <Link href="/products/microsoft-dynamics-365-finance/">
                         <a>
-                          <img src="/img/finace-icons.svg" alt="finace-icons" />
+                          <img src="/img/finace-icons.svg" alt="finace-icons" width="34"
+                            height="34" />
                           <span>Finance</span>
                         </a>
                       </Link>
@@ -353,6 +360,8 @@ export default function Home() {
                           <img
                             src="/img/customer-service-icons.svg"
                             alt="customer-service-icons"
+                            width="34"
+                            height="34"
                           />
                           <span>
                             Customer
@@ -371,6 +380,8 @@ export default function Home() {
                           <img
                             src="/img/supplychain-logo.svg"
                             alt="supplychain-logo"
+                            width="34"
+                            height="34"
                           />
                           <span>
                             Supply
@@ -388,6 +399,8 @@ export default function Home() {
                           <img
                             src="/img/ds-365.png"
                             alt="Microsoft Dynamics 365 Partner"
+                            width="34"
+                            height="34"
                           />
                         </a>
                       </Link>
@@ -400,6 +413,8 @@ export default function Home() {
                           <img
                             src="/img/feald-service-logo.svg"
                             alt="feald-service-logo"
+                            width="34"
+                            height="34"
                           />
                           <span>
                             Field <br /> Service
@@ -489,6 +504,8 @@ export default function Home() {
                     src="/img/business-center-logo.svg"
                     alt="business-center-logo"
                     className="icon"
+                    width="34"
+                    height="34"
                   />
                   <h3>
                     Dynamics 365 <br /> Business Central
@@ -514,6 +531,8 @@ export default function Home() {
                     src="/img/finace-icons.svg"
                     alt="finace-icons"
                     className="icon"
+                    width="34"
+                    height="34"
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -540,6 +559,8 @@ export default function Home() {
                     src="/img/supplychain-logo.svg"
                     alt="supplychain-logo"
                     className="icon"
+                    width="34"
+                    height="34"
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -570,6 +591,8 @@ export default function Home() {
                     src="/img/Sales_scalable.svg"
                     alt="Sales_scalable"
                     className="icon"
+                    width="34"
+                    height="34"
                   />
                   <h3>
                     Dynamics 365 <br />
@@ -600,6 +623,8 @@ export default function Home() {
                     src="/img/powerbilogo.png"
                     alt="Powerapps_power-apps"
                     className="icon"
+                    width="34"
+                    height="34"
                   />
                   <h3>
                     Microsoft <br />
@@ -630,6 +655,8 @@ export default function Home() {
                     src="/img/Azure-IoT.svg"
                     alt="Azure-IoT"
                     className="icon"
+                    width="34"
+                    height="34"
                   />
                   <h3>
                     Internet Of <br />
@@ -1028,13 +1055,15 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <img
+                            <Image
                               src="/img/JVEquip_logo.png"
                               className="testimonial-img"
-                              alt=""
+                              alt="JVEquip_logo"
+                              width={200}
+                              height={80}
                             />
                             <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="" />
+                              <img src="/img/Icon metro-quote.png" alt="metro-quote" />
                             </div>
                             <p>
                               We selected them because their communication is
@@ -1055,13 +1084,15 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <img
+                            <Image
                               src="/img/Spectra-Aluminum-logo-new.png"
                               className="testimonial-img"
                               alt="Spectra-Aluminum-logo-new"
+                              width={200}
+                              height={80}
                             />
                             <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="" />
+                              <img src="/img/Icon metro-quote.png" alt="metro-quote" />
                             </div>
                             <p>
                               The team at Dynamics Square are very dedicated,
@@ -1078,10 +1109,12 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <img
+                            <Image
                               src="/img/MexiLand_logos.png"
                               className="testimonial-img"
                               alt="MexiLand_logos"
+                              width={200}
+                              height={80}
                             />
                             <div className="imginner">
                               <img
@@ -1151,57 +1184,69 @@ export default function Home() {
               >
                 <SwiperSlide>
                   <div className="swiper-slide">
-                    <img
+                    <Image
                       src="/img/clients/JVEquip_logo.png"
                       className="img-fluid"
                       alt="JVEquip_logo"
+                      width={200}
+                      height={80}
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   {" "}
                   <div className="swiper-slide">
-                    <img
+                    <Image
                       src="/img/clients/Spectra-Aluminum-logo-new.png"
                       className="img-fluid"
                       alt="Spectra-Aluminum-logo"
+                      width={200}
+                      height={80}
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="swiper-slide">
-                    <img
+                    <Image
                       src="/img/clients/MexiLand_logos.png"
                       className="img-fluid"
                       alt="MexiLand_logos"
+                      width={200}
+                      height={80}
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   {" "}
                   <div className="swiper-slide">
-                    <img
+                    <Image
                       src="/img/clients/VidPro_logo.png"
                       className="img-fluid"
                       alt="VidPro_logo"
+                      width={200}
+                      height={80}
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="swiper-slide">
-                    <img
+                    <Image
                       src="/img/clients/PLASP-LOGO.png"
                       className="img-fluid"
                       alt="PLASP-LOGO"
+                      width={200}
+                      height={80}
                     />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="swiper-slide">
-                    <img
+                    <Image
                       src="/img/clients/SOS-MANUFACTURING-LOGO.png"
                       className="img-fluid"
                       alt="SOS-MANUFACTURING-LOGO"
+                      width={200}
+                      height={80}
                     />
                   </div>
                 </SwiperSlide>
