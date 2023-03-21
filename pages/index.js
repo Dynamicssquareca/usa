@@ -1290,10 +1290,12 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
+                      <Image
                         src="/img/cs-DMIC-logo.png"
                         className="cs-DMIC-logo"
-                        alt=""
+                        alt="cs-DMIC-logo"
+                        width={200}
+                        height={80}
                       />
                       <p>
                         Streamline Manufacturing & Accounting with D365 Business
@@ -1320,10 +1322,12 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
+                      <Image
                         src="/img/cs-spectra-logo.png"
                         className="cs-spectra-logo"
                         alt="crm-trading"
+                        width={200}
+                        height={80}
                       />
                       <p>
                         Implemented Custom EFT Module to improvise Payment
@@ -1350,10 +1354,12 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <img
+                      <Image
                         src="/img/cs-shimco-logo-csg.png"
                         className="casestudys-slider-item-img"
                         alt="cs-shimco-logo-csg"
+                        width={200}
+                        height={80}
                       />
                       <p>
                         Implementation of Microsoft Dynamics Business Central

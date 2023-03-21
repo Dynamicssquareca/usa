@@ -447,6 +447,7 @@ const Footer = () =>{
                     target="_blank"
                     href="https://twitter.com/dsquare_usa"
                     className="twitter"
+                    aria-label="twitter"
                   >
                     <i className="bi bi-twitter"></i>
                   </a>
@@ -454,6 +455,7 @@ const Footer = () =>{
                     target="_blank"
                     href="https://www.facebook.com/dynamicssquareusa"
                     className="facebook"
+                    aria-label="facebook"
                   >
                     <i className="bi bi-facebook"></i>
                   </a>
@@ -461,6 +463,7 @@ const Footer = () =>{
                     target="_blank"
                     href="https://www.youtube.com/c/DynamicsSquare"
                     className="instagram"
+                    aria-label="instagram"
                   >
                     <i className="bi bi-youtube"></i>
                   </a>
@@ -468,6 +471,7 @@ const Footer = () =>{
                     target="_blank"
                     href="https://www.linkedin.com/showcase/dynamics-square-usa/"
                     className="linkedin"
+                    aria-label="linkedin"
                   >
                     <i className="bi bi-linkedin"></i>
                   </a>
