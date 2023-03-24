@@ -134,7 +134,7 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cs-DMIC-logo.png"
+                            src="/img/case-studies-1.jpg"
                             alt="cs-DMIC-logo"
                           />
                         </div>
@@ -145,7 +145,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/dmic/"
+                            href="/case-studies/nav13-business-central-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -156,7 +156,7 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/cs-mexiland-logo.png" alt="MexiLand_logos" />
+                          <img src="/img/case-studies-2.jpg" alt="MexiLand_logos" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
@@ -165,7 +165,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/mexi-land/"
+                            href="/case-studies/nav09-business-central-on-premise/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -202,7 +202,7 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cs-lnl-logo.png"
+                            src="/img/case-studies-3.jpg"
                             alt="cs-lnl-logo"
                           />
                         </div>
@@ -213,7 +213,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/thelandlcompany/"
+                            href="/case-studies/upgrade-nav05-to-nav18/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -225,7 +225,7 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cs-spectra-logo.png"
+                            src="/img/case-studies-4.jpg"
                             alt="cs-spectra-logo"
                           />
                         </div>
@@ -236,7 +236,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/spectra/"
+                            href="/case-studies/dynamics-nav13-eft-implementation/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -248,7 +248,7 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/Discovery-Cube-logo.png"
+                            src="/img/case-studies-5.jpg"
                             alt="Discovery-Cube-logo"
                           />
                         </div>
@@ -259,7 +259,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/discovery-cube/"
+                            href="/case-studies/dynamics-ax12-implementation/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -270,8 +270,8 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img style={{width:'140px'}}
-                            src="/img/msh-logo.svg"
+                          <img 
+                            src="/img/case-studies-6.jpg"
                             alt="msh-logo"
                           />
                         </div>
@@ -282,7 +282,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/msh-dynamics-ax-implementation/"
+                            href="/case-studies/implemented-dynamics-ax12/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -318,7 +318,7 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/cs-shimco-logo-csg.png" alt="cs-shimco-logo" />
+                          <img src="/img/case-studies-7.jpg" alt="cs-shimco-logo" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
@@ -327,7 +327,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/shimco/"
+                            href="/case-studies/nav13-to-d365-business-central-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -373,7 +373,7 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cs-DMIC-logo.png"
+                            src="/img/case-studies-1.jpg"
                             alt="cs-DMIC-logo"
                           />
                         </div>
@@ -384,7 +384,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/dmic/"
+                            href="/case-studies/nav13-business-central-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -395,7 +395,7 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/cs-mexiland-logo.png" alt="MexiLand_logos" />
+                          <img src="/img/case-studies-2.jpg" alt="MexiLand_logos" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
@@ -404,7 +404,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/mexi-land/"
+                            href="/case-studies/nav09-business-central-on-premise/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -450,7 +450,7 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cs-lnl-logo.png"
+                            src="/img/case-studies-3.jpg"
                             alt="cs-lnl-logo"
                           />
                         </div>
@@ -461,7 +461,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/thelandlcompany/"
+                            href="/case-studies/upgrade-nav05-to-nav18/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -473,7 +473,7 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/cs-spectra-logo.png"
+                            src="/img/case-studies-4.jpg"
                             alt="Spectra-Aluminum-logo"
                           />
                         </div>
@@ -484,7 +484,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/spectra/"
+                            href="/case-studies/dynamics-nav13-eft-implementation/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -496,7 +496,7 @@ const CaseStudyList = () => {
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
-                            src="/img/Discovery-Cube-logo.png"
+                            src="/img/case-studies-5.jpg"
                             alt="Discovery-Cube-logo"
                           />
                         </div>
@@ -507,7 +507,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/discovery-cube/"
+                            href="/case-studies/dynamics-ax12-implementation/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -518,8 +518,8 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img style={{width:'140px'}}
-                            src="/img/msh-logo.svg"
+                          <img 
+                            src="/img/case-studies-6.jpg"
                             alt="msh-logo"
                           />
                         </div>
@@ -530,7 +530,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/msh-dynamics-ax-implementation/"
+                            href="/case-studies/implemented-dynamics-ax12/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -575,7 +575,7 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/cs-shimco-logo-csg.png" alt="cs-shimco-logo" />
+                          <img src="/img/case-studies-7.jpg" alt="cs-shimco-logo" />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
@@ -584,7 +584,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/shimco/"
+                            href="/case-studies/nav13-to-d365-business-central-upgrade/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study

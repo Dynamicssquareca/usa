@@ -7,19 +7,13 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-const CaseStudyShimco = () => {
+const CaseStudySpectra = () => {
   return (
     <>
       <Head>
-        <title>Shimco | Business Central Implementation</title>
-        <meta
-          name="description"
-          content="Shimco worked with Dynamics Square to implement Dynamics 365 Business Central Cloud. Read the case story to gain insights."
-        />
-        <link
-          rel="canonical"
-          href="https://www.dynamicssquare.com/case-studies/shimco/"
-        />
+      <title>Dynamics NAV 2013 | Implement Custom EFT Module</title>
+<meta name="description" content="Learn how a custom EFT module was implemented in Dynamics NAV 2013 for an aluminum extrusion company, streamlining payment processing. "/>
+<link rel="canonical" href="https://www.dynamicssquare.com/case-studies/dynamics-nav13-eft-implementation/" />
       </Head>
 
       <section className="hero-1 hero">
@@ -28,13 +22,10 @@ const CaseStudyShimco = () => {
             <div className="col-lg-6 align-self-center">
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
-                  <span className="date-ti">
-                    Manufacturer of Shim & Small Parts for Aerospace
-                  </span>
-                  <h1>Shimco Case Study</h1>
-                  <p>
-                    Implementation of Microsoft Dynamics Business Central Cloud
-                  </p>
+                  <span className="date-ti">Industry-leading Aluminium Extrusion Industry</span>
+                  <h1>Case Study
+                  </h1>
+                  <h2>Implemented Custom EFT Module to improvise Payment Methods</h2  >
                 </div>
               </div>
             </div>
@@ -57,34 +48,21 @@ const CaseStudyShimco = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                  <img
-                    src="/img/cs-shimco-logo-csg.png"
-                    alt="cs-shimco-logo-csg"
+                <img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
                   />
                 </div>
                 <div className="col-lg-9">
                   <p>
-                    Established 30 years ago,{" "}
-                    <a
-                      href="https://shimco.com/"
+                  Established in 1978, <a
+                      href="https://www.spectraaluminum.com/"
                       rel="noopener nofollow"
                       target="_blank"
                     >
                       {" "}
-                      Shimco{" "}
-                    </a>{" "}
-                    is a leading shim and small parts manufacturer for
-                    manufacturing industries like Defence, Aerospace, Medical,
-                    and more. It started as a manufacturer, but over time, it
-                    became the technology leader with best-in-class
-                    manufacturing capabilities. Shimco supplies its small parts
-                    products for initial assembly as well as for maintenance
-                    needs. It started using high-tolerance horizontal lathes and
-                    CNC milling machines for manufacturing parts as per customer
-                    demand. This company can now manufacture a few to a few
-                    thousand products without any accuracy and tolerance issues.
-                    When the quality of a product is concerned, no one is better
-                    than Shimco.
+                      Spectra Aluminum{" "}
+                    </a>{" "} is a world-class aluminium extrusion industry located near Toronto, Canada. It is a family-owned and operated business with a track record of delivering high-quality aluminium products to worldwide customers. Its sole aim is to provide high-quality products, whether a simple aluminium extrusion or a complex design with a customizable requirement. They offer services managed in-house only like, CAD design, 3D prototyping, Brite Dip and etch custom anodizing, full-colour spectrum dyeing, custom fabrication, automated packaging, and more. 
                   </p>
                 </div>
               </div>
@@ -115,21 +93,7 @@ const CaseStudyShimco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      The performance of Shimco's current{" "}
-                      <Link href="/products/microsoft-dynamics-nav/">
-                        NAV version
-                      </Link>{" "}
-                      is not satisfactory at all in terms of inventory
-                      management and valuation. They urgently needed to{" "}
-                      <Link href="/our-services/dynamics-365-implementation-services/">
-                        implement a new ERP
-                      </Link>{" "}
-                      (Enterprise Resource Planning) solution to manage the
-                      departments like inventory, finance,{" "}
-                      <Link href="/industries/microsoft-cloud-for-manufacturing/">
-                        manufacturing
-                      </Link>
-                      , and supply chain.
+                    Spectra wanted to implement an EFT (Electronic Funds Transfer) on their existing database per banking portal norms.
                     </p>
                   </div>
                 </div>
@@ -142,10 +106,7 @@ const CaseStudyShimco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Shimco was not satisfied with the functions and
-                      capabilities of NAV to manage the accounting needs. This
-                      issue was affecting the overall performance of the
-                      department.
+                    They had difficulties managing several vendors and channel partners to release payments.
                     </p>
                   </div>
                 </div>
@@ -158,8 +119,7 @@ const CaseStudyShimco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      They were facing difficulties in tracking time of
-                      employees on the shop floor.
+                    From printing cheques to advice for banks, Spectra were doing it all manually. 
                     </p>
                   </div>
                 </div>
@@ -171,24 +131,7 @@ const CaseStudyShimco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      The current NAV version of Shimco makes it difficult for
-                      them to collect the supply chain and inventory data. If
-                      the data is available, they cannot collect it in
-                      real-time.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-exclamation-triangle"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      They were using an unreliable third-party solution that
-                      empowers manufacturers to measure, analyze, and share
-                      production information.
+                    The manual release of payment leads to errors and consumes a lot of staff time, making the entire process cumbersome.
                     </p>
                   </div>
                 </div>
@@ -201,8 +144,8 @@ const CaseStudyShimco = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Solution Delivered</h2>
-            <p>Implementing Microsoft Dynamics 365 Business Central Cloud</p>
+            <h2>Support Offered to Spectra</h2>
+            <p>Implementing EFT to Manage Payments </p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -255,12 +198,7 @@ const CaseStudyShimco = () => {
                           </div>
                           <div className="text-wrp-content">
                             <p>
-                              Dynamics Square upgraded and implemented the ERP
-                              of Shimco from NAV2013 to{" "}
-                              <Link href="/products/dynamics-365-business-central/">
-                                Microsoft Dynamics 365 Business Central Cloud
-                              </Link>
-                              .
+                            Dynamics Square helped Spectra implement the EFT to manage the payments automatically. 
                             </p>
                           </div>
                         </div>
@@ -278,12 +216,7 @@ const CaseStudyShimco = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                <Link href="/products/dynamics-365-business-central/">
-                                  Microsoft D365 Business Central
-                                </Link>{" "}
-                                enabled the users of Shimco to run and manage
-                                the entire business from anywhere and 24/7 with
-                                the cloud deployment of servers.
+                              Dynamics Square successfully reduced the time taken to process a payment to the vendor.
                               </p>
                             </div>
                           </div>
@@ -302,9 +235,7 @@ const CaseStudyShimco = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                This new ERP helped the company manage and
-                                supervise the accounting tasks without issues or
-                                lags.
+                              We helped them eliminate unnecessary steps where the cheque needed to be sent to the vendor for approval.
                               </p>
                             </div>
                           </div>
@@ -323,54 +254,7 @@ const CaseStudyShimco = () => {
                             </div>
                             <div className="text-wrp-content">
                               <p>
-                                To track the time of employees, we developed a
-                                custom Time Collection Module and integrated it
-                                with the Business Central.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="swiper-slide">
-                        <div className="swiper-slide">
-                          <div className="industries-list-more">
-                            <div className="img-wrp">
-                              <img
-                                src="/img/material-lightbulb-outline.svg"
-                                alt="proffesional-service"
-                              />
-                            </div>
-                            <div className="text-wrp-content">
-                              <p>
-                                We replaced their third-party solution that
-                                empowers manufacturers to our custom development
-                                solution and integrated it with our Time
-                                Collection Module.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="swiper-slide">
-                        <div className="swiper-slide">
-                          <div className="industries-list-more">
-                            <div className="img-wrp">
-                              <img
-                                src="/img/material-lightbulb-outline.svg"
-                                alt="proffesional-service"
-                              />
-                            </div>
-                            <div className="text-wrp-content">
-                              <p>
-                                <Link href="/">Dynamics Square</Link> helped the
-                                client understand all features and tools of
-                                Business Central Online and helped them connect
-                                data across the departments, like finance,
-                                inventory, sales, and purchase.
+                              Also, Dynamics Square configured the system to send the remittance advice automatically to the customer via mail to check the status of any new payment and shows the error, if any. 
                               </p>
                             </div>
                           </div>
@@ -402,12 +286,7 @@ const CaseStudyShimco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      After the{" "}
-                      <Link href="/our-services/dynamics-365-upgrade-services/">
-                        upgrade
-                      </Link>
-                      , the system of Shimco started to perform fast and better
-                      without any issues.
+                    <strong>Reduced Transaction Time:</strong> The payment transaction processes fluently once the company decide the amount. The employees of Spectra have to click a button, and the system-generated file directly loads into the bank to process the payment.
                     </p>
                   </div>
                 </div>
@@ -420,11 +299,8 @@ const CaseStudyShimco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      We have resolved their issues during inventory and{" "}
-                      <Link href="/products/dynamics-365-supply-chain-management/">
-                        supply chain management
-                      </Link>
-                      .
+                    <strong>Eliminate Redundant Tasks:</strong> There is no need to print cheques or send them to customers. Most of the manual tasks were eliminated after implementing the customized EFT by Dynamics Square. 
+
                     </p>
                   </div>
                 </div>
@@ -436,50 +312,7 @@ const CaseStudyShimco = () => {
                   </div>
                   <div className="cintent-right">
                     <p>
-                      Our custom Time Collection Module helped them track the
-                      time for employees available on shop floor and helps them
-                      manage the data of manufacturers.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      The Business Intelligence started helping the company to
-                      make informed decisions about the process or operations in
-                      real-time.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      They started automating the processes, making the business
-                      more smooth and more seamless.
-                    </p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>
-                      As a trusted Microsoft partner, Dynamics Square helped
-                      them understand the working of D365 Business Central for
-                      growth and scalability.
+                      Tools to Manage Bulk Transaction: Dynamics Square helped Spectra understand the tools to manage the bulk and frequent transitions.
                     </p>
                   </div>
                 </div>
@@ -492,19 +325,21 @@ const CaseStudyShimco = () => {
         </div>
       </section>
 
-      {/* <section className="case-clent">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="case-clent-test">
-                            <p>We worked with Nitesh to further customize our Microsoft Dynamics Package. He provided us a top level service with well trained staff as well as excellent support when needed. Dynamics Square is a very professional and trustworth. Will surely recommend to everyone</p>
-                            <h4>Terence Turner</h4>
-                            <span>General Manager | Arteak Limited</span>
-                        </div>
-                    </div>
-                </div>
+      <section className="case-clent">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="case-clent-test">
+                <p>
+                Implementing the Custom EFT tool by Dynamics Square helped us streamline payments to our vendors and eliminating majority of related manual tasks. Dynamics Square demonstrated a clear and nuanced understanding of Business Central. Working with Dynamics Square meant the project was delivered on Time and without cost overrun.
+                </p>
+                <h4>Mary Nyugen</h4>
+                <span>Spectra Aluminium</span>
+              </div>
             </div>
-        </section> */}
+          </div>
+        </div>
+      </section>
 
       <section className="call_to_action call_to_action-height pd-404">
         <div className="container">
@@ -523,13 +358,12 @@ const CaseStudyShimco = () => {
                   implement their unique needs.
                 </p>
                 <div className="m-o-t m-o-t-inde">
-                  <Link href="#exampleModal">
-                    <a
-                      data-bs-toggle="modal"
-                      className="btn-get-started scrollto"
-                    >
-                      <span>Talk to Expert</span>
-                    </a>
+                  <Link  href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                  
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Schedule a Demo</span></a>
                   </Link>
                 </div>
               </div>
@@ -541,4 +375,4 @@ const CaseStudyShimco = () => {
   );
 };
 
-export default CaseStudyShimco;
+export default CaseStudySpectra;

@@ -333,6 +333,13 @@
     { "source": "/email-gp-to-bc/", "destination": "https://blog.dynamicssquare.com/dynamics-365-business-central-vs-dynamics-gp/", "statusCode": 301 },
     { "source": "/emailer-power-bi/", "destination": "/products/microsoft-power-bi/", "statusCode": 301 },
     { "source": "/upgrade-nav-to-business-central/", "destination": "/dynamics-nav-to-business-central/", "statusCode": 301 },
-    { "source": "/support-dynamics-365/", "destination": "/products/microsoft-dynamics-365/", "statusCode": 301 }
+    { "source": "/support-dynamics-365/", "destination": "/products/microsoft-dynamics-365/", "statusCode": 301 },
+    { "source": "/case-studies/dmic/", "destination": "/case-studies/nav13-business-central-upgrade/", "statusCode": 301 },
+    { "source": "/case-studies/mexi-land/", "destination": "/case-studies/nav09-business-central-on-premise/", "statusCode": 301 },
+    { "source": "/case-studies/thelandlcompany/", "destination": "/case-studies/upgrade-nav05-to-nav18/", "statusCode": 301 },
+    { "source": "/case-studies/spectra/", "destination": "/case-studies/dynamics-nav13-eft-implementation/", "statusCode": 301 },
+    { "source": "/case-studies/discovery-cube/", "destination": "/case-studies/dynamics-ax12-implementation/", "statusCode": 301 },
+    { "source": "/case-studies/msh-dynamics-ax-implementation/", "destination": "/case-studies/implemented-dynamics-ax12/", "statusCode": 301 },
+    { "source": "/case-studies/shimco/", "destination": "/case-studies/nav13-to-d365-business-central-upgrade/", "statusCode": 301 }
   ]
 }

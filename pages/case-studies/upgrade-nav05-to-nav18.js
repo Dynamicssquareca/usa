@@ -11,9 +11,9 @@ const CaseStudyTheLand = () => {
   return (
     <>
       <Head>
-      <title>The L&L Company | Upgrading Dynamics NAV 05 to NAV 2018</title>
-<meta name="description" content="The L&L Company worked with Dynamics Square to upgrade Dynamics NAV 2005 to NAV 2018. Read the case story to gain insights."/>
-<link rel="canonical" href="https://www.dynamicssquare.com/case-studies/thelandlcompany/" />
+      <title>Upgrade ERP from Dynamics NAV05 to NAV 2018 | Case Study</title>
+<meta name="description" content="Discover how a flooring products company achieved greater efficiency and functionality by upgrading their ERP system from Dynamics NAV05 to NAV 2018. "/>
+<link rel="canonical" href="https://www.dynamicssquare.com/case-studies/upgrade-nav05-to-nav18/" />
       </Head>
 
       <section className="hero-1 hero">
@@ -23,8 +23,7 @@ const CaseStudyTheLand = () => {
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
                   <span className="date-ti">Leading Flooring Service Provider</span>
-                  <h1>
-                  The L&L Company <br/> Case Study
+                  <h1>Case Study
                   </h1>
                   <p>Improving Operational Efficiency by Upgrading NAV05 to NAV2018</p>
                 </div>
@@ -48,7 +47,10 @@ const CaseStudyTheLand = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                  <img src="/img/cs-lnl-logo.png" alt="cs-lnl-logo" />
+                <img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
+                  />
                 </div>
                 <div className="col-lg-9">
                   <p>

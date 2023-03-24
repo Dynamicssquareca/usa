@@ -407,7 +407,6 @@ const Startup = () => {
                       <div className="popup-btn popup-btns">
                         <Link href="#javascript:void(0)">
                           <a
-                            data-bs-toggle="modal"
                             onClick={() => setOpen(true)}
                           >
                             <Image

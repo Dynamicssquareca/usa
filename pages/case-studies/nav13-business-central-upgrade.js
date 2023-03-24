@@ -7,18 +7,18 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-const Dcube = () => {
+const Dmic = () => {
   return (
     <>
       <Head>
-        <title>NIMR Tanzania + MSH: Implementation of Dynamics AX 2012 </title>
+        <title>Dynamics NAV 2013 to Business Central On-Premise Upgrade</title>
         <meta
           name="description"
-          content="NIMR Tanzania and MSH collaborated to deploy Dynamics AX 2012, an advanced ERP platform that streamlines their processes and data management."
+          content="America's leading aerospace manufacturing company migrated from Dynamics NAV 2013 to Business Central. Learn how they overcome the challenges."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/case-studies/msh-dynamics-ax-implementation/"
+          href="https://www.dynamicssquare.com/case-studies/nav13-business-central-upgrade/"
         />
       </Head>
 
@@ -29,17 +29,21 @@ const Dcube = () => {
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
                   <span className="date-ti">
-                 <b>NIMR Tanzania + MSH:</b> Transforming Health Systems with Strategies, Tools, and Management Support for Governments, Health Organizations, and the Private Sector. 
+                    Top Designer and Manufacturer of Ball Valves, Check Valves,
+                    Power Unit Accessories, and Custom Hydraulic Components.
                   </span>
-                  <h1>NIMR Tanzania & Management Sciences for Health (MSH)</h1>
-                  <p>Discover how a nonprofit advisory organization boosted its productivity by 5X and slashed input costs by 78% through seamless <b>management of finance and operations</b> using <b>Microsoft Dynamics AX 2012</b> (now <b>Dynamics 365 Finance</b>).</p>
+                  <h1>Case Study</h1>
+                  <p>
+                    Streamline Manufacturing & Accounting with D365 Business
+                    Central On-Premise
+                  </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="sider-over">
-              <Image
-                  src="/img/ax-feature1.png"
+                <Image
+                  src="/img/Dynamics-365-Business-Central.png"
                   alt="cae-side-hand" width={1024} height={597}
                 />
               </div>
@@ -54,10 +58,31 @@ const Dcube = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                 <div> <img src="/img/msh-logo.svg" alt="msh-logo" width="140" /></div>
+                <img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
+                  />
                 </div>
                 <div className="col-lg-9">
-                  <p><a href="http://www.nimr.or.tz/" target="_blank" rel="nofollow">NIMR Tanzania</a>, a nonprofit advisory organization that underwent significant growth, faced challenges due to the lack of integration among its finance and operations systems. <a href="https://msh.org/" rel="nofollow" target="_blank">MSH</a> (Management Sciences for Health) partnered with <a href="https://angelcom.com/" target="_blank" rel="nofollow">AccTech Systems</a> to review NIMR's financial management system requirements, and brought onboard <b>Dynamics Square</b> (a leading <Link href="/"><a>Microsoft Gold Partner</a></Link> and Cloud Solution Provider in the USA) to implement <b>Microsoft Dynamics AX 2012</b> On-premises version (<Link href="/products/microsoft-dynamics-365-finance-operations/"><a>Dynamics 365 Finance & Operations</a></Link>, now <b>Dynamics 365 Finance</b>) to address NIMR's grant management, project budgeting, time tracking, financial reporting, and other finance related challenges. <br /><br />By implementing a modern financial solution like <b>Microsoft Dynamics AX 2012</b>, NIMR Tanzania is efficiently managing its operations, and providing a better experience globally. This nonprofit has made a significant impact on millions of lives and continues to do so. </p>
+                  <p>
+                    Founded in 1992,{" "}
+                    <a
+                      href="https://www.dmic.com/"
+                      rel="noopener nofollow"
+                      target="_blank"
+                    >
+                      {" "}
+                      DMIC{" "}
+                    </a>{" "}
+                    (Delaware Manufacturing Industries Corporation) is an
+                    American company located near Niagara Falls. They are
+                    experts in designing and manufacturing of fluid handling
+                    components for aerospace and aviation applications. They
+                    manufacture most of the components required in-fluid
+                    handling industry, like check valve, ball valve, fluid
+                    control valves, hydraulic accessories, gauges, isolators,
+                    and power unit layout systems.
+                  </p>
                 </div>
               </div>
             </div>
@@ -68,7 +93,10 @@ const Dcube = () => {
       <section className="Solution-business-why custom-pd-1 custom-pd-2">
         <div className="container">
           <header className="section-header">
-            <h2>Business Challenges NIMR Tanzania Faced</h2>
+            <h2>
+              What are The <br />
+              Business Challenges?
+            </h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
@@ -83,7 +111,15 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Lack of integration among current systems supporting operations.</p>
+                    <p>
+                      DMIC were using{" "}
+                      <Link href="/products/microsoft-dynamics-nav/">
+                        Dynamics NAV 2013
+                      </Link>{" "}
+                      and unsatisfied with the performance. Their version of NAV
+                      was lacking in completing various tasks whether it is
+                      related to accounts or operations.
+                    </p>
                   </div>
                 </div>
 
@@ -94,7 +130,12 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Manual processing, maintenance of parallel systems, and extensive reconciliation efforts.</p>
+                    <p>
+                      The company was scaling, and NAV 2013 was unable to deal
+                      with it. They are unable to expand the business
+                      operations. Due to the increasing number of processes and
+                      operations, NAV 2013 was unable to process them all.
+                    </p>
                   </div>
                 </div>
 
@@ -105,7 +146,11 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Producing reports and satisfying information requests is a labor-intensive process.</p>
+                    <p>
+                      The current NAV version lags in performing the accounting
+                      and manufacturing tasks, resulting in a decrease in
+                      overall efficiency.
+                    </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -115,37 +160,10 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Current processes are structured around constraints of the current systems or are the result of "<b>organic</b>" adjustments.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-exclamation-triangle"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>Need to review NIMR's financial management system requirements.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-exclamation-triangle"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>Require an independent, objective third party perspective to take a fresh look at how work is performed from a best practices perspective.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-exclamation-triangle"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p>The need to streamline grant management, project budgeting, time tracking by project and location, and financial reporting from research centers.</p>
+                    <p>
+                      They want to integrate other apps like Word and Excel, but
+                      they were facing difficulties in doing so.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -157,8 +175,8 @@ const Dcube = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Implemented Solution </h2>
-            <p>See how Dynamics AX helped upgrading Business Operations at Discovery Cube</p>
+            <h2>Solution Delivered</h2>
+            <p>Upgrading with Microsoft Dynamics 365 Business Central</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -210,7 +228,13 @@ const Dcube = () => {
                             />
                           </div>
                           <div className="text-wrp-content">
-                            <p><Link href="/"><a>Dynamics Square</a></Link> implemented Dynamics AX 2012 On-premises to address NIMR's challenges in grant management, project budgeting, time tracking, and financial reporting.</p>
+                            <p>
+                              Dynamics Square upgraded the ERP of DMIC from{" "}
+                              <Link href="/dynamics-nav-to-business-central">
+                                NAV 2013 to D365 Business Central
+                              </Link>
+                              .
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -226,7 +250,12 @@ const Dcube = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>Dynamics AX 2012 streamlined NIMR Tanzania's operations, reducing manual processing, reconciliation efforts, and improving workflow efficiency.</p>
+                              <p>
+                                The newer Business Central can streamline the
+                                complicated tasks as well like reporting, user
+                                tasks, setup change, maintaining ledger, and
+                                more.
+                              </p>
                             </div>
                           </div>
                         </div>
@@ -243,7 +272,15 @@ const Dcube = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>The new finance management system integrated existing systems, reducing manual processing and reconciliation, making report generation effortless.</p>
+                              <p>
+                                We have integrated Microsoft apps with{" "}
+                                <Link href="/products/dynamics-365-business-central/">
+                                  Business Central
+                                </Link>{" "}
+                                to streamline the accounting and manufacturing
+                                process increasing the performance to meet the
+                                needs.
+                              </p>
                             </div>
                           </div>
                         </div>
@@ -260,13 +297,38 @@ const Dcube = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p><Link href="/products/microsoft-dynamics-ax/"><a>Implementation of Dynamics AX 2012</a></Link> enabled NIMR to streamline workflow and reduce input costs by 78%, allowing finance people to focus on critical tasks.</p>
+                              <p>
+                                We helped DMIC to implement apps like Office 365
+                                and Microsoft Excel with Business Central.
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </SwiperSlide>
-                   
+                    <SwiperSlide>
+                      <div className="swiper-slide">
+                        <div className="swiper-slide">
+                          <div className="industries-list-more">
+                            <div className="img-wrp">
+                              <img
+                                src="/img/material-lightbulb-outline.svg"
+                                alt="proffesional-service"
+                              />
+                            </div>
+                            <div className="text-wrp-content">
+                              <p>
+                                <Link href="/">Dynamics Square</Link> helped
+                                DMIC to learn and understand the Business
+                                Intelligence to gain accurate insights about the
+                                business and make informed decisions in
+                                real-time.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
                   </Swiper>
                 </div>
                 <div className="swiper-pagination"></div>
@@ -279,8 +341,7 @@ const Dcube = () => {
       <section className="Solution-business-why custom-pd-3">
         <div className="container">
           <header className="section-header">
-            <h2>Benefits of Dynamics AX Implementation</h2>
-            <p>NIMR is utilizing the following functionalities from the Dynamics AX 2012 system to report accurate figures to MSH:</p>
+            <h2>Benefits</h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6">
@@ -292,71 +353,83 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Financial Management and Accounting:</b> The system provides financial management and accounting tools to help NIMR manage their finances and ensure accurate financial reporting.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p><b>Human Resource Management:</b> Dynamics AX's HR management tools enable NIMR to manage employee data, including payroll, benefits, and other HR-related tasks.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p><b>Fixed Assets Accounting:</b> This finance system allows NIMR to manage and track their fixed assets, including depreciation and asset acquisition.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p><b>Procurement/Purchase Order System:</b> The procurement/purchase order system provides the nonprofit with a streamlined process for managing purchases, from requisitions to purchase orders and invoicing.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p><b>Grant Management System:</b> The new finance system enables NIMR to manage and track grants, including proposal development, budgeting, and reporting.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p><b>Simplified Workflow:</b> The system's simplified workflow helps the organization streamline their processes and increase efficiency by automating tasks and reducing manual efforts.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-check-lg"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
-                    <p><b>Document Management:</b> Document management tools in Dynamics AX enable NIMR Tanzania to store, manage, and retrieve documents, ensuring that the organization's critical documents are easily accessible and secure. </p>
+                    <p>
+                      The performance of DMIC has increased to process all the
+                      operations flawlessly. The{" "}
+                      <Link href="/our-services/dynamics-365-upgrade-services/">
+                        upgrade
+                      </Link>{" "}
+                      made the business management seamless.
+                    </p>
                   </div>
                 </div>
 
-                
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      The client was able to complete the accounting task
+                      without any lag. After{" "}
+                      <Link href="/dynamics-365-business-central-implementation/">
+                        implementing Business Central
+                      </Link>
+                      , DMIC started to manage the entire business management
+                      process from a single dashboard.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      With the help of Business Central, DMIC was able to
+                      integrate{" "}
+                      <Link href="/products/microsoft-dynamics-365/">
+                        Microsoft apps
+                      </Link>{" "}
+                      like Word and Excel to make the data reporting, transfer,
+                      and share easy.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      Microsoft D365 Business Central helped the DMIC to share{" "}
+                      <Link href="/products/microsoft-power-bi/">
+                        real-time data
+                      </Link>{" "}
+                      with the concerned people to make the data processing
+                      simple.
+                    </p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>
+                      As a dedicated Microsoft partner, Dynamics Square helped
+                      DMIC to scale and grow their business.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
@@ -375,15 +448,19 @@ const Dcube = () => {
             </div>
             <div className="col-lg-7 align-self-center">
               <div className="call_to_action-left">
-                <h3>Looking to transform your NGO operations and achieve greater impact?</h3>
-                <p>Book a free consultation with one of our Dynamics 365 experts to get a customised solution as per your NFP business operations and processes.</p>
+                <h3>Consult To Reveal Best Approach</h3>
+                <p>
+                  Connect with us to facilitate your system to drive a parallel
+                  approach in the market you deal with. We help enterprises to
+                  implement their unique needs.
+                </p>
                 <div className="m-o-t m-o-t-inde">
                   <Link href="#exampleModal">
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Speak with our experts today! </span>
+                      <span>Talk to an ERP Expert</span>
                     </a>
                   </Link>
                 </div>
@@ -396,4 +473,4 @@ const Dcube = () => {
   );
 };
 
-export default Dcube;
+export default Dmic;

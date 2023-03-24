@@ -11,16 +11,14 @@ const CaseStudyMaxiLand = () => {
   return (
     <>
       <Head>
-        <title>
-          Mexi Land | Upgrade to Dynamics 365 Business Central On-Premise
-        </title>
+        <title>Upgrade from Dynamics NAV 2009 Business Central On-Premise</title>
         <meta
           name="description"
           content="Mexi Land worked with Dynamics Square to upgrade Dynamics NAV 2009 to Business Central On-premise. Read the case story to gain insights."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/case-studies/mexi-land/"
+          href="https://www.dynamicssquare.com/case-studies/nav09-business-central-on-premise/"
         />
       </Head>
 
@@ -33,7 +31,7 @@ const CaseStudyMaxiLand = () => {
                   <span className="date-ti">
                     Leading Distributor of Mexican Products in USA
                   </span>
-                  <h1>Mexi Land Case Study</h1>
+                  <h1>Case Study</h1>
                   <p>Upgrade to Dynamics 365 Business Central On-Premise</p>
                 </div>
               </div>
@@ -57,10 +55,9 @@ const CaseStudyMaxiLand = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center text-center">
-                  <img
-                    src="/img/cs-mexiland-logo.png"
-                    alt="MexiLand_logo"
-                    className="respon"
+                <img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
                   />
                 </div>
                 <div className="col-lg-9">

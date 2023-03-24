@@ -11,14 +11,14 @@ const Dcube = () => {
   return (
     <>
       <Head>
-        <title>Discovery Cube OC & LA: Dynamics AX 2012 Implementation</title>
+        <title> Implemented Microsoft Dynamics AX 2012 On-Premises</title>
         <meta
           name="description"
-          content="Discover how Dynamics AX 2012 enabled Discovery Cube OC & LA, a nonprofit organization, to boost productivity by 3 times and decrease input costs by 68%."
+          content="This case study highlights the successful implementation of Microsoft Dynamics AX 2012 On-Premises for a company, resulting in improved business processes."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/case-studies/discovery-cube/"
+          href="https://www.dynamicssquare.com/case-studies/dynamics-ax12-implementation/"
         />
       </Head>
 
@@ -31,7 +31,7 @@ const Dcube = () => {
                   <span className="date-ti">
                   Creating Meaningful Impact on Lives of Millions of Young Minds in STEM For Over 25 years. 
                   </span>
-                  <h1>Discovery Science Foundation (Now Discovery Cube OC & LA) </h1>
+                  <h1>Case Study</h1>
                   <p>A nonprofit organization seamlessly managing its operations and increased its productivity by <b>3X</b> and reduced input costs by <b>68%</b> with <b>Microsoft Dynamics 365 Finance</b> (formerly Dynamics AX) and <b>Dynamics CRM</b>.</p>
                 </div>
               </div>
@@ -54,7 +54,10 @@ const Dcube = () => {
             <div className="col-lg-10">
               <div className="row bg-case">
                 <div className="col-lg-3 align-self-center">
-                  <img src="/img/Discovery-Cube-logo.png" alt="Discovery-Cube-logo" width="180" />
+                <img
+                    src="/img/casestudy-pic.png"
+                    alt="casestudy-pic"
+                  />
                 </div>
                 <div className="col-lg-9">
                   <p><a href="https://www.discoverycube.org/" target="_blank" rel="nofollow">Discovery Cube</a>, founded in 1998 in Orange County, is a nonprofit organization that has positively impacted learners and caregivers for over two decades.<br /> However, the organization faced challenges managing membership, grant, finance, and inventory processes until partnering with Dynamics Square (a leading <Link href="/"><a>Microsoft Gold Partner</a></Link> and cloud solution provider in the USA) to implement Dynamics AX 2012 R2 and <Link href="/products/microsoft-dynamics-crm/"><a>Microsoft Dynamics CRM</a></Link>.<br /> Discovery Cube now efficiently managing operations with powerful finance solutions to provide the best possible experience for young people in the region, and making a meaningful impact on millions of lives every day!</p>

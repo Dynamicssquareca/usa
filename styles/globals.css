@@ -2038,10 +2038,10 @@ border:none
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  padding: 30px;
+  padding:0px 0px 0px 0px;
   /* box-shadow: 0px 0 20px rgba(1, 41, 112, 0.1); */
 
-  min-height: 320px;
+  /* min-height: 200px; */
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -2103,7 +2103,7 @@ border:none
   position: relative;
   text-align: left;
   margin-left: 30px; */
-  left: 28px;
+  /* left: 28px; */
     text-align: left;
     bottom: -5px;
 }
@@ -2263,7 +2263,7 @@ border:none
 .casestudys .casestudys-slider-item p {
   margin: 0 auto 15px auto;
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   color: #2d2d2d;
 }
 
@@ -7550,7 +7550,9 @@ overflow:hidden
 }
 .commen-box-9{
   padding: 30px 15px;
-    text-align:center
+    text-align:center;
+    overflow: hidden;
+    display: block;
 }
 .commen-box-9 .icons{
  text-align:center
@@ -7558,8 +7560,9 @@ overflow:hidden
 .commen-box-9 .icons img{
   width:65%
 }
+.commen-box-9 .icons-0102{margin: -35px -16px 25px -16px;}
 .commen-box-9 .icons-0102 img{
-  width: 150px;
+  width: 100%;
 }
 .commen-box-9 .commen-boc-2-info h3{}
 .commen-box-9 .commen-boc-2-info p{

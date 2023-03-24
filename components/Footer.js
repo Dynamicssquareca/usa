@@ -501,8 +501,8 @@ const Footer = () =>{
         </div>
       </footer>
       <div className='call-bb-wr'>
-      <button class="fixed-button wobble" type="button">
-      <a href="tel:+12818990865" target="_self"><i class="bi bi-telephone-fill"></i></a>
+      <button className="fixed-button wobble" type="button">
+      <a href="tel:+12818990865" target="_self"><i className="bi bi-telephone-fill"></i></a>
 </button>
 
       </div>

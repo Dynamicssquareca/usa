@@ -1055,13 +1055,7 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <Image
-                              src="/img/JVEquip_logo.png"
-                              className="testimonial-img"
-                              alt="JVEquip_logo"
-                              width={200}
-                              height={80}
-                            />
+                            
                             <div className="imginner">
                               <img src="/img/Icon metro-quote.png" alt="metro-quote" />
                             </div>
@@ -1084,13 +1078,7 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <Image
-                              src="/img/Spectra-Aluminum-logo-new.png"
-                              className="testimonial-img"
-                              alt="Spectra-Aluminum-logo-new"
-                              width={200}
-                              height={80}
-                            />
+                            
                             <div className="imginner">
                               <img src="/img/Icon metro-quote.png" alt="metro-quote" />
                             </div>
@@ -1109,13 +1097,7 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            <Image
-                              src="/img/MexiLand_logos.png"
-                              className="testimonial-img"
-                              alt="MexiLand_logos"
-                              width={200}
-                              height={80}
-                            />
+                            
                             <div className="imginner">
                               <img
                                 src="/img/Icon metro-quote.png"
@@ -1154,7 +1136,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="clients" className="clients">
+      {/* <section id="clients" className="clients">
         <div className="container" data-aos="fade-up">
           <div className="clients-slider swiper">
             <div className="swiper-wrapper align-items-center">
@@ -1254,7 +1236,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="casestudys" className="casestudys ">
         <div className="container" data-aos="fade-up">
@@ -1290,13 +1272,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <Image
-                        src="/img/cs-DMIC-logo.png"
-                        className="cs-DMIC-logo"
-                        alt="cs-DMIC-logo"
-                        width={200}
-                        height={80}
-                      />
+                      
                       <p>
                         Streamline Manufacturing & Accounting with D365 Business
                         Central On-Premise
@@ -1312,7 +1288,7 @@ export default function Home() {
                         </div>
                       </div> */}
                       <div className="case-button">
-                        <Link href="/case-studies/dmic/">
+                        <Link href="/case-studies/nav13-business-central-upgrade/">
                           <a className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
@@ -1322,13 +1298,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <Image
-                        src="/img/cs-spectra-logo.png"
-                        className="cs-spectra-logo"
-                        alt="crm-trading"
-                        width={200}
-                        height={80}
-                      />
+                      
                       <p>
                         Implemented Custom EFT Module to improvise Payment
                         Methods
@@ -1344,7 +1314,7 @@ export default function Home() {
                         </div>
                       </div> */}
                       <div className="case-button">
-                        <Link href="/case-studies/spectra/">
+                        <Link href="/case-studies/dynamics-nav13-eft-implementation/">
                           <a className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
@@ -1354,13 +1324,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <Image
-                        src="/img/cs-shimco-logo-csg.png"
-                        className="casestudys-slider-item-img"
-                        alt="cs-shimco-logo-csg"
-                        width={200}
-                        height={80}
-                      />
+                      
                       <p>
                         Implementation of Microsoft Dynamics Business Central
                         Cloud
@@ -1376,7 +1340,7 @@ export default function Home() {
                         </div>
                       </div> */}
                       <div className="case-button">
-                        <Link href="/case-studies/shimco/">
+                        <Link href="/case-studies/nav13-to-d365-business-central-upgrade/">
                           <a className="btn btn-md btn-custom-1">Read More</a>
                         </Link>
                       </div>
