@@ -258,10 +258,7 @@ export default function Home() {
               <h1>
               USA's  Leading <br /> Microsoft Dynamics <br /> Partner
               </h1>
-              <p>
-                Simplify your end-to-end business processes and maximise
-                outcomes with Microsoft Business Applications.
-              </p>
+              <p>Simplify your end-to-end business processes and maximise outcomes with business applications from your trusted <b>Microsoft Dynamics 365 partner</b>.</p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
                   <Link href="#exampleModal">
@@ -488,10 +485,7 @@ export default function Home() {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>Dedicated Microsoft Dynamics Partner</h2>
-                <p>
-                  We Implement Microsoft Business Applications, so that your
-                  business can grow at scale.
-                </p>
+                <p>As a <b>Dynamics 365 Partner</b>, We Implement Microsoft Business Applications to help you scale your business like never before!</p>
               </header>
             </div>
           </div>
@@ -869,11 +863,7 @@ export default function Home() {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>Microsoft Dynamics Efficiency Audit</h2>
-                <p>
-                  Discover new business opportunities and upgrade your business
-                  capabilities to drive continuity by our Dynamics 365 system
-                  health check at no cost.
-                </p>
+                <p>Discover new business opportunities with your <b>Microsoft Gold Partner</b> to upgrade your business capabilities, and drive business-continuity. Get Dynamics 365 system health check with Dynamics Square at no cost.</p>
               </header>
             </div>
           </div>
