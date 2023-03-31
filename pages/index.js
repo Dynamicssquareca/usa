@@ -258,7 +258,7 @@ export default function Home() {
               <h1>
               USA's  Leading <br /> Microsoft Dynamics <br /> Partner
               </h1>
-              <p>Simplify your end-to-end business processes and maximise outcomes with business applications from your trusted <b>Microsoft Dynamics 365 partner</b>.</p>
+              <p>Simplify your end-to-end business processes and maximise outcomes with business applications from your trusted <b>Microsoft Dynamics 365 Partner</b>.</p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
                   <Link href="#exampleModal">
