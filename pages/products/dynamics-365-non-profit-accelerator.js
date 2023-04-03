@@ -19,6 +19,8 @@ const NonProfitAccelerator = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/products/dynamics-365-non-profit-accelerator/"
         />
+        <meta name="robots" content="noindex, nofollow" />
+
       </Head>
       <ModalVideo
         channel="youtube"
