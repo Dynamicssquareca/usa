@@ -907,6 +907,11 @@ class Header extends Component {
                                 D365 Business Central vs. Finance Operations
                               </a>
                             </li>
+                            <li>
+                              <a href="/dynamics-gp-to-business-central-migration/">
+                               Dynamics GP to Business Central Migration
+                              </a>
+                            </li>
                           </ul>
                         </div>
                       </div>
