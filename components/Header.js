@@ -26,8 +26,8 @@ class Header extends Component {
               <div className="left-logo">
                 <a href="/" className="logo">
                   <img
-                    src="/img/dynamicssqure-logo.svg"
-                    alt="Dynamics Square logo"
+                    src="/img/dynamics_square_tm_logo.svg"
+                    alt="Dynamics Square TM Logo"
                     width="282"
                     height="19"
                   />
@@ -1078,7 +1078,7 @@ class Header extends Component {
                       className="getstarted custtss"
                       href="tel:+12818990865"
                     >
-                      <i className="bi bi-telephone-fill"></i>
+                      <i className="bi bi-telephone-fill"></i> <span className="screen-reader-text">Details</span>
                     </a>
                   </div>
                 <a
@@ -1086,7 +1086,7 @@ class Header extends Component {
                   data-bs-toggle="offcanvas"
                   aria-controls="offcanvasWithBothOptions"
                 >
-                  <i className="bi bi-list mobile-nav-toggle"></i>
+                  <i className="bi bi-list mobile-nav-toggle"></i> <span className="screen-reader-text">Details</span>
                 </a>
               </div>
               <div className="mobile-new-nav">

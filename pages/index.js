@@ -513,7 +513,7 @@ export default function Home() {
                 </p>
                 <Link href="/products/dynamics-365-business-central/">
                   <a className="read-more">
-                    <span>Learn More...</span>
+                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
                   </a>
                 </Link>
               </div>
@@ -541,7 +541,7 @@ export default function Home() {
                 </p>
                 <Link href="/products/microsoft-dynamics-365-finance/">
                   <a className="read-more">
-                    <span>Learn More...</span>
+                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
                   </a>
                 </Link>
               </div>
@@ -569,7 +569,7 @@ export default function Home() {
                 </p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
                   <a className="read-more">
-                    <span>Learn More...</span>
+                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
                   </a>
                 </Link>
               </div>
@@ -601,7 +601,7 @@ export default function Home() {
                 </p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
                   <a className="read-more">
-                    <span>Learn More...</span>
+                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
                   </a>
                 </Link>
               </div>
@@ -633,7 +633,7 @@ export default function Home() {
                 </p>
                 <Link href="/products/microsoft-power-bi/">
                   <a className="read-more">
-                    <span>Learn More...</span>
+                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
                   </a>
                 </Link>
               </div>
@@ -664,7 +664,7 @@ export default function Home() {
                 </p>
                 <Link href="/products/azure-iot-internet-of-things/">
                   <a className="read-more">
-                    <span>Learn More...</span>
+                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
                   </a>
                 </Link>
               </div>
@@ -707,7 +707,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/startups/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -735,7 +735,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/microsoft-cloud-for-nonprofit/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -763,7 +763,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/ecommerce/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -791,7 +791,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/microsoft-cloud-for-manufacturing/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -819,7 +819,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/professional-services/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -847,7 +847,7 @@ export default function Home() {
                   </p>
                   <Link href="/industries/food-and-beverages/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More
+                      Learn More <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -1279,7 +1279,7 @@ export default function Home() {
                       </div> */}
                       <div className="case-button">
                         <Link href="/case-studies/nav13-business-central-upgrade/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>
@@ -1305,7 +1305,7 @@ export default function Home() {
                       </div> */}
                       <div className="case-button">
                         <Link href="/case-studies/dynamics-nav13-eft-implementation/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>
@@ -1331,7 +1331,7 @@ export default function Home() {
                       </div> */}
                       <div className="case-button">
                         <Link href="/case-studies/nav13-to-d365-business-central-upgrade/">
-                          <a className="btn btn-md btn-custom-1">Read More</a>
+                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
                         </Link>
                       </div>
                     </div>

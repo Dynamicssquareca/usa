@@ -164,9 +164,11 @@ const FooterHide = () =>{
             <div className="row gy-4">
               <div className="col-lg-5 col-md-12 footer-info">
                 <a href="/" className="logo d-flex align-items-center">
-                  <img
-                    src="/img/dsuk-footer-logo.svg"
-                    alt="dsuk-footer-logo"
+                <img
+                    src="/img/dynamics_square_tm_logo_footer.svg"
+                    alt="Dynamics Square TM Logo"
+                    width="230"
+                    height="16"
                   />
                 </a>
                 <p>
@@ -338,8 +340,8 @@ const FooterHide = () =>{
         </div>
       </footer>
       <div className='call-bb-wr'>
-      <button className="fixed-button wobble" type="button">
-      <a href="tel:+12818990865" target="_self"><i className="bi bi-telephone-fill"></i></a>
+      <button className="fixed-button wobble" type="button" aria-labelledby="callbuttondiv">
+      <a href="tel:+12818990865" target="_self" ><i className="bi bi-telephone-fill"></i> <span className="screen-reader-text">Details</span></a>
 </button>
 
       </div>
