@@ -30,7 +30,7 @@ const PowerBI = () => {
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-power-bi/"/>
         <meta property="twitter:title" content=" Certified Microsoft Power BI Partners USA"/>
         <meta property="twitter:description" content="Dynamics Square is a Microsoft certified gold partner offering its Power BI implementation and support services to businesses of the entire USA."/>
-        <meta property="twitter:image" content="https://www.dynamicssquare.com/power-bi-feature-pic.png"/> 
+        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/power-bi-feature-pic.png"/> 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
