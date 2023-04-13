@@ -7,7 +7,8 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
-const Dcube = () => {
+
+const Nimr = () => {
   return (
     <>
       <Head>
@@ -18,7 +19,7 @@ const Dcube = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/case-studies/implemented-dynamics-ax12/ "
+          href="https://www.dynamicssquare.com/case-studies/implemented-dynamics-ax12/"
         />
       </Head>
 
@@ -28,11 +29,9 @@ const Dcube = () => {
             <div className="col-lg-6 align-self-center">
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
-                  <span className="date-ti">
-                 <b>NIMR Tanzania + MSH:</b> Transforming Health Systems with Strategies, Tools, and Management Support for Governments, Health Organizations, and the Private Sector. 
-                  </span>
+                  <span className="date-ti">A Non-profit Advisory Organization Transforming Health Systems Across Governments, Health Organizations, and the Private Sector. </span>
                   <h1>Case Study</h1>
-                  <p>Discover how a nonprofit advisory organization boosted its productivity by 5X and slashed input costs by 78% through seamless <b>management of finance and operations</b> using <b>Microsoft Dynamics AX 2012</b> (now <b>Dynamics 365 Finance</b>).</p>
+                  <p>Discover how a nonprofit in Tanzania increased productivity by <b>5X</b> and reduced input costs by <b>78%</b> by efficiently managing finance and operations with <b>Microsoft Dynamics AX 2012</b>.</p>
                 </div>
               </div>
             </div>
@@ -57,10 +56,13 @@ const Dcube = () => {
                 <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
+                    width="160"
+                    height="160"
                   />
                 </div>
                 <div className="col-lg-9">
-                  <p><a href="http://www.nimr.or.tz/" target="_blank" rel="nofollow">NIMR Tanzania</a>, a nonprofit advisory organization that underwent significant growth, faced challenges due to the lack of integration among its finance and operations systems. <a href="https://msh.org/" rel="nofollow" target="_blank">MSH</a> (Management Sciences for Health) partnered with <a href="https://angelcom.com/" target="_blank" rel="nofollow">AccTech Systems</a> to review NIMR's financial management system requirements, and brought onboard <b>Dynamics Square</b> (a leading <Link href="/"><a>Microsoft Gold Partner</a></Link> and Cloud Solution Provider in the USA) to implement <b>Microsoft Dynamics AX 2012</b> On-premises version (<Link href="/products/microsoft-dynamics-365-finance-operations/"><a>Dynamics 365 Finance & Operations</a></Link>, now <b>Dynamics 365 Finance</b>) to address NIMR's grant management, project budgeting, time tracking, financial reporting, and other finance related challenges. <br /><br />By implementing a modern financial solution like <b>Microsoft Dynamics AX 2012</b>, NIMR Tanzania is efficiently managing its operations, and providing a better experience globally. This nonprofit has made a significant impact on millions of lives and continues to do so. </p>
+                  <p>A nonprofit advisory organization faced integration challenges in finance and operations due to significant growth. The organization partnered with <b>Dynamics Square</b> (USA's trusted <Link href="/"><a>Microsoft Dynamics Partner</a></Link>) to review its financial management requirements and implement Microsoft Dynamics AX 2012 On-premises version. This addressed grant management, project budgeting, time tracking, financial reporting, and other finance-related challenges.</p>
+                  <p>The <b>implementation of Microsoft Dynamics AX 2012</b> (or released as <Link href="/products/microsoft-dynamics-365-finance-operations/"><a>Dynamics 365 Finance & Operations</a></Link> back in Nov'16) rapidly improved operations management. Since the implementation of Dynamics AX (now <Link href="/products/microsoft-dynamics-ax/"><a>Microsoft Dynamics AX</a></Link>), the nonprofit continues to make a significant impact on millions of lives globally.</p>
                 </div>
               </div>
             </div>
@@ -71,7 +73,7 @@ const Dcube = () => {
       <section className="Solution-business-why custom-pd-1 custom-pd-2">
         <div className="container">
           <header className="section-header">
-            <h2>Business Challenges NIMR Tanzania Faced</h2>
+            <h2>Business Challenges Faced by the Non-profit</h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
@@ -86,7 +88,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Lack of integration among current systems supporting operations.</p>
+                    <p>Lack of integration among current ERP system's capabilities.</p>
                   </div>
                 </div>
 
@@ -97,7 +99,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Manual processing, maintenance of parallel systems, and extensive reconciliation efforts.</p>
+                    <p>Huge workload of manual processing, maintenance of parallel systems, and extensive reconciliation efforts.</p>
                   </div>
                 </div>
 
@@ -108,7 +110,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Producing reports and satisfying information requests is a labor-intensive process.</p>
+                    <p>It was laborious to produce reports and generate accurate insights to support decision-making.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -128,7 +130,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Need to review NIMR's financial management system requirements.</p>
+                    <p>Need to review the organization's financial management system requirements.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -138,7 +140,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Require an independent, objective third party perspective to take a fresh look at how work is performed from a best practices perspective.</p>
+                    <p>Required an independent, objective third-party perspective to take a fresh look at how work is performed from a best practices perspective.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -148,7 +150,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>The need to streamline grant management, project budgeting, time tracking by project and location, and financial reporting from research centers.</p>
+                    <p>It was needed to streamline grant management, project budgeting, time tracking by project and location, and financial reporting from research centers.</p>
                   </div>
                 </div>
               </div>
@@ -160,8 +162,8 @@ const Dcube = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Implemented Solution </h2>
-            <p>See how Dynamics AX helped upgrading Business Operations at Discovery Cube</p>
+            <h2>Solution Delivered</h2>
+            <p>See How Dynamics AX (now <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link>) helped upgrade the Business Operations of The Non-profit:</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -213,7 +215,7 @@ const Dcube = () => {
                             />
                           </div>
                           <div className="text-wrp-content">
-                            <p><Link href="/"><a>Dynamics Square</a></Link> implemented Dynamics AX 2012 On-premises to address NIMR's challenges in grant management, project budgeting, time tracking, and financial reporting.</p>
+                            <p><Link href="/"><a>Dynamics Square</a></Link> implemented Dynamics AX'12 On-premises to address challenges in grant management, project budgeting, time tracking, and financial reporting.</p>
                           </div>
                         </div>
                       </div>
@@ -229,7 +231,7 @@ const Dcube = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>Dynamics AX 2012 streamlined NIMR Tanzania's operations, reducing manual processing, reconciliation efforts, and improving workflow efficiency.</p>
+                              <p>AX 2012 streamlined operations, reducing manual processing, and reconciliation effort, and improving workflow efficiency.</p>
                             </div>
                           </div>
                         </div>
@@ -246,7 +248,7 @@ const Dcube = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>The new finance management system integrated existing systems, reducing manual processing and reconciliation, making report generation effortless.</p>
+                              <p>The new financial management system integrated existing systems to lower the manual workload and made report generation effortless.</p>
                             </div>
                           </div>
                         </div>
@@ -263,7 +265,7 @@ const Dcube = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p><Link href="/products/microsoft-dynamics-ax/"><a>Implementation of Dynamics AX 2012</a></Link> enabled NIMR to streamline workflow and reduce input costs by 78%, allowing finance people to focus on critical tasks.</p>
+                              <p>Implementation of Dynamics AX 2012 enabled the organization to streamline workflow and <b>reduce input costs by 78%</b>, allowing the finance department to focus on critical tasks.</p>
                             </div>
                           </div>
                         </div>
@@ -282,8 +284,8 @@ const Dcube = () => {
       <section className="Solution-business-why custom-pd-3">
         <div className="container">
           <header className="section-header">
-            <h2>Benefits of Dynamics AX Implementation</h2>
-            <p>NIMR is utilizing the following functionalities from the Dynamics AX 2012 system to report accurate figures to MSH:</p>
+            <h2>Benefits Of Dynamics AX Implementation Organization Reaping</h2>
+            <p>The nonprofit is leveraging the following functionalities from the Dynamics AX 2012 system to report accurate figures to concerned authorities:</p>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6">
@@ -295,7 +297,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Financial Management and Accounting:</b> The system provides financial management and accounting tools to help NIMR manage their finances and ensure accurate financial reporting.</p>
+                    <p><b>Financial Management and Accounting:</b> The system provides financial management and accounting tools to help the organization manage its finances and ensure accurate financial reporting.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -305,7 +307,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Human Resource Management:</b> Dynamics AX's HR management tools enable NIMR to manage employee data, including payroll, benefits, and other HR-related tasks.</p>
+                    <p><b>Human Resource Management:</b> Dynamics AX's HR management tools enabled the organization to manage employee data, including payroll, benefits, and other HR-related tasks.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -315,7 +317,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Fixed Assets Accounting:</b> This finance system allows NIMR to manage and track their fixed assets, including depreciation and asset acquisition.</p>
+                    <p><b>Fixed Assets Accounting:</b> This finance system allows this non-profit body to manage and track its fixed assets, including depreciation and asset acquisition.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -325,7 +327,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Procurement/Purchase Order System:</b> The procurement/purchase order system provides the nonprofit with a streamlined process for managing purchases, from requisitions to purchase orders and invoicing.</p>
+                    <p><b>Procurement/Purchase Order System:</b> The procurement/purchase order system provides a streamlined process for managing purchases, from requisitions to purchase orders and invoicing. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -335,7 +337,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Grant Management System:</b> The new finance system enables NIMR to manage and track grants, including proposal development, budgeting, and reporting.</p>
+                    <p><b>Grant Management System:</b> The new finance system enables the employees to manage and track grants, including proposal development, budgeting, and reporting.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -345,7 +347,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Simplified Workflow:</b> The system's simplified workflow helps the organization streamline their processes and increase efficiency by automating tasks and reducing manual efforts.</p>
+                    <p><b>Simplified Workflow:</b> The system's simplified workflow helps the organization streamline its processes and increase efficiency by automating tasks and reducing manual efforts. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -355,7 +357,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p><b>Document Management:</b> Document management tools in Dynamics AX enable NIMR Tanzania to store, manage, and retrieve documents, ensuring that the organization's critical documents are easily accessible and secure. </p>
+                    <p><b>Document Management:</b> Document management tools in Dynamics AX enabled admins to store, manage, and retrieve documents, ensuring that the organization's critical documents can easily accessed and remain secure for long-run.</p>
                   </div>
                 </div>
 
@@ -399,4 +401,4 @@ const Dcube = () => {
   );
 };
 
-export default Dcube;
+export default Nimr;

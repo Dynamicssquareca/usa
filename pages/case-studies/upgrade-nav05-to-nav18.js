@@ -22,10 +22,10 @@ const CaseStudyTheLand = () => {
             <div className="col-lg-6 align-self-center">
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
-                  <span className="date-ti">Leading Flooring Service Provider</span>
+                  <span className="date-ti">Leading Flooring Service Provider In the USA </span>
                   <h1>Case Study
                   </h1>
-                  <p>Improving Operational Efficiency by Upgrading NAV05 to NAV2018</p>
+                  <p>Improved Operational Efficiency by Upgrading NAV'05 to Dynamics NAV'18</p>
                 </div>
               </div>
             </div>
@@ -50,19 +50,12 @@ const CaseStudyTheLand = () => {
                 <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
+                    width="160"
+                    height="160"
                   />
                 </div>
-                <div className="col-lg-9">
-                  <p>
-                  <a
-                      href="https://www.thelandlcompany.com/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      {" "}
-                      The L&L Company{" "}
-                    </a>{" "} is a flooring store owned and operated locally. For every individual, investing in a home to make it more liveable is the most important task, and the best thing is the L&L company understands it too. The company tries to provide the best experience to the clients in selecting the flooring products as they invest in themselves. They offer a wide range of products for customers like hardwood, carpet, tiles, resilient products, pet-friendly products, and green flooring solutions. 
-                  </p>
+                <div className="col-lg-9 align-self-center">
+                  <p>By <b>upgrading from Dynamics NAV'2005 to NAV'2018</b>, one of the leading locally owned flooring service providers in the USA has improved its operational efficiency. The company prioritizes providing the best experience to its customers. They were looking for an ERP solution to help the company offer their customers a diverse range of products, including hardwood, carpet, tiles, resilient products, pet-friendly products, and green flooring solutions.</p>
                 </div>
               </div>
             </div>
@@ -73,10 +66,7 @@ const CaseStudyTheLand = () => {
       <section className="Solution-business-why custom-pd-1 custom-pd-2">
         <div className="container">
           <header className="section-header">
-            <h2>
-              What are The <br />
-              Business Challenges?
-            </h2>
+            <h2>Business Challenges Faced by The Company</h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
@@ -91,10 +81,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    The L&L Company was not satisfied with the performance of NAV05. It started to perform slower with the simple task, decreasing efficiency. They were looking for a <Link href="/products/microsoft-dynamics-nav/">NAV version</Link> that performs fast and easy. 
-
-                    </p>
+                    <p>This company was dissatisfied with the slow performance of NAV'05, particularly with simple tasks, which decreased efficiency. They were looking for a faster and more efficient version of <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>.</p>
                   </div>
                 </div>
 
@@ -105,9 +92,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    The company was in a growing phase and urgently needed an <Link href="/products/microsoft-dynamics-erp/">ERP</Link> (Enterprise Resource Planning) to help them scale in terms of technology and functionality. 
-                    </p>
+                    <p>The company was in a growth phase and required an ERP (Enterprise Resource Planning) system to support its technological and functional scalability.</p>
                   </div>
                 </div>
 
@@ -118,9 +103,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    They were facing difficulties in managing the Inventory data. Also, they could not execute data/logic reports for inventory valuation. 
-                    </p>
+                    <p>They met difficulties managing inventory data and executing data/logic reports for inventory valuation.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -130,9 +113,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    The L&L company wants a seamless translation of reports and data between employees. It can be possible with the Microsoft integration, which was a challenge with NAV05.
-                    </p>
+                    <p>The Company desired seamless translation of reports and data between employees, which was a challenge with NAV’05 but made possible with Microsoft integrations.</p>
                   </div>
                 </div>
               </div>
@@ -144,8 +125,8 @@ const CaseStudyTheLand = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Solution Delivered</h2>
-            <p>Upgrading with Microsoft Dynamics NAV 2018</p>
+            <h2>Business Solutions Delivered</h2>
+            <p>Learn How <b>Upgrading to Microsoft Dynamics NAV 2018</b>, the Company Is Making Waves!</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -197,9 +178,7 @@ const CaseStudyTheLand = () => {
                             />
                           </div>
                           <div className="text-wrp-content">
-                            <p>
-                            Dynamics Square has successfully upgraded the ERP of the L&L company from NAV05 to NAV 2018. 
-                            </p>
+                            <p><b>Dynamics Square</b> has successfully <Link href="/products/microsoft-dynamics-erp/"><a>upgraded the ERP</a></Link> of the company from NAV'05 to NAV'18.</p>
                           </div>
                         </div>
                       </div>
@@ -215,9 +194,7 @@ const CaseStudyTheLand = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                              The NAV 2018 enables the employees to work faster and more accurate by the increase in performance. 
-                              </p>
+                              <p>The 2018 version of NAV enabled the employees to work faster, get accurate insights, and increase the overall performance of the business functions.</p>
                             </div>
                           </div>
                         </div>
@@ -234,9 +211,7 @@ const CaseStudyTheLand = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                              NAV 2018 started helping them manage the business as well as the inventory department of the organization.
-                              </p>
+                              <p>NAV 2018 started helping them manage the business and the company's inventory.</p>
                             </div>
                           </div>
                         </div>
@@ -253,9 +228,7 @@ const CaseStudyTheLand = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                              They brought only the opening balance from the NAV05 legacy system to make the upgrade per their needs. 
-                              </p>
+                              <p>They only offered the opening balance from the NAV'05, which is a legacy system to make the upgrade as per their requirements.</p>
                             </div>
                           </div>
                         </div>
@@ -272,9 +245,7 @@ const CaseStudyTheLand = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                              The NAV2018 version helped them in dealing with finance and accounting needs.
-                              </p>
+                              <p>The NAV'18 version helped the company in dealing with finance and accounting needs.</p>
                             </div>
                           </div>
                         </div>
@@ -291,9 +262,7 @@ const CaseStudyTheLand = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                              We helped the L&L company with the required customizations and integrations for seamless operations.
-                              </p>
+                              <p>We assisted the organization with the required customizations and integrations for seamless operations.</p>
                             </div>
                           </div>
                         </div>
@@ -323,9 +292,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    The new ERP of the L&L company started to perform faster and without any lag.
-                    </p>
+                    <p>The company's new ERP system performs faster and without any lag.</p>
                   </div>
                 </div>
 
@@ -336,9 +303,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    They gained access to newer processes and technology enhancements. 
-                    </p>
+                    <p>They have gained access to newer processes and technological enhancements.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -348,9 +313,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    The performance of the ERP increases to the next level. They started to process the data to import and export easily. 
-                    </p>
+                    <p>The ERP system's performance has increased to the next level, making data import and export easier.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -360,9 +323,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    With the successful integration of Microsoft apps like Word, Excel, and Outlook, they started to share the data and reports in the better way possible.
-                    </p>
+                    <p>With the successful integration of Microsoft apps like Word, Excel, and Outlook, they can share data and reports more efficiently.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -372,9 +333,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    Now, they can execute the data/logic reports for inventory valuation without any issue.
-                    </p>
+                    <p>They can now execute data/logic reports for inventory valuation without issues.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -384,9 +343,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    The client now works with the modern technology to smooth the business without system performance issues. Now, they can automate the inventory process. 
-                    </p>
+                    <p>The company can now automate its inventory process with modern technology, resulting in smoother business operation without system performance issues.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -396,9 +353,7 @@ const CaseStudyTheLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                    As a trusted <Link href="/about-us/">Microsoft Gold partner</Link>, Dynamics Square helped them understand the working of NAV2018 for growth and scalability.
-                    </p>
+                    <p>Dynamics Square, a leading and trusted <Link href="/"><a>Microsoft Dynamics Partner</a></Link> in the USA, helped them understand NAV2018 (now <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>) for increased growth and scalability.</p>
                   </div>
                 </div>
               </div>

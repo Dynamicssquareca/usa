@@ -159,9 +159,7 @@ const CaseStudyList = () => {
                           <img src="/img/case-studies-2.jpg" alt="MexiLand_logos" />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>
-                          Mexi Land was facing issues with the working of Dynamics NAV 2009. They want to perform better, but NAV 2009 was stopping them from working on full productivity.
-                          </p>
+                          <p>Learn How a popular Mexican Candy Manufacturing Company resolved issues by upgrading Dynamics NAV 2009 to Business Central (On-Premises).</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -221,7 +219,7 @@ const CaseStudyList = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
@@ -243,7 +241,7 @@ const CaseStudyList = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
@@ -254,7 +252,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                          Discovery Science Foundation (Now Discovery Cube OC & LA)
+                          A Non-profit changing the lives of millions of young minds increased productivity by 3x and reduced input costs by 68%.
                           </p>
                         </div>
                         <div className="btn-003">
@@ -276,9 +274,7 @@ const CaseStudyList = () => {
                           />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>
-                          NIMR Tanzania & Management Sciences for Health (MSH)
-                          </p>
+                          <p>See How USA's Well-Known Health Organization Achieved 5x Productivity and 78% input costs reduction!</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -315,7 +311,7 @@ const CaseStudyList = () => {
                         </div>
                       </div>
                     </div> */}
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img src="/img/case-studies-7.jpg" alt="cs-shimco-logo" />
@@ -334,7 +330,7 @@ const CaseStudyList = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div
@@ -398,9 +394,7 @@ const CaseStudyList = () => {
                           <img src="/img/case-studies-2.jpg" alt="MexiLand_logos" />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>
-                          Mexi Land was facing issues with the working of Dynamics NAV 2009. They want to perform better, but NAV 2009 was stopping them from working on full productivity.
-                          </p>
+                          <p>Learn How a popular Mexican Candy Manufacturing Company resolved issues by upgrading Dynamics NAV 2009 to Business Central (On-Premises).</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -469,7 +463,7 @@ const CaseStudyList = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img
@@ -491,7 +485,7 @@ const CaseStudyList = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
@@ -501,9 +495,7 @@ const CaseStudyList = () => {
                           />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>
-                          Discovery Science Foundation (Now Discovery Cube OC & LA)
-                          </p>
+                          <p>A Non-profit changing the lives of millions of young minds increased productivity by 3x and reduced input costs by 68%.</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -524,9 +516,7 @@ const CaseStudyList = () => {
                           />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>
-                          NIMR Tanzania & Management Sciences for Health (MSH)
-                          </p>
+                          <p>See How USA's Well-Known Health Organization Achieved 5x Productivity and 78% input costs reduction!</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -572,7 +562,7 @@ const CaseStudyList = () => {
                         </div>
                       </div>
                     </div> */}
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
                           <img src="/img/case-studies-7.jpg" alt="cs-shimco-logo" />
@@ -591,7 +581,7 @@ const CaseStudyList = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
                 <div

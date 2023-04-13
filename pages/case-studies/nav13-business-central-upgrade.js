@@ -28,15 +28,9 @@ const Dmic = () => {
             <div className="col-lg-6 align-self-center">
               <div className="webin-top-left case-study-bann">
                 <div className="top-se">
-                  <span className="date-ti">
-                    Top Designer and Manufacturer of Ball Valves, Check Valves,
-                    Power Unit Accessories, and Custom Hydraulic Components.
-                  </span>
+                  <span className="date-ti">Top Designer and Manufacturer of Custom Hydraulic Components and Power Unit Accessories Accelerating Business Operations with Business Central.</span>
                   <h1>Case Study</h1>
-                  <p>
-                    Streamline Manufacturing & Accounting with D365 Business
-                    Central On-Premise
-                  </p>
+                  <p>Streamlined Manufacturing & Accounting with D365 Business Central On-Premises.</p>
                 </div>
               </div>
             </div>
@@ -61,28 +55,12 @@ const Dmic = () => {
                 <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
+                    width="160"
+                    height="160"
                   />
                 </div>
-                <div className="col-lg-9">
-                  <p>
-                    Founded in 1992,{" "}
-                    <a
-                      href="https://www.dmic.com/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      {" "}
-                      DMIC{" "}
-                    </a>{" "}
-                    (Delaware Manufacturing Industries Corporation) is an
-                    American company located near Niagara Falls. They are
-                    experts in designing and manufacturing of fluid handling
-                    components for aerospace and aviation applications. They
-                    manufacture most of the components required in-fluid
-                    handling industry, like check valve, ball valve, fluid
-                    control valves, hydraulic accessories, gauges, isolators,
-                    and power unit layout systems.
-                  </p>
+                <div className="col-lg-9 align-self-center">
+                  <p>A US manufacturer founded in 1992 near Niagara Falls produces and designs fluid handling components for aviation. Their manufacturing capability expanded after implementing <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link>. They make various components including valves, gauges, and hydraulic accessories. The company is highly respected for their expertise in the industry.</p>
                 </div>
               </div>
             </div>
@@ -93,10 +71,7 @@ const Dmic = () => {
       <section className="Solution-business-why custom-pd-1 custom-pd-2">
         <div className="container">
           <header className="section-header">
-            <h2>
-              What are The <br />
-              Business Challenges?
-            </h2>
+            <h2>Business Challenges</h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
@@ -111,15 +86,7 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      DMIC were using{" "}
-                      <Link href="/products/microsoft-dynamics-nav/">
-                        Dynamics NAV 2013
-                      </Link>{" "}
-                      and unsatisfied with the performance. Their version of NAV
-                      was lacking in completing various tasks whether it is
-                      related to accounts or operations.
-                    </p>
+                    <p>The manufacturer was using <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> <b>2013</b> and was dissatisfied with its performance. NAV was lacking in completing tasks whether it is related to accounts or operations.</p>
                   </div>
                 </div>
 
@@ -130,12 +97,7 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The company was scaling, and NAV 2013 was unable to deal
-                      with it. They are unable to expand the business
-                      operations. Due to the increasing number of processes and
-                      operations, NAV 2013 was unable to process them all.
-                    </p>
+                    <p>Due to the increasing number of processes and operations, NAV 2013 was unable to process them all.</p>
                   </div>
                 </div>
 
@@ -146,11 +108,7 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The current NAV version lags in performing the accounting
-                      and manufacturing tasks, resulting in a decrease in
-                      overall efficiency.
-                    </p>
+                    <p>The existing NAV13 version lagged in performing the accounting and manufacturing tasks, resulting in a decrease in overall efficiency.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -160,10 +118,7 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They want to integrate other apps like Word and Excel, but
-                      they were facing difficulties in doing so.
-                    </p>
+                    <p>It was required to integrate other Microsoft productivity apps like Word and Excel, and the company was facing challenges in doing so.</p>
                   </div>
                 </div>
               </div>
@@ -175,8 +130,8 @@ const Dmic = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Solution Delivered</h2>
-            <p>Upgrading with Microsoft Dynamics 365 Business Central</p>
+            <h2>Business challenges Resolved with the Solution Delivered</h2>
+            <p><Link href="/dynamics-nav-to-business-central/"><a>Upgraded NAV 2013 to Microsoft Dynamics 365 Business Central</a></Link> for enhanced governance of business operations.</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -228,13 +183,7 @@ const Dmic = () => {
                             />
                           </div>
                           <div className="text-wrp-content">
-                            <p>
-                              Dynamics Square upgraded the ERP of DMIC from{" "}
-                              <Link href="/dynamics-nav-to-business-central">
-                                NAV 2013 to D365 Business Central
-                              </Link>
-                              .
-                            </p>
+                            <p>The organization was finding it difficult to streamline complex tasks like reporting, invoicing, user tasks, setup changes, maintaining the general ledger, and more.</p>
                           </div>
                         </div>
                       </div>
@@ -250,12 +199,7 @@ const Dmic = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                                The newer Business Central can streamline the
-                                complicated tasks as well like reporting, user
-                                tasks, setup change, maintaining ledger, and
-                                more.
-                              </p>
+                              <p>It was required to better streamline the accounting and manufacturing process and increase the overall performance to meet the inbound needs.</p>
                             </div>
                           </div>
                         </div>
@@ -272,15 +216,7 @@ const Dmic = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                                We have integrated Microsoft apps with{" "}
-                                <Link href="/products/dynamics-365-business-central/">
-                                  Business Central
-                                </Link>{" "}
-                                to streamline the accounting and manufacturing
-                                process increasing the performance to meet the
-                                needs.
-                              </p>
+                              <p>The manufacturer needed the help to <Link href="/dynamics-365-business-central-implementation/"><a>implement Business Central</a></Link>, migrate data from NAV, and integrate Office 365 productivity tools like Excel, Outlook, and Microsoft Teams.</p>
                             </div>
                           </div>
                         </div>
@@ -297,38 +233,13 @@ const Dmic = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                                We helped DMIC to implement apps like Office 365
-                                and Microsoft Excel with Business Central.
-                              </p>
+                              <p>It was required to learn and understand the requirements to upgrade the legacy <b>ERP to Business Central</b> so that concerned admin could get accurate insights and make decision-making smarter.</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="swiper-slide">
-                        <div className="swiper-slide">
-                          <div className="industries-list-more">
-                            <div className="img-wrp">
-                              <img
-                                src="/img/material-lightbulb-outline.svg"
-                                alt="proffesional-service"
-                              />
-                            </div>
-                            <div className="text-wrp-content">
-                              <p>
-                                <Link href="/">Dynamics Square</Link> helped
-                                DMIC to learn and understand the Business
-                                Intelligence to gain accurate insights about the
-                                business and make informed decisions in
-                                real-time.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
+                    
                   </Swiper>
                 </div>
                 <div className="swiper-pagination"></div>
@@ -341,7 +252,7 @@ const Dmic = () => {
       <section className="Solution-business-why custom-pd-3">
         <div className="container">
           <header className="section-header">
-            <h2>Benefits</h2>
+            <h2>Benefits of Rolling Out Business Central On-premises</h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6">
@@ -353,14 +264,7 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The performance of DMIC has increased to process all the
-                      operations flawlessly. The{" "}
-                      <Link href="/our-services/dynamics-365-upgrade-services/">
-                        upgrade
-                      </Link>{" "}
-                      made the business management seamless.
-                    </p>
+                    <p>The performance of the company increased to process all the ERP operations flawlessly. The <b>upgrade to Business Central</b> made business management seamless. </p>
                   </div>
                 </div>
 
@@ -371,15 +275,7 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The client was able to complete the accounting task
-                      without any lag. After{" "}
-                      <Link href="/dynamics-365-business-central-implementation/">
-                        implementing Business Central
-                      </Link>
-                      , DMIC started to manage the entire business management
-                      process from a single dashboard.
-                    </p>
+                    <p>People close to business operations were able to complete the accounting task without any lag.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -389,15 +285,7 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      With the help of Business Central, DMIC was able to
-                      integrate{" "}
-                      <Link href="/products/microsoft-dynamics-365/">
-                        Microsoft apps
-                      </Link>{" "}
-                      like Word and Excel to make the data reporting, transfer,
-                      and share easy.
-                    </p>
+                    <p>After <b>implementing Business Central</b>, the manufacturer started to manage the entire business management process from a single dashboard.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -407,14 +295,7 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Microsoft D365 Business Central helped the DMIC to share{" "}
-                      <Link href="/products/microsoft-power-bi/">
-                        real-time data
-                      </Link>{" "}
-                      with the concerned people to make the data processing
-                      simple.
-                    </p>
+                    <p>With the help of <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>, the company was able to utilize Microsoft's productivity apps like Word and Excel to make data reporting, transfer, and sharing easy.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -424,10 +305,17 @@ const Dmic = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      As a dedicated Microsoft partner, Dynamics Square helped
-                      DMIC to scale and grow their business.
-                    </p>
+                    <p><b>Microsoft D365 Business Central</b> assisted the manufacturer to share real-time data with the concerned people to make the data processing simple.</p>
+                  </div>
+                </div>
+                <div className="content-inner-moil-1">
+                  <div className="icons-left">
+                    <div className="ext-bord">
+                      <i className="bi bi-check-lg"></i>
+                    </div>
+                  </div>
+                  <div className="cintent-right">
+                    <p>As a dedicated <Link href="/"><a>Dynamics 365 Partner</a></Link>, Dynamics Square helped the company to scale and grow its business by helping the company to seamlessly adapt to business Central (online).</p>
                   </div>
                 </div>
               </div>

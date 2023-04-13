@@ -32,7 +32,7 @@ const Dcube = () => {
                   Creating Meaningful Impact on Lives of Millions of Young Minds in STEM For Over 25 years. 
                   </span>
                   <h1>Case Study</h1>
-                  <p>A nonprofit organization seamlessly managing its operations and increased its productivity by <b>3X</b> and reduced input costs by <b>68%</b> with <b>Microsoft Dynamics 365 Finance</b> (formerly Dynamics AX) and <b>Dynamics CRM</b>.</p>
+                  <p>A nonprofit organization seamlessly managed its operations and increased its productivity by <b>3X</b> and reduced input costs by <b>68%</b> with <b>Microsoft Dynamics 365 Finance</b> (formerly Dynamics AX) and Dynamics CRM.</p>
                 </div>
               </div>
             </div>
@@ -57,10 +57,12 @@ const Dcube = () => {
                 <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
+                    width="160"
+                    height="160"
                   />
                 </div>
                 <div className="col-lg-9">
-                  <p><a href="https://www.discoverycube.org/" target="_blank" rel="nofollow">Discovery Cube</a>, founded in 1998 in Orange County, is a nonprofit organization that has positively impacted learners and caregivers for over two decades.<br /> However, the organization faced challenges managing membership, grant, finance, and inventory processes until partnering with Dynamics Square (a leading <Link href="/"><a>Microsoft Gold Partner</a></Link> and cloud solution provider in the USA) to implement Dynamics AX 2012 R2 and <Link href="/products/microsoft-dynamics-crm/"><a>Microsoft Dynamics CRM</a></Link>.<br /> Discovery Cube now efficiently managing operations with powerful finance solutions to provide the best possible experience for young people in the region, and making a meaningful impact on millions of lives every day!</p>
+                  <p>A nonprofit located in Orange County, California helps learners and caregivers to nurture their creativity. The organization had trouble managing its accounting, fundraising, and payroll processes. After partnering with <b>Dynamics Square</b> (USA's <b>leading</b> <Link href="/"><a>Dynamics 365 Partner</a></Link>), the organization rolled out <b> Dynamics AX 2012 R2</b> and <Link href="/products/microsoft-dynamics-crm/"><a>Microsoft Dynamics CRM</a></Link>. Post implementation, the organization can efficiently manage its operations and provide better experiences for young minds in the region.</p>
                 </div>
               </div>
             </div>
@@ -71,9 +73,7 @@ const Dcube = () => {
       <section className="Solution-business-why custom-pd-1 custom-pd-2">
         <div className="container">
           <header className="section-header">
-            <h2>
-            Business Challenges Faced by Discovery Cube OC & LA 
-            </h2>
+            <h2>Business Challenges Faced by the Nonprofit</h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
@@ -88,7 +88,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Existing membership, grant, finance, and inventory management solution did not deliver expected results.</p>
+                    <p>Existing membership, grant, finance, and inventory management solution did not deliver the expected results.</p>
                   </div>
                 </div>
 
@@ -110,16 +110,6 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Hurdles in procuring and managing grants in the system.</p>
-                  </div>
-                </div>
-                <div className="content-inner-moil-1">
-                  <div className="icons-left">
-                    <div className="ext-bord">
-                      <i className="bi bi-exclamation-triangle"></i>
-                    </div>
-                  </div>
-                  <div className="cintent-right">
                     <p>Lack of required reports to make informed management decisions.</p>
                   </div>
                 </div>
@@ -130,7 +120,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Desire to expand the operations further by opening two new locations.</p>
+                    <p>Looking to expand the operations further by opening two new locations.</p>
                   </div>
                 </div>
               </div>
@@ -142,8 +132,8 @@ const Dcube = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Implemented Solution</h2>
-            <p>See how Dynamics AX helped upgrading Business Operations at Discovery Cube</p>
+            <h2>Solution Delivered to Help Those Who Help Others </h2>
+            <p>See How <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> Helped Upgrade Business Operations of the Concerned Not for Profit (NFP) Organization</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -195,7 +185,7 @@ const Dcube = () => {
                             />
                           </div>
                           <div className="text-wrp-content">
-                            <p><Link href="/products/microsoft-dynamics-ax/"><a>Implemented Microsoft Dynamics AX</a></Link> 2012 R2 On-premises version along with <b>Microsoft Dynamics CRM 2016</b> to restructure the client's legacy production process.</p>
+                            <p>Our team of experts implemented the Microsoft Dynamics AX'12 R2 On-Premises version along with Microsoft Dynamics CRM 2016 to restructure the legacy system.</p>
                           </div>
                         </div>
                       </div>
@@ -211,7 +201,7 @@ const Dcube = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p><b>Dynamics AX and CRM</b> are solutions for business management needs, covering finances and operations to sales and customer service.</p>
+                              <p>The organization is now able to seamlessly fulfil concerned business management needs, from finance and operations to sales and customer service.</p>
                             </div>
                           </div>
                         </div>
@@ -245,7 +235,7 @@ const Dcube = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>The solution helped the client to track customer interactions and analyze data to optimize upsell, cross-sell, and renewal opportunities throughout the sales cycle.</p>
+                              <p>This solution helped the client to track customer interactions and analyze data to optimize upsell, cross-sell, and renewal opportunities throughout the sales cycle.</p>
                             </div>
                           </div>
                         </div>
@@ -276,7 +266,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>With the <b>implementation of Dynamics CRM</b>, the organization now can easily reach out to and keep track of their prospects, as all history of phone calls, emails, and appointments are recorded in the system.</p>
+                    <p>With the <Link href="/products/microsoft-dynamics-crm/"><a>implementation of Dynamics CRM</a></Link>, the organization now can be easily reachable. You can keep track of their prospects, as all the history of phone calls, emails, and appointments are recorded in the system.</p>
                   </div>
                 </div>
 
@@ -287,7 +277,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Caregivers at Discovery Cube can now efficiently manage grants and funds provided by customers on a project-wise basis, thanks to the advanced capabilities of Dynamics AX (now <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link>).</p>
+                    <p>Caregivers can now efficiently manage grants and funds provided by customers on a project-wise basis, thanks to the advanced capabilities of Dynamics AX (now <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link>).</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -297,7 +287,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>By incorporating fixed asset management into the system, the nonprofit has achieved enhanced accuracy and control over their fixed assets.</p>
+                    <p>By incorporating fixed asset management into the system, the nonprofit has achieved enhanced accuracy and control over its fixed assets.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -307,7 +297,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Membership management is now a breeze for the Discovery Cube, with all aspects of it being seamlessly integrated into the system.</p>
+                    <p>Membership management is now a breeze for the nonprofit, with all aspects of it seamlessly integrated into the system. </p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -317,7 +307,7 @@ const Dcube = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>Discovery Cube OC & LA now has easy access to all financial data, with the system providing proper data management for efficient decision-making</p>
+                    <p>The organization now has easy access to all financial data, with the system providing proper data management for efficient decision-making.</p>
                   </div>
                 </div>
               </div>

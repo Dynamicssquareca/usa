@@ -32,7 +32,7 @@ const CaseStudyMaxiLand = () => {
                     Leading Distributor of Mexican Products in USA
                   </span>
                   <h1>Case Study</h1>
-                  <p>Upgrade to Dynamics 365 Business Central On-Premise</p>
+                  <p>Upgrade to Dynamics 365 Business Central On-Premises</p>
                 </div>
               </div>
             </div>
@@ -58,27 +58,12 @@ const CaseStudyMaxiLand = () => {
                 <img
                     src="/img/casestudy-pic.png"
                     alt="casestudy-pic"
+                    width="160"
+                    height="160"
                   />
                 </div>
-                <div className="col-lg-9">
-                  <p>
-                    <a
-                      href="https://www.mexi-land.com/"
-                      rel="noopener nofollow"
-                      target="_blank"
-                    >
-                      {" "}
-                      Mexi Land Inc.{" "}
-                    </a>{" "}
-                    was founded by Eriberto Candelario (President) in 1993 to
-                    become a leading distributor of Mexican products in the
-                    United States. They developed their manufacturing, supply
-                    chain, and inventory management to build a smooth
-                    distribution across the United States to help them become
-                    the top 3 distributor of Hispanic Products. Mexi Land Inc
-                    are exporting more than 500 products like Mexican food,
-                    household products, supply, beauty, and confectionery.
-                  </p>
+                <div className="col-lg-9 align-self-center">
+                  <p>After <b>upgrading from NAV 2009 to Dynamics 365 Business Central</b>, the company experienced significant improvements in inventory management, supply chain efficiency, and manufacturing processes. As a result, they streamlined their operations, reduced costs, and increased revenue. This also led the company to support business continuity at par.</p>
                 </div>
               </div>
             </div>
@@ -89,10 +74,7 @@ const CaseStudyMaxiLand = () => {
       <section className="Solution-business-why custom-pd-1 custom-pd-2">
         <div className="container">
           <header className="section-header">
-            <h2>
-              What are The <br />
-              Business Challenges?
-            </h2>
+            <h2>Business Challenges Faced by The Company</h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
@@ -107,11 +89,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Mexi Land was facing issues with the working of Dynamics
-                      NAV 2009. They want to perform better, but NAV 2009 was
-                      stopping them from working on full productivity.
-                    </p>
+                    <p>The company faced productivity issues with <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>, hindering their performance and desire for improvement.</p>
                   </div>
                 </div>
 
@@ -122,11 +100,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They want an ERP (Enterprise Resource Planning) solution
-                      that can deploy on-premises and manage departments like
-                      finance, supply chain, inventory, and manufacturing.
-                    </p>
+                    <p>They were looking to implement an on-premises ERP (Enterprise Resource Planning) solution to manage finance, <Link href="/products/dynamics-365-supply-chain-management/"><a>supply chain</a></Link>, inventory, and manufacturing departments.</p>
                   </div>
                 </div>
 
@@ -137,11 +111,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Their existing NAV 2009 version started to perform slower
-                      and even started to lag on performing simple tasks, like
-                      reporting and sharing data.
-                    </p>
+                    <p>Their NAV 2009 version was losing its power and they struggled with basic tasks, such as reporting and data sharing.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -151,10 +121,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They wanted to scale the business, but NAV 2009 could not
-                      cope with a growing business.
-                    </p>
+                    <p>They aimed to expand their business, but NAV'09 could not handle the growth.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -164,11 +131,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      Mexi Land was facing difficulties in managing the
-                      processes of warehouse. They needed an add-on to make
-                      things work for warehouse management.
-                    </p>
+                    <p>The organization met challenges with warehouse management processes, prompting the need for an add-on solution.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -178,10 +141,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They want an ERP which can help them expand the processes
-                      and operations of the business or operations.
-                    </p>
+                    <p>They sought an ERP solution to ease the expansion of their business processes and operations.</p>
                   </div>
                 </div>
               </div>
@@ -193,10 +153,8 @@ const CaseStudyMaxiLand = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Solution Delivered</h2>
-            <p>
-              Upgrading with Microsoft Dynamics 365 Business Central On-Premises
-            </p>
+            <h2>Business Solution Delivered</h2>
+            <p>See How <Link href="/dynamics-nav-to-business-central/"><a>Upgrading NAV to Microsoft Dynamics 365 Business Central</a></Link> On-Premises Benefitted the Organization</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -248,11 +206,7 @@ const CaseStudyMaxiLand = () => {
                             />
                           </div>
                           <div className="text-wrp-content">
-                            <p>
-                              Dynamics Square helped Mexi Land Inc upgrade its
-                              ERP from NAV09 to Microsoft Dynamics 365 Business
-                              Central On-Premises.
-                            </p>
+                            <p><b>Dynamics Square </b> supported the leading distributor of Mexican products to upgrade its NAV-2009 ERP to <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> On-Premises.</p>
                           </div>
                         </div>
                       </div>
@@ -268,12 +222,7 @@ const CaseStudyMaxiLand = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                                We helped the employees of Mexi Land Inc. to
-                                manage the entire business from one dashboard
-                                with total data security as the servers were
-                                on-premises.
-                              </p>
+                              <p>Our team provided the employees of this organization with the required assistance to manage the entire business from the unified dashboard of <b>Business Central</b> that incorporates total data security (as the servers were on-premises).</p>
                             </div>
                           </div>
                         </div>
@@ -290,11 +239,7 @@ const CaseStudyMaxiLand = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                                The legacy system of Mexi Land was upgraded to a
-                                new ERP to help them make business management
-                                simple.
-                              </p>
+                              <p>The legacy ERP system (<b>Dynamics NAV</b>) was not able to cope with current business requirements. But with Business Central, the employees are happy, and the company is scaling its operations by each day!</p>
                             </div>
                           </div>
                         </div>
@@ -311,38 +256,13 @@ const CaseStudyMaxiLand = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>
-                                Dynamics Square understood the requirement of
-                                Mexi Land Inc. and provided the integration and
-                                customization for smoother performance.
-                              </p>
+                              <p><b>Business Central</b> experts from <b>Dynamics Square</b> helped people close to business operations understand the working of this cloud ERP, and how to generate data insights for real-time reporting.</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="swiper-slide">
-                        <div className="swiper-slide">
-                          <div className="industries-list-more">
-                            <div className="img-wrp">
-                              <img
-                                src="/img/material-lightbulb-outline.svg"
-                                alt="Ecommerce"
-                              />
-                            </div>
-                            <div className="text-wrp-content">
-                              <p>
-                                We helped them understand the working of
-                                Business Central and Business Intelligence to
-                                get accurate data insight for real-time
-                                reporting.
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </SwiperSlide>
+                   
                   </Swiper>
                 </div>
                 <div className="swiper-pagination"></div>
@@ -357,7 +277,7 @@ const CaseStudyMaxiLand = () => {
           <div className="row gx-5">
             <div className="col-lg-6 align-self-center">
               <header className="section-header">
-                <h2>Benefits</h2>
+                <h2>Benefits of This Upgrade</h2>
               </header>
               <div className="content-icons-modil-1">
                 <div className="content-inner-moil-1">
@@ -367,12 +287,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The new ERP of Mexi Land Inc. started to perform better
-                      than usual and without any lags or glitches. Dynamics
-                      Square resolved the issues of slow processing the simple
-                      tasks too.
-                    </p>
+                    <p>The company's new ERP is now performing well without any delays or errors, and <b>Dynamics Square</b> has resolved the slow processing issues for simple tasks.</p>
                   </div>
                 </div>
 
@@ -383,11 +298,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      They can now use the Business Intelligence and super
-                      performance of Business Cental to perform the complicated
-                      task without any lag.
-                    </p>
+                    <p>They can now use Business Central's Business Intelligence (BI) and superior performance to complete complex tasks without any delays.</p>
                   </div>
                 </div>
 
@@ -398,11 +309,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      We helped them implement the InsightWorks Warehouse
-                      Insights addon to streamline the processes of warehouse
-                      management.
-                    </p>
+                    <p>Our team also assisted the company in implementing the InsightWorks <b>Warehouse Insights add-on</b> to streamline warehouse management processes.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -412,9 +319,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The data reporting and sharing become simple and on time.
-                    </p>
+                    <p>Data reporting and sharing are now prompt and straightforward.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -424,12 +329,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      The integration and customization we have done to the
-                      Business Central of Mexi Land Inc. helped them integrate
-                      with other Microsoft apps making the process more
-                      efficient and productive.
-                    </p>
+                    <p>The integration and customization of the company's <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> enabled them to integrate with other Microsoft apps, resulting in increased efficiency and productivity.</p>
                   </div>
                 </div>
                 <div className="content-inner-moil-1">
@@ -439,11 +339,7 @@ const CaseStudyMaxiLand = () => {
                     </div>
                   </div>
                   <div className="cintent-right">
-                    <p>
-                      As a Gold Partner of Microsoft, Dynamics Square helped
-                      them learn the Business Cental and its apps for the growth
-                      and scalability of Mexi Land Inc.
-                    </p>
+                    <p>Dynamics Square, as a <Link href="/"><a>Microsoft Dynamics Partner</a></Link>, provided help to the organization's admin employees in learning about <b>Business Central</b> and its apps to help employees adapt this software at a faster pace for projected growth and scalability.</p>
                   </div>
                 </div>
               </div>
