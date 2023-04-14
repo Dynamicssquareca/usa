@@ -280,7 +280,7 @@ const CaseStudyTheLand = () => {
       <section className="Solution-business-why custom-pd-3">
         <div className="container">
           <header className="section-header">
-            <h2>Benefits</h2>
+            <h2>Benefits The Company Is Reaping</h2>
           </header>
           <div className="row gx-5">
             <div className="col-lg-6">
@@ -370,11 +370,8 @@ const CaseStudyTheLand = () => {
           <div className="row">
             <div className="col-md-12">
               <div className="case-clent-test">
-                <p>
-                We are impressed with their product awareness, technical skills and commitment to us. They analyze the situation and deliver to best fit our requirement and solutions.
-                </p>
-                <h4>Bob Ruckle</h4>
-                <span>Director of IT, The L&L company</span>
+                <p>Dynamics Square's product awareness, technical skills, and commitment to delivering solutions that best fit their client's requirements were impressive. They analyzed the situation and provided the best possible solution.</p>
+                <h4>Director of the Company</h4>
               </div>
             </div>
           </div>
