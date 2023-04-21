@@ -41,7 +41,7 @@ const PowerBIGuide = () => {
         />
         <meta
           name="keywords"
-          content="power bi guide, guide to power bi, ultimate power bi guide, comprehensive power bi guide, power bi guide for SMBs, power bi buisness guide, power bi guide for business"
+          content="power bi guide, guide to power bi, ultimate power bi guide, comprehensive power bi guide, power bi guide for SMBs, power bi guide for SME, power bi buisness guide, power bi guide for business"
         />
         <link
           rel="canonical"
