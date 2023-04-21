@@ -46,7 +46,7 @@ const PowerBIGuide = () => {
         <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/guides/power-bi-guide-for-smb/"
+          href="https://www.dynamicssquare.com/guides/power-bi-guide-for-sme/"
         />
       </Head>
       <section className="banner-guide hero-1 hero">

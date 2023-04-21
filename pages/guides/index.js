@@ -71,7 +71,7 @@ const Guides = () => {
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
                         <Link
-                          href="/guides/power-bi-guide-for-smb/"
+                          href="/guides/power-bi-guide-for-sme/"
                           className="over-ff text-center"
                         >
                           <a className="over-ff text-center">
@@ -84,12 +84,12 @@ const Guides = () => {
                         </Link>
                         <div className="card-body">
                           <h5 className="card-title">
-                            <Link href="/guides/power-bi-guide-for-smb/">
+                            <Link href="/guides/power-bi-guide-for-sme/">
                               <a>Power BI: The Definitive Guide For SMBs</a>
                             </Link>
                           </h5>
                           <div className="btn-003 btn-009">
-                            <Link href="/guides/power-bi-guide-for-smb/">
+                            <Link href="/guides/power-bi-guide-for-sme/">
                               <a className="btn btn-sm btn-danger">
                                 {" "}
                                 View The Guide
