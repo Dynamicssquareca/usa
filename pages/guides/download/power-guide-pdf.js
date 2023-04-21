@@ -25,7 +25,7 @@ const PowerbiPdf = () => {
               <div className="text-center">
                 <div className="">
                   <a
-                    href="/pdf/PowerBI-e-guide_En-US.pdf"
+                    href="/pdf/PowerBI-e-guide-EN-US.pdf"
                     className="btn-get-started scrollto"
                     download
                   >

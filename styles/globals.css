@@ -8246,7 +8246,9 @@ background-color:#f7f9fb
 .col-yellow.col-red{
   background-image: linear-gradient(to bottom, #99151e 0%, #fba7ad 100%);
 }
-
+.col-yellow.col-saf{
+  background-image: linear-gradient(to bottom, #7d9f61 60%, #d8e4ce 100%);
+}
 .cont-table-inner{
   width: 75%;
   margin:0 auto
@@ -8267,7 +8269,7 @@ background-color:#f7f9fb
   transform: translate(-50%, 25%); */
   z-index: 1;
   bottom: -35px;
-  width:250px
+  width:160px
 }
 .balnde-imge-mode .overlay-1{
   position: absolute;

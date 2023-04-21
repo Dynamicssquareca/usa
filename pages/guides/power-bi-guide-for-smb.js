@@ -34,10 +34,10 @@ const PowerBIGuide = () => {
   return (
     <>
       <Head>
-        <title>Power BI: The Definitive Guide For SMBs</title>
+        <title>Microsoft Power BI: The Ultimate Guide for SMEs (2023)</title>
         <meta
           name="description"
-          content="A comprehensive guide to Power BI, including how to create interactive reports that drive results."
+          content="To unleash the complete potential of your data, Microsoft Power BI is an ultimate guide for SMEs for creating visual representations & helps in decision making. "
         />
         <meta
           name="keywords"
@@ -54,19 +54,8 @@ const PowerBIGuide = () => {
           <div className="row">
             <div className="col-lg-5 align-self-center">
               <div className="guide-left">
-                <h1>The Ultimate Power BI Guide for SMBs</h1>
-                <p>
-                  This is a comprehensive business guide to Power BI, which
-                  helps SMBs grow at scale by transforming complex data into
-                  interactive reports, predictive analysis, AI-driven insights,
-                  and much more.
-                  <br />
-                  <br />
-                  So, if you want to drive smarter data-driven business
-                  decisions, this guide is for you. Let's start your digital
-                  transformation journey here.{" "}
-                </p>
-                <p></p>
+                <h1>The Ultimate Microsoft Power BI Guide for SMEs (2023)</h1>
+                <p>Explore this complete Power BI Handbook for Small and Medium-Sized Businesses (SMBs) looking to turn Complex Data into Actionable Insights with Interactive Reports, Predictive Analysis, AI-Powered Insights, and More.</p>
               </div>
             </div>
             <div className="col-lg-7 align-self-center text-center">
@@ -83,7 +72,7 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <header className="section-header">
-                <h2>Table of Contents</h2>
+                <h2>List of Episodes: Discover what's Latest and Greatest in Power BI for SMBs </h2>
               </header>
             </div>
           </div>
@@ -92,8 +81,8 @@ const PowerBIGuide = () => {
               <div className="table-of-content-list text-center">
                 <a href="#tabs-1" rel="" target="_self">
                   <img src="/img/Power-bi-pic-1.png" alt="Power BI Overview" />
-                  <h3>Chapter 1</h3>
-                  <p>What is Power BI?</p>
+                  <h3>Episode 1</h3>
+                  <p>The Introduction</p>
                 </a>
               </div>
             </div>
@@ -104,8 +93,8 @@ const PowerBIGuide = () => {
                     src="/img/power-2.png"
                     alt="Power BI Features and Benefits"
                   />
-                  <h3>Chapter 2</h3>
-                  <p>Power BI Features and Benefits</p>
+                  <h3>Episode 2</h3>
+                  <p>What exactly is Power BI?</p>
                 </a>
               </div>
             </div>
@@ -116,8 +105,8 @@ const PowerBIGuide = () => {
                     src="/img/power-3.png"
                     alt="Power BI Dashboard Examples"
                   />
-                  <h3>Chapter 3</h3>
-                  <p>Power BI Dashboard & Examples</p>
+                  <h3>Episode 3</h3>
+                  <p>Benefits of Microsoft Power BI for SMBs in 2023</p>
                 </a>
               </div>
             </div>
@@ -128,8 +117,8 @@ const PowerBIGuide = () => {
                     src="/img/power-4.png"
                     alt="Power BI Integration & Automation"
                   />
-                  <h3>Chapter 4</h3>
-                  <p>Power BI Integration & automation</p>
+                  <h3>Episode 4</h3>
+                  <p>How is the dashboard of Power BI? Explained with Examples</p>
                 </a>
               </div>
             </div>
@@ -140,8 +129,8 @@ const PowerBIGuide = () => {
                     src="/img/power-5.png"
                     alt="Power BI Versions, Pricing & Licensing"
                   />
-                  <h3>Chapter 5</h3>
-                  <p>Power BI Versions, Pricing, and Licensing</p>
+                  <h3>Episode 5</h3>
+                  <p>Integration of Power BI with Microsoft Dynamics 365 Apps</p>
                 </a>
               </div>
             </div>
@@ -152,8 +141,8 @@ const PowerBIGuide = () => {
                     src="/img/power-6.png"
                     alt="Power BI vs Others BI Tools"
                   />
-                  <h3>Chapter 6</h3>
-                  <p>Power BI vs Others</p>
+                  <h3>Episode 6</h3>
+                  <p>Pricing, Licensing, and Versions of Power BI</p>
                 </a>
               </div>
             </div>
@@ -164,8 +153,32 @@ const PowerBIGuide = () => {
                     src="/img/group-2330.png"
                     alt="Future Scope of Power BI"
                   />
-                  <h3>Chapter 7</h3>
-                  <p>Future Scope Of Power BI</p>
+                  <h3>Episode 7</h3>
+                  <p>Power BI vs other Data Analysis and Visualization Tools</p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-3 col-6">
+              <div className="table-of-content-list text-center">
+                <a href="#tabs-7" rel="" target="_self">
+                  <img
+                    src="/img/group-2330.png"
+                    alt="Future Scope of Power BI"
+                  />
+                  <h3>Episode 8</h3>
+                  <p>What's new in Power BI?</p>
+                </a>
+              </div>
+            </div>
+            <div className="col-lg-3 col-6">
+              <div className="table-of-content-list text-center">
+                <a href="#tabs-7" rel="" target="_self">
+                  <img
+                    src="/img/group-2330.png"
+                    alt="Future Scope of Power BI"
+                  />
+                  <h3>Episode 9</h3>
+                  <p>Future Scope for Microsoft Power BI</p>
                 </a>
               </div>
             </div>
@@ -182,31 +195,41 @@ const PowerBIGuide = () => {
             </li>
             <li>
               <a href="#tabs-2" rel="" target="_self">
-                2. Features & Benefits
+                2. What Is Power BI?
               </a>
             </li>
             <li>
               <a href="#tabs-3" rel="" target="_self">
-                3. Dashboard Examples
+                3. Feature & Benefits
               </a>
             </li>
             <li>
               <a href="#tabs-4" rel="" target="_self">
-                4. Integrations
+                4. Dashboard Examples
               </a>
             </li>
             <li>
               <a href="#tabs-5" rel="" target="_self">
-                5. Pricing & Licensing
+                5. Integration
               </a>
             </li>
             <li>
               <a href="#tabs-6" rel="" target="_self">
-                6. Power BI vs. Others
+                6.  Pricing & Licensing
               </a>
             </li>
             <li>
               <a href="#tabs-7" rel="" target="_self">
+                7. Power BI vs. Others
+              </a>
+            </li>
+            <li>
+              <a href="#tabs-8" rel="" target="_self">
+                7. What's New?
+              </a>
+            </li>
+            <li>
+              <a href="#tabs-9" rel="" target="_self">
                 7. Future Scope
               </a>
             </li>
@@ -218,166 +241,27 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
-                <h2>The Ultimate Power BI Guide for SMBs (2022)</h2>
-                <p>
-                  Data is everywhere, but you need the right tool to extract it.
-                </p>
-                <p>
-                  Artificial intelligence (AI) and business intelligence (BI)
-                  are the tools that are helping businesses to collect and make
-                  use of digital customer data. Data management and consumption
-                  is a constant challenge for businesses, but with the help of
-                  AI and BI, they can form useful insights from the data they
-                  collect.
-                </p>
-                <p>
-                  Businesses do understand the need to visually understand and
-                  utilise the data. This would force them to use technology to
-                  make data-driven and technology-driven decisions in order to
-                  achieve rapid growth.
-                </p>
-                <p>
-                  Modern organisations accept the fact that data analysis and
-                  visualisation are the keys to predicting market and competitor
-                  behaviour, customer changing requirements, product
-                  profitability, and taking rewarding decisions.
-                </p>
-                <p>
-                  According to the most recent statistics, data analysis and
-                  visualisation make decisions for small, medium, and large
-                  businesses 5X faster and more efficient.
-                </p>
+                <h2>Microsoft Power BI Guide 2023: Accelerate Your Data Visualization Journey</h2>
+                <p>It's a fact that the world of today is different from the world before. This is the age of digital acceleration.</p>
+                <p>Every enterprise, from <Link href="/free-dynamics-365-system-health-check/"><a>healthcare</a></Link>, remote work, economics, and education to the manufacturing sector is generating an incredible amount of data every day. This data in millions (or billions) disparate pieces of information is then visualized and used for informed decision-making; which means - decisions based on numbers and insights.</p>
+                <p>Before data visualization techniques, people used to make decisions based on intuition - gut feeling, personal experiences - expert opinions, and limited information - historical data.</p>
+                <p>This approach is subjective and lacks the rigor and impartiality of data-driven decision-making.</p>
+                <p>With the advent of <b>data visualization tools</b> like <b>Power BI</b>, decision-making has become more informed and effective, leading to better results and improved performance.</p>
+                <p>Business intelligence (BI) tools or data visualization tools like <Link href="/products/microsoft-power-bi/"><a>Microsoft Power BI</a></Link> are now integral for <b>small or medium-sized businesses</b>. These BI tools are transforming the way businesses make data-driven decisions.</p>
+                <p>Because these tools have user-friendly interfaces and a wide range of features. <b>Microsoft's Power BI</b> has emerged as one of the most popular BI platforms on the market because of its faster data analysis capabilities and the ability to connect to various data sources.</p>
+                <p>According to Gartner, about <b>83%</b> of all active users would recommend Power BI:</p>
               </div>
               <div className="iner-pp">
                 <img
-                  src="/img/group-2175.png"
-                  alt="Data visualisation makes 5X faster decisions"
+                  src="/img/83-recommended.png"
+                  alt="83%recommended"
                 />
               </div>
               <div className="cont-table-inner">
                 <p>
-                  In today's digital world, business Intelligence plays a vital
-                  role in helping organizations assemble, integrate, visualize,
-                  and analyse unorganised data to make smarter and more informed
-                  decisions. The digital transformation of customers is pushing
-                  industries to rely totally on data for a sustainable and
-                  profitable business.
+                  <b className="h3">Eager to Explore More About Power BI?</b>
                 </p>
-                <p>
-                  As per report, 7 out of 10 Businesses rate finding data as
-                  very crucial.{" "}
-                  <a
-                    href="https://techjury.net/blog/business-intelligence-statistics/#gref"
-                    target="_blank"
-                  >
-                    (Source)
-                  </a>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2176.png"
-                  alt="70% of businesses rate data as crucial"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  As per the survey organized by Deloitte
-                  <a
-                    href="https://www2.deloitte.com/content/dam/Deloitte/global/Documents/Deloitte-Analytics/dttl-analytics-analytics-advantage-report-061913.pdf"
-                    target="_blank"
-                  >
-                    (Source)
-                  </a>
-                </p>
-                <ol>
-                  <li>
-                    49% of participants agree that data analytics helps them
-                    make good decisions.
-                  </li>
-                  <li>
-                    16% admits that data enables them for better strategic
-                    initiatives.
-                  </li>
-                  <li>
-                    10% agrees that data insights help them make strong
-                    relationship with customers.
-                  </li>
-                </ol>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2174.png"
-                  alt="Deloitte Survey on Data Analytics"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  To stay ahead of the competition, industries must follow the
-                  data trends. If we talk about top 3 business intelligence
-                  trends of 2022, they are:{" "}
-                </p>
-                <ol>
-                  <li>Data Visualisation</li>
-                  <li>Data Quality Management</li>
-                  <li>Self-Service Business Intelligence</li>
-                </ol>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2183.png"
-                  alt="top 3 business intelligence trends of 2022"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  You probably agree with the above statistics but might be
-                  wondering about the methods and applications to use the data
-                  and make it work for your business.
-                </p>
-                <p>
-                  <Link href="/products/microsoft-power-bi/">
-                    Microsoft Power BI
-                  </Link>{" "}
-                  is a business intelligence application that allows
-                  organisations to{" "}
-                  <a
-                    href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/"
-                    rel=""
-                    target="_self"
-                  >
-                    visualise and report
-                  </a>{" "}
-                  a pile of data on a single dashboard in a ready-to-use manner.
-                  With the capabilities of presentation, distribution, and
-                  integration, it is one of Microsoft's products that is a
-                  must-have for today's businesses, whether small or large.
-                </p>
-                <p>
-                  Power BI enables the organization to track customers as well
-                  as competitors using available metrics, whether demographics,
-                  age, or the number of sales.
-                </p>
-                <p>
-                  Power BI can be the steppingstone of your business to become
-                  successful by extracting the useful insights from your data.
-                </p>
-                <p>
-                  <b className="h3">Want to know how?</b>
-                </p>
-                <p>
-                  If yes, this{" "}
-                  <a
-                    href="https://www.dynamicssquare.com/blog/an-introduction-to-microsoft-power-bi/"
-                    target="_self"
-                    rel=""
-                  >
-                    Power BI user guide
-                  </a>{" "}
-                  is for the people like you who want to explore the
-                  possibilities and opportunities of a data-driven business
-                  growth.
-                </p>
+                <p>Download and read our FREELY available Power BI User Guide to enhance your data analyzing capabilities and derive business growth with informed decision-making.</p>
               </div>
               <div className="iner-pp">
                 <Link href="#powerBIModals">
@@ -399,12 +283,9 @@ const PowerBIGuide = () => {
             <div className="col-lg-8">
               <header className="section-header section-header-tabless">
                 <h2>
-                  <strong>Chapter 1</strong> Introduction to Power BI
+                  <strong>Episode 1:</strong> Introduction 
                 </h2>
-                <p>
-                  In this chapter, we will get to know about the history, <br />{" "}
-                  architecture, and components of Power BI.
-                </p>
+                <p>In this episode, you'll learn about Power BI, it's bit history and overall journey so far.</p>
                 <div className="balnde-imge-mode">
                   <img
                     src="/img/POwerBI-Intro.png"
@@ -427,390 +308,36 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
-                <p>
-                  <b className="h3">History of Power BI</b>
-                </p>
-                <p>
-                  The concept of Power BI was originally designed by{" "}
-                  <a
-                    href="https://en.wikipedia.org/wiki/Microsoft_Power_BI#:~:text=It%20was%20originally%20designed%20by,Power%20BI%20for%20Office%20365."
-                    rel=""
-                  >
-                    Ron George with the name “Project Crescent.”
-                  </a>{" "}
-                  Amir Netz and Thierry D'Hers were the ones who fabricated this
-                  innovative application.{" "}
-                </p>
-                <p>
-                  On July 2011, Project Crescent was available free to download
-                  for the public, combined with the SQL Server Codename Denali.
-                </p>
-                <p>
-                  In September 2013, Project Crescent was renamed Power BI by
-                  Microsoft as Power BI for Office 365. It was the first version
-                  of Power BI based on Microsoft Excel with add-ons such as
-                  Power Pivot, Power Query, and Power View.
-                </p>
-                <p>
-                  With time, Microsoft keeps updating this application with new
-                  features and functions, like enterprise-level data
-                  connectivity, a question and answer panel, and security
-                  updates.
-                </p>
-                <p>
-                  From July 24, 2015, Microsoft Power BI was available to
-                  download for the general public with different versions of
-                  web, desktop, and mobile apps.
-                </p>
+               <p>Microsoft designed and developed <b>Power BI for helping businesses</b> with business intelligence (BI) capabilities.</p>
+               <p>The innovative application of Power BI was first conceived by Ron George under the project name "<a href="https://en.wikipedia.org/wiki/Microsoft_Power_BI#:~:text=It%20was%20originally%20designed%20by,Power%20BI%20for%20Office%20365." rel="nofollow" >Project Crescent</a>", back in 2011. It was later developed and brought to fruition by Amir Netz and Thierry D'Hers.</p>
+               <p>Aiming at <Link href="https://blog.dynamicssquare.com/how-to-clean-irrelevant-data-in-power-bi-and-ways-to-transform-the-data/"><a>powering organizations to transform their data</a></Link> into actionable insights. This BI platform has a rich history dating back to its introduction in Sep 2013, as part of Microsoft's suite of business intelligence tools, such as Power Pivot, Power Query, and Power View.</p>
+               <p>And from July 24, 2015, <b>Power BI</b> was available as a Microsoft product to download for the public with different versions of <b>web</b>, <b>desktop</b>, and <b>mobile apps</b>. </p>
+               <p>Since then, Power BI has evolved significantly, incorporating features such as data visualization, data modeling, and real-time data streaming, making it one of the most versatile and comprehensive BI Platforms on the market today.</p>
+               <p>With an intuitive user interface (UI) and a wide range of integrations with other Microsoft tools and services, Power BI empowers businesses of all sizes to turn data into meaningful and actionable insights.</p>
+               <p>It allows you to make informed decisions and drive growth.</p>
+               <p>Whether it's exploring data with interactive reports, creating dashboards to watch key performance indicators, or using machine learning algorithms to make predictions, Power BI provides organizations with the tools they need to unlock the value of their data and open doors for new business opportunities.</p>
+               <p>So, if you are a data analyst, a business decision-maker, or a developer, Power BI has something to offer for everyone.</p>
               </div>
+              
               <div className="iner-pp">
-                <img src="/img/group-2265.png" alt="Power BI History Roadmap" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Overview:</b>
-                </p>
-
-                <p>
-                  Microsoft Power BI is a business intelligence solution that
-                  allows users to analyse the data,{" "}
-                  <a
-                    href="https://www.dynamicssquare.com/blog/how-to-generate-interactive-reports-in-power-bi/"
-                    rel=""
-                    target="_self"
-                  >
-                    visualise the reports
-                  </a>
-                  , and share the true insights within the organisation.
-                  <br className="mrg" />
-                  As per the{" "}
-                  <a href="https://powerbi.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2022-gartner-magic-quadrant-for-analytics-and-bi-platforms/">
-                    2022 Gartner Magic Quadrant for Analytics and Business
-                    Intelligence Platforms
-                  </a>
-                  , Microsoft is awarded as a leader for the 15th consecutive
-                  year in the industry based on Ability to Execute and
-                  Completeness of Vision.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2288.png"
-                  alt="2022 Gartner Magic Quadrant for Analytics and Business Intelligence Platforms"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  Power BI collects the data from different sources, visualises,
-                  and shows it on a single interactive dashboard to get accurate
-                  intelligence reports to make actionable decisions.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2185.png"
-                  alt="transform basic data into interactive reports"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  Power BI eliminates the use of multiple applications to
-                  execute and consume the data for the advancement of the
-                  organization. It even reduces the cost, complexity, and
-                  security risks of data management using secured cloud servers
-                  from Microsoft Azure.
-                  <br className="mrg" />
-                  Power BI uses AI and ML to mine data for useful insights and
-                  create simple yet stunning visualisations to help users make
-                  informed and analytical decisions. <br className="mrg" />
-                  US businesses lose <b>$100 billion</b> every year due to data
-                  inaccuracy.{" "}
-                  <a href="https://techjury.net/blog/business-intelligence-statistics/#gref">
-                    (Source)
-                  </a>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2188.png"
-                  alt="US businesses lose $100 billion every year due to data inaccuracy."
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  Power BI uses Microsoft Azure servers as cloud storage to keep
-                  the data safe and secure using end-to-end encryption,
-                  sensitivity labelling, and real-time access monitoring.
-                  <br className="mrg" />
-                  As per the reports, 71% of businesses opt for Microsoft Azure
-                  as their number one vendor.
-                  <a href="https://techjury.net/blog/business-intelligence-statistics/#gref">
-                    (Source)
-                  </a>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2322.png"
-                  alt="71% of businesses opt for Microsoft Azure as their number one vendor."
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <Link href="/products/microsoft-azure/">Microsoft Azure</Link>{" "}
-                  is the most preferred cloud BI provider by enterprises as of
-                  2020. 71% of users considered it as either critical or very
-                  important to their operations. Microsoft Azure is followed by
-                  Amazon Web Services and Google Cloud, with 66% and 41% of
-                  users finding them critical or very important to their
-                  business, respectively. (Dresner, 2020)
-                </p>
-                <p>
-                  <b className="h3">Architecture of Power BI</b>
-                  <br className="mrg" />
-                  Power BI is a powerful yet simple business intelligence tool
-                  that lets users create and share effective reports to gain
-                  meaningful insights and efficient actions.
-                  <br className="mrg" />
-                  Understanding{" "}
-                  <a
-                    href="https://www.dynamicssquare.com/blog/power-bi-architecture-and-its-components-explained/"
-                    rel=""
-                    target="_self"
-                  >
-                    Power BI architecture
-                  </a>{" "}
-                  would help you understand how it works and how it processes
-                  the data collected using different resources.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2210.png"
-                  alt="4 steps in Power BI architecture."
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>There are 4 steps in Power BI architecture, which are:</p>
-                <ul>
-                  <li>
-                    <b className="h3">Data Integration</b>
-                  </li>
-                </ul>
-                <p>
-                  Power BI extracts data from different sources and in different
-                  formats. If the size of the data is below 1 GB, it will be
-                  compressed and stored automatically.
-                  <br className="mrg" />
-                  If the size of the data exceeds 1 GB, it uses a direct query,
-                  integrates it into a standard format, and stores it in the
-                  staging area.
-                </p>
-
-                <ul>
-                  <li>
-                    <b className="h3">Data Transformation</b>
-                  </li>
-                </ul>
-                <p>
-                  The stored data is in raw form and cannot be visualised
-                  directly. It should be processed or cleaned before being
-                  transformed for visualisation.
-                  <br className="mrg" />
-                  Pre-processing of Data: The removal of missing values from the
-                  raw data is known as preprocessing. <br className="mrg" />
-                  Post-Processing of Data: The standard rules are applied to
-                  transform the data from raw to processed form.{" "}
-                  <br className="mrg" />
-                  Once the pre and post-processing are complete, the data stored
-                  is moved to the data warehouse with full safety.
-                </p>
-
-                <ul>
-                  <li>
-                    <b className="h3">Reporting and Publishing</b>
-                  </li>
-                </ul>
-                <p>
-                  After data processing, reports can be created to visualise the
-                  data and get important insights.
-                  <br className="mrg" />
-                  There are various ways data can be consumed, like graphs,
-                  charts, slicers, bars, and more.
-                  <br className="mrg" />
-                  Once the process of data creation is complete, it can be
-                  published to any component of Power BI, whether Power BI
-                  Services or Power BI Desktop.
-                </p>
-
-                <ul>
-                  <li>
-                    <b className="h3">Creating Dashboards</b>
-                  </li>
-                </ul>
-                <p>
-                  Using the individual elements of Power BI, users can create
-                  dashboards after producing reports. <br className="mrg" />
-                  Now, users can extract data from the visuals shown on the
-                  dashboard, making the data easy to access and use.{" "}
-                  <br className="mrg" />
-                  Also, Power BI allows users to communicate with live visuals
-                  using filters.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2216.png"
-                  alt="Power BI allows users to communicate with live visuals using filters"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Components of Power BI</b>
-                </p>
-                <p>
-                  Power BI is one of the powerful data analytics tools for
-                  organizations, whether small or large. It provides seamless
-                  data visualisation and reporting to the users, helping them
-                  serve the organization as well as the customers better. There
-                  are various components that help the users to achieve such
-                  exceptional outcomes.
-                </p>
-                <ul>
-                  <li>
-                    <b>Power Query</b>
-                    <p>
-                      Power Query is a data transformation engine that enables
-                      users to find, refine, connect, and combine various data
-                      resources. It is capable of reading different database
-                      formats, like Oracle, MySQL, SQL Server, and more.
-                      <br className="mrg" />
-                      It comes as a part of Power BI Desktop and can be
-                      integrated with Excel for better data visualisation.{" "}
-                    </p>
-                  </li>
-
-                  <li>
-                    <b>Power Pivot</b>
-                    <p>
-                      Power Pivot is a data modelling engine that allows users
-                      to build data models, share true insights, manage
-                      relationships, and execute proper calculations.
-                      <br className="mrg" />
-                      Power Pivot is a bit different function that runs on DAX
-                      (Data Analysis Expression) to execute simple as well as
-                      complex data.
-                    </p>
-                  </li>
-
-                  <li>
-                    <b>Power View</b>
-                    <p>
-                      Power View is the function responsible for the filtration
-                      and presentation of data in a simple-to-visualize manner,
-                      like charts, graphs, bars, and more, by connecting
-                      different data sources.
-                      <br className="mrg" />
-                      It is a kind of standard feature of Microsoft, available
-                      in Power BI, Excel, SQL Server, and SharePoint.
-                    </p>
-                  </li>
-
-                  <li>
-                    <b>Power Map</b>
-                    <p>
-                      Power Maps works collaboratively with Bing Maps to offer
-                      3-D data visualisation and mapping on Power BI and Excel.
-                      <br className="mrg" />
-                      It uses various factors, like latitude, longitude, street
-                      address, city, state, and country, to present the data in
-                      3D format.
-                    </p>
-                  </li>
-
-                  <li>
-                    <b>Power BI Desktop</b>
-                    <p>
-                      Power BI Desktop is the core development application used
-                      to develop the components of Power BI, like Power Query,
-                      Power View, and Power Pivot.
-                      <br className="mrg" />
-                      It also allows the user to create the BI report and make
-                      any necessary changes to the data process.
-                    </p>
-                  </li>
-
-                  <li>
-                    <b>Power BI Website</b>
-                    <p>
-                      The Power BI Website is specifically built for small and
-                      medium-sized businesses, where they can publish the data
-                      directly on Power BI website using a web browser.
-                    </p>
-                  </li>
-
-                  <li>
-                    <b>Power Q&A</b>
-                    <p>
-                      The Power Q&A function allows users to directly search the
-                      data or any query using their natural language.
-                      <br className="mrg" />
-                      This makes finding the data easier just by asking in
-                      simple words as compared to manually searching the pile of
-                      files for the exact data a user is looking for.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2293.png"
-                  alt="The wonderful company uses Power BI for easy reporting and dashboards"
-                />
-                <a href="https://customers.microsoft.com/en-us/story/842619-the-wonderful-company-consumer-goods-power-bi">
-                  (Source)
-                </a>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2294.png"
-                  alt="Kuwait international uses power bi for data visualisation"
-                />
-                <a href="https://customers.microsoft.com/fr-fr/story/dgca-government-azure">
-                  (Source)
-                </a>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2295.png"
-                  alt="Nokia implemented Power BI for HR to get real-time insights"
-                />
-                <a href="https://customers.microsoft.com/en-us/story/842850-nokia-telecommunications-power-bi">
-                  (Source)
-                </a>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-22.jpg" alt="group-22" />
+                <img src="/img/fig1.1.svg" alt="group-22" />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="tabs-2" className="col-yellow col-blue">
+      <section id="tabs-2" className="col-yellow">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <header className="section-header section-header-tabless">
                 <h2>
-                  <strong>Chapter 2</strong>Power BI Features and Benefits
+                  <strong>Episode 2: </strong>What exactly is Power BI? 
                 </h2>
-                <p>
-                  In this chapter, we will get to know the top features and
-                  benefits of Power BI.
-                </p>
+                <p>This episode is all about deeply knowing about Power BI, its components, how it works, and case studies.</p>
                 <div className="balnde-imge-mode">
                   <img
-                    src="/img/group-2282.png"
+                    src="/img/Group2162.png"
                     alt="Power BI Features and Benefits"
                     className="shape-1"
                   />
@@ -830,227 +357,78 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Top 5 Features of Power BI:</b>
-                </p>
-                <p>
-                  <b>1. Simple Data Visualisation</b>
-                </p>
-                <p>
-                  Power BI provides compelling data visualisation of complex
-                  data irrespective of the size and format of raw data.
-                  <br className="mrg" /> Sometimes, the standard visualisation
-                  format isn't capable enough to provide the user with the exact
-                  data they are looking for. In such a case, users can access
-                  customised visualisation templates to transform complex data
-                  into a simpler form.
-                </p>
-                <p>
-                  <b>2. Get Data Feature</b>
-                </p>
-                <p>
-                  The "Get Data" feature is a smart function that allows users
-                  to build reports and dashboards without writing queries.
-                  <br className="mrg" />
-                  This feature of Power BI lets users establish a connection
-                  with the organization's database, whether it is SQL or Oracle,
-                  in real-time.
-                </p>
-                <p>
-                  <b>3. Real-time Update</b>
-                </p>
-                <p>
-                  There is a feature in Power BI that lets the users refresh or
-                  update their database automatically in real time.
-                  <br className="mrg" />
-                  This makes the organization save time and money while
-                  automating the data update process irrespective of the server
-                  location they are using, whether cloud or on-premises.
-                </p>
-                <p>
-                  <b>4. Filters</b>
-                </p>
-                <p>
-                  The filter feature of Power BI lets you arrange the important
-                  columns or data of a file by disabling the not-so-important
-                  data or hiding it.
-                  <br className="mrg" />
-                  Users are capable of separating the data based on their
-                  requirements at a particular point in time. Thereafter, users
-                  can create a chart based on visible data, choosing the
-                  irrelevant values to opt out of.
-                </p>
-                <p>
-                  <b>5. Customizable Tiles</b>
-                </p>
-                <p>
-                  Power BI is a flexible application that allows users to
-                  customize and get more out of it. Such customizations enable
-                  users to shortlist the data, change tile placements, and
-                  adjust the columns for more data consumption. Also, Power BI
-                  enables users to customize the viewpoints of tiles to increase
-                  the overall productivity and efficiency of the application.
-                </p>
+                <p><b>Microsoft Power BI</b> is a sophisticated solution available as <b>Power BI Service</b> (an online version - Software-as-a-Service, a.k.a the SaaS version) for companies looking to unlock valuable insights from their data and expand the reach of their business operations.</p>
+                <p>The web-based suite of applications helps you have a comprehensive toolset for analyzing and visualizing information, including <b>Power BI Desktop, Power BI Pro, Power BI Mobile</b>, and <b>Power BI Embedded</b>.</p>
               </div>
               <div className="iner-pp">
                 <img
-                  src="/img/group-2220.png"
-                  alt="top 5 features of power bi"
+                  src="/img/fig1.6.png"
+                  alt="fig1.6"
                 />
               </div>
               <div className="cont-table-inner">
+                <p>With Power BI dashboards, you can gain real-time access to critical data metrics, and the solution's integration with Excel, SharePoint, Microsoft Teams, and Office 365, enabling seamless collaboration across your different teams.</p>
+                <p>Power BI's smart Q&A feature, along with its 59 pre-built connections to popular apps and services, make it easier than ever to gather and unify data from various sources. </p>
+                <p>Developers, business analysts, IT professionals, and other business users can rely on Power BI to create a holistic view of their organization's metrics and effectively share their insights.</p>
+                <p>Companies can make informed decisions, drive operational efficiencies, and remain competitive in today's rapidly evolving business with this robust BI solution.</p>
                 <p>
-                  <b className="h3">Benefits of Power BI</b>
+                <b className="h3">What are the components of Power BI?</b>
                 </p>
+                <p>Power BI enables organizations like yours to analyze and present data in an interactive and meaningful way. It offers a range of features including data connectors, data modeling, report and dashboard creation, and collaboration capabilities.</p>
+                <p>Here are the components of Power BI that powers it:</p>
                 <p>
-                  Being a most convenient business analytics tool, Power BI
-                  offers various benefits to users, making it the first choice
-                  for SMBs:
+                  <b>1. Power Query:</b>
                 </p>
+                <p>Power Query is a data transformation tool that enables users to find, refine, connect, and combine various data resources. It supports a wide range of database formats, including Oracle, MySQL, SQL Server, and more.</p>
+                <p>Power Query is integrated with Power BI Desktop and Excel for better data visualization.</p>
                 <p>
-                  <b>1. Adaptability</b>
+                  <b>Power Pivot:</b>
                 </p>
+                <p>This is a data modeling engine that enables users to create data models, share insights, manage relationships, and perform calculations. It runs on DAX (Data Analysis Expression) to perform both simple and complex data calculations.</p>
                 <p>
-                  One of the best things about Power BI is its adaptability for
-                  all business types and different company sizes.
-                  <br className="mrg" />
-                  Power BI allows industries to increase or decrease the
-                  capabilities of Power BI using the cloud as per their revenue,
-                  needs, and growth.
+                  <b>3. Power View:</b>
                 </p>
+                <p>It is a feature that allows users to filter and present data in a visually appealing way, such as charts, graphs, bars, etc. Power View connects multiple data sources to enable data visualization. It is a standard feature of Microsoft, available in Power BI, <b>Excel</b>, SQL Server, and <b>SharePoint</b>.</p>
                 <p>
-                  <b>2. Secure Database</b>
+                  <b>4. Power Map:</b>
                 </p>
+                <p>This Power BI feature uses <b>Bing Maps</b> (now driven by Microsoft's own artificial intelligence - AI) to create <b>3-D data visualization</b> and <b>mapping on Power BI and Excel</b>. It uses various location factors, such as latitude, longitude, street address, city, state, and country, to accurately display data in a 3D format.</p>
                 <p>
-                  Due to cloud storage, Microsoft Power BI offers immense
-                  security to the organization's data with its secured servers
-                  hosted on Microsoft Azure.
-                  <br className="mrg" />
-                  Power BI offers rich visibility, cyber threat safety servers,
-                  secured data transaction flow, data encryption, and more such
-                  features to its cloud users.
+                  <b>5. Power BI Desktop:</b>
                 </p>
+                <p>Power BI Desktop is the primary development application for creating <Link href="https://blog.dynamicssquare.com/power-bi-architecture-and-its-components-explained/"><a>Power BI Components</a></Link>, such as Power Query, <b>Power View</b>, and <b>Power Pivot</b>. It allows users to create BI reports and make changes to the data processing.</p>
                 <p>
-                  <b>3. Compatibility</b>
+                  <b>6. Power BI Web:</b>
                 </p>
+                <p>Power BI Web is designed for <Link href="https://blog.dynamicssquare.com/small-business-leaders-need-power-bi/"><a>small and medium-sized businesses</a></Link>, allowing them to publish data directly on the Power BI website using a web browser.</p>
                 <p>
-                  For good visualisation capabilities, a BI tool must be
-                  compatible with accepting data from different sources to show
-                  true insights.
-                  <br className="mrg" />
-                  As we have discussed earlier, Power BI is compatible with
-                  fetching data from different sources and in different file
-                  formats. Once the data collection process is complete, it
-                  executes the data and presents the visualisations.
+                  <b>7. Power Q&A:</b>
                 </p>
-                <p>
-                  <b>4. AI Capabilities</b>
-                </p>
-                <p>
-                  The AI (artificial intelligence) of Power BI helps to fill the
-                  values gaps in data to make it workable for accurate and
-                  complete visualisations.
-                  <br className="mrg" />
-                  AI lets the users show and find more actionable data to
-                  transform into visualisations.
-                </p>
-                <p>
-                  <b>5. Seamless Integration</b>
-                </p>
-                <p>
-                  Users can integrate native or third-party applications with
-                  Power BI, making the process of data analysis and
-                  visualisation a lot smoother.
-                  <br className="mrg" />
-                  Tools like Excel, Azure, Microsoft Cloud App Security, Office
-                  365, and more are available to enhance efficiency and
-                  productivity.
-                </p>
-                <p>
-                  <b>6. Personalized Reporting and Dashboards</b>
-                </p>
-                <p>
-                  A personalised dashboard makes the data reporting easy to
-                  access as well as easy to use. Users can customize the
-                  dashboard as per their requirements and make Power BI work for
-                  them.
-                </p>
-                <p>
-                  <b>7. Automatic Updates</b>
-                </p>
-                <p>
-                  Microsoft releases Power BI updates twice a year, making it
-                  equipped with the latest features and functions to tackle
-                  complex processes.
-                  <br className="mrg" />
-                  Organizations don't have to be concerned about installing
-                  updates as Microsoft will automatically process the updates
-                  without hampering any processes or operations.
-                </p>
-                <p>
-                  <b>8. User-friendly Interface</b>
-                </p>
-                <p>
-                  Power BI provides an easy-to-understand and simple user
-                  interface to decrease the chances of missing even the minute
-                  details of data visualization.
-                  <br className="mrg" />
-                  Also, Microsoft Power BI provides an easy-to-navigate user
-                  interface so that all the features and tools are easily
-                  accessible to all users.
-                </p>
-                <p>
-                  <b>9. Multi Device Availability</b>
-                </p>
-                <p>
-                  Power BI provides a multi-channel experience to the users
-                  where they can access the data using different devices,
-                  whether mobile, desktop, or web, and from anywhere in the
-                  world.
-                  <br className="mrg" />
-                  Users can analyse and visualise the data in real time, making
-                  the business available 24/7.
-                </p>
-                <p>
-                  <b>10. Fast Turnarounds and Low Costs</b>
-                </p>
-                <p>
-                  With real-time data updates, users can analyse the data and
-                  make informed and actionable decisions to improve business
-                  efficiency.
-                  <br className="mrg" />
-                  Also, the users can track the processes and operations that
-                  have an issue or are not performing as per expectations to
-                  make the necessary changes for good.
-                </p>
+                <p>This feature of Power BI allows users to search for data or query the data using natural language (also termed natural language processing or <b>NLP</b> in the field of Data Science). This makes finding data easier by simply asking a question, instead of manually searching through piles of files for the desired information.</p>
+                <p>Overall, Power BI helps organizations to turn data into actionable insights and quickly make informed decisions at scale.</p>
+                <p><b className="h3">Case Studies</b></p>
+                <p><b>Case -1: Dell Technologies</b></p>
+                <p>Dell Technologies leverages Microsoft 365 to modernize work for its global employees and improve its culture and eNPS scores.</p>
+                <p>“We're driving Microsoft 365 as a foundational suite of tools for enacting our vision for a modern, seamless employee experience. We moved from <b>30</b> or so tools to <b>6</b> or <b>7</b> over the last two years. <b>Srikanth Ramaswamy</b>, Global Lead for Modern Content and Collaboration Services and a member of the Dell Digital Team Experience, said - by integrating and prioritizing the use of Microsoft's products such as <b>Office 365</b>, <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365</a></Link>, <Link href="/products/microsoft-power-platform/"><a>Power Platform</a></Link>, and <b>Azure</b>, the employee satisfaction <b>Net Promoter Score</b> improved by over <b>60%</b> within <b>6</b> quarters.</p>
+                <p><b>Case - 2: bp - A Global Energy Giant in Oil & Gas Production </b></p>
+                <p>With a modular data mesh design on <Link href="/products/microsoft-azure/"><a>Microsoft Azure</a></Link>, BP ignites greater innovation.</p>
+                <p>BP and Microsoft teamed up to modernize BP's data lakes with the Microsoft Intelligent Data Platform. The solution is a modular data mesh combining Azure Databricks, Azure Synapse Analytics, Microsoft Purview, and Power BI, making it a leading cloud data platform that integrates databases, analytics, and governance to increase value creation.</p>
+                <p>“Modularity is at the heart of bp's digital approach to drive an integrated set of world-class customer experiences, reduce the time to value for new products, and enable bp to create new businesses.” -  <b>Abeth Go</b>: Vice President for Data & Analytic Platforms.</p>
+                <p><b>Case - 3: Rolls Royce</b></p>
+                <p><b>Rolls-Royce revolutionizes efficiency with the Power Platform.</b></p>
+                <p>Power Platform, consisting of Power Automate, Power BI, and Power Apps, has become the most popular solution for upskilling at Rolls-Royce, with a 30% uptake in training consumption.</p>
+                <p>“The results have been outstanding, with an estimated £8 million financial profit within a matter of months, with growth expected to continue as more teams adopt the platform,” says <b>Elena Walker</b>: Digital Manufacturing Leader at Rolls-Royce.</p>
+                <p><b>Case - 4: T-Mobile - A Wireless Services Giant </b></p>
+                <p>T-Mobile uses Azure Synapse Analytics and Power BI for its 5G rollout.</p>
+                <p>Azure Synapse Analytics and Power BI are the tools that help you with insights and data-driven decision-making to drive progress forward. Azure Synapse Analytics analyzes vast data, while Power BI creates interactive visualizations. These tools are powering T-Mobile's 5G journey and bringing the future of connectivity to customers.</p>
+                <p>"With Azure security groups, [managing security] became a much easier task. Managing permissions … is easier to manage than going through a traditional security portal,"" says Vardhaman Patil: Senior Business Intelligence Manager at T-Mobile.</p>
+                <p><b>Case - 5: New York City Department of Education </b></p>
+                <p><b>The New York City Department of Education successfully meets the challenge with the help of Microsoft Azure.</b></p>
+                <p>The New York City Department of Education faced a huge challenge when the pandemic hit, affecting its 1.2 million students (about half the population of Arkansas). It was a crazy time.</p>
+                <p>To quickly improve its remote learning capabilities, the department built a cloud-based platform using Azure Synapse Analytics, resulting in high performance, easy management, and strong security. The platform helped the department effectively respond to the pandemic and support its students' education.</p>
+                <p>"The district used data to give student performance insights to over 100,000 educators and administrators via Power BI Dashboards. This allowed them to gather more detailed information, such as the number of students who logged into different platforms, to principals which was previously not possible," says <b>Zeeshan Anwar:</b> executive director of the district's finances and product engineering.</p>
               </div>
-              <div className="iner-pp">
-                <img src="/img/group-2278.png" alt="top 10 power bi benefits" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  Images of below Cases (Manufacturing / Trading / Top business
-                  category audience){" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2299.png" alt="power bi use case 1" />
-                <a href="https://customers.microsoft.com/en-us/story/817472-grundfos-manufacturing-power-bi">
-                  (Source)
-                </a>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2300.png" alt="power bi use case 2" />
-                <a href="https://customers.microsoft.com/en-us/story/810496-sandvik-coromant-chemicals-power-bi">
-                  (Source)
-                </a>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2301.png" alt="power bi client story" />
-                <a href="https://customers.microsoft.com/en-us/story/791222-rockwell-automation-manufacturing-power-bi">
-                  (Source)
-                </a>
-              </div>
+
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
@@ -1066,22 +444,18 @@ const PowerBIGuide = () => {
         </div>
       </section>
 
-      <section id="tabs-3" className="col-yellow col-yel">
+      <section id="tabs-3" className="col-yellow col-blue">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <header className="section-header section-header-tabless">
                 <h2>
-                  <strong>Chapter 3</strong>Power BI Dashboards
+                  <strong>Episode 3: </strong>Benefits of Microsoft Power BI for SMBs in 2023 
                 </h2>
-                <p>
-                  The Power BI Dashboards are a single-page visualisation
-                  feature that shows the data using graphs and charts as a
-                  highlight of the reports
-                </p>
+                <p>This episode is for SMBs to learn how Power BI can help them navigate vast amounts of data and turn it into meaningful insights.</p>
                 <div className="balnde-imge-mode">
                   <img
-                    src="/img/PowerBi-Dashboard.png"
+                    src="/img/Group2282.png"
                     alt="Power BI Dashboards"
                     className="shape-1"
                   />
@@ -1101,630 +475,68 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
-                <p>
-                  The Power BI Dashboards are a single-page visualisation
-                  feature that shows the data using graphs and charts as a
-                  highlight of the reports. Dashboards, also known as "Canvas,"
-                  are only available for creation in the Power BI Service.
-                  However, you can view and share the dashboards using
-                  designated apps on mobile devices.
-                  <br className="mrg" />
-                  On the dashboards, different visualisations are available
-                  based on different data sources, known as tiles. To view a
-                  particular tile of a report on the dashboards, you need to
-                  'pin' it.
-                  <br className="mrg" />A set of data forms a dataset, and a
-                  report is created based on the available data in a dataset.
-                  These report datasets are visualised on dashboards to make the
-                  data easily accessible to the end user.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2223.png"
-                  alt="Transform data and view on power bi dashboards"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  Power BI Dashboards can revolutionise how data visualisation
-                  is used in an organisation, whether manually or using other BI
-                  tools. Using the technology of machine learning,{" "}
-                  <Link href="/products/microsoft-dynamics-365-ai/">
-                    artificial intelligence
-                  </Link>
-                  , and cloud computing, Microsoft Power BI makes data
-                  consumption so simple that organisations get superior in
-                  performing better for customers and growing at a high pace.
-                </p>
-                <p>
-                  <b className="h3">Advantages of Power BI Dashboards:</b>
-                </p>
-                <p>
-                  Microsoft Power BI Dashboards are an amazing feature and do
-                  offer a lot of advantages to users and organizations:
-                </p>
+                <p>It's 2023, and small businesses are still facing the growing challenge of managing voluminous quantity of data.</p>
+                <p>Power BI is the solution for this challenge, offering a complete suite of tools for data analysis, visualization, and insight sharing.</p>
+                <p>With Power BI, <Link href="https://blog.dynamicssquare.com/why-your-business-needs-power-bi/"><a>small businesses</a></Link> can have a 360-degree view of their data updated in real-time and presented in interactive visualizations. The platform integrates seamlessly with Excel and Office 365, making data analysis and collaboration effortless.</p>
+                <p>Power BI gives you a seamless experience to you to customize and access hundreds of pre-built connections to popular business apps and services. With its intelligent Q&A feature, your teams can quickly answer data-related queries, making this BI tool effortless to use.</p>
+                <p><b>Power BI is the right choice for small businesses in 2023</b> because it is a comprehensive, easy-to-use, and versatile solution that helps turn data into actionable insights and drive success and growth.</p>
+                <p>Let's see how Power BI can help.</p>
+                <p><b>1- Complete Data Analysis and Visualization Solution </b></p>
+                <p>Power BI is a web-based suite of tools for analyzing and visualizing business data.</p>
+                <p><b>2- Report Authoring, Content Creation, and Distribution </b></p>
+                <p>It is a complete solution for report authoring, content creation and distribution, data monitoring, and access to dashboards from any device.</p>
+                <p><b>3- 360-degree View of Real-Time Business Data </b></p>
+                <p>Offers a 360-degree view of real-time business data with interactive visualizations.</p>
+                <p><b>4- Easy Customization and Adaptability</b></p>
+                <p>Power BI has hundreds of pre-built connections to popular business apps and services for easy customization. Users can easily adapt to this BI tool since it has an easy learning curve.</p>
+                <p><b>5- Seamless Integration with Excel and Office 365 </b></p>
+                <p>Integrates seamlessly with Excel and Office 365 for data analysis and collaboration.</p>
+                <p><b>6- Smart Q&A Function for Quick Data Insights</b></p>
+                <p>Features a smart Q&A function for quick answers to data-related questions.</p>
+                <p><b>7- Pre-built Connections to Popular Business Apps and Services </b></p>
+                <p>Power BI comes with pre-built connections for 59 apps and services including <b>Salesforce, Google Analytics, Azure, and Zendesk.</b></p>
+                <p><b>8- Driving Success and Growth with Comprehensive Key Metrics.</b></p>
+                <p>Microsoft's Power BI gives a comprehensive view of key metrics for data-driven decision-making.</p>
+                <p><b className="h3">Pros and Cons of Power BI</b></p>
+                <p><b>Pros of Power BI:</b></p>
                 <ul>
-                  <li>
-                    A user can share the dashboard with the team or other
-                    employees of the organization instantly and get the remarks
-                    for a particular task.
-                  </li>
-                  <li>
-                    Power BI Dashboards are so flexible that they can be
-                    embedded into any native or third-party application to make
-                    the data visualization experience smoother.
-                  </li>
-                  <li>
-                    Dashboards are easy to personalize and customize as per your
-                    requirements and can be reset to default whenever required.{" "}
-                  </li>
-                  <li>
-                    A Power BI Dashboard allows users to create and show
-                    visualizations from multiple datasets and reports.
-                  </li>
-                  <li>
-                    The Power BI Dashboard enables users to view and analyse the
-                    reports along with important data metrics on a single screen
-                    and with ease.{" "}
-                  </li>
+                  <li>Efficient management of insights</li>
+                  <li>Seamless integration with Microsoft products </li>
+                  <li>Access to online forums and learning zones </li>
+                  <li>Robust visualization tools for data analysis </li>
+                  <li>User-friendly interface for easy use </li>
+                  <li>Capability to connect with hundreds of data sources </li>
+                  <li>Quick and easy to run queries for data exploration </li>
+                  <li>Effortless process to create interactive <b>charts</b>, <b>graphs</b>, and <b>reports</b>.</li>
                 </ul>
-                <p>
-                  <b className="h3">Power BI Dashboards Vs. Reports</b>
-                </p>
-                <p>
-                  Power BI Dashboard is meant to summarize the data
-                  visualisation, whereas reports are intended to show a detailed
-                  representation of the data.
-                  <br className="mrg" />
-                  Also, the Power BI shows the visual representation of the data
-                  briefly, and on the other hand, reports show the detailed
-                  version of the data as per the organization's standard.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2224-4.png" alt="group-2224" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">How to Create a Dashboard in Power BI?</b>
-                </p>
-                <p>
-                  Till now, you would have had sound knowledge of dashboards,
-                  reports, tiles, and more. You probably want to create a
-                  dashboard to check how these things work and how Power BI
-                  shows the data visualisation.
-                  <br className="mrg" />
-                  Generally, there are different methods to create a dashboard,
-                  like using an existing report, using a dataset, duplicating an
-                  existing dashboard, or creating a dashboard from scratch.
-                  <br className="mrg" />
-                  In this method, we will import Power BI sample datasets and
-                  create a new dashboard for learning purposes.
-                  <br className="mrg" />
-                  Below, we have given an Excel workbook sample data with two
-                  PowerView sheets to import. A report and a dataset will be
-                  automatically added to the workspace after importing the data.
-                </p>
+                <p><b>Cons of Power BI:</b></p>
                 <ul>
-                  <li>
-                    Click to download the{" "}
-                    <a href="https://go.microsoft.com/fwlink/?LinkId=529784">
-                      Procurement Analysis Sample
-                    </a>{" "}
-                    Excel file. We recommend you upload or save this file on
-                    your <b>OneDrive for Business</b>, making it easier to
-                    access for later use.
-                  </li>
-                  <li>
-                    Open the web browser and open Power BI Service by entering
-                    this link -{" "}
-                    <a href="http://app.powerbi.com">app.powerbi.com</a>
-                  </li>
-                  <li>
-                    Open the Navigation panel on the left of the screen and
-                    click on the My Workspace button following the Get Data
-                    button to import the recently downloaded file. See below
-                    picture for reference.
-                  </li>
+                  <li>Steep learning curve for those unfamiliar with business intelligence software. </li>
+                  <li>Limited IDE (Integrated Development Environments) support for programming languages like <b>Python</b> or <b>R</b>. </li>
+                  <li>Potential for improvement in social media connectors.</li>
+                  <li>Separating data preparation tools for desktop and web versions can create confusion.</li>
+                  <li>Refresh cycle limited on free version, may change timeliness of data updates.</li>
                 </ul>
+                <p><b>Who can use Power BI?</b></p>
+                <p>Power BI is used by developers, business analysts, IT heads, and business users of all sizes for success and growth.</p>
               </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-21212.png"
-                  alt="power bi dashboard get data button"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <ul>
-                  <li>
-                    Once you click on the “Get Data” button, a new File pop-up
-                    will display on the screen where you need to click on the
-                    Get button to import the data. See the below picture for
-                    reference:
-                  </li>
-                </ul>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-21213.png" alt="import data" />
-              </div>
-              <div className="cont-table-inner">
-                <ul>
-                  <li>
-                    The OneDrive for Business will open where you need to locate
-                    the file we have downloaded, as shown below.
-                  </li>
-                </ul>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-21214.png" alt="one drive for business" />
-              </div>
-              <div className="cont-table-inner">
-                <ul>
-                  <li>
-                    Click on the file, and a new window open where you need to
-                    click on Import button to start importing the file; as shown
-                    below:
-                  </li>
-                </ul>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-21215.png"
-                  alt="Import button to start importing the file"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <ul>
-                  <li>
-                    Once the file import is complete, a success message will be
-                    displayed. You can close it to proceed.
-                  </li>
-                </ul>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-21216.png"
-                  alt="success message will be displayed"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  Till now, the process of importing the report data has been
-                  completed. The report data has been created, and you can pin
-                  the entire report page to the dashboard. The steps to do so
-                  are given below:
-                </p>
-                <p>
-                  1. In the Workspace, select the{" "}
-                  <b>Procurement Analysis Sample</b> report as shown below:{" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-21201.png"
-                  alt="Procurement Analysis Sample report"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  2. The report will open in a reading view where you can
-                  analyse and visualise the data.{" "}
-                </p>
-                <p>
-                  3. On the left of the screen, you can see the two tabs,{" "}
-                  <b>Discount Analysis</b> and <b>Spend Overview</b>. Each of
-                  these tabs shows the specific data of report.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-21202.png"
-                  alt=" Discount Analysis and Spend Overview"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  4. In the report editor, click on the Spend Overview tab to
-                  open another page of the same report; as shown below:
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-21203.png" alt="Spend Overview tab" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  5. To view all the visuals of the report, select{" "}
-                  <b>Pin to Dashboard button</b> available in upper-right corner
-                  of the menu bar; as shown below.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-21204.png" alt="Pin to Dashboard" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  6. Once you click on the <b>Pin to dashboard</b> button, the
-                  respected window will appear on the screen where you need to
-                  select the <b> Existing Dashboard</b> option and click on the{" "}
-                  <b>Pin Live</b> button.{" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-21205.png" alt="Pin Live button" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  7. A success message will be displayed; after that, you need
-                  to click the Go to Dashboard button.
-                </p>
-                <p>
-                  8. On the dashboard, you will see the visualisations of data
-                  fetched from the report. Check out the below picture:
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-21206.png"
-                  alt="Power bi data visualisation"
-                />
-              </div>
-
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI Dashboard Examples</b>
-                </p>
-                <p>
-                  Users can create different kinds of Power BI dashboards as per
-                  the data feed in the reports, whether the report belongs to
-                  the finance or marketing department.
-                  <br className="mrg" /> In this section, you will get to know
-                  more Power BI dashboards examples and their need in an
-                  organization:{" "}
-                </p>
-                <ul>
-                  <li>Finance Dashboard</li>
-                  <li>HR Dashboard</li>
-                  <li>Logistics Dashboard</li>
-                  <li>Sales Dashboard</li>
-                  <li>Marketing Dashboard</li>
-                </ul>
-                <p>
-                  <b className="h3">Finance Dashboard</b>
-                </p>
-                <p>
-                  The Finance Dashboard contains the organisation's financial
-                  data in a presentable manner for executive-level employees.
-                  This dashboard lets the users scan and analyse the reports
-                  using accurate insights per the report's available data.
-                  <br className="mrg" /> The purpose of the Financial Dashboard
-                  is to provide an overview of the organisation's financial
-                  performance. Also, it allows the users to visualise the data
-                  as per product or service category and the end users' location
-                  to determine the areas of low and high performance.{" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2302.png"
-                  alt="Finance Dashboard in power bi"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Key Insights of Financial Dashboards:</b>
-                </p>
-                <ol>
-                  <li>
-                    <b>Key Performance Indicators (KPIs)</b>: Shows data of
-                    Customers, Revenue, Orders, Quantity, Profits.
-                  </li>
-                  <li>
-                    <b>Time Duration or Area Chart</b>: Shows revenue of
-                    previous months (12).
-                  </li>
-                  <li>
-                    <b>Bar Chart</b>: Shows revenue by Region and Product
-                    category.
-                  </li>
-                  <li>
-                    <b>Table</b>: Shows performance of each Category and
-                    Sub-category.
-                  </li>
-                  <li>
-                    <b>100% Stacked Bar Chart</b>: Shows exact ration of total
-                    Revenue to Profit.
-                  </li>
-                </ol>
-                <p>
-                  <b className="h3">HR Dashboard</b>
-                </p>
-                <p>
-                  The HR Dashboard of Power BI is for HR managers to track the
-                  performance of their employees, understand demographics, and
-                  track new employees. <br className="mrg" /> The purpose of the
-                  HR Dashboard is to measure the various parameters of the
-                  employees, like salary, work hours, age, attendance, leaves,
-                  and more. <br className="mrg" /> The Power BI HR dashboard
-                  allows HR to investigate the employees' insights and make the
-                  workplace more efficient and productive.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2306.png" alt="HR Dashboard of Power BI" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Key Insights of HR Dashboard</b>
-                </p>
-                <ul>
-                  <li>
-                    <b>Key Performance Indicators (KPIs)</b>: Shows the total
-                    no. of employees, and age, term period, and salary to
-                    understand the average employees' profile.
-                  </li>
-                  <li>
-                    <b>Recruit Charts</b>: Displays new employees of the
-                    organization
-                  </li>
-                  <li>
-                    <b>Bar Chart</b>: Displays employees geographically
-                  </li>
-                  <li>
-                    <b>Table</b>: Tracks new and old employees.
-                  </li>
-                </ul>
-                <p>
-                  <b className="h3">Logistics Dashboard:</b>
-                </p>
-                <p>
-                  The Power BI Logistics Dashboard is for users like logistics
-                  managers, who have to track the flow of goods using different
-                  parameters, like mode of delivery, product, category,
-                  location, and more.
-                  <br className="mrg" />
-                  The purpose of the Power BI Logistics Dashboard is to check
-                  and maintain the delivery flow. Also, the dashboard helps the
-                  managers identify the weaker logistics section and provides
-                  the necessary resources to fill the gap or meet the delivery
-                  timeline.{" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2305.png"
-                  alt="Power BI Logistics Dashboard"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Key Insights of Logistics Dashboards:</b>
-                </p>
-                <ul>
-                  <li>
-                    <b>Key Performance Indicators (KPIs)</b>: Shows the total
-                    number of orders, customers, and product quantity.
-                  </li>
-                  <li>
-                    <b>Order Flow</b>: Displays products category and
-                    sub-category to arrange as per priority.
-                  </li>
-                  <li>
-                    <b>Shape Map</b>: Shows product orders by state to help
-                    users assign resources as per need.
-                  </li>
-                  <li>
-                    <b>Matrix</b>: Displays orders by time and shipping mode.
-                  </li>
-                </ul>
-                <p>
-                  <b className="h3">Sales Dashboard</b>
-                </p>
-                <p>
-                  The Powe BI Sales dashboard is for users, like sales managers,
-                  who have to visualize the data based on sales data, count,
-                  opportunity, and more.
-                  <br className="mrg" /> The purpose of the sales dashboard is
-                  to evaluate the sales data, measure the sales performance, and
-                  track the low-performing areas to put more effort into
-                  achieving the sales target.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2304.png" alt="Powe BI Sales dashboard" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Key Insights of Sales Dashboard:</b>
-                </p>
-                <ul>
-                  <li>
-                    <b>Key Performance Indicators (KPIs)</b>: It displays the
-                    total number of sales, opportunities and their size, as well
-                    as average sales velocity, so you can get an overview of
-                    current sales status.
-                  </li>
-                  <li>
-                    <b>Area Chart</b>: Displays sales and opportunities by time
-                    (monthly / annually).
-                  </li>
-                  <li>
-                    <b>Donut Chart</b>: It displays the total number of sales
-                    classified by marketing channel and assists in focusing more
-                    effort on weaker marketing platforms.
-                  </li>
-                  <li>
-                    <b>Bar Chart</b>: It shows sales based on sales stage, sales
-                    opportunities, and marketing platform.{" "}
-                  </li>
-                </ul>
-                <p>
-                  <b className="h3">Marketing Dashboard</b>
-                </p>
-                <p>
-                  The Power BI Marketing Dashboard allows marketers to visualise
-                  customer marketing research and campaigns.{" "}
-                  <br className="mrg" />
-                  The purpose of this dashboard is to research the market trends
-                  and patterns per customer and their needs. Such data
-                  visualisation helps marketers better understand the customers
-                  and provide them with the best service or solution.{" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2307.png"
-                  alt="Power BI Marketing Dashboard"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Key Insights of Marketing Dashboard: </b>
-                </p>
-                <ul>
-                  <li>
-                    <b>Scatterplot</b>: Displays average bank balance and level
-                    of education by age to show the more engaged customers with
-                    the organization.
-                  </li>
-                  <li>
-                    <b>100% Stacked Bar Chart</b>: Shows the education and
-                    marital status of the customer to understand the
-                    demographics.
-                  </li>
-                  <li>
-                    <b>Multi-Card Row</b>: Displays the job profile to better
-                    understand the customer's portfolio.
-                  </li>
-                  <li>
-                    <b>Treemap</b>: Displays the customer based on education
-                    level to identify the potential customer for future
-                    reference.
-                  </li>
-                </ul>
-              </div>
-              <div className="iner-pp">
-                <Link href="#powerBIModals">
-                  <a data-bs-toggle="modal">
-                    <img
-                      src="/img/powerb-guide-call-to-banner-1.png"
-                      alt="power-guide"
-                    />
-                  </a>
-                </Link>
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Health Industry Used Cases</b>
-                </p>
-                <p>
-                  <b>Case 1 :</b> Humana, a USA-based health insurance company,
-                  has condensed 47 data sources and other business intelligence
-                  tools into a robust solution: Microsoft Power BI. They realise
-                  creating a dashboard is a quick and easy task. Even the
-                  visualisations available on dashboards are easy to understand
-                  and update in real-time to make informed decisions about their
-                  implementation strategies.
-                </p>
-                <p>
-                  <b>Case 2 :</b> Bayer, the world's largest life science
-                  organisation, has implemented Power BI as a one-stop solution
-                  for all the data and information they gather from different
-                  sources. The Power BI Dashboard has become a game-changer
-                  feature for them to visualise tones of data on a single
-                  screen. It helped the higher management, like the CFO, to
-                  supervise all the datasets and reports of the business from a
-                  single screen and share the same with other board members.{" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-21207.jpg"
-                  alt="why power bi is the best tool"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI for Finance Industry Use Cases</b>
-                </p>
-                <p>
-                  <b>Finance - Case 1 :</b> Zurich Insurance Group, an insurance
-                  solution provider, has{" "}
-                  <Link href="/power-bi-implementation/">
-                    implemented Power BI
-                  </Link>{" "}
-                  BI to eliminate the data silos and build an efficient data
-                  visualization platform. Power BI replaced the time used to
-                  gather and extract data with analyzing it for more results and
-                  growth. Power BI enables thousands of users to interact and
-                  create personalized dashboards based on different aspects of
-                  the business. The organization uses the dashboard to gain
-                  insights and focus efforts on the organization's weaker areas.
-                </p>
-                <p>
-                  <b>Finance - Case 2:</b> PwC, the world's largest accounting
-                  firm, has implemented Azure and Power BI to provide real-time
-                  and useful insights. The DIA (Deals, Insights, and Analytics
-                  team) realized that most of their clients already use Power BI
-                  for simple and quick visualisations. They found Power BI
-                  dashboards to be an easy way to create and share valuable
-                  insights with the clients throughout the deal and acquisition
-                  process.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-21208.jpg"
-                  alt="custom power bi dashboard for PWC"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  Such custom dashboards help bringing valuable insights to the
-                  clients.
-                </p>
-                <p>
-                  <b className="h3">Systems and Digital Solution Providers</b>
-                </p>
-                <p>
-                  <b>Case 1 :</b> Johnson Controls is a 136-year-old company
-                  working to improve building performance, sustainability,
-                  safety, and more using systems and digital solutions. The
-                  Power BI dashboards allow users to analyse and review the
-                  execution efforts to improve their current system.
-                </p>
-                <p>
-                  <b>Case 2 :</b> The University of Waterloo implemented Azure
-                  and Power BI to decentralise the institution. This allows
-                  various types of users to create customised reports and
-                  dashboards, such as campus-specific dashboards for business
-                  users, public dashboards for students, researcher dashboards
-                  for university researchers, device tracking dashboards to
-                  count the number of people, and more.{" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-21209.jpg" alt="researcher dashboard" />
-              </div>
+            
             </div>
           </div>
         </div>
       </section>
-      <section id="tabs-4" className="col-yellow col-green">
+      <section id="tabs-4" className="col-yellow">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <header className="section-header section-header-tabless">
                 <h2>
-                  <strong>Chapter 4</strong>Power BI Integration
+                  <strong>Episode 4: </strong>How is the dashboard of Power BI?
                 </h2>
-                <p>
-                  This chapter will get you in-depth information about the need
-                  of integrations and their benefits.
-                </p>
+                <p>In this episode, we will cover how dynamic dashboards of Power BI are empowering business users to make informed decisions.</p>
                 <div className="balnde-imge-mode">
                   <img
-                    src="/img/PowerBi-integration.png"
+                    src="/img/Group2162.png"
                     alt="PowerBi-integration"
                     className="shape-1"
                   />
@@ -1744,100 +556,60 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
+                <p>MSFT Power BI is a suite of business analytics tools that enables end users to <b>visualize, analyze,</b> and <b>share data</b> in a way that's easy to understand and act upon.</p>
+                <p>One of the key features of Power BI is its dashboards, which generate a real-time snapshot of an organization's data in a single view.</p>
+                <p>Let's explore the benefits of Power BI dashboards and how they can empower you to make the right decisions.</p>
+                <p><b>Also Read:</b> <Link href="https://blog.dynamicssquare.com/power-bi-for-mac/"><a>Power BI for Mac: Learn how to use Power BI on Mac Devices?</a></Link></p>
                 <p>
-                  Power BI supports several native as well as third-party
-                  integrations to enhance the capabilities of overall business
-                  management.
+                  <b className="h3">What is a Power BI Dashboard?</b>
                 </p>
-                <p>
-                  <b className="h3">Power BI Integration with Dynamics 365</b>
-                </p>
-                <p>
-                  The combination of Power BI with Dynamics 365 makes the
-                  organisation prepared for the ways of modern business.
-                  Dynamics 365 is a business management application that
-                  collects and manages data from different departments. In
-                  contrast, Power BI combines the data, transforms it into
-                  reports, and shows the data visualisations on dashboards to
-                  make informed decisions.
-                </p>
-                <p>
-                  <b className="h3">
-                    Need for Power BI and Dynamics 365 Integration
-                  </b>
-                </p>
-                <p>
-                  There are numerous reasons to integrate Power BI with Dynamics
-                  365 to make data-driven decisions and seamless sales
-                  processes.
-                </p>
-                <ul>
-                  <li>
-                    Supporting the features and capabilities of each other,
-                    Power BI and Dynamics 365 support each other, making them
-                    compatible for overall data analysis and visualisation.
-                  </li>
-                  <li>
-                    The combination helps the sales department to get real-time
-                    data-driven insights and take actionable decisions whenever
-                    required.
-                  </li>
-                </ul>
-                <p>
-                  <b className="h3">
-                    Top Benefits of Power BI and Dynamics 365 Integration
-                  </b>
-                </p>
-                <ul>
-                  <li>
-                    The combination of these two powerful applications enhances
-                    the functionality of business intelligence and helps users
-                    implement informed decisionsbased on true data insights.
-                    Both Microsoft applications improve operational speeds,
-                    reduce the likelihood of errors, enhance the customer
-                    experience, and provide valuable insights to the sales team.
-                  </li>
-                  <li>
-                    It allows users to create real-time reports to make
-                    actionable decisions to improve any process or operation.
-                  </li>
-                  <li>
-                    Organisations can know more about their customers using
-                    various parameters, age or demographics. This data lets the
-                    team offer a more personalised offer and respond to the
-                    queries accordingly.
-                  </li>
-                  <li>
-                    Using the latest technologies of AI, ML, and cloud, the data
-                    captured from Dynamics 365 is easy to analyse and visualise
-                    in Power BI with an easy-to-understand data structure.
-                  </li>
-                  <li>
-                    An organisation can customise the dashboard based on
-                    different types of data received from Dynamics 365 to make
-                    the data accessible in Power BI.
-                  </li>
-                </ul>
-                <p>
-                  <b className="h3">Power BI Integration with other Apps</b>
-                </p>
-                <p>
-                  Power BI allows a variety of apps to connect with itself to
-                  make the process seamless. The different integrations let the
-                  business run efficiently by converting complex processes into
-                  simple ones. Organisations can connect native and third-party
-                  apps with Power BI, like Salesforce, Microsoft Dynamics,
-                  Google Analytics, and more.
-                  <br className="mrg" />
-                  Once you connect or integrate the app with Power BI, a
-                  separate workspace will be created along with the dashboard
-                  where a user can view and visualise the data fetched from the
-                  integrated apps.{" "}
-                </p>
+                <p>A Power BI dashboard is a customizable canvas that displays visualizations and data from one or more reports, showing you a high-level view of your data collected from different data sources.</p>
+                <p>You can <a href="https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-templates" target="_blank" rel="nofollow">create dashboards in Power BI</a> from scratch or by using pre-built templates.</p>
+                <p>Once a dashboard is created, users can add visualizations, filters, and other elements to create a custom view of their data.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/group-21211.png" alt="Microsoft Appsource" />
+                <img src="/img/power-bi-dashboard.png" alt="power-bi-dashboard" />
               </div>
+              <div className="cont-table-inner">
+                <p>Power BI dashboards can be shared with others within the organization or even externally with your colleagues, partners, or customers.</p>
+                <p><b className="h3">Benefits of Power BI Dashboards</b></p>
+                <p><b>Power BI dashboards offer several benefits to end users, including:</b></p>
+                <p><b>Real-time insights:</b> Dashboards allow a real-time view of an organization's data, so end users can make decisions based on the latest information available.</p>
+                <p><b>Customizable: </b>Dashboards can be customized to fit the unique needs of each user, allowing them to see the data that's most relevant to them.</p>
+                <p><b>Interactive: </b> End users can interact with dashboards by filtering, drilling down, or clicking on visualizations to explore the data in more detail.</p>
+                <p><b>Easy to share:</b> Dashboards can be shared with others within the organization or even externally with partners or customers, making it easy to collaborate and share insights. </p>
+                <p><b>Mobile-friendly:</b> Power BI dashboards are mobile-friendly, meaning end users can access their data from anywhere, at any time.</p>
+                <p><b className="h3">Use Cases for Power BI Dashboards </b></p>
+                <p><b>Power BI dashboards can be used in a variety of use cases, including: </b></p>
+                <p><b>Sales: </b>Sales teams can use dashboards to track their performance, show trends, and make data-driven decisions. </p>
+              </div>
+              <div className="iner-pp">
+                <img src="/img/fig3.6.png" alt="fig6" />
+              </div>
+              <div className="cont-table-inner">
+                <p><b>Marketing:</b> Marketing teams can use dashboards to track their campaigns, check social media metrics, and find areas for improvement.</p>
+              </div>
+              <div className="iner-pp">
+                <img src="/img/fig3.4.png" alt="fig4" />
+              </div>
+              <div className="cont-table-inner">
+                <p><b>Finance:</b> Finance teams can use dashboards to track key performance indicators (KPIs), monitor cash flow, and analyze financial data.</p>
+              </div>
+              <div className="iner-pp">
+                <img src="/img/fig3.3.png" alt="fig3" />
+              </div>
+              <div className="cont-table-inner">
+                <p><b>Operations:</b> Operations teams can use dashboards to track production metrics, identify bottlenecks, and optimize workflows.</p>
+              </div>
+              <div className="iner-pp">
+                <img src="/img/fig3.5.png" alt="fig5" />
+              </div>
+              <div className="cont-table-inner">
+                <p>Power BI dashboards provide you with a powerful tool to turn your data into meaningful insights.</p>
+                <p>By getting a real-time, customizable, and interactive view of your data, you with your decision-making team can make informed decisions that drive business success.</p>
+                <p>Whether used for sales, marketing, finance, or operations, Power BI dashboards enable you to harness the power of data and unlock new growth and business opportunities.</p>
+              </div>
+
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
@@ -1852,23 +624,88 @@ const PowerBIGuide = () => {
           </div>
         </div>
       </section>
-      <section id="tabs-5" className="col-yellow col-per">
+      <section id="tabs-5" className="col-yellow col-green">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <header className="section-header section-header-tabless">
                 <h2>
-                  <strong>Chapter 5</strong>Power BI Versions, Pricing, and
-                  Licensing
+                  <strong>Episode 5: </strong>Integration of Power BI with Microsoft Dynamics 365 Apps
                 </h2>
-                <p>
-                  In this chapter, you will get to know about the different
-                  versions of Power BI, along with their pricing and licensing.
-                </p>
+                <p>This episode is about integrating Power BI to <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 apps</a></Link> like <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link>, Dynamics 365 Finance, Dynamics 365 Sales, or Dynamics 365 Supply Chain Management.</p>
+                <div className="balnde-imge-mode">
+                  <img
+                    src="/img/PowerBi-integration.png"
+                    alt="Integration of Power BI with Microsoft Dynamics 365 Apps"
+                    className="shape-1"
+                  />
+                  <img
+                    src="/img/over-lay-shape.png"
+                    alt="over-lay-shape"
+                    className="overlay-1"
+                  />
+                </div>
+              </header>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="color-whi">
+        <div className="container">
+          <div className="row justify-content-center g-4">
+            <div className="col-lg-12">
+              <div className="cont-table-inner">
+                <p>Power BI helps you build a cutting-edge enterprise powered by data and <Link href="/products/microsoft-dynamics-365-ai/"><a>Artificial Intelligence (AI)</a></Link>.</p>
+                <p>You can merge diverse data sources into coherent views and leverage analytics to prompt informed decisions, all while sustaining security and governance.</p>
+              </div>
+
+              <div className="iner-pp">
+                <img src="/img/fig3.1.jpg" alt="power bi version" />
+              </div>
+              <div className="cont-table-inner">
+                <p>It is an all-in-one solution if you are looking for a business intelligence software, or a specific type of BI software, dashboard software, data warehousing software, reporting tools, data virtualization software, or a data analysis software to streamline your entire organization.</p>
+                <p>Let's see how <a href="https://www.linkedin.com/pulse/create-power-bi-report-display-microsoft-d365-business-govinda-kumar" target="_blank" rel="nofollow">integrating Power BI with an enterprise resource planning software (ERP) like Microsoft's Dynamics 365 Business Central</a> helps you.</p>
+              </div>
+              <div className="iner-pp">
+                <img src="/img/pcs-1.png" alt="pcs" />
+              </div>
+              <div className="cont-table-inner">
+                <p>Integrating Power BI with enterprise resource planning (ERP) software like <b>Microsoft's Dynamics 365 Business Central</b> can offer many benefits to businesses like your e-commerce and manufacturing.</p>
+                <p>So, by using Power BI's powerful analytics capabilities, businesses can gain deeper insights into their commerce and operations and make data-driven decisions at pace.</p>
+                <p><b>For instance</b>, integrating Power BI with Business Central enables manufacturers to merge data from various sources and visualize it in real-time. This enables them to name trends, patterns, and anomalies in their data, and take the right actions based on these insights.</p>
+                <p>Moreover, when integrated with Dynamics 365 apps, Power BI allows you to keep an eye on key performance indicators (KPIs) such as production output, inventory levels, and supply chain efficiency, and show areas for improvement.</p>  
+                <p>It helps businesses optimize their operations, reduce costs, and improve customer satisfaction.</p> 
+                <p>Hence, integrating Power BI with a CRM/ERP system can help manufacturers gain a competitive edge by enabling them to make better-informed decisions, optimize their operations, and stand-out from market trends.</p> 
+              </div>
+
+              <div className="iner-pp">
+                <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal">
+                    <img
+                      src="/img/powerb-guide-call-to-banner-2.png"
+                      alt="power-guide"
+                    />
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tabs-6" className="col-yellow col-blue">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <header className="section-header section-header-tabless">
+                <h2>
+                  <strong>Episode - 6</strong> Pricing, Licensing
+                </h2>
+                <p>Core Features and Versions of Power BI</p>
                 <div className="balnde-imge-mode">
                   <img
                     src="/img/PowerBi-Licensing.png"
-                    alt="Power BI Versions, Pricing, and Licensing"
+                    alt="PowerBi-Licensing"
                     className="shape-1"
                   />
                   <img
@@ -1887,176 +724,55 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI Versions</b>
-                </p>
-                <p>
-                  Various Power BI versions are available for users based on
-                  budget, requirements, and deployment mode.
-                </p>
-                <p>
-                  As per the required features and capabilities, a user can
-                  choose the best-suited version depending on the business and
-                  its operations.
-                </p>
-                <p>
-                  <b className="h3">Power BI Desktop</b>
-                </p>
-                <p>
-                  The Power BI Desktop is the free version that allows users to
-                  create and model data reports with creative visualisation. It
-                  allows the flexibility to publicly save and publish the
-                  visualised file with others using the Power BI web portal. But
-                  a user cannot share the file directly with the team members,
-                  as this feature only comes in the paid version. The Power BI
-                  Desktop comes with Office 365 and can be accessed anytime.
-                </p>
-                <p>
-                  <b className="h3">
-                    The features of Power BI Desktop are similar to the paid
-                    version of Power BI:
-                  </b>
-                </p>
+                <p>Microsoft Power BI suite enables you to analyze data and share insights. There are four primary products within the Power BI suite:</p>
+                <p><b>Power BI Desktop: </b>This is a Windows desktop application for authoring reports and creating data models. It enables users to connect to a wide range of data sources, including cloud-based and on-premises data sources. </p>
+                <p><b>Power BI Service:</b> This is a cloud-based service for publishing, sharing, and collaborating on Power BI reports and dashboards. It offers features such as data refresh, collaboration, and sharing. </p>
+                <p><b>Power BI Mobile: </b>This is a mobile app for accessing and interacting with Power BI reports and dashboards on <b>iOS, Android,</b> and <b>Windows</b> devices. It enables users to view and interact with data while on the go. </p>
+                <p><b>Power BI Report Server:</b> This is an on-premises report server for publishing Power BI reports to an organization's own infrastructure. It provides a solution for organizations that require an on-premises reporting solution. </p>
+                <p>These four products work together to provide you with a comprehensive set of tools for data analysis and visualization.</p>
+                <p>You can use these data analysis tools to create interactive dashboards and reports, share insights, and collaborate on data-driven decisions.</p>
+                <p><b>All these versions of Power BI have the following features:</b></p>
                 <ul>
-                  <li>Allows connecting as many data sources as possible.</li>
-                  <li>
-                    Get 10 GB storage to store files or data in cloud servers
-                    but can upload a max of 1 GB per upload.
-                  </li>
-                  <li>Power BI will automatically organise the data.</li>
-                  <li>
-                    Users are allowed to create unlimited data visualisation.
-                  </li>
-                  <li>Can export and report data to Excel.</li>
-                  <li>
-                    Complete access to Power BI's visualisations template
-                    gallery.
-                  </li>
-                  <li>
-                    Allows the users to refresh reports up to 8 times per day.
-                  </li>
+                  <li>Cloud Platform </li>
+                  <li>Mobile Application </li>
+                  <li>Real-Time Analysis </li>
+                  <li>Data Visualization </li>
+                  <li>Report Builder </li>
+                  <li>Collaboration Tools </li>
+                  <li>Multi-Language Support </li>
+                  <li>Forecasting </li>
+                  <li>Mobility </li>
+                  <li>Dashboards </li>
+                  <li>Analytics</li>
                 </ul>
-                <br />
-                <p>
-                  <b className="h3">Power BI Service</b>
-                </p>
-                <p>
-                  Power BI Service is the full or paid version with the data
-                  centre hosted on the cloud (Microsoft Azure) that allows users
-                  to access reports and dashboards anytime and from anywhere.
-                  The Power BI Service can be accessed after purchasing a
-                  licence for any of these subversions:
-                </p>
-                <p>
-                  <b className="h3">- Power BI Pro</b>
-                </p>
-                <p>
-                  The features and capabilities of Power BI Pro are almost
-                  similar to Power BI Desktop, whether it's about data upload
-                  size or visualisation options.
-                </p>
-                <p>However, it comes with additional capabilities:</p>
+                <p><b>Pricing and Licensing of Power BI</b></p>
+                <p><Link href="https://blog.dynamicssquare.com/an-introduction-to-microsoft-power-bi/"><a>Power BI</a></Link> is a powerful business intelligence software that helps you to analyze and visualize data in a way that is easy to understand and act upon. Whether you're a small business or own a large enterprise, Power BI has a pricing and licensing option that can meet your needs.</p>
+                <p><b className="h3">Power BI comes in two primary licensing options:</b></p>
+                <p><b>Power BI Free:</b></p>
+                <p>Power BI Free is designed for small businesses, independent professionals, and personal use. It allows users to create, view, and share interactive reports and dashboards with others.</p>
+                <p><b>Some of the features included in Power BI Free are:</b></p>
                 <ul>
-                  <li>
-                    Users can share the data or collaborate privately with other
-                    Power BI licence users.
-                  </li>
-                  <li>
-                    Allows integration with other apps of Microsoft, like Azure.
-                  </li>
-                  <li>
-                    Users can link the data visualisation in Power BI apps.
-                  </li>
-                  <li>
-                    Crete app workspaces for better team collaboration to show
-                    reports and dashboards easily.
-                  </li>
+                  <li>Create and share up to one GB of data per user</li>
+                  <li>Access to data connectors, including Excel, SharePoint, and SQL Server</li>
+                  <li>Real-time data streaming and access to Power BI mobile apps</li>
+                  <li>Limited data refresh rates (up to 8 times per day)</li>
                 </ul>
-                <p>
-                  <b className="h4">- Power BI Premium</b>
-                </p>
-                <p>
-                  Power BI Premium is less a licence and more an allotted amount
-                  of dedicated computing storage to access the capabilities of
-                  Power BI. It is suitable for small businesses with 100 TB of
-                  data storage and a 50 GB limit on dataset size. It is meant
-                  for enterprise-level businesses with an enormous amount of
-                  data and requires uninterrupted access to use the capabilities
-                  of Power BI.
-                </p>
-                <p>
-                  It eliminates the requirement to purchase a licence for each
-                  user and lets the organisation purchase the dedicated space
-                  and processing capacity for a business to process the reports,
-                  dashboards, collaboration, and more of Power BI. Not all the
-                  features of Power BI Pro come with Power BI Premium.
-                </p>
-                <p>
-                  If there is a need to create and share reports, collaborate
-                  with other team members in the app, and share dashboards, a
-                  user will need a Power BI licence for this version to access
-                  the core features.
-                </p>
-                <p>
-                  <b className="h4">- Power BI Mobile</b>
-                </p>
-                <p>
-                  Power BI Mobile is a native mobile app to let users connect
-                  with the data. This app is available for all platforms,
-                  whether iOS, Windows, or Android.
-                  <br className="mrg" /> The Power BI Mobile app is safe and
-                  secure and provides real-time access to reports and dashboards
-                  irrespective of the server location.
-                  <br className="mrg" />
-                  Power BI Mobile is a handy version of Power BI Desktop where
-                  users can do almost every task they are supposed to do on the
-                  desktop, whether it is sharing reports or submitting queries.{" "}
-                </p>
-                <p>
-                  <b className="h4">- Power BI Report Server</b>
-                </p>
-                <p>
-                  Not all industries prefer cloud-based servers, and the reason
-                  can be anything, from lack of infrastructure to unreliable
-                  data regulation laws to lack of connectivity.
-                  <br className="mrg" />
-                  Power BI Report Server is for industries that prefer
-                  on-premises server deployment rather than deploying their
-                  servers on the cloud and still want an open way to move out to
-                  the cloud whenever they are ready.
-                  <br className="mrg" /> The Power BI Report Server has nearly
-                  identical features and functions to the Power BI service.
-                  Users must use the Power BI Desktop app to utilise the
-                  functions and can work without an internet connection.
-                  <br className="mrg" />
-                  The drawback of using Power BI Report Server is the absence of
-                  important features, like no real-time data connectivity, no
-                  access to app dashboards, no workspaces, no integration with
-                  Excel, and more.
-                  <br className="mrg" />
-                  Unlike cloud-based solutions, which release new updates and
-                  features monthly, Microsoft releases them every four months.{" "}
-                </p>
-                <p>
-                  <b className="h4">- Power BI Embedded</b>
-                </p>
-                <p>
-                  As the name suggests, Power BI Embedded allows third-party
-                  vendors to embed the features and capabilities of Power BI
-                  into their native apps or solutions.
-                  <br className="mrg" />
-                  Such vendors have to pay-per-use to Microsoft rather than buy
-                  user licences.
-                  <br className="mrg" />
-                  This integration helps such vendors implement the features or
-                  functions of Power BI without building or updating their
-                  solutions.
-                  <br className="mrg" />
-                  Power BI Embedded is so convenient for the vendors that the
-                  end users will not even know that a particular feature belongs
-                  to Power BI.
-                </p>
+                <p><b>Power BI Pro: </b></p>
+                <p>Power BI Pro is designed for larger businesses that require more advanced data analytics and collaboration features. It offers all the features of Power BI Free, plus additional capabilities such as:</p>
+                <ul>
+                  <li>Collaborate with other users on shared reports and dashboards</li>
+                  <li>Automated data refresh rates (up to 48 times per day)</li>
+                  <li>Access to advanced data analytics features, including AI and machine learning</li>
+                  <li>Create and share unlimited data reports and dashboards</li>
+                </ul>
+                <p><b>Pricing:</b></p>
+                <p>The pricing for <b>Power BI Pro</b> is <b>$9.99</b> per user/month, and it can be purchased through Microsoft's website.</p>
+                <p>In addition to Power BI Pro, Microsoft also offers <b>Power BI Premium</b> that costs <b>$20</b> and has more features such as, the advanced AI capabilities to unlock self-service data prep for big data and data simplification and management tools.</p>
+                <p>On the other hand, <b>Power BI Embedded</b> starts from <b>$4995</b> per capacity/month</p>
+                <p><b>Which license suits your business?</b></p>
+                <p>Power BI Premium is designed for organizations that require high-performance, scalable analytics, while Power BI Embedded is designed for ISVs (independent software vendors) and developers who want to embed analytics in their own applications.</p>
               </div>
+
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
@@ -2067,287 +783,24 @@ const PowerBIGuide = () => {
                   </a>
                 </Link>
               </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI - Pricing and Licensing</b>
-                </p>
-                <p>
-                  Power BI is one of the best business intelligence tools
-                  available on the market. It provides excellent and powerful
-                  data visualisation tools and affordable pricing and licensing
-                  plans for all SMBs.This section will give you sound knowledge
-                  of Power BI pricing and licensing, along with their
-                  capabilities.
-                </p>
-              </div>
-
-              <div className="iner-pp">
-                <img src="/img/group-2227.png" alt="power bi version" />
-              </div>
-              <div className="new-Pricing-wrp">
-                <div className="new-Pricing">
-                  <div className="head">
-                    <h3>Power BI Desktop and Power BI Mobile</h3>
-                  </div>
-                  <div className="body-in">
-                    <h4>Per User/Month</h4>
-                    <p>
-                      <span>Free / $0</span>
-                    </p>
-                    <p>
-                      Users can create quick insights, understand the data, and
-                      share the visualization using Power BI web portal.
-                    </p>
-                    <ul>
-                      <li>
-                        Comes with Office 365 to streamline the data processing
-                        and visualization.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="new-Pricing">
-                  <div className="head">
-                    <h3>Power BI Pro</h3>
-                  </div>
-                  <div className="body-in">
-                    <h4>Per User/Month </h4>
-                    <p>
-                      <span>$13.70</span>
-                    </p>
-                    <p>
-                      license Power BI Pro individual for modern analytics with
-                      data visualizations.
-                    </p>
-                    <ul>
-                      <li>
-                        It comes with Live Dashboards and real-time reports to
-                        share data with other users.
-                      </li>
-                      <li>
-                        Power BI Pro comes with{" "}
-                        <a href="https://www.microsoft.com/en-in/microsoft-365/enterprise/e5">
-                          Microsoft Dynamics 365 E5
-                        </a>{" "}
-                        (business management solution for enterprises){" "}
-                      </li>
-                      <li>Available to buy now with a credit card.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="new-Pricing">
-                  <div className="head">
-                    <h3>Power BI Premium</h3>
-                  </div>
-                  <div className="body-in">
-                    <h4>Per User/Month</h4>
-                    <p>
-                      <span>$27.50</span>
-                    </p>
-                    <p>
-                      Licence Power BI Premium (Per User) to accelerate data
-                      visualisation with advanced AI, simple data management,
-                      and access at enterprise scale as well as access to
-                      self-service data.
-                    </p>
-                    <ul>
-                      <li>Comes with all the features of Power BI Pro</li>
-                      <li>Available to buy now with a credit card</li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="new-Pricing">
-                  <div className="head">
-                    <h3>Power BI Premium Per Capacity</h3>
-                  </div>
-                  <div className="body-in">
-                    <h4>Per Capacity/Month</h4>
-                    <p>
-                      <span>$6,858.10</span>
-                    </p>
-                    <p>
-                      Licence Power BI Premium (Per User) to accelerate data
-                      visualisations with advanced AI, simple data management,
-                      and access at enterprise scale as well as access to
-                      self-service data, but without per-user licence for
-                      content consumers.{" "}
-                    </p>
-                    <ul>
-                      <li>
-                        To publish content into Power BI Premium capacity, a
-                        user requires a Power BI Pro licence.
-                      </li>
-                      <li>
-                        Users can enable autoscale feature with Azure
-                        subscription to automatically scale Power BI Premium
-                        Capacity.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <br />
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI for non-profit </b>
-                </p>
-                <p>
-                  Microsoft is keen to work for the non-profit organizations and
-                  offer various{" "}
-                  <a href="https://nonprofit.microsoft.com/register">
-                    discounts and grants
-                  </a>
-                  . In this section, you will get the pricing and licensing
-                  plans for non-profits organizations.
-                </p>
-                <br />
-              </div>
-              <div className="new-Pricing-wrp">
-                <div className="new-Pricing new-Pricing-wid">
-                  <div className="head">
-                    <h3>Power BI Desktop</h3>
-                  </div>
-                  <div className="body-in">
-                    <h4>Grant</h4>
-                    <p>
-                      Enables the organization to connect and collect data from
-                      hundreds of external sources, build customize
-                      visualisations, publish on Power BI Services, and embed
-                      the dashboard on any website.
-                    </p>
-                    {/* <div>
-                      <a
-                        href="https://aka.ms/nonprofitgetstarted"
-                        className="btn btn-danger btn-sm new-bt"
-                      >
-                        Know More
-                      </a>
-                    </div> */}
-                  </div>
-                </div>
-                <div className="new-Pricing new-Pricing-wid">
-                  <div className="head">
-                    <h3>Power BI Pro</h3>
-                  </div>
-                  <div className="body-in">
-                    <h4>Per User/Month </h4>
-                    <p>
-                      <span>$3</span>
-                    </p>
-                    <p>
-                      Come with all the features of Power BI Desktop along with
-                      additional features, like real-time data update, data
-                      collaboration, access governance, and content
-                      distribution.
-                    </p>
-                    {/* <div>
-                      <a
-                        href="https://aka.ms/nonprofitgetstarted"
-                        className="btn btn-danger btn-sm new-bt"
-                      >
-                        Know More
-                      </a>
-                    </div> */}
-                  </div>
-                </div>
-                <div className="new-Pricing new-Pricing-wid">
-                  <div className="head">
-                    <h3>Power BI Premium</h3>
-                  </div>
-                  <div className="body-in">
-                    <h4>Capacity Pricing Per Node/Month</h4>
-                    <p>
-                      Comes with all features of Power BI Pro along with
-                      additional features, like ability to publish reports,
-                      offer more capacity as required, content distribution, and
-                      embed content on web without purchasing any user licence.
-                    </p>
-                    {/* <div>
-                      <a
-                        href="https://aka.ms/nonprofitgetstarted"
-                        className="btn btn-danger btn-sm new-bt"
-                      >
-                        Know More
-                      </a>
-                    </div> */}
-                  </div>
-                </div>
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI Embedded Pricing</b>
-                </p>
-                <p>
-                  The pricing of Power BI Embedded is different when we compare
-                  it with the pricing of Power BI Pro or Premium.
-                  <br className="mrg" />
-                  Generally, the pricing of Power BI Embedded is based on each
-                  render, a kind of user activity. When a user loads a page with
-                  data visualisations, interacting or refreshing it for
-                  real-time data updates counts as one render.
-                  <br className="mrg" />
-                  The total cost of rendering depends on the selection of a
-                  "node" a user chooses to use on a pay-as-you-go basis. Power
-                  BI embedded offers a range of products depending on the
-                  processing power to process the data. A node is the connection
-                  point that connects the system with the network. The power or
-                  processing power of the node is directly proportional to the
-                  cost to the user. The higher the power, the more expensive the
-                  node.
-                </p>
-                <p>
-                  <b>A1 Node:</b>
-                </p>
-                <p>
-                  The A1 node has 3 GB of RAM and can process 300 renders per
-                  hour. The cost it carries is <b>$1.0081 per hour.</b>
-                </p>
-                <p>
-                  <b>A4 Node:</b>
-                </p>
-                <p>
-                  The A4 node comes with 25 GB of RAM and can process 4800
-                  renders per hour. It costs <b>$8.0565 per hour.</b>
-                </p>
-                <p>
-                  This is the hourly rate for a user who can use Power BI
-                  Embedded without incurring any upfront or termination fees.
-                </p>
-                <br />
-                <p>
-                  <b className="h3">
-                    The Basis Capabilities of Each Licence Type:
-                  </b>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2221.png" alt="group-2221" />
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2222.png" alt="group-2222" />
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="tabs-6" className="col-yellow col-perpul">
+      <section id="tabs-7" className="col-yellow col-perpul">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <header className="section-header section-header-tabless">
                 <h2>
-                  <strong>Chapter 6</strong>Power BI vs. Competitors
+                  <strong>Episode 7</strong> Power BI vs other Data Analysis and Visualization Tools
                 </h2>
-                <p>
-                  In this chapter, we are going to compare the features and
-                  capabilities of Power BI with other Business Intelligence
-                  tools.
-                </p>
+                <p>Here you will learn about other data analytics and visualization tools than Power BI, and what is the difference between competitors of Power BI such as <b>Tableau</b> or <b>Qlik View</b>.</p>
                 <div className="balnde-imge-mode">
                   <img
                     src="/img/PowerBi-vs.png"
-                    alt="Power BI vs. Competitors"
+                    alt="PowerBi-vs"
                     className="shape-1"
                   />
                   <img
@@ -2366,107 +819,24 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
-                <p>
-                  Microsoft Power BI isn't the only data visualisation tool
-                  available in the market. Various tools compete with Power BI
-                  side by side, like:
-                </p>
-                <ul>
-                  <li>Tableau</li>
-                  <li>QlikView</li>
-                  <li>Looker</li>
-                  <li>Quicksight (AWS)</li>
-                  <li>Crystal Reports (SAP)</li>
-                  <li>Salesforce</li>
-                </ul>
-                <p>
-                  <b className="h3">Power BI vs. Tableau</b>
-                </p>
+                <p>Today, data is the backbone of every organization, and needs a powerful tool to draw meaning from their data and turn that into valuable insights.</p>
+                <p>To do this, you have other ways to visualize your data besides Power BI.</p>
+                <p>Some of the most popular options include:</p>
+                <p><b>Tableau:</b> Tableau is a data visualization tool that enables users to create interactive dashboards, visualizations, and reports. It offers a wide range of data connectors, including cloud-based and on-premises data sources, and supports real-time data analysis.</p>
+                <p><b>Also read:</b> <Link href="https://blog.dynamicssquare.com/power-bi-vs-tableau-comparison-2023/"><a>Power BI vs Tableau: Which is best for my small business in 2023?</a></Link></p>
+                <p><b>QlikView:</b> QlikView is a business intelligence tool that allows users to create interactive reports and dashboards. It uses an in-memory data processing engine, which enables faster data analysis and visualization.</p>
+                <p><b>D3.js:</b> D3.js is a JavaScript library for creating dynamic, interactive visualizations in web browsers. It has a wide range of visualization options, including bar charts, scatter plots, and more advanced visualizations like force-directed graphs.</p>
+                <p><b>Excel:</b> Microsoft Excel is a popular tool for data analysis and visualization. It offers a range of charting and graphing options, including columns, lines, and pie charts.</p>
+                <p><b>Google Data Studio:</b> Google Data Studio is a free data visualization tool that enables users to create interactive reports and dashboards. It supports a wide range of data sources, including Google Analytics, Google Ads, and many more.</p>
+                <p><b>R:</b> For statistical computing and graphics, R is a programming language. It gives you a wide range of visualization options, including scatter plots, heat maps, and more advanced visualizations like treemaps.</p>
+                <p>Each of these instruments has particular advantages and disadvantages. Though the best way for visualizing data will depend on the specific needs of your requirements, Power BI is an easy, low-cost, and low-labor choice for organizations in 2023.</p>
               </div>
-              <div className="iner-pp">
-                <img src="/img/group-2225.png" alt="Power BI vs. Tableau" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI vs. QlikView</b>
-                </p>
-                <p>
-                  Qlik is an older product launched in 1993 for converting
-                  complex data into visualisation.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2224.png" alt="Power BI vs. QlikView" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI vs. Tableau vs. Qlikview</b>
-                </p>
-                <p>
-                  Which is better Tableau or Power BI or QlikView? Let's compare
-                  them below:
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2256.png"
-                  alt="Power BI vs. Tableau vs. Qlikview"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI vs. Looker</b>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2258.png" alt="Power BI vs. Looker" />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI vs. Quicksight (AWS)</b>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2259.png"
-                  alt="Power BI vs. Quicksight (AWS)"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI vs. Crystal reports (SAP)</b>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2260.png"
-                  alt="Power BI vs. Crystal reports (SAP)"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI vs. Salesforce Sales Cloud</b>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2261.png"
-                  alt="Power BI vs. Salesforce Sales Cloud"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">Power BI vs. Excel</b>
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img src="/img/group-2262.png" alt="Power BI vs. Excel" />
-              </div>
+
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
                     <img
-                      src="/img/powerb-guide-call-to-banner-2.png"
+                      src="/img/powerb-guide-call-to-banner.png"
                       alt="power-guide"
                     />
                   </a>
@@ -2477,19 +847,85 @@ const PowerBIGuide = () => {
         </div>
       </section>
 
-      <section id="tabs-7" className="col-yellow col-red">
+
+      <section id="tabs-8" className="col-yellow col-saf">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <header className="section-header section-header-tabless">
                 <h2>
-                  <strong>Chapter 7</strong>Future Scope of Power BI
-                </h2>
-                <p>
-                  In this chapter, you will get to know the future scope of
-                  Power BI and how it will transform the ways of data data
-                  visualisations.
-                </p>
+                  <strong>Episode 8</strong> What's new in Power BI for SMBs in 2023?</h2>
+                <p>This episode will educate you about how much Power BI has changed and what's new in it for you.</p>
+                <div className="balnde-imge-mode">
+                  <img
+                    src="/img/PowerBi-FAQ.png"
+                    alt="Future Scope Of Power BI"
+                    className="shape-1"
+                  />
+                  <img
+                    src="/img/over-lay-shape.png"
+                    alt="over-lay-shape"
+                    className="overlay-1"
+                  />
+                </div>
+              </header>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="color-whi">
+        <div className="container">
+          <div className="row justify-content-center g-4">
+            <div className="col-lg-12">
+              <div className="cont-table-inner">
+                <p>Below are the updates in Power BI which were released in December 2022.</p>
+              </div>
+              <div className="iner-pp">
+                <img src="/img/feature-update.png" alt="feature-update" />
+              </div>
+              <div className="cont-table-inner">
+                <p><b>Reporting</b></p>
+                <p>The latest Power BI update has relocated slicer-type formatting to the Format Pane.</p>
+              </div>
+              <div className="iner-pp">
+                <img src="/img/graphical-user-interface-application-description-19.png" alt="diagram-description-automatically-generated" />
+              </div>
+              <div className="iner-pp">
+                <img src="/img/diagram-description-automatically-generated-2.png" alt="diagram-description-automatically-generated" />
+              </div>
+              <div className="cont-table-inner">
+                <p><b>Data connectivity</b></p>
+                <p>Various updated data connectors to ease your data analysis.</p>
+              </div>
+              <div className="iner-pp">
+                <img src="/img/OldGetDataPage.png" alt="OldGetDataPage" />
+              </div>
+
+              <div className="iner-pp">
+                <Link href="#powerBIModals">
+                  <a data-bs-toggle="modal">
+                    <img
+                      src="/img/powerb-guide-call-to-banner.png"
+                      alt="power-guide"
+                    />
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="tabs-9" className="col-yellow col-red">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <header className="section-header section-header-tabless">
+                <h2>
+                  <strong>Episode 9</strong> Future Scope for Microsoft Power BI </h2>
+                <p>Here, you get yourself enlightened about the scope of Power BI for SMBs.</p>
                 <div className="balnde-imge-mode">
                   <img
                     src="/img/Future-Scope.png"
@@ -2512,140 +948,20 @@ const PowerBIGuide = () => {
           <div className="row justify-content-center g-4">
             <div className="col-lg-12">
               <div className="cont-table-inner">
-                <p>
-                  In 2020, the business intelligence market is valued at $21
-                  billion and is expected to increase to $41 billion at a 12%
-                  CAGR by 2026.
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2298.png"
-                  alt="business intelligence market is expected to increase to $41 billion at a 12% CAGR by 2026"
-                />
-              </div>
-              <div className="cont-table-inner">
-                <p>
-                  All businesses, whether small or large, are using data science
-                  and data analytics to get actionable insights and make
-                  data-driven decisions. Utilizing the data defines the future
-                  of the business.{" "}
-                </p>
-                <p>
-                  Power BI is one such tool that can help businesses collect,
-                  extract, understand, and use data for rapid growth.{" "}
-                </p>
-                <p>
-                  According to Gartner's report published in 2022, 70%
-                  organisations track the quality of data at different levels,
-                  which reduced their operational risks and costs by 60%.{" "}
-                </p>
-              </div>
-              <div className="iner-pp">
-                <img
-                  src="/img/group-2312.png"
-                  alt="70% organisations track the quality of data at different levels, which reduced their operational risks and costs by 60%"
-                />
+                <p>For small and medium-sized businesses, the importance of data analysis cannot be ignored.</p>
+                <p>In today's competitive market, data is the backbone of every organization, and analyzing it is essential for verifying operational efficiency and making informed decisions. </p>
+                <p>This is where Power BI comes in, as it allows businesses to sort and analyze their data sets and create trustworthy analytic reports that can drive significant improvements in overall business success. </p>
+                <p>As a result, the demand for Power BI programmers is set to keep rising, as the role of a Power BI developer is crucial in any organization.</p>
+                <p>The business intelligence market was valued at <b>$21 billion</b> (about $65 per person in the US) in 2020, and it is projected to grow to $41 billion (<b>about $130 per person in the US</b>) at a compound annual growth rate (CAGR) of <b>12%</b> by <b>2026</b>.</p>
+                <p>If you have proven ability in this field and have relevant knowledge and certification, you can expect to find promising job opportunities in renowned organizations.  </p>
+                <p>With experience, you can also look forward to better job roles and higher Power BI developer salaries, making for a rewarding and fruitful career path while also helping organizations of seizes with right reporting and data analysis. </p>
+                <p>Power BI is indeed a powerful and user-friendly tool for small and medium-sized businesses to analyze and visualize data, providing valuable insights into their operations, customers, and market trends.  </p>
+                <p>As businesses generate more data, Power BI's ability to integrate with cloud-based solutions like <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> and analyze data in real-time will become increasingly valuable. </p>
+                <p>Its advanced visualization capabilities will also improve, making it easier to figure out key trends and insights.  </p>
+                <p>Power BI enables data-driven decisions, giving businesses a competitive edge in a rapidly changing business world.  </p>
+                <p>And its evolving capabilities make it an asset for businesses looking for long-term success and growth. </p>
               </div>
 
-              <div className="cont-table-inner">
-                <p>
-                  <b className="h3">
-                    How to Choose the Right Power BI Consulting Service?
-                  </b>
-                </p>
-                <p>
-                  With our ultimate Power BI guide, we hope you've gained better
-                  insights and familiar with Power BI's capabilities and how it
-                  can help you visualize data accurately to help your business
-                  grow and scale quickly.
-                </p>
-                <p>
-                  Microsoft Power BI is the top choice in the market for its
-                  flexibility and simplicity. It can help you leverage
-                  data-driven decisions in real time.
-                </p>
-                <p>
-                  The user interface is easy, but the implementation isn't. To
-                  make Power BI work for you 24X7, you must choose the right
-                  Power BI consulting company like Dynamics Square.
-                </p>
-                <p>
-                  We are a certified{" "}
-                  <Link href="/">Microsoft gold partner</Link> and a leading{" "}
-                  <b>Power BI consultant</b> in the UK, working for the last{" "}
-                  <b>11+ years</b> to help organizations get data-driven results
-                  for high-impact growth.
-                </p>
-                <p>
-                  We have Power BI consultation experts working to successfully
-                  implement the solution in various industries, including
-                  retail, manufacturing, oil, e-commerce, FMCG, banking, and
-                  others.
-                </p>
-                <p>
-                  The right Power BI consulting services understand the
-                  operations or processes and reduce the company's efforts in
-                  collecting, analysing, and visualising data using automation.
-                </p>
-                <p>
-                  We have sufficient resources, knowledge, and a team of experts
-                  to implement, integrate, develop, and customize Power BI with
-                  the utmost support to keep it working for you.
-                </p>
-                <p>
-                  If you are still confused about the functionalities and how
-                  Power BI can help you consume the data properly, you don't
-                  need to worry, as we can resolve all your issues and queries.
-                  We are the UK's most trustworthy Microsoft Power BI consulting
-                  partner, and we can resolve all your queries to help you
-                  understand the need for{" "}
-                  <a
-                    href="https://www.dynamicssquare.com/blog/why-your-business-needs-power-bi/"
-                    target="_self"
-                    rel=""
-                  >
-                    Power BI for your business growth
-                  </a>{" "}
-                  with proven data.{" "}
-                </p>
-                <p>
-                  With a team of over{" "}
-                  <b>135+ Microsoft Certified Professionals</b>, we are serving{" "}
-                  <Link href="/case-studies/">300+ happy clients</Link> across
-                  the globe to offer innovative and data-driven solutions.{" "}
-                </p>
-                <p>
-                  No matter your organisation's complexity level, our dedicated
-                  Power BI consultation service would comprehensively manage the
-                  issues and provide you with the best solution.
-                </p>
-                <p>
-                  <b className="h3">Conclusion</b>
-                </p>
-                <p>
-                  Microsoft is constantly improving Power BI's features and
-                  capabilities to make it more compatible with the release of
-                  new updates such as conditional formatting for data labels and
-                  DAX editor upgrades.
-                </p>
-                <p>
-                  Power BI will assist businesses in simplifying difficult data,
-                  analyzing large amounts of data with ease, and providing users
-                  with accurate visualisation, making the entire data
-                  utilization process simple.
-                </p>
-                <p>
-                  We hope you enjoyed this comprehensive Power BI guide for
-                  SMBs. Please <Link href="/contact-us/">contact us</Link> if
-                  you have any further questions or issues concerning{" "}
-                  <Link href="/power-bi-implementation/">
-                    Power BI implementation
-                  </Link>{" "}
-                  or support. Our certified Microsoft consultants are there to
-                  help you 24X7.
-                </p>
-              </div>
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
@@ -2660,6 +976,7 @@ const PowerBIGuide = () => {
           </div>
         </div>
       </section>
+      
       <FormGuide />
     </>
   );
