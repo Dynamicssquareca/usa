@@ -43,7 +43,6 @@ const PowerBIGuide = () => {
           name="keywords"
           content="power bi guide, guide to power bi, ultimate power bi guide, comprehensive power bi guide, power bi guide for SMBs, power bi buisness guide, power bi guide for business"
         />
-        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.com/guides/power-bi-guide-for-sme/"
