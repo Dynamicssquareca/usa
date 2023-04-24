@@ -85,7 +85,7 @@ const Guides = () => {
                         <div className="card-body">
                           <h5 className="card-title">
                             <Link href="/guides/power-bi-guide-for-sme/">
-                              <a>Power BI: The Definitive Guide For SMBs</a>
+                              <a>Power BI: The Ultimate Guide For SME</a>
                             </Link>
                           </h5>
                           <div className="btn-003 btn-009">
