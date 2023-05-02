@@ -24,6 +24,7 @@ const IndustriesManufacturing = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/industries/manufacturing/"
         />
+        <meta name="robots" content="noindex nofollow" />
       </Head>
       <ModalVideo
         channel="youtube"
