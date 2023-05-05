@@ -177,7 +177,7 @@ const BusinessCentralVSFinance = () => {
                     <tr>
                       <th>Functionality</th>
                       <th>D365 for Finance & Operations</th>
-                      <th>SAP ERP</th>
+                      <th>Dynamics 365 Business Central</th>
                     </tr>
                   </thead>
                   <tbody>
