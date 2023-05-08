@@ -3265,7 +3265,7 @@ const BusinessCentral = () => {
                   >
                     <div className="accordion-body">
                       <p>Business Central is an all-in-one solution for all your business requirements. Enterprises can manage their entire practices including sales, finance, customers, manufacturing, supply chain, project operations, <Link href="/products/dynamics-365-human-resources/">human resources</Link>, and reporting & analytics.</p>
-                      <p>Since Business Central is quite flexible and thereby, can be integrated with any of Microsoft's business applications as well as with your existing system configurations. Thus, if your requirement goes for advanced reporting capabilities, then <Link href="/products/microsoft-power-bi/">Power BI</Link> is the high-end solution. You can <a href="https://www.dynamicssquare.com/blog/an-introduction-to-microsoft-power-bi/">integrate Business Central with Power BI</a> to drive effective reporting strategies and avail of required key analytics to strengthen your decision-making.</p>
+                      <p>Since Business Central is quite flexible and thereby, can be integrated with any of Microsoft's business applications as well as with your existing system configurations. Thus, if your requirement goes for advanced reporting capabilities, then <Link href="/products/microsoft-power-bi/">Power BI</Link> is the high-end solution. You can <a href="https://blog.dynamicssquare.com/an-introduction-to-microsoft-power-bi/">integrate Business Central with Power BI</a> to drive effective reporting strategies and avail of required key analytics to strengthen your decision-making.</p>
                     </div>
                   </div>
                 </div>

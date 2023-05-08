@@ -385,7 +385,7 @@ const ImplementationServices = () => {
                           <h4>DESIGNING PHASE</h4>
                           <p>
                             After analyzing your core requirement, we come up
-                            with your functional needs to be considered i your
+                            with your functional needs to be considered in your
                             custom implementation and design part determining
                             your core values and supporting across your current
                             processes and future events.
