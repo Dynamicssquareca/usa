@@ -14,10 +14,10 @@ const FinanceImplementation = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Finance Implementations | AX implementations</title>
+        <title>Microsoft Dynamics 365 Finance Implementation Partner USA</title>
         <meta
           name="description"
-          content="Experience the power of Enterprise Grade ERP Platform Dynamics 365 Finance Implementation. Get Dynamics 365 Finance &amp; Operations Implementation packages."
+          content="Maximize profits, minimize risks - Implement Dynamics 365 Finance for streamlined financial management. Improve reporting and forecasting. Call +1 281 899 0865 for a free trial."
         />
         <link
           rel="canonical"
