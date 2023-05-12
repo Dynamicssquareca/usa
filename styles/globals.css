@@ -8527,6 +8527,64 @@ color:var(--color-red)
   background-color: #bb2b36;
 }
 
+.backdrop-mod {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+}
+
+.popup-cust {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 500px;
+}
+
+.popup-cust .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20px
+}
+.popup-cust .content h3{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--color-blue);
+  font-weight: 600;
+}
+
+.popup-cust .bbt {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  font-size: 0px;
+  background: transparent;
+  border: none;
+}
+.popup-cust .bbt span{
+  font-size: 40px;
+  color: #b5b5b5;
+}
+.popup-cust .bbt:hover span{
+  color:red;
+  opacity:.7
+}
+
 
 /*media*/
 
@@ -10114,4 +10172,10 @@ ul.checkmark li {
 
   .tik-check i{
     color:green
+  }
+
+  @media (max-width:500px){
+    .popup-cust{
+      width:98%
+    }
   }
