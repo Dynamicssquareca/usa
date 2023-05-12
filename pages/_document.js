@@ -62,7 +62,7 @@ class MyDocument extends Document {
             })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
                 `}
             </Script>
-            <Script id="clarity" strategy="beforeInteractive">
+            {/* <Script id="clarity" strategy="beforeInteractive">
                 {`
              (function (c, l, a, r, i, t, y) {
               c[a] =
@@ -77,7 +77,7 @@ class MyDocument extends Document {
               y.parentNode.insertBefore(t, y);
             })(window, document, "clarity", "script", "ar1dqt0vhs");
                 `}
-            </Script>
+            </Script> */}
             
         </Head>
         <body>
