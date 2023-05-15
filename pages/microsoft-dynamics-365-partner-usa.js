@@ -25,12 +25,9 @@ const DynamicsUsa = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
-              <h1>Dynamics 365 Business Central Support</h1>
-              <p>
-                Collaborate With Business Central Support Partner To Drive
-                Seamless Connected Experience And Ensure Continuous Process Flow
-                Across Your Operational Environment.
-              </p>
+              <h1>Microsoft Dynamics 365 Partner USA </h1>
+              <h2 style={{marginBottom:'15px',paddingBottom:'0px',fontSize:"22px",fontWeight:'600'}}>Maximize Profits and Drive Growth with Microsoft Dynamics 365 Solutions </h2>
+              <p>As a leading <b>Dynamics 365 Partner in the USA</b>, we deliver cutting-edge ERP and CRM solutions to revolutionize your business in the digital realm. Our mission: empower you to optimize operations, enhance efficiency, and effortlessly accomplish your business objectives.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -38,7 +35,7 @@ const DynamicsUsa = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Book a free consultation -{">"}  </span>
                     </a>
                   </Link>
                 </div>
