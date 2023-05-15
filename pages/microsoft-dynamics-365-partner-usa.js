@@ -102,13 +102,9 @@ const DynamicsUsa = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-8">
               <header className="section-header">
-                <h2>USA's Trusted Microsoft Gold Partne</h2>
+                <h2>USA's Trusted Microsoft Gold Partner</h2>
                 <p>
-                  Find tailored solutions that meet your unique requirements
-                  with us.{" "}
-                  <Link href="/">
-                    <a>USA's Trusted Microsoft Gold Partner</a>
-                  </Link>
+                  Find tailored solutions that meet your unique requirements.
                 </p>
               </header>
             </div>
@@ -186,7 +182,7 @@ const DynamicsUsa = () => {
                               <div className="content">
                                 <h4>
                                   Experience Unparalleled Service: We care for
-                                  our People and Clients.{" "}
+                                  our People and Clients{" "}
                                 </h4>
                                 <p>
                                   Maximizing ROI & Growth: Innovative Solutions
@@ -359,7 +355,7 @@ const DynamicsUsa = () => {
                         <div className="content">
                           <h4>
                             Experience Unparalleled Service: We care for our
-                            People and Clients.{" "}
+                            People and Clients{" "}
                           </h4>
                           <p>
                             Maximizing ROI & Growth: Innovative Solutions &
@@ -724,7 +720,7 @@ const DynamicsUsa = () => {
                     >
                       <div className="accordion-body">
                         <p>
-                          As a Microsoft Gold Partner, we offer businesses
+                          As a <Link href="/"><a><b>Microsoft Gold Partner</b></a></Link>, we offer businesses
                           up-to-date support and maintenance, helping them
                           continuously improve their solutions. We provide
                           innovative, business-centric on-premises and cloud
@@ -746,7 +742,7 @@ const DynamicsUsa = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="call-to-action-content">
-                <h3>So why wait for more? </h3>
+                <h3>So why wait more? </h3>
                 <p>
                   Start your journey towards a successful digital transformation
                   today.
@@ -757,7 +753,7 @@ const DynamicsUsa = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a FREE Demo Meet Now! </span>
+                      <span>Schedule a FREE Demo Now! </span>
                     </a>
                   </Link>
                 </div>
@@ -962,7 +958,7 @@ const DynamicsUsa = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>
-                  Join the thousands of businesses 
+                  Join the thousands of Businesses 
                 </h3>
                 <p>who have already experienced
                   the power of Dynamics 365 and take your business to the next
@@ -996,7 +992,7 @@ const DynamicsUsa = () => {
             <div className="col-lg-1 align-self-center"></div>
             <div className="col-lg-6 align-self-center">
               <div className="sec-title">
-                <h2>Glimpse Of What We Delivered</h2>
+                <h2>Glimpses Of What We Delivered</h2>
                 <p>Dynamics 365 Case Stories</p>
               </div>
               <Swiper
@@ -1127,7 +1123,7 @@ const DynamicsUsa = () => {
                 <div className="card-body">
                   <h5 className="card-title">
                     <a href="/guides/">
-                    Latest Guidance From Experts
+                    Latest Guidance From Microsoft Experts
                     </a>
                   </h5>
                   <div className="btn-003 btn-009">
@@ -1179,7 +1175,7 @@ const DynamicsUsa = () => {
                 <div className="card-body">
                   <h5 className="card-title">
                     <a href="/case-studies/">
-                    Case Studies
+                    Microsoft Dynamics 365 Case Studies
                     </a>
                   </h5>
                   <div className="btn-003 btn-009">
@@ -1205,7 +1201,7 @@ const DynamicsUsa = () => {
                 <div className="card-body">
                   <h5 className="card-title">
                     <a href="https://blog.dynamicssquare.com/">
-                    Explore Our Recent Blogs
+                    Blog Insights To Do More With Less
                     </a>
                   </h5>
                   <div className="btn-003 btn-009">
@@ -1339,7 +1335,7 @@ const DynamicsUsa = () => {
                         <li>Dynamics 365 costs less than other business applications providers since it's available as <b> Pay-as-you-Use</b> model.  </li>
                         <li>D365 allows you to pick and use apps you need and pay-as-you-use. No need to spend or waste your extra penny. </li>
                         <li>Provides seamless integration with Microsoft Productivity tools like Outlook, Office 365, Microsoft Teams, Cortana Microsoft Loop, and other Business Apps like <Link href="/products/microsoft-power-platform/"><a>Power Platform</a></Link>, Azure, and <Link href="/products/microsoft-dynamics-365-ai/"><a>Dynamics 365 AI</a></Link>. </li>
-                        <li>Dynamics 365 has built-in data analytics through Power BI and AI-based Copilot to assist your teams in informed decision-making. </li>
+                        <li>Dynamics 365 has built-in data analytics through <Link href="/products/microsoft-power-bi/"><a><b>Microsoft Power BI</b></a></Link> and AI-based Copilot to assist your teams in informed decision-making. </li>
                         <li>Availability On-cloud, Hybrid and On-premises. </li>
                       </ul>
                     </div>
