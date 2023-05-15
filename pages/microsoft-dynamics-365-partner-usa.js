@@ -17,7 +17,7 @@ const DynamicsUsa = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/dynamics-365-partner-usa/"
+          href="https://www.dynamicssquare.com/microsoft-dynamics-365-partner-usa/"
         />
       </Head>
 
