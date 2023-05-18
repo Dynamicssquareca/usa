@@ -171,12 +171,10 @@ const FooterHide = () =>{
                     height="16"
                   />
                 </a>
-                <p>
-                  Dynamics Square is US leading Microsoft Gold Certified Partner
+                <p>Dynamics Square is USA's leading Microsoft Solution Certified Partner
                   that caters to the needs of orgnizations who can source
                   next-gen Microsoft Business Apps from our highly skilled
-                  Microsoft consultants.
-                </p>
+                  Microsoft consultants.</p>
                 <img
                   src="/img/microsoft-partner-footer.png"
                   alt="microsoft-partner"

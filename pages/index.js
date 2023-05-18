@@ -11,23 +11,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          USA's Leading Microsoft Dynamics 365 Partner | Dynamics Square
-        </title>
+        <title>Microsoft Dynamics Solutions Partner in USA | Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics Square is USA's leading Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, upgrade and consulting services."
+          content="Dynamics Square is the USA's leading Microsoft Solutions Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
         />
         <link rel="canonical" href="https://www.dynamicssquare.com/" />
         <meta
           property="og:title"
-          content="USA's Leading Microsoft Dynamics 365 Partner | Dynamics Square"
+          content="Microsoft Dynamics Solutions Partner in USA | Dynamics Square"
         />
         <meta property="og:site_name" content="Dynamics Square" />
         <meta property="og:url" content="https://www.dynamicssquare.com" />
         <meta
           property="og:description"
-          content="Dynamics Square is USA's leading Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, upgrade and consulting services."
+          content="Dynamics Square is the USA's leading Microsoft Solutions Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -42,11 +40,11 @@ export default function Home() {
         />
         <meta
           property="twitter:title"
-          content="USA's Leading Microsoft Dynamics 365 Partner | Dynamics Square"
+          content="Microsoft Dynamics Solutions Partner in USA | Dynamics Square"
         />
         <meta
           property="twitter:description"
-          content="Dynamics Square is USA's leading Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, upgrade and consulting services."
+          content="Dynamics Square is the USA's leading Microsoft Solutions Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
         />
         <meta
           property="twitter:image"
@@ -319,12 +317,12 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6  align-self-center">
               <h1>
-                USA's Leading <br /> Microsoft Dynamics <br /> 365 Partner
+                USA's Leading <br /> Microsoft Dynamics <br /> Solutions Partner
               </h1>
               <p>
                 Simplify your end-to-end business processes and maximize
                 outcomes with business applications from your trusted{" "}
-                <b>Microsoft Dynamics 365 Partner</b>.
+                <b>Microsoft Cloud Solution Partner</b>.
               </p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
@@ -558,9 +556,9 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
-                <h2>Dedicated Microsoft Dynamics Partner</h2>
+                <h2>Dedicated Microsoft Solutions Partner</h2>
                 <p>
-                  As a <b>Dynamics 365 Partner</b>, we implement Microsoft
+                  As a <b>Dynamics Solution Partner</b>, we implement Microsoft
                   Business Applications to help you scale your business like
                   never before!
                 </p>

@@ -7,12 +7,10 @@ const D360 = () => {
   return (
     <>
       <Head>
-      <title>
-        Microsoft Dynamics 365 Partner in USA | Dynamics 365 Experts
-        </title>
+      <title>Microsoft Dynamics 365: Cloud ERP & CRM Solutions | Dynamics Square</title>
         <meta
           name="description"
-          content="At Dynamics Square, we simplify your business processes by implementing Microsoft Dynamics 365 Applications. Get exclusive Dynamics 365 Implementation plans."
+          content="Unleash your business potential with Microsoft Dynamics 365. Seamless Cloud ERP & CRM for productivity and growth. Transform your business now!"
         />
         <link
           rel="canonical"

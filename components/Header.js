@@ -781,6 +781,24 @@ class Header extends Component {
                                       </a>
                                     </div>
                                   </div>
+                                  <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/products/microsoft-dynamics-erp/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/ERP.png"
+                                            alt="ERP"
+                                            width="48"
+                                            height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Dynamics ERP</span>
+                                          <p>Enable Automation to Manage Core Business Tasks</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
                                 </div>
                               </div>
                             </div>
