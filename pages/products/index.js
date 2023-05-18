@@ -7,8 +7,8 @@ const ProductHome = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics 365 Products - Dynamics Square</title>
-      <meta name="description" content="Microsoft Dynamics 365 Products | Dynamics Square: Microsoft Business Applications Transform your business digitally with Microsoft Business Applications"/>
+      <title>Microsoft Business Applications | Dynamics Square</title>
+      <meta name="description" content="Experience the power of Microsoft Business applications to help your digital transformation journey thrive."/>
         <link rel="canonical" href="https://www.dynamicssquare.com/products/" />
         
       </Head>

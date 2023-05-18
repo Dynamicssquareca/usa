@@ -11,142 +11,194 @@ export default function Home() {
   return (
     <>
       <Head>
-      <title>
-        USA's Trusted Microsoft Gold Partner | Dynamics Square
+        <title>
+          USA's Leading Microsoft Dynamics 365 Partner | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Dynamics Square is USA's leading Gold Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, training & consulting services."
+          content="Dynamics Square is USA's leading Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, upgrade and consulting services."
         />
         <link rel="canonical" href="https://www.dynamicssquare.com/" />
-        <meta property="og:title" content="USA's Trusted Microsoft Gold Partner | Dynamics Square" />
+        <meta
+          property="og:title"
+          content="USA's Leading Microsoft Dynamics 365 Partner | Dynamics Square"
+        />
         <meta property="og:site_name" content="Dynamics Square" />
         <meta property="og:url" content="https://www.dynamicssquare.com" />
-        <meta property="og:description" content="Dynamics Square is USA's leading Gold Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, training and consulting services." />
+        <meta
+          property="og:description"
+          content="Dynamics Square is USA's leading Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, upgrade and consulting services."
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.dynamicssquare.com/img/home-page-og.png" />
+        <meta
+          property="og:image"
+          content="https://www.dynamicssquare.com/img/home-page-og.png"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.dynamicssquare.com/" />
-        <meta property="twitter:title" content="USA's Trusted Microsoft Gold Partner | Dynamics Square" />
-        <meta property="twitter:description" content="Dynamics Square is USA's leading Gold Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, training and consulting services." />
-        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/home-page-og.png" />
+        <meta
+          property="twitter:url"
+          content="https://www.dynamicssquare.com/"
+        />
+        <meta
+          property="twitter:title"
+          content="USA's Leading Microsoft Dynamics 365 Partner | Dynamics Square"
+        />
+        <meta
+          property="twitter:description"
+          content="Dynamics Square is USA's leading Microsoft Dynamics 365 Partner. Contact us at +1-281-899-0865 for implementation, upgrade and consulting services."
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.dynamicssquare.com/img/home-page-og.png"
+        />
 
-
-
-
-           <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              
               "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": "Organization",
-                "@id": "https://www.dynamicssquare.com/#organization",
-                "name": "Dynamics Square",
-                "url": "https://www.dynamicssquare.com/",
-                "sameAs": [
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": "https://www.dynamicssquare.com/#organization",
+                  name: "Dynamics Square",
+                  url: "https://www.dynamicssquare.com/",
+                  sameAs: [
                     "https://www.facebook.com/dynamicssquareusa",
                     "https://twitter.com/dsquare_usa",
                     "https://www.linkedin.com/showcase/dynamics-square-usa/",
-                    "https://www.youtube.com/c/DynamicsSquare"
-                ],
-                "logo": {
+                    "https://www.youtube.com/c/DynamicsSquare",
+                  ],
+                  logo: {
                     "@type": "ImageObject",
                     "@id": "https://www.dynamicssquare.com/#logo",
-                    "inLanguage": "en-US",
-                    "url": "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
-                    "contentUrl": "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
-                    "width": "1024",
-                    "height": "1024",
-                    "caption": "Dynamics Square"
+                    inLanguage: "en-US",
+                    url: "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+                    contentUrl:
+                      "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+                    width: "1024",
+                    height: "1024",
+                    caption: "Dynamics Square",
+                  },
+                  image: { "@id": "https://www.dynamicssquare.com/#logo" },
                 },
-                "image": { "@id": "https://www.dynamicssquare.com/#logo" }
-            },
-            {
-                "@type": "WebSite",
-                "@id": "https://www.dynamicssquare.com/#website",
-                "url": "https://www.dynamicssquare.com/",
-                "name": "Microsoft Dynamics 365 and Cloud consultancy experts at Dynamics Square USA.",
-                "description": "Implementing cloud-based ERP, CRM, and other Microsoft cloud solutions simplifies complex business processes and challenges.",
-                "publisher": { "@id": "https://www.dynamicssquare.com/#organization" },
-                "potentialAction": [{ "@type": "SearchAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://www.dynamicssquare.com/?s={search_term_string}" }, "query-input": "required name=search_term_string" }],
-                "inLanguage": "en-US"
-            },
-            {
-                "@type": "ImageObject",
-                "@id": "https://www.dynamicssquare.com/#primaryimage",
-                "inLanguage": "en-US",
-                "url": "https://www.dynamicssquare.com/img/home-page-og.png",
-                "contentUrl": "https://www.dynamicssquare.com/img/home-page-og.png",
-                "width": "800",
-                "height": "400",
-                "caption": "dynamicssquare"
-            },
-            {
-                "@type": "WebPage",
-                "@id": "https://www.dynamicssquare.com/#webpage",
-                "url": "https://www.dynamicssquare.com/",
-                "name": "Dynamics Square | CRM and ERP Consultants in the USA",
-                "isPartOf": { "@id": "https://www.dynamicssquare.com/#website" },
-                "about": { "@id": "https://www.dynamicssquare.com/#organization" },
-                "primaryImageOfPage": { "@id": "https://www.dynamicssquare.com/#primaryimage" },
-                "datePublished": "2016-10-15T06:09:16+00:00",
-                "dateModified": "2022-12-22T09:15:37+00:00",
-                "description": "Providing CRM, ERP, and Microsoft cloud solutions tailored to your specific needs, we are CRM and ERP consultants in the USA.",
-                "breadcrumb": { "@id": "https://www.dynamicssquare.com/#breadcrumb" },
-                "inLanguage": "en-US",
-                "potentialAction": [{ "@type": "ReadAction", "target": ["https://www.dynamicssquare.com/"] }]
-            },
-            { "@type": "BreadcrumbList", "@id": "https://www.dynamicssquare.com/#breadcrumb", "itemListElement": [{ "@type": "ListItem", "position": 1, "name": "Home" }] }
-        ]
-
-            })
+                {
+                  "@type": "WebSite",
+                  "@id": "https://www.dynamicssquare.com/#website",
+                  url: "https://www.dynamicssquare.com/",
+                  name: "Microsoft Dynamics 365 and Cloud consultancy experts at Dynamics Square USA.",
+                  description:
+                    "Implementing cloud-based ERP, CRM, and other Microsoft cloud solutions simplifies complex business processes and challenges.",
+                  publisher: {
+                    "@id": "https://www.dynamicssquare.com/#organization",
+                  },
+                  potentialAction: [
+                    {
+                      "@type": "SearchAction",
+                      target: {
+                        "@type": "EntryPoint",
+                        urlTemplate:
+                          "https://www.dynamicssquare.com/?s={search_term_string}",
+                      },
+                      "query-input": "required name=search_term_string",
+                    },
+                  ],
+                  inLanguage: "en-US",
+                },
+                {
+                  "@type": "ImageObject",
+                  "@id": "https://www.dynamicssquare.com/#primaryimage",
+                  inLanguage: "en-US",
+                  url: "https://www.dynamicssquare.com/img/home-page-og.png",
+                  contentUrl:
+                    "https://www.dynamicssquare.com/img/home-page-og.png",
+                  width: "800",
+                  height: "400",
+                  caption: "dynamicssquare",
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://www.dynamicssquare.com/#webpage",
+                  url: "https://www.dynamicssquare.com/",
+                  name: "Dynamics Square | CRM and ERP Consultants in the USA",
+                  isPartOf: {
+                    "@id": "https://www.dynamicssquare.com/#website",
+                  },
+                  about: {
+                    "@id": "https://www.dynamicssquare.com/#organization",
+                  },
+                  primaryImageOfPage: {
+                    "@id": "https://www.dynamicssquare.com/#primaryimage",
+                  },
+                  datePublished: "2016-10-15T06:09:16+00:00",
+                  dateModified: "2022-12-22T09:15:37+00:00",
+                  description:
+                    "Providing CRM, ERP, and Microsoft cloud solutions tailored to your specific needs, we are CRM and ERP consultants in the USA.",
+                  breadcrumb: {
+                    "@id": "https://www.dynamicssquare.com/#breadcrumb",
+                  },
+                  inLanguage: "en-US",
+                  potentialAction: [
+                    {
+                      "@type": "ReadAction",
+                      target: ["https://www.dynamicssquare.com/"],
+                    },
+                  ],
+                },
+                {
+                  "@type": "BreadcrumbList",
+                  "@id": "https://www.dynamicssquare.com/#breadcrumb",
+                  itemListElement: [
+                    { "@type": "ListItem", position: 1, name: "Home" },
+                  ],
+                },
+              ],
+            }),
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              
-              "@context" : "http://schema.org",
-"@type" : "Organization",
-"name" : "Dynamics Square USA Ltd.",
-"description" : "By providing unbiased advice on ERP and CRM solutions, we help businesses grow at scale.",
-"image" : "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
-"alternateName" : "Dynamics Square Software company in California, USA",
-"telephone" : "+12137840845, +12818990865",
-"email" : "info@dynamicssquare.com",
-"address" : {
-"@type" : "PostalAddress",
-"streetAddress" : "2372 Morse Ave, Ste. 310",
-"addressLocality" : "82372 Morse Ave, Ste. 310, Irvine, California 92614",
-"addressRegion" : "California",
-"addressCountry" : "USA",
-"postalCode" : "92614"
-},
-  "brand":{
-  "@type":"Brand",
-  "name":"Dynamics Square USA Ltd.",
-  "logo": "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg"
- },
-"aggregateRating": 
-    {
-      "@type": "AggregateRating",
-	  "ratingValue": "4.4",
-	  "reviewCount": "22"
-	},
-"url" : "https://www.dynamicssquare.com/",
-"sameAs" : [
-"https://www.facebook.com/dynamicssquareusa",
-"https://twitter.com/dsquare_usa",
-"https://www.linkedin.com/showcase/dynamics-square-usa/",
-"https://www.youtube.com/c/DynamicsSquare"
-]
-
-            })
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              name: "Dynamics Square USA Ltd.",
+              description:
+                "By providing unbiased advice on ERP and CRM solutions, we help businesses grow at scale.",
+              image:
+                "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+              alternateName:
+                "Dynamics Square Software company in California, USA",
+              telephone: "+12137840845, +12818990865",
+              email: "info@dynamicssquare.com",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "2372 Morse Ave, Ste. 310",
+                addressLocality:
+                  "82372 Morse Ave, Ste. 310, Irvine, California 92614",
+                addressRegion: "California",
+                addressCountry: "USA",
+                postalCode: "92614",
+              },
+              brand: {
+                "@type": "Brand",
+                name: "Dynamics Square USA Ltd.",
+                logo: "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+              },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.4",
+                reviewCount: "22",
+              },
+              url: "https://www.dynamicssquare.com/",
+              sameAs: [
+                "https://www.facebook.com/dynamicssquareusa",
+                "https://twitter.com/dsquare_usa",
+                "https://www.linkedin.com/showcase/dynamics-square-usa/",
+                "https://www.youtube.com/c/DynamicsSquare",
+              ],
+            }),
           }}
         />
         <script
@@ -154,99 +206,110 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-    "@type": "WebPage",
-    "Headline": "We assist you in effectively leveraging CRM, ERP, and cloud technologies.",
-    "description": "There is a goal, a vision, or an issue you need to address. A team of 140+ Microsoft certified consultants, creative thinkers, and developers is proactively available to help you on your digital transformation journey. The mission of our company is to alleviate your problems and make your vision a reality.",
-    "Keywords" :["erp consultants usa","crm consultancy","d365 business central","crm expert online","d365 for finance","dynamics crm implementation","d365 field service","crm implementation services"]
-            })
+              "@type": "WebPage",
+              Headline:
+                "We assist you in effectively leveraging CRM, ERP, and cloud technologies.",
+              description:
+                "There is a goal, a vision, or an issue you need to address. A team of 140+ Microsoft certified consultants, creative thinkers, and developers is proactively available to help you on your digital transformation journey. The mission of our company is to alleviate your problems and make your vision a reality.",
+              Keywords: [
+                "erp consultants usa",
+                "crm consultancy",
+                "d365 business central",
+                "crm expert online",
+                "d365 for finance",
+                "dynamics crm implementation",
+                "d365 field service",
+                "crm implementation services",
+              ],
+            }),
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context" : "https://schema.org",
-    "@type" : "WebSite",
-    "name" : "Dynamics Square USA Ltd.",
-    "alternateName" : "Dynamics Square Software company in California, USA",
-    "url" : "https://www.dynamicssquare.com/"
-            })
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Dynamics Square USA Ltd.",
+              alternateName:
+                "Dynamics Square Software company in California, USA",
+              url: "https://www.dynamicssquare.com/",
+            }),
           }}
         />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context" : "http://schema.org",
-"@type" : "localBusiness",
-"name" : "Dynamics Square USA Ltd.",
-"description" : "By providing unbiased advice on ERP and CRM solutions, we help businesses grow at scale.",
-"image" : "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
-"alternateName" : "Dynamics Square Software company in California, USA",
-"telephone" : "+12137840845, +12818990865",
-"email" : "info@dynamicssquare.com",
-"priceRange": "$$$-$$$",
-"address" : {
-"@type" : "PostalAddress",
-"streetAddress" : "2372 Morse Ave, Ste. 310",
-"addressLocality" : "2372 Morse Ave, Ste. 310, Irvine, California 92614",
-"addressRegion" : "California",
-"addressCountry" : "USA",
-"postalCode" : "92614"
-},
- "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 33.6855366020848,
-        "longitude": -117.84693918690395
-      },
-      
-  "brand":{
-  "@type":"Brand",
-  "name":"Dynamics Square USA Ltd.",
-  "logo": "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg"
- },
-"aggregateRating": 
-    {
-      "@type": "AggregateRating",
-      "ratingValue": "4.4",
-	  "reviewCount": "22"
-	},
-    
-    "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednessday",
-            "Thursday",
-            "Friday"
-          ],
-          "opens": "08:00",
-          "closes": "5:00"
-        },
-         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Saturday - closed"
-          
-      
-        },
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": "Sunday - Closed"
-        
-        }
-        ],
-    
-      
-"url" : "https://www.dynamicssquare.com/",
-"sameAs" : [
-"https://www.facebook.com/dynamicssquareusa",
-"https://twitter.com/dsquare_usa",
-"https://www.linkedin.com/showcase/dynamics-square-usa/",
-"https://www.youtube.com/c/DynamicsSquare"
-]
-            })
+              "@context": "http://schema.org",
+              "@type": "localBusiness",
+              name: "Dynamics Square USA Ltd.",
+              description:
+                "By providing unbiased advice on ERP and CRM solutions, we help businesses grow at scale.",
+              image:
+                "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+              alternateName:
+                "Dynamics Square Software company in California, USA",
+              telephone: "+12137840845, +12818990865",
+              email: "info@dynamicssquare.com",
+              priceRange: "$$$-$$$",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: "2372 Morse Ave, Ste. 310",
+                addressLocality:
+                  "2372 Morse Ave, Ste. 310, Irvine, California 92614",
+                addressRegion: "California",
+                addressCountry: "USA",
+                postalCode: "92614",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 33.6855366020848,
+                longitude: -117.84693918690395,
+              },
+
+              brand: {
+                "@type": "Brand",
+                name: "Dynamics Square USA Ltd.",
+                logo: "https://www.dynamicssquare.com/img/dynamicssqure-logo.svg",
+              },
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: "4.4",
+                reviewCount: "22",
+              },
+
+              openingHoursSpecification: [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: [
+                    "Monday",
+                    "Tuesday",
+                    "Wednessday",
+                    "Thursday",
+                    "Friday",
+                  ],
+                  opens: "08:00",
+                  closes: "5:00",
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: "Saturday - closed",
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: "Sunday - Closed",
+                },
+              ],
+
+              url: "https://www.dynamicssquare.com/",
+              sameAs: [
+                "https://www.facebook.com/dynamicssquareusa",
+                "https://twitter.com/dsquare_usa",
+                "https://www.linkedin.com/showcase/dynamics-square-usa/",
+                "https://www.youtube.com/c/DynamicsSquare",
+              ],
+            }),
           }}
         />
       </Head>
@@ -256,9 +319,13 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-6  align-self-center">
               <h1>
-              USA's  Leading <br /> Microsoft Dynamics <br /> Partner
+                USA's Leading <br /> Microsoft Dynamics <br /> 365 Partner
               </h1>
-              <p>Simplify your end-to-end business processes and maximise outcomes with business applications from your trusted <b>Microsoft Dynamics 365 Partner</b>.</p>
+              <p>
+                Simplify your end-to-end business processes and maximize
+                outcomes with business applications from your trusted{" "}
+                <b>Microsoft Dynamics 365 Partner</b>.
+              </p>
               <div>
                 <div className="text-center text-lg-start btn-welcome">
                   <Link href="#exampleModal">
@@ -311,8 +378,12 @@ export default function Home() {
                     <div className="list-n-wrp">
                       <Link href="/products/microsoft-azure/">
                         <a>
-                          <img src="/img/azur-icons.svg" alt="azur-icons" width="34"
-                            height="34" />
+                          <img
+                            src="/img/azur-icons.svg"
+                            alt="azur-icons"
+                            width="34"
+                            height="34"
+                          />
                           <span>Azure</span>
                         </a>
                       </Link>
@@ -326,7 +397,8 @@ export default function Home() {
                         <a>
                           <img
                             src="/img/Powerapps_power-apps.svg"
-                            alt="Powerapps_power-apps" width="34"
+                            alt="Powerapps_power-apps"
+                            width="34"
                             height="34"
                           />
                           <span>
@@ -341,8 +413,12 @@ export default function Home() {
                     <div className="list-n-wrp">
                       <Link href="/products/microsoft-dynamics-365-finance/">
                         <a>
-                          <img src="/img/finace-icons.svg" alt="finace-icons" width="34"
-                            height="34" />
+                          <img
+                            src="/img/finace-icons.svg"
+                            alt="finace-icons"
+                            width="34"
+                            height="34"
+                          />
                           <span>Finance</span>
                         </a>
                       </Link>
@@ -483,7 +559,11 @@ export default function Home() {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>Dedicated Microsoft Dynamics Partner</h2>
-                <p>As a <b>Dynamics 365 Partner</b>, We Implement Microsoft Business Applications to help you scale your business like never before!</p>
+                <p>
+                  As a <b>Dynamics 365 Partner</b>, we implement Microsoft
+                  Business Applications to help you scale your business like
+                  never before!
+                </p>
               </header>
             </div>
           </div>
@@ -511,7 +591,10 @@ export default function Home() {
                 </p>
                 <Link href="/products/dynamics-365-business-central/">
                   <a className="read-more">
-                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
+                    <span>
+                      Learn More...{" "}
+                      <span className="screen-reader-text">Details</span>
+                    </span>
                   </a>
                 </Link>
               </div>
@@ -539,7 +622,10 @@ export default function Home() {
                 </p>
                 <Link href="/products/microsoft-dynamics-365-finance/">
                   <a className="read-more">
-                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
+                    <span>
+                      Learn More...{" "}
+                      <span className="screen-reader-text">Details</span>
+                    </span>
                   </a>
                 </Link>
               </div>
@@ -567,7 +653,10 @@ export default function Home() {
                 </p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
                   <a className="read-more">
-                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
+                    <span>
+                      Learn More...{" "}
+                      <span className="screen-reader-text">Details</span>
+                    </span>
                   </a>
                 </Link>
               </div>
@@ -599,7 +688,10 @@ export default function Home() {
                 </p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
                   <a className="read-more">
-                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
+                    <span>
+                      Learn More...{" "}
+                      <span className="screen-reader-text">Details</span>
+                    </span>
                   </a>
                 </Link>
               </div>
@@ -631,7 +723,10 @@ export default function Home() {
                 </p>
                 <Link href="/products/microsoft-power-bi/">
                   <a className="read-more">
-                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
+                    <span>
+                      Learn More...{" "}
+                      <span className="screen-reader-text">Details</span>
+                    </span>
                   </a>
                 </Link>
               </div>
@@ -662,7 +757,10 @@ export default function Home() {
                 </p>
                 <Link href="/products/azure-iot-internet-of-things/">
                   <a className="read-more">
-                    <span>Learn More... <span className="screen-reader-text">Details</span></span>
+                    <span>
+                      Learn More...{" "}
+                      <span className="screen-reader-text">Details</span>
+                    </span>
                   </a>
                 </Link>
               </div>
@@ -677,8 +775,8 @@ export default function Home() {
               <header className="section-header">
                 <h2>Microsoft Dynamics 365 for Industries</h2>
                 <p>
-                  Become an Industry leader by implementing powerful Microsoft
-                  Business Apps
+                  Implement Powerful Microsoft Business Apps and Become an
+                  Industry leader.
                 </p>
               </header>
             </div>
@@ -705,7 +803,8 @@ export default function Home() {
                   </p>
                   <Link href="/industries/startups/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
+                      Learn More{" "}
+                      <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -733,7 +832,8 @@ export default function Home() {
                   </p>
                   <Link href="/industries/microsoft-cloud-for-nonprofit/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
+                      Learn More{" "}
+                      <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -761,7 +861,8 @@ export default function Home() {
                   </p>
                   <Link href="/industries/ecommerce/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
+                      Learn More{" "}
+                      <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -789,7 +890,8 @@ export default function Home() {
                   </p>
                   <Link href="/industries/microsoft-cloud-for-manufacturing/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
+                      Learn More{" "}
+                      <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -817,7 +919,8 @@ export default function Home() {
                   </p>
                   <Link href="/industries/professional-services/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
+                      Learn More{" "}
+                      <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -845,7 +948,8 @@ export default function Home() {
                   </p>
                   <Link href="/industries/food-and-beverages/">
                     <a className="boxshadow kallyas-button kallyas-button-nn">
-                      Learn More <span className="screen-reader-text">Details</span>
+                      Learn More{" "}
+                      <span className="screen-reader-text">Details</span>
                     </a>
                   </Link>
                 </div>
@@ -861,7 +965,12 @@ export default function Home() {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>Microsoft Dynamics Efficiency Audit</h2>
-                <p>Discover new business opportunities with your <b>Microsoft Gold Partner</b> to upgrade your business capabilities, and drive business-continuity. Get Dynamics 365 system health check with Dynamics Square at no cost.</p>
+                <p>
+                  Discover new business opportunities with your{" "}
+                  <b>Microsoft Solutions Partner</b> to upgrade your business
+                  capabilities, and drive business-continuity. Get ERP system
+                  health check with Dynamics Square at no cost.
+                </p>
               </header>
             </div>
           </div>
@@ -888,7 +997,7 @@ export default function Home() {
                     <p>
                       Evaluating your current business needs and future
                       considerations, we drive a system check to analyze your
-                      concurrent system{" "}
+                      current system's{" "}
                       <Link href="/our-services/dynamics-365-upgrade-services/">
                         upgrading
                       </Link>{" "}
@@ -906,7 +1015,7 @@ export default function Home() {
                     <p>
                       Our experienced{" "}
                       <Link href="/">Dynamics 365 consultants</Link> can
-                      diagnose your system to identify your actual system
+                      diagnose your ERP system to identify your actual system's
                       upgrading needs and suggest you the best possible solution
                       suited to your customized business needs.
                     </p>
@@ -927,7 +1036,7 @@ export default function Home() {
                       <Link href="/products/microsoft-dynamics-365/">
                         Microsoft Dynamics 365
                       </Link>{" "}
-                      Demo to upgrade your system capabilities.
+                      Demo to upgrade the existing capabilities of your system.
                     </p>
                   </div>
                 </div>
@@ -935,7 +1044,7 @@ export default function Home() {
               <br />
               <Link href="/free-dynamics-365-system-health-check/">
                 <a className="read-more">
-                  Get System Health Check
+                  Get FREE System Health Check
                   <i className="bi bi-long-arrow-right"></i>
                 </a>
               </Link>
@@ -1043,9 +1152,11 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            
                             <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="metro-quote" />
+                              <img
+                                src="/img/Icon metro-quote.png"
+                                alt="metro-quote"
+                              />
                             </div>
                             <p>
                               We selected them because their communication is
@@ -1066,9 +1177,11 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            
                             <div className="imginner">
-                              <img src="/img/Icon metro-quote.png" alt="metro-quote" />
+                              <img
+                                src="/img/Icon metro-quote.png"
+                                alt="metro-quote"
+                              />
                             </div>
                             <p>
                               The team at Dynamics Square are very dedicated,
@@ -1085,7 +1198,6 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-item">
                           <div className="profile">
-                            
                             <div className="imginner">
                               <img
                                 src="/img/Icon metro-quote.png"
@@ -1240,7 +1352,7 @@ export default function Home() {
             <div className="col-lg-1 align-self-center"></div>
             <div className="col-lg-6 align-self-center">
               <div className="sec-title">
-                <h2>Glimpse Of What We Delivered</h2>
+                <h2>Glimpses Of What We Delivered</h2>
                 <p>Dynamics 365 Case Stories</p>
               </div>
               <Swiper
@@ -1260,7 +1372,6 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      
                       <p>
                         Streamline Manufacturing & Accounting with D365 Business
                         Central On-Premise
@@ -1277,7 +1388,10 @@ export default function Home() {
                       </div> */}
                       <div className="case-button">
                         <Link href="/case-studies/nav13-business-central-upgrade/">
-                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
+                          <a className="btn btn-md btn-custom-1">
+                            Read More{" "}
+                            <span className="screen-reader-text">Details</span>
+                          </a>
                         </Link>
                       </div>
                     </div>
@@ -1286,7 +1400,6 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      
                       <p>
                         Implemented Custom EFT Module to improvise Payment
                         Methods
@@ -1303,7 +1416,10 @@ export default function Home() {
                       </div> */}
                       <div className="case-button">
                         <Link href="/case-studies/dynamics-nav13-eft-implementation/">
-                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
+                          <a className="btn btn-md btn-custom-1">
+                            Read More{" "}
+                            <span className="screen-reader-text">Details</span>
+                          </a>
                         </Link>
                       </div>
                     </div>
@@ -1312,7 +1428,6 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      
                       <p>
                         Implementation of Microsoft Dynamics Business Central
                         Cloud
@@ -1329,7 +1444,10 @@ export default function Home() {
                       </div> */}
                       <div className="case-button">
                         <Link href="/case-studies/nav13-to-d365-business-central-upgrade/">
-                          <a className="btn btn-md btn-custom-1">Read More <span className="screen-reader-text">Details</span></a>
+                          <a className="btn btn-md btn-custom-1">
+                            Read More{" "}
+                            <span className="screen-reader-text">Details</span>
+                          </a>
                         </Link>
                       </div>
                     </div>
