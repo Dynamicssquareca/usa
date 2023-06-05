@@ -28,7 +28,7 @@ const Finance = () => {
       id: "faq3",
       title:
         "3. What are some functionalities that differ between Dynamics 365 Finance and Dynamics 365 for Finance and Operations? ",
-      content: "<p>Microsoft has rebranded <a href='/products/microsoft-dynamics-365-finance-operations/'>Dynamics 365 F&O</a> into two separate modules - <b>Dynamics 365 Finance</b> and <b>Dynamics 365 Supply Chain Management</b>.</p><p>Dynamics 365 Finance offers tools for financial management and financial reporting, while Dynamics 365 Finance and Operations includes supply chain management and manufacturing management modules. </p>"
+      content: "<p>Microsoft has rebranded <a href='/products/microsoft-dynamics-365-finance-operations/'>Dynamics 365 F&O</a> into two separate modules - <b>Dynamics 365 Finance</b> and <b>Dynamics 365 Supply Chain Management</b>.</p><p>Dynamics 365 Finance offers tools for financial management and financial reporting, while Dynamics 365 Finance and Operations includes  <a href='/products/dynamics-365-supply-chain-management/'>supply chain management</a> and manufacturing management modules. </p>"
     },
     {
       id: "faq4",
@@ -54,13 +54,13 @@ const Finance = () => {
       id: "faq8",
       title:
         "8. Is Dynamics 365 Finance the same as Dynamics 365 Business Central? ",
-      content: "<p>Dynamics 365 Finance is different from Dynamics 365 Business Central, which is an all-in-one ERP designed for small to medium-sized businesses. <a href='/products/microsoft-dynamics-365-finance-operations/'>Business Central </a> is a basic version of Dynamics 365 Finance, which is a fully integrated finance management solution.</p>"
+      content: "<p>Dynamics 365 Finance is different from Dynamics 365 Business Central, which is an all-in-one ERP designed for small to medium-sized businesses. <a href='/products/dynamics-365-business-central/'>Business Central </a> is a basic version of Dynamics 365 Finance, which is a fully integrated finance management solution.</p>"
     },
     {
       id: "faq9",
       title:
         "9. Which version of Dynamics 365 should I use for my company: Finance or Business Central?",
-      content: "<p>The choice between Dynamics 365 Finance and Dynamics 365 Business Central depends on the size and complexity of your business operations. Contact a <a href='/'>Dynamics 365 Partner</a> like Dynamics Square for its implementation and customization.</p>"
+      content: "<p>The choice between Dynamics 365 Finance and Dynamics 365 Business Central depends on the size and complexity of your business operations. Contact a <a href='/microsoft-dynamics-365-partner/'>Dynamics 365 Partner</a> like Dynamics Square for its implementation and customization.</p>"
     },
     {
       id: "faq10",
@@ -90,7 +90,7 @@ const Finance = () => {
     {
       id: "faq15",
       title: "15. Who implements Dynamics 365 Finance? ",
-      content: "<p>Dynamics 365 Finance can be implemented by in-house IT teams or by <a href='/'>Microsoft Dynamics Partner</a> such as <b>Dynamics Square</b>.</p>"
+      content: "<p>Dynamics 365 Finance can be implemented by in-house IT teams or by <a href='/microsoft-dynamics-365-partner/'>Microsoft Dynamics Partner</a> such as <b>Dynamics Square</b>.</p>"
     },
     {
       id: "faq16",
@@ -112,7 +112,7 @@ const Finance = () => {
     {
       id: "faq19",
       title: "19. Is it easy to find a Microsoft Dynamics 365 Partner?",
-      content: "<p><b>Yes</b>, there are many <a href='/microsoft-dynamics-365-partner-usa/'>Microsoft Dynamics 365 Consultants</a> available, and it is easy to find one through online search or through Microsoft's partner directory. For effortless ways, click on: <a rel='nofollow' target='_blank' href='https://publicistpaper.com/how-to-find-a-dynamics-365-partner-for-your-business/'>How to find a Dynamics 365 Partner for your business?</a></p>"
+      content: "<p><b>Yes</b>, there are many <a href='/microsoft-dynamics-365-partner/'>Microsoft Dynamics 365 Consultants</a> available, and it is easy to find one through online search or through Microsoft's partner directory. For effortless ways, click on: <a rel='nofollow' target='_blank' href='https://publicistpaper.com/how-to-find-a-dynamics-365-partner-for-your-business/'>How to find a Dynamics 365 Partner for your business?</a></p>"
     },
     {
       id: "faq20",
