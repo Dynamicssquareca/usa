@@ -48,6 +48,7 @@ h6 {
 p {
   font-size: 1rem;
   color: var(--color-grey);
+  line-height:1.8
 }
 
 img {
@@ -10213,3 +10214,14 @@ ul.checkmark li {
       width:98%
     }
   }
+
+  .load-more-btn {
+    transition: opacity 0.3s ease-in-out;
+   cursor:pointer
+  }
+/*   
+  .hide {
+    opacity: 0;
+    pointer-events: none;
+  }
+   */
