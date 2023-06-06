@@ -2779,7 +2779,7 @@ const BusinessCentral = () => {
                           <h3>Dynamics NAV to Business Central Upgrade!</h3>
                           <p>
                             Are you looking to upgrade from Dynamics NAV to
-                            Dynamics 365 BC?
+                            Dynamics 365 BC? Call us today for the <b>Best Microsoft Business Central Support.</b> 
                           </p>
                           <div className="new-btn new-btn-nn">
                             <Link href="/dynamics-nav-to-business-central/">
@@ -3239,11 +3239,7 @@ const BusinessCentral = () => {
                         believe in a flexible support model suited to your
                         specific requirement and budget.
                       </p>
-                      <p>
-                        To know more about how our support model works and which
-                        support plan could be a vital one for your business,
-                        connect to our experts today.
-                      </p>
+                      <p>Connect to our experts today to learn more about how our <Link href="/dynamics-365-business-central-support/"><a>Dynamics 365 Business Central Support</a></Link> model works and which <b>Business Central Support Plan</b> could be vital for your business. Our team of Dynamics 365 experts will help you with every step of your digital transformation journey.  </p>
                     </div>
                   </div>
                 </div>

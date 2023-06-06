@@ -578,8 +578,10 @@ const Finance = () => {
                     Dynamics 365 Finance from <b>legacy ERP systems</b>.
                   </p>
                   <div className="action-content">
-                    <Link href="/products/microsoft-dynamics-365-finance/">
+                  <Link href="#exampleModal">
+                    <a data-bs-toggle="modal">
                       Get Started
+                      </a>
                     </Link>
                   </div>
                 </div>
@@ -600,8 +602,10 @@ const Finance = () => {
                     flow with our proactive support services.
                   </p>
                   <div className="action-content">
-                    <Link href="/products/microsoft-dynamics-365-finance/">
-                      Get Started
+                    <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      > Get Started </a>
                     </Link>
                   </div>
                 </div>

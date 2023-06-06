@@ -50,10 +50,10 @@ const BusinessCentralImplementation = () => {
       <section>
         <div className="container">
         <div className="row justify-content-center"> 
-        <div className="col-lg-8 col-md-8"> 
+        <div className="col-lg-9 col-md-9"> 
         <header className="section-header"> 
         <h2> Your Trusted<br />Business Central Implementation Partner</h2> 
-<p>With a highly proficient team and high-end customized business solutions, Dynamics Square helps small to mid-sized businesses to simplify complex processes, optimize operations, <Link href="/products/microsoft-dynamics-365-finance/"><a>improve financial flow</a></Link>, manage resources, and drive customers. By implementing Business Central, we enable SMBs to connect and collaborate in real-time with instant decision-making to attain success altogether.</p> 
+<p>With a highly proficient team and high-end customized business solutions, Dynamics Square helps small to mid-sized businesses to simplify complex processes, optimize operations, <Link href="/products/microsoft-dynamics-365-finance/"><a>improve financial flow</a></Link>, manage resources, and drive customers. By implementing Business Central, we enable SMBs to connect and collaborate in real-time with instant decision-making to attain success altogether. Get in touch to experience the out-of-the-box <Link href="/dynamics-365-business-central-support/"><a>Dynamics 365 Business Central Support</a></Link> from Dynamics Square.</p> 
         </header> 
       </div>
       </div>
@@ -528,7 +528,7 @@ const BusinessCentralImplementation = () => {
                   >
                     <div className="accordion-body">
                      <p>Business central is just not an ERP, it's a complete cloud-based business solution designed for SMBs to manage and drive entire business practices smoothly and efficiently while reducing costs and maximizing turnover. Business Central is highly flexible as it can be implemented <Link href="/microsoft-dynamics-365-cloud-vs-on-premise/"><a>on-cloud, on-premises or hybrid</a></Link>, the decision is purely yours.</p>
-                     <p><Link href="/our-services/dynamics-365-implementation-services/"><a>implementation process</a></Link> of Business Central can be performed as per your specific business practices. Whether you want standard implementation, custom, or agile implementation, we can configure your system accordingly at cost-effective pricing. To extend your business capabilities, you can even integrate it with your existing system or application. <Link href="/contact-us/"><a>Connect to us</a></Link> to get more information about Business Central.</p>
+                     <p><Link href="/our-services/dynamics-365-implementation-services/"><a>implementation process</a></Link> of Business Central can be performed as per your specific business practices. Whether you want standard implementation, custom, or agile implementation, we can configure your system accordingly at cost-effective pricing. To extend your business capabilities, you can even integrate it with your existing system or application. <Link href="/contact-us/"><a>Connect with us</a></Link> to gain more information about how this unified cloud ERP helps your business and obtain best-in-class Microsoft Business Central Support from us.  </p>
                     </div>
                   </div>
                 </div>
@@ -636,7 +636,7 @@ const BusinessCentralImplementation = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>Dynamics 365 Business Central implementation process could be the same when you choose standard implementation. In case your requirement goes for customized implementation, it solely depends on the complexity level of your project. Usually, it takes 3-9 months to implement and configure your Business Central. If you are willing to know how long your project will take, ask our experts today.</p>
+                      <p>Dynamics 365 Business Central implementation process could be the same when you choose standard implementation. In case your requirement goes for customized implementation, it solely depends on the complexity level of your project. Usually, it takes 3-9 months to implement and configure your Business Central. If you are willing to know how long your project will take, ask our experts today and reveal the best Business Central Support for your growing business. </p>
                     </div>
                   </div>
                 </div>
