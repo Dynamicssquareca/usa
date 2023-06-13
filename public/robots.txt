@@ -6,4 +6,4 @@ Disallow: /wp-content/
 
 
 Sitemap: https://www.dynamicssquare.com/sitemap.xml
-Sitemap: https://blog.dynamicssquare.com/sitemap_index.xml
+
