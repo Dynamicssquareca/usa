@@ -793,7 +793,7 @@ const ContactUs = () => {
               <div className="col-lg-5 col-md-12 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
                 <img
-                    src="/img/dynamics_square_tm_logo_footer.svg"
+                    src="/img/dynamics_square-logo.svg"
                     alt="Dynamics Square TM Logo"
                     width="230"
                     height="16"
