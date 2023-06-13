@@ -93,7 +93,6 @@
     { "source": "/en-in/products/microsoft-dynamics-gp.html", "destination": "/products/microsoft-dynamics-gp/", "statusCode": 301 },
     { "source": "/products/microsoft-dynamics-gp.html", "destination": "/products/microsoft-dynamics-gp/", "statusCode": 301 },
     { "source": "/azure-iot-edge", "destination": "/products/azure-iot-edge/", "statusCode": 301 },
-    { "source": "/blog/dynamics-365-business-central-vs-gp/", "destination": "https://blog.dynamicssquare.com/dynamics-365-business-central-vs-dynamics-gp/", "statusCode": 301 },
     { "source": "/blog/dynamics-365/reports-dashboards-power-bi-microsoft-dynamics-365/", "destination": "/", "statusCode": 301 },
     { "source": "/about-us", "destination": "/about-us/", "statusCode": 301 },
     { "source": "/career.html", "destination": "/career/", "statusCode": 301 },
