@@ -5,6 +5,8 @@ import Layouts from '../components/Layouts'
 import {useRouter} from 'next/router';
 import Header from '../components/Header';
 import CookieConsent from 'react-cookie-consent';
+import { useState, useEffect } from "react";
+import LoadingBar from "react-top-loading-bar";
 
 // function MyApp({ Component, pageProps }) {
 
@@ -20,6 +22,18 @@ import CookieConsent from 'react-cookie-consent';
 
 
 function MyApp({ Component, pageProps }) {
+
+  const [progress, setProgress] = useState(0);
+  useEffect(() => {
+    router.events.on("routeChangeStart", () => {
+      setProgress(40);
+    });
+
+    router.events.on("routeChangeComplete", () => {
+      setProgress(600);
+    });
+  });
+
   const router = useRouter();
   if(router.asPath =='/contact-us/' ||
       router.asPath =='/contact-us/?utm_source=email&utm_medium=contact-us&utm_campaign=navtobc_jan&utm_term=ds_us' ||
@@ -39,6 +53,13 @@ function MyApp({ Component, pageProps }) {
   )  {
     return (
       <>
+      <LoadingBar
+      color='#bb2b36'
+      progress={progress}
+      waitingTime={400}
+      height={2}
+      onLoaderFinished={() => setProgress(0)}
+      />
       <Header />
       <Component {...pageProps} />
       <CookieConsent
@@ -57,6 +78,13 @@ function MyApp({ Component, pageProps }) {
  };
 
   return <>
+  <LoadingBar
+      color='#bb2b36'
+      progress={progress}
+      waitingTime={400}
+      height={2}
+      onLoaderFinished={() => setProgress(0)}
+      />
   <Layouts>
   <Component {...pageProps} />
   </Layouts>

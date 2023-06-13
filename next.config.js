@@ -5,6 +5,9 @@
         trailingSlash: true,
         images: {
           formats: ['image/avif', 'image/webp']
-         }
+         },
+         env:{
+          BACKEND_URL:'https://blognew.dynamicssquare.com'
+        }
       }
 module.exports = nextConfig
