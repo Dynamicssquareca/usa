@@ -11027,7 +11027,7 @@ margin:0px 10px 10px 0px
     margin-right: 5px;
     font-size:20px;
  }
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .card,
   .footer {
     border-color: #222;
@@ -11038,4 +11038,4 @@ margin:0px 10px 10px 0px
   .logo img {
     filter: invert(1);
   }
-}
+} */
