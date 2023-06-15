@@ -1398,10 +1398,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <p>
-                        Implemented Custom EFT Module to improvise Payment
-                        Methods
-                      </p>
+                      <p>A Non-profit changing the lives of millions of young minds increased productivity by 3x and reduced input costs by 68%.</p>
                       {/* <div className="case-content-wrapper">
                         <div className="case-content">
                           <p>4x</p>
@@ -1413,7 +1410,7 @@ export default function Home() {
                         </div>
                       </div> */}
                       <div className="case-button">
-                        <Link href="/case-studies/dynamics-nav13-eft-implementation/">
+                        <Link href="/case-studies/dynamics-ax12-implementation/">
                           <a className="btn btn-md btn-custom-1">
                             Read More{" "}
                             <span className="screen-reader-text">Details</span>
@@ -1426,10 +1423,7 @@ export default function Home() {
                 <SwiperSlide>
                   <div className="casestudys-slider-item">
                     <div className="profile mt-auto">
-                      <p>
-                        Implementation of Microsoft Dynamics Business Central
-                        Cloud
-                      </p>
+                      <p>Improved Operational Efficiency by Upgrading NAV'05 to Dynamics NAV'18</p>
                       {/* <div className="case-content-wrapper">
                         <div className="case-content">
                           <p>10x</p>
@@ -1441,7 +1435,7 @@ export default function Home() {
                         </div>
                       </div> */}
                       <div className="case-button">
-                        <Link href="/case-studies/nav13-to-d365-business-central-upgrade/">
+                        <Link href="/case-studies/upgrade-nav05-to-nav18/">
                           <a className="btn btn-md btn-custom-1">
                             Read More{" "}
                             <span className="screen-reader-text">Details</span>

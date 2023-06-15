@@ -122,6 +122,24 @@ class Header extends Component {
                             >
                               <div className="container">
                                 <div className="row">
+                                <div className="col-md-4">
+                                    <div className="list-itmes-maga-menu">
+                                      <a href="/products/microsoft-dynamics-365/">
+                                        <div className="pic">
+                                          <img
+                                            src="/img/menu-icons/d365-icon.png"
+                                            alt="dynamics-365-businesscentral"
+                                            width="48"
+                                            height="48"
+                                          />
+                                        </div>
+                                        <div className="content">
+                                          <span>Dynamics 365 Suite</span>
+                                          <p>AI-Powered Business Apps to Adapt & Innovate.</p>
+                                        </div>
+                                      </a>
+                                    </div>
+                                  </div>
                                   <div className="col-md-4">
                                     <div className="list-itmes-maga-menu">
                                       <a href="/products/dynamics-365-business-central/">

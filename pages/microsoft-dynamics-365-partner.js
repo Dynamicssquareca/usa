@@ -60,43 +60,46 @@ const MicrosoftDynamicsPartnerUsa = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/microsoft-dynamics-365-partner/"
         />
-         <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              
               "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "What are the benefits of working with Dynamics 365 partners?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dynamics 365 Partners offer several benefits, including expert knowledge, customized solutions, seamless integration with existing systems, comprehensive training and support, and continuous improvement. By partnering with Dynamics 365 Expert, businesses can unlock the platform's full potential, driving growth and long-term success."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How can Dynamics 365 benefit customers?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Dynamics 365 improves your operations by automating sales, simplifying project management, and breaking data silos to minimize cost and maximize growth."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What will be the cost of implementing Dynamics 365?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The Cost for Dynamics 365 Implementation depends on the size of your organization, the complexity of operations, the type of customization, and the number of licenses you purchase. On average, clients spend about USD 4,500 to USD 9,000 on their annual subscription, while implementation costs around USD 14,000."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How do I change my Current Dynamics 365 Partner?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "It's super easy. Get in touch with us and share your problems that you are facing with your existing partner. We will guide you through the entire process of switching your current Microsoft Dynamics Partner. Call +1 281 899 0865"
-        }
-        }]
-
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "What are the benefits of working with Dynamics 365 partners?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Dynamics 365 Partners offer several benefits, including expert knowledge, customized solutions, seamless integration with existing systems, comprehensive training and support, and continuous improvement. By partnering with Dynamics 365 Expert, businesses can unlock the platform's full potential, driving growth and long-term success.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "How can Dynamics 365 benefit customers?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Dynamics 365 improves your operations by automating sales, simplifying project management, and breaking data silos to minimize cost and maximize growth.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "What will be the cost of implementing Dynamics 365?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "The Cost for Dynamics 365 Implementation depends on the size of your organization, the complexity of operations, the type of customization, and the number of licenses you purchase. On average, clients spend about USD 4,500 to USD 9,000 on their annual subscription, while implementation costs around USD 14,000.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "How do I change my Current Dynamics 365 Partner?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "It's super easy. Get in touch with us and share your problems that you are facing with your existing partner. We will guide you through the entire process of switching your current Microsoft Dynamics Partner. Call +1 281 899 0865",
+                  },
+                },
+              ],
             }),
           }}
         />
@@ -157,23 +160,34 @@ const MicrosoftDynamicsPartnerUsa = () => {
                   </b>
                 </p>
                 <p>
-                  At Dynamics Square, with 12+ years of industry experience,
-                  150+ energetic Microsoft consultants, and 500+ trusted clients
-                  globally, we are passionate to solve complex business
-                  processes and help businesses of all sizes achieve more with
-                  Microsoft ERP and CRM cloud technology - Dynamics 365 Suite.
+                  At Dynamics Square, with <b>12+</b> years of industry
+                  experience,
+                  <b>150+</b> energetic Microsoft consultants, and <b>500+</b>{" "}
+                  trusted clients globally, we are passionate to solve complex
+                  business processes and help businesses of all sizes achieve
+                  more with Microsoft ERP and CRM cloud technology -{" "}
+                  <Link href="/products/microsoft-dynamics-365/">
+                    <a>Dynamics 365 Suite</a>
+                  </Link>
+                  .
                 </p>
                 <p>
                   We offer individual Microsoft Dynamics 365 business modules
-                  like Business Central, as well as combined solutions for your
-                  financial management, supply chain management, services,
-                  eCommerce, marketing, customer service, and more. Besides
-                  that, we also provide a robust business intelligence (BI)
-                  solution - Microsoft Power BI; a unified Power Platform
-                  product that caters to your BI needs.
+                  like{" "}
+                  <Link href="/products/dynamics-365-business-central/">
+                    <a>Business Central</a>
+                  </Link>
+                  , as well as combined solutions for your financial management,
+                  supply chain management, services, eCommerce, marketing,
+                  customer service, and more. Besides that, we also provide a
+                  robust business intelligence (BI) solution -{" "}
+                  <Link href="/products/microsoft-power-bi/">
+                    <a>Microsoft Power BI</a>
+                  </Link>
+                  ; a unified <b>Power Platform</b> product that caters to your BI needs.
                 </p>
                 <p>
-                  Get started with Microsoft Dynamics 365 Implementation, and
+                  Get started with <b>Microsoft Dynamics 365 Implementation</b>, and
                   create secure, compliant, and automated processes that help
                   you reduce costs and minimize risks.
                 </p>
@@ -184,7 +198,7 @@ const MicrosoftDynamicsPartnerUsa = () => {
                 </p>
                 <p>Ready to embrace change, do more together and faster?</p>
                 <div className="cltt-actt">
-                  <Link target="_blank" href="/about-us/">
+                  <Link href="/contact-us/">
                     Get in touch
                   </Link>
                 </div>
@@ -232,11 +246,11 @@ const MicrosoftDynamicsPartnerUsa = () => {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>
-                  Your Reliable Microsoft Dynamics 365 Implementation Partners{" "}
+                  Your Trusted Microsoft Dynamics 365 Implementation Partners{" "}
                 </h2>
                 <p>
                   Get Tailored Solutions That Meet Your Unique Requirements.
-                  with us. USA's Leading Microsoft Solutions Partner{" "}
+                  with us. <Link href="/"><a>USA's Leading Microsoft Solutions Partner.</a></Link> 
                 </p>
               </header>
             </div>
@@ -459,14 +473,7 @@ const MicrosoftDynamicsPartnerUsa = () => {
                           <div className="industries-list-more">
                             <div className="text-wrp-content">
                               <h3>Customer-Centric Approach </h3>
-                              <p>
-                                Dynamics Square prioritizes customer
-                                satisfaction. By understanding and fulfilling
-                                each client's unique requirements, our team
-                                provides personalized D365 solutions and
-                                believes in building relationships that last
-                                longer.{" "}
-                              </p>
+                              <p>Customer satisfaction first. We deliver personalized D365 solutions, understand unique requirements, and foster enduring relationships. </p>
                             </div>
                           </div>
                         </div>
@@ -479,13 +486,8 @@ const MicrosoftDynamicsPartnerUsa = () => {
                             <div className="text-wrp-content">
                               <h3>Reliable, Trusted Partner </h3>
                               <p>
-                                We are a trusted{" "}
-                                <b>Microsoft Dynamics 365 Partner</b> for
-                                businesses of all sizes. With our experienced
-                                and certified team and customer-centric
-                                approach, we are always ready to strengthen
-                                relationships and solve every problem you face.{" "}
-                              </p>
+                              Trusted{" "}
+                                <b>Microsoft Dynamics 365 Partner</b> Experienced, certified team. Strengthening relationships, solving problems. Ready for businesses of all sizes.</p>
                             </div>
                           </div>
                         </div>
@@ -496,15 +498,8 @@ const MicrosoftDynamicsPartnerUsa = () => {
                         <div className="swiper-slide">
                           <div className="industries-list-more">
                             <div className="text-wrp-content">
-                              <h3>Innovation-Driven Solutions</h3>
-                              <p>
-                                Dynamics Square offers cutting-edge,
-                                innovation-driven CRM and ERP solutions that
-                                leverage today's technology to enhance
-                                operational efficiency, help businesses achieve
-                                their objectives, and make an impact for years
-                                to come.{" "}
-                              </p>
+                              <h3>Innovation-Driven Solutions </h3>
+                              <p>We deliver cutting-edge Microsoft Dynamics 365 ERP solutions. With us, you can make an impact that lasts for years to come and achieve your goals. </p>
                             </div>
                           </div>
                         </div>
@@ -516,13 +511,7 @@ const MicrosoftDynamicsPartnerUsa = () => {
                           <div className="industries-list-more">
                             <div className="text-wrp-content">
                               <h3>Exceptional Customer Experience </h3>
-                              <p>
-                                We believe in delivering exceptional customer
-                                experiences by providing prompt and efficient
-                                service, continuous support, and maintenance to
-                                ensure the deployed solutions are always
-                                optimized and up to date.
-                              </p>
+                              <p>Get prompt & efficient service, continuous support, and maintenance from Dynamics Square. We have optimized & up to date solutions for you. </p>
                             </div>
                           </div>
                         </div>
@@ -533,19 +522,12 @@ const MicrosoftDynamicsPartnerUsa = () => {
                         <div className="swiper-slide">
                           <div className="industries-list-more">
                             <div className="text-wrp-content">
-                              <h3>
-                                24*7 End-to-End Dynamics 365 Support Services{" "}
-                              </h3>
-                              <p>
-                                We provide companies with a wide range of{" "}
-                                <Link href="/our-services/">
-                                  <a>Dynamics 365 Services</a>
+                              <h3>24*7 End-to-End Support Services </h3>
+                              <p>Comprehensive{" "}
+                                <Link href="/our-services/dynamics-365-implementation-services/">
+                                  <a>Dynamics 365 Implementation services</a>
                                 </Link>
-                                , including implementation, customization,
-                                integration, support, and training. This ensures
-                                businesses get customized solutions that
-                                optimize their business operations and propel
-                                growth.
+                                , customization, integration, support, & training optimize business operations & fuel your growth.
                               </p>
                             </div>
                           </div>
@@ -559,17 +541,11 @@ const MicrosoftDynamicsPartnerUsa = () => {
                             <div className="text-wrp-content">
                               <h3>12+ Years of Industry Experience </h3>
                               <p>
-                                With over <b>12</b> years of experience, our
-                                team of{" "}
+                                Over <b>12</b> years of experience in{" "}
                                 <Link href="/products/microsoft-dynamics-365/">
                                   <a>Dynamics 365</a>
                                 </Link>{" "}
-                                and <b>Power BI experts</b> provides businesses
-                                of all sizes and industries with Microsoft's
-                                homegrown, next-generation cloud technology
-                                solutions needed to achieve short and long-term
-                                goals.{" "}
-                              </p>
+                                and <b>Power BI </b> With next-gen cloud solutions, you can achieve short and long-term goals faster.  </p>
                             </div>
                           </div>
                         </div>
@@ -580,15 +556,8 @@ const MicrosoftDynamicsPartnerUsa = () => {
                         <div className="swiper-slide">
                           <div className="industries-list-more">
                             <div className="text-wrp-content">
-                              <h3>
-                                The Experts Driving Digital Transformation{" "}
-                              </h3>
-                              <p>
-                                We are a team of digital transformation experts
-                                who provide customized cloud solutions that
-                                improve businesses' operational efficiency and
-                                enhance their awareness for sustained success.
-                              </p>
+                              <h3>Driving Digital Transformation </h3>
+                              <p>Enhance your operational efficiency and increase business awareness. Drive sustained success with our digital transformation expertise. </p>
                             </div>
                           </div>
                         </div>
@@ -599,21 +568,8 @@ const MicrosoftDynamicsPartnerUsa = () => {
                         <div className="swiper-slide">
                           <div className="industries-list-more">
                             <div className="text-wrp-content">
-                              <h3>
-                                Seamless Integration Services & Consulting{" "}
-                              </h3>
-                              <p>
-                                Dynamics Square provides seamless integration
-                                services and consulting to upgrade and optimize
-                                your business solutions, ensuring they integrate
-                                seamlessly with your existing{" "}
-                                <Link href="/products/microsoft-dynamics-erp/">
-                                  <a>Dynamics ERP</a>
-                                </Link>{" "}
-                                and CRM systems. Our team of experts delivers
-                                customized solutions designed to improve
-                                operational management.{" "}
-                              </p>
+                              <h3>Seamless Services & Consulting </h3>
+                              <p>Upgrade and optimize your Dynamics ERP and CRM systems to ensure seamless and improved operational management and efficinecy. </p>
                             </div>
                           </div>
                         </div>
@@ -624,18 +580,12 @@ const MicrosoftDynamicsPartnerUsa = () => {
                         <div className="swiper-slide">
                           <div className="industries-list-more">
                             <div className="text-wrp-content">
-                              <h3>Continuous Improvement</h3>
-                              <p>
-                                As a{" "}
+                              <h3>Continuous Improvement </h3>
+                              <p>We're a trusted{" "}
                                 <Link href="/">
                                   <a>Microsoft Solutions Partner</a>
                                 </Link>
-                                , we offer businesses up-to-date support and
-                                maintenance, helping them continuously improve
-                                their solutions. We provide innovative,
-                                business-centric on-premises and cloud
-                                technology solutions that go beyond their
-                                existing requirements.{" "}
+                                providing up-to-date support and maintenance for your continuous improvement and business continuity.  
                               </p>
                             </div>
                           </div>
@@ -671,6 +621,120 @@ const MicrosoftDynamicsPartnerUsa = () => {
                   </Link>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="casestudys" className="casestudys ">
+        <div className="container" data-aos="fade-up">
+          <div className="row  gy-4">
+            <div className="col-lg-5 align-self-center">
+              <Image
+                src="/img/case-study-side-banner.png"
+                alt="case-study-side-banner"
+                width={640}
+                height={592}
+              />
+            </div>
+            <div className="col-lg-1 align-self-center"></div>
+            <div className="col-lg-6 align-self-center">
+              <div className="sec-title">
+                <h2>Glimpses Of What We Delivered</h2>
+                <p>Dynamics 365 Case Stories</p>
+              </div>
+              <Swiper
+                autoplay={{
+                  delay: 10000,
+                  disableOnInteraction: false,
+                }}
+                slidesPerView={1}
+                spaceBetween={30}
+                freeMode={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[Pagination, Autoplay]}
+                className="mySwiper casestudys-sled-1"
+              >
+                <SwiperSlide>
+                  <div className="casestudys-slider-item">
+                    <div className="profile mt-auto">
+                      <p>
+                        Streamline Manufacturing & Accounting with D365 Business
+                        Central On-Premise
+                      </p>
+                      {/* <div className="case-content-wrapper">
+                        <div className="case-content">
+                          <p>2X</p>
+                          <span>Data Simplification & Processing</span>
+                        </div>
+                        <div className="case-content">
+                          <p>80%</p>
+                          <span>Data Simplification & Processing</span>
+                        </div>
+                      </div> */}
+                      <div className="case-button">
+                        <Link href="/case-studies/nav13-business-central-upgrade/">
+                          <a className="btn btn-md btn-custom-1">
+                            Read More{" "}
+                            <span className="screen-reader-text">Details</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="casestudys-slider-item">
+                    <div className="profile mt-auto">
+                      <p>A Non-profit changing the lives of millions of young minds increased productivity by 3x and reduced input costs by 68%.</p>
+                      {/* <div className="case-content-wrapper">
+                        <div className="case-content">
+                          <p>4x</p>
+                          <span>Improved Inventory System</span>
+                        </div>
+                        <div className="case-content">
+                          <p>100%</p>
+                          <span>Alliance with HMRC</span>
+                        </div>
+                      </div> */}
+                      <div className="case-button">
+                        <Link href="/case-studies/dynamics-ax12-implementation/">
+                          <a className="btn btn-md btn-custom-1">
+                            Read More{" "}
+                            <span className="screen-reader-text">Details</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="casestudys-slider-item">
+                    <div className="profile mt-auto">
+                      <p>Improved Operational Efficiency by Upgrading NAV'05 to Dynamics NAV'18</p>
+                      {/* <div className="case-content-wrapper">
+                        <div className="case-content">
+                          <p>10x</p>
+                          <span>Improved Customer Experience</span>
+                        </div>
+                        <div className="case-content">
+                          <p>50%</p>
+                          <span>Increased Sales Revenue</span>
+                        </div>
+                      </div> */}
+                      <div className="case-button">
+                        <Link href="/case-studies/upgrade-nav05-to-nav18/">
+                          <a className="btn btn-md btn-custom-1">
+                            Read More{" "}
+                            <span className="screen-reader-text">Details</span>
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              </Swiper>
             </div>
           </div>
         </div>
@@ -1019,14 +1083,22 @@ const MicrosoftDynamicsPartnerUsa = () => {
             <div className="col-lg-8">
               <div className="call-to-action-content">
                 <h3>Share Your Problems with Our Dynamics 365 Consultants </h3>
-                <p>Why settle for less when you can have the power of Dynamics 365 at your fingertips? Our Dynamics consultants are passionate about helping businesses like yours achieve their goals with innovative cloud technology and result-oriented strategies.  </p>
+                <p>
+                  Why settle for less when you can have the power of Dynamics
+                  365 at your fingertips? Our Dynamics consultants are
+                  passionate about helping businesses like yours achieve their
+                  goals with innovative cloud technology and result-oriented
+                  strategies.{" "}
+                </p>
                 <div className="text-center m-o-t new-btn-nn">
                   <Link href="#exampleModal">
                     <a
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Contact us today to explore the possibilities! </span>
+                      <span>
+                        Contact us today to explore the possibilities!{" "}
+                      </span>
                     </a>
                   </Link>
                 </div>
@@ -1150,7 +1222,7 @@ const MicrosoftDynamicsPartnerUsa = () => {
       <section className="solution-faq faq">
         <div className="container">
           <header className="section-header">
-            <h2>Mrosoft Dynamics 365 Partner FAQs </h2>
+            <h2>Microsoft Dynamics 365 Partner FAQs </h2>
           </header>
           <div className="row justify-content-center mar-top-7">
             <div className="col-lg-8">

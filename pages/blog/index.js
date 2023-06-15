@@ -21,16 +21,16 @@ export async function getServerSideProps() {
 
   const blograndom = await fetch(`${process.env.BACKEND_URL}`+"/api/random/allblog");
   const blograndomblogs = await blograndom.json();
+  
 
-  // const blogauthor = await fetch(
-  //   "https://blognew.dynamicssquare.com/api/blog/author/admin"
-  // );
-  // const blogauthorblogs = await blogauthor.json();
+  const trandingblog = await fetch(process.env.BACKEND_URL+"/api/blog/most/trending"
+  );
+  const blogtranding = await trandingblog.json();
 
-  return { props: { blogs, businesscentral, categoryblogs, blograndomblogs } };
+  return { props: { blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding } };
 }
 
-function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs }) {
+function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blogtranding }) {
   const [currentPage, setCurrentPage] = useState(1);
  const pageSize = 5;
 
@@ -179,43 +179,45 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs }) {
               <div className="container">
                 <div className="row">
                   <div className="col-lg-6 align-self-center">
+                  {blogtranding &&
+                        blogtranding.map((trandig, i) => (
                     <div className="blogs-lates">
                       <div className="blog-sian">
                         <span>Most Trending</span>
                       </div>
                       <h2>
-                        <Link href={`/blog/${item.title_slug}`}>
-                          <a>{item.title}</a>
+                        <Link href={`/blog/${trandig.title_slug}`}>
+                          <a>{trandig.title}</a>
                         </Link>
                       </h2>
                       <div className="blogs-info-list">
                         <span className="user">
-                        <Link href={`/blog/author/${item.author.split(" ").join("-")}`}><a>
+                        <Link href={`/blog/author/${trandig.author.split(" ").join("-")}`}><a>
                             <i className="bi bi-person-circle"></i>{" "}
-                            {item.author}
+                            {trandig.author}
                           </a></Link>
                         </span>
                         <span className="date">
                           <a>
                             <i className="bi bi-calendar"></i>{" "}
-                            {item.publish_date}
+                            {trandig.publish_date}
                           </a>
                         </span>
                         <span className="time">
                           <a>
-                            <i className="bi bi-clock"></i> {item.read_time}
+                            <i className="bi bi-clock"></i> {trandig.read_time}
                           </a>
                         </span>
                         <span className="cate">
                           <a href="">
-                            <i className="bi bi-app"></i> {item.category}
+                            <i className="bi bi-app"></i> {trandig.category}
                           </a>
                         </span>
                       </div>
                       <div className="b-card-info">
-                        <p>{item.short_description.substring(0, 180)}...</p>
+                        <p>{trandig.short_description.substring(0, 180)}...</p>
                         <div className="page-link-read">
-                          <Link href={`/blog/${item.title_slug}`}>
+                          <Link href={`/blog/${trandig.title_slug}`}>
                             <a>
                               Read More <span>{">"}</span>
                             </a>
@@ -223,6 +225,8 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs }) {
                         </div>
                       </div>
                     </div>
+                    ))}
+
                   </div>
                   <div className="col-lg-6 ">
                     <div className="form-subscriber-card">
