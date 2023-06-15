@@ -8148,12 +8148,22 @@ background-color:#f7f9fb
   font-size:15px;
   margin-bottom: 0;
 }
+.busines-service-list ul{
+  margin-top:15px;
+  padding-left:15px
+}
+.busines-service-list ul li{ font-size:15px;margin-bottom:5px}
 .no-pad{
   background:#ffffff;
   padding-right:0
 }
 .busines-service-list-pad{
   padding: 20px;
+}
+.busines-service-list-pad.busines-service-list-pad-new .busines-service-list h4{
+  font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 .swiper-button-next:after, .swiper-button-prev:after {
   line-height: 1;
