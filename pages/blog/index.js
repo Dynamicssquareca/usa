@@ -46,12 +46,12 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
           name="description"
           content="Dynamics 365 Blogs"
         />
-        <link rel="canonical" href="https://www.dynamicssquare.ca/blog/" />
+        <link rel="canonical" href="https://www.dynamicssquare.com/blog/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Best Microsoft Dynamics 365 Blogs | Dynamics Square - Dynamics 365 Blogs" />
         <meta property="og:description" content="Dynamics 365 Blogs" />
-        <meta property="og:url" content="https://www.dynamicssquare.ca/blog/" />
+        <meta property="og:url" content="https://www.dynamicssquare.com/blog/" />
         <meta property="og:site_name" content="Best Microsoft Dynamics 365 Blogs | Dynamics Square" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Best Microsoft Dynamics 365 Blogs | Dynamics Square - Dynamics 365 Blogs" />
