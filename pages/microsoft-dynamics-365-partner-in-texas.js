@@ -15,6 +15,7 @@ const MicrosoftDynamicsPartnerTexas = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/microsoft-dynamics-365-partner-in-texas/"
         />
+        <meta name="robots" content="noindex,nofollow" />
       </Head>
 
       <section className="Solution-banner hero-1 hero">

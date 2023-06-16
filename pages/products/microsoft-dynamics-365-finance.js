@@ -128,7 +128,7 @@ const Finance = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Finance & Operations Partner | Demo & Pricing</title>
+        <title>Microsoft Dynamics 365 Finance | ERP for Financial Management</title>
         <meta
           name="description"
           content="Optimize your finance operations with Microsoft Dynamics 365 Finance. Achieve better financial visibility, make informed decisions, and ensure global compliance.  Call +1 281 899 0865 for a FREE DEMO today."
