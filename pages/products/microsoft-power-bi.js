@@ -432,7 +432,7 @@ const PowerBI = () => {
                       decisions.
                     </p>
                     <div className="button-call-ac">
-                      <Link href="/guides/power-bi-guide-for-smb/">
+                      <Link href="/guides/power-bi-guide-for-sme/">
                         <a className="bt-red bt-red-a">Read It Now</a>
                       </Link>
                       <Link href="#powerBIModals">
