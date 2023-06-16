@@ -8625,6 +8625,11 @@ color:var(--color-red)
 }
 .sty-newd p{}
 .sty-newd ul li{}
+.custom-ifram-size{}
+.custom-ifram-size iframe{
+  width: 100%;
+    height: 400px;
+}
 
 /*media*/
 
@@ -8679,6 +8684,10 @@ color:var(--color-red)
 }
 
 @media (max-width: 992px) {
+  .custom-ifram-size iframe{
+    width: 100%;
+      height: 300px;
+  }
 
   .hd-div{
     display:none
