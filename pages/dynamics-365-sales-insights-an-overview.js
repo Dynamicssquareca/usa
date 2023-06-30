@@ -17,6 +17,7 @@ const SalesInsightsanOverview = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/dynamics-365-sales-insights-an-overview/"
         />
+        <meta name="robots" content="noindex,nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
