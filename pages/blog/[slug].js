@@ -50,12 +50,13 @@ function Post({ blogs, blogcat, authordetials, author }) {
                 />
                 <meta property="twitter:image" content={`${item.meta_image}`} />
                 <script
-                  type="application/ld+json"
-                  dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                      structuredData: item.additional_script,
-                    }),
+
+                 type="application/ld+json"
+
+                    dangerouslySetInnerHTML={{ __html:item.additional_script
+
                   }}
+
                 />
               </Head>
 
