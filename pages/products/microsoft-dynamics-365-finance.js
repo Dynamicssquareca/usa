@@ -128,10 +128,10 @@ const Finance = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Finance | ERP for Financial Management</title>
+        <title>Dynamics 365 Finance Implementation USA | Dynamics Square</title>
         <meta
           name="description"
-          content="Optimize your finance operations with Microsoft Dynamics 365 Finance. Achieve better financial visibility, make informed decisions, and ensure global compliance.  Call +1 281 899 0865 for a FREE DEMO today."
+          content="Use actionable insights to increase financial visibility and faster your decision making with Microsoft Dynamics 365 Finance Implementation. Contact us now."
         />
         <link
           rel="canonical"
@@ -172,7 +172,7 @@ const Finance = () => {
                       className="btn-get-started scrollto"
                     >
                       <span>
-                        Get Started <i class="bi bi-arrow-right"></i>
+                        Get Started <i className="bi bi-arrow-right"></i>
                       </span>
                     </a>
                   </Link>
