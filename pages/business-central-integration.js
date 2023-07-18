@@ -17,6 +17,7 @@ const BcIntegrations = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/business-central-integration/"
         />
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -57,7 +58,7 @@ const BcIntegrations = () => {
                   <header className="section-header">
                     <h2>Bring AI-Driven Workflow Automation with Microsoft Dynamics 365 Business Central Integrations </h2>
                     <p>Stop relying on developers and empower your IT team and savvy business users with Trusted Business Central integration solutions.</p>
-                    <p>ntegrate your cloud and <Link href="/products/microsoft-dynamics-365-finance-operations/"><a>on-premises ERP applications</a></Link> with our dedicated and universal consulting services and <b>save millions of work hours</b>. With <b>12+</b> years of industry expertise and <b>150+</b> customer-centric Microsoft Consultants, we offer flexible options to deliver integrations faster with low or no code. </p>
+                    <p>Integrate your cloud and <Link href="/products/microsoft-dynamics-365-finance-operations/"><a>on-premises ERP applications</a></Link> with our dedicated and universal consulting services and <b>save millions of work hours</b>. With <b>12+</b> years of industry expertise and <b>150+</b> customer-centric Microsoft Consultants, we offer flexible options to deliver integrations faster with low or no code. </p>
                     <p>Say <b>YES</b> to your specific business requirements and choose <b>Dynamics Square</b> for seamless integration solutions - for AI-based, cloud-powered, all-in-one, enterprise resource planning (ERP) solution - <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> - that will help you innovate and deliver value faster. </p>
                   </header>
                 </div>
@@ -510,7 +511,7 @@ const BcIntegrations = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
-                    >1 - What are the popular Business Central integrations? </button>
+                    >1. What are the popular Business Central integrations? </button>
                   </h3>
                   <div
                     id="faq-content-1"
@@ -544,7 +545,7 @@ const BcIntegrations = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-2"
-                    >2 - What integrations or add-ons can Dynamics Square provide support for Business Central ERP? </button>
+                    >2. What integrations or add-ons can Dynamics Square provide support for Business Central ERP? </button>
                   </h3>
                   <div
                     id="faq-content-2"
@@ -572,7 +573,7 @@ const BcIntegrations = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-3"
-                    >3 - What is Configure, Price, and Quote (CPQ) in Dynamics 365?</button>
+                    >3. What is Configure, Price, and Quote (CPQ) in Dynamics 365?</button>
                   </h3>
                   <div
                     id="faq-content-3"
@@ -596,7 +597,7 @@ const BcIntegrations = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
-                    >4 - How to customize Dynamics 365 Business Central integrations to fit business needs?</button>
+                    >4. How to customize Dynamics 365 Business Central integrations to fit business needs?</button>
                   </h3>
                   <div
                     id="faq-content-4"
@@ -627,7 +628,7 @@ const BcIntegrations = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-5"
-                    >5 - How to choose the right Business Central integration? </button>
+                    >5. How to choose the right Business Central integration? </button>
                   </h3>
                   <div
                     id="faq-content-5"
