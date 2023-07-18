@@ -597,7 +597,7 @@ const BcIntegrations = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-4"
-                    >4. How to customize Dynamics 365 Business Central integrations to fit business needs?</button>
+                    >4.  How to customize Dynamics 365 Business Central integrations to fit business needs?</button>
                   </h3>
                   <div
                     id="faq-content-4"
