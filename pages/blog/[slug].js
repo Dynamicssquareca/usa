@@ -216,7 +216,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <img src="/img/blog-pic.jpg" alt="bg-pic" />
+                      <Link href="https://www.dynamicssquare.com/schedule-a-demo/"><a style={{display:'block',marginBottom:'20px'}}><img src="/img/blog-side-pic-1.png" alt="blog-side-pic-1" /></a></Link>
+                      <Link href="https://www.dynamicssquare.com/ebook/dynamics-365-finance/"><a><img src="/img/blog-side-pic-2.png" alt="blog-side-pic-2" /></a></Link>
                     </div>
                   </div>
                 </div>
