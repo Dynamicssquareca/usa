@@ -16,6 +16,93 @@ const Dynamics365PartnerTexas = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/location/dynamics-365-partner-texas/"
         />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.dynamicssquare.com/location/dynamics-365-partner-texas/"
+        />
+        <meta
+          property="og:title"
+          content="Dynamics 365 Partner Texas | Microsoft Solutions Partner"
+        />
+        <meta
+          property="og:description"
+          content="Leading Dynamics 365 Partner in Texas. Unlock the power of Microsoft solutions with our expert team. Drive growth and success today!"
+        />
+        <meta
+          property="og:image"
+          content="https://www.dynamicssquare.com/img/texas.png"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://www.dynamicssquare.com/location/dynamics-365-partner-texas/"
+        />
+        <meta
+          property="twitter:title"
+          content="Dynamics 365 Partner Texas | Microsoft Solutions Partner"
+        />
+        <meta
+          property="twitter:description"
+          content="Leading Dynamics 365 Partner in Texas. Unlock the power of Microsoft solutions with our expert team. Drive growth and success today!"
+        />
+        <meta
+          property="twitter:image"
+          content="https://www.dynamicssquare.com/img/texas.png"
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "What services do Dynamics 365 partners in Texas offer? ",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Dynamics 365 partners in Texas like Dynamics Square offer consulting, licensing, implementation, customization, and support services for Dynamics 365 products. They follow Microsoft's sure-step methodology for upgrades, migrations, testing, integration, maintenance, and staff augmentation.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "How to choose the right Dynamics 365 partner in Texas?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "It can be daunting to choose the right Dynamics 365 partner in Texas. However, here are a few tips to help you make an informed decision:<ul><li>Look for an experienced partner that can deliver solutions for businesses like yours</li><li>Check for what they say and who they are</li><li>Evaluate whether they have comprehensive support services to help you get the most out of your Dynamics 365 solution</li><li>Look for expertise the partner has in your industry and understands your unique business challenges</li><li>Check the communication throughout the implementation process</li></ul> Connect with Dynamics Square to avail yourself of all the above.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "What are the benefits of hiring a local Microsoft Dynamics Partner in Texas?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "There are a number of benefits to hiring a local Dynamics 365 partner in Texas. A local partner can offer personalized support and local expertise, as well as required flexibility and stronger partnerships.This can lead to more effective collaboration and better outcomes. If you're seeking to implement or optimize your Dynamics 365 solution for your business based in TX, USA, get in touch with a reliable Microsoft Cloud Solutions partner like Dynamics Square.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "What industries do Microsoft Dynamics 365 partners in Texas serve?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Dynamics 365 is a suite of business applications and caters to different industries like Healthcare, Education, Information, Infrastructure, Manufacturing, Supply Chain and Logistics, and more. For every niche, Microsoft Dynamics 365 has everything in its store you need.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "How can a Dynamics 365 partner in Texas help improve my business operations?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "A Microsoft Dynamics partner in Texas like Dynamics Square can provide assistance in improving your business operations using their expert guidance, support, and other services to streamline your workflows and optimize solutions for seamless business operations. It can help you drive higher efficiency, maximize productivity, and increase profitability for longer terms.",
+                  },
+                },
+              ],
+            }),
+          }}
+        />
       </Head>
 
       <section className="Solution-banner hero-1 hero">
@@ -52,7 +139,12 @@ const Dynamics365PartnerTexas = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-            <Image src="/img/texas.png" alt="texas" width={709} height={448} />
+              <Image
+                src="/img/texas.png"
+                alt="texas"
+                width={709}
+                height={448}
+              />
             </div>
           </div>
         </div>
