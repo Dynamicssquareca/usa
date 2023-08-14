@@ -307,7 +307,7 @@ const ContactUs = () => {
                       </div>
                       <div className="col-lg-3">
                         <div className="cont-hh">
-                          <h3>Chicago</h3>
+                          <h3>Illinois</h3>
                         </div>
                         <div className="contact-list">
                           <div className="icons-left">

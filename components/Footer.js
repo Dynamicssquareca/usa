@@ -254,7 +254,7 @@ const Footer = () =>{
             </div>
 
             <div className="col-lg-3">
-              <div className="const-list-name">Chicago</div>
+              <div className="const-list-name">Illinois</div>
               <div className="contact-list">
                 <div className="icons-left">
                   <i className="bi bi-geo-alt"></i>
