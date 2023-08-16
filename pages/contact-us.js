@@ -246,7 +246,7 @@ const ContactUs = () => {
                     role="tabpanel"
                     aria-labelledby="profile-tab"
                   >
-                    <div className="row justify-content-center">
+                    <div className="row">
                       <div className="col-lg-3">
                         <div className="cont-hh">
                           <h3>California</h3>
@@ -363,6 +363,36 @@ const ContactUs = () => {
                           <div className="content-right">
                             <a href="mailto:info@dynamicssquare.com">
                               info@dynamicssquare.com
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-lg-3">
+                        <div className="cont-hh">
+                          <h3>Massachusetts</h3>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-geo-alt"></i>
+                          </div>
+                          <div className="content-right">
+                          867 Boylston Street Boston, MA 02116
+
+                          </div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-telephone"></i>
+                          </div>
+                          <div className="content-right">+1 617 765 7669</div>
+                        </div>
+                        <div className="contact-list">
+                          <div className="icons-left">
+                            <i className="bi bi-envelope"></i>
+                          </div>
+                          <div className="content-right">
+                            <a href="mailto:info@dynamicssquare.com">
+                            info@dynamicssquare.com
                             </a>
                           </div>
                         </div>
