@@ -72,7 +72,7 @@ const CloudvsOnpremise = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/on-cloud.svg" alt="on-cloud" />
+                  <img src="/img/on-cloud.svg" alt="on-cloud" width={48} height={48} />
                 </div>
                 <div className="style-grid-content style-grid-content-1">
                   <h4>In-Cloud</h4>
@@ -81,7 +81,7 @@ const CloudvsOnpremise = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/On-Premises.svg" alt="On-Premises" />
+                  <img src="/img/On-Premises.svg" alt="On-Premises" width={48} height={48} />
                 </div>
                 <div className="style-grid-content  style-grid-content-1">
                   <h4>On-Premises</h4>
@@ -90,7 +90,7 @@ const CloudvsOnpremise = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <img src="/img/Hybrid.svg" alt="Hybrid" />
+                  <img src="/img/Hybrid.svg" alt="Hybrid" width={48} height={48} />
                 </div>
                 <div className="style-grid-content  style-grid-content-1">
                   <h4>Hybrid</h4>
@@ -179,7 +179,7 @@ const CloudvsOnpremise = () => {
             </div>
             <div className="col-lg-4 align-self-center">
               <div className="img-txt-cent">
-                <img src="/img/in-cloud.png" alt="in-cloud" />
+                <Image src="/img/in-cloud.png" alt="in-cloud" width={354} height={303} />
               </div>
             </div>
             <div className="col-lg-4">
@@ -302,7 +302,7 @@ const CloudvsOnpremise = () => {
             </div>
             <div className="col-lg-4 align-self-center">
               <div className="img-txt-cent">
-                <img src="/img/Group1502.png" alt="Group1502" />
+                <Image src="/img/Group1502.png" alt="Group1502" width={217} height={249} />
               </div>
             </div>
             <div className="col-lg-4">

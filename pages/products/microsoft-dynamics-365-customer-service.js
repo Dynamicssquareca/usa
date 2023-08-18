@@ -194,7 +194,7 @@ const CustomerService = () => {
                     <div className="popup-btn popup-btns">
                       <Link href="#javascript:void(0)">
                         <a data-bs-toggle="modal" onClick={() => setOpen(true)}>
-                          <Image src="/img/video-Customer Service.png" width={390} height={259}/>
+                          <Image src="/img/video-Customer Service.png" width={390} height={259} alt="playpic"/>
                           <span className="cente-icns">
                             <img src="/img/play_icons.svg" alt="play_icons" />
                           </span>
@@ -215,9 +215,11 @@ const CustomerService = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business-Central-Implementation-icons.svg"
                     alt="Business-Central-Implementation-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
@@ -236,9 +238,11 @@ const CustomerService = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business Central Upgrade-icons.svg"
                     alt="Business Central Upgrade-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">
@@ -257,9 +261,11 @@ const CustomerService = () => {
               </div>
               <div className="busine_service_bottom-right">
                 <div className="card_new_img">
-                  <img
+                  <Image
                     src="/img/Business-Central-Support-icons.svg"
                     alt="Business-Central-Support-icons"
+                    width={64}
+                    height={64}
                   />
                 </div>
                 <div className="card_new_content">

@@ -58,7 +58,7 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row pad9x rever-1">
             <div className="col-lg-7 align-self-center">
               <div className="commen-lef-pic">
-                <img src="/img/upgrade-why.png" alt="upgrade" width={601} height={591}/>
+                <Image src="/img/upgrade-why.png" alt="upgrade" width={601} height={591}/>
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
@@ -637,7 +637,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group774.svg" alt="Trustworthy Partner" />
+                  <img src="/img/Group774.svg" alt="Trustworthy Partner" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>Trustworthy Partner</h3>
@@ -652,7 +652,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group772.svg" alt="Trustworthy Partner" />
+                  <img src="/img/Group772.svg" alt="Trustworthy Partner" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>End-to-End Training</h3>
@@ -666,7 +666,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group773.svg" alt="Off-Hours Support" />
+                  <img src="/img/Group773.svg" alt="Off-Hours Support" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>Off-Hours Support</h3>

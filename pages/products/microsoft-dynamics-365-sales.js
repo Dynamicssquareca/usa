@@ -96,7 +96,7 @@ const Sales = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img src="/img/sales-hub-app.svg" alt="icons" />
+                          <img src="/img/sales-hub-app.svg" alt="icons" width={48} height={48} />
                         </div>
                         <span>Sales Hub App</span>
                       </button>
@@ -141,6 +141,7 @@ const Sales = () => {
                           <img
                             src="/img/sales-proffesional-app.svg"
                             alt="icons"
+                            width={48} height={48}
                           />
                         </div>
                         <span>Sales Professional App</span>

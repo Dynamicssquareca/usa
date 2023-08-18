@@ -75,6 +75,8 @@ const BusinessCentralImplementation = () => {
                           <img
                             src="/img/icons_finance.svg"
                             alt="icons_finance"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Automate Finance</span>
@@ -106,6 +108,8 @@ const BusinessCentralImplementation = () => {
                           <img
                             src="/img/icons_sales.svg"
                             alt="icons_sales"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Boost Sales</span>
@@ -137,6 +141,8 @@ const BusinessCentralImplementation = () => {
                           <img
                             src="/img/icons_customer.svg"
                             alt="icons_customer"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Empower Customer & Team</span>
@@ -169,6 +175,8 @@ const BusinessCentralImplementation = () => {
                           <img
                             src="/img/icons_project.svg"
                             alt="icons_project"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Enhance Project Management</span>
@@ -207,6 +215,8 @@ const BusinessCentralImplementation = () => {
                           <img
                             src="/img/icons_supply-chain.svg"
                             alt="icons_supply-chain"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Simplify Supply Chain</span>
@@ -238,6 +248,8 @@ const BusinessCentralImplementation = () => {
                           <img
                             src="/img/icons_warehouse.svg"
                             alt="icons_warehouse"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Warehouse Management</span>
@@ -269,6 +281,8 @@ const BusinessCentralImplementation = () => {
                           <img
                             src="/img/icons_manufacturing.svg"
                             alt="icons_manufacturing"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Improve Manufacturing</span>

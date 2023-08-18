@@ -58,9 +58,11 @@ const PowerBIGuide = () => {
               </div>
             </div>
             <div className="col-lg-7 align-self-center text-center">
-              <img
+              <Image
                 src="/img/group-2308.png"
                 alt="The Ultimate Power BI Guide"
+                width={585}
+                height={373}
               />
             </div>
           </div>
@@ -79,7 +81,7 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-1" rel="" target="_self">
-                  <img src="/img/Power-bi-pic-1.png" alt="Power BI Overview" />
+                  <Image src="/img/Power-bi-pic-1.png" alt="Power BI Overview" width={150} height={150} style={{marginBottom:'10px'}} />
                   <h3>Episode 1</h3>
                   <p>The Introduction</p>
                 </a>
@@ -88,9 +90,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-2" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-2.png"
                     alt="Power BI Features and Benefits"
+                    width={150} height={150}
+                    style={{marginBottom:'10px'}}
                   />
                   <h3>Episode 2</h3>
                   <p>What exactly is Power BI?</p>
@@ -100,9 +104,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-3" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-3.png"
                     alt="Power BI Dashboard Examples"
+                    width={150} height={150}
+                    style={{marginBottom:'10px'}}
                   />
                   <h3>Episode 3</h3>
                   <p>Benefits of Microsoft Power BI for SMBs in 2023</p>
@@ -112,9 +118,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-4" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-4.png"
                     alt="Power BI Integration & Automation"
+                    width={150} height={150}
+                    style={{marginBottom:'10px'}}
                   />
                   <h3>Episode 4</h3>
                   <p>How is the dashboard of Power BI? Explained with Examples</p>
@@ -124,9 +132,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-5" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-5.png"
                     alt="Power BI Versions, Pricing & Licensing"
+                    width={150} height={150}
+                    style={{marginBottom:'10px'}}
                   />
                   <h3>Episode 5</h3>
                   <p>Integration of Power BI with Microsoft Dynamics 365 Apps</p>
@@ -136,9 +146,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-6" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/power-6.png"
                     alt="Power BI vs Others BI Tools"
+                    width={150} height={150}
+                    style={{marginBottom:'10px'}}
                   />
                   <h3>Episode 6</h3>
                   <p>Pricing, Licensing, and Versions of Power BI</p>
@@ -148,9 +160,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-7" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/group-2330.png"
                     alt="Future Scope of Power BI"
+                    width={150} height={150}
+                    style={{marginBottom:'10px'}}
                   />
                   <h3>Episode 7</h3>
                   <p>Power BI vs other Data Analysis and Visualization Tools</p>
@@ -160,9 +174,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-7" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/group-2330.png"
                     alt="Future Scope of Power BI"
+                    width={150} height={150}
+                    style={{marginBottom:'10px'}}
                   />
                   <h3>Episode 8</h3>
                   <p>What's new in Power BI?</p>
@@ -172,9 +188,11 @@ const PowerBIGuide = () => {
             <div className="col-lg-3 col-6">
               <div className="table-of-content-list text-center">
                 <a href="#tabs-7" rel="" target="_self">
-                  <img
+                  <Image
                     src="/img/group-2330.png"
                     alt="Future Scope of Power BI"
+                    width={150} height={150}
+                    style={{marginBottom:'10px'}}
                   />
                   <h3>Episode 9</h3>
                   <p>Future Scope for Microsoft Power BI</p>
@@ -251,9 +269,11 @@ const PowerBIGuide = () => {
                 <p>According to Gartner, about <b>83%</b> of all active users would recommend Power BI:</p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/83-recommended.png"
                   alt="83%recommended"
+                  width={2264}
+                  height={1554}
                 />
               </div>
               <div className="cont-table-inner">
@@ -265,9 +285,11 @@ const PowerBIGuide = () => {
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
-                    <img
+                    <Image
                       src="/img/powerb-guide-call-to-banner-1.png"
                       alt="power-guide"
+                      width={1261}
+                      height={510}
                     />
                   </a>
                 </Link>
@@ -290,11 +312,15 @@ const PowerBIGuide = () => {
                     src="/img/POwerBI-Intro.png"
                     alt="Introduction To Power BI"
                     className="shape-1"
+                    width={178}
+                    height={173}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -319,7 +345,7 @@ const PowerBIGuide = () => {
               </div>
               
               <div className="iner-pp">
-                <img src="/img/fig1.1.svg" alt="group-22" />
+                <Image src="/img/fig1.1.svg" alt="group-22" width={1039} height={212} />
               </div>
             </div>
           </div>
@@ -339,11 +365,15 @@ const PowerBIGuide = () => {
                     src="/img/Group2162.png"
                     alt="Power BI Features and Benefits"
                     className="shape-1"
+                    width={181}
+                    height={151}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -360,9 +390,11 @@ const PowerBIGuide = () => {
                 <p>The web-based suite of applications helps you have a comprehensive toolset for analyzing and visualizing information, including <b>Power BI Desktop, Power BI Pro, Power BI Mobile</b>, and <b>Power BI Embedded</b>.</p>
               </div>
               <div className="iner-pp">
-                <img
+                <Image
                   src="/img/fig1.6.png"
                   alt="fig1.6"
+                  width={1052}
+                  height={359}
                 />
               </div>
               <div className="cont-table-inner">
@@ -431,9 +463,11 @@ const PowerBIGuide = () => {
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
-                    <img
+                    <Image
                       src="/img/powerb-guide-call-to-banner-2.png"
                       alt="power-guide"
+                      width={1260}
+                      height={510}
                     />
                   </a>
                 </Link>
@@ -457,11 +491,15 @@ const PowerBIGuide = () => {
                     src="/img/Group2282.png"
                     alt="Power BI Dashboards"
                     className="shape-1"
+                    width={210}
+                    height={207}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -538,11 +576,15 @@ const PowerBIGuide = () => {
                     src="/img/Group2162.png"
                     alt="PowerBi-integration"
                     className="shape-1"
+                    width={181}
+                    height={151}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -567,7 +609,7 @@ const PowerBIGuide = () => {
                 <p>Once a dashboard is created, users can add visualizations, filters, and other elements to create a custom view of their data.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/power-bi-dashboard.png" alt="power-bi-dashboard" />
+                <Image src="/img/power-bi-dashboard.png" alt="power-bi-dashboard" width={2247} height={1315} />
               </div>
               <div className="cont-table-inner">
                 <p>Power BI dashboards can be shared with others within the organization or even externally with your colleagues, partners, or customers.</p>
@@ -583,25 +625,25 @@ const PowerBIGuide = () => {
                 <p><b>Sales: </b>Sales teams can use dashboards to track their performance, show trends, and make data-driven decisions. </p>
               </div>
               <div className="iner-pp">
-                <img src="/img/fig3.6.png" alt="fig6" />
+                <Image src="/img/fig3.6.png" alt="fig6" width={1050} height={586} />
               </div>
               <div className="cont-table-inner">
                 <p><b>Marketing:</b> Marketing teams can use dashboards to track their campaigns, check social media metrics, and find areas for improvement.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/fig3.4.png" alt="fig4" />
+                <Image src="/img/fig3.4.png" alt="fig4" width={1046} height={586} />
               </div>
               <div className="cont-table-inner">
                 <p><b>Finance:</b> Finance teams can use dashboards to track key performance indicators (KPIs), monitor cash flow, and analyze financial data.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/fig3.3.png" alt="fig3" />
+                <Image src="/img/fig3.3.png" alt="fig3" width={1052} height={591} />
               </div>
               <div className="cont-table-inner">
                 <p><b>Operations:</b> Operations teams can use dashboards to track production metrics, identify bottlenecks, and optimize workflows.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/fig3.5.png" alt="fig5" />
+                <Image src="/img/fig3.5.png" alt="fig5" width={1052} height={589} />
               </div>
               <div className="cont-table-inner">
                 <p>Power BI dashboards provide you with a powerful tool to turn your data into meaningful insights.</p>
@@ -612,9 +654,11 @@ const PowerBIGuide = () => {
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
-                    <img
+                    <Image
                       src="/img/powerb-guide-call-to-banner-1.png"
                       alt="power-guide"
+                      width={1261}
+                      height={510}
                     />
                   </a>
                 </Link>
@@ -637,11 +681,15 @@ const PowerBIGuide = () => {
                     src="/img/PowerBi-integration.png"
                     alt="Integration of Power BI with Microsoft Dynamics 365 Apps"
                     className="shape-1"
+                    width={222}
+                    height={183}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -659,14 +707,14 @@ const PowerBIGuide = () => {
               </div>
 
               <div className="iner-pp">
-                <img src="/img/fig3.1.jpg" alt="power bi version" />
+                <Image src="/img/fig3.1.jpg" alt="power bi version" width={1052} height={792} />
               </div>
               <div className="cont-table-inner">
                 <p>It is an all-in-one solution if you are looking for a business intelligence software, or a specific type of BI software, dashboard software, data warehousing software, reporting tools, data virtualization software, or a data analysis software to streamline your entire organization.</p>
                 <p>Let's see how <a href="https://www.linkedin.com/pulse/create-power-bi-report-display-microsoft-d365-business-govinda-kumar" target="_blank" rel="nofollow">integrating Power BI with an enterprise resource planning software (ERP) like Microsoft's Dynamics 365 Business Central</a> helps you.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/pcs-1.png" alt="pcs" />
+                <Image src="/img/pcs-1.png" alt="pcs" width={752} height={355} />
               </div>
               <div className="cont-table-inner">
                 <p>Integrating Power BI with enterprise resource planning (ERP) software like <b>Microsoft's Dynamics 365 Business Central</b> can offer many benefits to businesses like your e-commerce and manufacturing.</p>
@@ -680,9 +728,11 @@ const PowerBIGuide = () => {
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
-                    <img
+                    <Image
                       src="/img/powerb-guide-call-to-banner-2.png"
                       alt="power-guide"
+                      width={1260}
+                      height={510}
                     />
                   </a>
                 </Link>
@@ -706,11 +756,15 @@ const PowerBIGuide = () => {
                     src="/img/PowerBi-Licensing.png"
                     alt="PowerBi-Licensing"
                     className="shape-1"
+                    width={180}
+                    height={238}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -775,9 +829,11 @@ const PowerBIGuide = () => {
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
-                    <img
+                    <Image
                       src="/img/powerb-guide-call-to-banner-2.png"
                       alt="power-guide"
+                      width={1260}
+                      height={510}
                     />
                   </a>
                 </Link>
@@ -801,11 +857,15 @@ const PowerBIGuide = () => {
                     src="/img/PowerBi-vs.png"
                     alt="PowerBi-vs"
                     className="shape-1"
+                    width={169}
+                    height={211}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -834,9 +894,11 @@ const PowerBIGuide = () => {
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
-                    <img
+                    <Image
                       src="/img/powerb-guide-call-to-banner.png"
                       alt="power-guide"
+                      width={1261}
+                      height={510}
                     />
                   </a>
                 </Link>
@@ -860,11 +922,15 @@ const PowerBIGuide = () => {
                     src="/img/PowerBi-FAQ.png"
                     alt="Future Scope Of Power BI"
                     className="shape-1"
+                    width={222}
+                    height={184}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -880,32 +946,33 @@ const PowerBIGuide = () => {
                 <p>Below are the updates in Power BI which were released in December 2022.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/feature-update.png" alt="feature-update" />
+                <Image src="/img/feature-update.png" alt="feature-update" width={3841} height={1991} />
               </div>
               <div className="cont-table-inner">
                 <p><b>Reporting</b></p>
                 <p>The latest Power BI update has relocated slicer-type formatting to the Format Pane.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/graphical-user-interface-application-description-19.png" alt="diagram-description-automatically-generated" />
+                <Image src="/img/graphical-user-interface-application-description-19.png" alt="diagram-description-automatically-generated" width={575} height={341} />
               </div>
               <div className="iner-pp">
-                <img src="/img/diagram-description-automatically-generated-2.png" alt="diagram-description-automatically-generated" />
+                <Image src="/img/diagram-description-automatically-generated-2.png" alt="diagram-description-automatically-generated" width={535} height={376} />
               </div>
               <div className="cont-table-inner">
                 <p><b>Data connectivity</b></p>
                 <p>Various updated data connectors to ease your data analysis.</p>
               </div>
               <div className="iner-pp">
-                <img src="/img/OldGetDataPage.png" alt="OldGetDataPage" />
+                <Image src="/img/OldGetDataPage.png" alt="OldGetDataPage" width={981} height={615} />
               </div>
 
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
-                    <img
+                    <Image
                       src="/img/powerb-guide-call-to-banner.png"
                       alt="power-guide"
+                      width={1261} height={510}
                     />
                   </a>
                 </Link>
@@ -930,11 +997,15 @@ const PowerBIGuide = () => {
                     src="/img/Future-Scope.png"
                     alt="Future Scope Of Power BI"
                     className="shape-1"
+                    width={172}
+                    height={138}
                   />
                   <img
                     src="/img/over-lay-shape.png"
                     alt="over-lay-shape"
                     className="overlay-1"
+                    width={769}
+                    height={324}
                   />
                 </div>
               </header>
@@ -964,9 +1035,11 @@ const PowerBIGuide = () => {
               <div className="iner-pp">
                 <Link href="#powerBIModals">
                   <a data-bs-toggle="modal">
-                    <img
+                    <Image
                       src="/img/powerb-guide-call-to-banner.png"
                       alt="power-guide"
+                      width={1261}
+                      height={510}
                     />
                   </a>
                 </Link>

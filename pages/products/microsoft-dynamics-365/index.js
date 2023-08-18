@@ -39,7 +39,7 @@ const D360 = () => {
               </div>
             </div>
             <div className="col-lg-6 align-self-center">
-              <img src="/img/d360-banner.png" alt="Microsoft Dynamics 365" />
+              <Image src="/img/d360-banner.png" alt="Microsoft Dynamics 365" width={628} height={398} />
             </div>
           </div>
         </div>
@@ -403,9 +403,10 @@ const D360 = () => {
             </div>
             <div className="col-lg-5 align-self-center">
               <div className="commen-lef-pic">
-                <img
+                <Image
                   src="/img/d360-banner.png"
                   alt="Microsoft Dynamics 365"
+                  width={628} height={398} 
                 />
               </div>
             </div>
@@ -481,7 +482,7 @@ const D360 = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group774.svg" alt="Trustworthy Partner" />
+                  <img src="/img/Group774.svg" alt="Trustworthy Partner" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>A Partner You Can Trust</h3>
@@ -492,7 +493,7 @@ const D360 = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group772.svg" alt="Trustworthy Partner" />
+                  <img src="/img/Group772.svg" alt="Trustworthy Partner" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>End-to-End Training</h3>
@@ -503,7 +504,7 @@ const D360 = () => {
             <div className="col-lg-4">
               <div className="commen-box-2">
                 <div className="icons">
-                  <img src="/img/Group773.svg" alt="Off-Hours Support" />
+                  <img src="/img/Group773.svg" alt="Off-Hours Support" width={48} height={48} />
                 </div>
                 <div className="commen-boc-2-info">
                   <h3>Best Customer Support</h3>

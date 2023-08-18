@@ -55,9 +55,11 @@ const BusinessCentralVSFinance = () => {
               </div>
             </div>
             <div className="col-lg-4 align-self-center">
-              <img
+              <Image
                 src="/img/Dynamics-365-Business-Central-vs-Finance-Operations.png"
                 alt="Dynamics-365-Business-Central-vs-Finance-Operations"
+                width={311}
+                height={162}
               />
             </div>
           </div>
@@ -72,6 +74,8 @@ const BusinessCentralVSFinance = () => {
                 <img
                   src="/img/finace-opeartion-logo.png"
                   alt="finace-opeartion-logo"
+                  width={262}
+                  height={79}
                 />
                 <h3>
                   What is Microsoft Dynamics 365 for Finance & Operations?
@@ -120,6 +124,8 @@ const BusinessCentralVSFinance = () => {
                 <img
                   src="/img/businescenter-logos-s.png"
                   alt="businescenter-logos-s"
+                  width={268}
+                  height={66}
                 />
                 <h3>What is Microsoft Dynamics 365 Business Central?</h3>
                 <p className="ne4">

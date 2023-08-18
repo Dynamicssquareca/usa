@@ -253,6 +253,8 @@ const BusinessCentralPricingLicensing = () => {
                           <img
                             src="/img/icons-azure_cloud-embed.svg"
                             alt="icons-azure_cloud-embed"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Features of Team Member License</span>
@@ -284,6 +286,8 @@ const BusinessCentralPricingLicensing = () => {
                           <img
                             src="/img/icons-azure_agile.svg"
                             alt="icons-azure_agile"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Features of Essentials License</span>
@@ -315,6 +319,8 @@ const BusinessCentralPricingLicensing = () => {
                           <img
                             src="/img/icons-azure_project-management.svg"
                             alt="icons-azure_project-management"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Features of Premium License</span>
@@ -358,9 +364,11 @@ const BusinessCentralPricingLicensing = () => {
           <div className="row">
             <div className="col-lg-4 align-self-center">
               <div className="busine_service_bottom-left custom012 text-center">
-                <img
+                <Image
                   src="/img/Implementation.svg"
                   alt="Implementation"
+                  width={104}
+                  height={112}
                 />
               </div>
             </div>

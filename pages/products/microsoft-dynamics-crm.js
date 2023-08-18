@@ -84,7 +84,7 @@ const MicrosoftDynamicsCrm = () => {
         <div className="container">
           <div className="row ">
             <div className="col-lg-6 align-self-center">
-              <img src="/img/CRM banner.png" alt="CRM banner" />
+              <Image src="/img/CRM banner.png" alt="CRM banner" width={582} height={402} />
             </div>
             <div className="col-lg-5 align-self-center">
               <div className="side-heading">
@@ -142,6 +142,8 @@ const MicrosoftDynamicsCrm = () => {
                           <img
                             src="/img/Seamless-Sales-and-Marketing.svg"
                             alt="Sales & Marketing4"
+                            width={99}
+                            height={99}
                           />
                         </div>
                         <span>Seamless Sales & Marketing</span>
@@ -175,7 +177,8 @@ const MicrosoftDynamicsCrm = () => {
                         aria-controls="fin6"
                       >
                         <div className="wr-ins">
-                          <img src="/img/Improved-Sales.svg" alt="sales" />
+                          <img src="/img/Improved-Sales.svg" alt="sales" width={99}
+                            height={99} />
                         </div>
                         <span>Improved Sales</span>
                       </button>
@@ -211,6 +214,8 @@ const MicrosoftDynamicsCrm = () => {
                           <img
                             src="/img/Build-and-Retain-Customers.svg"
                             alt="Retain Customers"
+                            width={99}
+                            height={99}
                           />
                         </div>
                         <span>Build & Retain Customers</span>

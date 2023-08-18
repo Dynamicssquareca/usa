@@ -175,15 +175,21 @@ const FooterHide = () =>{
                   that caters to the needs of orgnizations who can source
                   next-gen Microsoft Business Apps from our highly skilled
                   Microsoft consultants.</p>
-                <img
+                  <Image
                   src="/img/microsoft-partner-footer.png"
                   alt="microsoft-partner"
                   className="footer-img"
+                 width={230}
+                 height={211}
+                 
                 />
                 <img
                   src="/img/Tech-For-Socil-Impact.svg"
                   alt="Tech-For-Socil-Impact"
                   className="footer-img"
+                  width="230"
+                  height="81"
+                  style={{marginTop:'25px'}}
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">

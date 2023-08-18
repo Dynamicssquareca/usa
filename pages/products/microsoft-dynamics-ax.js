@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Script from "next/script";
 import Link from "next/link";
 const MicrosoftDynamicsAX = () => {
   return (
@@ -162,6 +161,8 @@ const MicrosoftDynamicsAX = () => {
                           <img
                             src="/img/icons-ax-_financial.svg"
                             alt="icons-ax-_financial"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Financial Management</span>
@@ -199,6 +200,8 @@ const MicrosoftDynamicsAX = () => {
                           <img
                             src="/img/icons-ax-_production.svg"
                             alt="icons-ax-_production"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Production</span>
@@ -236,6 +239,8 @@ const MicrosoftDynamicsAX = () => {
                           <img
                             src="/img/icons-ax-_business-intelligence.svg"
                             alt="icons-ax-_business-intelligence"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Employee Management</span>
@@ -273,6 +278,8 @@ const MicrosoftDynamicsAX = () => {
                           <img
                             src="/img/icons-ax-_supply-chain.svg"
                             alt="icons-ax-_supply-chain"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Supply Chain Monitoring</span>
@@ -317,6 +324,8 @@ const MicrosoftDynamicsAX = () => {
                           <img
                             src="/img/icons-ax-_capital-management.svg"
                             alt="icons-ax-_capital-management"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Project Management</span>
@@ -354,6 +363,8 @@ const MicrosoftDynamicsAX = () => {
                           <img
                             src="/img/icons-ax-_procurment.svg"
                             alt="icons-ax-_procurment"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Sales Management</span>
@@ -391,6 +402,8 @@ const MicrosoftDynamicsAX = () => {
                           <img
                             src="/img/icons-ax-_accounting.svg"
                             alt="icons-ax-_accounting"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>E-Commerce</span>
@@ -428,6 +441,8 @@ const MicrosoftDynamicsAX = () => {
                           <img
                             src="/img/icons-ax-_sales-management.svg"
                             alt="icons-ax-_sales-management"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Sourcing and Procurement</span>

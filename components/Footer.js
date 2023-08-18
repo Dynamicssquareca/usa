@@ -114,7 +114,7 @@ const Footer = () =>{
                   <div className="mb-3">
                     <textarea
                       className="form-control"
-                      id="exampleFormControlTextarea1"
+                      id="Text-area"
                       placeholder="*How Can We Help You?"
                       rows="3"
                       name="message"
@@ -127,7 +127,7 @@ const Footer = () =>{
                       checked
                       readOnly
                       className="form-check-input"
-                      id="exampleCheck1"
+                      id="Check"
                     />
                     <label className="form-check-label">
                       I agree to the
@@ -333,12 +333,12 @@ const Footer = () =>{
                   next-gen Microsoft Business Apps from our highly skilled
                   Microsoft consultants.
                 </p>
-                <img
+                <Image
                   src="/img/microsoft-partner-footer.png"
                   alt="microsoft-partner"
                   className="footer-img"
-                  width="230"
-                  height="81"
+                 width={230}
+                 height={211}
                  
                 />
                 <img
@@ -347,6 +347,7 @@ const Footer = () =>{
                   className="footer-img"
                   width="230"
                   height="81"
+                  style={{marginTop:'25px'}}
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">

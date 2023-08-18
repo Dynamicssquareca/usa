@@ -82,6 +82,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_centeralised-source.svg"
                             alt="icons_centeralised-source"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Build Seamless Experiences</span>
@@ -113,6 +115,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Personalized-Communication-.svg"
                             alt="icons_Personalized-Communication"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>AI-Driven Personalized Communication</span>
@@ -144,6 +148,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Journey-Mapping.svg"
                             alt="icons_Journey-Mapping"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Customer Journey Mapping</span>
@@ -182,6 +188,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Email-Templates-.svg"
                             alt="icons_Email-Templates"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Real-time Customer Engagement</span>
@@ -213,6 +221,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Customer-Feedback-.svg"
                             alt="icons_Customer-Feedback"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Earn Customer Loyalty</span>
@@ -244,6 +254,8 @@ const Marketing = () => {
                           <img
                             src="/img/icons_Automated-Lead-Scoring.svg"
                             alt="icons_Automated-Lead-Scoring"
+                            width={48}
+                            height={48}
                           />
                         </div>
                         <span>Automated Lead Scoring</span>
@@ -297,7 +309,7 @@ const Marketing = () => {
                         aria-controls="fins1"
                       >
                         <div className="wr-in">
-                          <img src="/img/Group11.png" alt="Group11" />
+                          <img src="/img/Group11.png" alt="Group11" width={150} height={151} />
                         </div>
                         <span>Core Marketing</span>
                       </button>
@@ -325,7 +337,7 @@ const Marketing = () => {
                         aria-controls="fins2"
                       >
                         <div className="wr-in">
-                          <img src="/img/Group12.png" alt="Group12" />
+                          <img src="/img/Group12.png" alt="Group12" width={150} height={151} />
                         </div>
                         <span>Event Management</span>
                       </button>
@@ -353,7 +365,7 @@ const Marketing = () => {
                         aria-controls="fins3"
                       >
                         <div className="wr-in">
-                          <img src="/img/Group13.png" alt="Group13" />
+                          <img src="/img/Group13.png" alt="Group13" width={150} height={151} />
                         </div>
                         <span>Forms Pro</span>
                       </button>
@@ -381,7 +393,7 @@ const Marketing = () => {
                         aria-controls="fins4"
                       >
                         <div className="wr-in">
-                          <img src="/img/Group14.png" alt="Group14" />
+                          <img src="/img/Group14.png" alt="Group14" width={150} height={151} />
                         </div>
                         <span>Add-Ons</span>
                       </button>
