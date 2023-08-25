@@ -250,6 +250,7 @@
     { "source": "/case-studies/discovery-cube/", "destination": "/case-studies/dynamics-ax12-implementation/", "statusCode": 301 },
     { "source": "/case-studies/msh-dynamics-ax-implementation/", "destination": "/case-studies/implemented-dynamics-ax12/", "statusCode": 301 },
     { "source": "/case-studies/shimco/", "destination": "/case-studies/nav13-to-d365-business-central-upgrade/", "statusCode": 301 },
-    { "source": "/microsoft-dynamics-365-partner-in-texas/", "destination": "/location/dynamics-365-partner-texas/", "statusCode": 301 }
+    { "source": "/microsoft-dynamics-365-partner-in-texas/", "destination": "/location/dynamics-365-partner-texas/", "statusCode": 301 },
+    { "source": "/blog/dynamics-365-business-central-vs-quickbook/", "destination": "/blog/business-central-vs-quickbooks-comparison/", "statusCode": 301 }
   ]
 }
