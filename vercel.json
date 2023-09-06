@@ -252,7 +252,8 @@
     { "source": "/case-studies/shimco/", "destination": "/case-studies/nav13-to-d365-business-central-upgrade/", "statusCode": 301 },
     { "source": "/microsoft-dynamics-365-partner-in-texas/", "destination": "/location/dynamics-365-partner-texas/", "statusCode": 301 },
     { "source": "/blog/dynamics-365-business-central-vs-quickbook/", "destination": "/blog/business-central-vs-quickbooks-comparison/", "statusCode": 301 },
-    { "source": "/blog/power-of-ai-in-healthcare-industry/", "destination": "/blog/ai-in-healthcare-with-microsoft-365-copilot/", "statusCode": 301 }
+    { "source": "/blog/power-of-ai-in-healthcare-industry/", "destination": "/blog/ai-in-healthcare-with-microsoft-365-copilot/", "statusCode": 301 },
+    { "source": "/blog/migrate-ax-to-d365-finance-and-operations/", "destination": "/blog/upgrade-from-ax-2012-to-d365-finance-and-operations/", "statusCode": 301 }
   ]
 }
 
