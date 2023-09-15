@@ -699,11 +699,6 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.dynamicssquare.com/blog/10-best-erp-systems-for-small-businesses-in-2022/</loc>
-  <lastmod>2023-06-13T12:38:54+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
   <loc>https://www.dynamicssquare.com/blog/what-is-microsoft-azure-iot-internet-of-things/</loc>
   <lastmod>2023-06-13T12:38:54+00:00</lastmod>
   <priority>0.51</priority>
@@ -917,6 +912,16 @@
       <url>
   <loc>https://www.dynamicssquare.com/blog/upgrade-from-ax-2012-to-d365-finance-and-operations/</loc>
   <lastmod>2023-09-06T14:38:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+            <url>
+  <loc>https://www.dynamicssquare.com/blog/chief-experience-officer-c-suite/</loc>
+  <lastmod>2023-09-15T14:38:54+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+            <url>
+  <loc>https://www.dynamicssquare.com/blog/dynamics-365-supply-chain-in-transportation-management/</loc>
+  <lastmod>2023-09-15T14:38:54+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 </urlset>
