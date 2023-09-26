@@ -6,23 +6,30 @@ class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
-}
+  }
 
   render() {
     return (
       <Html lang='en-US'>
         <Head>
-            <link href="/favicon.png" rel="icon" />
-            <link href="/favicon.png" rel="apple-touch-icon" />
-            <meta name="theme-color" content="#ee3442" />
-            <link
+          <link href="/favicon.png" rel="icon" />
+          <link href="/favicon.png" rel="apple-touch-icon" />
+          <meta name="theme-color" content="#ee3442" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
             href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Mochiy+Pop+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
             rel="stylesheet"
-            />
-            <meta name="google-site-verification" content="EZ7BsiYpEFL2ut-nfMdCXcrQzf6hVeHRkbXfUvhZnfQ" />
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XK9RWX5SL"></script>
-            <Script id="google-analytics" strategy="beforeInteractive">
-                {`
+          />
+          <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Mochiy+Pop+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+            rel="stylesheet"
+          />
+          <meta name="google-site-verification" content="EZ7BsiYpEFL2ut-nfMdCXcrQzf6hVeHRkbXfUvhZnfQ" />
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XK9RWX5SL"></script>
+          <Script id="google-analytics" strategy="beforeInteractive">
+            {`
                window.dataLayer = window.dataLayer || [];
                function gtag() {
                  dataLayer.push(arguments);
@@ -30,9 +37,9 @@ class MyDocument extends Document {
                gtag("js", new Date());
                gtag("config", "G-3XK9RWX5SL");
                 `}
-            </Script>
-            <Script id="tag-manager" strategy="beforeInteractive">
-                {`
+          </Script>
+          <Script id="tag-manager" strategy="beforeInteractive">
+            {`
               (function (w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -44,9 +51,9 @@ class MyDocument extends Document {
                 f.parentNode.insertBefore(j, f);
               })(window, document, "script", "dataLayer", "GTM-T5X2P3X");
                 `}
-            </Script>
-            <Script id="hotjar" strategy="beforeInteractive">
-                {`
+          </Script>
+          <Script id="hotjar" strategy="beforeInteractive">
+            {`
              (function (h, o, t, j, a, r) {
               h.hj =
                 h.hj ||
@@ -61,8 +68,8 @@ class MyDocument extends Document {
               a.appendChild(r);
             })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
                 `}
-            </Script>
-            {/* <Script id="clarity" strategy="beforeInteractive">
+          </Script>
+          {/* <Script id="clarity" strategy="beforeInteractive">
                 {`
              (function (c, l, a, r, i, t, y) {
               c[a] =
@@ -78,7 +85,7 @@ class MyDocument extends Document {
             })(window, document, "clarity", "script", "ar1dqt0vhs");
                 `}
             </Script> */}
-            
+
         </Head>
         <body>
           <Main />
