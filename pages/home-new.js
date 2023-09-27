@@ -325,7 +325,7 @@ export default function Home() {
                 <div className="new-btn-home">
                   <Link href="#exampleModal" >
                     <a className="bts" data-bs-toggle="modal">
-                      <span>Talk to an Expert <i class="bi bi-plus-circle"></i></span>
+                      <span>Talk to an Expert <i className="bi bi-arrow-right"></i></span>
                     </a>
                   </Link>
                 </div>
@@ -435,109 +435,119 @@ export default function Home() {
 
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <a href="/">
-                  <div className="gr">
-                    <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" />
-                    <video autoPlay muted loop>
-                      <source src="/video/Implementation-icon.mp4" type="video/mp4" />
-                    </video>
-                  </div>
-                  <h3>Implementation</h3>
-                  <p>Supercharge your business efficiency with Dynamics 365 implementation services. Unify data, robust cloud security, simplify business operations, and automate workflows to minimize your IT costs.</p>
-                  <div className="h-s-call" >
-                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                  </div>
-                </a>
+                <Link href="/our-services/dynamics-365-implementation-services/">
+                  <a>
+                    <div className="gr">
+                      <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" />
+                      <video autoPlay muted loop>
+                        <source src="/video/Implementation-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Implementation</h3>
+                    <p>Supercharge your business efficiency with Dynamics 365 implementation services. Unify data, robust cloud security, simplify business operations, and automate workflows to minimize your IT costs.</p>
+                    <div className="h-s-call" >
+                      <span>Learn More </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <a href="/">
-
-                  <div className="gr">
-                    <img src="/img/home/Upgrade-icon.png" alt="Upgrade-icon" />
-                    <video autoPlay muted loop>
-                      <source src="/video/Upgrade-icon.mp4" type="video/mp4" />
-                    </video>
-                  </div>
-                  <h3>Upgrade</h3>
-                  <p>Modernize your business by utilizing cloud CRM and ERP solutions with Dynamics 365 Upgrade Services. We assess, recommend, and upgrade your legacy solution to garner more growth opportunities.</p>
-                  <div className="h-s-call" >
-                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                  </div>
-                </a>
+                <Link href="/our-services/dynamics-365-support-services/">
+                  <a>
+                    <div className="gr">
+                      <img src="/img/home/Upgrade-icon.png" alt="Upgrade-icon" />
+                      <video autoPlay muted loop>
+                        <source src="/video/Upgrade-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Upgrade</h3>
+                    <p>Modernize your business by utilizing cloud CRM and ERP solutions with Dynamics 365 Upgrade Services. We assess, recommend, and upgrade your legacy solution to garner more growth opportunities.</p>
+                    <div className="h-s-call" >
+                      <span>Learn More </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <a href="/">
+                <Link href="/our-services/dynamics-365-upgrade-services/">
+                  <a>
 
-                  <div className="gr">
-                    <img src="/img/home/Support-icon.png" alt="Support-icon" />
-                    <video autoPlay muted loop>
-                      <source src="/video/Support-icon.mp4" type="video/mp4" />
-                    </video>
-                  </div>
-                  <h3>Support</h3>
-                  <p>Get seamless Dynamics 365 Support services for consistent business growth, irrespective of complexities. 150+ technical consultants are available to offer personalized support at a cost-effective pricing structure.</p>
-                  <div className="h-s-call" >
-                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                  </div>
-                </a>
+                    <div className="gr">
+                      <img src="/img/home/Support-icon.png" alt="Support-icon" />
+                      <video autoPlay muted loop>
+                        <source src="/video/Support-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Support</h3>
+                    <p>Get seamless Dynamics 365 Support services for consistent business growth, irrespective of complexities. 150+ technical consultants are available to offer personalized support at a cost-effective pricing structure.</p>
+                    <div className="h-s-call" >
+                      <span>Learn More </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <a href="/">
+                <Link href="#exampleModal">
+                  <a data-bs-toggle="modal">
 
-                  <div className="gr">
-                    <img src="/img/home/Consulting-Icon.png" alt="Consulting-Icon" />
-                    <video autoPlay muted loop>
-                      <source src="/video/Consulting-Icon.mp4" type="video/mp4" />
-                    </video>
-                  </div>
-                  <h3>Consulting</h3>
-                  <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
-                  <div className="h-s-call" >
-                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                  </div>
-                </a>
+                    <div className="gr">
+                      <img src="/img/home/Consulting-Icon.png" alt="Consulting-Icon" />
+                      <video autoPlay muted loop>
+                        <source src="/video/Consulting-Icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Consulting</h3>
+                    <p>Maximize ROI and achieve targets with our Dynamics 365 consulting services. We offer comprehensive strategies, expert implementation, and right path to fuel your business's growth.</p>
+                    <div className="h-s-call" >
+                      <span>Request Consultation </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <a href="/">
+                <Link href="#exampleModal">
+                  <a data-bs-toggle="modal">
 
-                  <div className="gr">
-                    <img src="/img/home/Audit-icon.png" alt="Audit-icon" />
-                    <video autoPlay muted loop>
-                      <source src="/video/Audit-icon.mp4" type="video/mp4" />
-                    </video>
-                  </div>
-                  <h3>Audit</h3>
-                  <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
-                  <div className="h-s-call" >
-                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                  </div>
-                </a>
+                    <div className="gr">
+                      <img src="/img/home/Audit-icon.png" alt="Audit-icon" />
+                      <video autoPlay muted loop>
+                        <source src="/video/Audit-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Audit</h3>
+                    <p>Evaluate your business effectiveness with our business-centric Dynamics 365 Audit services. Get desired results, achieve planned targets, and ensure optimum business performance.</p>
+                    <div className="h-s-call" >
+                      <span>Optimize My Business </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <a href="/">
-
-                  <div className="gr">
-                    <img src="/img/home/training-icon.png" alt="training-icon" />
-                    <video autoPlay muted loop>
-                      <source src="/video/training-icon.mp4" type="video/mp4" />
-                    </video>
-                  </div>
-                  <h3>Training</h3>
-                  <p>Reap utmost value by utilizing advanced features from your newly installed business solutions. We embrace a 360-degree training approach to help you achieve maximum results.</p>
-                  <div className="h-s-call" >
-                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                  </div>
-                </a>
+              <Link href="#exampleModal">
+                  <a data-bs-toggle="modal">
+                    <div className="gr">
+                      <img src="/img/home/training-icon.png" alt="training-icon" />
+                      <video autoPlay muted loop>
+                        <source src="/video/training-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Training</h3>
+                    <p>Reap utmost value by utilizing advanced features from your newly installed business solutions. We embrace a 360-degree training approach to help you achieve maximum results.</p>
+                    <div className="h-s-call" >
+                      <span>Empower My Team </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link> 
               </div>
             </div>
           </div>
@@ -597,14 +607,14 @@ export default function Home() {
         </div>
       </section>
       <div className="container hide-tomedia-max">
-      <div className="row justify-content-center">
-            <div className="col-lg-9">
-              <div className="new-sub-heading">
+        <div className="row justify-content-center">
+          <div className="col-lg-9">
+            <div className="new-sub-heading">
               <h2>Industry <br /> Tailored Solutions</h2>
               <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries, harness the data, and capture insights using AI-enabled software.</p>
-              </div>
             </div>
           </div>
+        </div>
       </div>
       <div className="slider-hone-section bg-2112">
         <div className="container-fluid">
@@ -634,7 +644,7 @@ export default function Home() {
                           <div className="new-btn-home">
                             <Link href="/industries/manufacturing/" >
                               <a className="bts bts-white">
-                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                                <span>Learn More  <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
                           </div>
@@ -651,9 +661,9 @@ export default function Home() {
                           <h4>Create and distribute data effortlessly with Media and Communications solutions</h4>
                           <p>Build a sustainable flow of content creation, management, and delivery. Drive collaboration, gain total visibility, and increase media reputation through different channels.  </p>
                           <div className="new-btn-home">
-                            <Link href="/" >
-                              <a className="bts bts-white">
-                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                            <Link href="#exampleModal" >
+                              <a className="bts bts-white" data-bs-toggle="modal">
+                                <span>Talk to an Expert   <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
                           </div>
@@ -670,9 +680,9 @@ export default function Home() {
                           <h4>Monitor and control the automotive business with Dynamics 365 Automotive solutions</h4>
                           <p>Align with changing consumer preferences, leverage automation, reduce overall business costs, and get predictive analytics for automotive business growth</p>
                           <div className="new-btn-home">
-                            <Link href="/" >
-                              <a className="bts bts-white">
-                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                            <Link href="#exampleModal" >
+                              <a className="bts bts-white" data-bs-toggle="modal">
+                                <span>Talk to an Expert   <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
                           </div>
@@ -689,9 +699,9 @@ export default function Home() {
                           <h4>Execute administrative policies with Government-specific Microsoft ERP solutions</h4>
                           <p>Enforce policies, monitor resources, enable data security, digitalize information flow, and integrate different departments with one another.  </p>
                           <div className="new-btn-home">
-                            <Link href="/" >
-                              <a className="bts bts-white">
-                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                            <Link href="#exampleModal" >
+                              <a className="bts bts-white" data-bs-toggle="modal">
+                                <span>Talk to an Expert <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
                           </div>
@@ -708,9 +718,9 @@ export default function Home() {
                           <h4>Get a competitive advantage with advanced Telecommunications solutions</h4>
                           <p>Bring flexibility to business operations, adopt new technologies instantly, upgrade existing processes, and get predicted analysis to stay ahead of the curve. </p>
                           <div className="new-btn-home">
-                            <Link href="/" >
-                              <a className="bts bts-white">
-                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                            <Link href="#exampleModal" >
+                              <a className="bts bts-white" data-bs-toggle="modal">
+                                <span>Talk to an Expert   <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
                           </div>
@@ -727,9 +737,9 @@ export default function Home() {
                           <h4>Simplify and manage complex financial activities with modern financial solutions. </h4>
                           <p>Maintain a consistent flow of funds, eliminate accounting errors, comply with financial regulations, and establish strong communication between departments for focused growth.  </p>
                           <div className="new-btn-home">
-                            <Link href="/" >
-                              <a className="bts bts-white">
-                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                            <Link href="#exampleModal" >
+                              <a className="bts bts-white" data-bs-toggle="modal">
+                                <span>Talk to an Expert   <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
                           </div>
@@ -746,9 +756,9 @@ export default function Home() {
                           <h4>Maximize patient care and optimize resources with powerful Healthcare solutions</h4>
                           <p>Make data-driven decisions, offer better patient care, increase operational efficiency, and get a boost in overall business productivity with minimal administrative costs. </p>
                           <div className="new-btn-home">
-                            <Link href="/" >
-                              <a className="bts bts-white">
-                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                            <Link href="#exampleModal" >
+                              <a className="bts bts-white" data-bs-toggle="modal">
+                                <span>Talk to an Expert   <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
                           </div>
@@ -765,9 +775,9 @@ export default function Home() {
                           <h4>Understand your customers and market fluctuations with customer-centric Retail solutions</h4>
                           <p>Acquire more customers, retain valuable clients, centralize payment structures, and maximize customer satisfaction throughout the customer sales journey. </p>
                           <div className="new-btn-home">
-                            <Link href="/" >
-                              <a className="bts bts-white ">
-                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                            <Link href="#exampleModal" >
+                              <a className="bts bts-white " data-bs-toggle="modal">
+                                <span>Talk to an Expert   <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
                           </div>
@@ -882,7 +892,7 @@ export default function Home() {
                   An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire business with full transparency across different operations.
                 </p>
                 <Link href="/products/dynamics-365-business-central/">
-                  <a href="/">
+                  <a>
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -909,7 +919,7 @@ export default function Home() {
                   Simplify complex financial operations while getting real-time data analytics and accurate insights. Avail automation, minimize investment costs, and monitor financial processes with data-driven insights.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-finance/">
-                  <a href="/">
+                  <a>
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -934,7 +944,7 @@ export default function Home() {
                 </div>
                 <p>Automate your entire supply chain, from getting raw materials to distributing the final products. Enhance operational efficiency, get real-time data analytics, and build a sustainable supply chain to overpower all business odds.</p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
-                  <a href="/">
+                  <a>
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -961,7 +971,7 @@ export default function Home() {
                 </div>
                 <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
-                  <a href="/">
+                  <a>
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -988,7 +998,7 @@ export default function Home() {
                 </div>
                 <p>Analyze and visualize the huge stack of data with interactive graphical representations to make data-driven decisions in real-time. Transform your data to make it accessible and valuable to refine decision-making.</p>
                 <Link href="/products/microsoft-power-bi/">
-                  <a href="/">
+                  <a>
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -1012,8 +1022,8 @@ export default function Home() {
                     Dynamics NAV</h3>
                 </div>
                 <p>A simple yet powerful ERP solution to manage, control, and track entire business operations with full visibility. Connect different departments, automate sales, and manage all back-end processes with ease.</p>
-                <Link href="/products/azure-iot-internet-of-things/">
-                  <a href="/">
+                <Link href="/products/microsoft-dynamics-nav/">
+                  <a>
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -1082,6 +1092,25 @@ Marketing</h3>
 
       </section>
 
+      <section style={{ display: 'none' }}>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className='new text-center'>
+                <h3>Roar ahead with AI-Powered Solutions</h3>
+                <p>Fear no business competition, conquer endless opportunities, acquire great strength, <br /> and become a fierce brand with Dynamics Square.</p>
+                <div className="new-btn-home">
+                  <Link href="#exampleModal" >
+                    <a className="bts" data-bs-toggle="modal">
+                      <span>Talk to an Expert <i className="bi bi-arrow-right"></i></span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <div className="pd-btm-60">
         <div className='vie'>
@@ -1092,9 +1121,9 @@ Marketing</h3>
             <h3>Roar ahead with AI-Powered Solutions</h3>
             <p>Fear no business competition, conquer endless opportunities, acquire great strength, <br /> and become a fierce brand with Dynamics Square.</p>
             <div className="new-btn-home">
-              <Link href="/" >
-                <a className="bts">
-                  <span>Talk to an Expert <i class="bi bi-plus-circle"></i></span>
+              <Link href="#exampleModal" >
+                <a className="bts" data-bs-toggle="modal">
+                  <span>Talk to an Expert <i className="bi bi-arrow-right"></i></span>
                 </a>
               </Link>
             </div>
@@ -1107,6 +1136,7 @@ Marketing</h3>
         </div>
 
       </div>
+
 
       <section className="pddd-80">
         <div className="container">
@@ -1124,7 +1154,7 @@ Marketing</h3>
                   <h3>82%</h3>
                   <h4>Businesses Meet Expected ROI</h4>
                   <p>Different businesses have achieved the expected ROI on time after the successful implementation of the Microsoft ERP solution.</p>
-                  <a href="/" className="btnnew">Read More</a>
+                  {/* <a href="/" className="btnnew">Read More</a> */}
                 </div>
                 <div className="bottom-sec">
                   <img src="/img/home/roi.png" alt="im " />
@@ -1140,7 +1170,7 @@ Marketing</h3>
                   <h3>2x</h3>
                   <h4>Productivity Increases</h4>
                   <p>Due to the centralized data structure, the overall efficiency and productivity of the team have increased by 2X.</p>
-                  <a href="/" className="btnnew">Read More</a>
+                  {/* <a href="/" className="btnnew">Read More</a> */}
                 </div>
 
               </div>
@@ -1151,7 +1181,7 @@ Marketing</h3>
                   <h3>46%</h3>
                   <h4>Improved Cost Saving</h4>
                   <p>Businesses that have upgraded to Microsoft ERP or CRM solutions have reported improved cost savings while limiting resources.</p>
-                  <a href="/" className="btnnew">Read More</a>
+                  {/* <a href="/" className="btnnew">Read More</a> */}
                 </div>
                 <div className="bottom-sec">
                   <img src="/img/home/46x.jpg" alt="im" />
@@ -1161,9 +1191,9 @@ Marketing</h3>
 
             <div className="col-lg-12">
               <div className="new-btn-home text-center top-bom-home">
-                <Link href="#exampleModal" >
-                  <a className="bts" data-bs-toggle="modal">
-                    <span>Read More <i class="bi bi-plus-circle"></i></span>
+                <Link href="/case-studies/" >
+                  <a className="bts">
+                    <span>Read More <i className="bi bi-arrow-right"></i></span>
                   </a>
                 </Link>
               </div>
@@ -1184,7 +1214,7 @@ Marketing</h3>
               <div className="new-btn-home text-center">
                 <Link href="#exampleModal" >
                   <a className="bts" data-bs-toggle="modal">
-                    <span>Talk To us Now <i class="bi bi-plus-circle"></i></span>
+                    <span>Talk To us Now <i className="bi bi-arrow-right"></i></span>
                   </a>
                 </Link>
               </div>

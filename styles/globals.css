@@ -8700,9 +8700,9 @@ color:var(--color-red)
  
 
 .new-btn-home .bts:hover .bi {
-  -webkit-transform: rotateZ(360deg);
+  /* -webkit-transform: rotateZ(360deg);
   -moz-transform: rotateZ(360deg);
-  transform: rotateZ(360deg);
+  transform: rotateZ(360deg); */
   color: #fff;
 }
 
@@ -9008,7 +9008,7 @@ color:var(--color-red)
   color: #fff;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-family: "Work Sans", sans-serif;
 }
 .slider-hone-section .slider-inner.pic-1 .bg-im p {
@@ -9255,7 +9255,7 @@ color:var(--color-red)
   color: #385575;
   line-height: 1.5;
   font-size: 16px;
-  margin-bottom:30px
+  margin-bottom:0px
 }
 .exp-box .top-sec a.btnnew{
   padding:15px 0px;
@@ -9283,7 +9283,7 @@ color:var(--color-red)
   padding-top:60px
 }
 .new-pad0-home{
-  padding-bottom:220px
+  padding-bottom:120px
 }
 .pddd-80{
   /* padding:100px 0px */
