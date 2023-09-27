@@ -41,7 +41,7 @@ const FooterHide = () =>{
     <>
      
 
-    <div className="footer-contact-s">
+    <div className="footer-contact-s footer-contact-s-h">
         <div className="container">
         <div className="row">
             <div className="col-lg-3">
