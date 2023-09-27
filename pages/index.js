@@ -592,7 +592,7 @@ export default function Home() {
               <div className="acive-card">
                 <div className="left">
 
-                  <span>11+</span>
+                  <span>12+</span>
                   <img src="/img/home/trophy.png" alt="trophy" />
                 </div>
                 <div className="right">
