@@ -334,21 +334,10 @@ export default function Home() {
             <div className="col-lg-6 align-self-center">
               <div className="home-into-video-title">
                 <div className="main-v">
-                  {/* <video autoPlay muted loop>
-                    <source src="/video/DS-banner-video.mp4"></source>
-                  </video> */}
                   <div className="video pulse"
-
-
-
                   >
                     <CardVideo />
-
-                    {/* <img src="/video/banner-video-ds.svg" alt="" /> */}
-
-
                   </div>
-                  {/* <Type /> */}
                   <div className="over-ima">
                     <img src="/img/hand-icons.png" alt="image" />
                   </div>
@@ -636,16 +625,15 @@ export default function Home() {
                 >
 
                   <SwiperSlide>
-                    <div className="slider-inner pic-1">
+                    <div className="slider-inner pic-1 img-01">
                       <div className="bg-im">
-                        {/* <img src="/img/home/inductry-bg-1.jpg" alt="inductry-bg-1" /> */}
                         <div className="slider-contet">
                           <h3>Manufacturing</h3>
                           <h4>Streamline production with next-gen Manufacturing solutions</h4>
                           <p>Eliminate language barriers, reduce equipment downtime, ensure continuous supply chain, monitor inventory, and improve the overall efficiency of your manufacturing plant.</p>
                           <div className="new-btn-home">
-                            <Link href="/" >
-                              <a className="bts">
+                            <Link href="/industries/manufacturing/" >
+                              <a className="bts bts-white">
                                 <span>Learn More  <i class="bi bi-plus-circle"></i></span>
                               </a>
                             </Link>
@@ -656,16 +644,15 @@ export default function Home() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="slider-inner pic-1">
+                    <div className="slider-inner pic-1 img-02">
                       <div className="bg-im">
-                        {/* <img src="/img/home/inductry-bg-1.jpg" alt="inductry-bg-1" /> */}
                         <div className="slider-contet">
-                          <h3>Manufacturing</h3>
-                          <h4>Streamline production with next-gen Manufacturing solutions</h4>
-                          <p>Eliminate language barriers, reduce equipment downtime, ensure continuous supply chain, monitor inventory, and improve the overall efficiency of your manufacturing plant.</p>
+                          <h3>Media and Communications</h3>
+                          <h4>Create and distribute data effortlessly with Media and Communications solutions</h4>
+                          <p>Build a sustainable flow of content creation, management, and delivery. Drive collaboration, gain total visibility, and increase media reputation through different channels.  </p>
                           <div className="new-btn-home">
                             <Link href="/" >
-                              <a className="bts">
+                              <a className="bts bts-white">
                                 <span>Learn More  <i class="bi bi-plus-circle"></i></span>
                               </a>
                             </Link>
@@ -676,16 +663,110 @@ export default function Home() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
-                    <div className="slider-inner pic-1">
+                    <div className="slider-inner pic-1 img-03">
                       <div className="bg-im">
-                        {/* <img src="/img/home/inductry-bg-1.jpg" alt="inductry-bg-1" /> */}
                         <div className="slider-contet">
-                          <h3>Manufacturing</h3>
-                          <h4>Streamline production with next-gen Manufacturing solutions</h4>
-                          <p>Eliminate language barriers, reduce equipment downtime, ensure continuous supply chain, monitor inventory, and improve the overall efficiency of your manufacturing plant.</p>
+                          <h3>Automotive</h3>
+                          <h4>Monitor and control the automotive business with Dynamics 365 Automotive solutions</h4>
+                          <p>Align with changing consumer preferences, leverage automation, reduce overall business costs, and get predictive analytics for automotive business growth</p>
                           <div className="new-btn-home">
                             <Link href="/" >
-                              <a className="bts">
+                              <a className="bts bts-white">
+                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="slider-inner pic-1 img-04">
+                      <div className="bg-im">
+                        <div className="slider-contet">
+                          <h3>Government</h3>
+                          <h4>Execute administrative policies with Government-specific Microsoft ERP solutions</h4>
+                          <p>Enforce policies, monitor resources, enable data security, digitalize information flow, and integrate different departments with one another.  </p>
+                          <div className="new-btn-home">
+                            <Link href="/" >
+                              <a className="bts bts-white">
+                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="slider-inner pic-1 img-05">
+                      <div className="bg-im">
+                        <div className="slider-contet">
+                          <h3>Telecommunications</h3>
+                          <h4>Get a competitive advantage with advanced Telecommunications solutions</h4>
+                          <p>Bring flexibility to business operations, adopt new technologies instantly, upgrade existing processes, and get predicted analysis to stay ahead of the curve. </p>
+                          <div className="new-btn-home">
+                            <Link href="/" >
+                              <a className="bts bts-white">
+                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="slider-inner pic-1 img-06">
+                      <div className="bg-im">
+                        <div className="slider-contet">
+                          <h3>Financial Services</h3>
+                          <h4>Simplify and manage complex financial activities with modern financial solutions. </h4>
+                          <p>Maintain a consistent flow of funds, eliminate accounting errors, comply with financial regulations, and establish strong communication between departments for focused growth.  </p>
+                          <div className="new-btn-home">
+                            <Link href="/" >
+                              <a className="bts bts-white">
+                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="slider-inner pic-1 img-07">
+                      <div className="bg-im">
+                        <div className="slider-contet">
+                          <h3>Healthcare</h3>
+                          <h4>Maximize patient care and optimize resources with powerful Healthcare solutions</h4>
+                          <p>Make data-driven decisions, offer better patient care, increase operational efficiency, and get a boost in overall business productivity with minimal administrative costs. </p>
+                          <div className="new-btn-home">
+                            <Link href="/" >
+                              <a className="bts bts-white">
+                                <span>Learn More  <i class="bi bi-plus-circle"></i></span>
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="slider-inner pic-1 img-08">
+                      <div className="bg-im">
+                        <div className="slider-contet">
+                          <h3>Retail</h3>
+                          <h4>Understand your customers and market fluctuations with customer-centric Retail solutions</h4>
+                          <p>Acquire more customers, retain valuable clients, centralize payment structures, and maximize customer satisfaction throughout the customer sales journey. </p>
+                          <div className="new-btn-home">
+                            <Link href="/" >
+                              <a className="bts bts-white ">
                                 <span>Learn More  <i class="bi bi-plus-circle"></i></span>
                               </a>
                             </Link>
@@ -1038,7 +1119,7 @@ Marketing</h3>
           </div>
           <div className="row g-2">
             <div className="col-lg-4">
-              <div className="exp-box">
+              <div className="exp-box exp-box-m">
                 <div className="top-sec b-t-pad">
                   <h3>82%</h3>
                   <h4>Businesses Meet Expected ROI</h4>
@@ -1065,7 +1146,7 @@ Marketing</h3>
               </div>
             </div>
             <div className="col-lg-4">
-              <div className="exp-box">
+              <div className="exp-box exp-box-m">
                 <div className="top-sec b-t-pad">
                   <h3>46%</h3>
                   <h4>Improved Cost Saving</h4>
