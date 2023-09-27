@@ -320,7 +320,7 @@ export default function Home() {
           <div className="row d-flex d-f-c">
             <div className="col-lg-6 align-self-center">
               <div className="home-into-page-title">
-                <h1>One of the USA's Top Microsoft Dynamics 365 Partner</h1>
+                <h1>One of the USA's Top Microsoft Dynamics 365 Partners</h1>
                 <p>Streamline your end-to-end business operations, optimize resources, maximize ROI, and accelerate business growth with AI-powered Microsoft cloud solutions.</p>
                 <div className="new-btn-home">
                   <Link href="#exampleModal" >
