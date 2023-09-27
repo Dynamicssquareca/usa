@@ -607,6 +607,16 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <div className="container hide-tomedia-max">
+      <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="new-sub-heading">
+              <h2>Industry <br /> Tailored Solutions</h2>
+              <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries, harness the data, and capture insights using AI-enabled software.</p>
+              </div>
+            </div>
+          </div>
+      </div>
       <div className="slider-hone-section bg-2112">
         <div className="container-fluid">
           <div className="row justify-content-end">
@@ -695,7 +705,7 @@ export default function Home() {
       </div>
 
 
-      <div className="container" style={{ marginTop: "-300px" }}>
+      <div className="container margin-top-300 hide-tomedia-min">
         <div className="row">
           <div className="col-lg-5 align-self-center">
             <div className="slider-left-info">
