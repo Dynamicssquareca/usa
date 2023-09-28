@@ -454,7 +454,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <Link href="/our-services/dynamics-365-support-services/">
+                <Link href="/our-services/dynamics-365-upgrade-services/">
                   <a>
                     <div className="gr">
                       <img src="/img/home/Upgrade-icon.png" alt="Upgrade-icon" />
@@ -473,7 +473,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <Link href="/our-services/dynamics-365-upgrade-services/">
+                <Link href="/our-services/dynamics-365-support-services/">
                   <a>
 
                     <div className="gr">
