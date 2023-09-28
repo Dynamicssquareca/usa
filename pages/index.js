@@ -1098,12 +1098,12 @@ Marketing</h3>
 
       </section>
 
-      <section style={{ display: 'none' }}>
+      <section className="call-to-home-action">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
-              <div className='new text-center'>
-                <h3>Roar ahead with AI-Powered Solutions</h3>
+              <div className='call-to-home-action-inner text-center'>
+                <h3>Roar ahead with <br />AI-Powered Solutions</h3>
                 <p>Fear no business competition, conquer endless opportunities, acquire great strength, <br /> and become a fierce brand with Dynamics Square.</p>
                 <div className="new-btn-home">
                   <Link href="#exampleModal" >
@@ -1115,10 +1115,15 @@ Marketing</h3>
               </div>
             </div>
           </div>
+           
+
         </div>
       </section>
+        <div className="mass-cut-pic">
+              <img src="/img/mascut.png" alt="masscut" />
+            </div>
 
-      <div className="pd-btm-60">
+      <div className="pd-btm-60 min-w-di">
         <div className='vie'>
           <video id="background-video" autoPlay muted loop>
             <source src="/video/masscot-background.mp4" type="video/mp4" />
