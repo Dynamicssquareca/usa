@@ -5,7 +5,8 @@ import React, { useRef, useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination, Autoplay, FreeMode } from "swiper";
+import 'swiper/css/navigation';
+import { Pagination, Autoplay, FreeMode,Navigation } from "swiper";
 import Type from "../components/type";
 import Card from "../components/Crads";
 import CardVideo from "../components/Cradsvideo";
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics Solutions Partner in USA | Dynamics Square</title>
+        <title>Microsoft Solutions Partner in USA | Dynamics Square</title>
         <meta
           name="description"
           content="Dynamics Square is the USA's leading Microsoft Solutions Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
@@ -23,7 +24,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.dynamicssquare.com/" />
         <meta
           property="og:title"
-          content="Microsoft Dynamics Solutions Partner in USA | Dynamics Square"
+          content="Microsoft Solutions Partner in USA | Dynamics Square"
         />
         <meta property="og:site_name" content="Dynamics Square" />
         <meta property="og:url" content="https://www.dynamicssquare.com" />
@@ -44,7 +45,7 @@ export default function Home() {
         />
         <meta
           property="twitter:title"
-          content="Microsoft Dynamics Solutions Partner in USA | Dynamics Square"
+          content="Microsoft Solutions Partner in USA | Dynamics Square"
         />
         <meta
           property="twitter:description"
@@ -320,8 +321,8 @@ export default function Home() {
           <div className="row d-flex d-f-c">
             <div className="col-lg-6 align-self-center">
               <div className="home-into-page-title">
-                <h1>One of the USA's Top Microsoft Dynamics 365 Partners</h1>
-                <p>Streamline your end-to-end business operations, optimize resources, maximize ROI, and accelerate business growth with AI-powered Microsoft cloud solutions.</p>
+                <h1>One of the USA's Top Microsoft Solutions Partner</h1>
+                <p>Get your hands-on with an AI-driven ERP solution; Maximize ROI, Accelerate Business Growth, and Bring Automation - Your Path to Success Starts Here.</p>
                 <div className="new-btn-home">
                   <Link href="#exampleModal" >
                     <a className="bts" data-bs-toggle="modal">
@@ -629,8 +630,11 @@ export default function Home() {
                   }}
                   pagination={{
                     dynamicBullets: true,
+                    clickable: true,
                   }}
-                  modules={[Pagination, Autoplay]}
+                  navigation={true}
+                  
+                  modules={[Pagination, Autoplay, Navigation]}
                   className="mySwiper"
                 >
 
@@ -678,7 +682,7 @@ export default function Home() {
                         <div className="slider-contet">
                           <h3>Automotive</h3>
                           <h4>Monitor and control the automotive business with Dynamics 365 Automotive solutions</h4>
-                          <p>Align with changing consumer preferences, leverage automation, reduce overall business costs, and get predictive analytics for automotive business growth</p>
+                          <p>Align with changing consumer preferences, leverage automation, reduce overall business costs, and get predictive analytics for automotive business growth.</p>
                           <div className="new-btn-home">
                             <Link href="#exampleModal" >
                               <a className="bts bts-white" data-bs-toggle="modal">
@@ -817,7 +821,7 @@ export default function Home() {
             <div className="col-lg-9">
               <div className="new-sub-heading">
                 <h2>Why Businesses Trust Dynamics Square?</h2>
-                <p>Dynamis Square is the leading Microsoft Dynamics 365 partner, offering future-ready business solutions to global organizations.</p>
+                <p>Dynamics Square is the leading Microsoft Solution partner, offering future-ready business solutions to global organizations.</p>
               </div>
             </div>
           </div>
@@ -829,12 +833,14 @@ export default function Home() {
                 </div>
                 <Swiper
                   autoplay={{
-                    delay: 10000,
+                    delay: 8000,
                     disableOnInteraction: true,
                   }}
                   pagination={{
                     dynamicBullets: true,
+                    clickable: true,
                   }}
+                  
                   modules={[Pagination, Autoplay]}
                   className="mySwiper"
                 >
