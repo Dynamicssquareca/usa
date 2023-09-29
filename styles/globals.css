@@ -11980,19 +11980,28 @@ margin:0px 10px 10px 0px
 .wp-block-table{
   overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    
 }
 .blogs-content-inner table{
-  overflow-x: auto;
+  display: block;
+    width: 100%;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    width:100%;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
     color: #273266;
+    margin-bottom: 30px;
 }
-.blogs-content-inner table tbody tr, .blogs-content-inner table tbody tr td{
+.blogs-content-inner table tbody tr, .blogs-content-inner table tbody tr td,.blogs-content-inner table thead tr th{
   border: 1px solid #ddd;
   padding:10px;
   color: #273266;
 }
-
+.blogs-content-inner table thead tr th{
+  padding: 15px 10px;
+  background: #223e66;
+  color: #fff;
+  font-weight: 500;
+}
 .blogs-ex-side-cate ul {
   padding: 15px 15px 15px 0px;
   list-style: none;
