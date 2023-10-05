@@ -321,7 +321,7 @@ export default function Home() {
           <div className="row d-flex d-f-c">
             <div className="col-lg-6 align-self-center">
               <div className="home-into-page-title">
-                <h1>One of the USA's Top Microsoft Solutions Partner</h1>
+                <h1>USA's <span>#1</span> Microsoft Solutions Partner</h1>
                 <p>Get your hands-on with an AI-driven ERP solution; Maximize ROI, Accelerate Business Growth, and Bring Automation - Your Path to Success Starts Here.</p>
                 <div className="new-btn-home">
                   <Link href="#exampleModal" >
@@ -464,7 +464,7 @@ export default function Home() {
                       </video>
                     </div>
                     <h3>Upgrade</h3>
-                    <p>Modernize your business by utilizing cloud CRM and ERP solutions with Dynamics 365 Upgrade Services. We assess, recommend, and upgrade your legacy solution to garner more growth opportunities.</p>
+                    <p>Modernize your business with our Dynamics 365 Upgrade Services. We assess, recommend, and upgrade your legacy solution to garner better growth opportunities.</p>
                     <div className="h-s-call" >
                       <span>Learn More </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -484,7 +484,7 @@ export default function Home() {
                       </video>
                     </div>
                     <h3>Support</h3>
-                    <p>Get seamless Dynamics 365 Support services for consistent business growth, irrespective of complexities. 150+ technical consultants are available to offer personalized support at a cost-effective pricing structure.</p>
+                    <p>Access proactive Dynamics 365 Support services from our team of 150+ Microsoft-certified consultants. We tailor solutions to ensure your business's success while managing costs.</p>
                     <div className="h-s-call" >
                       <span>Learn More </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -901,7 +901,7 @@ export default function Home() {
                   </h3>
                 </div>
                 <p>
-                  An all-in-one business solution specifically for SMBs that offers a 360-degree holistic view of the entire business with full transparency across different operations.
+                  An all-in-one business management solution specifically designed for SMBs and startups that offers a 360-degree holistic view of the entire business with full transparency across different operations.
                 </p>
                 <Link href="/products/dynamics-365-business-central/">
                   <a>
@@ -954,7 +954,7 @@ export default function Home() {
                     Supply Chain
                   </h3>
                 </div>
-                <p>Automate your entire supply chain, from getting raw materials to distributing the final products. Enhance operational efficiency, get real-time data analytics, and build a sustainable supply chain to overpower all business odds.</p>
+                <p>Automate your entire supply chain process with Dynamics 365 Supply Chain Management. Boost efficiency, cut costs, enhance accuracy, gain real-time insights, and improve customer service.</p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
                   <a>
                     <div className="h-s-call" >

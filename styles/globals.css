@@ -8654,8 +8654,8 @@ color:var(--color-red)
 .home-into-page-title {
 }
 .home-into-page-title h1 {
-  font-size:2.875rem !important;
-  font-weight: bold;
+  font-size:3.5rem !important;
+  font-weight: 600;
   color: #fff;
   margin-bottom: 32px;
   font-family: "Work Sans", sans-serif;
