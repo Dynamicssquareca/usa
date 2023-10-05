@@ -331,7 +331,7 @@ border:none
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 30px;
+  padding: 10px 30px;
 }
 
 .header.header-scrolled {
@@ -345,7 +345,7 @@ border:none
 
 .fixed-top {
   background: #fff;
-  padding: 8px 30px;
+  padding: 10px 30px;
   box-shadow: var(--shadow-medium);
   -moz-box-shadow: var(--shadow-medium);
   -webkit-box-shadow: var(--shadow-medium);

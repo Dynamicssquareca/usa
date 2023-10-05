@@ -5,6 +5,8 @@ import Script from "next/script";
 import parse from "html-react-parser";
 import { useRouter } from 'next/router';
 import BlogSubscriberForm from "../../components/BlogSubscriberForm";
+import Image from "next/image";
+import cheerio from 'cheerio';
 import { ShareSocial } from "react-share-social";
 import {
   FacebookShareButton,
@@ -12,9 +14,32 @@ import {
   LinkedinShareButton,
 } from "react-share";
 
+// Utility function to parse HTML content and extract image URLs
+function parseImagesFromHtml(htmlContent) {
+  if (!htmlContent) {
+    return []; // Return an empty array if htmlContent is undefined or null
+  }
+
+  const $ = cheerio.load(htmlContent.toString()); // Convert to string
+  const images = [];
+
+  $('img').each((index, element) => {
+    const src = $(element).attr('src');
+    const alt = $(element).attr('alt');
+    images.push({ src, alt });
+  });
+
+  return images;
+}
+
+
 
 function Post({ blogs, blogcat, authordetials, author }) {
   const router = useRouter();
+  const images = parseImagesFromHtml(blogs.description);
+  const imageLoader = ({ src, width, quality }) => {
+    return `${src}?w=${width}&q=${quality || 85}`
+  }
   return (
     
     <div>
@@ -150,7 +175,28 @@ function Post({ blogs, blogcat, authordetials, author }) {
 
                       <div className="blogs-content">
                         <div className="blogs-content-inner">
-                          {parse(item.description)}
+                          {/* {parse(item.description)} */}
+                          {parse(item.description, {
+                            replace: (domNode) => {
+                              // Render images using next/image
+                              if (domNode.type === 'tag' && domNode.name === 'img') {
+                                const src = domNode.attribs.src;
+                                const alt = domNode.attribs.alt;
+                                return (
+                                //  <div style={{margin:'30px 0px'}}>
+                                //    <Image src={src} alt={alt} width={650} height={350} key={src}
+                                //     objectFit='contain' loader={imageLoader}  />
+                                //   </div>
+                                <div style={{ position: "relative", width: "100%", paddingBottom: "40%",margin:"30px 0px" }}>
+                                <Image src={src} alt={alt} layout="fill"
+                                  objectFit="contain" key={src} />
+                              </div>
+                                );
+                              }
+                              // Return other nodes as is
+                              return domNode;
+                            },
+                          })}
                         </div>
                         <div><em>Tags</em>:
                         <>
@@ -200,6 +246,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                                 <img
                                   src={author.profile_photo_path}
                                   alt="bg-pic"
+                                  width={74}
+                                  height={74}
                                 />
                                 <span className="link-din"><a href={author.linkedin_url} target="_blank"> <i className="bi bi-linkedin"></i></a></span>
                               </div>
@@ -216,8 +264,8 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   </div>
                   <div className="col-lg-4">
                     <div className="prom-bann">
-                      <Link href="https://www.dynamicssquare.com/schedule-a-demo/"><a style={{display:'block',marginBottom:'20px'}}><img src="/img/blog-side-pic-1.png" alt="blog-side-pic-1" /></a></Link>
-                      <Link href="https://www.dynamicssquare.com/ebook/dynamics-365-finance/"><a><img src="/img/blog-side-pic-2.png" alt="blog-side-pic-2" /></a></Link>
+                      <Link href="https://www.dynamicssquare.com/schedule-a-demo/"><a style={{display:'block',marginBottom:'20px'}}><Image src="/img/blog-side-pic-1.png" alt="blog-side-pic-1" width={413} height={350} /></a></Link>
+                      <Link href="https://www.dynamicssquare.com/ebook/dynamics-365-finance/"><a><Image src="/img/blog-side-pic-2.png" alt="blog-side-pic-2" width={413} height={190} /></a></Link>
                     </div>
                   </div>
                 </div>

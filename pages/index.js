@@ -445,9 +445,9 @@ export default function Home() {
                       </video>
                     </div>
                     <h3>Implementation</h3>
-                    <p>Supercharge your business efficiency with Dynamics 365 implementation services. Unify data, robust cloud security, simplify business operations, and automate workflows to minimize your IT costs.</p>
+                    <p>Boost your business efficiency with Dynamics 365 implementation services. Unify data, ensure robust cloud security, simplify operations, and automate workflows to reduce IT costs.</p>
                     <div className="h-s-call" >
-                      <span>Learn More </span> <i className="bi bi-arrow-right"></i>
+                      <span>Implement Now </span> <i className="bi bi-arrow-right"></i>
                     </div>
                   </a>
                 </Link>
