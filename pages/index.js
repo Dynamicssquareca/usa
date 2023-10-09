@@ -321,7 +321,7 @@ export default function Home() {
           <div className="row d-flex d-f-c">
             <div className="col-lg-6 align-self-center">
               <div className="home-into-page-title">
-                <h1>USA's <span>#1</span> Microsoft Solutions Partner</h1>
+                <h1>USA's <span>Leading</span> Microsoft Solutions Partner</h1>
                 <p>Get your hands-on with an AI-driven ERP solution; Maximize ROI, Accelerate Business Growth, and Bring Automation - Your Path to Success Starts Here.</p>
                 <div className="new-btn-home">
                   <Link href="#exampleModal" >
