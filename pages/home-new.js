@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay, FreeMode } from "swiper";
 import Link from "next/link";
+import HorizontalScroll from "../components/HorizontalScroll";
 
 export default function Home() {
   return (
@@ -1123,7 +1124,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+       <div>
 
+
+       <HorizontalScroll />
+
+       </div>
       <section id="testimonials" className="testimonials">
         <div className="container" data-aos="fade-up">
           <div className="row">
