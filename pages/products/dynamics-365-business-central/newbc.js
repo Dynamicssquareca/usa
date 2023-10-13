@@ -295,14 +295,14 @@ const BusinessCentralNew = () => {
       </section>
 
       <div className="fixt-back-col">
-    <div className="container">
+        <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="heading-colo-bg">
                 <h2>
                   Business Central Modules: A Perfect ERP for Any Business
                 </h2>
-                <p style={{marginBottom:'-60px'}}>
+                <p style={{ marginBottom: "-60px" }}>
                   Microsoft Dynamics Business Central fits in any business
                   regardless of complexity with the variety of modules. These
                   modules are:
@@ -310,10 +310,490 @@ const BusinessCentralNew = () => {
               </div>
             </div>
           </div>
-      
         </div>
-    <HorizontalScroll />
-    </div>
+        <HorizontalScroll />
+      </div>
+
+      <section className="bc-fut-top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 align-self-center">
+              <div className="left--side-title">
+                <h2>
+                  Dynamics 365 Business Central Features <br /> Skyrocket your
+                  Business Growth
+                </h2>
+                <p>
+                  Microsoft Dynamics 365 Business Central offers various
+                  features that make it a perfect solution for all businesses.
+                </p>
+                <div className="btn--bc">
+                  <Link href="/contact-us/">
+                    <a className="btn btn-md">Read Essential Features</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 align-self-center">
+              <div className="right--side-pic">
+                <Image
+                  width={468}
+                  height={447}
+                  src="/img/ds-rockets.png"
+                  alt="ds-rockets"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div className="row bc--top-pad">
+            <div className="col-lg-3">
+              <div className="bc--feat-box">
+                <Image
+                  width={57}
+                  height={48}
+                  src="/img/centralized-data-servers.png"
+                  alt="centralized-data-servers"
+                />
+                <h3>Centralized Data Servers</h3>
+                <p>
+                  Being a cloud-based solution, Business Central empowers
+                  businesses to centralize their entire data on the cloud. Also,
+                  it enables users to connect, collaborate, and communicate on a
+                  single platform.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="bc--feat-box">
+                <Image
+                  width={57}
+                  height={48}
+                  src="/img/ai-driven-automation.png"
+                  alt="ai-driven-automation"
+                />
+                <h3>AI-Driven Automation</h3>
+                <p>
+                  With the help of advanced technologies like AI and BI, you can
+                  use seamless automation to enhance the overall productivity of
+                  the team. Such automation tools minimize the manual and
+                  recurring tasks in the system.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="bc--feat-box">
+                <Image
+                  width={57}
+                  height={48}
+                  src="/img/simplify-business-operations.png"
+                  alt="simplify-business-operations"
+                />
+                <h3>Simplify Business Operations</h3>
+                <p>
+                  Fluctuating markets and customer demand make the existing
+                  process complex and slow. Microsoft Dynamics Business Central
+                  is a modern solution that simplifies processes regardless of
+                  complexity and pushes a business toward scalability.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="bc--feat-box">
+                <Image
+                  width={57}
+                  height={48}
+                  src="/img/security-and-compliance.png"
+                  alt="security-and-compliance"
+                />
+                <h3>Data Security and Compliance</h3>
+                <p>
+                  All your data is safe and secured with the trust of Microsoft
+                  Azure - Microsoft Cloud Services. Business Central follows an
+                  encrypted protocol and possesses all compliance certifications
+                  for global business operations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="new-banner-call-to">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="ll-pic">
+                <img src="/img/mas-bc-pic.png" alt="mas-bc-pic" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="col-to-content">
+                <h3>
+                  Switch to Microsoft <br /> Dynamics 365 Business Central{" "}
+                  <span>Open the Door to Endless Opportunities</span>
+                </h3>
+                <p>
+                  Business Central will digitally transform your business to
+                  help you stay ahead in the market while growing continuously.
+                </p>
+                <a className="btn btn-md" href="">
+                  Connect with the Business Central Exports
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-white-bc">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="heading-colo-bg">
+                <h2>D365 Business Central Services</h2>
+                <p>
+                  Check out our efficient, reliable, and cost-effective services
+                  that enable Dynamics Business Central to focus on your
+                  business Growth.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/our-services/dynamics-365-implementation-services/">
+                  <a>
+                    <div className="gr">
+                      <img
+                        src="/img/home/Implementation-icon.png"
+                        alt="Implementation-icon"
+                      />
+                      <video autoPlay muted loop>
+                        <source
+                          src="/video/Implementation-icon.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                    <h3>Implementation</h3>
+                    <p>
+                      Boost your business efficiency with Dynamics 365
+                      implementation services. Unify data, ensure robust cloud
+                      security, simplify operations, and automate workflows to
+                      reduce IT costs.
+                    </p>
+                    <div className="h-s-call">
+                      <span>Implement Now </span>{" "}
+                      <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/our-services/dynamics-365-upgrade-services/">
+                  <a>
+                    <div className="gr">
+                      <img
+                        src="/img/home/Upgrade-icon.png"
+                        alt="Upgrade-icon"
+                      />
+                      <video autoPlay muted loop>
+                        <source
+                          src="/video/Upgrade-icon.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                    <h3>Upgrade</h3>
+                    <p>
+                      Modernize your business with our Dynamics 365 Upgrade
+                      Services. We assess, recommend, and upgrade your legacy
+                      solution to garner better growth opportunities.
+                    </p>
+                    <div className="h-s-call">
+                      <span>Learn More </span>{" "}
+                      <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/our-services/dynamics-365-support-services/">
+                  <a>
+                    <div className="gr">
+                      <img
+                        src="/img/home/Support-icon.png"
+                        alt="Support-icon"
+                      />
+                      <video autoPlay muted loop>
+                        <source
+                          src="/video/Support-icon.mp4"
+                          type="video/mp4"
+                        />
+                      </video>
+                    </div>
+                    <h3>Support</h3>
+                    <p>
+                      Access proactive Dynamics 365 Support services from our
+                      team of 150+ Microsoft-certified consultants. We tailor
+                      solutions to ensure your business's success while managing
+                      costs.
+                    </p>
+                    <div className="h-s-call">
+                      <span>Learn More </span>{" "}
+                      <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="pri-wrper-bc">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="heading-colo-bg">
+                <h2>Dynamics 365 Business Central Pricing & Licensing</h2>
+                <p>
+                  Choose the perfect Business Central licensing plan that suits
+                  your unique business.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="price0-bc-new">
+                <div className="pr-head">
+                  <h3>
+                    Business Central <br /> Essential
+                  </h3>
+                </div>
+                <div className="pr-body">
+                  <div className="pr-pice">
+                    <span>$70</span> Per-User/Month
+                  </div>
+                  <div className="list-ul">
+                    <ul>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Financial Management
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Inventory Management
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Order Management
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Purchase Order
+                        Management
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Project Management
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Additional
+                        Capabilities
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="price0-bc-new">
+                <div className="pr-head">
+                  <h3>
+                    Business Central <br /> Premium
+                  </h3>
+                </div>
+                <div className="pr-body">
+                  <div className="pr-pice">
+                    <span>$100</span> Per-User/Month
+                  </div>
+                  <div className="list-ul">
+                    <ul>
+                      <li>
+                        <i className="bi bi-check-lg"></i>All Essentials
+                        Features
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Service Order
+                        Management
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Manufacturing
+                        Management
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="price0-bc-new">
+                <div className="pr-head">
+                  <h3>
+                    Business Central <br /> Team Member
+                  </h3>
+                </div>
+                <div className="pr-body">
+                  <div className="pr-pice">
+                    <span>$8</span> Per-User/Month
+                  </div>
+                  <div className="list-ul">
+                    <ul>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Access data within
+                        Microsoft BC
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Update existing data
+                        and entries
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Approve or reject
+                        tasks in workflows
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Create or edit sales
+                        or purchase quote
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Create or edit
+                        personal information.
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Edit job time sheets
+                      </li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Microsoft Power Apps
+                        integration
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-12">
+              <div className="text-center" style={{padding:'60px'}}>
+                <a href="#exampleModal"   data-bs-toggle="modal" className="btn btn-md btn-mod-c">Contact Licensing Consultant Now!</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+        <div className="row">
+            <div className="col-lg-7 align-self-center">
+              <div className="left--side-title">
+                <h2>Why are Businesses choosing <br /> Dynamics Square over others?</h2>
+                <p>Other than trust, reliable services, and cost-effective pricing, <br /> below are the few points that make</p>
+              </div>
+            </div>
+            <div className="col-lg-5 align-self-center">
+              <div className="right--side-pic right--side-pic-b">
+                <Image
+                  width={579}
+                  height={376}
+                  src="/img/ds-new-shape.png"
+                  alt="ds-new-shape"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="bc---soprt">
+                <div className="lef">
+                <Image
+                  width={57}
+                  height={48} src="/img/business-centric-solutions.png" alt="business-centric-solutions" />
+                </div>
+                <div className="rig">
+                  <h3>Business-Centric Solutions</h3>
+                  <p>We personalize Business Central based on your unique business and its operations to match up with market needs and customer demands.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="bc---soprt">
+                <div className="lef">
+                <Image
+                  width={57}
+                  height={48} src="/img/certified-consultants.png" alt="certified-consultants" />
+                </div>
+                <div className="rig">
+                  <h3>Microsoft Certified Consultants</h3>
+                  <p>As a Microsoft Solutions Partner, we have 150+ Microsoft-certified Dynamics 365 consultants. We are available to help you resolve any issue and build growth strategies.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="bc---soprt">
+                <div className="lef">
+                <Image
+                  width={57}
+                  height={48} src="/img/sufficient-resources.png" alt="sufficient-resources" />
+                </div>
+                <div className="rig">
+                  <h3>Sufficient Resources</h3>
+                  <p>Dynamics Square USA has sufficient resources and infrastructure to support growing businesses with Business Central Dynamics 365 support services.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="bc---soprt">
+                <div className="lef">
+                <Image
+                  width={57}
+                  height={48} src="/img/on-site-support.png" alt="on-site-support" />
+                </div>
+                <div className="rig">
+                  <h3>On-site Support</h3>
+                  <p>Based on the complexity of a business issue or interruption, we do offer on-site support services for the utmost customer satisfaction at affordable prices.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="bbb">
+        <div className="heross">
+        <video playsinline autoPlay muted loop poster="/video/Rectangle-scree.png" className="background">
+    <source type="video/mp4"  src="/video/Banner-DS-US.mp4" />
+  </video>
+      <div className="container">
+        <div className="row">
+        <div className="col-lg-5"></div>
+          <div className="col-lg-7">
+          <div className="psot-cl">
+          <h3>Your Trusted Dynamics 365 Business Central Partner of 200+ Businesses</h3>
+  <p>We are the USA's reliable and trusted Microsoft Dynamics 365 partner, helping businesses work to their full potential while scaling operations for enhanced growth.</p>
+  <a className="button" href="#">Yes, I want to Scale My Business!</a>
+          </div>
+          </div>
+        </div>
+      </div>
+        </div>
+      </section>
+
+
     </>
   );
 };
