@@ -81,13 +81,7 @@ const BusinessCentralNew = () => {
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
               <h1>Microsoft Dynamics 365 Business Central</h1>
-              <p>
-                Streamline your growing business, boost growth, and drive
-                sustainability with Dynamics 365 Business Central - the ultimate
-                cloud-based accounting and ERP solution. Get in touch with a
-                trusted Business Central partner today and take your business to
-                new heights!
-              </p>
+              <p>Enhance Business Efficiency, Fuel Steady Growth, and Streamline Processes with the Microsoft,s AI-Powered ERP - Dynamics 365 Business Central </p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -95,7 +89,7 @@ const BusinessCentralNew = () => {
                       data-bs-toggle="modal"
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Demo</span>
+                      <span>Get Started</span>
                     </a>
                   </Link>
                 </div>
