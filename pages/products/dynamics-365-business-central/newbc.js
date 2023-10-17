@@ -10,20 +10,20 @@ import { Pagination, Autoplay, FreeMode } from "swiper";
 import ModalVideo from "react-modal-video";
 import Blog from "../../../components/Blog";
 import HorizontalScroll from "../../../components/HorizontalScroll";
-
 const BusinessCentralNew = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
 
   return (
     <>
+    
       <Head>
         <title>
-          Dynamics 365 Business Central Partner USA | Dynamics Square
+          Microsoft Dynamics 365 Business Central Partner | Dynamics Square{" "}
         </title>
         <meta
           name="description"
-          content="Looking for a trusted Dynamics 365 Business Central partner in the USA? Contact Dynamics Square to drive growth and sustainability in your business."
+          content="- Looking for a trusted Microsoft Dynamics 365 Business Central Partner? Discover how Dynamics Square delivers the optimal business management solution for you.  "
         />
         <link
           rel="canonical"
@@ -45,7 +45,7 @@ const BusinessCentralNew = () => {
         />
         <meta
           property="og:description"
-          content="Business Central brings ops to a unified cloud platform for high productivity. Contact a Dynamics 365 implementation partner like Dynamics Square for support."
+          content="- Looking for a trusted Microsoft Dynamics 365 Business Central Partner? Discover how Dynamics Square delivers the optimal business management solution for you."
         />
         <meta
           property="og:image"
@@ -62,7 +62,7 @@ const BusinessCentralNew = () => {
         />
         <meta
           property="twitter:description"
-          content="Business Central brings ops to a unified cloud platform for high productivity. Contact a Dynamics 365 implementation partner like Dynamics Square for support."
+          content="- Looking for a trusted Microsoft Dynamics 365 Business Central Partner? Discover how Dynamics Square delivers the optimal business management solution for you."
         />
         <meta
           property="twitter:image"
@@ -130,7 +130,7 @@ const BusinessCentralNew = () => {
               <div className="heading-colo-bg">
                 <h2>What is Dynamics 365 Business Central?</h2>
                 <p>
-                  Formerly known as Dynamics NAV, Microsoft Dynamics 365
+                  Formerly known as <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link>, Microsoft Dynamics 365
                   Business Central is an AI-powered business management solution
                   tailored for startups or small to mid-sized businesses. It not
                   only has the ability to manage internal business operations
@@ -165,12 +165,13 @@ const BusinessCentralNew = () => {
                   Being a simple-to-use ERP business solution, Microsoft BC
                   offers an interactive and responsive user interface that lets
                   the user make smart decisions and avail collaboration. When it
-                  comes to integration, no other Dynamics ERP solution is as
+                  comes to integration, no other <Link href="/products/microsoft-dynamics-erp/"><a>Dynamics ERP solution</a></Link> is as
                   flexible and transparent as Microsoft 365 Business Central.
                 </p>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-5 align-self-center">
               <div className="new-pic-bc">
                 <div className="over-la-pic">
                   <Image
@@ -189,30 +190,17 @@ const BusinessCentralNew = () => {
               </div>
             </div>
           </div>
-          <div className="row pp-top-60 pp-bot-60">
-            <div className="col-lg-6 order-first order-md-last">
+          <div className="row pp-bot-60">
+            <div className="col-lg-6 order-first order-md-last align-self-center">
               <div className="nw-bc-lef-h">
                 <h2>
-                  The Solution for <br /> Today and Beyond
+                Comes with Plug and Play Integrations 
                 </h2>
-                <p>
-                  Business Central is a modern business management solution
-                  designed to keep your business in sync with ever-changing
-                  market and customer demands. D365 BC integrates advanced
-                  technologies such as AI (artificial intelligence) and BI
-                  (business intelligence), offering exceptional tools for slick
-                  business management.
-                </p>
-                <p>
-                  Being a simple-to-use ERP business solution, Microsoft BC
-                  offers an interactive and responsive user interface that lets
-                  the user make smart decisions and avail collaboration. When it
-                  comes to integration, no other Dynamics ERP solution is as
-                  flexible and transparent as Microsoft 365 Business Central.
-                </p>
+                <p>Connect with any third-party application or any solution in the Dynamics 365 ecosystem without any hassle using APIs. Whether it is about integrating Business Central with <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> or Continia, establish a connection within minutes. </p>
+                <p>These integrations will help a business deal with complex business processes while enhancing the capabilities of a specific module. If your business deals with complex financial scenarios, you can integrate <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 for Finance</a></Link> and simplify all financial operations.  </p>
               </div>
             </div>
-            <div className="col-lg-6 order-first">
+            <div className="col-lg-6 order-first align-self-center">
               <div className="new-pic-bc">
                 <Image
                   src="/img/plug-play-integratio.png"
@@ -224,69 +212,49 @@ const BusinessCentralNew = () => {
             </div>
           </div>
           <div className="row pp-bot-60">
-            <div className="col-lg-6">
+            <div className="col-lg-6 align-self-center">
               <div className="nw-bc-lef-h">
                 <h2>
                   Tailor-Made for Your <br /> Unique Needs
                 </h2>
-                <p>
-                  Business Central is a modern business management solution
-                  designed to keep your business in sync with ever-changing
-                  market and customer demands. D365 BC integrates advanced
-                  technologies such as AI (artificial intelligence) and BI
-                  (business intelligence), offering exceptional tools for slick
-                  business management.
-                </p>
-                <p>
-                  Being a simple-to-use ERP business solution, Microsoft BC
-                  offers an interactive and responsive user interface that lets
-                  the user make smart decisions and avail collaboration. When it
-                  comes to integration, no other Dynamics ERP solution is as
-                  flexible and transparent as Microsoft 365 Business Central.
-                </p>
+                <p>Business Central is a versatile puzzle piece designed to seamlessly fit into any business landscape. No matter your industry, tailor Business Central ERP to perfectly align with your distinct business requirements. </p>
+                <p>Leverage customized modules, features, and capabilities to accelerate your business growth and outpace competitors. These bespoke adjustments ensure the solution resonates with your business, amplifying its efficiency. </p>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 align-self-center">
               <div className="new-pic-bc">
-                <div className="over-la-pic">
+                <div className="over-la-pic-1">
                   <Image
-                    src="/img/mash-bc-1.png"
+                    src="/img/mash-bc-2.png"
                     alt="Dynamics 365 Business Central"
-                    width={1634}
-                    height={714}
+                    width={891}
+                    height={769}
                   />
                 </div>
                 <Image
                   src="/img/Group-ai.png"
                   alt="bc-lader-pic"
-                  width={784}
-                  height={458}
+                  width={1194}
+                  height={812}
                 />
               </div>
             </div>
           </div>
-          <div className="row pp-top-60 pp-bot-60">
-            <div className="col-lg-6 order-first order-md-last">
+          <div className="row pp-bot-60">
+            <div className="col-lg-5 order-first order-md-last align-self-center">
               <div className="nw-bc-lef-h">
-                <h2>
-                  Stay Connected to Your <br /> Business On-the-Go
-                </h2>
-                <p>
-                  Experience unmatched consistency, no matter the device.
-                  Whether you're at the office or on the move, tap into the full
-                  power of Business Central - be it on desktop, tablet, or
-                  mobile. Enjoy flexibility across Windows, Android, and iOS,
-                  both on-site and cloud-based.
-                </p>
+                <h2>Stay Connected to Your Business On-the-Go </h2>
+                <p>Experience unmatched consistency, no matter the device. Whether you're at the office or on the move, tap into the full power of Business Central - be it on desktop, tablet, or mobile. Enjoy flexibility across Windows, Android, and iOS, both on-site and cloud-based. </p>
               </div>
             </div>
-            <div className="col-lg-6 order-first">
+            <div className="col-lg-1"></div>
+            <div className="col-lg-6 order-first align-self-center">
               <div className="new-pic-bc">
                 <Image
-                  src="/img/plug-play-integratio.png"
+                  src="/img/stay-connected -the-Go.png"
                   alt="bc-lader-pic"
-                  width={482}
-                  height={474}
+                  width={550}
+                  height={400}
                 />
               </div>
             </div>
@@ -408,8 +376,8 @@ const BusinessCentralNew = () => {
                 />
                 <h3>Data Security and Compliance</h3>
                 <p>
-                  All your data is safe and secured with the trust of Microsoft
-                  Azure - Microsoft Cloud Services. Business Central follows an
+                  All your data is safe and secured with the trust of <Link href="/products/microsoft-azure/"><a>Microsoft
+                  Azure</a></Link> - Microsoft Cloud Services. Business Central follows an
                   encrypted protocol and possesses all compliance certifications
                   for global business operations.
                 </p>
@@ -686,22 +654,33 @@ const BusinessCentralNew = () => {
             </div>
 
             <div className="col-lg-12">
-              <div className="text-center" style={{padding:'60px'}}>
-                <a href="#exampleModal"   data-bs-toggle="modal" className="btn btn-md btn-mod-c">Contact Licensing Consultant Now!</a>
+              <div className="text-center" style={{ padding: "60px" }}>
+                <a
+                  href="#exampleModal"
+                  data-bs-toggle="modal"
+                  className="btn btn-md btn-mod-c"
+                >
+                  Contact Licensing Consultant Now!
+                </a>
               </div>
             </div>
-          
           </div>
         </div>
       </section>
 
       <section>
         <div className="container">
-        <div className="row">
+          <div className="row">
             <div className="col-lg-7 align-self-center">
               <div className="left--side-title">
-                <h2>Why are Businesses choosing <br /> Dynamics Square over others?</h2>
-                <p>Other than trust, reliable services, and cost-effective pricing, <br /> below are the few points that make</p>
+                <h2>
+                  Why are Businesses choosing <br /> Dynamics Square over
+                  others?
+                </h2>
+                <p>
+                  Other than trust, reliable services, and cost-effective
+                  pricing, <br /> below are the few points that make
+                </p>
               </div>
             </div>
             <div className="col-lg-5 align-self-center">
@@ -719,52 +698,64 @@ const BusinessCentralNew = () => {
             <div className="col-lg-6">
               <div className="bc---soprt">
                 <div className="lef">
-                <Image
-                  width={57}
-                  height={48} src="/img/business-centric-solutions.png" alt="business-centric-solutions" />
+                  <Image
+                    width={57}
+                    height={48}
+                    src="/img/business-centric-solutions.png"
+                    alt="business-centric-solutions"
+                  />
                 </div>
                 <div className="rig">
                   <h3>Business-Centric Solutions</h3>
-                  <p>We personalize Business Central based on your unique business and its operations to match up with market needs and customer demands.</p>
+                  <p>We personalize Business Central based on your unique business and its operations to match up with market needs and customer demands. </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="bc---soprt">
                 <div className="lef">
-                <Image
-                  width={57}
-                  height={48} src="/img/certified-consultants.png" alt="certified-consultants" />
+                  <Image
+                    width={57}
+                    height={48}
+                    src="/img/certified-consultants.png"
+                    alt="certified-consultants"
+                  />
                 </div>
                 <div className="rig">
                   <h3>Microsoft Certified Consultants</h3>
-                  <p>As a Microsoft Solutions Partner, we have 150+ Microsoft-certified Dynamics 365 consultants. We are available to help you resolve any issue and build growth strategies.</p>
+                  <p>As a <Link href="/"><a>Microsoft Solutions Partner</a></Link>, we have 150+ Microsoft-certified Dynamics 365 consultants. We are available to help you resolve any issue and build growth strategies. </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="bc---soprt">
                 <div className="lef">
-                <Image
-                  width={57}
-                  height={48} src="/img/sufficient-resources.png" alt="sufficient-resources" />
+                  <Image
+                    width={57}
+                    height={48}
+                    src="/img/sufficient-resources.png"
+                    alt="sufficient-resources"
+                  />
                 </div>
                 <div className="rig">
                   <h3>Sufficient Resources</h3>
-                  <p>Dynamics Square USA has sufficient resources and infrastructure to support growing businesses with Business Central Dynamics 365 support services.</p>
+                  <p>Dynamics Square USA has sufficient resources and infrastructure to support growing businesses with Business Central <Link href="/our-services/dynamics-365-support-services/"><a>Dynamics 365 support services</a></Link>. </p>
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="bc---soprt">
                 <div className="lef">
-                <Image
-                  width={57}
-                  height={48} src="/img/on-site-support.png" alt="on-site-support" />
+                  <Image
+                    width={57}
+                    height={48}
+                    src="/img/on-site-support.png"
+                    alt="on-site-support"
+                  />
                 </div>
                 <div className="rig">
                   <h3>On-site Support</h3>
-                  <p>Based on the complexity of a business issue or interruption, we do offer on-site support services for the utmost customer satisfaction at affordable prices.</p>
+                  <p>Based on the complexity of a business issue or interruption, we do offer on-site support services for the utmost customer satisfaction at affordable prices. </p>
                 </div>
               </div>
             </div>
@@ -772,28 +763,522 @@ const BusinessCentralNew = () => {
         </div>
       </section>
 
-
       <section className="bbb">
         <div className="heross">
-        <video playsinline autoPlay muted loop poster="/video/Rectangle-scree.png" className="background">
-    <source type="video/mp4"  src="/video/Banner-DS-US.mp4" />
-  </video>
-      <div className="container">
-        <div className="row">
-        <div className="col-lg-5"></div>
-          <div className="col-lg-7">
-          <div className="psot-cl">
-          <h3>Your Trusted Dynamics 365 Business Central Partner of 200+ Businesses</h3>
-  <p>We are the USA's reliable and trusted Microsoft Dynamics 365 partner, helping businesses work to their full potential while scaling operations for enhanced growth.</p>
-  <a className="button" href="#">Yes, I want to Scale My Business!</a>
+          <video
+            playsinline
+            autoPlay
+            muted
+            loop
+            poster="/video/Rectangle-scree.png"
+            className="background"
+          >
+            <source type="video/mp4" src="/video/Banner-DS-US.mp4" />
+          </video>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-5"></div>
+              <div className="col-lg-7">
+                <div className="psot-cl">
+                  <h3>
+                    Your Trusted Dynamics 365 Business Central Partner of 200+
+                    Businesses
+                  </h3>
+                  <p>
+                    We are the USA's reliable and trusted Microsoft Dynamics 365
+                    partner, helping businesses work to their full potential
+                    while scaling operations for enhanced growth.
+                  </p>
+                  <a className="button" href="#">
+                    Yes, I want to Scale My Business!
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          </div>
-        </div>
-      </div>
         </div>
       </section>
 
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="bc-more-sec">
+                <h2>Reap Supreme Benefits by Modernizing Business Operations </h2>
+                <p>
+                  Business Central does 80% of your work that comes under
+                  business management so that you can focus on growing the
+                  business rather than streamlining different operations. The
+                  rest (20%) is for you, 10% to explore your business for more
+                  growth opportunities, and the remaining 10% to supervise the
+                  entire business, whether everything is working fine or not.
+                  This is one of the benefits you will get after <Link href="/dynamics-365-business-central-implementation/"><a>Business
+                  Central implementation</a></Link>. However, some other key benefits are
+                  listed below:
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="acc-new-bc">
+                <div className="accordion" id="accordionbc">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                      <i className="bi bi-check-lg"></i> <span>Unify Data for Easy Access</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="collapseOne"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionbc"
+                    >
+                      <div className="accordion-body">
+                       <p>The best part about cloud-based ERPs is the centralized data servers that let businesses store their entire data in a unified storage system. You can easily collect data from different departments on the same server, and your team can fetch the data whenever required based on the level of access they have.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        <i className="bi bi-check-lg"></i><span> Secure your Data from all Cyber Threats</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="collapseTwo"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionbc"
+                    >
+                      <div className="accordion-body">
+                        <p>Data for businesses is so important that it has become the lifeline to survive in the fierce competition. With the trust of Microsoft Azure, all your data is safe and secured from all cyber and malicious attacks, replacing the use of on-premises systems. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        <i className="bi bi-check-lg"></i> <span>Auto System Update: 100% Free and Effortless </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="collapseThree"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionbc"
+                    >
+                      <div className="accordion-body">
+                      <p>Modern businesses are subject to updating or upgrading to cope with changing business requirements. Microsoft understands this and releases such updates and upgrades twice a year to help you focus on scaling your business rather than investing hefty amounts in updating the system. </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsefour"
+                        aria-expanded="false"
+                        aria-controls="collapsefour"
+                      >
+                        <i className="bi bi-check-lg"></i> <span>Easy Office Integration for Enhanced Productivity </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="collapsefour"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingfour"
+                      data-bs-parent="#accordionbc"
+                    >
+                      <div className="accordion-body">
+                      <p>From personal to professional life, we are surrounded by the applications of Office 365. With Business Central, you can integrate the applications of Office 365 and the <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 Ecosystem</a></Link> to enhance overall productivity by using the same apps we have been using for decades.  </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapsefive"
+                        aria-expanded="false"
+                        aria-controls="collapsefive"
+                      >
+                        <i className="bi bi-check-lg"></i> <span>Analyze and Visualize Data for Proper Utilization  </span>
+                      </button>
+                    </h3>
+                    <div
+                      id="collapsefive"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingfive"
+                      data-bs-parent="#accordionbc"
+                    >
+                      <div className="accordion-body">
+                      <p>Utilizing the information hidden in the data has become a must-do task because we process a lot of data daily. Dynamics Business Central Integration with Power BI offers a platform that helps businesses analyze and visualize huge piles of data in minutes, leading to data-driven decisions. </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="solution-faq faq">
+        <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="heading-colo-bg">
+                <h2>Have you got questions about Business Central?</h2>
+                <p>
+                Click through to our FAQ for the best answers!
+                </p>
+              </div>
+            </div>
+          </div>
+        
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      What is Dynamics 365 Business Central?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      Dynamics 365 Business Central is a complete business solution package that comes with both on-cloud and on-premised facilitation and is designed to support and drive entire enterprise practices. Business Central is simple to use and comprises excel-like functionality, thereby, advanced excel users can instantly start leveraging the Business Central capabilities. It empowers enterprises to streamline and automate their tasks and processes by enabling connected and collaborative experiences. With Business Central, enterprises can manage their end-to-end process flow from <Link href="/products/microsoft-dynamics-365-finance/">finance</Link> and <Link href="/products/dynamics-365-supply-chain-management/">supply chain</Link> to <Link href="/products/microsoft-dynamics-365-sales/">sales</Link>, warehousing, <Link href="/products/dynamics-365-project-operations/">project management</Link>, manufacturing & distribution to project automation, <Link href="/products/microsoft-power-bi/">reporting & analytics</Link>, and more. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                     What is the relationship between Business Central and Dynamics NAV?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    Dynamics 365 Business Central is the updated version of <Link href="/products/microsoft-dynamics-nav/">Dynamics NAV</Link>. With its upgrade, Microsoft changed its name too. The Core functionality remains the same and is updated with advanced features and navigation to support modern enterprises to serve every industry. However, existing Dynamics NAV users can still avail themselves of <Link href="/our-services/dynamics-365-support-services/">Dynamics Square's Support Services</Link>. Dynamics Square offers exceptionally reliable and efficient NAV and <Link href="/dynamics-365-business-central-support/">Business Central Support Services</Link> at cost-effective rates. 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                     What do I need to do to upgrade to Dynamics 365 Business Central?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                      If you are willing to upgrade to Dynamics 365 Business Central, Dynamics Square can implement a highly configured solution for your business. <Link href="/our-services/dynamics-365-upgrade-services/">Upgrading to Dynamics 365</Link> either from NAV or other existing systems requires experts' practice and years of proficiency. The team at Dynamics Square comprises all the required skill sets and years of expertise to implement a solution fulfilling your customized business needs.
+                      </p>
+                      <p>
+                      For more clarification or avail of our <Link href="/free-dynamics-365-system-health-check/">free system health check</Link>, or call us today for any Dynamics 365 help.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                    How does Dynamics 365 Business Central support different industries?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                     <p>Business Central is designed and configured to support all industries from <Link href="/industries/ecommerce/">E-commerce</Link> to <Link href="/industries/food-and-beverages/">food & beverages</Link>, <Link href="/industries/manufacturing/">Manufacturing, and Distribution</Link>, and <Link href="/industries/professional-services/">Professional Services</Link> to <Link href="/industries/microsoft-cloud-for-nonprofit/">Non-Profit</Link>. Business Central could be quite an effective deal for your Startups too if you are willing to jumpstart your business and start simplifying and enabling automation in your practices from the very initial.</p>
+                     <p>To know more about how Business Central can be implemented for your specific industry to drive an effective and efficient approach throughout your business premises, <Link href="/contact-us/">contact our professionals</Link> today.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                     What is the price of Dynamics 365 Business Central?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        When you plan for Dynamics 365 Business Central
+                        implementation, your pricing may vary depending on your
+                        process requirement and the complexity of your business
+                        flow. Here are the standard options available for buying
+                        Business Central:
+                      </p>
+                      <ul>
+                        <li>
+                          Essential - You will be charged $70 per user/per month
+                          for the Business Central essential plan.
+                        </li>
+                        <li>
+                          Premium - Premium plan will ask you to pay $100 per
+                          user/per month.
+                        </li>
+                        <li>Team Member</li>
+                      </ul>
+                      <p>
+                        To know which plan would be a cost-effective and
+                        process-efficient deal for your business, just call our
+                        experts, we are here to help.
+                      </p>
+                      <p>Know more about <Link href="/dynamics-365-business-central-pricing-licensing/"><a>affordable Pricing and Licensing for Dynamics 365 Business Central</a></Link> in detail.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                     How can I continue to receive Dynamics 365 Business Central support?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>
+                        Dynamics Square has a highly embedded support system to
+                        provide timely, efficient, and flexible support to our
+                        clients. Whether your requirement goes for end-user
+                        training, prepaid hour support, or ad-hoc support, we
+                        believe in a flexible support model suited to your
+                        specific requirement and budget.
+                      </p>
+                      <p>Connect to our experts today to learn more about how our <Link href="/dynamics-365-business-central-support/"><a>Dynamics 365 Business Central Support</a></Link> model works and which <b>Business Central Support Plan</b> could be vital for your business. Our team of Dynamics 365 experts will help you with every step of your digital transformation journey.  </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                     How does Dynamics 365 Business Central integrate with Power BI?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-7"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Business Central is an all-in-one solution for all your business requirements. Enterprises can manage their entire practices including sales, finance, customers, manufacturing, supply chain, project operations, <Link href="/products/dynamics-365-human-resources/">human resources</Link>, and reporting & analytics.</p>
+                      <p>Since Business Central is quite flexible and thereby, can be integrated with any of Microsoft's business applications as well as with your existing system configurations. Thus, if your requirement goes for advanced reporting capabilities, then <Link href="/products/microsoft-power-bi/">Power BI</Link> is the high-end solution. You can <a href="https://blog.dynamicssquare.com/an-introduction-to-microsoft-power-bi/">integrate Business Central with Power BI</a> to drive effective reporting strategies and avail of required key analytics to strengthen your decision-making.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="blogs-extra">
+        <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="heading-colo-bg">
+              <h2>Check out our Best <br /> Resources for Business Central</h2>
+              
+              </div>
+            </div>
+          </div>
+          <div className="row top-2 gx-5">
+           <Blog />
+            <div className="col-lg-6">
+              <div className="blogs-extra-title">
+                <h3>Documents</h3>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li>
+                    <Link href="/pdf/Is-Your-Business-Outgrowing-Your-Accounting-Software.pdf">
+                      <a>
+                        {" "}
+                        <i className="bi bi-file-earmark-pdf"></i> Is Your
+                        Business Outgrowing Your Accounting Software?
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/pdf/Business-Owners-Guide.pdf">
+                      <a>
+                        {" "}
+                        <i className="bi bi-file-earmark-pdf"></i> Business
+                        Owner's Guide
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/pdf/Reimagine-Productivity.pdf">
+                      <a>
+                        {" "}
+                        <i className="bi bi-file-earmark-pdf"></i> Reimagine
+                        Productivity
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/pdf/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf">
+                      <a>
+                        {" "}
+                        <i className="bi bi-file-earmark-pdf"></i> Licensing
+                        Guide
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/pdf/Four-Technology-Trends-Helping-Businesses-Thrive-in-a-Digital-World.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> Technology
+                        Trends Helping Businesses Thrive in a Digital World
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/pdf/Reinvent-productivity-with-Dynamics-365-and-Microsoft-365.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> Reinvent
+                        productivity with Dynamics 365 and Microsoft 365
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/pdf/The-Total-Economic-Impact-of-Microsoft-Dynamics-365-Business-Central.pdf">
+                      <a>
+                        <i className="bi bi-file-earmark-pdf"></i> The Total
+                        Economic Impact of Dynamics 365 Business Central
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="blogs-extra-title">
+                <h3>Learn More</h3>
+              </div>
+              <div className="blogs-extra-right">
+                <ul>
+                  <li>
+                    <Link href="/why-choose-microsoft-dynamics-365-business-central/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i> Why Choose
+                        Microsoft Dynamics 365 Business Central?
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/products/dynamics-365-business-central/advantages-capabilities/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i> Advantages
+                        and Capabilities
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="https://www.dynamicssquare.com/dynamics-nav-to-business-central/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i> Why to
+                        Upgrade Dynamics NAV to Business Central
+                      </a>
+                    </Link>
+                  </li>
+                  {/* <li>
+                    <Link href="https://www.dynamicssquare.com/reasons-to-upgrade-accounting-software/">
+                      <a>
+                        <i className="bi bi-box-arrow-up-right"></i> Is Your
+                        Business Outgrowing Your Accounting Software?
+                      </a>
+                    </Link>
+                  </li> */}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
