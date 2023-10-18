@@ -9727,7 +9727,7 @@ display: block;
 }
 
 #horizontal-scoll {
-margin-top: 100px !important;
+margin-top: 80px !important;
 /* padding-top: 20px; */
 padding-bottom: 60px;
 }
@@ -9894,6 +9894,7 @@ margin-bottom: 30px;
   letter-spacing: -0.76px;
   color: #ffffff;
   margin-bottom: 24px;
+  font-weight: bold;
 }
 .col-to-content h3 span{
   color: #bfe4f0;
@@ -9923,7 +9924,8 @@ margin-bottom: 30px;
 }
 
 .pri-wrper-bc{
-padding: 80px 0px;
+padding: 80px 0px 0px;
+margin-bottom: -60px;
 }
 .price0-bc-new{
   background-color: #f2f8fe;
