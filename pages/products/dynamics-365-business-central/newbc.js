@@ -9,7 +9,6 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay, FreeMode } from "swiper";
 import ModalVideo from "react-modal-video";
 import Blog from "../../../components/Blog";
-import HorizontalScroll from "../../../components/HorizontalScroll";
 const BusinessCentralNew = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -81,7 +80,7 @@ const BusinessCentralNew = () => {
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
               <h1>Microsoft Dynamics 365 Business Central</h1>
-              <p>Enhance Business Efficiency, Fuel Steady Growth, and Streamline Processes with the Microsoft,s AI-Powered ERP - Dynamics 365 Business Central </p>
+              <p>Enhance Business Efficiency, Fuel Steady Growth, and Streamline Processes with the Microsoft's AI-Powered ERP - Dynamics 365 Business Central </p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -257,7 +256,7 @@ const BusinessCentralNew = () => {
       </section>
 
     
-      <HorizontalScroll />
+  
 
       <section className="bc-fut-top">
         <div className="container">
