@@ -442,7 +442,7 @@ const HorizontalScroll = () => {
                 </li>
                 <li>
                   <div className="wrapper-tool">
-                    <i class="bi bi-check-lg"></i><span>Sales Order to Production.</span>
+                    <i class="bi bi-check-lg"></i><span>Sales to Production Order.</span>
                     <div className="tooltip">Generate production orders with the specifications of the sales orders.</div>
                   </div>
                 </li>
