@@ -766,7 +766,7 @@ const BusinessCentralNew = () => {
                     partner, helping businesses work to their full potential
                     while scaling operations for enhanced growth.
                   </p>
-                  <a className="button" href="#">
+                  <a className="btn btn-md" href="#">
                     Yes, I want to Scale My Business!
                   </a>
                 </div>

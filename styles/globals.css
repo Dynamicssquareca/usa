@@ -9910,8 +9910,10 @@ margin-bottom: 30px;
   background: #ffffff;
   display: inline-block;
   padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  color: #425399;
 }
-.col-to-content .btn:hover{
+.col-to-content .btn:hover,.heross a.button:hover{
   background: #bb2b36;
   color: #ffffff;
   border-color:#bb2b36 ;
@@ -10063,10 +10065,10 @@ margin-bottom: 20px;
   line-height: 1.5;
   margin-bottom: 43px;
 }
- .heross a.button {
+ .heross a.btn {
   color: #425399;
   text-decoration: none;
-  border: 1px solid #FFFFFF;
+  border: none;
   padding: 0.75em 1em;
   font-size: 16px;
   font-weight: 600;
@@ -10074,9 +10076,9 @@ margin-bottom: 20px;
   transition: color 0.2s, border 0.2s;
   background-color: #ffffff;
 }
- .heross a.button:hover {
-  color: steelblue;
-  border: 1px solid steelblue;
+ .heross a.btn:hover {
+  background: #bb2b36;
+  color: #fff;
 }
 .bc-more-sec{
 
