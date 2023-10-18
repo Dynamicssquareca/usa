@@ -1,12 +1,8 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, {useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination, Autoplay, FreeMode } from "swiper";
 import ModalVideo from "react-modal-video";
 import Blog from "../../../components/Blog";
 const BusinessCentralNew = () => {
@@ -22,7 +18,7 @@ const BusinessCentralNew = () => {
         </title>
         <meta
           name="description"
-          content="- Looking for a trusted Microsoft Dynamics 365 Business Central Partner? Discover how Dynamics Square delivers the optimal business management solution for you.  "
+          content="Are you looking for a reliable Microsoft Dynamics Business Central partner? Find out how Dynamics Square provides the best business management solutions."
         />
         <link
           rel="canonical"
@@ -44,7 +40,7 @@ const BusinessCentralNew = () => {
         />
         <meta
           property="og:description"
-          content="- Looking for a trusted Microsoft Dynamics 365 Business Central Partner? Discover how Dynamics Square delivers the optimal business management solution for you."
+          content="Are you looking for a reliable Microsoft Dynamics Business Central partner? Find out how Dynamics Square provides the best business management solutions."
         />
         <meta
           property="og:image"
@@ -61,7 +57,7 @@ const BusinessCentralNew = () => {
         />
         <meta
           property="twitter:description"
-          content="- Looking for a trusted Microsoft Dynamics 365 Business Central Partner? Discover how Dynamics Square delivers the optimal business management solution for you."
+          content="Are you looking for a reliable Microsoft Dynamics Business Central partner? Find out how Dynamics Square provides the best business management solutions."
         />
         <meta
           property="twitter:image"
@@ -127,7 +123,7 @@ const BusinessCentralNew = () => {
                   Business Central is an AI-powered business management solution
                   tailored for startups or small to mid-sized businesses. It not
                   only has the ability to manage internal business operations
-                  but also provides CRM features, making it an all-encompassing
+                  but also provides basic CRM features, making it an all-encompassing
                   tool for growing businesses.
                 </p>
                 <p>
@@ -165,20 +161,20 @@ const BusinessCentralNew = () => {
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-5 align-self-center">
-              <div className="new-pic-bc">
-                <div className="over-la-pic">
+            <div className="new-pic-bc">
+                <div className="over-la-pic-1">
                   <Image
-                    src="/img/mash-bc-1.png"
+                    src="/img/mash-bc-2.png"
                     alt="Dynamics 365 Business Central"
-                    width={1634}
-                    height={714}
+                    width={891}
+                    height={769}
                   />
                 </div>
                 <Image
-                  src="/img/bc-lader-picq.png"
+                  src="/img/Group-ai.png"
                   alt="bc-lader-pic"
-                  width={784}
-                  height={458}
+                  width={1194}
+                  height={812}
                 />
               </div>
             </div>
@@ -190,11 +186,19 @@ const BusinessCentralNew = () => {
                 Comes with Plug and Play Integrations 
                 </h2>
                 <p>Connect with any third-party application or any solution in the Dynamics 365 ecosystem without any hassle using APIs. Whether it is about integrating Business Central with <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> or Continia, establish a connection within minutes. </p>
-                <p>These integrations will help a business deal with complex business processes while enhancing the capabilities of a specific module. If your business deals with complex financial scenarios, you can integrate <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 for Finance</a></Link> and simplify all financial operations.  </p>
+                <p>These integrations will help a business deal with complex business processes while enhancing the capabilities of a specific module.</p>
               </div>
             </div>
             <div className="col-lg-6 order-first align-self-center">
               <div className="new-pic-bc">
+              <div className="over-la-pic-1">
+                  <Image
+                    src="/img/mash-bc-2.png"
+                    alt="Dynamics 365 Business Central"
+                    width={891}
+                    height={769}
+                  />
+                </div>
                 <Image
                   src="/img/plug-play-integratio.png"
                   alt="bc-lader-pic"
@@ -225,7 +229,7 @@ const BusinessCentralNew = () => {
                   />
                 </div>
                 <Image
-                  src="/img/Group-ai.png"
+                  src="/img/tailer-maid.png"
                   alt="bc-lader-pic"
                   width={1194}
                   height={812}
@@ -243,6 +247,14 @@ const BusinessCentralNew = () => {
             <div className="col-lg-1"></div>
             <div className="col-lg-6 order-first align-self-center">
               <div className="new-pic-bc">
+              <div className="over-la-pic-1">
+                  <Image
+                    src="/img/mash-bc-2.png"
+                    alt="Dynamics 365 Business Central"
+                    width={891}
+                    height={769}
+                  />
+                </div>
                 <Image
                   src="/img/stay-connected -the-Go.png"
                   alt="bc-lader-pic"
@@ -256,7 +268,1861 @@ const BusinessCentralNew = () => {
       </section>
 
     
-  
+      <section>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+            <div className="heading-colo-bg">
+                <h2>
+                  Business Central Modules: A Perfect ERP for Any Business
+                </h2>
+                <p>
+                  Microsoft Dynamics Business Central fits in any business
+                  regardless of complexity with the variety of modules. These
+                  modules are:
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row d-lg-none">
+            <div className="col-lg-12">
+              <div className="finace-acc">
+                <div className="accordion" id="accnew">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin1"
+                        aria-expanded="false"
+                        aria-controls="fin1"
+                      >
+                        <span>Finance Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin1"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Internal Transactions</h4>
+                                <p> Manage and customize internal transactions with restricted access.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Cash flow Forecasting</h4>
+                                <p>Predict Sales and Expenses analyzing cash balances and account schedules. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Budgeting</h4>
+                                <p>Control and monitor overall business finances with accurate budgeting. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Inventory Costing</h4>
+                                <p>Reconcile inventory and manufacturing costs utilizing the general ledger. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Consolidation & Multi-Companies</h4>
+                                <p>Manage multiple business accounts to analyze company finances. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Costs and Income Allocation</h4>
+                                <p>Allocate resources based on income using a common journal. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Banking</h4>
+                                <p>Monitor bank account transactions by integrating a banking add-on. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Cost Accounting</h4>
+                                <p>Distribute the budget by planned and actual costs of projects. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Fixed Assets</h4>
+                                <p>Control and manage fixed assets for optimum ROI. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Accounts Receivable</h4>
+                                <p>Receive payments, collect balances, and settle bank accounts with ease.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Accounts Payable</h4>
+                                <p>Manage outgoing payments, track cheques, and make instant payments.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>General Ledger</h4>
+                                <p>Manage Credit and Debit transactions to get complete financial data.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin2"
+                        aria-expanded="false"
+                        aria-controls="fin2"
+                      >
+                        <span>Sales and Marketing</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin2"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Customer management</h4>
+                                <p>Manage your customers, resolve their queries, and build a good relationship.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Sales Quote</h4>
+                                <p>Create, edit, and send sales invoices to clients before final prices.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Sales order</h4>
+                                <p>Craft sales orders include drop-shipping and partial-shipping options.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Sales Invoices</h4>
+                                <p>Based on negotiations, generates sales invoices for clients. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Drop Shipments</h4>
+                                <p>Ship goods directly to the customer using a purchase order.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Sales Returns</h4>
+                                <p>Process refunds and manage stock information in real-time of stocks.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Assembly Order</h4>
+                                <p>Fulfill orders using linked assembly in case of product unavailability. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Order Planning & Promising</h4>
+                                <p>Schedule deliveries and process delivery orders on time. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Single invoice Multiple Shipments</h4>
+                                <p>Ship multiple products to clients using a single invoice. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Cancel Unpaid Invoices </h4>
+                                <p>Generate sales invoices for unpaid invoices.</p>
+                              </div>
+                            </div>
+                          </div>
+                       
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin3"
+                        aria-expanded="false"
+                        aria-controls="fin3"
+                      >
+                        <span>Supply Chain Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin3"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Manage Suppliers</h4>
+                                <p>Track raw materials and finalized products received from suppliers.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Optimize Warehouse </h4>
+                                <p>Optimize warehouse space to store more inventory. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Track Goods during Transportation </h4>
+                                <p>Track all movements of raw materials and finished products.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Communication </h4>
+                                <p>Build a sustainable flow of data between different team members.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Adopt New Technologies </h4>
+                                <p>Accept new technologies to enhance the quality of processes. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Built-in Intelligence </h4>
+                                <p>Monitor entire inventory with advanced tech for real-time insights.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Enhance Profitability </h4>
+                                <p>Optimize vendors and avoid unnecessary costs to enhance overall profits.</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin4"
+                        aria-expanded="false"
+                        aria-controls="fin4"
+                      >
+                        <span>Project Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin4"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Creation </h4>
+                                <p>Enables the organization to create, schedule, and manage projects. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Resource Allocations</h4>
+                                <p>Allocate resources for each project based on priority and utilization.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Time Sheet Management </h4>
+                                <p>Updates job tasks, planning lines, and timesheet lines in real time. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Budget Management </h4>
+                                <p>Distribute budget on various projects based on costs and effectiveness.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Resource Consumptions </h4>
+                                <p>Track and record consumption of all resources with real-time data updates.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Supplies </h4>
+                                <p>Track all supplies utilized for a project until completion with data monitoring.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project WIP Methods </h4>
+                                <p>Create accurate financial statements and job estimates. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Progress and Performance </h4>
+                                <p>Generate accurate financial reporting and the cost of consumed materials. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Invoicing</h4>
+                                <p>Build and share sales invoices for a particular project.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Merge Duplicate Records</h4>
+                                <p>Delete similar records from the data to eliminate confusion.</p>
+                              </div>
+                            </div>
+                          </div>
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin5"
+                        aria-expanded="false"
+                        aria-controls="fin5"
+                      >
+                        <span>Inventory Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin5"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Master Management </h4>
+                                <p>List products or create product cards based on business. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Bill of Materials </h4>
+                                <p>Generate different bills of parent items or stock components for sale. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Categorization </h4>
+                                <p>Keep a broad view and categorize items. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Attributes </h4>
+                                <p>Distribute attributes of different items to make them easier to find. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Catalog </h4>
+                                <p>Creates an item card that a company offers without keeping stock. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Inventory Counting </h4>
+                                <p>Track inventory and stocks while maintaining data in real time. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Availability </h4>
+                                <p>Check out the item availability and influence with ease.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Inventory Transfer </h4>
+                                <p>Streamline all inventory transfer orders used to move items. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Reservation </h4>
+                                <p>Reserve a few items for sales, service, purchase, and production orders. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Tracking </h4>
+                                <p>Track products using a serial or lot number of a recall situation. </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin6"
+                        aria-expanded="false"
+                        aria-controls="fin6"
+                      >
+                        <span>Warehouse Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin6"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Receiving </h4>
+                                <p>Track and record information on all products received in the warehouse. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Shipments </h4>
+                                <p>Maintains a record of shipments at the warehouse along with sales order data. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Putting Items Away </h4>
+                                <p>Classify products based on customer demand and consumption.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Moving Items </h4>
+                                <p>Empower the company to manage goods transportation between locations. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Picking Items </h4>
+                                <p>Select the items based on data set up for different purposes.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Automated Data Capture Systems (ADCS) </h4>
+                                <p>Track items moving inside the warehouse using a barcode. </p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin7"
+                        aria-expanded="false"
+                        aria-controls="fin7"
+                      >
+                        <span>Manufacturing Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin7"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Production Planning</h4>
+                                <p>Plan, suggest changes, and balance demands based on the supply chain.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Supply Planning</h4>
+                                <p>Build the strategy for manufacturing, distribution, and procurement.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Demand Forecasting</h4>
+                                <p>Maximize sales, push production limits, and enable demand forecasts. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>
+                                  Creation of Production Order from Sales Order
+                                </h4>
+                                <p>Generate production orders with the specifications of the sales orders. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Order Planning</h4>
+                                <p>Forecast sales and product demand utilizing BOM (Bill of Material). </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>MRP & MPS</h4>
+                                <p>Automate the supply chain using the MRP and MPS (Master Production Schedule.)</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Requisition Worksheet</h4>
+                                <p>Create supply chain data and detect demand for refilled items.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Calculate Work Centre Calendar</h4>
+                                <p>Rescheduled work center calendar with an unexpected change in plan.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Availablity</h4>
+                                <p>
+                                  You can learn more about a specific item's
+                                  influence and availability.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Production Order</h4>
+                                <p>Create production orders with ease - manually or automatically. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Subcontracting</h4>
+                                <p>Outsource required and preferred processes or operations. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Production Consumption & Output</h4>
+                                <p>Record the consumption of resources and materials.  </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row busines-bg g-0">
+            <div className="col-lg-3 no-pad">
+              <div
+                className="nav flex-column nav-pills  bus-ser-left"
+                id="v-pills-tab"
+                role="tablist"
+                aria-orientation="vertical"
+              >
+                <div
+                  className="nav-link active"
+                  id="v-pills-Finance-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Finance"
+                  role="tab"
+                  aria-controls="v-pills-Finance"
+                  aria-selected="true"
+                >
+                  <h3>Finance Management</h3>
+                </div>
+                <div
+                  className="nav-link"
+                  id="v-pills-Sales-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Sales"
+                  role="tab"
+                  aria-controls="v-pills-Sales"
+                  aria-selected="false"
+                >
+                  <h3>Sales and Marketing</h3>
+                </div>
+                <div
+                  className="nav-link"
+                  id="v-pills-Purchase-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Purchase"
+                  role="tab"
+                  aria-controls="v-pills-Purchase"
+                  aria-selected="false"
+                >
+                  <h3>Supply Chain Management</h3>
+                </div>
+                <div
+                  className="nav-link"
+                  id="v-pills-Management-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Management"
+                  role="tab"
+                  aria-controls="v-pills-Management"
+                  aria-selected="false"
+                >
+                  <h3>Project Management</h3>
+                </div>
+                <div
+                  className="nav-link"
+                  id="v-pills-Inventory-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Inventory"
+                  role="tab"
+                  aria-controls="v-pills-Inventory"
+                  aria-selected="false"
+                >
+                  <h3>Inventory Management</h3>
+                </div>
+                <div
+                  className="nav-link"
+                  id="v-pills-Project-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Project"
+                  role="tab"
+                  aria-controls="v-pills-Project"
+                  aria-selected="false"
+                >
+                  <h3>Warehouse Management</h3>
+                </div>
+                <div
+                  className="nav-link"
+                  id="v-pills-Manufacturing-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Manufacturing"
+                  role="tab"
+                  aria-controls="v-pills-Manufacturing"
+                  aria-selected="false"
+                >
+                  <h3>Manufacturing Management</h3>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-9">
+              <div className="tab-content" id="v-pills-tabContent">
+                <div
+                  className="tab-pane fade show active"
+                  id="v-pills-Finance"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-Finance-tab"
+                >
+                   <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Internal Transactions</h4>
+                                <p> Manage and customize internal transactions with restricted access.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Cash flow Forecasting</h4>
+                                <p>Predict Sales and Expenses analyzing cash balances and account schedules. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Budgeting</h4>
+                                <p>Control and monitor overall business finances with accurate budgeting. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Inventory Costing</h4>
+                                <p>Reconcile inventory and manufacturing costs utilizing the general ledger. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Consolidation & Multi-Companies</h4>
+                                <p>Manage multiple business accounts to analyze company finances. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Costs and Income Allocation</h4>
+                                <p>Allocate resources based on income using a common journal. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Banking</h4>
+                                <p>Monitor bank account transactions by integrating a banking add-on. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Cost Accounting</h4>
+                                <p>Distribute the budget by planned and actual costs of projects. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Fixed Assets</h4>
+                                <p>Control and manage fixed assets for optimum ROI. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Accounts Receivable</h4>
+                                <p>Receive payments, collect balances, and settle bank accounts with ease.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Accounts Payable</h4>
+                                <p>Manage outgoing payments, track cheques, and make instant payments.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>General Ledger</h4>
+                                <p>Manage Credit and Debit transactions to get complete financial data.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+                <div
+                  className="tab-pane fade"
+                  id="v-pills-Sales"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-Sales-tab"
+                >
+                  <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Customer management</h4>
+                                <p>Manage your customers, resolve their queries, and build a good relationship.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Sales Quote</h4>
+                                <p>Create, edit, and send sales invoices to clients before final prices.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Sales order</h4>
+                                <p>Craft sales orders include drop-shipping and partial-shipping options.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Sales Invoices</h4>
+                                <p>Based on negotiations, generates sales invoices for clients. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Drop Shipments</h4>
+                                <p>Ship goods directly to the customer using a purchase order.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Sales Returns</h4>
+                                <p>Process refunds and manage stock information in real-time of stocks.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Assembly Order</h4>
+                                <p>Fulfill orders using linked assembly in case of product unavailability. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Order Planning & Promising</h4>
+                                <p>Schedule deliveries and process delivery orders on time. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Single invoice Multiple Shipments</h4>
+                                <p>Ship multiple products to clients using a single invoice. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Cancel Unpaid Invoices </h4>
+                                <p>Generate sales invoices for unpaid invoices.</p>
+                              </div>
+                            </div>
+                          </div>
+                       
+                        </div>
+                </div>
+                <div
+                  className="tab-pane fade"
+                  id="v-pills-Purchase"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-Purchase-tab"
+                >
+                  <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Manage Suppliers</h4>
+                                <p>Track raw materials and finalized products received from suppliers.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Optimize Warehouse </h4>
+                                <p>Optimize warehouse space to store more inventory. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Track Goods during Transportation </h4>
+                                <p>Track all movements of raw materials and finished products.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Communication </h4>
+                                <p>Build a sustainable flow of data between different team members.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Adopt New Technologies </h4>
+                                <p>Accept new technologies to enhance the quality of processes. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Built-in Intelligence </h4>
+                                <p>Monitor entire inventory with advanced tech for real-time insights.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Enhance Profitability </h4>
+                                <p>Optimize vendors and avoid unnecessary costs to enhance overall profits.</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                </div>
+                <div
+                  className="tab-pane fade"
+                  id="v-pills-Management"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-Management-tab"
+                >
+                  <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Creation </h4>
+                                <p>Enables the organization to create, schedule, and manage projects. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Resource Allocations</h4>
+                                <p>Allocate resources for each project based on priority and utilization.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Time Sheet Management </h4>
+                                <p>Updates job tasks, planning lines, and timesheet lines in real time. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Budget Management </h4>
+                                <p>Distribute budget on various projects based on costs and effectiveness.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Resource Consumptions </h4>
+                                <p>Track and record consumption of all resources with real-time data updates.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Supplies </h4>
+                                <p>Track all supplies utilized for a project until completion with data monitoring.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project WIP Methods </h4>
+                                <p>Create accurate financial statements and job estimates. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Progress and Performance </h4>
+                                <p>Generate accurate financial reporting and the cost of consumed materials. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Project Invoicing</h4>
+                                <p>Build and share sales invoices for a particular project.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Merge Duplicate Records</h4>
+                                <p>Delete similar records from the data to eliminate confusion.</p>
+                              </div>
+                            </div>
+                          </div>
+                        
+                        </div>
+                </div>
+                <div
+                  className="tab-pane fade"
+                  id="v-pills-Inventory"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-Inventory-tab"
+                >
+                   <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Master Management </h4>
+                                <p>List products or create product cards based on business. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Bill of Materials </h4>
+                                <p>Generate different bills of parent items or stock components for sale. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Categorization </h4>
+                                <p>Keep a broad view and categorize items. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Attributes </h4>
+                                <p>Distribute attributes of different items to make them easier to find. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Catalog </h4>
+                                <p>Creates an item card that a company offers without keeping stock. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Inventory Counting </h4>
+                                <p>Track inventory and stocks while maintaining data in real time. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Availability </h4>
+                                <p>Check out the item availability and influence with ease.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Inventory Transfer </h4>
+                                <p>Streamline all inventory transfer orders used to move items. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Reservation </h4>
+                                <p>Reserve a few items for sales, service, purchase, and production orders. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Tracking </h4>
+                                <p>Track products using a serial or lot number of a recall situation. </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+                <div
+                  className="tab-pane fade"
+                  id="v-pills-Project"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-Project-tab"
+                >
+                  <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Receiving </h4>
+                                <p>Track and record information on all products received in the warehouse. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Shipments </h4>
+                                <p>Maintains a record of shipments at the warehouse along with sales order data. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Putting Items Away </h4>
+                                <p>Classify products based on customer demand and consumption.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Moving Items </h4>
+                                <p>Empower the company to manage goods transportation between locations. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Picking Items </h4>
+                                <p>Select the items based on data set up for different purposes.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Automated Data Capture Systems (ADCS) </h4>
+                                <p>Track items moving inside the warehouse using a barcode. </p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                </div>
+                <div
+                  className="tab-pane fade"
+                  id="v-pills-Manufacturing"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-Manufacturing-tab"
+                >
+                  <div className="row busines-service-list-pad">
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Production Planning</h4>
+                                <p>Plan, suggest changes, and balance demands based on the supply chain.  </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Supply Planning</h4>
+                                <p>Build the strategy for manufacturing, distribution, and procurement.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Demand Forecasting</h4>
+                                <p>Maximize sales, push production limits, and enable demand forecasts. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>
+                                  Creation of Production Order from Sales Order
+                                </h4>
+                                <p>Generate production orders with the specifications of the sales orders. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Order Planning</h4>
+                                <p>Forecast sales and product demand utilizing BOM (Bill of Material). </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>MRP & MPS</h4>
+                                <p>Automate the supply chain using the MRP and MPS (Master Production Schedule.)</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Requisition Worksheet</h4>
+                                <p>Create supply chain data and detect demand for refilled items.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Calculate Work Centre Calendar</h4>
+                                <p>Rescheduled work center calendar with an unexpected change in plan.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Item Availablity</h4>
+                                <p>
+                                  You can learn more about a specific item's
+                                  influence and availability.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Production Order</h4>
+                                <p>Create production orders with ease - manually or automatically. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Subcontracting</h4>
+                                <p>Outsource required and preferred processes or operations. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="col-lg-6 col-md-6">
+                            <div className="busines-service-list">
+                              <div className="icons">
+                                <i className="bi bi-check-lg"></i>
+                              </div>
+                              <div className="content">
+                                <h4>Production Consumption & Output</h4>
+                                <p>Record the consumption of resources and materials.  </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="bc-fut-top">
         <div className="container">
@@ -272,7 +2138,7 @@ const BusinessCentralNew = () => {
                   features that make it a perfect solution for all businesses.
                 </p>
                 <div className="btn--bc">
-                  <Link href="/contact-us/">
+                  <Link href="/dynamics-365-business-central-features/">
                     <a className="btn btn-md">Read Essential Features</a>
                   </Link>
                 </div>
@@ -381,9 +2247,7 @@ const BusinessCentralNew = () => {
                   Business Central will digitally transform your business to
                   help you stay ahead in the market while growing continuously.
                 </p>
-                <a className="btn btn-md" href="">
-                  Connect with the Business Central Exports
-                </a>
+                <Link href="/contact-us/"><a className="btn btn-md">  Connect with the Business Central Expert</a></Link>
               </div>
             </div>
           </div>
@@ -407,7 +2271,7 @@ const BusinessCentralNew = () => {
           <div className="row">
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <Link href="/our-services/dynamics-365-implementation-services/">
+                <Link href="/dynamics-365-business-central-implementation/">
                   <a>
                     <div className="gr">
                       <img
@@ -421,15 +2285,10 @@ const BusinessCentralNew = () => {
                         />
                       </video>
                     </div>
-                    <h3>Implementation</h3>
-                    <p>
-                      Boost your business efficiency with Dynamics 365
-                      implementation services. Unify data, ensure robust cloud
-                      security, simplify operations, and automate workflows to
-                      reduce IT costs.
-                    </p>
+                    <h3>Business Central <br /> Implementation</h3>
+                    <p>Supercharge your business operations with a tailored Business Central implementation to get maximum growth, streamlined revenue and enhanced performance. </p>
                     <div className="h-s-call">
-                      <span>Implement Now </span>{" "}
+                      <span>Learn More </span>{" "}
                       <i className="bi bi-arrow-right"></i>
                     </div>
                   </a>
@@ -438,7 +2297,7 @@ const BusinessCentralNew = () => {
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <Link href="/our-services/dynamics-365-upgrade-services/">
+                <Link href="/dynamics-365-business-central-upgrade/">
                   <a>
                     <div className="gr">
                       <img
@@ -452,12 +2311,8 @@ const BusinessCentralNew = () => {
                         />
                       </video>
                     </div>
-                    <h3>Upgrade</h3>
-                    <p>
-                      Modernize your business with our Dynamics 365 Upgrade
-                      Services. We assess, recommend, and upgrade your legacy
-                      solution to garner better growth opportunities.
-                    </p>
+                    <h3>Business Central <br /> Upgrade</h3>
+                    <p>Modernize your system while simplifying processes by upgrading your legacy system to Business Central - an advanced solution for modern businesses. </p>
                     <div className="h-s-call">
                       <span>Learn More </span>{" "}
                       <i className="bi bi-arrow-right"></i>
@@ -468,7 +2323,7 @@ const BusinessCentralNew = () => {
             </div>
             <div className="col-lg-4">
               <div className="home_servce-_card">
-                <Link href="/our-services/dynamics-365-support-services/">
+                <Link href="/dynamics-365-business-central-support/">
                   <a>
                     <div className="gr">
                       <img
@@ -482,13 +2337,8 @@ const BusinessCentralNew = () => {
                         />
                       </video>
                     </div>
-                    <h3>Support</h3>
-                    <p>
-                      Access proactive Dynamics 365 Support services from our
-                      team of 150+ Microsoft-certified consultants. We tailor
-                      solutions to ensure your business's success while managing
-                      costs.
-                    </p>
+                    <h3>Business Central <br /> Support</h3>
+                    <p>Get consistent Business Central support to operate the business without any bugs, issues, or unexpected interruptions from our certified consultants.</p>
                     <div className="h-s-call">
                       <span>Learn More </span>{" "}
                       <i className="bi bi-arrow-right"></i>
@@ -519,7 +2369,7 @@ const BusinessCentralNew = () => {
               <div className="price0-bc-new">
                 <div className="pr-head">
                   <h3>
-                    Business Central <br /> Essential
+                    Business Central <br /> Essentials
                   </h3>
                 </div>
                 <div className="pr-body">
@@ -631,6 +2481,7 @@ const BusinessCentralNew = () => {
 
             <div className="col-lg-12">
               <div className="text-center" style={{ padding: "60px" }}>
+                <p style={{marginBottom:'30px'}}>For more detailed  <Link href="/dynamics-365-business-central-pricing-licensing/"><a>Business Central pricing</a></Link> or any additional information, feel free to contact our team.  </p>
                 <a
                   href="#exampleModal"
                   data-bs-toggle="modal"
@@ -654,8 +2505,8 @@ const BusinessCentralNew = () => {
                   others?
                 </h2>
                 <p>
-                  Other than trust, reliable services, and cost-effective
-                  pricing, <br /> below are the few points that make
+                  Other than trust, reliable services, and competitive
+                  pricing, <br /> below are the few points that make us superior in <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365</a></Link> market. 
                 </p>
               </div>
             </div>
@@ -761,8 +2612,8 @@ const BusinessCentralNew = () => {
                     Businesses
                   </h3>
                   <p>
-                    We are the USA's reliable and trusted Microsoft Dynamics 365
-                    partner, helping businesses work to their full potential
+                    We are the USA's reliable and trusted <Link href="/microsoft-dynamics-365-partner/"><a>Microsoft Dynamics 365
+                    partner</a></Link>, helping businesses work to their full potential
                     while scaling operations for enhanced growth.
                   </p>
                   <a className="btn btn-md" href="#">
