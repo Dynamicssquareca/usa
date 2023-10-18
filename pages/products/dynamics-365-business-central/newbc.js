@@ -256,25 +256,8 @@ const BusinessCentralNew = () => {
         </div>
       </section>
 
-      <div className="fixt-back-col">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div className="heading-colo-bg">
-                <h2>
-                  Business Central Modules: A Perfect ERP for Any Business
-                </h2>
-                <p style={{ marginBottom: "-60px" }}>
-                  Microsoft Dynamics Business Central fits in any business
-                  regardless of complexity with the variety of modules. These
-                  modules are:
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <HorizontalScroll />
-      </div>
+    
+      <HorizontalScroll />
 
       <section className="bc-fut-top">
         <div className="container">

@@ -16,7 +16,7 @@ const HorizontalScroll = () => {
         trigger: '.horizontal',
         start: 'center center',
         end: '+=800px',
-        pin: '#horizontal-scoll',
+        pin: '#ixedd',
         scrub: true,
         invalidateOnRefresh: true,
       },
@@ -24,9 +24,24 @@ const HorizontalScroll = () => {
   }, []);
 
   return (
-    <section id="horizontal-scoll">
-
-
+    <div className="fixt-back-col" id="ixedd">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="heading-colo-bg">
+                <h2>
+                  Business Central Modules: A Perfect ERP for Any Business
+                </h2>
+                <p style={{ marginBottom: "-60px" }} >
+                  Microsoft Dynamics Business Central fits in any business
+                  regardless of complexity with the variety of modules. These
+                  modules are:
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="horizontal-scoll">
       <div className="horizontal-scoll-wrapper">
         <div className="horizontal">
 
@@ -395,7 +410,7 @@ const HorizontalScroll = () => {
                 </li>
                 <li>
                   <div className="wrapper-tool">
-                    <i class="bi bi-check-lg"></i><span>Automated Data Capture Systems (ADCS) </span>
+                    <i class="bi bi-check-lg"></i><span>Automated Data Capture Systems</span>
                     <div className="tooltip">Track items moving inside the warehouse using a barcode. </div>
                   </div>
                 </li>
@@ -427,7 +442,7 @@ const HorizontalScroll = () => {
                 </li>
                 <li>
                   <div className="wrapper-tool">
-                    <i class="bi bi-check-lg"></i><span>Create a Production Order using a Sales Order</span>
+                    <i class="bi bi-check-lg"></i><span>Sales Order to Production.</span>
                     <div className="tooltip">Generate production orders with the specifications of the sales orders.</div>
                   </div>
                 </li>
@@ -439,7 +454,7 @@ const HorizontalScroll = () => {
                 </li>
                 <li>
                   <div className="wrapper-tool">
-                    <i class="bi bi-check-lg"></i><span>MRP (Materials Requirements Planning) & MPS </span>
+                    <i class="bi bi-check-lg"></i><span>MRP & MPS </span>
                     <div className="tooltip">Automate the supply chain using the MRP and MPS (Master Production Schedule. </div>
                   </div>
                 </li>
@@ -484,7 +499,9 @@ const HorizontalScroll = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
+      
+      </div>
   );
 };
 

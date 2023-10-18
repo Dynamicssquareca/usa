@@ -9727,8 +9727,9 @@ display: block;
 }
 
 #horizontal-scoll {
-margin-top: 40px !important;
-padding-top: 20px;
+margin-top: 80px !important;
+/* padding-top: 20px; */
+padding-bottom: 60px;
 }
 
 .horizontal-scoll-wrapper {
@@ -9745,7 +9746,7 @@ padding-top: 20px;
     -webkit-perspective: 10000px;
     perspective: 10000px;
   height: 100%;
-  transition: .5s;
+  transition: .4s;
  
 }
 
@@ -10146,6 +10147,13 @@ margin-bottom: 20px;
 }
 }
 @media (max-width: 1400px) {
+  .list-bc-feature li{
+    margin-bottom: 10px;
+  }
+  .list-bc-feature h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
   .heading-colo-bg h2, .nw-bc-lef-h h2,.col-to-content h3,.bc-more-sec h2,.heross h3,.left--side-title h2{
     font-size: 2rem;
   }
