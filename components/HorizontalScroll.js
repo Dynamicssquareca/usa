@@ -25,7 +25,7 @@ const HorizontalScroll = () => {
 
   return (
     <div className="fixt-back-col" id="ixedd">
-        <div className="container">
+        <div className="container" style={{paddingBottom:'15px'}}>
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="heading-colo-bg">
