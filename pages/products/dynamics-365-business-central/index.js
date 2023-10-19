@@ -211,8 +211,8 @@ const BusinessCentralNew = () => {
                 <Image
                   src="/img/Group-ai.png"
                   alt="Business Central Integrates Solution for AI and BI"
-                  width={1194}
-                  height={812}
+                  width={597}
+                  height={381}
                 />
               </div>
             </div>
@@ -289,8 +289,8 @@ const BusinessCentralNew = () => {
                 <Image
                   src="/img/tailer-maid.png"
                   alt="Tailor Made for Unique Needs with Business Central ERP"
-                  width={1194}
-                  height={812}
+                  width={396}
+                  height={381}
                 />
               </div>
             </div>
