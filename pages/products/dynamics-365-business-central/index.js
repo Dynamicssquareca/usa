@@ -23,7 +23,6 @@ const BusinessCentralNew = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/products/dynamics-365-business-central/"
         />
-        <meta name="robots" content="noindex, nofollow"></meta>
 
         <meta property="og:type" content="product" />
 
@@ -3332,7 +3331,7 @@ const BusinessCentralNew = () => {
         </div>
       </section>
 
-      <section className="solution-faq faq">
+      {/* <section className="solution-faq faq">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -3680,7 +3679,7 @@ const BusinessCentralNew = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="blogs-extra">
         <div className="container">
           <div className="row justify-content-center">
