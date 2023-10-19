@@ -26,6 +26,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Mochiy+Pop+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
             rel="stylesheet"
           />
+          <link href="/css/style.css" rel="stylesheet"></link>
           <meta name="google-site-verification" content="EZ7BsiYpEFL2ut-nfMdCXcrQzf6hVeHRkbXfUvhZnfQ" />
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XK9RWX5SL"></script>
           <Script id="google-analytics" strategy="beforeInteractive">
