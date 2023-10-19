@@ -76,7 +76,7 @@ const BusinessCentralNew = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              name: "Microsoft Dynamics 365 Business Central Partner | Dynamics Square",
+              name: "Microsoft Dynamics Business Central Partner | Dynamics Square",
               image:
                 "https://www.dynamicssquare.com/img/microsoft-dynamics-365-business-central.png/",
               description:
