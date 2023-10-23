@@ -13,11 +13,11 @@ const BusinessCentralNew = () => {
     <>
       <Head>
         <title>
-          Microsoft Dynamics Business Central Partner | Dynamics Square
+          Microsoft Dynamics 365 Business Central Partner | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Are you looking for a reliable Microsoft Dynamics Business Central partner? Find out how Dynamics Square provides the best business management solutions."
+          content="Are you looking for a reliable Microsoft Dynamics 365 Business Central partner? Find out how Dynamics Square provides the best business management solutions."
         />
         <link
           rel="canonical"
@@ -28,12 +28,12 @@ const BusinessCentralNew = () => {
 
         <meta
           property="og:title"
-          content="Microsoft Dynamics Business Central Partner | Dynamics Square"
+          content="Microsoft Dynamics 365 Business Central Partner | Dynamics Square"
         />
 
         <meta
           property="og:description"
-          content="Are you looking for a reliable Microsoft Dynamics Business Central partner? Find out how Dynamics Square provides the best business management solutions."
+          content="Are you looking for a reliable Microsoft Dynamics 365 Business Central partner? Find out how Dynamics Square provides the best business management solutions."
         />
 
         <meta
@@ -52,12 +52,12 @@ const BusinessCentralNew = () => {
 
         <meta
           property="twitter:title"
-          content="Microsoft Dynamics Business Central Partner | Dynamics Square"
+          content="Microsoft Dynamics 365 Business Central Partner | Dynamics Square"
         />
 
         <meta
           property="twitter:description"
-          content="Are you looking for a reliable Microsoft Dynamics Business Central partner? Find out how Dynamics Square provides the best business management solutions."
+          content="Are you looking for a reliable Microsoft Dynamics 365 Business Central partner? Find out how Dynamics Square provides the best business management solutions."
         />
 
         <meta
@@ -76,11 +76,11 @@ const BusinessCentralNew = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              name: "Microsoft Dynamics Business Central Partner | Dynamics Square",
+              name: "Microsoft Dynamics 365 Business Central Partner | Dynamics Square",
               image:
                 "https://www.dynamicssquare.com/img/microsoft-dynamics-365-business-central.png/",
               description:
-                "Are you looking for a reliable Microsoft Dynamics Business Central partner? Find out how Dynamics Square provides the best business management solutions.",
+                "Are you looking for a reliable Microsoft Dynamics 365 Business Central partner? Find out how Dynamics Square provides the best business management solutions.",
               brand: {
                 "@type": "Brand",
                 name: "Dynamics Square USA",
@@ -147,7 +147,7 @@ const BusinessCentralNew = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="heading-colo-bg">
-                <h2>What is Dynamics 365 Business Central?</h2>
+                <h2>What is Microsoft Dynamics 365 Business Central?</h2>
                 <p>
                   Formerly known as{" "}
                   <Link href="/products/microsoft-dynamics-nav/">
