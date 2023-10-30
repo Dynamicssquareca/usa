@@ -28,15 +28,14 @@ class MyDocument extends Document {
           />
           <link href="/css/style.css" rel="stylesheet"></link>
           <meta name="google-site-verification" content="EZ7BsiYpEFL2ut-nfMdCXcrQzf6hVeHRkbXfUvhZnfQ" />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XK9RWX5SL"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-HVB71MX4C0"></script>
           <Script id="google-analytics" strategy="beforeInteractive">
             {`
-               window.dataLayer = window.dataLayer || [];
-               function gtag() {
-                 dataLayer.push(arguments);
-               }
-               gtag("js", new Date());
-               gtag("config", "G-3XK9RWX5SL");
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+             
+              gtag('config', 'G-HVB71MX4C0');
                 `}
           </Script>
           <Script id="tag-manager" strategy="beforeInteractive">
