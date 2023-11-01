@@ -13,11 +13,11 @@ const BusinessCentralNew = () => {
     <>
       <Head>
         <title>
-          Microsoft Dynamics 365 Business Central Partner | Dynamics Square
+          What is Microsoft Dynamics 365 Business Central? | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Are you looking for a reliable Microsoft Dynamics 365 Business Central partner? Find out how Dynamics Square provides the best business management solutions."
+          content="Dynamics 365 Business Central: A comprehensive ERP solution for SMB's businesses, offering financial, inventory, and CRM capabilities. Book a free demo Today!"
         />
         <link
           rel="canonical"
@@ -28,12 +28,12 @@ const BusinessCentralNew = () => {
 
         <meta
           property="og:title"
-          content="Microsoft Dynamics 365 Business Central Partner | Dynamics Square"
+          content="What is Microsoft Dynamics 365 Business Central? | Dynamics Square"
         />
 
         <meta
           property="og:description"
-          content="Are you looking for a reliable Microsoft Dynamics 365 Business Central partner? Find out how Dynamics Square provides the best business management solutions."
+          content="Dynamics 365 Business Central: A comprehensive ERP solution for SMB's businesses, offering financial, inventory, and CRM capabilities. Book a free demo Today!"
         />
 
         <meta
@@ -52,12 +52,12 @@ const BusinessCentralNew = () => {
 
         <meta
           property="twitter:title"
-          content="Microsoft Dynamics 365 Business Central Partner | Dynamics Square"
+          content="What is Microsoft Dynamics 365 Business Central? | Dynamics Square"
         />
 
         <meta
           property="twitter:description"
-          content="Are you looking for a reliable Microsoft Dynamics 365 Business Central partner? Find out how Dynamics Square provides the best business management solutions."
+          content="Dynamics 365 Business Central: A comprehensive ERP solution for SMB's businesses, offering financial, inventory, and CRM capabilities. Book a free demo Today!"
         />
 
         <meta
@@ -76,11 +76,11 @@ const BusinessCentralNew = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              name: "Microsoft Dynamics 365 Business Central Partner | Dynamics Square",
+              name: "What is Microsoft Dynamics 365 Business Central? | Dynamics Square",
               image:
                 "https://www.dynamicssquare.com/img/microsoft-dynamics-365-business-central.png/",
               description:
-                "Are you looking for a reliable Microsoft Dynamics 365 Business Central partner? Find out how Dynamics Square provides the best business management solutions.",
+                "Dynamics 365 Business Central: A comprehensive ERP solution for SMB's businesses, offering financial, inventory, and CRM capabilities. Book a free demo Today!",
               brand: {
                 "@type": "Brand",
                 name: "Dynamics Square USA",
