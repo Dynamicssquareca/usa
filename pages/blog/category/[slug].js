@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 import { useRouter } from 'next/router';
 import Pagination from "../../../components/Pagination";
@@ -51,19 +50,19 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link href="/">
-                        <a>Home</a>
-                      </Link>
+                      <a href="/">
+                        Home
+                      </a>
                     </li>
                     <li className="breadcrumb-item">
-                      <Link href="/blog/">
-                        <a>Blog</a>
-                      </Link>
+                      <a href="/blog/">
+                        Blog
+                      </a>
                     </li>
                     <li className="breadcrumb-item">
-                      <Link href="/blog/category/">
-                        <a>Category</a>
-                      </Link>
+                      <a href="/blog/category/">
+                        Category
+                      </a>
                     </li>
                    
                     <li className="breadcrumb-item active">{blogs[0]['category']}</li>
@@ -81,9 +80,9 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                   {categoryblogs &&
                     categoryblogs.map((cateitem, i) => (
                       <li className={router.query.slug ==`${cateitem.category_slug}`? "active" :"Hello"}>
-                        <Link href={`/blog/category/${cateitem.category_slug}`}>
-                          <a>{cateitem.category_name}</a>
-                        </Link>
+                        <a href={`/blog/category/${cateitem.category_slug}`}>
+                          {cateitem.category_name}
+                        </a>
                       </li>
                     ))}
                 </ul>
@@ -94,9 +93,9 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                 paginatedPosts.map((item, i) => (
                   <div className="blogs-lates blogs-lates-rept">
                     <h3>
-                      <Link href={`/blog/${item.title_slug}`}>
-                        <a>{item.title}</a>
-                      </Link>
+                      <a href={`/blog/${item.title_slug}`}>
+                        {item.title}
+                      </a>
                     </h3>
                     <div className="blogs-info-list">
                       <span className="user">
@@ -118,19 +117,19 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                         </a>
                       </span>
                       <span className="cate">
-                      <Link href={`/blog/category/${item.category_slug}`}><a>
+                      <a href={`/blog/category/${item.category_slug}`}>
                             <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                          </a>
                       </span>
                     </div>
                     <div className="b-card-info">
                       <p>{item.short_description}</p>
                       <div className="page-link-read">
-                        <Link href={`/blog/${item.title_slug}`}>
-                          <a>
+                        <a href={`/blog/${item.title_slug}`}>
+                          
                             Read More <span>{">"}</span>
-                          </a>
-                        </Link>
+                          
+                        </a>
                       </div>
                     </div>
                   </div>

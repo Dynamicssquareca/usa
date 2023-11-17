@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 
 export async function getServerSideProps(context) {
@@ -35,14 +34,14 @@ function AuthorsList({ blogs, authorslist, blgsbyauthorslist }) {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link href="/">
-                        <a>Home</a>
-                      </Link>
+                      <a href="/">
+                        Home
+                      </a>
                     </li>
                     <li className="breadcrumb-item">
-                      <Link href="/blog/">
-                        <a>Blog</a>
-                      </Link>
+                      <a href="/blog/">
+                        Blog
+                      </a>
                     </li>
                     <li className="breadcrumb-item active">Author</li>
                   </ol>
@@ -59,9 +58,9 @@ function AuthorsList({ blogs, authorslist, blgsbyauthorslist }) {
                     authorslist.map((authorsitem, i) => (
                 <div className="col-lg-3">
                       <div className="author-list-card">
-                        <Link href={`/blog/author/${authorsitem.name.split(" ").join("-")}`}>
-                          <a><img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span></a>
-                        </Link>
+                        <a href={`/blog/author/${authorsitem.name.split(" ").join("-")}`}>
+                          <img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span>
+                        </a>
                       </div>
                    
                 </div>

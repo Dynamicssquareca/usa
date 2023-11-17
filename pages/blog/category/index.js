@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 
 export async function getServerSideProps(context) {
@@ -30,14 +29,14 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link href="/">
-                        <a>Home</a>
-                      </Link>
+                      <a href="/">
+                        Home
+                      </a>
                     </li>
                     <li className="breadcrumb-item">
-                      <Link href="/blog/">
-                        <a>Blog</a>
-                      </Link>
+                      <a href="/blog/">
+                        Blog
+                      </a>
                     </li>
                     <li className="breadcrumb-item active"></li>
                   </ol>
@@ -53,9 +52,9 @@ function CategoryBlogs({ blogs, categoryblogs }) {
                   {categoryblogs &&
                     categoryblogs.map((cateitem, i) => (
                       <li>
-                        <Link href={`/blog/category/${cateitem.category_slug}`}>
-                          <a>{cateitem.category_name}</a>
-                        </Link>
+                        <a href={`/blog/category/${cateitem.category_slug}`}>
+                          {cateitem.category_name}
+                        </a>
                       </li>
                     ))}
                 </ul>

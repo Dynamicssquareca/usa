@@ -1,7 +1,7 @@
 
 import Head from "next/head";
-import Link from "next/link";
 import Script from "next/script";
+import Link from "next/link";
 import parse from "html-react-parser";
 import { useRouter } from 'next/router';
 import BlogSubscriberForm from "../../components/BlogSubscriberForm";
@@ -56,6 +56,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                   href={`https://www.dynamicssquare.com/blog/${item.title_slug}`+
                 '/'}
                 />
+                {item.rank==1 && <meta name="robots" content="noindex, nofollow" />}
                 <meta property="og:title" content={item.meta_title} />
                 <meta property="og:site_name" content="Dynamics Square" />
                 <meta
@@ -92,14 +93,14 @@ function Post({ blogs, blogcat, authordetials, author }) {
                       <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
                           <li className="breadcrumb-item">
-                            <Link href="/">
-                              <a>Home</a>
-                            </Link>
+                            <a href="/">
+                              Home
+                            </a>
                           </li>
                           <li className="breadcrumb-item">
-                            <Link href="/blog/">
-                              <a>Blog</a>
-                            </Link>
+                            <a href="/blog/">
+                              Blog
+                            </a>
                           </li>
                           <li className="breadcrumb-item active">
                             {item.title}
@@ -118,7 +119,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                         <div className="blogs-info-list">
                           <div className="left-list">
                             <span className="user">
-                              <Link href={`/blog/author/${item.author.split(" ").join("-")}`}>{item.author}</Link>
+                              <a href={`/blog/author/${item.author.split(" ").join("-")}`}>{item.author}</a>
                             </span>
                             <span className="date">
                               <a>
@@ -132,9 +133,9 @@ function Post({ blogs, blogcat, authordetials, author }) {
                               </a>
                             </span>
                             <span className="cate">
-                            <Link href={`/blog/category/${item.category_slug}`}><a>
+                            <a href={`/blog/category/${item.category_slug}`}>
                             <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                          </a>
                             </span>
                           </div>
 
@@ -201,7 +202,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                         <div><em>Tags</em>:
                         <>
                           {item.meta_tags?.split(',').map((item2,i) => (
-                          <Link href={`/blog/tag/${item2.split(" ").join("-")}`} key={i}><a><span className="blog-tagged">{item2.charAt(0).toUpperCase() + item2.slice(1)}</span></a></Link>
+                          <a href={`/blog/tag/${item2.split(" ").join("-")}`} key={i}><span className="blog-tagged">{item2.charAt(0).toUpperCase() + item2.slice(1)}</span></a>
 
                           ))}
                           
@@ -252,7 +253,7 @@ function Post({ blogs, blogcat, authordetials, author }) {
                                 <span className="link-din"><a href={author.linkedin_url} target="_blank"> <i className="bi bi-linkedin"></i></a></span>
                               </div>
                               <div className="right">
-                               <Link href={`/blog/author/${author.name.split(" ").join("-")}`}><a><span>{author.name}</span></a></Link>
+                               <a href={`/blog/author/${author.name.split(" ").join("-")}`}><span>{author.name}</span></a>
                                <p>{author.about}</p>
                               </div>
                             </div>
@@ -280,16 +281,16 @@ function Post({ blogs, blogcat, authordetials, author }) {
                          
                         <div className="blogs-lates blogs-lates-repet">
                           <h3>
-                            <Link href={`/blog/${item1.title_slug}`}>
-                              <a>{item1.title}</a>
-                            </Link>
+                            <a href={`/blog/${item1.title_slug}`}>
+                              {item1.title}
+                            </a>
                           </h3>
                           <div className="blogs-info-list">
                             <span className="user">
-                            <Link href={`/blog/author/${item1.author.split(" ").join("-")}`}><a>
+                            <a href={`/blog/author/${item1.author.split(" ").join("-")}`}>
                             <i className="bi bi-person-circle"></i>{" "}
                             {item1.author}
-                          </a></Link>
+                          </a>
                             </span>
                             <span className="date">
                               <a>
@@ -304,9 +305,9 @@ function Post({ blogs, blogcat, authordetials, author }) {
                               </a>
                             </span>
                             <span className="cate">
-                            <Link href={`/blog/category/${item.category_slug}`}><a>
+                            <a href={`/blog/category/${item.category_slug}`}>
                             <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                          </a>
                             </span>
                           </div>
                           <div className="b-card-info">

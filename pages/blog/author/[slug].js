@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 import { useRouter } from 'next/router';
 import BlogSubscriberForm from "../../../components/BlogSubscriberForm";
 import Pagination from "../../../components/Pagination";
@@ -52,19 +51,19 @@ function Authors({authorslist, blgsbyauthorslist }) {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link href="/">
-                        <a>Home</a>
-                      </Link>
+                      <a href="/">
+                        Home
+                      </a>
                     </li>
                     <li className="breadcrumb-item">
-                      <Link href="/blog/">
-                        <a>Blog</a>
-                      </Link>
+                      <a href="/blog/">
+                        Blog
+                      </a>
                     </li>
                     <li className="breadcrumb-item">
-                      <Link href="/blog/author">
-                        <a>Author</a>
-                      </Link>
+                      <a href="/blog/author">
+                        Author
+                      </a>
                     </li>
                     <li className="breadcrumb-item active">{blgsbyauthorslist[0]['author']}</li>
                   </ol>
@@ -80,9 +79,9 @@ function Authors({authorslist, blgsbyauthorslist }) {
                   {authorslist &&
                     authorslist.map((authorsitem, i) => (
                       <li className={router.query.slug ==`${authorsitem.name.split(" ").join("-")}`? "active" :"Hello"}>
-                        <Link href={`/blog/author/${authorsitem.name.split(" ").join("-")}`}>
-                          <a><img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span></a>
-                        </Link>
+                        <a href={`/blog/author/${authorsitem.name.split(" ").join("-")}`}>
+                          <img src={authorsitem.profile_photo_path} alt={authorsitem.name} /> <span>{authorsitem.name}</span>
+                        </a>
                       </li>
                     ))}
                 </ul>
@@ -93,9 +92,9 @@ function Authors({authorslist, blgsbyauthorslist }) {
                 paginatedPosts.map((item, i) => (
                   <div className="blogs-lates blogs-lates-rept">
                     <h3>
-                      <Link href={`/blog/${item.title_slug}`}>
-                        <a>{item.title}</a>
-                      </Link>
+                      <a href={`/blog/${item.title_slug}`}>
+                        {item.title}
+                      </a>
                     </h3>
                     <div className="blogs-info-list">
                       <span className="user">
@@ -117,19 +116,19 @@ function Authors({authorslist, blgsbyauthorslist }) {
                         </a>
                       </span>
                       <span className="cate">
-                      <Link href={`/blog/category/${item.category_slug}`}><a>
+                      <a href={`/blog/category/${item.category_slug}`}><a>
                             <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                          </a></a>
                       </span>
                     </div>
                     <div className="b-card-info">
                       <p>{item.short_description}</p>
                       <div className="page-link-read">
-                        <Link href={`/blog/${item.title_slug}`}>
-                          <a>
+                        <a href={`/blog/${item.title_slug}`}>
+                          
                             Read More <span>{">"}</span>
-                          </a>
-                        </Link>
+                          
+                        </a>
                       </div>
                     </div>
                   </div>

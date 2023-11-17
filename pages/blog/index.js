@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Head from "next/head";
-import Link from "next/link";
 import BlogSubscriberForm from "../../components/BlogSubscriberForm";
 import styles from "../../styles/Home.module.css";
 import Pagination from "../../components/Pagination";
@@ -70,16 +69,16 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                         <span>Latest</span>
                       </div>
                       <h1>
-                        <Link href={`/blog/${item.title_slug}`}>
-                          <a>{item.title}</a>
-                        </Link>
+                        <a href={`/blog/${item.title_slug}`}>
+                          {item.title}
+                        </a>
                       </h1>
                       <div className="blogs-info-list">
                         <span className="user">
-                         <Link href={`/blog/author/${item.author.split(" ").join("-")}`}><a>
+                         <a href={`/blog/author/${item.author.split(" ").join("-")}`}>
                             <i className="bi bi-person-circle"></i>{" "}
                             {item.author}
-                          </a></Link>
+                          </a>
                         </span>
                         <span className="date">
                           <a>
@@ -93,29 +92,29 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                           </a>
                         </span>
                         <span className="cate">
-                        <Link href={`/blog/category/${item.category_slug}`}><a>
+                        <a href={`/blog/category/${item.category_slug}`}>
                             <i className="bi bi-app"></i> {item.category}
-                          </a></Link>
+                          </a>
                         </span>
                       </div>
                       <div className="b-card-info">
                         <p>{item.short_description.substring(0, 180)}...</p>
                         <div className="page-link-read">
-                          <Link href={`/blog/${item.title_slug}`}>
-                            <a>
+                          <a href={`/blog/${item.title_slug}`}>
+                            
                               Read More <span>{">"}</span>
-                            </a>
-                          </Link>
+                            
+                          </a>
                         </div>
                       </div>
                     </div>
 
                     <div className="prom-bann">
-                      <Link href={`/blog/${item.title_slug}`}>
-                        <a>
+                      <a href={`/blog/${item.title_slug}`}>
+                        
                           <img src={item.image} alt={item.title} />
-                        </a>
-                      </Link>
+                        
+                      </a>
                     </div>
                   </div>
                   <div className="col-lg-6">
@@ -140,15 +139,15 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                             key={i}
                           >
                             <h3>
-                              <Link href={`/blog/${businessitem.title_slug}`}>
-                                <a>{businessitem.title}</a>
-                              </Link>
+                              <a href={`/blog/${businessitem.title_slug}`}>
+                                {businessitem.title}
+                              </a>
                             </h3>
                             <span className="user">
-                            <Link href={`/blog/author/${businessitem.author.split(" ").join("-")}`}><a>
+                            <a href={`/blog/author/${businessitem.author.split(" ").join("-")}`}><a>
                             <i className="bi bi-person-circle"></i>{" "}
                             {businessitem.author}
-                          </a></Link>
+                          </a></a>
                             </span>
                             <span className="date">
                               <a>
@@ -163,9 +162,9 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                               </a>
                             </span>
                             <span className="cate">
-                            <Link href={`/blog/category/${businessitem.category_slug}`}><a>
+                            <a href={`/blog/category/${businessitem.category_slug}`}>
                             <i className="bi bi-app"></i> {businessitem.category}
-                          </a></Link>
+                          </a>
                             </span>
                           </div>
                         ))}
@@ -186,16 +185,16 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                         <span>Most Trending</span>
                       </div>
                       <h2>
-                        <Link href={`/blog/${trandig.title_slug}`}>
-                          <a>{trandig.title}</a>
-                        </Link>
+                        <a href={`/blog/${trandig.title_slug}`}>
+                          {trandig.title}
+                        </a>
                       </h2>
                       <div className="blogs-info-list">
                         <span className="user">
-                        <Link href={`/blog/author/${trandig.author.split(" ").join("-")}`}><a>
+                        <a href={`/blog/author/${trandig.author.split(" ").join("-")}`}>
                             <i className="bi bi-person-circle"></i>{" "}
                             {trandig.author}
-                          </a></Link>
+                          </a>
                         </span>
                         <span className="date">
                           <a>
@@ -217,11 +216,11 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                       <div className="b-card-info">
                         <p>{trandig.short_description.substring(0, 180)}...</p>
                         <div className="page-link-read">
-                          <Link href={`/blog/${trandig.title_slug}`}>
-                            <a>
+                          <a href={`/blog/${trandig.title_slug}`}>
+                            
                               Read More <span>{">"}</span>
-                            </a>
-                          </Link>
+                            
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -255,11 +254,11 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                         {categoryblogs &&
                           categoryblogs.map((cateitem, i) => (
                             <li key={i}>
-                              <Link
+                              <a
                                 href={`/blog/category/${cateitem.category_slug}`}
                               >
-                                <a>{cateitem.category_name}</a>
-                              </Link>
+                              {cateitem.category_name}
+                              </a>
                             </li>
                           ))}
                       </ul>
@@ -269,13 +268,13 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                     {paginatedPosts.map((randomitem, i) => (
                         <div className="blogs-lates blogs-lates-rept" key={i}>
                           <h3>
-                          <Link href={`/blog/${randomitem.title_slug}`}>
-                          <a>{randomitem.title}</a>
-                        </Link>
+                          <a href={`/blog/${randomitem.title_slug}`}>
+                          {randomitem.title}
+                        </a>
                           </h3>
                           <div className="blogs-info-list">
                           <span className="user">
-                          <a href="">
+                          <a href={`/blog/author/${randomitem.author.split(" ").join("-")}`}>
                             <i className="bi bi-person-circle"></i>{" "}
                             {randomitem.author}
                           </a>
@@ -292,17 +291,17 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
                           </a>
                         </span>
                         <span className="cate">
-                          <Link href={`/blog/category/${randomitem.category_slug}`}><a>
+                          <a href={`/blog/category/${randomitem.category_slug}`}>
                             <i className="bi bi-app"></i> {randomitem.category}
-                          </a></Link>
+                          </a>
                         </span>
                           </div>
                           <div className="b-card-info">
                             <p>{randomitem.short_description.substring(0, 180)}...</p>
                             <div className="page-link-read">
-                             <Link href={`/blog/${randomitem.title_slug}`}><a>
+                             <a href={`/blog/${randomitem.title_slug}`}>
                                 Read More <span>{">"}</span>
-                              </a></Link>
+                              </a>
                             </div>
                           </div>
                         </div>
