@@ -10,14 +10,14 @@ const MicrosoftDynamicsNAV = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics NAV Support | Dynamics Square USA</title>
+        <title>Microsoft Dynamics NAV Support | Dynamics Square</title>
         <link
           rel="canonical"
           href="https://www.dynamicssquare.com/products/microsoft-dynamics-nav/"
         />
         <meta
           name="description"
-          content="Get top-notch Microsoft Dynamics NAV support in the USA. Dynamics Square delivers expert solutions for seamless business management."
+          content="Get top-notch Microsoft Dynamics NAV (Navision) support in the USA. Dynamics Square delivers expert solutions for seamless business management."
         />
       </Head>
       <ModalVideo

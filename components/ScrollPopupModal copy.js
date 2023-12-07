@@ -4,37 +4,22 @@ import Formpop from './Formpop';
 const ScrollPopupModal = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // const handleScroll = () => {
-  //   if (window.scrollY > 1000) {
-  //     setIsVisible(true);
-  //     window.removeEventListener('scroll', handleScroll);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   const hasClosedPopup = Cookies.get('hasClosedPopup');
-  //   if (!hasClosedPopup) {
-  //     window.addEventListener('scroll', handleScroll);
-  //   }
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
+  const handleScroll = () => {
+    if (window.scrollY > 1000) {
+      setIsVisible(true);
+      window.removeEventListener('scroll', handleScroll);
+    }
+  };
 
   useEffect(() => {
     const hasClosedPopup = Cookies.get('hasClosedPopup');
     if (!hasClosedPopup) {
-      const timerId = setTimeout(() => {
-        setIsVisible(true);
-      }, 15000); // Adjust the time (in milliseconds) according to your needs
-
-      return () => {
-        clearTimeout(timerId);
-      };
+      window.addEventListener('scroll', handleScroll);
     }
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
-
 
   const handleClose = () => {
     setIsVisible(false);
