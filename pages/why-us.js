@@ -11,7 +11,7 @@ const WhyUs = () => {
       <>
         <Head>
           <title>
-            Why Dynamics Square | Your Trusted Microsoft Partner in UK
+            Why Dynamics Square | Your Trusted Microsoft Partner in USA
           </title>
           <meta
             name="description"
