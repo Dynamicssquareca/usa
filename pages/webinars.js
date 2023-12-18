@@ -149,7 +149,7 @@ const WebinarList = () => {
                           <h5 className="card-title">
                             <a href="https://www.youtube.com/watch?v=OI4H1Lxxk9E" traget="_blank">Microsoft Dynamics 365 Fundraising & Engagement for Non-Profits</a>
                           </h5>
-                          <p>Are you struggling to find the right solution to grow your donor base in the UK? Through this webinar, you will be able to identify new fundraising opportunities, turn donors into lifetime supporters, get an accurate understanding of fundraising outcomes, and automate donation processing with Fundraising and Engagement for Dynamics 365 Sales, a Microsoft solution built with MISSION CRM.</p>
+                          <p>Are you struggling to find the right solution to grow your donor base in the USA? Through this webinar, you will be able to identify new fundraising opportunities, turn donors into lifetime supporters, get an accurate understanding of fundraising outcomes, and automate donation processing with Fundraising and Engagement for Dynamics 365 Sales, a Microsoft solution built with MISSION CRM.</p>
                           <div class="btn-003 btn-009"><a class="btn btn-sm btn-danger" href="https://www.youtube.com/watch?v=OI4H1Lxxk9E" traget="_blank">Watch Now</a></div>
                         </div>
                       </div>

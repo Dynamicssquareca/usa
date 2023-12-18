@@ -114,8 +114,8 @@ const FormGuide = () => {
                     <label className="form-check-label" htmlFor="exampleCheck1">
                       I agree to the
                       <a
-                        href="https://www.dynamicssquare.co.uk/privacy-policy/"
-                        title="https://www.dynamicssquare.co.uk/privacy-policy/"
+                        href="https://www.dynamicssquare.com/privacy-policy/"
+                        title="https://www.dynamicssquare.com/privacy-policy/"
                         target="_blank"
                       >
                         {" "}
@@ -123,8 +123,8 @@ const FormGuide = () => {
                       </a>
                       and
                       <a
-                        href="https://www.dynamicssquare.co.uk/terms-of-use/"
-                        title="https://www.dynamicssquare.co.uk/terms-of-use/"
+                        href="https://www.dynamicssquare.com/terms-of-use/"
+                        title="https://www.dynamicssquare.com/terms-of-use/"
                         target="_blank"
                       >
                         {" "}
