@@ -356,7 +356,7 @@ const CloudvsOnpremise = () => {
                 <h3>
                 Create a hyperconnected organization that connects people, data, and processes. By doing this, you can drive more efficiency, reduce overall costs, quickly adapt to changing markets across the globe and invest in the right innovation at the right time.
                 </h3>
-                <Image src="/img/clod-vs-premies.png" alt="clod-vs-premies" width={725} height={2048}/>
+                <Image src="/img/cloud-vs-on-premises.png" alt="cloud vs on-premises" width={725} height={2048}/>
               </div>
             </div>
           </div>
