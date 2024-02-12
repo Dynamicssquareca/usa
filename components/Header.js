@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Image from "next/image";
-import ScrollPopupModal from "./ScrollPopupModal";
+// import ScrollPopupModal from "./ScrollPopupModal";
 
 class Header extends Component {
   componentDidMount() {
@@ -1583,7 +1583,7 @@ class Header extends Component {
             </div>
           </div>
         </header>
-        <ScrollPopupModal />
+        {/* <ScrollPopupModal /> */}
       </>
     );
   }

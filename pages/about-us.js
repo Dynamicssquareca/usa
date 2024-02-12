@@ -1,7 +1,8 @@
 
-import Head from 'next/head'
+import Head from 'next/head';
+import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Link from 'next/link';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,6 +15,7 @@ const AboutUs = () => {
   // useEffect(() => {
   //   setIsSSR(false);
   // }, []);
+
 
 
   return (
@@ -610,6 +612,7 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
+    
       </main>
     </>
   );

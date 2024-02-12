@@ -37,8 +37,6 @@ const Card = () => {
       onMouseMove={(evt) => calculateTransform(evt, cardRef)}
       ref={cardRef}
     >
-  {/* <div class="card__title">Title</div> */}
-      {/* <div class="card__content">This is the content</div> */}
       <img src="/img/home/hover-servece.png" alt="im" />
     </div>
   );

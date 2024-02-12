@@ -627,7 +627,7 @@ const BusinessCentralPricingLicensing = () => {
                   >
                     <div className="accordion-body">
                       <p><b>We have charted the database specifications for you:</b></p>
-                      <table class="table table-striped align-middle">
+                      <table className="table table-striped align-middle">
                         <thead>
                           <tr>
                             <th>Feature</th>

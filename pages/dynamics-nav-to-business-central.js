@@ -183,7 +183,7 @@ const DynamicsNavToBusinessCentral = () => {
 
       <section>
         <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-9 col-md-9">
               <header className="section-header">
                 <h2>Benefits of Upgrading from NAV to Business Central</h2>

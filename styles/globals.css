@@ -9595,6 +9595,10 @@ color:var(--color-red)
  padding-bottom:40px 
 
 }
+.nw-bc-lef-h{
+  position:relative;
+  z-index:1
+}
  .heading-colo-bg h2, .nw-bc-lef-h h2{
   font-size: 2.375rem;
   font-weight: bold;

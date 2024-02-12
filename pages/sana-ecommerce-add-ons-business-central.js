@@ -71,35 +71,35 @@ const SanaEcommerce = () => {
                   <tbody className="tik-check">
                     <tr>
                       <td>Strong integration with <Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics 365 Business Central</a></Link></td>
-                      <td><center><i class="bi bi-check-circle-fill"></i></center></td>
+                      <td><center><i className="bi bi-check-circle-fill"></i></center></td>
                     </tr>
                     <tr>
                       <td>Complete control over the online product catalog</td>
-                      <td><center><i class="bi bi-check-circle-fill"></i></center></td>
+                      <td><center><i className="bi bi-check-circle-fill"></i></center></td>
                     </tr>
                     <tr>
                       <td>Customizable online store templates</td>
-                      <td><center><i class="bi bi-check-circle-fill"></i></center></td>
+                      <td><center><i className="bi bi-check-circle-fill"></i></center></td>
                     </tr>
                     <tr>
                       <td>Advanced product search and filtering </td>
-                      <td><center><i class="bi bi-check-circle-fill"></i></center></td>
+                      <td><center><i className="bi bi-check-circle-fill"></i></center></td>
                     </tr>
                     <tr>
                       <td>Real-time inventory updates</td>
-                      <td><center><i class="bi bi-check-circle-fill"></i></center></td>
+                      <td><center><i className="bi bi-check-circle-fill"></i></center></td>
                     </tr>
                     <tr>
                       <td>Secure payment processing</td>
-                      <td><center><i class="bi bi-check-circle-fill"></i></center></td>
+                      <td><center><i className="bi bi-check-circle-fill"></i></center></td>
                     </tr>
                     <tr>
                       <td>Automated order fulfillment</td>
-                      <td><center><i class="bi bi-check-circle-fill"></i></center></td>
+                      <td><center><i className="bi bi-check-circle-fill"></i></center></td>
                     </tr>
                     <tr>
                       <td>Multi-language and multi-currency support</td>
-                      <td><center><i class="bi bi-check-circle-fill"></i></center></td>
+                      <td><center><i className="bi bi-check-circle-fill"></i></center></td>
                     </tr>
                   </tbody>
                 </table>

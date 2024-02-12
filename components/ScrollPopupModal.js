@@ -1,30 +1,42 @@
 import { useEffect, useState } from 'react';
 import Cookies from 'js-cookie';
 import Formpop from './Formpop';
+import { useRouter } from 'next/router';
 const ScrollPopupModal = () => {
   const [isVisible, setIsVisible] = useState(false);
-
-  // const handleScroll = () => {
-  //   if (window.scrollY > 1000) {
-  //     setIsVisible(true);
-  //     window.removeEventListener('scroll', handleScroll);
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   const hasClosedPopup = Cookies.get('hasClosedPopup');
-  //   if (!hasClosedPopup) {
-  //     window.addEventListener('scroll', handleScroll);
-  //   }
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
+  const router = useRouter();
 
   useEffect(() => {
+    // Add your specific URL conditions here
+    const notAllowedURLs = [
+      '/products/microsoft-dynamics-nav',
+      '/dynamics-nav-to-business-central',
+      '/blog/8-steps-to-upgrade-nav-to-business-central',
+      '/ebook/upgrade-nav-to-business-central',
+      '/ebook/upgrade-nav-to-business-central',
+      '/blog/dynamics-nav-to-dynamics-365-business-central',
+      '/blog/everything-know-about-microsoft-dynamics-nav',
+      '/products/microsoft-dynamics-gp',
+      '/dynamics-gp-to-business-central-migration',
+      '/blog/comparing-dynamics-gp-vs-business-central',
+      '/blog/steps-to-migrate-gp-to-business-central',
+      '/products/microsoft-dynamics-ax',
+      '/blog/upgrade-from-ax-2012-to-d365-finance-and-operations',
+      '/blog/migrate-dynamics-ax-to-dynamics-365',
+      '/our-services/dynamics-365-implementation-services',
+      '/our-services/dynamics-365-support-services',
+      '/our-services/dynamics-365-upgrade-services',
+      '/products/microsoft-dynamics-365-finance-operations',
+      '/products/dynamics-365-supply-chain-management',
+      '/products/microsoft-dynamics-365-finance',
+      '/products/microsoft-dynamics-365-finance-operations',
+      '/products/dynamics-365-business-central'
+    ];
+
+    const isNotAllowedURL = notAllowedURLs.includes(router.pathname);
     const hasClosedPopup = Cookies.get('hasClosedPopup');
-    if (!hasClosedPopup) {
+
+    if (!isNotAllowedURL && !hasClosedPopup) {
       const timerId = setTimeout(() => {
         setIsVisible(true);
       }, 15000); // Adjust the time (in milliseconds) according to your needs
@@ -33,8 +45,7 @@ const ScrollPopupModal = () => {
         clearTimeout(timerId);
       };
     }
-  }, []);
-
+  }, [router.pathname]);
 
   const handleClose = () => {
     setIsVisible(false);

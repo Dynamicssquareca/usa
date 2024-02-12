@@ -49,7 +49,7 @@ const WhyChooseBc = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <div class="row justify-content-center">
+              <div className="row justify-content-center">
                 <div className="col-lg-9 col-md-9">
                   <header className="section-header">
                     <h2>
@@ -135,7 +135,7 @@ const WhyChooseBc = () => {
 
       <section>
         <div className="container">
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-9 col-md-9">
               <header className="section-header">
                 <h2>
