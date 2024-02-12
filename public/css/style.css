@@ -268,7 +268,7 @@ position:relative;
 .form-main-model  .modal-header .btn-close{
   position: absolute;
     right: 25px;
-    top: 25;
+    top: 25px;
 }
 .form-main-model .modal-body{
   padding: 1.6rem 2.5rem;
@@ -13089,11 +13089,10 @@ position: fixed;
   background-color: #000;
   color: #fff;
 }
-.floating-button{
+/* .floating-button{
   position: fixed;
-  bottom: -60px; /* Start below the viewport */
+  bottom: -60px; 
   left: 30px;
-  /* transform: translateX(-50%); */
   background: rgb(2,0,36);
   background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
@@ -13104,14 +13103,42 @@ position: fixed;
   padding: 15px 30px;
   border-radius: 5px;
   cursor: pointer;
-  transition: bottom 0.5s ease; /* Add smooth transition effect */
+  transition: bottom 0.5s ease; 
   z-index:333;
   box-shadow: 4px 5px 10px rgb(0 0 0 / 28%);
   transition: 0.3s;
+} */
+.floating-button{
+  position: fixed;
+ top:50%;
+ left: -55px;
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#065362",GradientType=1);
+  color: white;
+  border: none;
+  padding:0px 0px 0px 0px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px 5px 0px 0px;
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  cursor: pointer;
+  transition: bottom 0.5s ease; 
+  z-index:333;
+  box-shadow: 4px 5px 10px rgb(0 0 0 / 28%);
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.floating-button.show {
-  bottom: 20px;/* Show button by moving it up */
-}
+/* .floating-button.show {
+  bottom: 20px;
+} */
 .floating-button:hover{
   background: rgb(187,43,54);
   background: -moz-linear-gradient(90deg, rgba(187,43,54,1) 0%, rgba(4,4,71,1) 64%);

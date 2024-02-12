@@ -58,7 +58,7 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
     if (closed) {
       timeoutId = setTimeout(() => {
         setShowFloatingButton(true); // Show the floating button after closing the toaster slide
-      }, 3000); // Adjust the delay time as needed (in milliseconds)
+      }, 500); // Adjust the delay time as needed (in milliseconds)
     }
 
     return () => {
@@ -101,6 +101,7 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
         <div className='toaster-content'>
           <h3>{currentMessage.heading}</h3>
           <p>{currentMessage.paragraph}</p>
+          <div id='consult_now'>
           <a href="#upgradeform"
             data-bs-toggle="modal"
 
@@ -108,6 +109,7 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
           >
             <span>{currentMessage.buttonText}</span>
           </a>
+          </div>
 
           <a className='colse-po-bt' onClick={handleClose}>&times;</a>
         </div>
@@ -117,7 +119,8 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
 
       </div>
       <PrmoTrigerModelHome />
-      {showFloatingButton && !showToaster && closed && <div className={`floating-button ${showFloatingButton ? 'show' : ''}`} onClick={handleFloatingButtonClick}>Consult Now!</div>}
+      {showFloatingButton && !showToaster && closed && <a href="#upgradeform"
+            data-bs-toggle="modal"><div id='consult_now' className={`floating-button ${showFloatingButton ? 'show' : ''}`} >Consult Now!</div></a>}
     </div>
 
   );
