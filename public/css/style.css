@@ -9963,6 +9963,8 @@ margin-bottom: 30px;
   padding: 0.7rem 1.5rem;
   font-weight: 600;
   color: #425399;
+  position: relative;
+    z-index: 1;
 }
 .col-to-content .btn:hover,.heross a.button:hover{
   background: #bb2b36;
@@ -10185,8 +10187,89 @@ margin-bottom: 20px;
 .acc-new-bc .accordion .accordion-item .accordion-body p{
   font-size: 15px;
 }
-/*
-/*
+
+.new-main-heading h1.small-h{
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #585858;
+  margin-bottom: 0;
+}
+.new-main-heading h2{
+  font-size: 48px;
+  font-weight: bold;
+  background: #542784;
+  line-height: normal;
+  background: linear-gradient(to right, #542784 10%, #307faf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  padding-bottom:0px
+}
+
+.new-main-heading p{
+  
+}
+.nw-bc-lef-h>.points-ui{
+  background-color: #fcf4ff;
+  border-radius:250px;
+  padding:15px 20px;
+  display: flex;
+    gap: 15px;
+    margin-bottom:10px
+}
+.points-ui ~ p{
+  margin-top: 25px;
+}
+
+.nw-bc-lef-h>.points-ui .bi{
+  color:#6a4d9f;
+}
+.new-pic-bc video{
+  width:100%
+}
+.ne-list-tags{
+  padding-left:0px;
+ list-style:none;
+ display: flex;
+    gap: 15px;
+    align-item:center;
+    flex-wrap:wrap
+}
+.ne-list-tags li{
+  background:#fcf4ff;
+  padding:10px;
+  border-radius:25px;
+  font-size: 14px;
+}
+.brder-hr{
+  border-left: 2px dashed #e1abff;
+  height: 450px;
+}
+.center-info-fq{
+  border-radius: 250px;
+  background-color: #ebd8f4;
+  padding: 35px 120px;
+}
+.center-info-fq p{
+  margin-bottom: 0;
+}
+.top-text-wrpaer{
+  margin-bottom: 40px;
+}
+.top-text-wrpaer img{}
+.top-text-wrpaer h4{
+  color: #1d3557;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.top-text-wrpaer p{}
+.price0-bc-new.price0-bc-new-h{
+  height:auto
+}
+.mines-m-t{
+  margin-top: -60px;
+}
 /*new home media*/
 @media (min-width: 1400px) and (max-width: 1800px){
   .banner-ne-im-t .bf{
@@ -10300,6 +10383,7 @@ margin-bottom: 20px;
 }
 }
 @media (min-width:992px){
+
   .hide-tomedia-min{
     display:block
   }
@@ -10422,6 +10506,19 @@ margin-bottom: 20px;
 }
 
 @media (max-width: 992px) {
+  .brder-hr{
+    display:none
+  }
+  .center-info-fq {
+    padding: 15px 15px;
+    border-radius: 0;
+}
+.pp-mar-30{
+  margin-top: -90px !important;
+}
+.new-main-heading h2 {
+  font-size: 36px;
+}
   .horizontal-scoll-wrapper {
     padding-left: 0px;
     padding-right: 0px;

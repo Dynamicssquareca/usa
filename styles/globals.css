@@ -214,15 +214,61 @@ border:none
   font-size: 15px;
     font-weight: 400;
     padding: 0px 40px 0px 40px;
-    margin-bottom:0
+    margin-bottom:0;
 }
 .main-form-wrper{
 
 }
+.main-form-wrper-toster .form-select:first-child{
+  color: #484848;
+}
+.form-main-model.form-main-model-toster{
+  background-color: rgb(29 53 87 / 99%);
+  backdrop-filter: blur(18px)
+}
+.form-main-model.form-main-model-toster .modal-content{
+position:relative;
+}
+.form-main-model.form-main-model-toster .modal-content:before{
+  content: '';
+  position: absolute;
+  width: 47%;
+  height: 100%;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #242f6b 0%, #C850C0 46%, #FFCC70 100%);
+  left: 0;
+  top: 0;
+
+  }
+.form-main-model.form-main-model-toster h4{
+  padding: 0;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color:#fff
+    
+}
+.form-main-model.form-main-model-toster p{
+  padding: 0;
+    font-size: 16px;
+    color:#fff
+}
+.form-main-model.form-main-model-toster .btn{
+  padding: 8px 50px;
+  background: #1d3458;
+  border-color: #1e3558;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.form-main-model.form-main-model-toster .btn:hover{
+  background: #bb2b36;
+  border-color: #bb2b36;
+}
 .form-main-model  .modal-header .btn-close{
   position: absolute;
     right: 25px;
-    top: 25;
+    top: 25px;
 }
 .form-main-model .modal-body{
   padding: 1.6rem 2.5rem;
@@ -10139,8 +10185,26 @@ margin-bottom: 20px;
 .acc-new-bc .accordion .accordion-item .accordion-body p{
   font-size: 15px;
 }
-/*
-/*
+
+.new-main-heading h1.small-h{
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #585858;
+}
+.new-main-heading h2{
+  font-size: 2.375rem;
+  font-weight: bold;
+  background: #542784;
+  line-height: normal;
+  background: linear-gradient(to right, #542784 10%, #307faf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Work Sans", sans-serif;
+}
+
+.new-main-heading p{
+  
+}
 /*new home media*/
 @media (min-width: 1400px) and (max-width: 1800px){
   .banner-ne-im-t .bf{
@@ -12971,3 +13035,143 @@ line-height: 1.5rem;
 text-decoration: none;
  
 }
+
+
+.toaster-slide{
+  background:url('/img/toster-bg.jpg');
+  background: rgb(39,57,93);
+  background: -moz-linear-gradient(30deg, rgba(39,57,93,1) 0%, rgba(88,1,145,1) 100%);
+  
+  background: -webkit-linear-gradient(30deg, rgba(39,57,93,1) 0%, rgba(88,1,145,1) 100%);
+  
+  background: linear-gradient(30deg, rgba(39,57,93,1) 0%, rgba(88,1,145,1) 100%);
+  
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#27395d",endColorstr="#580191",GradientType=1);
+}
+.toaster-slide:before{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  background: url(/img/toster-bg.jpg);
+  content: '';
+  opacity: .1;
+  mix-blend-mode: luminosity;
+  z-index:-1
+}
+.toaster-slide {
+position: fixed;
+    bottom: -350px;
+    left: 0;
+    width: 30%;
+   
+    color: #fff;
+    padding: 40px;
+    transition: bottom 0.5s ease-in-out;
+    z-index: 999;
+    border-radius: 0px 10px 0px 0px;
+    box-shadow: 9px 10px 5px -3px #8989898c;
+    z-index:22
+}
+
+.toaster-slide.active {
+  bottom: 0; /* Slide up when active */
+}
+
+.toaster-slide .colse-po-bt {
+  background-color: transparent;
+  border: none;
+  color: #270d3a;
+  cursor: pointer;
+  position: absolute;
+  top: -13px;
+  right: 7px;
+  font-size: 44px;
+}
+.toaster-slide .colse-po-bt:hover{
+  color: #f7f7f7;
+}
+.toaster-content h3{
+  font-size: 28px;
+}
+.toaster-content p{
+  color: #fff;
+}
+.toaster-content .scrollto{
+  margin-top: 15px;
+  background-color: #fff;
+    color: #000;
+}
+.toaster-content .scrollto:hover{
+  background-color: #000;
+  color: #fff;
+}
+/* .floating-button{
+  position: fixed;
+  bottom: -60px; 
+  left: 30px;
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#065362",GradientType=1);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: bottom 0.5s ease; 
+  z-index:333;
+  box-shadow: 4px 5px 10px rgb(0 0 0 / 28%);
+  transition: 0.3s;
+} */
+.floating-button{
+  position: fixed;
+ top:50%;
+ left: -55px;
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(6,83,98,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#065362",GradientType=1);
+  color: white;
+  border: none;
+  padding:0px 0px 0px 0px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px 5px 0px 0px;
+  -moz-transform:rotate(90deg);
+  -ms-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  cursor: pointer;
+  transition: bottom 0.5s ease; 
+  z-index:333;
+  box-shadow: 4px 5px 10px rgb(0 0 0 / 28%);
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .floating-button.show {
+  bottom: 20px;
+} */
+.floating-button:hover{
+  background: rgb(187,43,54);
+  background: -moz-linear-gradient(90deg, rgba(187,43,54,1) 0%, rgba(4,4,71,1) 64%);
+  background: -webkit-linear-gradient(90deg, rgba(187,43,54,1) 0%, rgba(4,4,71,1) 64%);
+  background: linear-gradient(90deg, rgba(187,43,54,1) 0%, rgba(4,4,71,1) 64%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bb2b36",endColorstr="#040447",GradientType=1);
+}
+@media (max-width:991px){
+  .toaster-slide,.floating-button{
+    display:none
+  }
+}
+@media (max-width:1400px){
+  .toaster-slide {
+        width: 40%;
+  }
+}
+
