@@ -95,7 +95,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row pp-top-60 pp-bot-60 justify-content-center">
             <div className="col-lg-9" >
               <div className="center-info-fq text-center">
-                <p><strong>Note:</strong>Dynamics 365 F&O was earlier known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> (Axapta) and specifically designed as on-premises ERP solution. With the modernization of business solutions, Microsoft upgraded Dynamics AX to Dynamics F&O to cater more advanced tools and capabilities for modern businesses.</p>
+                <p><strong>Note:</strong> Dynamics 365 F&O was earlier known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> (Axapta) and specifically designed as on-premises ERP solution. With the modernization of business solutions, Microsoft upgraded Dynamics AX to Dynamics F&O to cater more advanced tools and capabilities for modern businesses.</p>
               </div>
             </div>
           </div>
