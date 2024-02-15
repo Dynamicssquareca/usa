@@ -20,6 +20,51 @@ const MicrosoftDynamics365FinanceOperations = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/"
         />
+        <meta property="og:type" content="product" />
+
+        <meta property="og:title" content="Microsoft Dynamics 365 Finance and Operations Partner" />
+
+        <meta property="og:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
+
+        <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
+
+        <meta property="og:site_name" content="Dynamics Square USA" />
+
+        <meta property="og:image" content="https://www.dynamicssquare.com/img/f&o-main-image.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Finance and Operations Partner" />
+
+        <meta property="twitter:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
+
+        <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
+
+        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/f&o-main-image.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "Microsoft Dynamics 365 Finance and Operations Partner",
+              "image": "https://www.dynamicssquare.com/img/f&o-main-image.png/",
+              "description": "Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Dynamics Square USA"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "url": "https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/",
+                "priceCurrency": "USD",
+                "lowPrice": "180",
+                "highPrice": "300"
+              }
+            }),
+          }}
+        />
+
       </Head>
 
       <section className="Solution-banner pp-rrea new-main-heading">
@@ -173,7 +218,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <h2>Plug and Play Integrations</h2>
                 <p>D365 Finance and Operations is a flexible solution when it comes to integrating native Microsoft solutions. By integrating different add-ons and solutions, you will be able to enhance the performance of the entire solution. And the best part about the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 ecosystem</a></Link> is that you can integrate any solution with just a click.</p>
                 <p>Even when the job of the add-on is done, you can disintegrate it without losing any data. That’s how the connection between native Microsoft solutions works, and you can establish the connection by yourself without relying on your <Link href="/our-services/dynamics-365-support-services/"><a>Dynamics 365 support</a></Link> partner.</p>
-               
+
               </div>
             </div>
 
@@ -1477,7 +1522,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
       </section>
       <section className="mines-m-t">
         <div className="container">
-        <div className="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="heading-colo-bg">
                 <h2>Microsoft Dynamics 365 for Finance and Operations: Latest Update 2024</h2>
@@ -1486,7 +1531,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           </div>
 
           <div className="row pp-top-60 pp-bot-60">
-          <div className="col-lg-6">
+            <div className="col-lg-6">
               <div className="nw-bc-lef-h">
                 <p>Businesses have to implement the D365 F&O as a whole irrespective of their specific requirements. It leads to a complex, time-consuming, and costly implementation. Microsoft understood this concern of different businesses and separated the whole solution into two powerful business applications:</p>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Microsoft Dynamics 365 Finance</span></div>
@@ -1514,7 +1559,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 />
               </div>
             </div>
-          
+
 
 
 
@@ -1548,26 +1593,26 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
       <section>
         <div className="container">
-        <div className="row pp-top-60 pp-bot-60">
+          <div className="row pp-top-60 pp-bot-60">
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
                 <h2>D365 Finance and Operations Licensing</h2>
                 <p>With the release of <Link href="/products/microsoft-dynamics-365-finance/"><a>Dynamics 365 Finance</a></Link> and Dynamics 365 Supply Chain Management, Microsoft has stopped offering any licensing options for D365 Finance and Operations. If you still want this solution, you must separately purchase licenses for both.</p>
-               <p><strong>However, you will be required to purchase at least 20 licenses to use any of the solutions.</strong></p>
-               <p>Dynamics 365 Finance is available in 4 licensing options:</p>
-               <ul className="ne-list-tags">
-                <li>Team Members</li>
-                <li>Finance</li>
-                <li>Finance Premium</li>
-                <li>Operations Activity</li>
-               </ul>
-               <br />
-               <p>Dynamics 365 Supply Chain is available in 3 licensing:</p>
-               <ul className="ne-list-tags">
-                <li>Team Members</li>
-                <li>Operations Activity</li>
-                <li>Supply Chain Management</li>
-               </ul>
+                <p><strong>However, you will be required to purchase at least 20 licenses to use any of the solutions.</strong></p>
+                <p>Dynamics 365 Finance is available in 4 licensing options:</p>
+                <ul className="ne-list-tags">
+                  <li>Team Members</li>
+                  <li>Finance</li>
+                  <li>Finance Premium</li>
+                  <li>Operations Activity</li>
+                </ul>
+                <br />
+                <p>Dynamics 365 Supply Chain is available in 3 licensing:</p>
+                <ul className="ne-list-tags">
+                  <li>Team Members</li>
+                  <li>Operations Activity</li>
+                  <li>Supply Chain Management</li>
+                </ul>
               </div>
             </div>
 
@@ -1595,8 +1640,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
         </div>
       </section>
 
-     
-      <section className="pri-wrper-bc" style={{marginTop:'-90px'}}>
+
+      <section className="pri-wrper-bc" style={{ marginTop: '-90px' }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -1648,7 +1693,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             </div>
             <div className="col-lg-1"></div>
             <div className="col-lg-5">
-            <div className="top-text-wrpaer">
+              <div className="top-text-wrpaer">
                 <img src="/img/Dynamics-365-Supply-Chain-new-pic.png" alt="Dynamics-365-Supply-Chain-new-pic" width='120' height='120' />
                 <h4>Dynamics 365 Supply Chain</h4>
                 <p><Link href="/products/dynamics-365-supply-chain-management/"><a>D365 Supply Chain Management</a></Link> understands the workflow of goods and manages supply chain operations. With AI-driven insights, you can operate your global business, reducing numerous challenges with total visibility</p>
@@ -1684,7 +1729,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
         </div>
       </section>
 
-      <section className="bbb" style={{marginTop:'120px'}}>
+      <section className="bbb" style={{ marginTop: '120px' }}>
         <div className="heross">
           <video
             playsinline
@@ -1704,7 +1749,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   <h3>For detailed or personalized pricing information, feel free to contact our team</h3>
                   <Link href="/schedule-a-demo/">
                     <a className="btn btn-md">
-                    Contact Dynamics 365 Consultant Now!
+                      Contact Dynamics 365 Consultant Now!
                     </a>
                   </Link>
                 </div>
