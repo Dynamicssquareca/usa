@@ -74,7 +74,7 @@ function MyApp({ Component, pageProps }) {
     },
     {
       urls: ['/products/microsoft-dynamics-ax'], // URLs where this message should appear
-      heading: 'Leave GP Behind, Leap into the Future with Business Central',
+      heading: 'Leverage Superiour Business Intelligence and Data Insights',
       paragraph: 'Simplify Complex Finance and Operations',
       buttonText: 'Consult Now!'
     },
@@ -93,7 +93,7 @@ function MyApp({ Component, pageProps }) {
     {
       urls: ['/our-services/dynamics-365-upgrade-services'], // URLs where this message should appear
       heading: 'Save upto 40% on Upgrade Cost',
-      paragraph: 'Eliminate Complexity and Maximise ROI',
+      paragraph: 'Eliminate Complexity and Maximize ROI',
       buttonText: 'Consult Now!'
     },
     {

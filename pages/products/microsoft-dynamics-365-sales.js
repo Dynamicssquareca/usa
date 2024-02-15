@@ -416,7 +416,7 @@ const Sales = () => {
               <div className="price-btn price-btnasd d-flex justify-content-center">
                 <Link href="#exampleModal">
                   <a data-bs-toggle="modal" className="btn-get-red">
-                    <span>Get Power Apps Now</span>
+                    <span>Contact our Sales Expert</span>
                   </a>
                 </Link>
               </div>

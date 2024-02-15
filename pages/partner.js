@@ -125,9 +125,9 @@ const Partner = () => {
                   <p>
                   A Member of the Agiles Group provides certified industry solutions for shipping companies, fresh food and Non-food traders including BI Programs on Microsoft Dynamics NAV. beside from Industry solutions, Agiles deliver the only workflow application that is fully integrated for Microsoft Dynamics NAV.
                   </p>
-                  <a href="http://en.agilesworkflow.com/" target="_blank">
-                  www.agilesworkflow.com
-                  </a>
+                 
+                  <p style={{color:'#bb2b36'}}>www.agilesworkflow.com</p>
+                 
                 </div>
               </div>
               <div className="col-lg-1 align-self-center"></div>

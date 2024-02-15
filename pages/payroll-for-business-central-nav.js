@@ -84,7 +84,7 @@ const PowerBIImplementation = () => {
               </div>
               <div className="custom-p-001">
                 <p>Most secure and strong Payment infrastructure for all your online transactions.</p>
-                <p>Businesses of all sizes, from <b>small to medium size</b> and <b>large enterprises</b> - use <a href="https://www.sylogist.com/support-legacy" target="_blank" rel="nofollow">NaviPayroll</a>; designed and developed by <a href="https://www.sylogist.com/" target="_blank" rel="nofollow">Sylogist</a> and is made available by <a href="https://www.serenic.com/" target="_blank" rel="nofollow">Serenic</a>. It is a payments add-on for the all-in-one <b>cloud-based business management solution from Microsoft - D365 Business Central</b>.</p>
+                <p>Businesses of all sizes, from <b>small to medium size</b> and <b>large enterprises</b> - use <a href="https://www.sylogist.com/support-legacy" target="_blank" rel="nofollow">NaviPayroll</a>; designed and developed by <a href="https://www.sylogist.com/" target="_blank" rel="nofollow">Sylogist</a> and is made available by Serenic. It is a payments add-on for the all-in-one <b>cloud-based business management solution from Microsoft - D365 Business Central</b>.</p>
               </div>
             </div>
           </div>
