@@ -210,8 +210,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   />
                 </div>
                 <Image
-                  src="/img/Simplify-Financial-Operations.png"
-                  alt="Simplify-Financial-Operations"
+                  src="/img/Supports-Globalization.png"
+                  alt="Supports-Globalization"
                   width={600}
                   height={400}
                 />
