@@ -26,7 +26,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
-              <h1 className="small-h">Dynamics 365 Finance and Operations</h1>
+              <h1 className="small-h">Microsoft Dynamics 365 Finance and Operations</h1>
               <h2>Automate Core <br /> Financial Processes</h2>
               <p>Streamline entire inventory, and get 100% visibility throughout the supply chain processes with Dynamics 365 Finance and Operations.</p>
               <div>
@@ -222,7 +222,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="nw-bc-lef-h">
                 <h2>Supports Globalization</h2>
                 <p>Dynamics 365 Finance and Operations supports 27 countries and 42 languages so that you can expand your business beyond global boundaries. Microsoft knows the fact that a country's compliances and regulations change with time; that's why it continuously releases updates to support your ongoing business.</p>
-                <p><strong>Dynamics 365 for Finance & Operations offers features such as</strong>.</p>
+                <p><strong>Dynamics 365 for Finance & Operations offers features such as:</strong></p>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Electronic reporting</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Global tax acceptance</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Automated electronic invoicing</span></div>
@@ -242,7 +242,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8 col-md-8">
               <div className="heading-colo-bg">
-                <h2>Dynamics 365 for Finance & Operations Benefits: Strengthen Your Business with Advanced Tech</h2>
+                <h2>Microsoft Dynamics 365 Finance and Operations Features: Perfect Tools for Unique Businesses</h2>
                 <p>Dynamics 365 F&O comes with a variety of tools and functionalities to streamline different departments of a business. Some of the capabilities are:</p>
               </div>
             </div>
@@ -1562,7 +1562,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <li>Operations Activity</li>
                </ul>
                <br />
-               <p>Dynamics 365 Supply Chain is available in 3 licensing</p>
+               <p>Dynamics 365 Supply Chain is available in 3 licensing:</p>
                <ul className="ne-list-tags">
                 <li>Team Members</li>
                 <li>Operations Activity</li>
@@ -1622,7 +1622,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 </div>
                 <div className="pr-body">
                   <div className="pr-pice">
-                    <span>$180</span> Per-User/Month
+                    <span>$180</span> per user/month
                   </div>
                   <div className="list-ul">
                     <ul>
@@ -1659,7 +1659,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 </div>
                 <div className="pr-body">
                   <div className="pr-pice">
-                    <span>$180</span> Per-User/Month
+                    <span>$180</span> per user/month
                   </div>
                   <div className="list-ul">
                     <ul>
