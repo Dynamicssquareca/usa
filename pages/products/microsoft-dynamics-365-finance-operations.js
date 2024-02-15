@@ -95,7 +95,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row pp-top-60 pp-bot-60 justify-content-center">
             <div className="col-lg-9" >
               <div className="center-info-fq text-center">
-                <p><strong>Note:</strong> Dynamics 365 F&O was earlier known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> (Axapta) and was a specifically designed on-premises ERP solution. With the modernization of business solutions, Microsoft upgraded Dynamics AX to Dynamics F&O to cater to more advanced tools and capabilities for modern businesses.</p>
+                <p><strong>Note:</strong>Dynamics 365 F&O was earlier known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link> (Axapta) and specifically designed as on-premises ERP solution. With the modernization of business solutions, Microsoft upgraded Dynamics AX to Dynamics F&O to cater more advanced tools and capabilities for modern businesses.</p>
               </div>
             </div>
           </div>
@@ -105,7 +105,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <h2>Simplify Financial Operations</h2>
                 <p>Track, manage, and control all financial operations, regardless of business complexity. Along with streamlining finance, you can focus on managing accounts while gathering all the information in real-time.</p>
                 <p>D365 Finance and Operations comes with an interactive user experience to help you utilize all tools and capabilities without any hassle.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Build enhanced expense reports</span></div>
+                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Build enhanced expense management reports</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Follow different regulatory compliances</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Automate settlements in the general ledger</span></div>
               </div>
@@ -171,7 +171,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
                 <h2>Plug and Play Integrations</h2>
-                <p>D365 Finance and Operations is a flexible solution for integrating other Microsoft solutions. By integrating different add-ons and solutions, you will be able to enhance the performance of the entire solution. And the best part about the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 ecosystem</a></Link> is that you can integrate any solution with just a click.</p>
+                <p>D365 Finance and Operations is a flexible solution when it comes to integrating native Microsoft solutions. By integrating different add-ons and solutions, you will be able to enhance the performance of the entire solution. And the best part about the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 ecosystem</a></Link> is that you can integrate any solution with just a click.</p>
                 <p>Even when the job of the add-on is done, you can disintegrate it without losing any data. That’s how the connection between native Microsoft solutions works, and you can establish the connection by yourself without relying on your <Link href="/our-services/dynamics-365-support-services/"><a>Dynamics 365 support</a></Link> partner.</p>
                
               </div>
@@ -461,7 +461,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                               </div>
                               <div className="content">
                                 <h4>Resource Management</h4>
-                                <p>Manage, track, and calculate all resources to smooth the manufacturing process. </p>
+                                <p>Manage, track, and calculate all resources to simplify the manufacturing process. </p>
                               </div>
                             </div>
                           </div>
@@ -543,7 +543,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                               </div>
                               <div className="content">
                                 <h4>Procurement </h4>
-                                <p>Manage and smooth the process of sourcing and finding the right materials for the highest quality. </p>
+                                <p>Smoothen the process of sourcing and finding the right materials for the highest quality. </p>
                               </div>
                             </div>
                           </div>
