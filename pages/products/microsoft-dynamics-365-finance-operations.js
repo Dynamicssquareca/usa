@@ -30,7 +30,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="og:site_name" content="Dynamics Square USA" />
 
-        <meta property="og:image" content="https://www.dynamicssquare.com/img/f&o-main-image.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
 
@@ -40,7 +40,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
 
-        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/f&o-main-image.png" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -48,7 +48,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
               "@context": "https://schema.org/",
               "@type": "Product",
               "name": "Microsoft Dynamics 365 Finance and Operations Partner",
-              "image": "https://www.dynamicssquare.com/img/f&o-main-image.png/",
+              "image": "https://www.dynamicssquare.com/img/f-and-o-image.png/",
               "description": "Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs.",
               "brand": {
                 "@type": "Brand",
@@ -98,7 +98,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   />
                 </div>
                 <Image
-                  src="/img/f&o-main-image.png"
+                  src="/img/f-and-o-image.png"
                   alt="f&o"
                   width={648}
                   height={355}
