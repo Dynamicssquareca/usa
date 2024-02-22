@@ -113,7 +113,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
         <div className="container">
 
 
-          <div className="row pp-top-60 pp-bot-60">
+          <div className="row pp-top-60 pp-bot-60 rever-1">
             <div className="col-lg-5 align-self-center">
               <div className="new-pic-bc">
                 <video autoPlay muted loop playsInline>
@@ -177,7 +177,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             </div>
 
           </div>
-          <div className="row pp-top-60 pp-bot-60 pp-mar-30">
+          <div className="row pp-top-60 pp-bot-60 pp-mar-30 rever-1">
             <div className="col-lg-5 align-self-center">
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
@@ -243,7 +243,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             </div>
 
           </div>
-          <div className="row pp-top-60 pp-bot-60 pp-mar-30">
+          <div className="row pp-top-60 pp-bot-60 pp-mar-30 rever-1">
             <div className="col-lg-5 align-self-center">
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">

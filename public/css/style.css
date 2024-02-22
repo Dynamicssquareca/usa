@@ -223,8 +223,8 @@ border:none
   color: #484848;
 }
 .form-main-model.form-main-model-toster{
-  background-color: rgb(29 53 87 / 99%);
-  backdrop-filter: blur(18px)
+  background-color: rgb(56 65 77 / 13%);
+    backdrop-filter: blur(2px);
 }
 .form-main-model.form-main-model-toster .modal-content{
 position:relative;
@@ -267,8 +267,8 @@ position:relative;
 }
 .form-main-model  .modal-header .btn-close{
   position: absolute;
-    right: 25px;
-    top: 25px;
+    right: 15px;
+    top: 15px;
 }
 .form-main-model .modal-body{
   padding: 1.6rem 2.5rem;

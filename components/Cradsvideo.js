@@ -43,7 +43,7 @@ const CardVideo = () => {
       <div className="video pulse" >  
                   
                   {/* <img src="/video/banner-video-ds.svg" alt="" /> */}
-                   <video autoPlay muted loop>
+                   <video autoPlay muted loop playsInline>
                     <source src="/video/DS-banner-video.mp4"></source>
                   </video> 
                  

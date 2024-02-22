@@ -440,7 +440,7 @@ export default function Home() {
                   <a>
                     <div className="gr">
                       <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" />
-                      <video autoPlay muted loop>
+                      <video autoPlay muted loop playsInline>
                         <source src="/video/Implementation-icon.mp4" type="video/mp4" />
                       </video>
                     </div>
@@ -459,7 +459,7 @@ export default function Home() {
                   <a>
                     <div className="gr">
                       <img src="/img/home/Upgrade-icon.png" alt="Upgrade-icon" />
-                      <video autoPlay muted loop>
+                      <video autoPlay muted loop playsInline>
                         <source src="/video/Upgrade-icon.mp4" type="video/mp4" />
                       </video>
                     </div>
@@ -479,7 +479,7 @@ export default function Home() {
 
                     <div className="gr">
                       <img src="/img/home/Support-icon.png" alt="Support-icon" />
-                      <video autoPlay muted loop>
+                      <video autoPlay muted loop playsInline>
                         <source src="/video/Support-icon.mp4" type="video/mp4" />
                       </video>
                     </div>
@@ -499,7 +499,7 @@ export default function Home() {
 
                     <div className="gr">
                       <img src="/img/home/Consulting-Icon.png" alt="Consulting-Icon" />
-                      <video autoPlay muted loop>
+                      <video autoPlay muted loop playsInline>
                         <source src="/video/Consulting-Icon.mp4" type="video/mp4" />
                       </video>
                     </div>
@@ -519,7 +519,7 @@ export default function Home() {
 
                     <div className="gr">
                       <img src="/img/home/Audit-icon.png" alt="Audit-icon" />
-                      <video autoPlay muted loop>
+                      <video autoPlay muted loop playsInline>
                         <source src="/video/Audit-icon.mp4" type="video/mp4" />
                       </video>
                     </div>
@@ -538,7 +538,7 @@ export default function Home() {
                   <a data-bs-toggle="modal">
                     <div className="gr">
                       <img src="/img/home/training-icon.png" alt="training-icon" />
-                      <video autoPlay muted loop>
+                      <video autoPlay muted loop playsInline>
                         <source src="/video/training-icon.mp4" type="video/mp4" />
                       </video>
                     </div>
@@ -1131,7 +1131,7 @@ Marketing</h3>
 
       <div className="pd-btm-60 min-w-di">
         <div className='vie'>
-          <video id="background-video" autoPlay muted loop>
+          <video id="background-video" autoPlay muted loop playsInline>
             <source src="/video/masscot-background.mp4" type="video/mp4" />
           </video>
           <div className='new'>
