@@ -11,10 +11,10 @@ const DynamicsNavToBusinessCentralNew = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Finance and Operations Partner</title>
+        <title>Microsoft Dynamics 365 Finance | Dynamics Square</title>
         <meta
           name="description"
-          content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs."
+          content="Use actionable insights to increase financial visibility and faster your decision making with Microsoft Dynamics 365 Finance Implementation. Contact us now."
         />
         <link
           rel="canonical"
@@ -22,9 +22,9 @@ const DynamicsNavToBusinessCentralNew = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="Microsoft Dynamics 365 Finance and Operations Partner" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Finance | Dynamics Square" />
 
-        <meta property="og:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
+        <meta property="og:description" content="Use actionable insights to increase financial visibility and faster your decision making with Microsoft Dynamics 365 Finance Implementation. Contact us now." />
 
         <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
 
@@ -34,9 +34,9 @@ const DynamicsNavToBusinessCentralNew = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="Microsoft Dynamics 365 Finance and Operations Partner" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Finance | Dynamics Square" />
 
-        <meta property="twitter:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
+        <meta property="twitter:description" content="Use actionable insights to increase financial visibility and faster your decision making with Microsoft Dynamics 365 Finance Implementation. Contact us now." />
 
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
 
