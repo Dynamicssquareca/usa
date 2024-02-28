@@ -11,22 +11,22 @@ const MicrosoftDynamics365FinanceOperations = () => {
   return (
     <>
       <Head>
-        <title>What is Microsoft Power Automate? | Dynamics Square USA</title>
+        <title>Microsoft Dynamics CRM Solutions Partner | Dynamics Square</title>
         <meta
           name="description"
-          content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs."
+          content="Need trusted Microsoft Dynamics CRM partner for any solutions? We will help you in streamling your overall sales process, building customer relationships and improving customer service."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/"
+          href="https://www.dynamicssquare.com/products/microsoft-dynamics-crm/"
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="What is Microsoft Power Automate? | Dynamics Square USA" />
+        <meta property="og:title" content="Microsoft Dynamics CRM Solutions Partner | Dynamics Square" />
 
-        <meta property="og:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
+        <meta property="og:description" content="Need trusted Microsoft Dynamics CRM partner for any solutions? We will help you in streamling your overall sales process, building customer relationships and improving customer service." />
 
-        <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
+        <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-crm/" />
 
         <meta property="og:site_name" content="Dynamics Square USA" />
 
@@ -34,11 +34,11 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="What is Microsoft Power Automate? | Dynamics Square USA" />
+        <meta property="twitter:title" content="Microsoft Dynamics CRM Solutions Partner | Dynamics Square" />
 
-        <meta property="twitter:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
+        <meta property="twitter:description" content="Need trusted Microsoft Dynamics CRM partner for any solutions? We will help you in streamling your overall sales process, building customer relationships and improving customer service." />
 
-        <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-crm/" />
 
         <meta property="twitter:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
         <meta name="robots" content="noindex, nofollow" />
@@ -252,8 +252,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <p>You can also distribute the resources and budgets accordingly while forecasting future sales and upcoming opportunities for growth.</p>
                 <p>Dynamics 365 CRM empowers sales executives to track, follow-up, and nurture leads until they become resourceful customers.</p>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Get full visibility of sales activities</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Make real-time decisions with insights.</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Forecast future sales.</span></div>
+                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Make real-time decisions with insights</span></div>
+                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Forecast future sales</span></div>
               </div>
             </div>
 
@@ -397,7 +397,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                             height={48}
                           />
                         </div>
-                        <span>Boost Sales</span>
+                        <span>Dynamics 365 Customer Service</span>
                       </button>
                     </h3>
                     <div
@@ -445,7 +445,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                             height={48}
                           />
                         </div>
-                        <span>Simplify Supply Chain</span>
+                        <span>Dynamics 365 Field Service</span>
                       </button>
                     </h3>
                     <div
@@ -499,7 +499,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                         <p>Microsoft Dynamics 365 Customer Insights lets you track your customers and collect their data. It enables you to run marketing campaigns and record customer behavior to perform data analysis for a more personalized approach.</p>
                         <ul>
                           <li>Record customer interactions and behaviors</li>
-                          <li>Record customer interactions and behaviors</li>
+                          <li>Unifies data of different applications</li>
                           <li>Run marketing campaigns using customer data</li>
                           <li>Understand customer demands using AI</li>
                           <li>Triggers personalized content for customers</li>
