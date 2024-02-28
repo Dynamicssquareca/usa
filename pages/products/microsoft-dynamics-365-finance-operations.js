@@ -11,7 +11,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Finance and Operations Partner</title>
+        <title>Dynamics 365 Finance and Operations Partner</title>
         <meta
           name="description"
           content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs."
@@ -22,7 +22,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="Microsoft Dynamics 365 Finance and Operations Partner" />
+        <meta property="og:title" content="Dynamics 365 Finance and Operations Partner" />
 
         <meta property="og:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
 
@@ -34,7 +34,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="Microsoft Dynamics 365 Finance and Operations Partner" />
+        <meta property="twitter:title" content="Dynamics 365 Finance and Operations Partner" />
 
         <meta property="twitter:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
 
@@ -71,9 +71,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
-              <h1 className="small-h">Microsoft Dynamics 365 Finance and Operations</h1>
+              <h1 className="small-h">Dynamics 365 Finance and Operations</h1>
               <h2>Automate Core <br /> Financial Processes</h2>
-              <p>Streamline entire inventory, and get 100% visibility throughout the supply chain processes with Dynamics 365 Finance and Operations.</p>
+              <p>Streamline entire inventory, and get 100% visibility throughout the supply chain processes with Microsoft Dynamics 365 Finance and Operations.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">

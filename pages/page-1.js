@@ -18,7 +18,7 @@ const DynamicsNavToBusinessCentralNew = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/"
+          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/"
         />
         <meta property="og:type" content="product" />
 
@@ -26,7 +26,7 @@ const DynamicsNavToBusinessCentralNew = () => {
 
         <meta property="og:description" content="Use actionable insights to increase financial visibility and faster your decision making with Microsoft Dynamics 365 Finance Implementation. Contact us now." />
 
-        <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
+        <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/" />
 
         <meta property="og:site_name" content="Dynamics Square USA" />
 
@@ -38,7 +38,7 @@ const DynamicsNavToBusinessCentralNew = () => {
 
         <meta property="twitter:description" content="Use actionable insights to increase financial visibility and faster your decision making with Microsoft Dynamics 365 Finance Implementation. Contact us now." />
 
-        <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/" />
 
         <meta property="twitter:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
         <meta name="robots" content="noindex, nofollow" />
@@ -109,7 +109,7 @@ const DynamicsNavToBusinessCentralNew = () => {
                 <p><strong>Dynamics 365 Finance offers you:</strong></p>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Advanced analytics and reporting</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Compliance with industry standards</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>nvoicing and billing</span></div>
+                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Invoicing and billing</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Cost Accounting</span></div>
                 <p>While D365 Finance isn't new, it's now standalone, offering focused finance management after separating from the broader Dynamics 365 Finance and Operations (earlier known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link>).</p>
               </div>
@@ -119,7 +119,7 @@ const DynamicsNavToBusinessCentralNew = () => {
           <div className="row pp-top-60 pp-bot-60 justify-content-center">
             <div className="col-lg-9" >
               <div className="center-info-fq text-center">
-                <p><strong>Note:</strong> Some consultants and businesses still consider <Link href="/products/microsoft-dynamics-365-finance-operations/"><a>D365 Finance and Operations</a></Link> as a single implementation.</p>
+                <p><strong>Note:</strong> Some consultants and businesses still consider <Link href="/products/microsoft-dynamics-365-finance-operations/"><a>Dynamics 365 Finance and Operations</a></Link> as a single implementation.</p>
               </div>
             </div>
           </div>
@@ -1375,19 +1375,19 @@ const DynamicsNavToBusinessCentralNew = () => {
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
                 <h2>Dynamics 365 Finance: Services we Offer to You</h2>
-                <p>Our top priority is to offer the optimum level of customer satisfaction with our reliable Dynamics 356 Finance services.</p>
+                <p>Our top priority is to offer the optimum level of customer satisfaction with our reliable D365 Finance services.</p>
                 <ul className="ne-list-tags">
-                  <li>D365 Finance Implementation</li>
+                  <li>Dynamics 365 Finance Implementation</li>
                 </ul>
-                <p>Power up your business with modern functionality to manage financial operations. Get the Dynamics 365 Finance implementation to enhance profitability and maximize performance.</p>
+                <p>Power up your business with modern functionality to manage financial operations. Get the <Link href="/dynamics-365-finance-implementation/"><a>Microsoft Dynamics 365 Finance implementation</a></Link> to enhance profitability and maximize performance.</p>
                 <ul className="ne-list-tags">
                   <li>Dynamics 365 Finance Support</li>
                 </ul>
-                <p>Enable your system to work 24*7 regardless of its complexity. Ensure smooth business operations while resolving issues whenever you encounter them with robust D365 Finance support.</p>
+                <p>Enable your system to work 24*7 regardless of its complexity. Ensure smooth business operations while resolving issues whenever you encounter them with robust <Link href="/our-services/dynamics-365-support-services/"><a>D365 Finance support</a></Link>.</p>
                 <ul className="ne-list-tags">
-                  <li>Dynamics 365 Finance Upgrade/Customizations</li>
+                  <li>Dynamics 365 Finance Customizations</li>
                 </ul>
-                <p>Upgrade your system to meet changing market and customer demands. Grow consistently with our certified Dynamics 365 Finance consultants.    </p>
+                <p>Customize your system to meet changing market and customer demands. Grow consistently with our certified <Link href="/microsoft-dynamics-365-partner/"><a>Dynamics 365 Finance consultants</a></Link>.    </p>
               </div>
             </div>
 
@@ -1562,8 +1562,8 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="col-lg-5"></div>
               <div className="col-lg-7">
                 <div className="psot-cl">
-                  <h3>For detailed or personalized pricing information, feel free to contact our team</h3>
-                  <Link href="/schedule-a-demo/">
+                  <h3>For personalized or detailed Dynamics 365 Finance pricing, feel free to contact our experts.</h3>
+                  <Link href="/contact-us/">
                     <a className="btn btn-md">
                       Contact Dynamics 365 Consultant Now!
                     </a>

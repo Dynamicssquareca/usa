@@ -18,7 +18,7 @@ const DynamicsNavToBusinessCentralNew = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/"
+          href="https://www.dynamicssquare.com/products/microsoft-power-automate/"
         />
         <meta property="og:type" content="product" />
 
@@ -26,7 +26,7 @@ const DynamicsNavToBusinessCentralNew = () => {
 
         <meta property="og:description" content="Simplify processes by utilizing Microsoft Power Automate. Dynamics Square provides professional integration services to automate corporate processes smoothly." />
 
-        <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
+        <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-power-automate/" />
 
         <meta property="og:site_name" content="Dynamics Square USA" />
 
@@ -38,7 +38,7 @@ const DynamicsNavToBusinessCentralNew = () => {
 
         <meta property="twitter:description" content="Simplify processes by utilizing Microsoft Power Automate. Dynamics Square provides professional integration services to automate corporate processes smoothly." />
 
-        <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
+        <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-power-automate/" />
 
         <meta property="twitter:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
         <meta name="robots" content="noindex, nofollow" />
@@ -447,7 +447,7 @@ const DynamicsNavToBusinessCentralNew = () => {
                 <li><strong>Social media watch:</strong> Stay in the loop whenever someone mentions your brand with specific hashtags on social media.</li>
                
               </ul>
-              <p>Based on research - <a href="https://info.microsoft.com/ww-landing-forrester-tei-of-power-platform-premium-capabilities.html?culture=en-us&country=us" target="_blank" rel="nofollow">The Total Economic Impact™ of Microsoft Power Platform Premium Capabilities</a>  published by Forrester Consulting. </p>
+              <p><strong>Based on research:</strong> <a href="https://info.microsoft.com/ww-landing-forrester-tei-of-power-platform-premium-capabilities.html?culture=en-us&country=us" target="_blank" rel="nofollow">The Total Economic Impact™ of Microsoft Power Platform Premium Capabilities</a>  published by Forrester Consulting. </p>
               </div>
             </div>
             <div className="col-lg-1 align-self-center"></div>
@@ -612,13 +612,35 @@ const DynamicsNavToBusinessCentralNew = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-12">
-            <div className="text-center" style={{padding:'40px 0px 60px'}}>
-              <p><strong>For personalized and detailed Power Automate pricing structure, feel free to contact our experts.</strong></p>
-            <Link href="/contact-us/">
-                  <a className="btn-get-started scrollto">Connect with a Business Automation Expert!</a>
-                </Link>
-            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bbb" style={{ marginTop: '120px' }}>
+        <div className="heross">
+          <video
+            playsinline
+            autoPlay
+            muted
+            loop
+            poster="/video/Rectangle-scree.png"
+            className="background"
+          >
+            <source type="video/mp4" src="/video/Banner-DS-US.mp4" />
+          </video>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-5"></div>
+              <div className="col-lg-7">
+                <div className="psot-cl">
+                  <h3>For personalized and detailed Power Automate pricing structure, feel free to contact our experts.</h3>
+                  <Link href="/contact-us/">
+                    <a className="btn btn-md">
+                    Connect with a Business Automation Expert!
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
