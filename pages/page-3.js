@@ -112,7 +112,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Close deal faster with tailored customer interaction</span></div>
               </div>
             </div>
-
+            
           </div>
           <div className="row pp-top-60 pp-bot-60 justify-content-center">
             <div className="col-lg-9" >

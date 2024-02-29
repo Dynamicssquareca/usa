@@ -70,7 +70,7 @@ const Formpopupgrade = () => {
           <div className="mb-3">
             <select placeholder="*Company Name"  name="service" className="form-select form-control" required>
               <option className='ss' value="" disabled selected hidden>*I'm Looking for</option>
-              <option value="Implemenatation">Implementation</option>
+              <option value="Implementation">Implementation</option>
               <option value="Upgrade/Migration">Upgrade/Migration</option>
               <option value="Support">Support</option>
             </select>
