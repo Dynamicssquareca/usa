@@ -270,7 +270,7 @@ const DynamicsNavToBusinessCentral = () => {
         </div>
       </section>
 
-      <section className="new-banner-call-to">
+      <section className="new-banner-call-to new-banner-call-to">
         <div className="container">
           <div className="row">
 
@@ -293,7 +293,7 @@ const DynamicsNavToBusinessCentral = () => {
         </div>
       </section>
 
-      <section className="bg-white pd-40">
+      <section className="bg-white ">
         <div className="container">
           <div className="row pd-3333">
             <div className="col-lg-6 align-self-center">
@@ -399,7 +399,7 @@ const DynamicsNavToBusinessCentral = () => {
 
       <section className="videi-ss">
 
-        <div className="bg-video-wrap">
+        <div className="bg-video-wrap bg-video-wrap-blue">
           <video src="/video/nav-bc-vodeo.mp4" loop muted autoPlay poster="/img/vide-bg-frame.png">
           </video>
           <div className="overlay">
@@ -651,7 +651,7 @@ const DynamicsNavToBusinessCentral = () => {
         </div>
       </section>
 
-      <section className="call-to-action-center hero-4">
+      <section className="call-to-action-center new-banner-call-to-bg hero-4">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12">
@@ -663,7 +663,7 @@ const DynamicsNavToBusinessCentral = () => {
                     <a target='_blank'
                       className="btn-get-started scrollto"
                     >
-                      <span>Schedule a Business Central Demo Now!  <i className="bi bi-arrow-right"></i></span>
+                      <span>Consult with our Expert  <i className="bi bi-arrow-right"></i></span>
                     </a>
                   </Link>
                 </div>
