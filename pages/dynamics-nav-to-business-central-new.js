@@ -155,7 +155,7 @@ const DynamicsNavToBusinessCentral = () => {
             </div>
           </div>
 
-          <div className="row pd-3334">
+          <div className="row pd-3334 rever-1">
             <div className="col-lg-5 align-self-center">
               <div className="commen-lef-pic">
                 <img
@@ -228,7 +228,7 @@ const DynamicsNavToBusinessCentral = () => {
             </div>
           </div>
 
-          <div className="row pd-3334">
+          <div className="row pd-3334 rever-1">
             <div className="col-lg-5 align-self-center">
               <div className="commen-lef-pic">
                 <img
@@ -316,7 +316,7 @@ const DynamicsNavToBusinessCentral = () => {
             </div>
           </div>
 
-          <div className="row pd-3334">
+          <div className="row pd-3334 rever-1">
             <div className="col-lg-5 align-self-center">
               <div className="commen-lef-pic">
                 <img
