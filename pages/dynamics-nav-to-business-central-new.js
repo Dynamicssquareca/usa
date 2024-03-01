@@ -80,8 +80,8 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row pd-333">
             <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
-                <Link href="/our-services/dynamics-365-support-services/">
-                  <a target='_blank'> <div className="pic-nav">
+                <Link href='#exampleModal'>
+                  <a data-bs-toggle="modal" > <div className="pic-nav">
                     <img src="/img/nav-icon-mac-1.png" alt="contact_support" />
                   </div>
                     <div className="over-heading-nav bg-1">
@@ -104,8 +104,8 @@ const DynamicsNavToBusinessCentral = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
-                <Link href="/our-services/dynamics-365-upgrade-services/">
-                  <a target='_blank'><div className="pic-nav">
+                <Link href='#exampleModal'>
+                  <a data-bs-toggle="modal" ><div className="pic-nav">
                     <img src="/img/nav-icon-mac-3.png" alt="contact_support" />
                   </div>
                     <div className="over-heading-nav bg-3">
@@ -116,8 +116,8 @@ const DynamicsNavToBusinessCentral = () => {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="nav-icon-box-bg">
-                <Link href="/products/microsoft-dynamics-365/">
-                  <a target='_blank'>
+                <Link href='#exampleModal'>
+                  <a data-bs-toggle="modal" >
                     <div className="pic-nav">
                       <img src="/img/nav-icon-mac-4.png" alt="contact_support" />
                     </div>
