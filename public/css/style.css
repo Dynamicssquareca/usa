@@ -6982,7 +6982,10 @@ overflow:hidden
 .pad2xyr {
   padding-top: 60px;
 }
-
+.pad2xyrd {
+  padding-top: 30px;
+  margin-bottom:60px
+}
 .upgard-bg {
   background: var(--color-bg);
 }
@@ -9861,6 +9864,7 @@ padding-bottom: 60px;
     font-family: "Work Sans", sans-serif;
     margin-bottom: 33px;
 }
+
 .left--side-title p{
 margin-bottom: 30px;
 }
@@ -13386,6 +13390,9 @@ position: fixed;
 .commen-rit-info.commen-rit-info-list .points-ui span{
   color: #385575;
 }
+.commen-rit-info.commen-rit-info-list .points-ui.point-short {
+  width: 60%;
+}
 .commen-rit-info.commen-rit-info-list p span{
   font-size: 16px;
   font-weight: 600;
@@ -14081,6 +14088,11 @@ bottom: 0px;
 .pric-t-p{padding: 50px 0px 20px;}
 .pric-t-p p{
   text-align:center
+}
+.left--side--c-title h2{
+  color:var(--color-blue);
+  font-weight: 600;
+  margin-bottom: 15px
 }
 
 @media (min-width:1200px) and (max-width:1400px){
