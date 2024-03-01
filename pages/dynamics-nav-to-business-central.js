@@ -724,7 +724,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className='col-lg-4 top-margn-top-120'>
               <div className='callto-prpmo-offer'>
                 <div className='toe'>
-                  <h3>SAVE UPTO <span>40%</span></h3>
+                  <h3>SAVE UPTO <span>60%</span></h3>
                   <p className='coloor'>on attach license </p>
                 </div>
                 <div className="text-center text-lg-start">
