@@ -899,6 +899,11 @@ class Header extends Component {
                         <div className="rigt-list-menu">
                           <p>Must Read</p>
                           <ul>
+                          <li>
+                              <a href="/dynamics-nav-to-business-central/">
+                              Dynamics NAV to Business Central Upgrade
+                              </a>
+                            </li>
                             <li>
                               <a href="/microsoft-dynamics-365-cloud-vs-on-premise/">
                                 Cloud vs On-premise Comparison
