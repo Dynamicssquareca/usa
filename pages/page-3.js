@@ -49,8 +49,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
         <div className="container">
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
-              <h1 className="small-h">Microsoft Dynamics 356 CRM</h1>
-              <h2>Build Relationships and Drive ROI</h2>
+              <h1 className="small-h">Microsoft Dynamics 365 CRM</h1>
+              <h2>Build Relationships <br /> and Drive ROI</h2>
               <p>Supercharge sales, engage customers with personalized interactions, drive a better customer experience, and accelerate business growth with Dynamics 365 CRM.</p>
               <div>
                 <div className="text-center text-lg-start">
@@ -105,8 +105,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
                 <h2>What is Microsoft Dynamis 365 CRM?</h2>
-                <p>Microsoft Dynamics 365 CRM (customer relationship management) is a set of different solutions to help you streamline all operations of sales, marketing, and customer service.</p>
-                <p>Leveraging the capabilities of Microsoft Dynamic CRM, you can unify the data, simplify various processes, build long-lasting relationships with customers, enhance customer engagement, and supercharge productivity.</p>
+                <p>Microsoft Dynamics 365 CRM (Customer Relationship Management) is a set of different solutions to help you streamline all operations of sales, marketing, and customer service.</p>
+                <p>Leveraging the capabilities of Microsoft Dynamics CRM, you can unify the data, simplify various processes, build long-lasting relationships with customers, enhance customer engagement, and supercharge productivity.</p>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Microsoft CRM is not limited to big businesses anymore</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Manage leads and build relationships</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Close deal faster with tailored customer interaction</span></div>
@@ -117,7 +117,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row pp-top-60 pp-bot-60 justify-content-center">
             <div className="col-lg-9" >
               <div className="center-info-fq text-center">
-                <p><strong>Note:</strong> In a recent update, <Link href="/products/dynamics-365-customer-engagement/"><a>Microsoft renamed it Microsoft Dynamics 365 Customer Engagement</a></Link> (CE), but business owners, consultants, and decision makers still call it Dynamics CRM. With the updated name, Microsoft has started to primarily focus on offering cloud services while reducing its dependency on on-premises deployment.</p>
+                <p><strong>Note:</strong> In a recent update, Microsoft renamed it  <Link href="/products/dynamics-365-customer-engagement/"><a>Microsoft Dynamics 365 Customer Engagement</a></Link> (CE), but business owners, consultants, and decision makers still call it Dynamics CRM. With the updated name, Microsoft has started to primarily focus on offering cloud services while reducing its dependency on on-premises deployment.</p>
               </div>
             </div>
           </div>
@@ -180,7 +180,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <h2>Build Lasting Customer Relationships</h2>
                 <p>Build stronger relationships with customers by combining different processes of sales and customer support. By combining the data, you will be able to understand customer demands and check for fluctuating marketing trends to build trust among customers.</p>
                 <p>You can also track the customer across different milestones of the sales and support journey to resolve their queries in real-time, leading you to build loyalty and exceptional customer satisfaction.</p>
-                <p>Dynamics 365 CRM is a solution for modern businesses that allows customers  to connect with the business from anywhere and anytime, leveraging mobile applications.</p>
+                <p>Microsoft Dynamics CRM is a solution for modern businesses that allows customers  to connect with the business from anywhere and anytime, leveraging mobile applications.</p>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Understand customer demands</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Track fluctuating market trends</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Build loyalty and offer customer satisfaction</span></div>
@@ -250,7 +250,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <h2>Boost Sales Productivity</h2>
                 <p>Get full visibility across entire sales activities and make real-time informed decisions to enhance the productivity of your sales team. Also, it lets you get customer insights so that you can focus on the resources to generate better sales revenue.</p>
                 <p>You can also distribute the resources and budgets accordingly while forecasting future sales and upcoming opportunities for growth.</p>
-                <p>Dynamics 365 CRM empowers sales executives to track, follow-up, and nurture leads until they become resourceful customers.</p>
+                <p>Dynamics CRM empowers sales executives to track, follow-up, and nurture leads until they become resourceful customers.</p>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Get full visibility of sales activities</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Make real-time decisions with insights</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Forecast future sales</span></div>
@@ -331,7 +331,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             <div className="col-lg-9">
               <div className="heading-colo-bg">
                 <h2>Microsoft Dynamics 365 CRM Applications: Modern Solutions for Complex Businesses</h2>
-                <p>Microsoft Dynamics 365 CRM, or Dynamics 365 Customer Engagement, consists of four major solutions, which are:</p>
+                <p>Microsoft Dynamics CRM, or Dynamics 365 Customer Engagement, consists of four major solutions, which are:</p>
               </div>
             </div>
           </div>
@@ -531,7 +531,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="col-to-content">
                 <h3>Transform your customer experience and drive business impact  <span>Empower your sales team with AI-powered insights</span>
                 </h3>
-                <p>The solutions in Dynamics 365 CRM will revolutionize your business and push you to generate maximum revenue while meeting customer expectations.</p>
+                <p>The solutions in Dynamics CRM will revolutionize your business and push you to generate maximum revenue while meeting customer expectations.</p>
 
                 <a href="#exampleModal"
 
@@ -569,8 +569,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   src="/img/Interactive-User-Experience-icon.png"
                   alt="Interactive-User-Experience-icon"
                 />
-                <h3>D365 CRM Implementation Service</h3>
-                <p>Leverage Dynamics Square’s expertise and perfect infrastructure for a successful Dynamics 365 CRM implementation.</p>
+                <h3>Dynamics 365 CRM Implementation Service</h3>
+                <p>Leverage Dynamics Square’s expertise and perfect infrastructure for a successful Microsoft Dynamics CRM implementation.</p>
               </div>
             </div>
             <div className="col-lg-3">
@@ -581,8 +581,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   src="/img/Easy-to-Scale-icon.png"
                   alt="Easy-to-Scale-icon"
                 />
-                <h3>D365 CRM Customized Service</h3>
-                <p>Extend D365 CRM's capabilities to match your specific processes with reliable D365 CRM customization services.</p>
+                <h3>Dynamics 365 CRM Customized Service</h3>
+                <p>Extend D365 CRM's capabilities to match your specific processes with reliable Dynamics 365 CRM customization services.</p>
               </div>
             </div>
             <div className="col-lg-3">
@@ -593,8 +593,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   src="/img/Avail-Automation-icon.png"
                   alt="Avail-Automation-icon"
                 />
-                <h3>D365 CRM Support Service</h3>
-                <p>Focus on your business, not IT issues. Leave your D365 CRM support to the professionals at Dynamics Square.</p>
+                <h3>Dynamics 365 CRM Support Service</h3>
+                <p>Focus on your business, not IT issues. Leave your Microsoft Dynamics CRM support to the professionals at Dynamics Square.</p>
               </div>
             </div>
           </div>
@@ -613,7 +613,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             <div className="col-lg-9">
               <div className="heading-colo-bg">
                 <h2>Dynamics 365 CRM Pricing</h2>
-                <p>There is no combined license to access all solutions in Dynamics 365 CRM (CE). However, you can access the desired solution or set of solutions by purchasing their licenses.</p>
+                <p>There is no combined license to access all solutions in Microsoft Dynamics 365 CRM (CE). However, you can access the desired solution or set of solutions by purchasing their licenses.</p>
               </div>
             </div>
           </div>
@@ -979,7 +979,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="col-lg-5"></div>
               <div className="col-lg-7">
                 <div className="psot-cl">
-                  <h3>For more detailed Dynamics 365 CRM pricing and licensing, feel free to contact our team.</h3>
+                  <h3>For more detailed Microsoft Dynamics 365 CRM pricing and licensing, feel free to contact our team.</h3>
                   <Link href="/contact-us/">
                     <a className="btn btn-md">Contact Dynamics 365 Licensing Expert!</a>
                   </Link>
@@ -1024,7 +1024,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 </div>
                 <div className="rig">
                   <h3>Microsoft Gold Partner</h3>
-                  <p>Dynamics Square is an authorized Microsoft Gold partner or Microsoft Solutions partner with the perfect resources and infrastructure to support your business regardless of complexity.</p>
+                  <p>Dynamics Square is an authorized <Link href="/"><a>Microsoft Gold partner</a></Link> or Microsoft Solutions partner with the perfect resources and infrastructure to support your business regardless of complexity.</p>
                 </div>
               </div>
             </div>
