@@ -41,7 +41,29 @@ const Finance = () => {
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/" />
 
         <meta property="twitter:image" content="https://www.dynamicssquare.com/img/Finance-banner-pic.png" />
-     
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "name": "Microsoft Dynamics 365 Finance | Dynamics Square",
+                "image": "https://www.dynamicssquare.com/img/Finance-banner-pic.png",
+                "description": "Use actionable insights to increase financial visibility and faster your decision making with Microsoft Dynamics 365 Finance Implementation. Contact us now.",
+                "brand": {
+                   "@type": "Brand",
+                   "name": "Dynamics Square USA"
+                },
+                "offers": {
+              "@type": "AggregateOffer",
+              "url": "https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/",
+              "priceCurrency": "USD",
+              "lowPrice": "180",
+              "highPrice": "300"
+            }
+            }),
+          }}
+        />
 
       </Head>
 
@@ -122,7 +144,7 @@ const Finance = () => {
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Compliance with industry standards</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Invoicing and billing</span></div>
                 <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Cost Accounting</span></div>
-                <p>While D365 Finance isn't new, it's now standalone, offering focused finance management after separating from the broader Dynamics 365 Finance and Operations (earlier known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link>).</p>
+                <p>While Dynamics 365 for Finance isn't new, it's now standalone, offering focused finance management after separating from the broader Dynamics 365 Finance and Operations (earlier known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link>).</p>
               </div>
             </div>
 
@@ -1401,7 +1423,7 @@ const Finance = () => {
                 <ul className="ne-list-tags">
                   <li>Dynamics 365 Finance Support</li>
                 </ul>
-                <p>Enable your system to work 24*7 regardless of its complexity. Ensure smooth business operations while resolving issues whenever you encounter them with robust <Link href="/our-services/dynamics-365-support-services/"><a>D365 Finance support</a></Link>.</p>
+                <p>Enable your system to work 24*7 regardless of its complexity. Ensure smooth business operations while resolving issues whenever you encounter them with robust <Link href="/our-services/dynamics-365-support-services/"><a>Dynamics 365 Finance support</a></Link>.</p>
                 <ul className="ne-list-tags">
                   <li>Dynamics 365 Finance Customizations</li>
                 </ul>
