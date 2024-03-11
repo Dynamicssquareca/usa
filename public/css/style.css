@@ -10230,6 +10230,12 @@ margin-bottom: 20px;
     gap: 15px;
     margin-bottom:10px
 }
+.nw-bc-lef-h.nw-bc-lef-h-gren>.points-ui {
+  background-color: #f4fbed;
+}
+.nw-bc-lef-h-gren .ne-list-tags li{
+  background-color: #f4fbed;
+}
 .points-ui ~ p{
   margin-top: 25px;
 }
@@ -10262,6 +10268,9 @@ margin-bottom: 20px;
   border-radius: 250px;
   background-color: #ebd8f4;
   padding: 35px 120px;
+}
+.center-info-green{
+  background-color: #d2e1c2;
 }
 .center-info-fq p{
   margin-bottom: 0;
