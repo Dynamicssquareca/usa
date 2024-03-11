@@ -11,7 +11,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Finance and Operations Partner</title>
+        <title>Dynamics 365 Finance and Operations</title>
         <meta
           name="description"
           content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs."
@@ -22,7 +22,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="Dynamics 365 Finance and Operations Partner" />
+        <meta property="og:title" content="Dynamics 365 Finance and Operations" />
 
         <meta property="og:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
 
@@ -34,7 +34,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="Dynamics 365 Finance and Operations Partner" />
+        <meta property="twitter:title" content="Dynamics 365 Finance and Operations" />
 
         <meta property="twitter:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
 
@@ -47,7 +47,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              "name": "Microsoft Dynamics 365 Finance and Operations Partner",
+              "name": "Microsoft Dynamics 365 Finance and Operations",
               "image": "https://www.dynamicssquare.com/img/f-and-o-image.png/",
               "description": "Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs.",
               "brand": {
