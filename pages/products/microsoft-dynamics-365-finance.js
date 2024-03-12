@@ -1404,15 +1404,16 @@ const Finance = () => {
 
       <section>
         <div className="container">
-          <div className="row pp-top-60 pp-bot-60">
-            <div className="col-lg-5 align-self-center">
-              <div className="nw-bc-lef-h nw-bc-lef-h-gren align-self-center">
+        <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="heading-colo-bg">
                 <h2>Dynamics 365 Finance: Services we Offer to You</h2>
                 <p>Our top priority is to offer the optimum level of customer satisfaction with our reliable D365 Finance services.</p>
-
               </div>
             </div>
-            <div className="col-lg-1"></div>
+          </div>
+          <div className="row pp-top-60 pp-bot-60">
+            {/* <div className="col-lg-1"></div>
             <div className="col-lg-6">
               <div className="nw-bc-lef-h nw-bc-lef-h-gren">
                
@@ -1429,7 +1430,71 @@ const Finance = () => {
                 </ul>
                 <p>Customize your system to meet changing market and customer demands. Grow consistently with our certified <Link href="/microsoft-dynamics-365-partner/"><a>Dynamics 365 Finance consultants</a></Link>.    </p>
               </div>
+            </div> */}
+
+
+
+
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/dynamics-365-finance-implementation/">
+                  <a>
+                    <div className="gr">
+                      <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" />
+                      <video autoPlay muted loop playsInline>
+                        <source src="/video/Implementation-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Dynamics 365 Finance Implementation</h3>
+                    <p>Power up your business with modern functionality to manage financial operations. Get the Microsoft Dynamics 365 Finance implementation to enhance profitability and maximize performance.</p>
+                    <div className="h-s-call" >
+                      <span>Implement Now </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
+              </div>
             </div>
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/microsoft-dynamics-365-partner/">
+                  <a>
+                    <div className="gr">
+                      <img src="/img/home/Upgrade-icon.png" alt="Upgrade-icon" />
+                      <video autoPlay muted loop playsInline>
+                        <source src="/video/Upgrade-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Dynamics 365 Finance Customizations</h3>
+                    <p>Customize your system to meet changing market and customer demands. Grow consistently with our certified Dynamics 365 Finance consultants.</p>
+                    <div className="h-s-call" >
+                      <span>Learn More </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/our-services/dynamics-365-support-services/">
+                  <a>
+
+                    <div className="gr">
+                      <img src="/img/home/Support-icon.png" alt="Support-icon" />
+                      <video autoPlay muted loop playsInline>
+                        <source src="/video/Support-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Dynamics 365 Finance Support</h3>
+                    <p>Enable your system to work 24*7 regardless of its complexity. Ensure smooth business operations while resolving issues whenever you encounter them with robust Dynamics 365 Finance support.</p>
+                    <div className="h-s-call" >
+                      <span>Learn More </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </section>
