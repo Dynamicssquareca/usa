@@ -905,6 +905,11 @@ class Header extends Component {
                               </a>
                             </li>
                             <li>
+                              <a href="/dynamics-gp-to-business-central-migration/">
+                               Dynamics GP to Business Central Migration
+                              </a>
+                            </li>
+                            <li>
                               <a href="/microsoft-dynamics-365-cloud-vs-on-premise/">
                                 Cloud vs On-premise Comparison
                               </a>
@@ -949,11 +954,7 @@ class Header extends Component {
                                 D365 Business Central vs. Finance Operations
                               </a>
                             </li>
-                            <li>
-                              <a href="/dynamics-gp-to-business-central-migration/">
-                               Dynamics GP to Business Central Migration
-                              </a>
-                            </li>
+                            
                           </ul>
                         </div>
                       </div>
