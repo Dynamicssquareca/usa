@@ -1467,7 +1467,7 @@ const Finance = () => {
                     <h3>Dynamics 365 Finance Customizations</h3>
                     <p>Customize your system to meet changing market and customer demands. Grow consistently with our certified Dynamics 365 Finance consultants.</p>
                     <div className="h-s-call" >
-                      <span>Learn More </span> <i className="bi bi-arrow-right"></i>
+                      <span>Customizations Now</span> <i className="bi bi-arrow-right"></i>
                     </div>
                   </a>
                 </Link>
@@ -1487,7 +1487,7 @@ const Finance = () => {
                     <h3>Dynamics 365 Finance Support</h3>
                     <p>Enable your system to work 24*7 regardless of its complexity. Ensure smooth business operations while resolving issues whenever you encounter them with robust Dynamics 365 Finance support.</p>
                     <div className="h-s-call" >
-                      <span>Learn More </span> <i className="bi bi-arrow-right"></i>
+                      <span>Support Now </span> <i className="bi bi-arrow-right"></i>
                     </div>
                   </a>
                 </Link>
