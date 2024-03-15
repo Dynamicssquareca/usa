@@ -30,7 +30,7 @@ const DynamicsNavToBusinessCentralNew = () => {
 
         <meta property="og:site_name" content="Dynamics Square USA" />
 
-        <meta property="og:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.com/img/power-automate-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
 
@@ -40,7 +40,7 @@ const DynamicsNavToBusinessCentralNew = () => {
 
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-power-automate/" />
 
-        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/power-automate-banner.png" />
         <meta name="robots" content="noindex, nofollow" />
 
       </Head>
@@ -69,15 +69,15 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="banner-ne-im-t">
                 <div className="bf">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/power-auto-shapew.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/f-and-o-image.png"
-                  alt="f&o"
+                  src="/img/power-automate-banner.png"
+                  alt="power-automate-banner"
                   width={648}
                   height={355}
                 />
@@ -95,12 +95,12 @@ const DynamicsNavToBusinessCentralNew = () => {
             <div className="col-lg-5 align-self-center">
               <div className="new-pic-bc">
                 <video autoPlay muted loop playsInline>
-                  <source src="/video/f&o-video.mp4"></source>
+                  <source src="/video/power-automate-video.mp4"></source>
                 </video>
               </div>
             </div>
             <div className="col-lg-1 align-self-center">
-              <div className="brder-hr"></div>
+              {/* <div className="brder-hr"></div> */}
             </div>
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
@@ -108,16 +108,16 @@ const DynamicsNavToBusinessCentralNew = () => {
                 <p>Power Automate  is an end-to-end automation solution that lets users automate processes using workflows without writing code. It solves the complex business challenges of establishing a connection between different solutions to automate the data flow. </p>
                 <p>Power Automate is one of the essential solutions available under the Microsoft Power Platform. All such solutions, like <Link href="/products/microsoft-power-bi/"><a>Power BI</a></Link> and Power pages, reduce operational costs and enable users to drive innovation in business processes with a low-code approach. </p>
                 <p><strong>Power Automate Microsoft empowers users to:</strong></p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Build applications, forms and workflow</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Connect different complicated processes</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Perform task with a pre-built templates</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Build applications, forms and workflow</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Connect different complicated processes</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Perform task with a pre-built templates</span></div>
               </div>
             </div>
 
           </div>
           <div className="row pp-top-60 pp-bot-60 justify-content-center">
             <div className="col-lg-9" >
-              <div className="center-info-fq text-center">
+              <div className="center-info-fq text-center" style={{backgroundColor:"#f7f9fb"}}>
                 <p><strong>Note:</strong> It was previously known as Microsoft Flow, but on November 4, 2019, Microsoft rebranded it as Microsoft Power Automate; one of the applications of the <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link> most business owners, consultants, and Dynamics professionals still call it Flow.</p>
               </div>
             </div>
@@ -127,11 +127,11 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="nw-bc-lef-h">
                 <h2>Power Automate: Types of Flow to Suit all Needs</h2>
                 <p>Microsoft Power Automate comes with three major flows to automate tasks and increase efficiency.</p>
-                <div className="points-ui" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Cloud Flows</span></div>
+                <div className="points-ui color-blue" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Cloud Flows</span></div>
                 <p>Build an automation flow that can be triggered in three ways: instantly, automatically, and by scheduling.</p>
-                <div className="points-ui" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Desktop Flows</span></div>
+                <div className="points-ui color-blue" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Desktop Flows</span></div>
                 <p>Build an automation flow to automate tasks on the desktop or the web.</p>
-                <div className="points-ui" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Business Process Flows</span></div>
+                <div className="points-ui color-blue" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Business Process Flows</span></div>
                 <p>Build an automation flow to enable users to track their work during a business process while guiding them throughout the process until the work is complete.</p>
               </div>
             </div>
@@ -141,15 +141,15 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/power-auto-shapew.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Simplify-Financial-Operations.png"
-                  alt="Simplify-Financial-Operations"
+                  src="/img/suit-all-needs.png"
+                  alt="suit-all-needs"
                   width={600}
                   height={400}
                 />
@@ -162,15 +162,15 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/power-auto-shapew.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Track-Inventory-on-the-Go.png"
-                  alt="Track-Inventory-on-the-Go"
+                  src="/img/super-charge-productivity.png"
+                  alt="super-charge-productivity"
                   width={600}
                   height={400}
                 />
@@ -183,9 +183,9 @@ const DynamicsNavToBusinessCentralNew = () => {
                 <p>Microsoft 365 Power Automate is a very powerful solution that lets you automate workflows connecting different applications, sync data between apps or services, and send notifications to the user in real-time.</p>
                 <p>Also, it eliminates recurring and manual tasks, like approvals, data entry, generating reports, data transfer, and more, through automation capabilities, leading to enhanced efficiency.</p>
                 <p>You can automate the process of generating and sending invoices to the concerned person to save time and boost team productivity.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Build workflows and connect different applications </span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Eliminate recurring and manual tasks</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Automate generating and sending invoices</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Build workflows and connect different applications </span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Eliminate recurring and manual tasks</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Automate generating and sending invoices</span></div>
               </div>
             </div>
 
@@ -197,9 +197,9 @@ const DynamicsNavToBusinessCentralNew = () => {
                 <p>By automating workflows and business activities, you can reduce human intervention, which leads to fewer errors and enhanced data accuracy.</p>
                 <p>You can eliminate typos, miscalculations, and other errors with MS Power Automate to make the system smoother and more stable.</p>
                 <p>With this solution, you can easily automate the process of getting notifications in real-time, ensuring accurate data collection on time and making you aware of everything happening in your business.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Reduce human intervention</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Enhanced data accuracy</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Automate business activities</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Reduce human intervention</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Enhanced data accuracy</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Automate business activities</span></div>
               </div>
             </div>
 
@@ -208,15 +208,15 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/power-auto-shapew.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Plug-and-Play-Integrations.png"
-                  alt="Plug-and-Play-Integrations"
+                  src="/img/improve-accuracy-reduce.png"
+                  alt="improve-accuracy-reduce"
                   width={600}
                   height={400}
                 />
@@ -229,15 +229,15 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/power-auto-shapew.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Supports-Globalization.png"
-                  alt="Supports-Globalization"
+                  src="/img/happy-cusomer-exp.png"
+                  alt="happy-cusomer-exp"
                   width={600}
                   height={400}
                 />
@@ -250,9 +250,9 @@ const DynamicsNavToBusinessCentralNew = () => {
                 <p>Offer an exceptional level of customer satisfaction with Microsoft Power Automate. It lets you automate essential customer support services that include shipping, order confirmations, and personalized communications.</p>
                 <p>You can even set up an automated, tailored customer service experience using emails whenever a customer with a specific set of parameters approaches your business.</p>
                 <p>While using Power Automate at its fullest, automate the customer issue resolution of standard queries, leading to better customer satisfaction and time savings.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Offer good customer satisfaction</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Automate customer support services</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Give tailored customer service experiences</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Offer good customer satisfaction</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Automate customer support services</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Give tailored customer service experiences</span></div>
               </div>
             </div>
 
@@ -264,9 +264,9 @@ const DynamicsNavToBusinessCentralNew = () => {
                 <p>Expand your business capabilities with the growth of your business operations. Reduce manual tasks with automation to accelerate scalability and achieve targets.</p>
                 <p>Power Automate enables businesses to scale or automate various tasks without hampering their existing performance.</p>
                 <p>You can manage inventory, track resources, analyze data, build reports, and set up different forms of automation to meet fluctuating market demands.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Accelerate scalability and achieve targets</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Enhance system performance</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Manage inventory and track resources</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Accelerate scalability and achieve targets</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Enhance system performance</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Manage inventory and track resources</span></div>
               </div>
             </div>
 
@@ -275,15 +275,15 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/power-auto-shapew.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Plug-and-Play-Integrations.png"
-                  alt="Plug-and-Play-Integrations"
+                  src="/img/scale-with-confidance.png"
+                  alt="scale-with-confidance"
                   width={600}
                   height={400}
                 />
@@ -309,7 +309,7 @@ const DynamicsNavToBusinessCentralNew = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/finance-icns-1.svg" alt="finance-icns-1" width={94} height={94} />
+                  <Image src="/img/find_growth_opportunities.png" alt="find_growth_opportunities" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Find Growth Opportunities</h3>
@@ -318,7 +318,7 @@ const DynamicsNavToBusinessCentralNew = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/sales.svg" alt="sales" width={94} height={94} />
+                  <Image src="/img/automate_with_ease.png" alt="automate_with_ease" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Automate with Ease</h3>
@@ -327,7 +327,7 @@ const DynamicsNavToBusinessCentralNew = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/Customer-Service.svg" alt="Customer-Service" width={94} height={94} />
+                  <Image src="/img/total_visibility_across_business.png" alt="total_visibility_across_business" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Total Visibility Across Business</h3>
@@ -337,8 +337,8 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/Project-Management-icons.svg"
-                    alt="Project-Management-icons"
+                    src="/img/integration_made_simple.png"
+                    alt="integration_made_simple"
                     width={94} height={94}
                   />
                 </div>
@@ -352,8 +352,8 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/supply-chain-icons.svg"
-                    alt="supply-chain-icons"
+                    src="/img/leverage_ai_capabilities.png"
+                    alt="leverage_ai_capabilities"
                     width={94} height={94}
                   />
                 </div>
@@ -365,7 +365,7 @@ const DynamicsNavToBusinessCentralNew = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/marketing-icons.svg" alt="marketing-icons" width={94} height={94} />
+                  <Image src="/img/inbuilt_rpa.png" alt="inbuilt_rpa" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Inbuilt RPA</h3>
@@ -376,8 +376,8 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/Field-Service-icons.svg"
-                    alt="Field-Service-icons"
+                    src="/img/comes_with_dpa.png"
+                    alt="comes_with_dpa"
                     width={94} height={94}
                   />
                 </div>
@@ -388,7 +388,7 @@ const DynamicsNavToBusinessCentralNew = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/commerce-icons.svg" alt="commerce-icons" width={94} height={94} />
+                  <Image src="/img/simplify_data_reporting_and_analysis.png" alt="simplify_data_reporting_and_analysis" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Simplify Data Reporting and Analysis</h3>
@@ -455,15 +455,15 @@ const DynamicsNavToBusinessCentralNew = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/power-auto-shapew.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Finance-and-Operations-Licensing-pic.png"
-                  alt="Finance-and-Operations-Licensing-pic"
+                  src="/img/finance-the-right-solution.png"
+                  alt="Power Automate can help your Business"
                   width={600}
                   height={400}
                 />
@@ -479,7 +479,7 @@ const DynamicsNavToBusinessCentralNew = () => {
         </div>
       </section>
  
-      <section className="">
+      <section className="col-gg" style={{backgroundColor:'#f9fcfe'}}>
         <div className="container">
         <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -491,30 +491,47 @@ const DynamicsNavToBusinessCentralNew = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-4">
-              <div className="bc--feat-box">
-                <Image
-                  width={57}
-                  height={48}
-                  src="/img/Built-In-Analytics-icon.png"
-                  alt="Built-In-Analytics-icon"
-                />
-                <h3>Power Automate Implementation</h3>
-                <p>Empower employees with AI, get more business visibility, and enable a data-driven strategy with the Power Automate implementation.</p>
+          <div className="col-lg-4">
+              <div className="home_servce-_card">
+              <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal">
+                    <div className="gr">
+                      <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" />
+                      <video autoPlay muted loop playsInline>
+                        <source src="/video/Implementation-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Power Automate Implementation</h3>
+                    <p>Empower employees with AI, get more business visibility, and enable a data-driven strategy with the Power Automate implementation.</p>
+                    <div className="h-s-call" >
+                      <span>Implement Now </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
+           
             <div className="col-lg-4">
-              <div className="bc--feat-box">
-                <Image
-                  width={57}
-                  height={48}
-                  src="/img/Interactive-User-Experience-icon.png"
-                  alt="Interactive-User-Experience-icon"
-                />
-                <h3>Power Automate Support</h3>
-                <p>Make your system work 24*7 and enable automation to help you grow regardless of complexity with Power Automate support. </p>
+              <div className="home_servce-_card">
+                <Link href="#exampleModal">
+                  <a  data-bs-toggle="modal">
+
+                    <div className="gr">
+                      <img src="/img/home/Support-icon.png" alt="Support-icon" />
+                      <video autoPlay muted loop playsInline>
+                        <source src="/video/Support-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Power Automate Support</h3>
+                    <p>Make your system work 24*7 and enable automation to help you grow regardless of complexity with Power Automate support.</p>
+                    <div className="h-s-call" >
+                      <span>Support Now </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
+            
           
           </div>
         </div>
@@ -526,7 +543,7 @@ const DynamicsNavToBusinessCentralNew = () => {
    
 
 
-      <section className="pri-wrper-bc" style={{ marginTop: '-90px' }}>
+      <section className="pri-wrper-bc" style={{ marginTop: '0px' }}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -675,8 +692,8 @@ const DynamicsNavToBusinessCentralNew = () => {
                   <Image
                     width={57}
                     height={48}
-                    src="/img/Experienced-Consultants-icon.png"
-                    alt="Experienced-Consultants-icon"
+                    src="/img/Proven-Track-Record.png"
+                    alt="Proven-Track-Record"
                   />
                 </div>
                 <div className="rig">
@@ -691,8 +708,8 @@ const DynamicsNavToBusinessCentralNew = () => {
                   <Image
                     width={57}
                     height={48}
-                    src="/img/Adequate-Resources-icon.png"
-                    alt="Adequate-Resources-icon"
+                    src="/img/Solutions-Unique-Businesses.png"
+                    alt="Solutions-Unique-Businesses"
                   />
                 </div>
                 <div className="rig">
@@ -707,8 +724,8 @@ const DynamicsNavToBusinessCentralNew = () => {
                   <Image
                     width={57}
                     height={48}
-                    src="/img/Instant-Support-icon.png"
-                    alt="Instant-Support-icon"
+                    src="/img/Focuses-on-Customer-Satisfaction.png"
+                    alt="Focuses-on-Customer-Satisfaction"
                   />
                 </div>
                 <div className="rig">
@@ -723,8 +740,8 @@ const DynamicsNavToBusinessCentralNew = () => {
                   <Image
                     width={57}
                     height={48}
-                    src="/img/Personalized-Solutions-icon.png"
-                    alt="Personalized-Solutions-icon"
+                    src="/img/reliable-after-sales-support.png"
+                    alt="reliable-after-sales-support"
                   />
                 </div>
                 <div className="rig">

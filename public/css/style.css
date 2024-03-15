@@ -10230,6 +10230,9 @@ margin-bottom: 20px;
     gap: 15px;
     margin-bottom:10px
 }
+.nw-bc-lef-h>.color-blue{
+  background-color: #eef7fd;
+}
 .nw-bc-lef-h.nw-bc-lef-h-gren>.points-ui {
   background-color: #f4fbed;
 }
@@ -13389,6 +13392,7 @@ position: fixed;
   gap: 15px;
   margin-bottom: 10px;
 }
+
 .commen-rit-info.commen-rit-info-list .points-ui .bi {
   color: #6a4d9f
   ;
