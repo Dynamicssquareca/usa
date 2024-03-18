@@ -202,7 +202,7 @@ function MyApp({ Component, pageProps }) {
         '/our-services/dynamics-365-implementation-services',
         '/our-services/dynamics-365-support-services',
         '/our-services/dynamics-365-upgrade-services',
-        '/blog/',
+        '/blog',
         '/products/dynamics-365-supply-chain-management',
         '/products/microsoft-dynamics-365-finance',
         '/products/microsoft-dynamics-365-finance-operations',

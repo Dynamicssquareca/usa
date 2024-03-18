@@ -16,6 +16,10 @@ const DynamicsNavToBusinessCentral = () => {
           name="description"
           content="Looking to upgrade your outdated NAV version? We will help you with a stress-free Dynamics NAV to Dynamics 365 Business Central Upgrade. Contact us now! "
         />
+         <link
+          rel="canonical"
+          href="https://www.dynamicssquare.com/dynamics-nav-to-business-central/"
+        />
         <meta property="og:type" content="product" />
 
         <meta property="og:title" content="Dynamics NAV to Dynamics 365 Business Central Upgrade" />

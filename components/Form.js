@@ -32,7 +32,7 @@ const Form = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="* Full Name"
+                      placeholder="*Full Name"
                       name="name"
                       required
                     />
@@ -43,7 +43,7 @@ const Form = () => {
                     <input
                       type="email"
                       className="form-control"
-                      placeholder="* Work Email"
+                      placeholder="*Work Email"
                       name="email"
                       pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
                       required
@@ -62,17 +62,17 @@ const Form = () => {
                     <input
                       type="tel"
                       className="form-control"
-                      placeholder="*Phone Number"
+                      placeholder="Phone Number (optional)"
                       name="phone"
                       pattern="^\d{10,13}$"
-                      required
+    
                     />
                   </div>
                   <div className="mb-3">
                     <textarea
                       className="form-control"
                       id="exampleFormControlTextarea1"
-                      placeholder="* How Can We Help You?"
+                      placeholder="*How Can We Help You?"
                       rows="3"
                       name="message"
                       required
