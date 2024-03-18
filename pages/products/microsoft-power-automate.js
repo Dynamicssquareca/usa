@@ -41,6 +41,30 @@ const MicrosoftPowerAutomate = () => {
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-power-automate/" />
 
         <meta property="twitter:image" content="https://www.dynamicssquare.com/img/power-automate-banner.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "Product",
+              "name": "What is Microsoft Power Automate? | Dynamics Square",
+              "image": "https://www.dynamicssquare.com/img/power-automate-banner.png/",
+              "description": "Simplify processes by utilizing Microsoft Power Automate. Dynamics Square provides professional integration services to automate corporate processes smoothly.",
+              "brand": {
+                "@type": "Brand",
+                "name": "Dynamics Square USA"
+              },
+              "offers": {
+                "@type": "AggregateOffer",
+                "url": "https://www.dynamicssquare.com/products/microsoft-power-automate/"
+                ,
+                "priceCurrency": "USD",
+                "lowPrice": "15",
+                "highPrice": "150"
+              }
+            }),
+          }}
+        />
 
       </Head>
 
@@ -115,9 +139,10 @@ const MicrosoftPowerAutomate = () => {
 
           </div>
           <div className="row pp-top-60 pp-bot-60 justify-content-center">
-            <div className="col-lg-9" >
-              <div className="center-info-fq text-center" style={{backgroundColor:"#f7f9fb"}}>
-                <p><strong>Note:</strong> It was previously known as Microsoft Flow, but on November 4, 2019, Microsoft rebranded it as Microsoft Power Automate; one of the applications of the <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link> most business owners, consultants, and Dynamics professionals still call it Flow.</p>
+            <div className="col-lg-10" >
+              <div className="center-info-fq text-center" style={{ backgroundColor: "#f7f9fb" }}>
+                <p><strong>Note:</strong> It was previously known as Microsoft Flow, but on November 4, 2019, Microsoft rebranded it as Microsoft Power Automate; one of the applications of the <Link href="/products/microsoft-power-platform/"><a>Microsoft Power Platform</a></Link>.</p>
+                <p>Most business owners, consultants, and Dynamics professionals still call it Flow.</p>
               </div>
             </div>
           </div>
@@ -126,11 +151,11 @@ const MicrosoftPowerAutomate = () => {
               <div className="nw-bc-lef-h">
                 <h2>Power Automate: Types of Flow to Suit all Needs</h2>
                 <p>Microsoft Power Automate comes with three major flows to automate tasks and increase efficiency.</p>
-                <div className="points-ui color-blue" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Cloud Flows</span></div>
+                <div className="points-ui color-blue" style={{ display: 'inline-flex' }}><i className="bi bi-check-lg"></i> <span>Cloud Flows</span></div>
                 <p>Build an automation flow that can be triggered in three ways: instantly, automatically, and by scheduling.</p>
-                <div className="points-ui color-blue" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Desktop Flows</span></div>
+                <div className="points-ui color-blue" style={{ display: 'inline-flex' }}><i className="bi bi-check-lg"></i> <span>Desktop Flows</span></div>
                 <p>Build an automation flow to automate tasks on the desktop or the web.</p>
-                <div className="points-ui color-blue" style={{display:'inline-flex'}}><i className="bi bi-check-lg"></i> <span>Business Process Flows</span></div>
+                <div className="points-ui color-blue" style={{ display: 'inline-flex' }}><i className="bi bi-check-lg"></i> <span>Business Process Flows</span></div>
                 <p>Build an automation flow to enable users to track their work during a business process while guiding them throughout the process until the work is complete.</p>
               </div>
             </div>
@@ -182,7 +207,7 @@ const MicrosoftPowerAutomate = () => {
                 <p>Microsoft 365 Power Automate is a very powerful solution that lets you automate workflows connecting different applications, sync data between apps or services, and send notifications to the user in real-time.</p>
                 <p>Also, it eliminates recurring and manual tasks, like approvals, data entry, generating reports, data transfer, and more, through automation capabilities, leading to enhanced efficiency.</p>
                 <p>You can automate the process of generating and sending invoices to the concerned person to save time and boost team productivity.</p>
-                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Build workflows and connect different applications </span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Connect different applications </span></div>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Eliminate recurring and manual tasks</span></div>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Automate generating and sending invoices</span></div>
               </div>
@@ -198,7 +223,7 @@ const MicrosoftPowerAutomate = () => {
                 <p>With this solution, you can easily automate the process of getting notifications in real-time, ensuring accurate data collection on time and making you aware of everything happening in your business.</p>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Reduce human intervention</span></div>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Enhanced data accuracy</span></div>
-                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Automate business activities</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Centralized data access</span></div>
               </div>
             </div>
 
@@ -248,9 +273,9 @@ const MicrosoftPowerAutomate = () => {
                 <h2>Happy Customers, Happy Business: Power Up Your Customer Experience</h2>
                 <p>Offer an exceptional level of customer satisfaction with Microsoft Power Automate. It lets you automate essential customer support services that include shipping, order confirmations, and personalized communications.</p>
                 <p>You can even set up an automated, tailored customer service experience using emails whenever a customer with a specific set of parameters approaches your business.</p>
-                <p>While using Power Automate at its fullest, automate the customer issue resolution of standard queries, leading to better customer satisfaction and time savings.</p>
+                <p>Power Automate boost issue resolution of standard queries to offer a better customer satisfaction.</p>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Offer good customer satisfaction</span></div>
-                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Automate customer support services</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Streamline customer support services</span></div>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Give tailored customer service experiences</span></div>
               </div>
             </div>
@@ -260,8 +285,8 @@ const MicrosoftPowerAutomate = () => {
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
                 <h2>Scale with Confidence: Automate for Growth, Not for Growth Pains</h2>
-                <p>Expand your business capabilities with the growth of your business operations. Reduce manual tasks with automation to accelerate scalability and achieve targets.</p>
-                <p>Power Automate enables businesses to scale or automate various tasks without hampering their existing performance.</p>
+                <p>Expand your business capabilities with the growth of your business operations. Reduce manual tasks  to accelerate scalability and achieve targets.</p>
+                <p>Power Automate enables businesses to scale various tasks without hampering their existing performance.</p>
                 <p>You can manage inventory, track resources, analyze data, build reports, and set up different forms of automation to meet fluctuating market demands.</p>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Accelerate scalability and achieve targets</span></div>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Enhance system performance</span></div>
@@ -299,7 +324,7 @@ const MicrosoftPowerAutomate = () => {
             <div className="col-lg-9">
               <div className="heading-colo-bg">
                 <h2>Microsoft Power Automate Features: Automate Your Business - like a  Pro! </h2>
-                <p>Microsoft Power Automation allows you to connect hundreds of connectors to make your business invulnerable to increasing business complexities and changing market demands. Along with these basic features, Power Automate Microsoft has a lot for your business.</p>
+                <p>Microsoft Power Automation allows you to connect hundreds of and make your business invulnerable to increasing business complexities with changing market demands. Along with these basic features, Power Automate Microsoft has a lot for your business.</p>
               </div>
             </div>
           </div>
@@ -391,7 +416,7 @@ const MicrosoftPowerAutomate = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Simplify Data Reporting and Analysis</h3>
-                  <p>Use pre-built templates to access data, eliminate business challenges, perform data analysis, and build reports integrating with Power BI. </p>
+                  <p>Use pre-built templates to access data, eliminate business challenges, perform data analysis, and build reports with Power BI integration.</p>
                 </div>
               </div>
             </div>
@@ -411,7 +436,7 @@ const MicrosoftPowerAutomate = () => {
             <div className="col-lg-6 align-self-center">
               <div className="col-to-content">
                 <h3>Save Time and Automate Business with Microsoft Power Automate</h3>
-                <p>Streamline business processes, connect different solutions, set up workflows to get notifications, and build solutions to enhance productivity with low-code or no-code.</p>
+                <p>Streamline business processes, connect different solutions, set up workflows to get notifications, and build solutions to enhance productivity with low-code or no-code deployment.</p>
                 <Link href="/contact-us/">
                   <a className="btn btn-md">Connect with a Business Automation Expert!</a>
                 </Link>
@@ -434,19 +459,19 @@ const MicrosoftPowerAutomate = () => {
           <div className="row pp-top-60 pp-bot-60">
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
-              <ul>
-                <li><strong>Stay on top of issues:</strong> Get instant Teams alerts when new ones pop up in Jira, Trello, Slack, and more.</li>
-                <li><strong>Unify your ecosystem:</strong> Seamlessly connect Power Automate with Dynamics 365 solutions like Sales, <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>, and Customer Service.</li>
-                <li><strong>Connect anything, automate everything:</strong> Integrate hundreds of apps like SQL Server and SharePoint with MS Power Automate.</li>
-                <li><strong>Simplify approvals:</strong> Automate approvals across processes and departments, saving time and effort.</li>
-                <li><strong>Never miss a priority:</strong> Get notified instantly about high-priority tasks with custom workflows.</li>
-                <li><strong>Leads never slip through:</strong> Automatically notify key personnel about new sales leads.</li>
-                <li><strong>Break down data silos:</strong> Collect and share process data effortlessly with your team members.</li>
-                <li><strong>Effortless document collaboration:</strong> Automatically copy Dropbox files to SharePoint for team-wide access.</li>
-                <li><strong>Social media watch:</strong> Stay in the loop whenever someone mentions your brand with specific hashtags on social media.</li>
-               
-              </ul>
-              <p><strong>Based on research:</strong> <a href="https://info.microsoft.com/ww-landing-forrester-tei-of-power-platform-premium-capabilities.html?culture=en-us&country=us" target="_blank" rel="nofollow">The Total Economic Impact™ of Microsoft Power Platform Premium Capabilities</a>  published by Forrester Consulting. </p>
+                <ul>
+                  <li><strong>Stay on top of issues:</strong> Get instant Teams alerts when new ones pop up in Jira, Trello, Slack, and more.</li>
+                  <li><strong>Unify your ecosystem:</strong> Seamlessly connect Power Automate with Dynamics 365 solutions like Sales, <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link>, and Customer Service.</li>
+                  <li><strong>Connect anything, automate everything:</strong> Integrate hundreds of apps like SQL Server and SharePoint with MS Power Automate.</li>
+                  <li><strong>Simplify approvals:</strong> Automate approvals across processes and departments, saving time and effort.</li>
+                  <li><strong>Never miss a priority:</strong> Get notified instantly about high-priority tasks with custom workflows.</li>
+                  <li><strong>Leads never slip through:</strong> Automatically notify key personnel about new sales leads.</li>
+                  <li><strong>Break down data silos:</strong> Collect and share process data effortlessly with your team members.</li>
+                  <li><strong>Effortless document collaboration:</strong> Automatically copy Dropbox files to SharePoint for team-wide access.</li>
+                  <li><strong>Social media watch:</strong> Stay in the loop whenever someone mentions your brand with specific hashtags on social media.</li>
+
+                </ul>
+                <p><strong>Based on research:</strong> <a href="https://info.microsoft.com/ww-landing-forrester-tei-of-power-platform-premium-capabilities.html?culture=en-us&country=us" target="_blank" rel="nofollow">The Total Economic Impact™ of Microsoft Power Platform Premium Capabilities</a>  published by Forrester Consulting. </p>
               </div>
             </div>
             <div className="col-lg-1 align-self-center"></div>
@@ -477,10 +502,10 @@ const MicrosoftPowerAutomate = () => {
 
         </div>
       </section>
- 
-      <section className="col-gg" style={{backgroundColor:'#f9fcfe'}}>
+
+      <section className="col-gg" style={{ backgroundColor: '#f9fcfe' }}>
         <div className="container">
-        <div className="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="heading-colo-bg">
                 <h2>Microsoft Power Automate Service: Automate with Confidence!</h2>
@@ -490,18 +515,18 @@ const MicrosoftPowerAutomate = () => {
           </div>
 
           <div className="row justify-content-center">
-          <div className="col-lg-4">
+            <div className="col-lg-4">
               <div className="home_servce-_card">
-              <Link href="#exampleModal">
-                  <a  data-bs-toggle="modal">
+                <Link href="#exampleModal">
+                  <a data-bs-toggle="modal">
                     <div className="gr">
                       <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" />
                       <video autoPlay muted loop playsInline>
                         <source src="/video/Implementation-icon.mp4" type="video/mp4" />
                       </video>
                     </div>
-                    <h3>Power Automate Implementation</h3>
-                    <p>Empower employees with AI, get more business visibility, and enable a data-driven strategy with the Power Automate implementation.</p>
+                    <h3>Power Automate <br/> Implementation</h3>
+                    <p>Empower employees with AI, get business visibility, and enable a data-driven strategy with the Power Automate implementation.</p>
                     <div className="h-s-call" >
                       <span>Implement Now </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -509,11 +534,11 @@ const MicrosoftPowerAutomate = () => {
                 </Link>
               </div>
             </div>
-           
+
             <div className="col-lg-4">
               <div className="home_servce-_card">
                 <Link href="#exampleModal">
-                  <a  data-bs-toggle="modal">
+                  <a data-bs-toggle="modal">
 
                     <div className="gr">
                       <img src="/img/home/Support-icon.png" alt="Support-icon" />
@@ -521,8 +546,8 @@ const MicrosoftPowerAutomate = () => {
                         <source src="/video/Support-icon.mp4" type="video/mp4" />
                       </video>
                     </div>
-                    <h3>Power Automate Support</h3>
-                    <p>Make your system work 24*7 and enable automation to help you grow regardless of complexity with Power Automate support.</p>
+                    <h3>Power Automate  <br/> Support</h3>
+                    <p>Make your system work 24*7 and access advanced automation to help you grow regardless of complexity with Power Automate support.</p>
                     <div className="h-s-call" >
                       <span>Support Now </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -530,16 +555,16 @@ const MicrosoftPowerAutomate = () => {
                 </Link>
               </div>
             </div>
-            
-          
+
+
           </div>
         </div>
       </section>
-     
 
-     
 
-   
+
+
+
 
 
       <section className="pri-wrper-bc" style={{ marginTop: '0px' }}>
@@ -555,11 +580,11 @@ const MicrosoftPowerAutomate = () => {
 
           <div className="row justify-content-center">
             <div className="col-lg-4">
-             
+
               <div className="price0-bc-new price0-bc-new-h">
                 <div className="pr-head">
                   <h3>
-                  Power Automate Free
+                    Power Automate Free
                   </h3>
                 </div>
                 <div className="pr-body">
@@ -576,36 +601,36 @@ const MicrosoftPowerAutomate = () => {
               </div>
             </div>
             <div className="col-lg-4">
-           
-           <div className="price0-bc-new price0-bc-new-h">
-             <div className="pr-head">
-               <h3>Power Automate Premium</h3>
-             </div>
-             <div className="pr-body">
-               <div className="pr-pice">
-                 <span>$15</span> per user/month
-               </div>
-               <div className="list-ul">
-                 <ul>
-                   <li>
-                     <i className="bi bi-check-lg"></i>Automate cloud application using API</li>
-                   <li>
-                     <i className="bi bi-check-lg"></i>Automate legacy application using UI connectivity</li>
-                   <li>
-                     <i className="bi bi-check-lg"></i>Unlimited cloud flows (DPA) and desktop flows (RPA) in attended mode</li>
-                   <li>
-                     <i className="bi bi-check-lg"></i>50 MB process mining data storage</li>
-                   <li>
-                     <i className="bi bi-check-lg"></i>5,000 AI Builder credits</li>
-                     <li>
-                     <i className="bi bi-check-lg"></i>250 MB database for Dataverse and 2GB File</li>
-                 </ul>
-               </div>
-             </div>
-           </div>
-         </div>
+
+              <div className="price0-bc-new price0-bc-new-h">
+                <div className="pr-head">
+                  <h3>Power Automate Premium</h3>
+                </div>
+                <div className="pr-body">
+                  <div className="pr-pice">
+                    <span>$15</span> per user/month
+                  </div>
+                  <div className="list-ul">
+                    <ul>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Automate cloud application using API</li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Automate legacy application using UI connectivity</li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>Unlimited cloud flows (DPA) and desktop flows (RPA) in attended mode</li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>50 MB process mining data storage</li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>5,000 AI Builder credits</li>
+                      <li>
+                        <i className="bi bi-check-lg"></i>250 MB database for Dataverse and 2GB File</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="col-lg-4">
-           
+
               <div className="price0-bc-new price0-bc-new-h">
                 <div className="pr-head">
                   <h3>Power Automate Process</h3>
@@ -622,7 +647,7 @@ const MicrosoftPowerAutomate = () => {
                         <i className="bi bi-check-lg"></i>Unlimited cloud flows (DPA) and desktop flows (RPA) in unattended mode</li>
                       <li>
                         <i className="bi bi-check-lg"></i>50 MB database for Dataverse and 200 MB File</li>
-                  
+
                     </ul>
                   </div>
                 </div>
@@ -652,7 +677,7 @@ const MicrosoftPowerAutomate = () => {
                   <h3>For personalized and detailed Power Automate pricing structure, feel free to contact our experts.</h3>
                   <Link href="/contact-us/">
                     <a className="btn btn-md">
-                    Connect with a Business Automation Expert!
+                      Connect with a Business Automation Expert!
                     </a>
                   </Link>
                 </div>
@@ -662,7 +687,7 @@ const MicrosoftPowerAutomate = () => {
         </div>
       </section>
 
-    
+
 
       <section>
         <div className="container">
