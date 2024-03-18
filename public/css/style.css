@@ -234,7 +234,7 @@ position:relative;
   width: 47%;
   height: 100%;
   background-color: #4158D0;
-  background-image: linear-gradient(43deg, #242f6b 0%, #C850C0 46%, #FFCC70 100%);
+  /* background-image: linear-gradient(43deg, #242f6b 0%, #C850C0 46%, #FFCC70 100%); */
   left: 0;
   top: 0;
 
@@ -13151,13 +13151,13 @@ text-decoration: none;
 .toaster-slide{
   background:url('/img/toster-bg.jpg');
   background: rgb(39,57,93);
-  background: -moz-linear-gradient(30deg, rgba(39,57,93,1) 0%, rgba(88,1,145,1) 100%);
+  /* background: -moz-linear-gradient(30deg, rgba(39,57,93,1) 0%, rgba(88,1,145,1) 100%);
   
   background: -webkit-linear-gradient(30deg, rgba(39,57,93,1) 0%, rgba(88,1,145,1) 100%);
   
   background: linear-gradient(30deg, rgba(39,57,93,1) 0%, rgba(88,1,145,1) 100%);
   
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#27395d",endColorstr="#580191",GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#27395d",endColorstr="#580191",GradientType=1); */
 }
 .toaster-slide:before{
   position: absolute;
