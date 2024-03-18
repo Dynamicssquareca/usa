@@ -97,7 +97,7 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
   return (
     <div className={`toaster-container ${showToaster ? 'show' : ''}`}>
 
-      {/* <div className={`toaster-slide ${showToaster ? 'active' : ''}`}>
+      <div className={`toaster-slide ${showToaster ? 'active' : ''}`}>
         <div className='toaster-content'>
           <h3>{currentMessage.heading}</h3>
           <p>{currentMessage.paragraph}</p>
@@ -113,10 +113,10 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
 
           <a className='colse-po-bt' onClick={handleClose}>&times;</a>
         </div>
-      </div> */}
+      </div>
       <PrmoTrigerModelHome />
-     <a href="#upgradeform"
-            data-bs-toggle="modal"><div id='consult_now' className="floating-button" >Consult Now!</div></a>
+      {showFloatingButton && !showToaster && closed && <a href="#upgradeform"
+            data-bs-toggle="modal"><div id='consult_now' className={`floating-button ${showFloatingButton ? 'show' : ''}`} >Consult Now!</div></a>}
     </div>
 
   );
