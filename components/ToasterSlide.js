@@ -10,19 +10,6 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
   const [showFloatingButton, setShowFloatingButton] = useState(true); // Initially show the floating button
   const router = useRouter();
 
-  // useEffect(() => {
-  //   const lastShownDate = localStorage.getItem('toasterLastShown');
-  //   const todayDate = new Date().toLocaleDateString();
-  //   const storedShowCount = parseInt(localStorage.getItem('toasterShowCount'), 10) || 0;
-
-  //   if (lastShownDate !== todayDate) {
-  //     setShowCount(0);
-  //     localStorage.setItem('toasterShowCount', '0');
-  //   } else {
-  //     setShowCount(storedShowCount);
-  //   }
-  // }, []);
-
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
@@ -30,19 +17,31 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
       const documentHeight = document.body.clientHeight;
       const scrollThreshold = documentHeight * 0.2;
 
-      if (!closed && scrollPosition > scrollThreshold && showCount < 2 && isURLAllowed(router.pathname, allowedURLs)) {
+      // Check if the URL is allowed and other conditions to show the toaster
+      if (
+        !closed &&
+        scrollPosition > scrollThreshold &&
+        showCount < 2 &&
+        isURLAllowed(router.pathname, allowedURLs)
+      ) {
         setShowToaster(true);
       }
 
-      // Check if the footer is visible on the screen
-      const footer = document.querySelector('footer');
-      if (footer) {
-        const footerPosition = footer.getBoundingClientRect().top;
-        if (footerPosition < windowHeight) {
-          setShowFloatingButton(false); // Hide the floating button when the footer is visible
-        } else {
-          setShowFloatingButton(true); // Show the floating button when the footer is not visible
+      // Check if the URL is allowed to show the floating button
+      if (isURLAllowed(router.pathname, allowedURLs)) {
+        // Check if the footer is visible on the screen
+        const footer = document.querySelector('footer');
+        if (footer) {
+          const footerPosition = footer.getBoundingClientRect().top;
+          if (footerPosition < windowHeight) {
+            setShowFloatingButton(false); // Hide the floating button when the footer is visible
+          } else {
+            setShowFloatingButton(true); // Show the floating button when the footer is not visible
+          }
         }
+      } else {
+        // If the URL is not allowed, hide the floating button
+        setShowFloatingButton(false);
       }
     };
 
@@ -115,8 +114,8 @@ const ToasterSlide = ({ commonMessage, allowedURLs, toasterMessages }) => {
         </div>
       </div> */}
       <PrmoTrigerModelHome />
-     <a href="#upgradeform"
-            data-bs-toggle="modal"><div id='consult_now' className="floating-button" >Consult Now!</div></a>
+     {/* <a href="#upgradeform"
+            data-bs-toggle="modal"><div id='consult_now' className="floating-button" >Consult Now!</div></a> */}
     </div>
 
   );
