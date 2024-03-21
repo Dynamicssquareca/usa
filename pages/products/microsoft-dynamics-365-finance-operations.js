@@ -11,10 +11,10 @@ const MicrosoftDynamics365FinanceOperations = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Finance and Operations</title>
+        <title>Dynamics 365 Finance and Operations | D365 F&O Partner</title>
         <meta
           name="description"
-          content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs."
+          content="Looking for a trusted Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation & support needs."
         />
         <link
           rel="canonical"
@@ -22,9 +22,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="Dynamics 365 Finance and Operations" />
+        <meta property="og:title" content="Dynamics 365 Finance and Operations | D365 F&O Partner" />
 
-        <meta property="og:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
+        <meta property="og:description" content="Looking for a trusted Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation & support needs." />
 
         <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
 
@@ -34,9 +34,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="Dynamics 365 Finance and Operations" />
+        <meta property="twitter:title" content="Dynamics 365 Finance and Operations | D365 F&O Partner" />
 
-        <meta property="twitter:description" content="Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs." />
+        <meta property="twitter:description" content="Looking for a trusted Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation & support needs." />
 
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
 
@@ -47,9 +47,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              "name": "Microsoft Dynamics 365 Finance and Operations",
+              "name": "Microsoft Dynamics 365 Finance and Operations | D365 F&O Partner",
               "image": "https://www.dynamicssquare.com/img/f-and-o-image.png/",
-              "description": "Looking for a trusted Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for implementation and support needs.",
+              "description": "Looking for a trusted Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation & support needs.",
               "brand": {
                 "@type": "Brand",
                 "name": "Dynamics Square USA"
