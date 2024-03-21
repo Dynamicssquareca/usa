@@ -47,7 +47,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              "name": "Microsoft Dynamics 365 Finance and Operations | D365 F&O Partner",
+              "name": "Dynamics 365 Finance and Operations | D365 F&O Partner",
               "image": "https://www.dynamicssquare.com/img/f-and-o-image.png/",
               "description": "Looking for a trusted Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation & support needs.",
               "brand": {
