@@ -1,20 +1,13 @@
-import React, { useRef, useState, useEffect } from 'react';
-import Head from "next/head";
-import FormFooterSubscriber from "../components/FormFooterSubscriber";
-import Link from "next/link";
-import Image from "next/image";
-import FormNewUI from "../components/FormNewUI";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import "swiper/css";
-import "swiper/css/pagination";
-import 'swiper/css/navigation';
-import { Pagination, Autoplay, FreeMode, Navigation } from "swiper";
+import Head from 'next/head'
+import Link from 'next/link';
+import Image from 'next/image';
+import FormFooterSubscriber from '../components/FormFooterSubscriber';
+import Form from "../components/Form";
 const ContactUs = () => {
-
-  return (
-    <>
-      <Head>
-      <title>Contact Dynamics Square | Book Free Consultation</title>
+    return (
+      <>
+        <Head>
+          <title>Contact Dynamics Square | Book Free Consultation</title>
           <meta
             name="description"
             content="Contact Dynamics Square experts for Dynamics 365 CRM/ERP implementation, Support and Upgrade benefits. Book a free online consultation to know more."
@@ -23,247 +16,112 @@ const ContactUs = () => {
             rel="canonical"
             href="https://www.dynamicssquare.com/contact-us/"
           />
-
-      </Head>
-      <main>
-        <section className="Solution-banner about-banner">
+          <meta name="robots" content="noindex, nofollow" />
+        </Head>
+        <main>
+        <section className="Solution-banner hero-1 hero about-banner">
           <div className="container">
             <div className="row">
-              <div className="col-lg-5">
-
-                <div className="new-contant-head">
-                  <h1>Ready for Business Innovation? Let’s talk!</h1>
-                  <p>Leverage Microsoft solutions customized specifically for your business needs!</p>
-                  <div className="new-flex-wraper">
-                    <h2>Why Choose Dynamics Square</h2>
-                    <div className="new-flex-se">
-                      <div className="left">
-                        <img src="/img/card_travel.png" alt="card_travel" />
-                      </div>
-                      <div className="right">
-                        <span>350+ Success Handovers and Counting!</span>
-                      </div>
-                    </div>
-                    <div className="new-flex-se">
-                      <div className="left">
-                        <img src="/img/workspace_premi.png" alt="workspace_premi" />
-                      </div>
-                      <div className="right">
-                        <span>150+ Qualified Professionals at Your Disposal!</span>
-
-                      </div>
-                    </div>
-                    <div className="new-flex-se">
-                      <div className="left">
-                        <img src="/img/chronic.png" alt="chronic" />
-                      </div>
-                      <div className="right">
-                      <span>24/7 Round-the-Clock Support!</span>
-                      </div>
-                    </div>
-                    <div className="new-flex-se">
-                      <div className="left">
-                        <img src="/img/diversity-3.png" alt="diversity-3" />
-                      </div>
-                      <div className="right">
-                      <span>2x Boost in Efficiency and Productivity!</span>
-                    
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+              <div className="col-lg-6 justify-self-center">
+                <h1>Contact Us</h1>
+                <p>
+                  Our Microsoft consultants are here to provide dedicated
+                  support, training and consultancy
+                </p>
               </div>
-              <div className="col-lg-7 align-self-center">
-                <FormNewUI />
+              <div className="col-lg-6 align-self-center">
+                <Image
+                  src="/img/contact-us-pic.png"
+                  alt="contact-us-pic"
+                  width={697} height={447}
+                />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="cont-into cont-into-bg">
-          <div className="container">
-            <div className="pddd-30">
-              <div className="row pddd-40">
-                <div className="col-lg-3 col-sm-12">
-                  <div className="addre-left">
-                    <h4>California</h4>
-                    <p>2372 Morse Ave, Ste. 310<br /> Irvine, CA 92614</p>
-                    <p>+1 213 784 0845</p>
-                    <a
-                      href="https://goo.gl/maps/HJtMuiqBdqw2eDuU9"
-                      target="_blank"
-                    >
-                      Locate Us on Google
-                    </a>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-sm-12">
-                  <div className="addre-left">
-                    <h4>Texas</h4>
-                    <p>10101 Southwest Freeway<br /> Houston, TX 77074</p>
-                    <p>+1 281 899 0865</p>
-                  </div>
-
-                </div>
-                <div className="col-lg-3 col-sm-12">
-                  <div className="addre-left">
-                    <h4>Illinois</h4>
-                    <p>111 North Wabash Ave. Ste.100 <br />The Garland Building Chicago, IL 60602</p>
-                    <p>+1 312 488 1043</p>
-                  </div>
-                </div>
-                <div className="col-lg-3 col-sm-12">
-                  <div className="addre-left">
-                    <h4>New Jersey</h4>
-                    <p>500 Paterson Plank <br />Road Union City, NJ 07087</p>
-                    <p>+1 732 893 0520</p>
-                  </div>
-                </div>
-
-
-
-              </div>
-              <div className='row pad-599'>
-                <div className="col-lg-3 col-sm-12">
-                  <div className="addre-left">
-                    <h4>Massachusetts</h4>
-                    <p>867 Boylston Street <br />Boston, MA 02116</p>
-                    <p>+1 617 765 7669</p>
-                  </div>
-                </div>
-                <div className="col-lg-3">
-                  <div className='picc'>
-                    <img src="/img/m-partner.png" alt="m-partner" />
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className='container'>
-            <div className='row justify-content-center'>
-              <div className="col-lg-9">
-                <div className="new-co-title new-co-title-ll text-center">
-                  <h3>Why Businesses Trust Dynamics Square?</h3>
-                  <p>Dynamics Square is the leading Microsoft Solution partner, offering future-ready business solutions to global organizations.</p>
-                </div>
-              </div>
-
-            </div>
-            <div className="row justify-content-center" style={{paddingTop:'60px'}}>
-              <div className="col-lg-11">
-                <div className="testmonial-slide-home">
-                  <div className="img-1">
-                    <img src="/img/home/quote-left.png" alt="" />
-                  </div>
-                  <Swiper
-                    autoplay={{
-                      delay: 8000,
-                      disableOnInteraction: true,
-                    }}
-                    pagination={{
-                      dynamicBullets: true,
-                      clickable: true,
-                    }}
-
-                    modules={[Pagination, Autoplay]}
-                    className="mySwiper"
-                  >
-
-                    <SwiperSlide>
-
-                      <div className="test-inner">
-                        <p>We were using an outgrown legacy system with potential chances of errors, data loss, and cyber-attacks. These are some of the reasons that pushed us to upgrade to Dynamics 365 Finance and Operations with a cloud deployment. The team at Dynamics Square has successfully implemented this solution in the stated time without any after-sales cost.</p>
-                        <span>-Chief Financial Officer at a Non-profit organization</span>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="test-inner">
-                        <p>The NAV to Business Central upgrade was our best choice when it comes to business growth, simplified operations, and establishing communication between different teams in different departments. Dynamics Square has made the entire process smooth and efficient.</p>
-                        <span>-Vice Principal at a leading college</span>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="test-inner">
-                        <p>Dynamics Square understood our requirements and suggested Microsoft Power BI for our data analytics needs. They also integrated this with our existing ERP solution for a continuous data flow.</p>
-                        <span>-Head of Marketing at the renowned clothing brand</span>
-                      </div>
-                    </SwiperSlide>
-
-                  </Swiper>
-                  <div className="img-2">
-                    <img src="/img/home/quote-right.png" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="pddd-80">
+        <section className="cont-into">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-9">
-                <div className="new-co-title new-co-title-ll text-center">
-                  <h3>Our Proven Track Record Says It All: Businesses Got Exclusive Result</h3>
+              <div className="col-lg-8 col-md-8">
+                <header className="section-header">
+                  <h2> Book A Slot!</h2>
+                  <p>
+                    <b>
+                      Have Questions About Microsoft Dynamics Products Or
+                      Services?
+                    </b>
+                    <br />
+                    Schedule a demo with our Microsoft Dynamics experts to
+                    resolve all your queries.
+                  </p>
+                </header>
+              </div>
+            </div>
+
+            <div className="row neew-pd0 justify-content-center">
+              <div className="col-lg-10">
+                <div className="row">
+                  <div className="col-lg-5 col-sm-12 align-self-center">
+                    <div className="addre-left">
+                      <p>
+                      2372 Morse Ave, Ste. 310 Irvine,
+                        <br />
+                        CA 92614
+                      </p>
+                      <a
+                        href="https://goo.gl/maps/HJtMuiqBdqw2eDuU9"
+                        target="_blank"
+                      >
+                        Locate Us on Google
+                      </a>
+                    </div>
+                  </div>
+                  <div className="col-lg-7 col-sm-12 align-self-center">
+                    <div className="addre-rigt">
+                      <div className="cont-info">
+                      <span style={{color:'#343434',fontWeight:'500'}}>Sales Support : </span>
+                      <span>+1-281-899-0865</span>
+                      </div>
+                      <div className="cont-info">
+                      <span style={{color:'#343434',fontWeight:'500'}}>Technical Support : </span>
+                      <span>+1-281-899-0716</span>
+                      </div>
+                      <div className="cont-info">
+                      <span style={{color:'#343434',fontWeight:'500'}}>Email Us : </span>
+                        <span>
+                          <a href="mailto:info@dynamicssquare.com">
+                            info@dynamicssquare.com
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="row g-2 pd-600">
-              <div className="col-lg-4">
-                <div className="exp-box exp-box-m">
-                  <div className="top-sec b-t-pad">
-                    <h3>82%</h3>
-                    <h4>Businesses Meet Expected ROI</h4>
-                    <p>Different businesses have achieved the expected ROI on time after the successful implementation of the Microsoft ERP solution.</p>
-                    {/* <a href="/" className="btnnew">Read More</a> */}
-                  </div>
-                  <div className="bottom-sec">
-                    <img src="/img/home/roi.png" alt="im " />
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="exp-box">
-                  <div className="bottom-sec b-t-pad">
-                    <img src="/img/home/2x.png" alt="im " />
-                  </div>
-                  <div className="top-sec ">
-                    <h3>2x</h3>
-                    <h4>Productivity Increases</h4>
-                    <p>Due to the centralized data structure, the overall efficiency and productivity of the team have increased by 2X.</p>
-                    {/* <a href="/" className="btnnew">Read More</a> */}
-                  </div>
+          </div>
+        </section>
 
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="exp-box exp-box-m">
-                  <div className="top-sec b-t-pad">
-                    <h3>46%</h3>
-                    <h4>Improved Cost Saving</h4>
-                    <p>Businesses that have upgraded to Microsoft ERP or CRM solutions have reported improved cost savings while limiting resources.</p>
-                    {/* <a href="/" className="btnnew">Read More</a> */}
+        <section className="cont-ff">
+          <div className="container">
+            <div className="row justify-content-md-center">
+              <div className="col-lg-10 col-md-10">
+                <div className="row g-0 extra-height">
+                  <div className="col-md-6 col-lg-6">
+                    <div className="main-form-wrper-common">
+                      <Form />
+                    </div>
                   </div>
-                  <div className="bottom-sec">
-                    <img src="/img/home/46x.jpg" alt="im" />
+                  <div className="col-md-6 col-lg-6">
+                    <img
+                      src="/img/contactfor-sede-img.jpg"
+                      alt="contactfor-sede-img"
+                      className="image-cover"
+                    />
                   </div>
                 </div>
               </div>
-
-              <div className="col-lg-12">
-                <div className="new-btn-home text-center top-bom-home">
-                  <Link href="/case-studies/" >
-                    <a className="bts">
-                      <span>Read More <i className="bi bi-arrow-right"></i></span>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-
             </div>
           </div>
         </section>
@@ -280,9 +138,9 @@ const ContactUs = () => {
                   id="myTab"
                   role="tablist"
                 >
-                  {/* <li className="nav-item" role="presentation">
+                  <li className="nav-item" role="presentation">
                     <button
-                      className="nav-link"
+                      className="nav-link active"
                       id="profile-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#profile"
@@ -294,11 +152,11 @@ const ContactUs = () => {
                       {" "}
                       USA
                     </button>
-                  </li> */}
+                  </li>
 
                   <li className="nav-item" role="presentation">
                     <button
-                      className="nav-link active"
+                      className="nav-link"
                       id="home-tab"
                       data-bs-toggle="tab"
                       data-bs-target="#home"
@@ -383,8 +241,8 @@ const ContactUs = () => {
                   </li>
                 </ul>
                 <div className="tab-content" id="myTabContent">
-                  {/* <div
-                    className="tab-pane fade"
+                  <div
+                    className="tab-pane fade show active"
                     id="profile"
                     role="tabpanel"
                     aria-labelledby="profile-tab"
@@ -541,9 +399,9 @@ const ContactUs = () => {
                         </div>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                   <div
-                    className="tab-pane fade show active"
+                    className="tab-pane fade"
                     id="home"
                     role="tabpanel"
                     aria-labelledby="home-tab"
@@ -609,33 +467,33 @@ const ContactUs = () => {
                         </div>
                       </div>
                       <div className="col-lg-4">
-                        <div className="cont-hh">
+                      <div className="cont-hh">
                           <h3>Birmingham</h3>
                         </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-geo-alt"></i>
-                          </div>
-                          <div className="content-right">
-                            Izabella House, 24 - 26 Regents Place, City Centre, Birmingham
-                          </div>
-                        </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-telephone"></i>
-                          </div>
-                          <div className="content-right">
-                            <a target="_self" rel="" href="tel:+441213182798">
-                              +44 121 318 2798
-                            </a>
-                          </div>
-                        </div>
-                        <div className="contact-list">
-                          <div className="icons-left">
-                            <i className="bi bi-envelope"></i>
-                          </div>
-                          <div className="content-right">info@dynamicssquare.co.uk</div>
-                        </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-geo-alt"></i>
+                </div>
+                <div className="content-right">
+                Izabella House, 24 - 26 Regents Place, City Centre, Birmingham
+                </div>
+              </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-telephone"></i>
+                </div>
+                <div className="content-right">
+                <a target="_self" rel="" href="tel:+441213182798">
+                    +44 121 318 2798
+                  </a>
+                </div>
+              </div>
+              <div className="contact-list">
+                <div className="icons-left">
+                  <i className="bi bi-envelope"></i>
+                </div>
+                <div className="content-right">info@dynamicssquare.co.uk</div>
+              </div>
                       </div>
                     </div>
                   </div>
@@ -965,9 +823,9 @@ const ContactUs = () => {
             <div className="row gy-4">
               <div className="col-lg-5 col-md-12 footer-info">
                 <Link href="/" className="logo d-flex align-items-center">
-                  <img
-                    src="/img/dynamics_square_tm_logo_footer.svg"
-                    alt="dynamics_square_tm_logo_footer"
+                <img
+                     src="/img/dynamics_square_tm_logo_footer.svg"
+                     alt="dynamics_square_tm_logo_footer"
                     width="230"
                     height="16"
                   />
@@ -976,13 +834,13 @@ const ContactUs = () => {
                   that caters to the needs of orgnizations who can source
                   next-gen Microsoft Business Apps from our highly skilled
                   Microsoft consultants.</p>
-                <Image
+                  <Image
                   src="/img/microsoft-partner-footer.png"
                   alt="microsoft-partner"
                   className="footer-img"
-                  width={230}
-                  height={211}
-
+                 width={230}
+                 height={211}
+                 
                 />
                 <img
                   src="/img/Tech-For-Socil-Impact.svg"
@@ -990,7 +848,7 @@ const ContactUs = () => {
                   className="footer-img"
                   width="230"
                   height="81"
-                  style={{ marginTop: '25px' }}
+                  style={{marginTop:'25px'}}
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">
@@ -1141,13 +999,14 @@ const ContactUs = () => {
         </div>
       </footer>
       <div className='call-bb-wr'>
-        <button className="fixed-button wobble" type="button" aria-labelledby="callbuttondiv">
-          <a href="tel:+12818990865" target="_self" ><i className="bi bi-telephone-fill"></i> <span className="screen-reader-text">Details</span></a>
-        </button>
+      <button className="fixed-button wobble" type="button" aria-labelledby="callbuttondiv">
+      <a href="tel:+12818990865" target="_self" ><i className="bi bi-telephone-fill"></i> <span className="screen-reader-text">Details</span></a>
+</button>
 
       </div>
-    </>
-  );
-};
-
-export default ContactUs;
+      </>
+    );
+  };
+  
+  export default ContactUs;
+  

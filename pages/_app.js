@@ -134,6 +134,7 @@ function MyApp({ Component, pageProps }) {
 
   const router = useRouter();
   if (router.asPath == '/contact-us/' ||
+    router.asPath == '/contact-test/' ||
     router.asPath == '/contact-us/?utm_source=email&utm_medium=contact-us&utm_campaign=navtobc_jan&utm_term=ds_us' ||
     router.asPath == '/contact-us/?utm_source=email&utm_medium=contact-us&utm_campaign=business_central_support&utm_term=ds_us' ||
     router.asPath == '/subscriber-thank-you/' ||
