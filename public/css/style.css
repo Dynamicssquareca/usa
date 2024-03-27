@@ -9665,7 +9665,7 @@ color:var(--color-red)
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Work Sans", sans-serif;
-  margin-bottom: 33px;
+  margin-bottom: 22px;
  }
  .heading-colo-bg p{
   
@@ -14740,6 +14740,9 @@ border-radius: 10px;
 }
 .pd-600,.pad-599{
   padding-top:60px
+}
+.bg-gray{
+  background-image: radial-gradient(circle at 88% 39%, #f2f8fe, rgba(242, 248, 254, 0) 125%);
 }
 
 @media (max-width: 1400px) {

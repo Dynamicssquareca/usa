@@ -30,7 +30,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="og:site_name" content="Dynamics Square USA" />
 
-        <meta property="og:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
+        <meta property="og:image" content="https://www.dynamicssquare.com/img/crm-new-banner.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
 
@@ -40,7 +40,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-crm/" />
 
-        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/f-and-o-image.png" />
+        <meta property="twitter:image" content="https://www.dynamicssquare.com/img/crm-new-banner.png" />
         <meta name="robots" content="noindex, nofollow" />
 
       </Head>
@@ -69,15 +69,15 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="banner-ne-im-t">
                 <div className="bf">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/crm-o-shadow.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/f-and-o-image.png"
-                  alt="f&o"
+                  src="/img/crm-new-banner.png"
+                  alt="crm"
                   width={648}
                   height={355}
                 />
@@ -95,28 +95,28 @@ const MicrosoftDynamics365FinanceOperations = () => {
             <div className="col-lg-5 align-self-center">
               <div className="new-pic-bc">
                 <video autoPlay muted loop playsInline>
-                  <source src="/video/f&o-video.mp4"></source>
+                  <source src="/video/crm-video.mp4"></source>
                 </video>
               </div>
             </div>
             <div className="col-lg-1 align-self-center">
-              <div className="brder-hr"></div>
+              {/* <div className="brder-hr"></div> */}
             </div>
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
-                <h2>What is Microsoft Dynamis 365 CRM?</h2>
+                <h2>What is Microsoft Dynamics 365 CRM?</h2>
                 <p>Microsoft Dynamics 365 CRM (Customer Relationship Management) is a set of different solutions to help you streamline all operations of sales, marketing, and customer service.</p>
                 <p>Leveraging the capabilities of Microsoft Dynamics CRM, you can unify the data, simplify various processes, build long-lasting relationships with customers, enhance customer engagement, and supercharge productivity.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Microsoft CRM is not limited to big businesses anymore</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Manage leads and build relationships</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Close deal faster with tailored customer interaction</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Microsoft CRM is not limited to big businesses anymore</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Manage leads and build relationships</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Close deal faster with tailored customer interaction</span></div>
               </div>
             </div>
             
           </div>
           <div className="row pp-top-60 pp-bot-60 justify-content-center">
             <div className="col-lg-9" >
-              <div className="center-info-fq text-center">
+              <div className="center-info-fq text-center" style={{ backgroundColor: "#f7f9fb" }}>
                 <p><strong>Note:</strong> In a recent update, Microsoft renamed it  <Link href="/products/dynamics-365-customer-engagement/"><a>Microsoft Dynamics 365 Customer Engagement</a></Link> (CE), but business owners, consultants, and decision makers still call it Dynamics CRM. With the updated name, Microsoft has started to primarily focus on offering cloud services while reducing its dependency on on-premises deployment.</p>
               </div>
             </div>
@@ -128,9 +128,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <p>Dynamics 365 CRM unifies the data, systems, and processes of different sales and marketing operations to offer an exceptional experience to a customer through the sales cycle.</p>
                 <p>Collaborating in sales and marketing helps a business understand the exact requirements of the customer and furnish them using the right communication channel.</p>
                 <p>Dynamics CRM empowers the team to prioritize the right leads, nurture existing leads, and boost sales numbers.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Unify data system and processes.</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Track customer throughout the sales cycle</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Promotes sales and marketing team collaboration</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Unify data system and processes.</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Track customer throughout the sales cycle</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Promotes sales and marketing team collaboration</span></div>
               </div>
             </div>
 
@@ -139,15 +139,15 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/crm-o-shadow.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Simplify-Financial-Operations.png"
-                  alt="Simplify-Financial-Operations"
+                  src="/img/Connect-Sales-and-Marketing.png"
+                  alt="Connect-Sales-and-Marketing"
                   width={600}
                   height={400}
                 />
@@ -160,15 +160,15 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/crm-o-shadow.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Track-Inventory-on-the-Go.png"
-                  alt="Track-Inventory-on-the-Go"
+                  src="/img/Build-Lasting-Customer.png"
+                  alt="Build-Lasting-Customer"
                   width={600}
                   height={400}
                 />
@@ -181,9 +181,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <p>Build stronger relationships with customers by combining different processes of sales and customer support. By combining the data, you will be able to understand customer demands and check for fluctuating marketing trends to build trust among customers.</p>
                 <p>You can also track the customer across different milestones of the sales and support journey to resolve their queries in real-time, leading you to build loyalty and exceptional customer satisfaction.</p>
                 <p>Microsoft Dynamics CRM is a solution for modern businesses that allows customers  to connect with the business from anywhere and anytime, leveraging mobile applications.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Understand customer demands</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Track fluctuating market trends</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Build loyalty and offer customer satisfaction</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Understand customer demands</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Track fluctuating market trends</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Build loyalty and offer customer satisfaction</span></div>
               </div>
             </div>
 
@@ -198,9 +198,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <p>Collect and collaborate on the customer data collected through different sources of communication channels to know their preferences and changing trends.</p>
                 <p>Such data can help a business approach a customer with tailored interactions and offers to build loyalty and gain trust.</p>
                 <p>You can even track, collect, and utilize the historical data of a customer to understand and identify a potential lead.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Unifies different communication channel</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Offer tailored user interaction</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Maintain customer historical data</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Unifies different communication channel</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Offer tailored user interaction</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Maintain customer historical data</span></div>
               </div>
             </div>
 
@@ -209,15 +209,15 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/crm-o-shadow.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Plug-and-Play-Integrations.png"
-                  alt="Plug-and-Play-Integrations"
+                  src="/img/Simplify-Customer-Journey.png"
+                  alt="Simplify-Customer-Journey"
                   width={600}
                   height={400}
                 />
@@ -230,15 +230,15 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="new-pic-bc">
                 <div className="over-la-pic-1">
                   <Image
-                    src="/img/f-o-shadow.png"
+                    src="/img/crm-o-shadow.png"
                     width={1228}
                     height={818}
                     alt="nn"
                   />
                 </div>
                 <Image
-                  src="/img/Supports-Globalization.png"
-                  alt="Supports-Globalization"
+                  src="/img/Boost-Sales-Productivity.png"
+                  alt="Boost-Sales-Productivity"
                   width={600}
                   height={400}
                 />
@@ -251,9 +251,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
                 <p>Get full visibility across entire sales activities and make real-time informed decisions to enhance the productivity of your sales team. Also, it lets you get customer insights so that you can focus on the resources to generate better sales revenue.</p>
                 <p>You can also distribute the resources and budgets accordingly while forecasting future sales and upcoming opportunities for growth.</p>
                 <p>Dynamics CRM empowers sales executives to track, follow-up, and nurture leads until they become resourceful customers.</p>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Get full visibility of sales activities</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Make real-time decisions with insights</span></div>
-                <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Forecast future sales</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Get full visibility of sales activities</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Make real-time decisions with insights</span></div>
+                <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Forecast future sales</span></div>
               </div>
             </div>
 
@@ -277,7 +277,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             <div className="col-lg-6">
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/finance-icns-1.svg" alt="finance-icns-1" width={94} height={94} />
+                  <Image src="/img/Understand-your-Customer.png" alt="Understand-your-Customer" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Understand your Customer</h3>
@@ -286,7 +286,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
               </div>
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/sales.svg" alt="sales" width={94} height={94} />
+                  <Image src="/img/Go-Beyond-Innovation.png" alt="Go-Beyond-Innovation" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Go Beyond Innovation</h3>
@@ -299,8 +299,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="style-grid-1">
                 <div className="style-grid-icons">
                   <Image
-                    src="/img/supply-chain-icons.svg"
-                    alt="supply-chain-icons"
+                    src="/img/Supercharge-Overall-Efficiency.png"
+                    alt="Supercharge-Overall-Efficiency"
                     width={94} height={94}
                   />
                 </div>
@@ -312,7 +312,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
               <div className="style-grid-1">
                 <div className="style-grid-icons">
-                  <Image src="/img/marketing-icons.svg" alt="marketing-icons" width={94} height={94} />
+                  <Image src="/img/Adapt-to-the.png" alt="Adapt-to-the" width={94} height={94} />
                 </div>
                 <div className="style-grid-content">
                   <h3>Adapt to the Latest Update</h3>
@@ -350,11 +350,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
                         aria-controls="fin1"
                       >
                         <div className="wr-in">
-                          <img
-                            src="/img/icons_finance.svg"
-                            alt="icons_finance"
-                            width={48}
-                            height={48}
+                          <img style={{width:'80px'}}
+                            src="/img/Dynamics-365-Sales-new-ic.png"
+                            alt="Dynamics-365-Sales-new-ic"
                           />
                         </div>
                         <span>Dynamics 365 Sales</span>
@@ -390,11 +388,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
                         aria-controls="fin2"
                       >
                         <div className="wr-in">
-                          <img
-                            src="/img/icons_sales.svg"
-                            alt="icons_sales"
-                            width={48}
-                            height={48}
+                          <img style={{width:'80px'}}
+                            src="/img/Dynamics-365-Customer-Service-n.png"
+                            alt="Dynamics-365-Customer-Service-n"
                           />
                         </div>
                         <span>Dynamics 365 Customer Service</span>
@@ -438,11 +434,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
                         aria-controls="fin3"
                       >
                         <div className="wr-in">
-                          <img
-                            src="/img/icons_supply-chain.svg"
-                            alt="icons_supply-chain"
-                            width={48}
-                            height={48}
+                          <img style={{width:'80px'}}
+                            src="/img/Dynamics-365-Customer-Insights-n.png"
+                            alt="Dynamics-365-Customer-Insights-n"
                           />
                         </div>
                         <span>Dynamics 365 Field Service</span>
@@ -479,9 +473,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
                         aria-controls="fin4"
                       >
                         <div className="wr-in">
-                          <img
-                            src="/img/icons_warehouse.svg"
-                            alt="icons_warehouse"
+                          <img style={{width:'80px'}}
+                            src="/img/Dynamics-365-Field-Service-n.png"
+                            alt="Dynamics-365-Field-Service-n"
                             width={48}
                             height={48}
                           />
@@ -543,71 +537,87 @@ const MicrosoftDynamics365FinanceOperations = () => {
         </div>
       </section>
 
+    
 
-
-
-      <section className="">
+      <section className="bg-gray">
         <div className="container">
-          <div className="row bc--top-pad">
-            <div className="col-lg-3">
-              <div className="bc--feat-box">
-                <Image
-                  width={57}
-                  height={48}
-                  src="/img/Built-In-Analytics-icon.png"
-                  alt="Built-In-Analytics-icon"
-                />
-                <h3>Dynamics 365 CRM Services</h3>
+        <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="heading-colo-bg">
+                <h2>Dynamics 365 CRM Services</h2>
                 <p>Employ our reliable and trustworthy services to supercharge your customer management game.</p>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="bc--feat-box">
-                <Image
-                  width={57}
-                  height={48}
-                  src="/img/Interactive-User-Experience-icon.png"
-                  alt="Interactive-User-Experience-icon"
-                />
-                <h3>Dynamics 365 CRM Implementation Service</h3>
-                <p>Leverage Dynamics Square’s expertise and perfect infrastructure for a successful Microsoft Dynamics CRM implementation.</p>
+          </div>
+          <div className="row pp-top-60 pp-bot-60">
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/dynamics-365-finance-implementation/">
+                  <a>
+                    <div className="gr">
+                      <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" />
+                      <video autoPlay muted loop playsInline>
+                        <source src="/video/Implementation-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Dynamics 365 CRM <br/>Implementation Service</h3>
+                    <p>Leverage Dynamics Square’s expertise and perfect infrastructure for a successful Microsoft Dynamics CRM implementation.</p>
+                    <div className="h-s-call" >
+                      <span>Implement Now </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="bc--feat-box">
-                <Image
-                  width={57}
-                  height={48}
-                  src="/img/Easy-to-Scale-icon.png"
-                  alt="Easy-to-Scale-icon"
-                />
-                <h3>Dynamics 365 CRM Customized Service</h3>
-                <p>Extend D365 CRM's capabilities to match your specific processes with reliable Dynamics 365 CRM customization services.</p>
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/microsoft-dynamics-365-partner/">
+                  <a>
+                    <div className="gr">
+                      <img src="/img/home/Upgrade-icon.png" alt="Upgrade-icon" />
+                      <video autoPlay muted loop playsInline>
+                        <source src="/video/Upgrade-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Dynamics 365 CRM <br/>Customized Service</h3>
+                    <p>Extend D365 CRM's capabilities to match your specific processes with reliable Dynamics 365 CRM customization services.</p>
+                    <div className="h-s-call" >
+                      <span>Customizations Now</span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
-            <div className="col-lg-3">
-              <div className="bc--feat-box">
-                <Image
-                  width={57}
-                  height={48}
-                  src="/img/Avail-Automation-icon.png"
-                  alt="Avail-Automation-icon"
-                />
-                <h3>Dynamics 365 CRM Support Service</h3>
-                <p>Focus on your business, not IT issues. Leave your Microsoft Dynamics CRM support to the professionals at Dynamics Square.</p>
+            <div className="col-lg-4">
+              <div className="home_servce-_card">
+                <Link href="/our-services/dynamics-365-support-services/">
+                  <a>
+
+                    <div className="gr">
+                      <img src="/img/home/Support-icon.png" alt="Support-icon" />
+                      <video autoPlay muted loop playsInline>
+                        <source src="/video/Support-icon.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                    <h3>Dynamics 365 CRM <br/>Support Service</h3>
+                    <p>Focus on your business, not IT issues. Leave your Microsoft Dynamics CRM support to the professionals at Dynamics Square.</p>
+                    <div className="h-s-call" >
+                      <span>Support Now </span> <i className="bi bi-arrow-right"></i>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
+
+
           </div>
         </div>
       </section>
-    
-
-
 
       
 
 
-      <section className="pri-wrper-bc" style={{ marginTop: '-90px' }}>
+      <section className="pri-wrper-bc">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9">
@@ -621,7 +631,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="top-text-wrpaer">
-                <img src="/img/Dynamics-365-Finance-new.png" alt="Dynamics-365-Finance-new" width='120' height='120' />
+                <img src="/img/Dynamics-365-Sales-new-ic.png" alt="Dynamics-365-Sales-new-ic" width='94' height='94' />
                 <h4>Dynamics 365 Sales Pricing</h4>
                 <p>The Microsoft Dynamics 365 Sales pricing and licensing come in four different plans, which are:</p>
               </div>
@@ -744,7 +754,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="top-text-wrpaer">
-                <img src="/img/Dynamics-365-Finance-new.png" alt="Dynamics-365-Finance-new" width='120' height='120' />
+                <img src="/img/Dynamics-365-Customer-Service-n.png" alt="Dynamics-365-Customer-Service-n" width='94' height='94' />
                 <h4>Dynamics 365 Customer Service</h4>
                 <p>The Microsoft Dynamics 365 Customer Service pricing comes in two licensing plans:</p>
               </div>
@@ -838,7 +848,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="top-text-wrpaer">
-                <img src="/img/Dynamics-365-Finance-new.png" alt="Dynamics-365-Finance-new" width='120' height='120' />
+                <img src="/img/Dynamics-365-Field-Service-n.png" alt="Dynamics-365-Field-Service-n" width='94' height='94' />
                 <h4>Dynamics 365 Field Service</h4>
                 <p>The Microsoft Dynamics 365 Field Service offers two licensing options, which are:</p>
               </div>
@@ -927,7 +937,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="top-text-wrpaer">
-                <img src="/img/Dynamics-365-Finance-new.png" alt="Dynamics-365-Finance-new" width='120' height='120' />
+                <img src="/img/Dynamics-365-Customer-Insights-n.png" alt="Dynamics-365-Customer-Insights-n" width='94' height='94' />
                 <h4>Dynamics 365 Customer Insights</h4>
                 <p>The license for Microsoft Dynamics 365 Customer Insights offers two separate solutions: Dynamics 365 Customer Insights - Journey (earlier known as <Link href="/products/microsoft-dynamics-365-marketing/"><a>Dynamics 365 Marketing</a></Link>) and Dynamics 365 Customer Insights - Data.</p>
               </div>
@@ -1018,8 +1028,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   <Image
                     width={57}
                     height={48}
-                    src="/img/Experienced-Consultants-icon.png"
-                    alt="Experienced-Consultants-icon"
+                    src="/img/group_3250.png"
+                    alt="Microsoft Gold Partner"
                   />
                 </div>
                 <div className="rig">
@@ -1034,8 +1044,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   <Image
                     width={57}
                     height={48}
-                    src="/img/Adequate-Resources-icon.png"
-                    alt="Adequate-Resources-icon"
+                    src="/img/group_3247.png"
+                    alt="Industry-Specific Solutions"
                   />
                 </div>
                 <div className="rig">
@@ -1050,8 +1060,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   <Image
                     width={57}
                     height={48}
-                    src="/img/Instant-Support-icon.png"
-                    alt="Instant-Support-icon"
+                    src="/img/group_3249.png"
+                    alt="Agile Methodology"
                   />
                 </div>
                 <div className="rig">
@@ -1066,8 +1076,8 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   <Image
                     width={57}
                     height={48}
-                    src="/img/Personalized-Solutions-icon.png"
-                    alt="Personalized-Solutions-icon"
+                    src="/img/group_3248.png"
+                    alt="Training and User Adoption"
                   />
                 </div>
                 <div className="rig">

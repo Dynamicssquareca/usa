@@ -41,7 +41,7 @@ const ContactUs = () => {
                         <img src="/img/card_travel.png" alt="card_travel" />
                       </div>
                       <div className="right">
-                        <span>350+ Success Handovers and Counting!</span>
+                        <span>350+ Successful Handovers and Counting!</span>
                       </div>
                     </div>
                     <div className="new-flex-se">
