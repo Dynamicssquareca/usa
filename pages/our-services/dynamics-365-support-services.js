@@ -7,12 +7,10 @@ const SupportServices = () => {
   return (
     <>
       <Head>
-        <title>
-        Microsoft Dynamics 365 Support & Service Partner - Dynamics Square
-        </title>
+        <title>Microsoft Dynamics 365 Support Partner | Dynamics Square</title>
         <meta
           name="description"
-          content="Looking for Microsoft Dynamics 365 Support &amp; Service partner? Get Dynamics 365 CRM &amp; ERP support service plans at Dynamics Square. Do call us Today!"
+          content="Looking for Microsoft Dynamics 365 Support partner? Get Dynamics 365 CRM and ERP support service plans at Dynamics Square. Do call us Today!"
         />
         <link
           rel="canonical"
@@ -26,9 +24,7 @@ const SupportServices = () => {
               <h1>
                 Microsoft Dynamics 365 Support
               </h1>
-              <p>
-              To maximize your resource utilization and leverage the full potential of your Dynamics 365 support configured system, enterprises should embrace proactive support services from a trustworthy Partner like Dynamics Square.
-              </p>
+              <p>Get seamless and reliable Dynamics 365 support to get your system going even in tough times. Employ your Dynamics 365 solution to its full potential, leveraging the established infrastructure of Dynamics Square, the USA’s leading Microsoft Solutions Partner.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link  href="#exampleModal"><a

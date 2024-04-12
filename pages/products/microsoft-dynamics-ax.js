@@ -6,11 +6,11 @@ const MicrosoftDynamicsAX = () => {
     <>
       <Head>
         <title>
-          Microsoft Dynamics Ax (Axapta): Demo & Pricing - Dynamics Square
+        Microsoft Dynamics Ax (Axapta) Support | Dynamics Square
         </title>
         <meta
           name="description"
-          content="Microsoft Dynamics AX (Axapta) is a accounting and sales ERP solutions. Check now Capabilities, Benefits and Pricing. Get instantly demo free!"
+          content="Is Microsoft Dynamics AX slowing you down? Dynamics Square offers expert support to keep your business running smoothly."
         />
         <link
           rel="canonical"

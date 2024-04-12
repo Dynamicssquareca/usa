@@ -11,7 +11,7 @@ const MicrosoftDynamicsCrm = () => {
   return (
     <>
       <Head>
-        <title>What is Microsoft Dynamics 365 CRM? | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 CRM | Dynamics Square</title>
         <meta
           name="description"
           content="Looking for a reliable Microsoft Dynamics 365 CRM partner? Count on us to optimize sales, foster customer connections, and enhance service quality."
@@ -22,7 +22,7 @@ const MicrosoftDynamicsCrm = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="What is Microsoft Dynamics 365 CRM? | Dynamics Square" />
+        <meta property="og:title" content="Microsoft Dynamics 365 CRM | Dynamics Square" />
 
         <meta property="og:description" content="Looking for a reliable Microsoft Dynamics 365 CRM partner? Count on us to optimize sales, foster customer connections, and enhance service quality." />
 
@@ -34,7 +34,7 @@ const MicrosoftDynamicsCrm = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="What is Microsoft Dynamics 365 CRM? | Dynamics Square" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 CRM | Dynamics Square" />
 
         <meta property="twitter:description" content="Looking for a reliable Microsoft Dynamics 365 CRM partner? Count on us to optimize sales, foster customer connections, and enhance service quality." />
 
@@ -47,7 +47,7 @@ const MicrosoftDynamicsCrm = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              "name": "What is Microsoft Dynamics 365 CRM? | Dynamics Square",
+              "name": "Microsoft Dynamics 365 CRM | Dynamics Square",
               "image": "https://www.dynamicssquare.com/img/crm-new-banner.png/",
               "description": "Looking for a reliable Microsoft Dynamics 365 CRM partner? Count on us to optimize sales, foster customer connections, and enhance service quality.",
               "brand": {

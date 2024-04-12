@@ -11,7 +11,7 @@ const MicrosoftPowerAutomate = () => {
   return (
     <>
       <Head>
-        <title>What is Microsoft Power Automate? | Dynamics Square</title>
+        <title>Microsoft Power Automate | Dynamics Square</title>
         <meta
           name="description"
           content="Simplify processes by utilizing Microsoft Power Automate. Dynamics Square provides professional integration services to automate corporate processes smoothly."
@@ -22,7 +22,7 @@ const MicrosoftPowerAutomate = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="What is Microsoft Power Automate? | Dynamics Square" />
+        <meta property="og:title" content="Microsoft Power Automate | Dynamics Square" />
 
         <meta property="og:description" content="Simplify processes by utilizing Microsoft Power Automate. Dynamics Square provides professional integration services to automate corporate processes smoothly." />
 
@@ -34,7 +34,7 @@ const MicrosoftPowerAutomate = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="What is Microsoft Power Automate? | Dynamics Square" />
+        <meta property="twitter:title" content="Microsoft Power Automate | Dynamics Square" />
 
         <meta property="twitter:description" content="Simplify processes by utilizing Microsoft Power Automate. Dynamics Square provides professional integration services to automate corporate processes smoothly." />
 
@@ -47,7 +47,7 @@ const MicrosoftPowerAutomate = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              "name": "What is Microsoft Power Automate? | Dynamics Square",
+              "name": "Microsoft Power Automate | Dynamics Square",
               "image": "https://www.dynamicssquare.com/img/power-automate-banner.png/",
               "description": "Simplify processes by utilizing Microsoft Power Automate. Dynamics Square provides professional integration services to automate corporate processes smoothly.",
               "brand": {
