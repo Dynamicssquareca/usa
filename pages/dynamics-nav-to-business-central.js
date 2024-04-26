@@ -59,21 +59,18 @@ const DynamicsNavToBusinessCentral = () => {
           }}
         />
 
-
-
-
       </Head>
       <section className="Solution-banner hero-1 hero nav-solution">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mobile-1 align-self-center">
               <h1>Dynamics NAV to Dynamics 365 Business Central Upgrade</h1>
-              <h2>Digitalize your Business for Growth and Scalability</h2>
-              <p>Supercharge your business, improve efficiency, reduce operational costs, and access the data from anywhere.</p>
+              <h2>Embrace the change to amplify your Business Growth!</h2>
+              <p>Supercharge your business, improve efficiency, reduce operational costs, and access the data from anywhere.<br /><br />Ready for NAV to BC upgrade?</p>
               <div className='ceb'>
                 <Link href="#exampleModal">
                   <a data-bs-toggle="modal" className="btn-get-started scrollto btn-nav">
-                    <span>Talk to Our Experts Now  <i className="bi bi-arrow-right"></i></span></a>
+                    <span>I Want to Learn More  <i className="bi bi-arrow-right"></i></span></a>
                 </Link>
               </div>
             </div>
@@ -91,8 +88,9 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row">
             <div className="col-lg-12">
               <header className="section-header">
-                <h2>Dynamics Square have all your Answers to the Challenges</h2>
-                <p>Find Solutions to Your NAV Questions, Answered by Seasoned Professionals! </p>
+                <p><strong>Are You a NAV User? </strong></p>
+                <h2>Dynamics Square Understands the Challenges <br /> a NAV User Can Probably Face</h2>
+                <p>Choose an option and let us know how we can help!</p>
               </header>
             </div>
           </div>
@@ -164,11 +162,13 @@ const DynamicsNavToBusinessCentral = () => {
           <div className="row pd-3333">
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
-                <h2>Dynamics 365 Business Central: <br />The Transformation from Dynamics NAV</h2>
-                <p>Microsoft Dynamics NAV is a powerful ERP solution that has been revolutionized into <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> to meet modern business demands. </p>
-                <p>Microsoft ensures that Business Central retains the capabilities of Dynamics NAV and offers advanced tools to manage supply chain, finance, operations, sales, and customer service.</p>
-                <p>Now, it has become an all-in-one cloud-based ERP (Enterprise Resource Planning) solution capable of streamlining different business operations while eliminating data silos.</p>
-                <p>Going from Dynamics NAV to Business Central isn’t just a name change. With Dynamics Business Central, Microsoft enables businesses to leverage cloud technology, leaving on-premises systems behind, to achieve greater levels of growth, flexibility, and scalability.</p>
+                <h2>Dynamics 365 Business Central: The Level-up Version of Dynamics NAV</h2>
+                <p>Microsoft Dynamics NAV is a powerful ERP solution that has been transformed into <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> to meet modern business demands. </p>
+                <p>In simple words, Business Central is everything Dynamics NAV but with several advanced tools that not only enhance the capabilities of the ERP but also push your business towards making it more modern.</p>
+                <p>Microsoft provides organizations with the right to choose between cloud-based and on-premises implementation options depending on their business model and requirements.  </p>
+                <p>When you <strong>upgrade NAV to Business Central</strong>, it isn’t just a name change. With Dynamics Business Central, Microsoft enables you to leverage cloud technology, leaving on-premises systems behind, to achieve greater levels of growth, flexibility, and scalability.</p>
+                <p><strong>Are you in for a Dynamics Nav upgrade to Business Central?</strong></p>
+                <a data-bs-toggle="modal" class="btn-get-started scrollto" href="#exampleModal"><span>Schedule a Free Call today! </span></a>
               </div>
             </div>
             <div className="col-lg-1"></div>
@@ -196,23 +196,27 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>Why Upgrading NAV to Business Central is Essential?</h2>
-                <p>Moving from Dynamics NAV to Microsoft Business Central is like trading your Pentium 4 with an i7 system. Business Central comes with advanced tools and capabilities that Dynamics Navision could not cater to.</p>
-                <p>Microsoft Dynamics 365 Business Central empowers you to access cloud technology, mobile apps, seamless integration, high-end security, real-time data, and more limitless features. Also, it is flexible and scalable, which allows you to scale the system's performance without any hassle whenever needed.</p>
+                <p>Moving from Dynamics NAV to Microsoft Business Central is like upgrading an old & slow device with a fast & new one. Business Central comes with advanced tools and capabilities that Dynamics Navision lacks.</p>
+                <p>Microsoft Dynamics 365 Business Central empowers you to access cloud technology which means you can access it from anywhere, at any time. Besides, it offers seamless integration, high-end security, real-time data, and more limitless features. Most importantly, it is flexible and scalable, which allows you to scale the system's performance without any hassle whenever needed.</p>
+                <p>When you upgrade Dynamics NAV to Business Central, you sign up for:</p>
 
                 <div className="points-ui">
-                  <i className="bi bi-check-lg"></i> <span>It comes with embedded cloud technology</span>
+                  <i className="bi bi-check-lg"></i> <span>Embedded cloud technology</span>
                 </div>
                 <div className="points-ui">
-                  <i className="bi bi-check-lg"></i> <span>Enhanced system scalability and flexibility</span>
+                  <i className="bi bi-check-lg"></i> <span>Enhanced system capabilities </span>
                 </div>
                 <div className="points-ui">
-                  <i className="bi bi-check-lg"></i> <span>One-click integration with Extension technology</span>
+                  <i className="bi bi-check-lg"></i> <span>Improved scalability</span>
+                </div>
+                <div className="points-ui">
+                  <i className="bi bi-check-lg"></i> <span>One-click integration with extension technology</span>
                 </div>
                 <div className="points-ui">
                   <i className="bi bi-check-lg"></i> <span>Maximized data security</span>
                 </div>
                 <div className="points-ui">
-                  <i className="bi bi-check-lg"></i> <span>Built-in automation tools and workflows</span>
+                  <i className="bi bi-check-lg"></i> <span>Built-in automation tools for improved workflows</span>
                 </div>
               </div>
 
@@ -224,13 +228,15 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>Do I Need to Upgrade to Business Central?</h2>
-                <p>As we know, Microsoft is soon going to end mainstream and extend support for all its NAV versions. It means Dynamics NAV will no longer receive system updates or upgrades to meet changing business demands impacting business performance.</p>
-                <p>However, upgrading to Microsoft Dynamics Business Central is not mandatory but is highly recommended for growing businesses. If you are still using NAV, you may miss:</p>
+                <p>As we know, Microsoft has already ended the mainstream support for Dynamics NAV 2018 at the beginning of 2023. Right now, Dynamics NAV 2018 is eligible to receive only security updates until the end of the extended support period. </p>
+                <p>As a matter of course, there will be no mainstream or extended support for older versions than that of Dynamics NAV 2018. </p>
+                <p>Once the extended support is over, businesses running Dynamics NAV 2018 or older versions will no longer be getting any system or security updates to keep up with ever-evolving business demands. Using the outdated ERP system will ultimately impact the overall business performance.</p>
+                <p>However, upgrading to Microsoft Dynamics Business Central is not mandatory but is highly recommended for growing businesses. If you are still using NAV, you may miss out on:</p>
                 <div className="points-ui">
-                  <i className="bi bi-check-lg"></i> <span>Latest security updates to eliminate any cyber-attack</span>
+                  <i className="bi bi-check-lg"></i> <span>Latest security updates to eliminate any possibility of cyber attack</span>
                 </div>
                 <div className="points-ui">
-                  <i className="bi bi-check-lg"></i> <span>Modern tools and capabilities for consistent growth</span>
+                  <i className="bi bi-check-lg"></i> <span>Advanced tools and capabilities for consistent growth</span>
                 </div>
                 <div className="points-ui">
                   <i className="bi bi-check-lg"></i> <span>Cloud features to lower operational and maintenance costs</span>
@@ -239,7 +245,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <i className="bi bi-check-lg"></i> <span>Seamless integration with the Dynamics 365 ecosystem</span>
                 </div>
 
-                <p><span>However, regardless of the <Link href="/products/microsoft-dynamics-nav/"><a>Microsoft Dynamics NAV</a></Link> version you are using, we are here to offer unconditional support to resolve issues and help you grow continuously.</span></p>
+                <p><span>However, regardless of the <Link href="/products/microsoft-dynamics-nav/"><a>Microsoft Dynamics NAV</a></Link> version you are using, we are here to offer unwavering support to resolve issues and help you grow continuously.</span></p>
               </div>
             </div>
             <div className="col-lg-1"></div>
@@ -267,12 +273,12 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>What is the Right Time to Move from NAV to BC?</h2>
-                <p>There is no such thing as the right time to move from NAV to BC. However, you might be in some situations that are giving you the signal to <Link href="/blog/8-steps-to-upgrade-nav-to-business-central/"><a>upgrade to Business Central</a></Link>.</p>
+                <p>There is no such thing as the right time to move from NAV to BC. However, you might be in a situation that is giving you the signal to <Link href="/blog/8-steps-to-upgrade-nav-to-business-central/"><a>upgrade to Business Central</a></Link>.</p>
                 <div className="points-ui">
                   <i className="bi bi-check-lg"></i> <span>The mainstream support of your Dynamics NAV has ended</span>
                 </div>
                 <div className="points-ui">
-                  <i className="bi bi-check-lg"></i> <span>Extended support isn’t enough for your business demands</span>
+                  <i className="bi bi-check-lg"></i> <span>Extended support isn’t enough for your growing business demands</span>
                 </div>
                 <div className="points-ui">
                   <i className="bi bi-check-lg"></i> <span>Unable to comply with changing regulatory compliances</span>
@@ -284,7 +290,7 @@ const DynamicsNavToBusinessCentral = () => {
                   <i className="bi bi-check-lg"></i> <span>Data security has become an important concern</span>
                 </div>
                 <div className="points-ui">
-                  <i className="bi bi-check-lg"></i> <span>System complexity is stopping you to integrate new solutions</span>
+                  <i className="bi bi-check-lg"></i> <span>System complexity is stopping you from integrating new solutions</span>
                 </div>
                 <p><span>These are some of the major concerns we hear from our existing customers when they are ready to upgrade. However, you might be dealing with some specific issues. In such a case, feel free to <Link href="/contact-us/"><a>contact Business Central experts</a></Link> and get your growth back on track.</span></p>
               </div>
@@ -325,6 +331,7 @@ const DynamicsNavToBusinessCentral = () => {
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>Is Business Central Expensive?</h2>
                 <p>You might find the initial implementation cost to be expensive, but in the long run, <strong>Dynamics 365 Business Central is expected to give 162% ROI</strong> as per <a href="https://download.microsoft.com/download/f/8/b/f8b3d4db-d2b6-4357-bfc4-a1fdafd8b993/TEI_of_Microsoft_Business%20Central_FINAL.pdf" rel='nofollow' target='_blank'>Total Economic Impact from Forrester Consulting</a>. This number is huge and lets the business invest the money in the right direction rather than maintaining an existing system.</p>
+                <p>This ROI fact is impressive and shows the potential of upgrading to Business Central from NAV. Besides, it is also a strong indicator for businesses to invest money in the right direction rather than maintaining an existing system.</p>
                 <p>Also, delaying the upgrade can increase the overall <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 implementation</a></Link> cost by 15%, as Microsoft releases the updates twice a year, which makes the NAV to Business Central upgrade a bit complicated.</p>
                 <p>Once you upgrade to Dynamics Business Central, Microsoft will take care of all updates, upgrades, bug fixes, and patch installation automatically, without any cost.</p>
                 <p><span>If you have to upgrade tomorrow, why not start the process today? This smart decision will save a lot of money and resources that can be invested in business growth.</span></p>
@@ -372,7 +379,7 @@ const DynamicsNavToBusinessCentral = () => {
                 <div className="points-ui point-short">
                   <i className="bi bi-check-lg"></i> <span>Carryover customizations</span>
                 </div>
-                <p><span>Dynamics Square assures you risk-free transfer of your data to the new system while keeping your entire information confidential. Also, we will make sure not to disrupt your existing business operations. </span></p>
+                <p><span>Dynamics Square assures you of risk-free transfer of your data to the new system while keeping your entire information confidential and intact. Further, we will make sure not to disrupt your existing business operations.</span></p>
               </div>
 
 
@@ -384,7 +391,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>Dynamics NAV is Working Fine! <br /> Why should I Upgrade?</h2>
-                <p>We understand that <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> is your partner in growth and has helped you achieve goals and grow your business. But when it comes to adapting to modern business demands and dealing with fluctuating customer requirements, Dynamics Navision can slow your business down and let your competition win.</p>
+                <p>We understand that <Link href="/products/microsoft-dynamics-nav/"><a>Dynamics NAV</a></Link> has been your partner in growth and has helped you achieve your business goals. But when it comes to keeping up with modern business challenges and dealing with ever-evolving demands, it is very likely that Dynamics Navision lags behind in terms of performance, which may cause you to lose a competitive edge.</p>
                 <p>You can continue working on NAV, but you will be lacking with:</p>
                 <div className="points-ui point-short">
                   <i className="bi bi-check-lg"></i> <span>Latest security updates </span>
@@ -432,7 +439,7 @@ const DynamicsNavToBusinessCentral = () => {
               <div className="col-lg-6">
                 <div className="video-info-call">
                   <h3>Gain real-time insights and make data-driven decisions with Business Central</h3>
-                  <p>Start your free Business Central trial and experience the difference automation makes.</p>
+                  <p>Start your free Business Central trial and experience the difference that automation brings!</p>
                   <div className="bb-tn">
                     <Link href="/schedule-a-demo/"><a target='_blank' className="btn btn-md">Start your Free Trial Today! <i className="bi bi-arrow-right"></i></a></Link>
                   </div>
@@ -450,7 +457,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6">
               <div className="testomonial-new-heading">
                 <h3>Boost Efficiency and Empower Growth with Business Central Upgrade Benefits </h3>
-                <p>There are numerous benefits to moving from Dynamics NAV to Business Central, among which some are discussed next:</p>
+                <p>There are several benefits of moving from Dynamics NAV to Business Central, among which some are discussed next:</p>
               </div>
             </div>
             <div className="col-lg-6 text-center">
@@ -489,11 +496,11 @@ const DynamicsNavToBusinessCentral = () => {
                         </div>
                         <div className='slider-i'>
                           <h4>Simplified Task</h4>
-                          <p>Leverage the embedded AI to automate and simplify various complex tasks. </p>
+                          <p>Leverage the embedded AI to automate repetitive tasks and simplify various complex tasks.</p>
                         </div>
                         <div className='slider-i'>
                           <h4>Data-Driven Discussion</h4>
-                          <p>Avail real-time business insights to make actionable, data-driven decisions.</p>
+                          <p>Get real-time business insights to make actionable, data-driven decisions.</p>
                         </div>
                         <div className='slider-i'>
                           <h4>User-Friendly User Interface</h4>
@@ -527,7 +534,7 @@ const DynamicsNavToBusinessCentral = () => {
                         </div>
                         <div className='slider-i'>
                           <h4>Seamless Reporting </h4>
-                          <p>Track the status of issues and share reports with the customer in real-time. </p>
+                          <p>Track the status of issues and share reports with customers in real time.</p>
                         </div>
                       </div>
                     </div>
@@ -553,11 +560,11 @@ const DynamicsNavToBusinessCentral = () => {
                         </div>
                         <div className='slider-i'>
                           <h4>Security and Compliance</h4>
-                          <p>With Microsoft's robust infrastructure, your data is safe, and business follows all tax norms.</p>
+                          <p>With Microsoft’s robust infrastructure, your data is safe, and your business follows all tax norms.</p>
                         </div>
                         <div className='slider-i'>
                           <h4>One-click Integration </h4>
-                          <p>Avail the BC extension technology to integrate or disintegrate any solution with a click.</p>
+                          <p>Avail of the BC extension technology to integrate or disintegrate any solution with a click.</p>
                         </div>
                       </div>
                     </div>
@@ -577,7 +584,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-9">
               <header className="section-header">
                 <h2>Why should you Choose Business Central Over Others?</h2>
-                <p>Right now, there are various ERP solutions that claim to be the perfect ones. But Microsoft Dynamics 365 Business Central is an efficient and business-centric solution that comes with cutting-edge advanced features no one is offering in the market. Some of such features are: </p>
+                <p>Right now, there are various ERP solutions that claim to be the perfect ones. But Microsoft Dynamics 365 Business Central is an efficient and business-centric solution that comes with cutting-edge features no one is offering in the market. Features that set Business Central apart from others are:</p>
               </header>
             </div>
           </div>
@@ -589,7 +596,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Upgrades Managed by Microsoft</h3>
-                  <p>In general, Microsoft releases important updates twice a year and 6-8 cumulative updates per year. Microsoft installs such updates totally free and without hampering the business.</p>
+                  <p>In general, Microsoft releases important updates twice a year and 6-8 cumulative updates per year. Microsoft installs such updates totally free and without hampering the workflow of a business.</p>
                 </div>
               </div>
 
@@ -609,7 +616,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Seamless Integration</h3>
-                  <p>You can enhance Dynamics Business Central performance by integrating native solutions from the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 Ecosystem</a></Link> without any hassle.</p>
+                  <p>You can enhance Dynamics Business Central’s performance by integrating native solutions from the <Link href="/products/microsoft-dynamics-365/"><a>Microsoft Dynamics 365 Ecosystem</a></Link> without any hassle.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -630,7 +637,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Automatic Updates and Upgrades</h3>
-                  <p>Being a partner-driven business, Microsoft automatically installs the updates, eliminating the need to chase a partner for any kind of change and resulting in cost savings.</p>
+                  <p>Being a partner-driven business, Microsoft automatically installs the updates which eliminate the need to chase a partner for the same, resulting in cost savings.</p>
                 </div>
               </div>
 
@@ -642,7 +649,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Resilient Data Security</h3>
-                  <p>Business Central comes in-built with disaster recovery, database recovery, data security with the trust of Azure (90+ certificates), a data center located in the same region, and a global Microsoft response team.</p>
+                  <p>Business Central comes with in-built disaster recovery, database recovery, and data security mechanisms with the trust of Azure (90+ certificates), a data center located in the same region, and a global Microsoft response team.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -654,7 +661,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="style-grid-content">
                   <h3>Lower Cost of Ownership by 50%</h3>
-                  <p>No need to buy BERP (business-ready enhancement plan) from Microsoft or any annual support plans from partners as an assurance of getting consistent support.</p>
+                  <p>No need to buy BREP (business-ready enhancement plan) from Microsoft or any annual support plans from partners as an assurance of getting consistent support.</p>
                 </div>
               </div>
               <div className="style-grid-1">
@@ -680,7 +687,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-12">
               <div className="call-to-action-content call-to-action-content">
                 <h3>Upgrade to Business Central Today! <br /> Avail Seamless Automation and Centralized Communication</h3>
-                <p>Microsoft Dynamics 365 Business Central adapts to changing business requirements, offering superiority to reduce competition and maximize output.</p>
+                <p>Microsoft Dynamics 365 Business Central adapts to changing business requirements, offering superior capabilities to get a competitive edge and maximize overall efficiency and revenue.</p>
                 <div className="text-center m-o-b">
                   <Link href="/contact-us/">
                     <a target='_blank'
@@ -714,7 +721,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className='col-lg-7'>
               <div className='industri-sec'>
                 <div className='list-left-cont'>
-                  <p>As per the above table, you can attach Business Central Essentials licenses to avail up to 60% off discount on licensing cost with a full user base license of Customer Service Enterprise (CS), Field Service, and Sales Enterprise. </p>
+                  <p>As per the above table, you can attach Business Central Essentials licenses to avail of up to 60% off discount on licensing costs with a full user base license of Customer Service Enterprise (CS), Field Service, and Sales Enterprise.</p>
                 </div>
               </div>
               <div className='industri-sec'>
@@ -779,7 +786,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="rig">
                   <h3>Global Reach</h3>
-                  <p>With 350+ successful global implementations, we have extensive experience for worldwide NAV-to-BC upgrade. </p>
+                  <p>With 350+ successful global implementations, we have extensive experience in executing worldwide NAV-to-BC upgrades.</p>
                 </div>
               </div>
             </div>
@@ -827,7 +834,7 @@ const DynamicsNavToBusinessCentral = () => {
                 </div>
                 <div className="rig">
                   <h3>24/7 Support</h3>
-                  <p>Dynamics Square 24/7 supports, whether remote or on-site, addressing your concern in the way you like them to resolve it. </p>
+                  <p>Dynamics Square’s 24/7 support, whether remote or on-site, addresses your concern in the way you would like to resolve it. </p>
                 </div>
               </div>
             </div>
