@@ -164,10 +164,11 @@ const DynamicsNavToBusinessCentral = () => {
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>Dynamics 365 Business Central: The Level-up Version of Dynamics NAV</h2>
                 <p>Microsoft Dynamics NAV is a powerful ERP solution that has been transformed into <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> to meet modern business demands. </p>
+                <p>Microsoft ensures that Business Central retains the capabilities of Dynamics NAV and offers advanced tools to manage supply chain, finance, operations, sales, and customer service, more efficiently than ever. </p>
                 <p>In simple words, Business Central is everything Dynamics NAV but with several advanced tools that not only enhance the capabilities of the ERP but also push your business towards making it more modern.</p>
                 <p>Microsoft provides organizations with the right to choose between cloud-based and on-premises implementation options depending on their business model and requirements.  </p>
                 <p>When you <strong>upgrade NAV to Business Central</strong>, it isn’t just a name change. With Dynamics Business Central, Microsoft enables you to leverage cloud technology, leaving on-premises systems behind, to achieve greater levels of growth, flexibility, and scalability.</p>
-                <p><strong>Are you in for a Dynamics Nav upgrade to Business Central?</strong></p>
+                <p><strong>Are you in for a Dynamics NAV upgrade to Business Central?</strong></p>
                 <a data-bs-toggle="modal" class="btn-get-started scrollto" href="#exampleModal"><span>Schedule a Free Call today! </span></a>
               </div>
             </div>
@@ -273,7 +274,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>What is the Right Time to Move from NAV to BC?</h2>
-                <p>There is no such thing as the right time to move from NAV to BC. However, you might be in a situation that is giving you the signal to <Link href="/blog/8-steps-to-upgrade-nav-to-business-central/"><a>upgrade to Business Central</a></Link>.</p>
+                <p>There is no such thing as the right time to move from NAV to BC. However, you might be in a situation that is giving you the signal to upgrade to Business Central.</p>
                 <div className="points-ui">
                   <i className="bi bi-check-lg"></i> <span>The mainstream support of your Dynamics NAV has ended</span>
                 </div>
