@@ -780,7 +780,7 @@ const MicrosoftDynamicsPartnerUsa = () => {
                         <p>
                           Streamline and simplify your financials, sales,
                           service, and operations with an all-in-one business
-                          management solution for SMBs and startups.
+                          management solution for SMBs and startups. Connect with your Business Central partner today.
                         </p>
                         <p>
                           <Link href="/products/dynamics-365-business-central/">
