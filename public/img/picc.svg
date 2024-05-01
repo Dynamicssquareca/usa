@@ -1,0 +1,142 @@
+<svg width="1101" height="632" viewBox="0 0 1101 632" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="35.25" width="1100" height="141.026" fill="#F6F8FC"/>
+<path d="M4.40723 212.414H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 176.277H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 241.5H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 271.469H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 301.438H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 331.406H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 361.371H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 391.34H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 421.309H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 451.277H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 481.246H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 511.211H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 541.18H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 571.148H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 601.117H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M4.40723 631.082H1100" stroke="#ACACAC" stroke-width="0.756983"/>
+<path d="M592.307 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M634.615 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M676.923 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M719.23 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M761.538 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M803.846 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M846.153 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M888.461 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M930.769 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M973.076 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M1015.38 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M1057.69 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<path d="M1100 35.25V631.083" stroke="#585353" stroke-width="0.756983"/>
+<rect width="1100" height="35.2564" transform="matrix(1 0 0 -1 0 35.2578)" fill="#EE3442"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="673.397" y="22.3214">Dynamics 365 attach licenses per user</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="8.81396" y="112.228">Dynamics 365 base licenses per user</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="198.607">Business Central Essentials</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="228.575">Business Central Premium</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="258.54">Commerce</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="288.509">Customer Service Enterprise (CS)</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="318.478">Customer Service Professional (CS)</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="348.446">Field Service</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="378.415">Finance</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="408.38">Finance Premium</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="438.349">Human Resources (HR)</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="468.318">Microsoft Relationship Sales (MRS)</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="498.286">Project Operations (Proj Oper.)</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="528.251">Sales Enterprise</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="558.22">Sales Premium</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="588.189">Sales Professional</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="10.5771" y="618.157">Supply Chain Management (SCM)</tspan></text>
+<text transform="translate(1087.66 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">SCM</tspan></text>
+<text transform="translate(1047.12 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">Sales Pro</tspan></text>
+<text transform="translate(1003.04 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">Sales Ent</tspan></text>
+<text transform="translate(962.5 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">RA</tspan></text>
+<text transform="translate(918.429 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">Proj Oper.</tspan></text>
+<text transform="translate(877.884 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">HR</tspan></text>
+<text transform="translate(833.814 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">Finance</tspan></text>
+<text transform="translate(789.743 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">Field Service</tspan></text>
+<text transform="translate(752.725 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">CS Pro</tspan></text>
+<text transform="translate(708.653 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">CS Ent</tspan></text>
+<text transform="translate(664.583 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">Commerce</tspan></text>
+<text transform="translate(624.039 47.5977) rotate(90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="15.88" font-weight="500" letter-spacing="0em"><tspan x="0" y="15.2745">BC Essentials</tspan></text>
+<circle cx="741.266" cy="586.138" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="346.395" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="346.395" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="346.395" r="4.40705" fill="#2D9CCA"/>
+<circle cx="951.042" cy="346.395" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="346.395" r="4.40705" fill="#2D9CCA"/>
+<circle cx="612.58" cy="346.395" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="284.692" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="284.692" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="284.692" r="4.40705" fill="#2D9CCA"/>
+<circle cx="612.58" cy="284.692" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="866.426" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="825.881" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="908.734" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1079.73" cy="254.727" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="825.881" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="656.651" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="908.734" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="866.426" cy="616.106" r="4.40705" fill="#2D9CCA"/>
+<circle cx="908.734" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="866.426" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="656.651" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1079.73" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="376.356" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="908.734" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="866.426" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="656.651" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1079.73" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="406.329" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="436.298" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="436.298" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="436.298" r="4.40705" fill="#2D9CCA"/>
+<circle cx="908.734" cy="436.298" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="436.298" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="436.298" r="4.40705" fill="#2D9CCA"/>
+<circle cx="908.734" cy="466.266" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="466.266" r="4.40705" fill="#2D9CCA"/>
+<circle cx="866.426" cy="466.266" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="466.266" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="466.266" r="4.40705" fill="#2D9CCA"/>
+<circle cx="866.426" cy="496.235" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="496.235" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="496.235" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="496.235" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="496.235" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="496.235" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="526.2" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="526.2" r="4.40705" fill="#2D9CCA"/>
+<circle cx="612.58" cy="526.2" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="526.2" r="4.40705" fill="#2D9CCA"/>
+<circle cx="908.734" cy="556.169" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="556.169" r="4.40705" fill="#2D9CCA"/>
+<circle cx="866.426" cy="556.169" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="556.169" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="556.169" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="224.759" r="4.40705" fill="#2D9CCA"/>
+<circle cx="700.721" cy="224.759" r="4.40705" fill="#2D9CCA"/>
+<circle cx="783.574" cy="224.759" r="4.40705" fill="#2D9CCA"/>
+<circle cx="993.349" cy="224.759" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="224.759" r="4.40705" fill="#2D9CCA"/>
+<circle cx="741.266" cy="194.79" r="4.40705" fill="#2D9CCA"/>
+<circle cx="1037.42" cy="194.79" r="4.40705" fill="#2D9CCA"/>
+</svg>

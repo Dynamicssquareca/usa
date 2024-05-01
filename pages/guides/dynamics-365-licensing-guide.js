@@ -59,15 +59,15 @@ const Dynamics365LicensingGuide = () => {
             <div className="col-lg-5 align-self-center">
               <div className="guide-left">
                 <h1>Dynamics 365 Licensing Guide (2024)</h1>
-                <p>Explore the core functionalities of Dynamics 365 solutions along with their licensing to choose the perfect Dynamics 365 solution based on your business requirements.</p>
+                <p>xplore the core functionalities of Dynamics 365 solutions along with their licensing to choose the perfect Dynamics 365 solution based on your business requirements.</p>
               </div>
             </div>
             <div className="col-lg-7 align-self-center text-center">
-              <Image
-                src="/img/group-2308.png"
-                alt="The Ultimate Power BI Guide"
-                width={585}
-                height={373}
+            <Image
+                src="/img/d-365-banner-pic.png"
+                alt="d-365-banner-pic"
+                width={1007}
+                height={628}
               />
             </div>
           </div>
@@ -379,7 +379,7 @@ const Dynamics365LicensingGuide = () => {
 
               <div className="iner-pp inner-ppp">
                 <Image
-                  src="/img/picc.png"
+                  src="/img/picc.svg"
                   alt="picc"
                   width={1280}
                   height={720}
@@ -492,36 +492,28 @@ const Dynamics365LicensingGuide = () => {
                 <p>Business Central is licensed per user and available in two licensing plans: Essentials and Premium. Also, it does offer a Team Member license, which comes standard for all Dynamics 365 applications.</p>
                 <ul><li>Business Central Essentials</li></ul>
                 <p>The Essentials license of Microsoft Business Central allows users to streamline processes across different departments with advanced tools and capabilities. </p>
-                <div className="table-responsive">
-                  <table class="table table-bordered">
-                    <tbody>
-                      <tr>
-                        <td>Financial Management </td>
-                        <td>AI-Supported Forecasting</td>
-                        <td>AI-Supported Forecasting</td>
-                        <td>E-Services</td>
-                      </tr>
-                      <tr>
-                        <td>HR Management </td>
-                        <td>Project Management </td>
-                        <td>Supply Chain Management</td>
-                        <td>Warehouse and Inventory Management</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div className="ne-llit-inlin">
+                  <ul>
+                    <li><i className="bi bi-check-lg"></i>Financial Management </li>
+                    <li><i className="bi bi-check-lg"></i>AI-Supported Forecasting</li>
+                    <li><i className="bi bi-check-lg"></i>Customer Relationship Management</li>
+                    <li><i className="bi bi-check-lg"></i>E-Services</li>
+                    <li><i className="bi bi-check-lg"></i>HR Management </li>
+                    <li><i className="bi bi-check-lg"></i>Project Management </li>
+                    <li><i className="bi bi-check-lg"></i>Supply Chain Management</li>
+                    <li><i className="bi bi-check-lg"></i>Warehouse and Inventory Management</li>
+                  </ul>
                 </div>
+             
                 <ul><li>Business Central Premium</li></ul>
                 <p>The Premium license of Dynamics Business Central offers the capabilities of the Essentials license, along with the below-listed departments.</p>
-                <div className="table-responsive">
-                  <table class="table table-bordered">
-                    <tbody>
-                      <tr>
-                        <td>Manufacturing </td>
-                        <td>Service Order Management</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <div className="ne-llit-inlin">
+                  <ul>
+                    <li><i className="bi bi-check-lg"></i>Manufacturing </li>
+                    <li><i className="bi bi-check-lg"></i>Service Order Management</li>
+                  </ul>
                 </div>
+                
                 <ul>
                   <li>Both licenses include Team Member license capabilities.</li>
                   <li>You can acquire 3 External Accountant licenses per customer tenant to connect an external accountant with your Business Central.  However, these licenses are free and can be assigned with the help of your partner.</li>
@@ -550,9 +542,9 @@ const Dynamics365LicensingGuide = () => {
                   <li>50K AI Builder credits/tenant/month</li>
                 </ul>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                  <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Entitlements</td>
                         <td>D365 Finance </td>
                         <td>D365 Finance Premium</td>
@@ -580,9 +572,9 @@ const Dynamics365LicensingGuide = () => {
                 <p>With Dynamics 365 Finance, you can attach Commerce, Customer Service Enterprise, Customer Service Pro, Field Service, Human Resources, Project Operations, Sales Enterprise, Sales Professional, and Supply Chain Management Licenses.</p>
 
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Dynamics 365 Finance - Qualifying Licenses to Attach</center></td>
 
                       </tr>
@@ -608,10 +600,10 @@ const Dynamics365LicensingGuide = () => {
                 <p>Microsoft Dynamics 365 Human Resources is a powerful solution to manage, maintain, and control the entire human resources department of a business. Also, it empowers the team to enhance the capabilities of HR solutions by integrating different solutions from the Microsoft Dynamics 365 ecosystem. It offers various advanced capabilities that include benefits, leave, absence tracking, policy compliance, performance feedback, and a self-service employee platform.</p>
                 <p>In general, <Link href="/products/dynamics-365-human-resources/"><a>Dynamics 365 Human Resources</a></Link> is licensed to full users only. However, businesses (for different purposes) can also avail themselves of the license of this application with limited access to its capabilities through other options.</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
-                        <td colspan="3"><center>Dynamics 365 Human Resource Licenses</center></td>
+                      <tr className="hed">
+                        <td colspan="4"><center>Dynamics 365 Human Resource Licenses</center></td>
 
                       </tr>
                       <tr>
@@ -628,9 +620,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Qualifying Licenses</b></p>
                 <p>With Dynamics 365 Human Resources, you can attach licenses for Customer Service Enterprise, Customer Service Professional, Field Service, Project Operation, Sales Enterprise, and Sales Professional.</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Dynamics 365 Human Resource Qualifying Licenses to Attach</center></td>
 
                       </tr>
@@ -651,9 +643,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><Link href="/products/dynamics-365-supply-chain-management/"><a>Microsoft Dynamics 365 Supply Chain Management</a></Link> connects different processes of the supply chain, from procuring raw materials to delivering the final product to the right customer. It offers real-time visibility to manufacturers and distributors, along with advanced tools to streamline everything. It even leverages AI, BI, and IoT technology to collect data in real time and make data-driven decisions.</p>
                 <p>Dynamics 365 Supply Chain is licensed per user and automatically includes Asset Management and Intelligent Order Management capacity per license. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Dynamics 365 Supply Chain</center></td>
 
                       </tr>
@@ -669,9 +661,9 @@ const Dynamics365LicensingGuide = () => {
                 <p>With each full-user D365 Supply Chain Management license, you will get 1K order lines with Intelligent Order Management capacity and can manage a maximum of 100 physical assets with Asset Management.</p>
                 <p>Intelligent Order Management is also an inbuilt feature that empowers a business to smooth the order fulfillment process. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Application</td>
                         <td>Standard Capacity </td>
                         <td>Add-on Capacity</td>
@@ -686,9 +678,9 @@ const Dynamics365LicensingGuide = () => {
                 </div>
                 <p>Asset management is generally an embedded feature that helps a business maintain its physical assets to optimum quality. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Application</td>
                         <td>Standard Capacity </td>
                         <td>Add-on Capacity</td>
@@ -705,9 +697,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Qualifying License</b></p>
                 <p>With a Microsoft Dynamics 365 Supply Chain license, you can attach licenses for Dynamics 365 Commerce, Customer Service Enterprise, Customer Service Professional, Field Service, Finance, HR, Project Operations, Sales Enterprise, and Sales Professional. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Dynamics 365 Supply Chain Management - Qualifying Licenses to Attach</center></td>
 
                       </tr>
@@ -817,9 +809,9 @@ const Dynamics365LicensingGuide = () => {
                 </ul>
                 <p>All these features come with unlimited capacity except Business Card Reader, which comes with a limit of 10 scans/user/month when you get Sales Insights with the Sales Enterprise license and 200/user/month for Sales Insights or Sales Premium license users. For more capacity, you will need to buy additional sales insights. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Sales Insights included with Sales Enterprise</center></td>
 
                       </tr>
@@ -848,9 +840,9 @@ const Dynamics365LicensingGuide = () => {
                 </div>
                 <p>When Sales Insights is purchased within Sales Premium, additional sales capacity can be added by purchasing additional Sales Premium licenses.</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Sales Insights or Sales Premium Users</center></td>
 
                       </tr>
@@ -889,9 +881,9 @@ const Dynamics365LicensingGuide = () => {
                 <p>The Microsoft Relationship Sales license helps you strengthen your relationships with customers. The Microsoft Relationship Sales license is licensed per user and includes a combination of the Sales Enterprise license and access to LinkedIn Sales Navigator Advanced Plus. </p>
                 <p><b>The minimum purchase requirements of Microsoft Relationship Sales license are 10 per user licenses. </b></p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="4"><center>Dynamics 365 Sales</center></td>
 
                       </tr>
@@ -908,9 +900,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Qualifying License</b></p>
                 <p>The qualifying licenses are distributed among the three core licenses of Dynamics 365 Sales, which are discussed below:</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Sales Enterprise License (D365 Sales)</center></td>
 
                       </tr>
@@ -929,9 +921,9 @@ const Dynamics365LicensingGuide = () => {
                   </table>
                 </div>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Sales Premium License (D365 Sales)</center></td>
 
                       </tr>
@@ -949,9 +941,9 @@ const Dynamics365LicensingGuide = () => {
                   </table>
                 </div>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Sales Professional License (D365 Sales)</center></td>
 
                       </tr>
@@ -966,9 +958,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Dynamics 365 Customer Insights</b></p>
                 <p>Microsoft Dynamics 365 Customer Insights enables a business to record customer interactions, understand customer behavior, identify trends, and track market fluctuations. After the recent Microsoft updates, Dynamics 365 Marketing is now transformed into Dynamics 365 Customer Insights – Journey, and Dynamics 365 Customer Insights is transformed into Dynamics 365 Customer Insights – Data.</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Dynamics 365 Marketing</td>
                         <td>Dynamics 365 Customer Insights - Journey</td>
                       </tr>
@@ -990,9 +982,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Note:</b> Calling and text messaging services are not included in Dynamics 365 Customer Insights. You will need to integrate Microsoft ACS (Azure Communication Services) or a third-party solution to send and receive messages from customers.</p>
                 <p>Dynamics 365 Customer Insights does offer extended capacity to meet specific requirements of the business, and you can purchase the capacity for the desired solution based on usage.</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Application</td>
                         <td>Base Capacity </td>
                       </tr>
@@ -1007,9 +999,9 @@ const Dynamics365LicensingGuide = () => {
                   </table>
                 </div>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="4"><center>Additional Interacted People Capacity</center></td>
                       </tr>
                       <tr>
@@ -1041,9 +1033,9 @@ const Dynamics365LicensingGuide = () => {
                   </table>
                 </div>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="4"><center>Additional Unified People Capacity</center></td>
                       </tr>
                       <tr>
@@ -1092,9 +1084,9 @@ const Dynamics365LicensingGuide = () => {
                 <p>Microsoft Dynamics 365 Customer Service enables the business to streamline different customer support activities and ensure an optimum level of satisfaction. It offers the required tools and capabilities to customer service agents so that they can offer a personalized experience to all customers, building loyalty and trust.</p>
                 <p>You can access Customer Service on a per-user basis, and it is available in two options: Enterprise and Professional. However, Microsoft does offer different add-ons to enhance its overall capabilities. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Dynamics 365 Customer Service</center></td>
                       </tr>
                       <tr>
@@ -1120,9 +1112,9 @@ const Dynamics365LicensingGuide = () => {
                 </ul>
                 <p>With an enterprise license, a full user will be entitled to 2000 customer voice responses/tenant/month and unified routing with 50 records/tenant/month. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Application</td>
                         <td>Base Capacity</td>
                         <td>Add-on Capacity</td>
@@ -1152,9 +1144,9 @@ const Dynamics365LicensingGuide = () => {
                   </li>
                 </ul>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Application</td>
                         <td>Base Capacity</td>
                         <td>Add-on Capacity</td>
@@ -1178,9 +1170,9 @@ const Dynamics365LicensingGuide = () => {
                   </li>
                 </ul>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Application</td>
                         <td>Base Capacity</td>
                         <td>Add-on Capacity</td>
@@ -1205,9 +1197,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Qualifying Licensing</b></p>
                 <p>With a full user license of Customer Service Enterprise (CS), you can attach licenses of Business Central Essentials, Field Service, Sales Enterprise, and Sales Professional.</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Customer Service Enterprise (CS)</center></td>
                       </tr>
                       <tr>
@@ -1229,9 +1221,9 @@ const Dynamics365LicensingGuide = () => {
                 <p>This license allows non-employees or vendors to access some of the processes or data of the organization, like work order management. It is licensed per user and comes with access to Field Service Mobile.</p>
                 <p>Note: Businesses must have at least one full user D365 Field Service license before going for Field Service Contractor license. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Dynamics 365 Field Service</center></td>
                       </tr>
                       <tr>
@@ -1249,9 +1241,9 @@ const Dynamics365LicensingGuide = () => {
                 <p>With a full user Field Service license, you can attach licenses for Business Central Essentials, Customer Service Enterprise, Customer Service Professional, Remote Assist, Sales Enterprise, and Sales Professional.</p>
 
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Dynamics 365 Field Service</center></td>
                       </tr>
                       <tr>
@@ -1272,9 +1264,9 @@ const Dynamics365LicensingGuide = () => {
                 <p>The licensing of <Link href="/products/dynamics-365-project-operations/"><a>Dynamics 365 Project Operations</a></Link> is simple, as it is available on a per-user basis. Essential business roles like project accountants, project assistants, project managers, and account managers can avail of a full user license as they would need advanced tools for smooth project management.</p>
                 <p>However, users with basic roles, like creating and managing timesheets, can access the Team Member license to justify their job role. Such roles are project resource, project timesheet delegate, project timesheet user, and project approver.</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="2"><center>Dynamics 365 Project Operations</center></td>
                       </tr>
                       <tr>
@@ -1289,9 +1281,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Qualifying Licenses</b></p>
                 <p>With Dynamics 365 Project Operations licenses, you can attach Customer Service Enterprise, Customer Service Professional, Human Resources, Sales Enterprise, and Sales Professional licenses. </p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td colspan="3"><center>Dynamics 365 Project Operations Qualifying Licenses to Attach</center></td>
                       </tr>
                       <tr>
@@ -1356,9 +1348,9 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Minimum License Purchase Requirements</b></p>
                 <p>To access a Dynamics 365 solution, you need to follow the minimum licensing purchase requirement.</p>
                 <div className="table-responsive">
-                  <table class="table table-bordered">
+                <table class="table table-bordered licen-table">
                     <tbody>
-                      <tr>
+                      <tr className="hed">
                         <td>Product</td>
                         <td>Minimum QTY</td>
                         <td>Minimum purchased Base Licenses</td>

@@ -10316,6 +10316,40 @@ margin-bottom: 20px;
 .mines-m-t{
   margin-top: -60px;
 }
+.licen-table>tbody>tr{
+  border-color: #b8c6d9;
+}
+.licen-table>tbody>tr>td{
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align:center
+}
+.licen-table>tbody>.hed>td{
+  background-color: #1d3557;
+  color: #fff;
+  font-weight: 500;
+}
+.ne-llit-inlin{}
+.ne-llit-inlin ul{
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.ne-llit-inlin ul li{
+  padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #f2f8fe;
+    margin-bottom: 10px;
+    color: #263068;
+    font-weight: 500;
+    font-size: 15px;
+}
+.ne-llit-inlin ul li .bi{
+  color: #bb2b36;
+  padding-right: 10px;
+}
 /*new home media*/
 @media (min-width: 1400px) and (max-width: 1800px){
   .banner-ne-im-t .bf{
