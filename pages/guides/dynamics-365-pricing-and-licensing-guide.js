@@ -38,28 +38,36 @@ const Dynamics365LicensingGuide = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Power BI: The Ultimate Guide for SMEs (2023)</title>
+        <title>Latest Microsoft Dynamics 365 Pricing and Licensing Guide [2024]</title>
         <meta
           name="description"
-          content="To unleash the complete potential of your data, Microsoft Power BI is an ultimate guide for SMEs for creating visual representations & helps in decision making. "
-        />
-        <meta
-          name="keywords"
-          content="power bi guide, guide to power bi, ultimate power bi guide, comprehensive power bi guide, power bi guide for SMBs, power bi guide for SME, power bi buisness guide, power bi guide for business"
+          content="Unsure exact cost of Dynamics 365? Get the official 2024 guide with up-to-date pricing & licensing info for all applications. Find the right plan for your business!"
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/guides/dynamics-365-licensing-guide/"
+          href="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/"
         />
-        <meta name="robots" content="noindex, nofollow" />
+            <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org/",
+              "@type": "WebPage",
+              "name": "Microsoft Dynamics 365 Pricing and Licensing",
+              "url": "https://sunrise.co/microsoft-dynamics-365/licensing-overview/",
+                      "description": "Unsure exact cost of Dynamics 365? Get the official 2024 guide with up-to-date pricing & licensing info for all applications. Find the right plan for your business!"
+            }),
+          }}
+        />
       </Head>
       <section className="banner-guide hero-1 hero">
         <div className="container">
           <div className="row">
             <div className="col-lg-5 align-self-center">
               <div className="guide-left">
-                <h1>Dynamics 365 Licensing Guide (2024)</h1>
-                <p>xplore the core functionalities of Dynamics 365 solutions along with their licensing to choose the perfect Dynamics 365 solution based on your business requirements.</p>
+                <h1>Dynamics 365 Pricing and Licensing Guide (2024)</h1>
+                <p>Explore the core functionalities of different Dynamics 365 solutions along with their licensing options to help you choose a suitable application for your business.</p>
+                
               </div>
             </div>
             <div className="col-lg-7 align-self-center text-center">
@@ -367,7 +375,7 @@ const Dynamics365LicensingGuide = () => {
                 <p><b>Assigned Licenses</b></p>
                 <p>These are individual user licenses that are assigned to accounts based on their requirements.</p>
                 <p><b>User Licenses:</b></p>
-                <p>This license grants access to individual users to all tools and functionalities of the Dynamics 365 application, irrespective of the device the user is using. The same license is called an enterprise or professional license when opting for Dynamics 365 Sales and Dynamics 365 Customer Service.</p>
+                <p>This license grants access to individual users to all tools and functionalities of the Dynamics 365 application, irrespective of the device the user is using. The same license is called an enterprise or professional license when opting for <Link href="/products/microsoft-dynamics-365-sales/"><a>Dynamics 365 Sales</a></Link> and Dynamics 365 Customer Service.</p>
                 <p><b>Full User Access License:</b></p>
                 <p>A full user license gives full access to a license to the user, whether it is an enterprise license or a professional license. These two licenses must not be mixed in an organization.</p>
                 <p><b>Attach Licensing:</b></p>
@@ -427,9 +435,9 @@ const Dynamics365LicensingGuide = () => {
                 </ul>
                 <p><b>Assigned Licenses</b></p>
                 <p>The assigned license is available for some of the Dynamics 365 solutions in three options, which are:</p>
-                <ul><li>Professional License</li></ul>
+                <ul><li><b>Professional License</b></li></ul>
                 <p>Professional licensing offers limited and simplified capabilities and is suitable for users. This is generally used in small businesses with less complex operations.</p>
-                <ul><li>Enterprise License</li></ul>
+                <ul><li><b>Enterprise License</b></li></ul>
                 <p>This is standard licensing for some Dynamics 365 products. It is for users who want to access the entire business and deal with complex business operations using the advanced functionalities of Dynamics 365. An enterprise license is available for the below Dynamics 365 solutions:</p>
                 <ul>
                   <li>Sales Enterprise</li>
@@ -488,7 +496,7 @@ const Dynamics365LicensingGuide = () => {
               <div className="cont-table-inner">
                 <p>Dynamics 365 suite offers various ERP (enterprise resource planning) solutions to streamline a business while pushing it towards greater efficiency. The licensing of these ERPs is different from one another because they offer different sorts of capabilities to the business. The licensing of major Dynamics ERPs is discussed next.</p>
                 <p><b>Dynamics 365 Business Central</b></p>
-                <p>Microsoft Dynamics Business Central is an all-in-one ERP solution specifically built for small businesses. It possesses advanced business management capabilities to simplify operations and connect all departments of the business.</p>
+                <p><Link href="/products/dynamics-365-business-central/"><a>Microsoft Dynamics Business Central</a></Link> is an all-in-one ERP solution specifically built for small businesses. It possesses advanced business management capabilities to simplify operations and connect all departments of the business.</p>
                 <p>Business Central is licensed per user and available in two licensing plans: Essentials and Premium. Also, it does offer a Team Member license, which comes standard for all Dynamics 365 applications.</p>
                 <ul><li>Business Central Essentials</li></ul>
                 <p>The Essentials license of Microsoft Business Central allows users to streamline processes across different departments with advanced tools and capabilities. </p>
@@ -520,8 +528,8 @@ const Dynamics365LicensingGuide = () => {
                 </ul>
                 <p><b>Qualifying Licenses</b></p>
                 <p>As per the current data released by Microsoft, you can attach the licenses of Business Central to other Dynamics 365 solutions.</p>
-                <p><b>Business Central Essentials:</b> You can attach <b>Customer Service Pro and Sales Pro</b> with BC essential license.</p>
-                <p><b>Business Central Premium:</b> One can attach <b>Customer Service Enterprise, Customer Service Pro, Field Service, Sales Enterprise, and Sales Pro</b>  to BC Premium. </p>
+                <p><b>Business Central Essentials:</b> You can attach Customer Service Pro and Sales Pro with BC essential license.</p>
+                <p><b>Business Central Premium:</b> One can attach Customer Service Enterprise, Customer Service Pro, Field Service, Sales Enterprise, and Sales Pro  to BC Premium. </p>
                 <p><b>Dynamics 365 Finance</b></p>
                 <p><Link href="/products/microsoft-dynamics-365-finance/"><a>Microsoft Dynamics 365 Finance</a></Link> is a finance management solution capable of streamlining and simplifying all complex financial operations. This solution is specifically built for medium and large businesses to automate processes and reduce process complexities.</p>
                 <p>It is available in two licensing options, which are:</p>
