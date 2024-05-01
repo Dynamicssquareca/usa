@@ -38,7 +38,8 @@ const Dynamics365LicensingGuide = () => {
   return (
     <>
       <Head>
-        <title>Latest Microsoft Dynamics 365 Pricing and Licensing Guide [2024]</title>
+
+      <title>Latest Microsoft Dynamics 365 Pricing and Licensing Guide [2024]</title>
         <meta
           name="description"
           content="Unsure exact cost of Dynamics 365? Get the official 2024 guide with up-to-date pricing & licensing info for all applications. Find the right plan for your business!"
@@ -47,6 +48,22 @@ const Dynamics365LicensingGuide = () => {
           rel="canonical"
           href="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/"
         />
+        <meta property="og:locale" content="USA" />
+        <meta property="og:type" content="guide" />
+        <meta property="og:title" content="Latest Microsoft Dynamics 365 Pricing and Licensing Guide [2024]" />
+        <meta property="og:description" content="Unsure exact cost of Dynamics 365? Get the official 2024 guide with up-to-date pricing & licensing info for all applications. Find the right plan for your business!" />
+        <meta property="og:url" content="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/" />
+        <meta property="og:site_name" content="Dynamics Square USA" />
+        <meta property="og:image" content="https://www.dynamicssquare.com/img/d-365-banner-pic.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_usa" />
+        <meta name="twitter:title" content="Latest Microsoft Dynamics 365 Pricing and Licensing Guide [2024]" />
+        <meta name="twitter:description" content="Unsure exact cost of Dynamics 365? Get the official 2024 guide with up-to-date pricing & licensing info for all applications. Find the right plan for your business!" />
+        <meta name="twitter:image" content="https://www.dynamicssquare.com/img/d-365-banner-pic.png" />
+
             <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -54,7 +71,7 @@ const Dynamics365LicensingGuide = () => {
               "@context": "https://schema.org/",
               "@type": "WebPage",
               "name": "Microsoft Dynamics 365 Pricing and Licensing",
-              "url": "https://sunrise.co/microsoft-dynamics-365/licensing-overview/",
+              "url": "https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/",
                       "description": "Unsure exact cost of Dynamics 365? Get the official 2024 guide with up-to-date pricing & licensing info for all applications. Find the right plan for your business!"
             }),
           }}
