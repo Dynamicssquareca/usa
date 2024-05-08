@@ -68,6 +68,37 @@ const Guides = () => {
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
+                  <div className="col-lg-6">
+                      <div className="card card-custom-1 p-3">
+                        <Link
+                          href="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/"
+                          className="over-ff text-center"
+                        >
+                          <a className="over-ff text-center">
+                            <img
+                              className="card-img-top"
+                              src="/img/liceing-guide-list.jpg"
+                              alt="liceing-guide-list"
+                            />
+                          </a>
+                        </Link>
+                        <div className="card-body">
+                          <h5 className="card-title">
+                            <Link href="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/">
+                              <a>Dynamics 365 Pricing and Licensing Guide 2024</a>
+                            </Link>
+                          </h5>
+                          <div className="btn-003 btn-009">
+                            <Link href="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/">
+                              <a className="btn btn-sm btn-danger">
+                                {" "}
+                                View The Guide
+                              </a>
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
                         <Link
@@ -99,37 +130,7 @@ const Guides = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6">
-                      <div className="card card-custom-1 p-3">
-                        <Link
-                          href="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/"
-                          className="over-ff text-center"
-                        >
-                          <a className="over-ff text-center">
-                            <img
-                              className="card-img-top"
-                              src="/img/liceing-guide-list.jpg"
-                              alt="liceing-guide-list"
-                            />
-                          </a>
-                        </Link>
-                        <div className="card-body">
-                          <h5 className="card-title">
-                            <Link href="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/">
-                              <a>Dynamics 365 Pricing and Licensing Guide 2024</a>
-                            </Link>
-                          </h5>
-                          <div className="btn-003 btn-009">
-                            <Link href="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/">
-                              <a className="btn btn-sm btn-danger">
-                                {" "}
-                                View The Guide
-                              </a>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  
                   </div>
                 </div>
               </div>
