@@ -5,33 +5,25 @@ import Script from "next/script";
 import Link from "next/link";
 import FormGuide from "../../components/FormGuide";
 
-
-
-
 const Dynamics365LicensingGuide = () => {
   const [isVisible, setIsVisible] = useState(true);
-  const [display, setDisplay] = useState("ds-none");
+
   useEffect(() => {
     window.addEventListener("scroll", listenToScroll);
     return () => window.removeEventListener("scroll", listenToScroll);
   }, []);
 
   const listenToScroll = () => {
-    let heightToShowFrom = 600;
-    let heightToHideFrom = 31200;
-    const winScroll =
-      document.body.scrollTop || document.documentElement.scrollTop;
+    const heightToShowFrom = 600;
+    const footerElement = document.getElementById("footerhide");
+    const footerOffset = footerElement.getBoundingClientRect().top + window.scrollY;
+    const viewportHeight = window.innerHeight;
+    const heightToHideFrom = footerOffset - viewportHeight; // Hide when footer is just about to come into view
+    const winScroll = window.scrollY;
 
-    if (winScroll > heightToShowFrom) {
-      setDisplay("hd-div");
-      isVisible && // to limit setting state only the first time
-        setIsVisible(true);
+    if (winScroll > heightToShowFrom && winScroll < heightToHideFrom) {
+      setIsVisible(true);
     } else {
-      setDisplay("hd-div");
-      setIsVisible(false);
-    }
-
-    if (winScroll > heightToHideFrom) {
       setIsVisible(false);
     }
   };
@@ -191,8 +183,8 @@ const Dynamics365LicensingGuide = () => {
           </div>
         </div>
       </section>
-      {isVisible && (
-        <div className={display}>
+
+         <div className={isVisible ? 'hd-div' : 'ds-none'}>
           <ul>
             <li>
               <a href="#tabs-1" rel="" target="_self">
@@ -226,7 +218,7 @@ const Dynamics365LicensingGuide = () => {
             </li>
           </ul>
         </div>
-      )}
+
       <section className="color-gr">
         <div className="container">
           <div className="row justify-content-center g-4">
@@ -1540,8 +1532,8 @@ const Dynamics365LicensingGuide = () => {
           </div>
         </div>
       </section>
-
-      
+        
+      <div id="footerhide"></div>
 
       <FormGuide />
     </>
