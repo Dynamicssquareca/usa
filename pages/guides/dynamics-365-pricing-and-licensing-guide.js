@@ -42,7 +42,7 @@ const Dynamics365LicensingGuide = () => {
         />
         <meta property="og:locale" content="USA" />
         <meta property="og:type" content="guide" />
-        <meta property="og:title" content="Latest Microsoft Dynamics 365 Pricing and Licensing Guide [2024]" />
+        <meta property="og:title" content="Dynamics 365 Pricing and Licensing Guide (2024)" />
         <meta property="og:description" content="Get access to the latest 2024 Dynamics 365 pricing & licensing guide with all the information to help you select the right plan for your business." />
         <meta property="og:url" content="https://www.dynamicssquare.com/guides/dynamics-365-pricing-and-licensing-guide/" />
         <meta property="og:site_name" content="Dynamics Square USA" />
@@ -52,7 +52,7 @@ const Dynamics365LicensingGuide = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_usa" />
-        <meta name="twitter:title" content="Latest Microsoft Dynamics 365 Pricing and Licensing Guide [2024]" />
+        <meta name="twitter:title" content="Dynamics 365 Pricing and Licensing Guide (2024)" />
         <meta name="twitter:description" content="Get access to the latest 2024 Dynamics 365 pricing & licensing guide with all the information to help you select the right plan for your business." />
         <meta name="twitter:image" content="https://www.dynamicssquare.com/img/d-365-banner-pic.png" />
 
