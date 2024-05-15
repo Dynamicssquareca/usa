@@ -12616,7 +12616,7 @@ ul.checkmark li {
 .blogs-lates.blogs-lates-top-head h1{
   font-size: 48px !important;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   color: #1d3557;
   display: block;
 }
@@ -12638,7 +12638,7 @@ ul.checkmark li {
   line-height: 2;
   letter-spacing: 0.02px;
   color: #273266;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .blogs-content h2{
   font-size: 30px;
@@ -12646,7 +12646,7 @@ ul.checkmark li {
   line-height: 1.25;
   color: #1d3557;
   letter-spacing: 0.05px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .blogs-content h3{
   font-size: 24px;
@@ -12654,22 +12654,32 @@ ul.checkmark li {
   line-height: 1.25;
   color: #1d3557;
   letter-spacing: 0.05px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .blogs-content h3 b,.blogs-content h2 b{
   font-weight: 600;
 }
-.blogs-content h4{}
+.blogs-content h4{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #1d3557;
+  letter-spacing: 0.05px;
+  margin-bottom: 20px;
+}
 .blogs-content a{}
 .blogs-content a:hover{}
-.blogs-content ul{
+.blogs-content ul ,.blogs-content ol{
   font-size: 18px;
     line-height: 2;
     letter-spacing: 0.02px;
     color: #273266;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
-.blogs-content ul li,.blogs-content ul li p,.blogs-content ul li a,.blogs-content ul li p a{font-size: 18px;    letter-spacing: 0.02px;}
+.blogs-content ul li,.blogs-content ul li p,.blogs-content ul li a,.blogs-content ul li p a,.blogs-content ol li{ont-size: 18px;
+  letter-spacing: 0.02px;
+  line-height: 1.8;
+  margin-bottom: 10px;}
 .blogs-content ul li p{}
 .blogs-content ul li a{}
 .blogs-content ul li p a{}
