@@ -83,13 +83,13 @@ const AboutUs = () => {
             <div className="row inner-side-pad">
               <div className="col-lg-4 col-md-4">
                 <div className="counter-sec inerr">
-                  <h3>250+</h3>
+                  <h3>350+</h3>
                   <p>Clients Worldwide</p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4">
                 <div className="counter-sec inerr">
-                  <h3>135+</h3>
+                  <h3>150+</h3>
                   <p>Certified Pofessionals</p>
                 </div>
               </div>
