@@ -1,328 +1,168 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef ,useState } from 'react';
 import Form from "./Form";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
 import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
-import PhoneInput from 'react-phone-input-2';
-import 'react-phone-input-2/lib/style.css';
-const Footer = () => {
-
+const Footerold = () =>{
+  
   const router = useRouter();
-  const [display, setDisplay] = useState(false);
-  const [errors, setErrors] = useState({});
-  const [defaultCountryCode, setDefaultCountryCode] = useState('us'); 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company_name: '',
-    phone: '',
-    message: '',
-  });
+  const [display, setDisplay] = useState("dspn");
   const form = useRef();
-  const [closeModal, setCloseModal] = useState(false);
-  function handleCloseModal() {
+  const [closeModal, setCloseModal]  = useState(false);
+  function handleCloseModal(){            
     document.getElementById("exampleModal").classList.remove("show", "d-block");
     document.querySelectorAll(".modal-backdrop")
-      .forEach(el => el.classList.remove("modal-backdrop"));
-  }
+            .forEach(el => el.classList.remove("modal-backdrop"));
+}
 
 
-
-/*auto fetch*/
-useEffect(() => {
-  // Fetch IP information when the component mounts
-  fetchCountryCodeByIP();
-}, []);
-
-const fetchCountryCodeByIP = () => {
-  fetch(`https://api.ipdata.co?api-key=00163619f1de9b2adebdc3a316b8958c4864bcc38ca547a8fd081d6e`)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Failed to fetch IP information');
-      }
-      return response.json();
-    })
-    .then(data => {
-      let countryCode = data.country_code.toLowerCase(); 
-      console.log("Country Code:", countryCode); // 
-      setDefaultCountryCode(countryCode);
-      console.log("Default Country Code:", defaultCountryCode); 
-    })
-    .catch(error => {
-      console.error('Error fetching IP information:', error);
-      setDefaultCountryCode('us');
-    });
-};
-
-  const validate = () => {
-    const newErrors = {};
-
-    if (!formData.name) {
-      newErrors.name = 'Full Name is required';
-    }
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
-    if (!emailPattern.test(formData.email)) {
-      newErrors.email = 'Invalid email address';
-    }
-    if (!formData.company_name) {
-      newErrors.company_name = 'Company Name is required';
-    }
-    if (!formData.message) {
-      newErrors.message = 'Message? is required';
-    }
-    if (!formData.phone.trim()) {
-      errors.phone = 'Phone number is required';
-    } else if (!isValidPhoneNumber(formData.phone)) {
-      errors.phone = 'Invalid phone number';
-    }
-    if (!formData.phone) {
-      newErrors.phone = 'Phone Number is required';
-    } else {
-      const phonePattern = /^\d{10,13}$/;
-      if (!phonePattern.test(formData.phone)) {
-        newErrors.phone = 'Invalid phone number';
-      }
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-    // Clear the error for the field being edited
-    if (errors[name]) {
-      setErrors({
-        ...errors,
-        [name]: '',
-      });
-    }
-  };
-
-  const handlePhoneChange = (phone) => {
-    setFormData({ ...formData, phone });
-    // Clear error message for the phone field
-    setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
-  };
-
-
-  const sendEmail = async (e) => {
+  const sendEmail = (e) => {
+    setDisplay("spinner-border text-success");
     e.preventDefault();
-    if (!validate()) {
-      return;
-    }
 
-    setDisplay(true);
+    emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', form.current, 'Z1IXZpfjgq01m5vW7')
 
-    try {
-      const result = await emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', form.current, 'Z1IXZpfjgq01m5vW7');
-      console.log(result.text);
-      setFormData({
-        name: '',
-        email: '',
-        company_name: '',
-        phone: '',
-        message: '',
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
       });
-      router.push("/thank-you/");
-    } catch (error) {
-      console.error(error.text);
-    } finally {
-      setDisplay(false);
-    }
+     
+      setTimeout(function() {
+        setCloseModal(true);
+        e.target.reset();
+        router.push("/thank-you/");
+      }, 500);
+      
   };
 
-  const isValidPhoneNumber = (phone) => {
-    // Phone number should be between 10 to 13 characters
-    return /^\d{10,15}$/.test(phone);
-  };
-
-  // const sendEmail = (e) => {
-  //   setDisplay("spinner-border text-success");
-  //   e.preventDefault();
-
-  //   emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', form.current, 'Z1IXZpfjgq01m5vW7')
-
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-
-  //     setTimeout(function() {
-  //       setCloseModal(true);
-  //       e.target.reset();
-  //       router.push("/thank-you/");
-  //     }, 500);
-
-  // };
-
-  return (
+    return(
     <>
-      {!closeModal &&
-        <div
-          className="modal fade form-main-model"
-          id="exampleModal"
-          tabIndex="-1"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-              <div className="modal-header">
-                <h4 className="modal-title" id="exampleModalLabel">
-                  Request Callback
-                </h4>
-                <button
-                  type="button"
-                  className="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
-                <p></p>
-              </div>
-              <p>
-                Please complete the form below and we will be in touch or{" "}
-                <a href="tel:+2818990865" target="_self" rel="">
-                  book a call
-                </a>{" "}
-                with one of our Microsoft consultants.
-              </p>
-              <div className="modal-body">
-                <div className="main-form-wrper">
-                  <form ref={form} onSubmit={sendEmail}>
-                    <div className="mb-3">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="*Full Name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                      />
-                      {errors.name && <span className="error">{errors.name}</span>}
-                      <input type="hidden" value={router.asPath} name="url" />
-                    </div>
+    {!closeModal && 
+     <div
+        className="modal fade form-main-model"
+        id="exampleModal"
+        tabIndex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h4 className="modal-title" id="exampleModalLabel">
+                Request Callback
+              </h4>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+              <p></p>
+            </div>
+            <p>
+              Please complete the form below and we will be in touch or{" "}
+              <a href="tel:+2818990865" target="_self" rel="">
+                book a call
+              </a>{" "}
+              with one of our Microsoft consultants.
+            </p>
+            <div className="modal-body">
+              <div className="main-form-wrper">
+                <form ref={form} onSubmit={sendEmail}>
+                  <div className="mb-3">
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="*Full Name"
+                      name="name"
+                      required
+                    />
+                    <input type="hidden" value={router.asPath} name="url" />
+                  </div>
 
-                    <div className="mb-3">
-                      <input
-                        type="email"
-                        className="form-control"
-                        placeholder="*Work Email"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                      />
-                      {errors.email && <span className="error">{errors.email}</span>}
-                    </div>
-                    <div className="mb-3">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="*Company Name"
-                        name="company_name"
-                        value={formData.company_name}
-                        onChange={handleChange}
-                      />
-                      {errors.company_name && <span className="error">{errors.company_name}</span>}
-                    </div>
-                    <div className="mb-3">
-                    <PhoneInput inputStyle={{ width: '100%', height: 'auto' }}
-                        country={defaultCountryCode} // Set default country code
-                        value={formData.phone}
-                        onChange={handlePhoneChange}
-                        inputClass="form-control" // CSS class for the input
-                        inputProps={{
-                          name: 'phone',
-                          required: true,
-                          autoFocus: false,
-                          onBlur: () => {
-                            if (formData.phone.trim() !== '') { // Check if phone number is not empty before validation
-                              if (!isValidPhoneNumber(formData.phone)) {
-                                setErrors({ ...errors, phone: 'Invalid phone number format' });
-                              } else {
-                                delete errors.phone; // Clear error if phone number is valid
-                              }
-                            } else {
-                              delete errors.phone; // Clear error if phone number is empty
-                            }
-                          }
-                        }}
-                        // onlyCountries={['us', 'ca', 'mx', 'gb']}
-                        excludeCountries={['pk']}
-                      />
-                      {errors.phone && <span className="error">{errors.phone}</span>}
-                      {/* <input
-                        type="tel"
-                        className="form-control"
-                        placeholder="Phone Number"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                      />
-                      {errors.phone && <span className="error">{errors.phone}</span>} */}
-                    </div>
-                    <div className="mb-3">
-                      <textarea
-                        className="form-control"
-                        placeholder="*How Can We Help You?"
-                        rows="3"
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
-                     
-                      ></textarea>
-                      {errors.message && <span className="error">{errors.message}</span>}
-                    </div>
-                    <div className="mb-3 form-check">
-                      <input
-                        type="checkbox"
-                        checked
-                        readOnly
-                        className="form-check-input"
-                      />
-                      <label className="form-check-label">
-                        I agree to the
-                        <a href="/privacy-policy/" target="_blank">
-                          {" "}
-                          Privacy Policy{" "}
-                        </a>
-                        and
-                        <a href="/terms-of-use/" target="_blank">
-                          {" "}
-                          Terms of Service{" "}
-                        </a>
-                        .
-                      </label>
-                    </div>
+                  <div className="mb-3">
+                    <input
+                      type="email"
+                      className="form-control"
+                      placeholder="*Work Email"
+                      name="email"
+                      pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="*Company Name"
+                      name="company_name"
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <input
+                      type="tel"
+                      className="form-control"
+                      placeholder="*Phone Number"
+                      name="phone"
+                      pattern="^\d{10,13}$"
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <textarea
+                      className="form-control"
+                      id="Text-area"
+                      placeholder="*How Can We Help You?"
+                      rows="3"
+                      name="message"
+                      required
+                    ></textarea>
+                  </div>
+                  <div className="mb-3 form-check">
+                    <input
+                      type="checkbox"
+                      checked
+                      readOnly
+                      className="form-check-input"
+                      id="Check"
+                    />
+                    <label className="form-check-label">
+                      I agree to the
+                      <a href="/privacy-policy/" target="_blank">
+                        {" "}
+                        Privacy Policy{" "}
+                      </a>
+                      and
+                      <a href="/terms-of-use/" target="_blank">
+                        {" "}
+                        Terms of Service{" "}
+                      </a>
+                      .
+                    </label>
+                  </div>
 
-                    <div className="spinner-wrapper">
-                      <button
-                        type="submit"
-                        className="btn btn-primary fomr-submit"
-                        disabled={display}
-                      >
-                        {display ? 'Submitting...' : 'Submit'}
-                      </button>
-                      {display && (
-                        <div className="spinner-border text-success" role="status">
-                          <span className="visually-hidden">Loading...</span>
-                        </div>
-                      )}
+                  <div className="spiner-wrper">
+                    <button
+                      type="submit"
+                      className="btn btn-primary fomr-submit"
+                    >
+                      Submit
+                    </button>
+                    <div className={display} role="status">
+                      <span className="visually-hidden">Loading....</span>
                     </div>
-                  </form>
-                </div>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-      }
+                  }
 
       <section id="services" className="services bg-shape ovr-f hidesec">
         <div className="container" data-aos="fade-up">
@@ -354,9 +194,9 @@ const fetchCountryCodeByIP = () => {
         </div>
       </section>
 
-      <div className="footer-contact-s">
+    <div className="footer-contact-s">
         <div className="container">
-          <div className="row">
+        <div className="row">
             <div className="col-lg-3">
               <div className="const-list-name">California</div>
               <div className="contact-list">
@@ -420,9 +260,9 @@ const fetchCountryCodeByIP = () => {
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                  111 North Wabash Ave. Ste. 100,{" "}
-                  The Garland Building
-                  Chicago, IL 60602
+                111 North Wabash Ave. Ste. 100,{" "}
+                The Garland Building
+                Chicago, IL 60602
                 </div>
               </div>
               <div className="contact-list">
@@ -430,10 +270,10 @@ const fetchCountryCodeByIP = () => {
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <a target="_self" rel="" href="tel:+13124881043">
-                    +1 312 488 1043
+                <a target="_self" rel="" href="tel:+13124881043">
+                  +1 312 488 1043
                   </a>
-
+                 
                 </div>
               </div>
               <div className="contact-list">
@@ -450,7 +290,7 @@ const fetchCountryCodeByIP = () => {
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <div className="content-right">
-                  500 Paterson Plank Road Union City, NJ 07087
+                500 Paterson Plank Road Union City, NJ 07087
                 </div>
               </div>
               <div className="contact-list">
@@ -458,8 +298,8 @@ const fetchCountryCodeByIP = () => {
                   <i className="bi bi-telephone"></i>
                 </div>
                 <div className="content-right">
-                  <a target="_self" rel="" href="tel:+17328930520">
-                    +1 732 893 0520
+                <a target="_self" rel="" href="tel:+17328930520">
+                  +1 732 893 0520
                   </a>
                 </div>
               </div>
@@ -497,9 +337,9 @@ const fetchCountryCodeByIP = () => {
                   src="/img/microsoft-partner-footer.png"
                   alt="microsoft-partner"
                   className="footer-img"
-                  width={230}
-                  height={211}
-
+                 width={230}
+                 height={211}
+                 
                 />
                 <img
                   src="/img/Tech-For-Socil-Impact.svg"
@@ -507,7 +347,7 @@ const fetchCountryCodeByIP = () => {
                   className="footer-img"
                   width="230"
                   height="81"
-                  style={{ marginTop: '25px' }}
+                  style={{marginTop:'25px'}}
                 />
               </div>
               <div className="col-lg-2 col-12 footer-links">
@@ -662,13 +502,13 @@ const fetchCountryCodeByIP = () => {
         </div>
       </footer>
       <div className='call-bb-wr'>
-        <button className="fixed-button wobble" type="button" aria-labelledby="callbuttondiv">
-          <a href="tel:+12818990865" target="_self" ><i className="bi bi-telephone-fill"></i> <span className="screen-reader-text">Details</span></a>
-        </button>
+      <button className="fixed-button wobble" type="button" aria-labelledby="callbuttondiv">
+      <a href="tel:+12818990865" target="_self" ><i className="bi bi-telephone-fill"></i> <span className="screen-reader-text">Details</span></a>
+</button>
 
       </div>
     </>
-
-  );
-}
-export default Footer
+    
+    );
+    }
+    export default Footerold
