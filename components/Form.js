@@ -136,23 +136,6 @@ const fetchCountryCodeByIP = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   // const router = useRouter();
   // const [display, setDisplay] = useState("dspn");
   // const form = useRef();
