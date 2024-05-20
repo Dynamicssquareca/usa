@@ -217,7 +217,7 @@ const fetchCountryCodeByIP = () => {
                   inputProps={{
                     name: 'phone',
                     required: false,
-                    autoFocus: true,
+                    autoFocus: false,
                     onBlur: () => {
                       if (formData.phone.trim() !== '') { // Check if phone number is not empty before validation
                         if (!isValidPhoneNumber(formData.phone)) {
