@@ -12676,7 +12676,7 @@ ul.checkmark li {
     color: #273266;
     margin-bottom: 20px;
 }
-.blogs-content ul li,.blogs-content ul li p,.blogs-content ul li a,.blogs-content ul li p a,.blogs-content ol li{ont-size: 18px;
+.blogs-content ul li,.blogs-content ul li p,.blogs-content ul li a,.blogs-content ul li p a,.blogs-content ol li{font-size: 18px;
   letter-spacing: 0.02px;
   line-height: 1.8;
   margin-bottom: 10px;}
