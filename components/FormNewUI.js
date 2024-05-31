@@ -230,6 +230,7 @@ const fetchCountryCodeByIP = () => {
                       }
                     }
                   }}
+                  countryCodeEditable={false}
                   // onlyCountries={['us', 'ca', 'mx', 'gb']}
                   excludeCountries={['pk']}
                 />
