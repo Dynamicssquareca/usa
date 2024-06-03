@@ -11,10 +11,10 @@ const MicrosoftDynamics365FinanceOperations = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 for Finance and Operations</title>
+        <title>Microsoft Dynamics 365 Finance and Operations</title>
         <meta
           name="description"
-          content="Looking for a Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation and support needs."
+          content="Looking for a Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all F&O implementation and support needs."
         />
         <link
           rel="canonical"
@@ -22,9 +22,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="Dynamics 365 for Finance and Operations" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Finance and Operations" />
 
-        <meta property="og:description" content="Looking for a Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation and support needs." />
+        <meta property="og:description" content="Looking for a Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all F&O implementation and support needs." />
 
         <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
 
@@ -34,9 +34,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="Dynamics 365 for Finance and Operations" />
+        <meta property="twitter:title" content="Microsoft Dynamics 365 Finance and Operations" />
 
-        <meta property="twitter:description" content="Looking for a Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation and support needs." />
+        <meta property="twitter:description" content="Looking for a Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all F&O implementation and support needs." />
 
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance-operations/" />
 
@@ -47,9 +47,9 @@ const MicrosoftDynamics365FinanceOperations = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              "name": "Dynamics 365 for Finance and Operations",
+              "name": "Microsoft Dynamics 365 Finance and Operations",
               "image": "https://www.dynamicssquare.com/img/f-and-o-image.png/",
-              "description": "Looking for a Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all D365 F&O implementation and support needs.",
+              "description": "Looking for a Microsoft Dynamics 365 Finance and Operations Partner in the USA? Contact Dynamics Square for all F&O implementation and support needs.",
               "brand": {
                 "@type": "Brand",
                 "name": "Dynamics Square USA"
@@ -72,7 +72,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
           <div className="row g-5">
             <div className="col-lg-6 align-self-center">
               <h1 className="small-h">Microsoft Dynamics 365 Finance and Operations</h1>
-              <h2>Strengthen Your Finances and Operations</h2>
+              <h2>Strengthen your Finances and Operations</h2>
               <p>Unify and streamline finances and operations across different departments with Dynamics 365 Finance & Operations.</p>
               <div>
                 <div className="text-center text-lg-start">
@@ -914,7 +914,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   aria-controls="v-pills-Finance"
                   aria-selected="true"
                 >
-                  <h3>Finance Management</h3>
+                  <h3>Financial Management </h3>
                 </div>
                 <div
                   className="nav-link"
@@ -1169,17 +1169,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   aria-labelledby="v-pills-Purchase-tab"
                 >
                   <div className="row busines-service-list-pad">
-                    <div className="col-lg-6 col-md-6">
-                      <div className="busines-service-list">
-                        <div className="icons">
-                          <i className="bi bi-check-lg"></i>
-                        </div>
-                        <div className="content">
-                          <h4>Vendor Collaboration </h4>
-                          <p>Establish a smooth vendor collaboration to match customer demands with vendor needs. </p>
-                        </div>
-                      </div>
-                    </div>
+                   
                     <div className="col-lg-6 col-md-6">
                       <div className="busines-service-list">
                         <div className="icons">
@@ -1639,11 +1629,12 @@ const MicrosoftDynamics365FinanceOperations = () => {
                   <li>Operations Activity</li>
                 </ul>
                 <br />
-                <p>Dynamics 365 Supply Chain is available in 3 licensing options:</p>
+                <p>Dynamics 365 Supply Chain is available in 4 licensing options:</p>
                 <ul className="ne-list-tags">
                   <li>Team Members</li>
                   <li>Operations Activity</li>
                   <li>Supply Chain Management</li>
+                  <li>Supply Chain Management Premium </li>
                 </ul>
               </div>
             </div>
@@ -1728,7 +1719,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="top-text-wrpaer">
                 <img src="/img/Dynamics-365-Supply-Chain-new-pic.png" alt="Dynamics-365-Supply-Chain-new-pic" width='120' height='120' />
                 <h4>Dynamics 365 Supply Chain</h4>
-                <p><Link href="/products/dynamics-365-supply-chain-management/"><a>Microsoft Dynamics 365 Supply Chain Management</a></Link> is designed to cater to the business requirements of medium and large-sized organizations. It integrates and unifies data from different sources to manage supply chain operations. With AI-driven insights, you can have better control over your operations, maximizing operational efficiency and enhancing supply chain visibility.</p>
+                <p><Link href="/products/dynamics-365-supply-chain-management/"><a>Microsoft Dynamics 365 Supply Chain Management</a></Link> is designed to cater to the business requirements of medium and large-sized organizations. It integrates and unifies data from different sources to manage supply chain operations.</p>
               </div>
               <div className="price0-bc-new price0-bc-new-h">
                 <div className="pr-head">
