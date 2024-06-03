@@ -1719,7 +1719,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
               <div className="top-text-wrpaer">
                 <img src="/img/Dynamics-365-Supply-Chain-new-pic.png" alt="Dynamics-365-Supply-Chain-new-pic" width='120' height='120' />
                 <h4>Dynamics 365 Supply Chain</h4>
-                <p><Link href="/products/dynamics-365-supply-chain-management/"><a>Microsoft Dynamics 365 Supply Chain Management</a></Link> is designed to cater to the business requirements of medium and large-sized organizations. It integrates and unifies data from different sources to manage supply chain operations.</p>
+                <p><Link href="/products/dynamics-365-supply-chain-management/"><a>Microsoft Dynamics 365 for Supply Chain Management</a></Link> is designed to cater to the business requirements of medium and large-sized organizations. It integrates and unifies data from different sources to manage supply chain operations.</p>
               </div>
               <div className="price0-bc-new price0-bc-new-h">
                 <div className="pr-head">
