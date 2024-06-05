@@ -151,11 +151,11 @@ const MicrosoftPowerAutomate = () => {
               <div className="nw-bc-lef-h">
                 <h2>Power Automate: Types of Flow to Suit all Needs</h2>
                 <p>Microsoft Power Automate comes with three major flows to automate tasks and increase efficiency.</p>
-                <div className="points-ui color-blue" style={{ display: 'inline-flex' }}><i className="bi bi-check-lg"></i> <span>Cloud Flows</span></div>
+                  <p style={{marginBottom:'10px'}}><b><i className="bi bi-check-lg"></i> Cloud Flows</b></p>
                 <p>Build an automation flow that can be triggered in three ways: instantly, automatically, and by scheduling.</p>
-                <div className="points-ui color-blue" style={{ display: 'inline-flex' }}><i className="bi bi-check-lg"></i> <span>Desktop Flows</span></div>
+                <p style={{marginBottom:'10px'}}><b><i className="bi bi-check-lg"></i> Desktop Flows</b></p>
                 <p>Build an automation flow to automate tasks on the desktop or the web.</p>
-                <div className="points-ui color-blue" style={{ display: 'inline-flex' }}><i className="bi bi-check-lg"></i> <span>Business Process Flows</span></div>
+                <p style={{marginBottom:'10px'}}><b><i className="bi bi-check-lg"></i> Business Process Flows</b></p>
                 <p>Build an automation flow to enable users to track their work during a business process while guiding them throughout the process until the work is complete.</p>
               </div>
             </div>
@@ -488,8 +488,9 @@ const MicrosoftPowerAutomate = () => {
                 <Image
                   src="/img/finance-the-right-solution.png"
                   alt="Power Automate can help your Business"
-                  width={600}
-                  height={400}
+                  width={580}
+                  height={443}
+                  style={{mixBlendMode:'multiply'}}
                 />
               </div>
             </div>
