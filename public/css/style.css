@@ -14920,6 +14920,25 @@ border-radius: 10px;
   position: relative;
   text-align: left;
 }
+.acive-card {
+  display: flex;
+        flex-direction: unset;
+        padding: 0px 15px;
+        flex-wrap: wrap;
+        text-align: center;
+}
+.acive-card .left {
+  margin-right: 0;
+  flex: 100%;
+  max-width: 100%;
+}
+.acive-card .left span {
+  display: block;
+  margin-bottom:15px
+}
+.acive-card .left img{
+  margin-bottom:15px
+}
 }
 
 @media (max-width: 768px) {
