@@ -14830,6 +14830,9 @@ blockquote {
   border: 1px solid #ececec;
   border-left: 2px solid #2f415d;
 }
+blockquote a{
+
+}
 
 @media (max-width: 1400px) {
 }
