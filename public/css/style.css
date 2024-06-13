@@ -14820,6 +14820,16 @@ border-radius: 10px;
 .bg-gray{
   background-image: radial-gradient(circle at 88% 39%, #f2f8fe, rgba(242, 248, 254, 0) 125%);
 }
+blockquote {
+  background-color: #f7f7f7;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 25px 0;
+  padding: 20px 20px;
+  border: 1px solid #ececec;
+  border-left: 2px solid #2f415d;
+}
 
 @media (max-width: 1400px) {
 }
