@@ -14,7 +14,7 @@ const Dynamics365LicensingGuide = () => {
   }, []);
 
   const listenToScroll = () => {
-    const heightToShowFrom = 600;
+    const heightToShowFrom = 900;
     const footerElement = document.getElementById("footerhide");
     const footerOffset = footerElement.getBoundingClientRect().top + window.scrollY;
     const viewportHeight = window.innerHeight;
