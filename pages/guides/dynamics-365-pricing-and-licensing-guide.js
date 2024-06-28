@@ -6,7 +6,7 @@ import Link from "next/link";
 import FormGuide from "../../components/FormGuide";
 
 const Dynamics365LicensingGuide = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", listenToScroll);
