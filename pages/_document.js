@@ -49,7 +49,7 @@ class MyDocument extends Document {
                 j.async = true;
                 j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
                 f.parentNode.insertBefore(j, f);
-              })(window, document, "script", "dataLayer", "GTM-T5X2P3X");
+              })(window, document, "script", "dataLayer", "GTM-N6RWJ45N");
                 `}
           </Script>
           <Script id="hotjar" strategy="beforeInteractive">
