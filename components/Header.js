@@ -1092,6 +1092,9 @@ class Header extends Component {
                         <a href="/guides/">Guides</a>
                       </li>
                       <li>
+                                  <a href="/whitpapers/">Whitpapers</a>
+                                </li>
+                      <li>
                         <a href="/webinars/">Webinars</a>
                       </li>
                     </ul>
@@ -1568,6 +1571,9 @@ class Header extends Component {
                                 </li>
                                 <li>
                                   <a href="/guides/">Guides</a>
+                                </li>
+                                <li>
+                                  <a href="/whitpapers/">Whitpapers</a>
                                 </li>
                                 <li>
                                   <a href="/webinars/">Webinars</a>
