@@ -45,7 +45,7 @@ const StartGuideOne = () => {
     setTimeout(function () {
       setCloseModal(true);
       e.target.reset();
-      router.push("https://www.dynamicssquare.com/whitpapers/download/Pdf-micorosoft-copilot/");
+      router.push("https://www.dynamicssquare.com/whitpapers/download/pdf-micorosoft-copilot/");
     }, 500);
   };
 
