@@ -39,7 +39,7 @@ const ScrollPopupModal = () => {
     if (!isNotAllowedURL && !hasClosedPopup) {
       const timerId = setTimeout(() => {
         setIsVisible(true);
-      }, 25000); // Adjust the time (in milliseconds) according to your needs
+      }, 45000); // Adjust the time (in milliseconds) according to your needs
 
       return () => {
         clearTimeout(timerId);
