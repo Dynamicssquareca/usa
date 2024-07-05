@@ -11,7 +11,7 @@ const WhitePaper = () => {
           name="description"
           content="Explore our white paper to get insights into how Microsoft business solutions are helping businesses transform and achieve newer heights."
         />
-        <link rel="canonical" href="https://www.dynamicssquare.com/whitpapers/" />
+        <link rel="canonical" href="https://www.dynamicssquare.com/white-papers/" />
       </Head>
       <section className="Solution-banner hero-1 hero">
         <div className="container">
@@ -73,14 +73,14 @@ const WhitePaper = () => {
                         </a>
                         <div className="card-body">
                           <h5 className="card-title">
-                            <a href="/whitpapers/micorosoft-copilot-for-transformation-in-your-business/">
+                            <a href="/white-papers/micorosoft-copilot-for-transformation-in-your-business/">
                             Microsoft Copilot: The Catalyst for Transformation in Your Business
                             </a>
                           </h5>
                           <div className="btn-003 btn-009">
                             <a
                               className="btn btn-sm btn-danger"
-                              href="/whitpapers/micorosoft-copilot-for-transformation-in-your-business/"
+                              href="/white-papers/micorosoft-copilot-for-transformation-in-your-business/"
                             >
                               Read Now
                             </a>

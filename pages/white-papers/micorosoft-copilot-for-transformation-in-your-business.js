@@ -45,7 +45,7 @@ const StartGuideOne = () => {
     setTimeout(function () {
       setCloseModal(true);
       e.target.reset();
-      router.push("https://www.dynamicssquare.com/whitpapers/download/pdf-micorosoft-copilot/");
+      router.push("https://www.dynamicssquare.com/white-papers/download/pdf-micorosoft-copilot/");
     }, 500);
   };
 
@@ -59,7 +59,7 @@ const StartGuideOne = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/whitpapers/micorosoft-copilot-for-transformation-in-your-business/"
+          href="https://www.dynamicssquare.com/white-papers/micorosoft-copilot-for-transformation-in-your-business/"
         />
       </Head>
 

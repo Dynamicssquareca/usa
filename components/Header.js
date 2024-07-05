@@ -1092,7 +1092,7 @@ class Header extends Component {
                         <a href="/guides/">Guides</a>
                       </li>
                       <li>
-                                  <a href="/whitpapers/">Whitpapers</a>
+                                  <a href="/white-papers/">White Papers</a>
                                 </li>
                       <li>
                         <a href="/webinars/">Webinars</a>
@@ -1573,7 +1573,7 @@ class Header extends Component {
                                   <a href="/guides/">Guides</a>
                                 </li>
                                 <li>
-                                  <a href="/whitpapers/">Whitpapers</a>
+                                  <a href="/white-papers/">White Papers</a>
                                 </li>
                                 <li>
                                   <a href="/webinars/">Webinars</a>
