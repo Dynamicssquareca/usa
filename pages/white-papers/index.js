@@ -62,7 +62,7 @@ const WhitePaper = () => {
                   <div className="col-lg-6">
                       <div className="card card-custom-1 p-3">
                         <a
-                          href="/whitpapers/micorosoft-copilot-for-transformation-in-your-business/"
+                          href="/white-papers/micorosoft-copilot-for-transformation-in-your-business/"
                           className="over-ff text-center"
                         >
                           <img

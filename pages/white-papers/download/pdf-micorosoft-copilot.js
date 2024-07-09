@@ -26,7 +26,7 @@ const PowerbiPdf = () => {
               <div className="text-center">
                 <div className="">
                   <a
-                    href="/pdf/Copilot-whitepaper.pdf"
+                    href="/pdf/Copilot-whitepapers.pdf"
                     className="btn-get-started scrollto"
                     download
                   >
