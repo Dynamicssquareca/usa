@@ -562,8 +562,194 @@ const AboutUs = () => {
             </Swiper>
           </div>
         </section>
+        <section className="why-slider" style={{paddingBottom:'40px',backgroundColor:'white'}}>
+            <div className="container">
+              <header className="section-header">
+                <h2>Why Dynamics Square?</h2>
+                <p>
+                  We employ market leading technologies, consultants, processes
+                  and proven methodologies to help clients to design, implement
+                  and manage their business solutions that align to business
+                  priorities, maximum return on their investment and to create
+                  high performance organizations.
+                </p>
+              </header>
+              <div className="row pad-3y">
+                <div className="col-lg-12">
+                  <Swiper
+                    autoplay={{
+                      delay: 4000,
+                      disableOnInteraction: false,
+                    }}
+                    breakpoints={{
+                      0: {
+                        slidesPerView: 1,
+                        spaceBetween: 15,
+                      },
+                      768: {
+                        slidesPerView: 1,
+                        spaceBetween: 40,
+                      },
+                      992: {
+                        slidesPerView: 2,
+                        spaceBetween: 40,
+                      },
+                      1200: {
+                        slidesPerView: 3,
+                        spaceBetween: 20,
+                      },
+                      1400: {
+                        slidesPerView: 3,
+                        spaceBetween: 30,
+                      },
+                    }}
+                    pagination={{
+                      clickable: true,
+                    }}
+                    modules={[Autoplay, Pagination]}
+                    className="mySwiper mySwiperwhy"
+                  >
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>Years of Expertise</span>
+                        </h3>
+                        <p>
+                          Our team of consultants bring together their many years
+                          of experience to new projects. Our consultants have
+                          numerous successful projects to their credit, and they
+                          can do the same for your business.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+  
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>Experienced Team</span>
+                        </h3>
+                        <p>
+                          Dynamics Square consultants are leading subject matter
+                          experts in their fields. They bring their solid
+                          credibility and impressive experience to every client's
+                          project.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+  
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>Quality Driven</span>
+                        </h3>
+                        <p>
+                          Our dynamic professional teams help your business
+                          implement the best software solutions for your
+                          particular needs. We take the utmost pride in the
+                          quality of our work, delivering the best possible
+                          results for every client.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+  
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>In-depth Product Knowledge</span>
+                        </h3>
+                        <p>
+                          The team at Dynamics Square have in-depth product
+                          knowledge so that you can get concrete, top-quality
+                          implementation, support and upgrade services. Get in
+                          touch with one of our Microsoft consultants to schedule
+                          a free demo.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+  
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>Timely Execution</span>
+                        </h3>
+                        <p>
+                          Our extensive experience and product knowledge empower
+                          us to deliver solutions in accordance with your expected
+                          timeline, keeping the implementation process as
+                          efficient as possible.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+  
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>Fuelled by Passion</span>
+                        </h3>
+                        <p>
+                          We strive to provide every one of our clients with the
+                          best possible results. We’re driven to establish
+                          ourselves as a leading name in consulting services, and
+                          we work continuously to streamline and improve our
+                          services.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+  
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>Flexible Engagement Model</span>
+                        </h3>
+                        <p>
+                          At Dynamic Square, our services feature a remarkable
+                          degree of flexibility. We’ll be there when you need us
+                          to keep your project on schedule and ensure its success.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>Focused on Innovation</span>
+                        </h3>
+                        <p>
+                          We deliver creative solutions to clients, using our
+                          experience and expertise to develop new and efficient
+                          implementation strategies.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="why-slider-sec">
+                        <h3>
+                          <i className="bi bi-check-lg"></i>{" "}
+                          <span>High Customer Satisfaction</span>
+                        </h3>
+                        <p>
+                          Our high success rate is a testament to our dedication
+                          to quality, flexibility, and efficiency. Our
+                          uncompromising efforts and dedication have brought
+                          considerable returns for hundreds of businesses
+                          worldwide.
+                        </p>
+                      </div>
+                    </SwiperSlide>
+                  </Swiper>
+                </div>
+              </div>
+            </div>
+          </section>
 
-        <section>
+        {/* <section>
           <div className="container">
           <div className="row justify-content-center">
               <div className="col-lg-8">
@@ -597,7 +783,7 @@ const AboutUs = () => {
             </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
 
         <section>

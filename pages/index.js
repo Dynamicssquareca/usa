@@ -864,6 +864,12 @@ export default function Home() {
                       <span>-Head of Marketing at the renowned clothing brand</span>
                     </div>
                   </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="test-inner">
+                      <p>Dynamics Squared is a fantastic partner and helped us move from an existing CRM to Dynamics 365. The process improvement for our business was significant, and the visibility to our company performance was exactly what we needed. They took the time to understand our needs, and are extremely capable and flexible, which attributed to the success that we had. Glad to have them supporting our business into the future.</p>
+                      <span>-Sina Moatamed</span>
+                    </div>
+                  </SwiperSlide>
 
                 </Swiper>
                 <div className="img-2">
