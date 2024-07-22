@@ -439,7 +439,7 @@ export default function Home() {
                 <Link href="/our-services/dynamics-365-implementation-services/">
                   <a>
                     <div className="gr">
-                      <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" />
+                      <img src="/img/home/Implementation-icon.png" alt="Implementation-icon" width={124} height={124} />
                       <video autoPlay muted loop playsInline>
                         <source src="/video/Implementation-icon.mp4" type="video/mp4" />
                       </video>
@@ -458,7 +458,7 @@ export default function Home() {
                 <Link href="/our-services/dynamics-365-upgrade-services/">
                   <a>
                     <div className="gr">
-                      <img src="/img/home/Upgrade-icon.png" alt="Upgrade-icon" />
+                      <img src="/img/home/Upgrade-icon.png" alt="Upgrade-icon" width={124} height={124} />
                       <video autoPlay muted loop playsInline>
                         <source src="/video/Upgrade-icon.mp4" type="video/mp4" />
                       </video>
@@ -478,7 +478,7 @@ export default function Home() {
                   <a>
 
                     <div className="gr">
-                      <img src="/img/home/Support-icon.png" alt="Support-icon" />
+                      <img src="/img/home/Support-icon.png" alt="Support-icon" width={124} height={124} />
                       <video autoPlay muted loop playsInline>
                         <source src="/video/Support-icon.mp4" type="video/mp4" />
                       </video>
@@ -498,7 +498,7 @@ export default function Home() {
                   <a data-bs-toggle="modal">
 
                     <div className="gr">
-                      <img src="/img/home/Consulting-Icon.png" alt="Consulting-Icon" />
+                      <img src="/img/home/Consulting-Icon.png" alt="Consulting-Icon" width={124} height={124} />
                       <video autoPlay muted loop playsInline>
                         <source src="/video/Consulting-Icon.mp4" type="video/mp4" />
                       </video>
@@ -518,7 +518,7 @@ export default function Home() {
                   <a data-bs-toggle="modal">
 
                     <div className="gr">
-                      <img src="/img/home/Audit-icon.png" alt="Audit-icon" />
+                      <img src="/img/home/Audit-icon.png" alt="Audit-icon" width={124} height={124} />
                       <video autoPlay muted loop playsInline>
                         <source src="/video/Audit-icon.mp4" type="video/mp4" />
                       </video>
@@ -537,7 +537,7 @@ export default function Home() {
               <Link href="#exampleModal">
                   <a data-bs-toggle="modal">
                     <div className="gr">
-                      <img src="/img/home/training-icon.png" alt="training-icon" />
+                      <img src="/img/home/training-icon.png" alt="training-icon" width={124} height={124} />
                       <video autoPlay muted loop playsInline>
                         <source src="/video/training-icon.mp4" type="video/mp4" />
                       </video>
@@ -828,8 +828,8 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-lg-11">
               <div className="testmonial-slide-home">
-                <div className="img-1">
-                  <img src="/img/home/quote-left.png" alt="" />
+                <div className="img-1" >
+                  <img src="/img/home/quote-left.png" width={112} height={82} alt="" />
                 </div>
                 <Swiper
                   autoplay={{
@@ -873,7 +873,7 @@ export default function Home() {
 
                 </Swiper>
                 <div className="img-2">
-                  <img src="/img/home/quote-right.png" alt="" />
+                  <img src="/img/home/quote-right.png" width={112} height={82} alt="" />
                 </div>
               </div>
             </div>
@@ -1132,7 +1132,7 @@ Marketing</h3>
         </div>
       </section>
         <div className="mass-cut-pic">
-              <img src="/img/mascut.png" alt="masscut" />
+              <img src="/img/mascut.png" alt="masscut" width={805} height={754} />
             </div>
 
       <div className="pd-btm-60 min-w-di">
