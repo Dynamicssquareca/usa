@@ -69,6 +69,12 @@ class MyDocument extends Document {
             })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
                 `}
           </Script>
+
+          <Script id="apoll0" strategy="beforeInteractive">
+            {`function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script"); o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0, o.onload=function(){window.trackingFunctions.onLoad({appId:"6672fc2cc66acb09614fe906"})}, document.head.appendChild(o)}initApollo();
+                `}
+          </Script>
+
           {/* <Script id="clarity" strategy="beforeInteractive">
                 {`
              (function (c, l, a, r, i, t, y) {
@@ -92,7 +98,7 @@ class MyDocument extends Document {
           <NextScript />
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
           <script src="//code.jivosite.com/widget/UMeAIYNyyq" async></script>
-          
+
         </body>
       </Html>
     )
