@@ -434,7 +434,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-flex">
               <div className="home_servce-_card">
                 <Link href="/our-services/dynamics-365-implementation-services/">
                   <a>
@@ -453,7 +453,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-flex">
               <div className="home_servce-_card">
                 <Link href="/our-services/dynamics-365-upgrade-services/">
                   <a>
@@ -472,7 +472,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-flex">
               <div className="home_servce-_card">
                 <Link href="/our-services/dynamics-365-support-services/">
                   <a>
@@ -492,7 +492,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-flex">
               <div className="home_servce-_card">
                 <Link href="#exampleModal">
                   <a data-bs-toggle="modal">
@@ -512,7 +512,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-flex">
               <div className="home_servce-_card">
                 <Link href="#exampleModal">
                   <a data-bs-toggle="modal">
@@ -532,7 +532,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 d-flex">
               <div className="home_servce-_card">
               <Link href="#exampleModal">
                   <a data-bs-toggle="modal">
