@@ -1180,14 +1180,14 @@ Marketing</h3>
                   {/* <a href="/" className="btnnew">Read More</a> */}
                 </div>
                 <div className="bottom-sec">
-                  <img src="/img/home/roi.png" alt="im " />
+                  <img src="/img/home-p-1.png" alt="Businesses Meet Expected ROI" />
                 </div>
               </div>
             </div>
             <div className="col-lg-4">
               <div className="exp-box">
                 <div className="bottom-sec b-t-pad">
-                  <img src="/img/home/2x.png" alt="im " />
+                  <img src="/img/home-p-2.png" alt="Productivity Increases" />
                 </div>
                 <div className="top-sec ">
                   <h3>2x</h3>
@@ -1207,7 +1207,7 @@ Marketing</h3>
                   {/* <a href="/" className="btnnew">Read More</a> */}
                 </div>
                 <div className="bottom-sec">
-                  <img src="/img/home/46x.jpg" alt="im" />
+                  <img src="/img/home-p-3.png" alt="Improved Cost Saving" />
                 </div>
               </div>
             </div>
