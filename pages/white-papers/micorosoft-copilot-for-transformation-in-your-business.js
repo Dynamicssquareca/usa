@@ -396,7 +396,7 @@ const fetchCountryCodeByIP = () => {
                       </label>
                     </div>
 
-                    <div className="spinner-wrapper">
+                    <div className="spinner-wrapper spinner-wrapper-custom">
                       <button
                         type="submit"
                         className="btn btn-primary fomr-submit"
