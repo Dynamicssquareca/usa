@@ -7294,8 +7294,12 @@ overflow:hidden
 .case-study-bann h1 {
   font-size: 28px;
 }
-.casestudy-list-more {
+.casestudy-list-more .swiper {
+  height: auto;
+  padding-bottom: 60px;
+  margin-bottom: -40px;
 }
+
 .casestudy-list-more .swiper-slide img {
   object-fit: contain;
 }
@@ -7303,6 +7307,34 @@ overflow:hidden
   height: 275px;
   padding: 20px 30px;
 }
+.casestudy-list-more .industries-list-more.r--more {
+  height: 240px;
+  padding: 20px 30px;
+}
+.new-case-card-one{
+  padding: 20px 20px 5px;
+    background: rgb(243 248 255);
+    margin-bottom:20px
+}
+.hh-height{}
+.new-case-card-one.col-d-bl{
+  background:#ffffff;
+  min-height: 220px;
+}
+.new-case-card-one h3{
+  font-size: 17px;
+    color: var(--color-blue);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.new-case-card-one ul{
+  padding-left: 20px;
+}
+.new-case-card-one li{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
 .custom-pd-2,
 .custom-pd-3 {
   background: #fff;
