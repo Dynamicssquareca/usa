@@ -4521,7 +4521,7 @@ position:relative;
 
 /*industry css*/
 .custom-pd-1 {
-  padding: 80px 0px 40px 0px;
+  padding: 60px 0px 60px 0px;
 }
 
 .content-icons-modil-1 {
@@ -4537,7 +4537,8 @@ position:relative;
 
 .content-inner-moil-1 {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  align-items: center;
 }
 
 .content-inner-moil-1 .icons-left {
@@ -4549,7 +4550,6 @@ position:relative;
   width: 48px;
   height: 48px;
   align-items: center;
-  margin-top: 10px;
   display: flex;
   justify-content: center;
   box-shadow: 0px 0px 10px #01297042;
@@ -4582,6 +4582,8 @@ position:relative;
 }
 
 .content-inner-moil-1 .cintent-right p {
+  margin-bottom:0;
+  line-height: 1.5;
 }
 
 .over-img img {
@@ -4654,8 +4656,8 @@ overflow:hidden
 
 .industry-more-sec {
   background-color: var(--color-bg);
-  margin-top: -30px;
-  padding-top: 80px;
+  margin-top: 0px;
+  padding-top: 60px;
 }
 
 .mobile-margin-01 {
@@ -10383,6 +10385,39 @@ margin-bottom: 20px;
   color: #bb2b36;
   padding-right: 10px;
 }
+.case-consultion{
+  text-align: center;
+    padding: 20px;
+    background: #f4f6ff;
+    border-radius: 15px;
+    position:relative;
+}
+.case-consultion h3{
+  color: var(--color-blue);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 25px;
+
+}
+.case-consultion::before,.case-consultion::after {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  z-index: -1;
+  border-radius: 15px;
+}
+.case-consultion::before{
+  left: -14px;
+  top: 0;
+  box-shadow: 0px 4px 5px #0000009c;
+}
+.case-consultion::after {
+  right: -10px;
+  bottom: 5px;
+  box-shadow: 0px 4px 5px #0000009c;
+}
 /*new home media*/
 @media (min-width: 1400px) and (max-width: 1800px){
   .banner-ne-im-t .bf{
@@ -11455,7 +11490,8 @@ margin-bottom: 20px;
   .call_to_action-height {
     height: auto;
     padding-bottom: 60px;
-    padding-top: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
   }
 
   .call_to_action .call_to_action-left {

@@ -424,7 +424,19 @@ const CaseStudyTwo = () => {
 
 
 
-
+    <section>
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <div className="case-consultion">
+              <h3>Conclusion</h3>
+              <p>The client experienced enhanced functionality, flexibility, and productivity in their CRM system by transitioning from Salesforce to Microsoft Dynamics 365 Sales. The customized business process flow, advanced pricing models, easy integration with the website, adobe and extensive analytical capabilities greatly enhanced their operational efficiency and the ability to make strategic decisions. </p>
+              <p>The inclusion of Microsoft Copilot further enhanced productivity, setting the client for future growth and advancement. This migration not only resolved their earlier CRM challenges but also laid the foundation for continuous expansion and success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
