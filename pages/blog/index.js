@@ -332,7 +332,7 @@ function Blogshome({ blogs, businesscentral, categoryblogs, blograndomblogs, blo
           </div>
         ))
       ) : (
-        <p>No blogs available at the moment.</p>
+        <p style={{textAlign:'center',padding:'100px 60px',fontSize:'30px',color:'#bb2b36',fontWeight:'600'}}>No blogs available at the moment.</p>
       )}
     </div>
   );
