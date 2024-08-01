@@ -8753,7 +8753,7 @@ color:var(--color-red)
   align-items: center !important;
 }
 .new-banner {
-  padding: 140px 0px 160px;
+  padding: 80px 0px 160px;
   background: rgb(112, 38, 161);
   background: radial-gradient(
       114.59% 93.23% at 16.77% 0%,
