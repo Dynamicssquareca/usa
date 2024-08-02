@@ -103,12 +103,12 @@ const Inedex = () => {
             </div>
           </div>
           <div className="row p-2">
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex">
               <div className="location-list-wrper">
                 <h3>Implementation Service</h3>
                 <p>We empower your organization to adopt a standard and most modern approach while implementing Microsoft's sophisticated technology. Our Innovative implementation services help you derive high business values and growth opportunities.</p>
                 <br />
-                <div className="text-lg-center">
+                <div className="text-lg-center rr">
                   <a
                     href="/our-services/dynamics-365-implementation-services"
                     className="btn-get-started btn-sm scrollto"
@@ -118,12 +118,12 @@ const Inedex = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex">
               <div className="location-list-wrper">
                 <h3>Upgrade Service</h3>
                 <p>Upgrade your legacy system capabilities, automate process flows, adapt to change, and understand your employees and customers with our highly integrated and requirement-specific Dynamics 365 upgrade services.</p>
                 <br />
-                <div className="text-lg-center">
+                <div className="text-lg-center rr">
                   <a
                     href="/our-services/dynamics-365-upgrade-services/"
                     className="btn-get-started btn-sm scrollto"
@@ -134,12 +134,12 @@ const Inedex = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-4 col-md-6 d-flex">
               <div className="location-list-wrper">
                 <h3>Support Service</h3>
                 <p>Drive business continuity, monitor your system and processes continuously, and ensure sustainability to attain long-term success with our personalized support services.</p>
                 <br />
-                <div className="text-lg-center">
+                <div className="text-lg-center rr">
                   <a
                     href="/our-services/dynamics-365-support-services"
                     className="btn-get-started btn-sm scrollto"
@@ -152,6 +152,24 @@ const Inedex = () => {
           </div>
         </div>
       </section>
+
+      <style jsx>{`
+
+      .location-list-wrper{
+      position: relative;
+      padding: 30px 15px;
+      }
+         .location-list-wrper p{
+         padding-bottom: 25px;}
+         .location-list-wrper .rr{
+         position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);}
+         .location-list-wrper .btn-get-started{
+         padding: 0.6rem 1.8rem;
+    font-size: 15px;}
+      `}</style>
         </>
     );
 }
