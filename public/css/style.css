@@ -12832,12 +12832,15 @@ ul.checkmark li {
   border-radius: 50%;
     width: 74px;
     height: 74px;
+    object-fit: cover;
 }
 .author-side-head .left .link-din{
-  position: absolute;
+  /* position: absolute;
     bottom: 0;
-    left: 25%;
+    left: 25%; */
     font-size: 16px;
+    display: block;
+    margin: 10px 0px 0px 30px;
 }
 .author-side-head .left .link-din a i{
   color:#fff
@@ -13047,10 +13050,7 @@ margin:0px 10px 10px 0px
   .blogs-lates h2 a, .blogs-lates h3 a {
     font-size: 36px !important;
 }
-.author-side-head .left .link-din{
 
-    left: 30%;
-}
 }
 @media (min-width: 993px) and (max-width: 1199px){
   .blogs-breadcromb {
@@ -13153,6 +13153,12 @@ margin:0px 10px 10px 0px
   .popup-cust .content {
     padding: 0px;
   }
+  .author-side-head {
+    flex-wrap: wrap;
+}
+.author-side-head .left .link-din{
+  margin: 10px 0px 15px 30px;
+}
 }
 .pagination {
   display: flex;
