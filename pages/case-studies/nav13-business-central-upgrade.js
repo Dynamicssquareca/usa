@@ -77,7 +77,7 @@ const Dmic = () => {
             <div className="col-lg-6 align-self-center">
               <Image src="/img/cast-stu-pic.png" alt="cast-stu-pic" width={484} height={407}/>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 align-self-center">
               <div className="content-icons-modil-1">
                 <div className="content-inner-moil-1">
                   <div className="icons-left">

@@ -154,8 +154,8 @@ const CaseStudyTwo = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Objectives of the Migration</h2>
-            <p>Dynamics Square proposed migrating to Microsoft Dynamics 365 Sales with the following objectives:</p>
+            <h2>Objectives of the Reimplementation</h2>
+            <p>Dynamics Square proposed a complete overhaul of Microsoft Dynamics 365 Sales to achieve the following goals:</p>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -207,7 +207,7 @@ const CaseStudyTwo = () => {
                             />
                           </div>
                           <div className="text-wrp-content">
-                            <p>Implement a highly customizable CRM system to accommodate specific business requirements.</p>
+                            <p><b>Data Cleaning:</b> Remove duplicate entries to maintain clean and accurate data for precise operations and decision-making.</p>
                           </div>
                         </div>
                       </div>
@@ -223,7 +223,7 @@ const CaseStudyTwo = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>Develop a strong pricing model to handle different factors affecting the price of the solution.</p>
+                              <p><b>Better Lead and Customer Management:</b> Improve the management of leads and customer relationships to increase the probability of revenue and growth.</p>
                             </div>
                           </div>
                         </div>
@@ -240,7 +240,7 @@ const CaseStudyTwo = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>Facilitate seamless integration between the CRM and the website so they work in tandem.</p>
+                              <p><b>Optimized Opportunity and Activity Management: </b>Improve the efficiency of workflows and processes.</p>
                             </div>
                           </div>
                         </div>
@@ -257,7 +257,24 @@ const CaseStudyTwo = () => {
                               />
                             </div>
                             <div className="text-wrp-content">
-                              <p>Provide comprehensive, customizable, and feature-rich dashboard and report generation capabilities for better business insights.</p>
+                              <p><b>Integration with QuickBooks and Other Solutions: </b>Allow smooth interoperability for enhanced operational capabilities.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                      <div className="swiper-slide">
+                        <div className="swiper-slide">
+                          <div className="industries-list-more r--more">
+                            <div className="img-wrp">
+                              <img
+                                src="/img/material-lightbulb-outline.svg"
+                                alt="Ecommerce"
+                              />
+                            </div>
+                            <div className="text-wrp-content">
+                              <p><b>Custom Dashboards and Reports:</b> Deliver in-depth and actionable insights for the business.</p>
                             </div>
                           </div>
                         </div>
@@ -278,57 +295,48 @@ const CaseStudyTwo = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <header className="section-header">
-                <h2>Solutions delivered: <br />Dynamics 365 Sales with Copilot</h2>
+                <h2>Solutions delivered: <br />Microsoft Dynamics 365 Sales</h2>
               </header>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4 d-flex">
               <div className="new-case-card-one">
-                <h3>Customized Business Process Flow:</h3>
+                <h3>Data Cleaning and System Refinement:</h3>
                 <ul>
-                  <li>Developed a customized business process flow to enhance workflows and boost overall efficiency.</li>
-                  <li>Implemented various stages of the sales cycle to enhance clarity and provide clear direction.</li>
+                  <li>Removed identical data and refined system and custom views.</li>
+                  <li>Set up and configured dashboards for real-time insights</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-4 d-flex">
               <div className="new-case-card-one">
-                <h3>Advanced Product Catalogue and Flexible Pricing Models:  </h3>
+                <h3>Enhanced Security Setup:  </h3>
                 <ul>
-                  <li>Developed a flexible pricing system to effectively handle fluctuating rates depending on the season, time of day, and day of the week. </li>
-                  <li>Helped the client implement a pricing strategy that allowed them to stay competitive and increase their revenue.</li>
+                  <li>Implemented robust security measures to manage two entities with different sales teams under one Dynamics environment.</li>
+                  <li>Enhanced security translated into enhanced risk management and adherence to data privacy regulations.</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-4 d-flex">
               <div className="new-case-card-one">
-                <h3>Integration with Website:</h3>
+                <h3>Integration with WordPress and Outlook:</h3>
                 <ul>
-                  <li>Integrated Dynamics 365 Sales with the website to automate lead generation directly from web inquiries to track leads and ensure no leads were missed.</li>
-                  <li>Integrated the CRM with Outlook, Teams, and Adobe to improve operational efficiency.</li>
-                  <li>Enhanced the efficiency and precision of lead management. </li>
+                  <li>Connected the CRM with the client’s WordPress website and Outlook for improved lead management and communication.</li>
+                  <li>This increased sales by reducing the possibility of losing sales opportunities across the platforms.</li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-4 d-flex">
               <div className="new-case-card-one">
-                <h3>Custom Dashboards and Reports:</h3>
+                <h3>Automated Email Notifications:</h3>
                 <ul>
-                  <li>Developed custom dashboards to enable the client to get real-time insights into key performance indicators (KPIs) and business metrics.</li>
-                  <li>Provided the clients with data-driven decision-making capabilities by creating comprehensive reports for sales analysis, forecasting, and strategic planning.</li>
+                  <li>Configured automatic email notifications for various stages of the sales process.</li>
+                  <li>This included follow-up emails for quotes not converted to orders, confirmation emails for new orders, and thank you emails for created invoices.</li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-4 d-flex">
-              <div className="new-case-card-one">
-                <h3>Configuration of Copilot:</h3>
-                <ul>
-                  <li>Enabled Microsoft Copilot for smart tips and insights to boost productivity.</li>
-                  <li>Utilized predictive analytics and contextual recommendations to enhance user experience.</li>
-                </ul>
-              </div>
-            </div>
+           
           </div>
         </div>
       </section>
@@ -338,7 +346,7 @@ const CaseStudyTwo = () => {
       <section className="industry-more-sec casestudy-list-more">
         <div className="container">
           <header className="section-header">
-            <h2>Benefits of this Migration </h2>
+            <h2>Benefits of the Reimplementation</h2>
           </header>
           <div className="row mobile-margin-01">
             <div className="col-lg-12">
@@ -383,43 +391,28 @@ const CaseStudyTwo = () => {
                     <SwiperSlide>
                       <div className="swiper-slide hh-heigt">
                         <div className="new-case-card-one col-d-bl">
-                          <h3>Enhanced Customization and Flexibility: </h3>
-                          <p>Sales productivity increased with better sales cycle management. Dynamics 365 Sales allowed easy customization to meet company needs. </p>
+                          <h3>Automation and Efficiency: </h3>
+                          <p>Automated tasks were performed without human interaction which reduced errors to zero. Integrations bridged gaps in cross-functional communication and eliminated data duplicity.</p>
                         </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="swiper-slide hh-heigt ">
                         <div className="new-case-card-one col-d-bl">
-                          <h3>Optimized Pricing Strategies:</h3>
-                          <p>Advanced pricing model optimized pricing strategy and profitability. Easy sophisticated price management gave the client a competitive advantage.</p>
+                          <h3>Comprehensive Customer View:</h3>
+                          <p>Provided a 360-degree view of customer interactions and reports.</p>
                         </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide>
                       <div className="swiper-slide hh-heigt">
                         <div className="new-case-card-one col-d-bl">
-                          <h3>Improved Lead Management:</h3>
-                          <p>The integration of D365 Sales with the website enhanced lead generation and management, resulting in better conversion rates and reduced errors in optimizing the sales pipeline.</p>
+                          <h3>Improved Productivity and Data Insights:</h3>
+                          <p>Automation enhanced productivity and lead-to-customer conversion rates. Improved customer experience led to repeat sales. Accurate sales and employee closure data.</p>
                         </div>
                       </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="swiper-slide hh-heigt">
-                        <div className="new-case-card-one col-d-bl">
-                          <h3>Superior Analytics and Reporting:</h3>
-                          <p>Custom dashboards and reports let the client make strategic decisions. Real-time sales and customer data enabled proactive management.</p>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="swiper-slide hh-heigt">
-                        <div className="new-case-card-one col-d-bl">
-                          <h3>Increased Productivity with Copilot:</h3>
-                          <p>Copilot's intelligent suggestions and insights reduced routine tasks, enabling sales teams to focus on critical tasks and enhancing user experience, satisfaction, and adoption rates.</p>
-                        </div>
-                      </div>
-                    </SwiperSlide>
+                 
                     
 
 
@@ -440,8 +433,7 @@ const CaseStudyTwo = () => {
           <div className="col-lg-8">
             <div className="case-consultion">
               <h3>Conclusion</h3>
-              <p>The client experienced enhanced functionality, flexibility, and productivity in their CRM system by transitioning from Salesforce to Microsoft Dynamics 365 Sales. The customized business process flow, advanced pricing models, easy integration with the website, adobe and extensive analytical capabilities greatly enhanced their operational efficiency and the ability to make strategic decisions. </p>
-              <p>The inclusion of Microsoft Copilot further enhanced productivity, setting the client for future growth and advancement. This migration not only resolved their earlier CRM challenges but also laid the foundation for continuous expansion and success.</p>
+              <p>The client experienced substantial improvements in CRM capabilities and operational productivity by reimplementing Dynamics 365 Sales. The reimplementation of the solution led to clean and accurate data, simplified workflows, seamless integration, increased efficiency, and superior customer management. The comprehensive dashboards and analytical reports delivered crucial insights that helped in decision-making and laying the groundwork for sustained growth and achievement.</p>
             </div>
           </div>
         </div>
