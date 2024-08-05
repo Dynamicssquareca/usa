@@ -18,7 +18,7 @@ const CaseStudyTwo = () => {
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/case-studies/salesforce-to-microsoft-dynamics-365-sales/"
+          href="https://www.dynamicssquare.com/case-studies/implementation-microsoft-dynamics-365-sales/"
         />
         <meta name="robots" content="noindex, nofollow" />
       </Head>
