@@ -332,7 +332,7 @@ function Post({ blogs = [], blogcat = [], authordetials = [], author = {} }) {
             </div>
           ))
         ) : (
-          <p style={{textAlign:'center',padding:'100px 60px',fontSize:'30px',color:'#bb2b36',fontWeight:'600'}}>No blogs available at the moment.</p>
+          <p style={{textAlign:'center',padding:'100px 60px',fontSize:'30px',color:'#bb2b36',fontWeight:'600'}}>Wow, this page is popular! Refresh the page to see the content.</p>
         )}
       </section>
     </div>
