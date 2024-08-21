@@ -16,21 +16,21 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Microsoft Solutions Partner in USA | Dynamics Square</title>
+        <title>Certified Microsoft Dynamics Partner in USA | Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics Square is the USA's leading Microsoft Solutions Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
+          content="Dynamics Square is the USA's leading Microsoft Dynamics Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
         />
         <link rel="canonical" href="https://www.dynamicssquare.com/" />
         <meta
           property="og:title"
-          content="Microsoft Solutions Partner in USA | Dynamics Square"
+          content="Certified Microsoft Dynamics Partner in USA | Dynamics Square"
         />
         <meta property="og:site_name" content="Dynamics Square" />
         <meta property="og:url" content="https://www.dynamicssquare.com" />
         <meta
           property="og:description"
-          content="Dynamics Square is the USA's leading Microsoft Solutions Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
+          content="Dynamics Square is the USA's leading Microsoft Dynamics Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -45,11 +45,11 @@ export default function Home() {
         />
         <meta
           property="twitter:title"
-          content="Microsoft Solutions Partner in USA | Dynamics Square"
+          content="Certified Microsoft Dynamics Partner in USA | Dynamics Square"
         />
         <meta
           property="twitter:description"
-          content="Dynamics Square is the USA's leading Microsoft Solutions Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
+          content="Dynamics Square is the USA's leading Microsoft Dynamics Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
         />
         <meta
           property="twitter:image"
@@ -321,7 +321,7 @@ export default function Home() {
           <div className="row d-flex d-f-c">
             <div className="col-lg-6 align-self-center">
               <div className="home-into-page-title">
-                <h1>USA's <span>Leading</span> Microsoft Solutions Partner</h1>
+                <h1>USA's <span>Leading</span> Microsoft Dynamics Partner</h1>
                 <p>Get your hands-on with an AI-driven ERP solution; Maximize ROI, Accelerate Business Growth, and Bring Automation - Your Path to Success Starts Here.</p>
                 <div className="new-btn-home">
                   <Link href="#exampleModal" >
@@ -356,7 +356,7 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="new-sub-heading">
-                <h2>500+ Global Businesses Trust Us</h2>
+                <h2>Connected With 500+ Global Businesses</h2>
                 <p>Our AI-driven Microsoft Cloud Solutions are helping 500+ worldwide businesses grow and scale at a rapid rate, leveraging digital transformation.</p>
               </div>
             </div>
@@ -421,7 +421,7 @@ export default function Home() {
 
             <div className="col-lg-9">
               <div className="new-sub-heading">
-                <h2>Get Unmatched Services from Dynamics Square</h2>
+                <h2>Get Microsoft Cloud Solutions For Your Business Needs</h2>
                 <p>Drive your business success by implementing tailored and powerful innovative solutions for all industries.</p>
               </div>
             </div>
@@ -611,7 +611,7 @@ export default function Home() {
         <div className="row justify-content-center">
           <div className="col-lg-9">
             <div className="new-sub-heading">
-              <h2>Industry <br /> Tailored Solutions</h2>
+              <h2>Industry <br /> Specific Dynamics 365 Solutions</h2>
               <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries, harness the data, and capture insights using AI-enabled software.</p>
             </div>
           </div>
@@ -807,7 +807,7 @@ export default function Home() {
               <div className="bg-posti">
                 <img src="/img/home/shape-down.png" alt="shape-down" />
               </div>
-              <h2>Industry <br /> Tailored Solutions</h2>
+              <h2>Industry <br /> Specific Dynamics 365 Solutions</h2>
               <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries, harness the data, and capture insights using AI-enabled software.</p>
             </div>
           </div>
@@ -886,7 +886,7 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="new-sub-heading">
-                <h2>Explore Microsoft Dynamics 365 Solutions: Powerful and Effective</h2>
+                <h2>Best Microsoft Dynamics 365 Partner Solutions for Business Growth</h2>
                 <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p>
               </div>
             </div>
