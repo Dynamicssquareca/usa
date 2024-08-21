@@ -1849,6 +1849,10 @@ position:relative;
   border: 0;
   font-size: 16px;
 }
+.faq .accordion-body ul li{
+  color: var(--color-grey);
+  margin-bottom:10px
+}
 
 /*--------------------------------------------------------------
 # Portfolio

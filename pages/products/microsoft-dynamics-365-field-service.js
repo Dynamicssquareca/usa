@@ -545,51 +545,16 @@ const FieldService = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      Microsoft Dynamics 365 Field Service is designed to manage
-                      your end-to-end field service practices while saving time,
-                      cost, and efforts. It helps to improve and deliver onsite
-                      services to your customers to their locations. It empowers
-                      your field executives to work collaboratively leveraging
-                      onsite experience to fix customer issues in a seamless
-                      manner.
-                      <br />
-                      <br />
-                      <b>
-                        Here are the features involved in Microsoft Field
-                        Service:
-                      </b>
-                      <br />
+                    <p>One of the CRMs within the <a href="/products/microsoft-dynamics-crm/">Microsoft Dynamics CRM</a> suite, Microsoft Dynamics 365 Field Service is designed to manage your end-to-end field service practices while saving time, cost, and efforts. It helps to improve and deliver onsite services to your customers to their locations. It empowers your field executives to work collaboratively leveraging onsite experience to fix customer issues in a seamless manner. 
+                    </p>
+                     <p><b>Here are the features involved in Microsoft Field Service: 
+                     </b></p>
                       <ul>
-                        <li>
-                          Create and manage work orders seamlessly at customers’
-                          locations. By making effective use of scheduling and
-                          dispatch tools, manage your resources and equipment to
-                          improve your customer service, and optimize service
-                          schedules.
-                        </li>
-                        <li>
-                          Enhance communication and improve collaboration among
-                          customer service agents, field technicians,
-                          dispatchers, customers, and other stakeholders. Manage
-                          schedule change and service work in real-time.
-                        </li>
-                        <li>
-                          Manage your assets and enable preventive maintenance,
-                          stay updated with customer history and service status.
-                          Connect and engage them to deliver seamless field
-                          service with real-time efficiency.
-                        </li>
-                        <li>
-                          Seamlessly manage your stock levels, purchase order
-                          fulfillment, and product returns. Generate customer
-                          invoices, track resources, and more with Microsoft 365
-                          Field Service Automation.
-                        </li>
-                        <li>
-                          Develop key analytics and reports related to work
-                          order management, customer interactions & engagement,
-                          and other scheduling activities.
-                        </li>
+                        <li>Create and manage work orders seamlessly at customers’ locations. By making effective use of scheduling and dispatch tools, manage your resources and equipment to improve your customer service, and optimize service schedules. </li>
+                        <li>Enhance communication and improve collaboration among customer service agents, field technicians, dispatchers, customers, and other stakeholders. Manage schedule change and service work in real-time. </li>
+                        <li>Manage your assets and enable preventive maintenance, stay updated with customer history and service status. Connect and engage them to deliver seamless field service with real-time efficiency. </li>
+                        <li>Seamlessly manage your stock levels, purchase order fulfillment, and product returns. Generate customer invoices, track resources, and more with Microsoft 365 Field Service Automation. </li>
+                        <li>Develop key analytics and reports related to work order management, customer interactions & engagement, and other scheduling activities. </li>
                       </ul>
                     </div>
                   </div>

@@ -473,9 +473,7 @@ const Sales = () => {
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#faq-content-1"
-                    >
-                      What is Microsoft Dynamics 365 Sales?
-                    </button>
+                    >What is Microsoft Dynamics 365 Sales? </button>
                   </h3>
                   <div
                     id="faq-content-1"
@@ -483,16 +481,7 @@ const Sales = () => {
                     data-bs-parent="#faqlist1"
                   >
                     <div className="accordion-body">
-                      <p>
-                        Microsoft Dynamics 365 Sales is designed to accelerate
-                        and manage your sales campaigns with in-built AI
-                        insights and modern customer management facilitation. It
-                        helps to automate your sales or customer data to engage
-                        and drive the right customers at right time using any
-                        device whether desktop, mobile, or tablet. With Dynamics
-                        365 Sales, proactively manage your customers,
-                        collaborate with your team, and drive profitability.
-                      </p>
+                      <p>Microsoft Dynamics 365 Sales is one of the CRMs available within the <a href="/products/microsoft-dynamics-crm/">Microsoft Dynamics CRM</a> suite. It is designed to accelerate and manage your sales campaigns with built-in AI insights and modern customer management facilitation. It helps to automate your sales or customer data to engage and drive the right customers at the right time using any device, whether desktop, mobile, or tablet. With Dynamics 365 Sales, proactively manage your customers, collaborate with your team, and drive profitability. </p>
                     </div>
                   </div>
                 </div>
