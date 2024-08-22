@@ -7,7 +7,7 @@ const SupportServices = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics 365 Support (ERP & CRM) Services | Dynamics Square</title>
+        <title>Microsoft Dynamics 365 Support Services | ERP & CRM</title>
         <meta
           name="description"
           content="Looking for Microsoft Dynamics 365 Support? Get Dynamics 365 CRM and ERP support service plans at Dynamics Square. Do call us Today!"
@@ -18,7 +18,7 @@ const SupportServices = () => {
         />
         <meta property="og:locale" content="US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Microsoft Dynamics 365 Support (ERP & CRM) Services | Dynamics Square" />
+        <meta property="og:title" content="Microsoft Dynamics 365 Support Services | ERP & CRM" />
         <meta property="og:description" content="Looking for Microsoft Dynamics 365 Support? Get Dynamics 365 CRM and ERP support service plans at Dynamics Square. Do call us Today!" />
         <meta property="og:url" content="https://www.dynamicssquare.com/our-services/dynamics-365-support-services/" />
         <meta property="og:site_name" content="Dynamics Square USA" />
@@ -28,7 +28,7 @@ const SupportServices = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_us" />
-        <meta name="twitter:title" content="Microsoft Dynamics 365 Support (ERP & CRM) Services | Dynamics Square" />
+        <meta name="twitter:title" content="Microsoft Dynamics 365 Support Services | ERP & CRM" />
         <meta name="twitter:description" content="Looking for Microsoft Dynamics 365 Support? Get Dynamics 365 CRM and ERP support service plans at Dynamics Square. Do call us Today!" />
         <meta name="twitter:image" content="https://www.dynamicssquare.com/img/support-service-banner.png" />
       </Head>

@@ -7,7 +7,7 @@ const UpgradeServices = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 ERP and CRM Upgrade Services in USA</title>
+        <title>Microsoft Dynamics 365 Upgrade Services | ERP & CRM</title>
         <meta
           name="description"
           content="Legacy ERP like Dynamics AX, NAV, or GP is outdated. It is more of a burden than an ERP solution. Contact Dynamics Square for ERP & CRM upgrade help."
