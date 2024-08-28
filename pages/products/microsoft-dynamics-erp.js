@@ -9,7 +9,7 @@ const Erp = () => {
         <title>Top Microsoft Dynamics ERP Consulting Services</title>
         <meta
           name="description"
-          content="Accelerate Your Business Efficiency with Microsoft Dynamics ERP Solutions. Streamline your process and automate your data with Microsoft Dynamics ERP."
+          content="Dynamics Square offers Microsoft Dynamics ERP consulting. Optimize your business processes with best solutions and professional support. Call us now."
         />
         <link
           rel="canonical"

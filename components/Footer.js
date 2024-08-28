@@ -490,7 +490,7 @@ const fetchCountryCodeByIP = () => {
                 </a>
                 <p>
                   Dynamics Square is USA's leading Microsoft Solution Certified Partner
-                  that caters to the needs of orgnizations who can source
+                  that caters to the needs of organizations who can source
                   next-gen Microsoft Business Apps from our highly skilled
                   Microsoft consultants.
                 </p>

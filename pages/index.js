@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Certified Microsoft Dynamics Partner in USA | Dynamics Square</title>
+        <title>Certified Microsoft Dynamics Partner in USA | Dynamics Square™</title>
         <meta
           name="description"
           content="Dynamics Square is the USA's leading Microsoft Dynamics Partner. Contact us at +1-281-899-0865 for implementation, upgrade, and consulting services."
@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="canonical" href="https://www.dynamicssquare.com/" />
         <meta
           property="og:title"
-          content="Certified Microsoft Dynamics Partner in USA | Dynamics Square"
+          content="Certified Microsoft Dynamics Partner in USA | Dynamics Square™"
         />
         <meta property="og:site_name" content="Dynamics Square" />
         <meta property="og:url" content="https://www.dynamicssquare.com" />
@@ -45,7 +45,7 @@ export default function Home() {
         />
         <meta
           property="twitter:title"
-          content="Certified Microsoft Dynamics Partner in USA | Dynamics Square"
+          content="Certified Microsoft Dynamics Partner in USA | Dynamics Square™"
         />
         <meta
           property="twitter:description"
