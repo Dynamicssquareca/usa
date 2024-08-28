@@ -647,7 +647,7 @@ export default function Home() {
                           <p>Eliminate language barriers, reduce equipment downtime, ensure continuous supply chain, monitor inventory, and improve the overall efficiency of your manufacturing plant.</p>
                           <div className="new-btn-home">
                             <Link href="/industries/manufacturing/" >
-                              <a className="bts bts-white">
+                              <a className="bts bts-white" aria-label="manufacturing">
                                 <span>Learn More  <i className="bi bi-arrow-right"></i></span>
                               </a>
                             </Link>
@@ -1215,7 +1215,7 @@ Marketing</h3>
             <div className="col-lg-12">
               <div className="new-btn-home text-center top-bom-home">
                 <Link href="/case-studies/" >
-                  <a className="bts">
+                  <a className="bts" aria-label="case studies">
                     <span>Read More <i className="bi bi-arrow-right"></i></span>
                   </a>
                 </Link>
