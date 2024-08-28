@@ -37,7 +37,7 @@ const Card = () => {
       onMouseMove={(evt) => calculateTransform(evt, cardRef)}
       ref={cardRef}
     >
-      <img src="/img/home/hover-servece.png" alt="im" />
+      <img src="/img/home/hover-servece.png" alt="im" width={1001} height={447} />
     </div>
   );
 };

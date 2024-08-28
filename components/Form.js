@@ -252,6 +252,7 @@ const fetchCountryCodeByIP = () => {
                         checked
                         readOnly
                         className="form-check-input"
+                        aria-label="form-check" 
                       />
                       <label className="form-check-label">
                         I agree to the

@@ -340,7 +340,7 @@ export default function Home() {
                     <CardVideo />
                   </div>
                   <div className="over-ima">
-                    <img src="/img/hand-icons.png" alt="image" />
+                    <img src="/img/hand-icons.png" alt="image" width={438} height={796} />
                   </div>
                 </div>
 
@@ -430,7 +430,7 @@ export default function Home() {
           <div className="row">
             <div className="col-lg-12">
               <div className="shpe-bg">
-                <div className="abs"><img src="/img/home/nee-sahpe.png" alt="bgiconns" /></div>
+                <div className="abs"><img src="/img/home/nee-sahpe.png" alt="bgiconns" width={388} height={216} /></div>
               </div>
             </div>
 
@@ -568,7 +568,7 @@ export default function Home() {
                 </div>
                 <div className="right">
                   <div className="bttom-shape">
-                    <img src="/img/home/Union.png" alt="Union" />
+                    <img src="/img/home/Union.png" alt="Union" width={271} height={145} />
                   </div>
                   <p>Microsoft-certified technical consultants are just a call away to help you out, irrespective of the errors of the business solution.</p>
                 </div>
@@ -583,7 +583,7 @@ export default function Home() {
                 </div>
                 <div className="right">
                   <div className="bttom-shape">
-                    <img src="/img/home/Union.png" alt="Union" />
+                    <img src="/img/home/Union.png" alt="Union" width={271} height={145} />
                   </div>
                   <p>Customer satisfaction is the sole reason we have been working for our 500+ clients round the clock.</p>
                 </div>
@@ -598,7 +598,7 @@ export default function Home() {
                 </div>
                 <div className="right">
                   <div className="bttom-shape">
-                    <img src="/img/home/Union.png" alt="Union" />
+                    <img src="/img/home/Union.png" alt="Union" width={271} height={145} />
                   </div>
                   <p>Years of experience have taught us to resolve challenging business issues, in no time with a 100% success rate.</p>
                 </div>
@@ -805,7 +805,7 @@ export default function Home() {
           <div className="col-lg-5 align-self-center">
             <div className="slider-left-info">
               <div className="bg-posti">
-                <img src="/img/home/shape-down.png" alt="shape-down" />
+                <img src="/img/home/shape-down.png" alt="shape-down" width={388} height={216} />
               </div>
               <h2>Industry <br /> Specific Dynamics 365 Solutions</h2>
               <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries, harness the data, and capture insights using AI-enabled software.</p>
@@ -909,8 +909,8 @@ export default function Home() {
                 <p>
                   An all-in-one business management solution specifically designed for SMBs and startups that offers a 360-degree holistic view of the entire business with full transparency across different operations.
                 </p>
-                <Link href="/products/dynamics-365-business-central/">
-                  <a>
+                <Link href="/products/dynamics-365-business-central/" >
+                  <a aria-label="business-central">
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -937,7 +937,7 @@ export default function Home() {
                   Simplify complex financial operations while getting real-time data analytics and accurate insights. Avail automation, minimize investment costs, and monitor financial processes with data-driven insights.
                 </p>
                 <Link href="/products/microsoft-dynamics-365-finance/">
-                  <a>
+                  <a aria-label="microsoft-dynamics-365-finance">
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -962,7 +962,7 @@ export default function Home() {
                 </div>
                 <p>Automate your entire supply chain process with Dynamics 365 Supply Chain Management. Boost efficiency, cut costs, enhance accuracy, gain real-time insights, and improve customer service.</p>
                 <Link href="/products/dynamics-365-supply-chain-management/">
-                  <a>
+                  <a aria-label="dynamics-365-supply-chain-management">
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -989,7 +989,7 @@ export default function Home() {
                 </div>
                 <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
                 <Link href="/products/microsoft-dynamics-365-sales/">
-                  <a>
+                  <a aria-label="microsoft-dynamics-365-sales">
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -1016,7 +1016,7 @@ export default function Home() {
                 </div>
                 <p>Analyze and visualize the huge stack of data with interactive graphical representations to make data-driven decisions in real-time. Transform your data to make it accessible and valuable to refine decision-making.</p>
                 <Link href="/products/microsoft-power-bi/">
-                  <a>
+                  <a aria-label="microsoft-power-bi">
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
@@ -1041,7 +1041,7 @@ export default function Home() {
                 </div>
                 <p>A simple yet powerful ERP solution to manage, control, and track entire business operations with full visibility. Connect different departments, automate sales, and manage all back-end processes with ease.</p>
                 <Link href="/products/microsoft-dynamics-nav/">
-                  <a>
+                  <a aria-label="microsoft-dynamics-nav">
                     <div className="h-s-call" >
                       <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                     </div>
