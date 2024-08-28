@@ -11,16 +11,30 @@ const CaseStudyTwo = () => {
   return (
     <>
       <Head>
-        <title>Upgrade from Dynamics NAV 2009 Business Central On-Premise</title>
+        <title>Reimplementation of Microsoft Dynamics 365 Sales</title>
         <meta
           name="description"
-          content="Mexi Land worked with Dynamics Square to upgrade Dynamics NAV 2009 to Business Central On-premise. Read the case story to gain insights."
+          content="Revamp your sales with Microsoft Dynamics 365 Sales reimplementation. Optimize processes, boost efficiency, and drive growth with tailored solutions."
         />
         <link
           rel="canonical"
           href="https://www.dynamicssquare.com/case-studies/implementation-microsoft-dynamics-365-sales/"
         />
-        <meta name="robots" content="noindex, nofollow" />
+      <meta property="og:locale" content="US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Reimplementation of Microsoft Dynamics 365 Sales" />
+        <meta property="og:description" content="Revamp your sales with Microsoft Dynamics 365 Sales reimplementation. Optimize processes, boost efficiency, and drive growth with tailored solutions." />
+        <meta property="og:url" content="https://www.dynamicssquare.com/case-studies/implementation-microsoft-dynamics-365-sales/" />
+        <meta property="og:site_name" content="Dynamics Square USA" />
+        <meta property="og:image" content="https://www.dynamicssquare.com/img/stainless-inner.png" />
+        <meta property="og:image:width" content="200" />
+        <meta property="og:image:height" content="200" />
+        <meta property="og:image:type" content="image/png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dsquare_us" />
+        <meta name="twitter:title" content="Reimplementation of Microsoft Dynamics 365 Sales" />
+        <meta name="twitter:description" content="Revamp your sales with Microsoft Dynamics 365 Sales reimplementation. Optimize processes, boost efficiency, and drive growth with tailored solutions." />
+        <meta name="twitter:image" content="https://www.dynamicssquare.com/img/stainless-inner.png" />
       </Head>
 
       <section className="hero-1 hero">
@@ -38,9 +52,9 @@ const CaseStudyTwo = () => {
             <div className="col-lg-6 align-self-center">
               <div className="sider-over">
                 <Image
-                  src="/img/Dynamics-365-Business-Central.png"
-                  alt="Dynamics-365-Business-Centra"
-                  width={1024} height={597}
+                  src="/img/stainless-inner.png"
+                  alt="stainless-inner"
+                  width={724} height={462}
                 />
               </div>
             </div>

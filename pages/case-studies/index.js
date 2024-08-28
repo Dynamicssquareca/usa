@@ -105,37 +105,60 @@ const CaseStudyList = () => {
                   aria-labelledby="v-pills-home-tab"
                 >
                   <div className="row">
-                    {/* <div className="col-lg-6">
+                  <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img
-                            src="/img/crm-trading-1.png"
-                            alt="crm-trading"
+                          <Image
+                            src="/img/wedding-venues-side.png"
+                            alt="wedding-venues-side"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>
-                            See how CRM Trading boosted it's operational
-                            efficiency by upgrading from Dynamics NAV 2009 to
-                            Dynamics NAV 2018.
-                          </p>
+                          <p>Migration from Salesforce to <br/>Microsoft Dynamics 365 Sales</p>
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/crm-trading/"
+                            href="/case-studies/salesforce-to-microsoft-dynamics-365-sales/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
                           </a>
                         </div>
                       </div>
-                    </div> */}
+                    </div>
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img
+                          <Image
+                            src="/img/satinless.png"
+                            alt="satinless"
+                            width={850}
+                            height={410}
+                          />
+                        </div>
+                        <div className="commen-boc-2-info">
+                          <p>Reimplementing Microsoft Dynamics 365 Sales to Boost Efficiency and Results</p>
+                        </div>
+                        <div className="btn-003">
+                          <a
+                            href="/case-studies/implementation-microsoft-dynamics-365-sales/"
+                            className="btn btn md btn-danger"
+                          >
+                            Read Case Study
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="commen-box-2 commen-box-9">
+                        <div className="icons icons-0102">
+                          <Image
                             src="/img/case-studies-1.jpg"
                             alt="cs-DMIC-logo"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
@@ -156,10 +179,11 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/case-studies-2.jpg" alt="MexiLand_logos" />
+                          <Image src="/img/case-studies-2.jpg" alt="MexiLand_logos"  width={850}
+                            height={410} />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>Learn How a popular Mexican Candy Manufacturing Company resolved issues by upgrading Dynamics NAV 2009 to Business Central (On-Premises).</p>
+                          <p>See how a Mexican candy company upgraded from Dynamics NAV 2009.</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -199,9 +223,11 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img
+                          <Image
                             src="/img/case-studies-3.jpg"
                             alt="cs-lnl-logo"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
@@ -245,14 +271,16 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img
+                          <Image
                             src="/img/case-studies-5.jpg"
                             alt="Discovery-Cube-logo"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
                           <p>
-                          A Non-profit changing the lives of millions of young minds increased productivity by 3x and reduced input costs by 68%.
+                          Non-profit tripled productivity <br/> and cut costs by 68%.
                           </p>
                         </div>
                         <div className="btn-003">
@@ -268,13 +296,15 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img 
+                          <Image 
                             src="/img/case-studies-6.jpg"
                             alt="msh-logo"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>See How USA's Well-Known Health Organization Achieved 5x Productivity and 78% input costs reduction!</p>
+                          <p>USA health organization boosted productivity 5x and cut costs 78%.</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -357,7 +387,7 @@ const CaseStudyList = () => {
                         </div>
                         <div className="btn-003">
                           <a
-                            href="/case-studies/crm-trading/"
+                            href="/case-studies/implementation-microsoft-dynamics-365-sales/"
                             className="btn btn md btn-danger"
                           >
                             Read Case Study
@@ -368,9 +398,11 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img
+                          <Image
                             src="/img/case-studies-1.jpg"
                             alt="cs-DMIC-logo"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
@@ -391,10 +423,11 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img src="/img/case-studies-2.jpg" alt="MexiLand_logos" />
+                          <Image src="/img/case-studies-2.jpg" alt="MexiLand_logos"  width={850}
+                            height={410} />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>Learn How a popular Mexican Candy Manufacturing Company resolved issues by upgrading Dynamics NAV 2009 to Business Central (On-Premises).</p>
+                          <p>See how a Mexican candy company upgraded from Dynamics NAV 2009.</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -443,9 +476,11 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img
+                          <Image
                             src="/img/case-studies-3.jpg"
                             alt="cs-lnl-logo"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
@@ -489,13 +524,15 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img
+                          <Image
                             src="/img/case-studies-5.jpg"
                             alt="Discovery-Cube-logo"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>A Non-profit changing the lives of millions of young minds increased productivity by 3x and reduced input costs by 68%.</p>
+                          <p>Non-profit tripled productivity <br/> and cut costs by 68%.</p>
                         </div>
                         <div className="btn-003">
                           <a
@@ -510,13 +547,15 @@ const CaseStudyList = () => {
                     <div className="col-lg-6">
                       <div className="commen-box-2 commen-box-9">
                         <div className="icons icons-0102">
-                          <img 
+                          <Image 
                             src="/img/case-studies-6.jpg"
                             alt="msh-logo"
+                            width={850}
+                            height={410}
                           />
                         </div>
                         <div className="commen-boc-2-info">
-                          <p>See How USA's Well-Known Health Organization Achieved 5x Productivity and 78% input costs reduction!</p>
+                          <p>USA health organization boosted productivity 5x and cut costs 78%.</p>
                         </div>
                         <div className="btn-003">
                           <a
