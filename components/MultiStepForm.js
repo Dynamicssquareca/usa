@@ -68,8 +68,6 @@ const MultiStepForm = () => {
                             <form onSubmit={handleSubmit} className='servay-form-new'>
                                 {step === 1 && (
                                     <div>
-
-
                                         <div className="mb-3">
                                             <label for="formGroupExampleInput" className="form-label">What industry are you in?</label>
                                             <select id="inputState" className="form-select"
@@ -110,63 +108,63 @@ const MultiStepForm = () => {
                                         <div className="mb-3">
                                             <label for="formGroupExampleInput" className="form-label">Which regions do you operate in?</label>
                                             <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="UK" />
-                                            <label className="form-check-label" for="UK">
-                                                UK
-                                            </label>
+                                                <input className="form-check-input" type="checkbox" value="" id="UK" />
+                                                <label className="form-check-label" for="UK">
+                                                    UK
+                                                </label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="Ireland" />
+                                                <label className="form-check-label" for="Ireland">
+                                                    Ireland
+                                                </label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="Europe" />
+                                                <label className="form-check-label" for="Europe">
+                                                    Europe
+                                                </label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="North America" />
+                                                <label className="form-check-label" for="North America">
+                                                    North America
+                                                </label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="South America" />
+                                                <label className="form-check-label" for="South America">
+                                                    South America
+                                                </label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="Africa" />
+                                                <label className="form-check-label" for="Africa">
+                                                    Africa
+                                                </label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="Asia" />
+                                                <label className="form-check-label" for="Asia">
+                                                    Asia
+                                                </label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="Middle East" />
+                                                <label className="form-check-label" for="Middle East">
+                                                    Middle East
+                                                </label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="checkbox" value="" id="Australia" />
+                                                <label className="form-check-label" for="Australia">
+                                                    Australia
+                                                </label>
+                                            </div>
                                         </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="Ireland" />
-                                            <label className="form-check-label" for="Ireland">
-                                                Ireland
-                                            </label>
-                                        </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="Europe" />
-                                            <label className="form-check-label" for="Europe">
-                                                Europe
-                                            </label>
-                                        </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="North America" />
-                                            <label className="form-check-label" for="North America">
-                                                North America
-                                            </label>
-                                        </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="South America" />
-                                            <label className="form-check-label" for="South America">
-                                                South America
-                                            </label>
-                                        </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="Africa" />
-                                            <label className="form-check-label" for="Africa">
-                                                Africa
-                                            </label>
-                                        </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="Asia" />
-                                            <label className="form-check-label" for="Asia">
-                                                Asia
-                                            </label>
-                                        </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="Middle East" />
-                                            <label className="form-check-label" for="Middle East">
-                                                Middle East
-                                            </label>
-                                        </div>
-                                        <div className="form-check">
-                                            <input className="form-check-input" type="checkbox" value="" id="Australia" />
-                                            <label className="form-check-label" for="UK">
-                                                Australia
-                                            </label>
-                                        </div>
-                                        </div>
-                                        
 
-                                        <button type="button" className='btn btn-info' onClick={nextStep}>
+
+                                        <button type="button" className='btn btn-success' onClick={nextStep}>
                                             Next
                                         </button>
                                     </div>
@@ -291,10 +289,10 @@ const MultiStepForm = () => {
                                                 <option value="More than 18 months">More than 18 months</option>
                                             </select>
                                         </div>
-                                        <button type="button" className='btn btn-info' onClick={prevStep}>
+                                        <button type="button" className='btn btn-outline-secondary' onClick={prevStep}>
                                             Back
                                         </button>
-                                        <button type="button" className='btn btn-info' onClick={nextStep}>
+                                        <button type="button" className='btn btn-success' onClick={nextStep}>
                                             Next
                                         </button>
                                     </div>
@@ -304,7 +302,7 @@ const MultiStepForm = () => {
                                     <div>
                                         <h2>Contact Information</h2>
                                         <div className='mb-3'>
-                                            <label for="formGroupExampleInput" class="form-label">Name:</label>
+                                            <label for="formGroupExampleInput" className="form-label">Name:</label>
                                             <input
                                                 type="text"
                                                 name="name"
@@ -315,7 +313,7 @@ const MultiStepForm = () => {
                                             />
                                         </div>
                                         <div className='mb-3'>
-                                            <label for="formGroupExampleInput" class="form-label">Email:</label>
+                                            <label for="formGroupExampleInput" className="form-label">Email:</label>
                                             <input
                                                 type="email"
                                                 name="email"
@@ -326,7 +324,7 @@ const MultiStepForm = () => {
                                             />
                                         </div>
                                         <div className='mb-3'>
-                                            <label for="formGroupExampleInput" class="form-label">Telephone:</label>
+                                            <label for="formGroupExampleInput" className="form-label">Telephone:</label>
                                             <input
                                                 type="tel"
                                                 className="form-control"
@@ -337,7 +335,7 @@ const MultiStepForm = () => {
                                             />
                                         </div>
                                         <div className='mb-3'>
-                                            <label for="formGroupExampleInput" class="form-label">Company Name:</label>
+                                            <label for="formGroupExampleInput" className="form-label">Company Name:</label>
                                             <input
                                                 type="text"
                                                 className="form-control"
@@ -348,7 +346,7 @@ const MultiStepForm = () => {
                                             />
                                         </div>
                                         <div className='mb-3'>
-                                            <label for="formGroupExampleInput" class="form-label">Job Role:</label>
+                                            <label for="formGroupExampleInput" className="form-label">Job Role:</label>
                                             <input
                                                 type="text"
                                                 className="form-control"
@@ -358,10 +356,10 @@ const MultiStepForm = () => {
                                                 required
                                             />
                                         </div>
-                                        <button type="button" className='btn btn-Waring' onClick={prevStep}>
+                                        <button type="button" className='btn btn-outline-secondary' onClick={prevStep}>
                                             Back
                                         </button>
-                                        <button type="submit" className='btn btn-info'>Submit</button>
+                                        <button type="submit" className='btn btn-success'>Submit</button>
                                     </div>
                                 )}
                             </form>
@@ -373,6 +371,57 @@ const MultiStepForm = () => {
           background: #ededed;
           padding: 60px 140px;
           }
+          .servay-form-new{
+
+}
+.servay-form-new .form-label{
+  font-size: 14px;
+    font-weight: 500;
+    color: #1d3557;
+    margin-bottom: 15px;
+}
+.servay-form-new .form-control{
+  height: 45px;
+  border: 2px solid #f1f0f4;
+    border-radius: 5px;
+    background-color: #f1f0f4;
+}
+.servay-form-new .form-select{
+  height: 45px;
+  border: 2px solid #f1f0f4;
+    border-radius: 5px;
+    background-color: #f1f0f4;
+}
+    .servay-form-new .form-check{
+    margin-bottom: 10px;
+    }
+    .form-check .form-check-input{
+    margin-right: 1em;
+    width: 1.3em;
+    height: 1.3em;
+    border-radius: 0 !important;
+    }
+.servay-form-new .mb-3 {
+  margin-bottom: 1rem !important;
+  background: #fff;
+  padding: 20px 30px;
+}
+.servay-form-new .btn{
+  padding: 0.6rem 3.5rem;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.servay-form-new .form-check-input{
+
+}
+.servay-form-new .form-select:focus,.servay-form-new .form-control:focus {
+  border-color: #f1f0f4;
+  outline: 0;
+  box-shadow: none;
+  background-color:#ffffff
+}
       `}</style>
             </section>
         </>
