@@ -405,6 +405,7 @@ const MultiStepForm = () => {
   margin-bottom: 1rem !important;
   background: #fff;
   padding: 20px 30px;
+  border-radius: 8px;
 }
 .servay-form-new .btn{
   padding: 0.6rem 3.5rem;
