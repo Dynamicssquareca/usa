@@ -289,6 +289,38 @@ const MultiStepForm = () => {
                                                 <option value="More than 18 months">More than 18 months</option>
                                             </select>
                                         </div>
+                                        <div className='mb-3'>
+                                        <label for="formGroupExampleInput" className="form-label"> Do you need a Fixed Asset register and/or Budgeting in your solution?</label>
+                                            <div className="form-check form-check-inline">
+                                                <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" />
+                                                <label className="form-check-label" for="inlineRadio1">Yes</label>
+                                            </div>
+                                            <div className="form-check form-check-inline">
+                                                <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
+                                                <label className="form-check-label" for="inlineRadio2">No</label>
+                                            </div>
+
+                                        </div>
+                                        <div className='mb-3'>
+                                        <label for="formGroupExampleInput" className="form-label">How many companies does your business include?</label>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4" />
+                                                <label className="form-check-label" for="inlineRadio4">1</label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5" />
+                                                <label className="form-check-label" for="inlineRadio5">2 to 5</label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6" />
+                                                <label className="form-check-label" for="inlineRadio6">6 to 10</label>
+                                            </div>
+                                            <div className="form-check">
+                                                <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option7" />
+                                                <label className="form-check-label" for="inlineRadio7">More than 10</label>
+                                            </div>
+
+                                        </div>
                                         <button type="button" className='btn btn-outline-secondary' onClick={prevStep}>
                                             Back
                                         </button>
