@@ -829,7 +829,10 @@ export default function Home() {
             <div className="col-lg-11">
               <div className="testmonial-slide-home">
                 <div className="img-1" >
-                  <img src="/img/home/quote-left.png" width={112} height={82} alt="" />
+                  <img src="/img/home/quote-left.png" width={112} height={82} alt="quote" />
+                </div>
+                <div className="img-3">
+                  <img src="/img/marketing-integration-google-reviews-badge.png" alt="" />
                 </div>
                 <Swiper
                   autoplay={{
@@ -846,7 +849,7 @@ export default function Home() {
                 >
 
                   <SwiperSlide>
-
+                    
                     <div className="test-inner">
                       <p>We were using an outgrown legacy system with potential chances of errors, data loss, and cyber-attacks. These are some of the reasons that pushed us to upgrade to Dynamics 365 Finance and Operations with a cloud deployment. The team at Dynamics Square has successfully implemented this solution in the stated time without any after-sales cost.</p>
                       <span>-Chief Financial Officer at a Non-profit organization</span>
@@ -870,10 +873,22 @@ export default function Home() {
                       <span>-Sina Moatamed</span>
                     </div>
                   </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="test-inner">
+                      <p>We had an excellent experience with Dynamics Square. Arish was incredibly helpful and responsive, ensuring our needs were met quickly. The development and project teams expertly translated our requirements into effective solutions, exceeding our expectations. We're very pleased with the results and highly recommend Dynamics Squared for their professionalism and commitment to client satisfaction. Thank you, Arish and team!</p>
+                      <span>-David Karpiak</span>
+                    </div>
+                  </SwiperSlide>
+                   <SwiperSlide>
+                    <div className="test-inner">
+                      <p>Good pricing and quick response from our account manager. They helped us with trouble shoot and trainings.</p>
+                      <span>-Emma Liang</span>
+                    </div>
+                  </SwiperSlide>
 
                 </Swiper>
                 <div className="img-2">
-                  <img src="/img/home/quote-right.png" width={112} height={82} alt="" />
+                  <img src="/img/home/quote-right.png" width={112} height={82} alt="quote" />
                 </div>
               </div>
             </div>

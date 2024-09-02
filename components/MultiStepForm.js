@@ -14,6 +14,7 @@ const MultiStepForm = () => {
 
     const [showOtherInput1, setShowOtherInput1] = useState(false);
     const [showOtherInput2, setShowOtherInput2] = useState(false);
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
     const nextStep = () => {
         setStep(step + 1);
@@ -55,8 +56,164 @@ const MultiStepForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         console.log(formData);
+        setFormData({
+            name: '',
+            email: '',
+            telephone: '',
+            selectedOption1: '',
+            otherInput1: '',
+            selectedOption2: '',
+            otherInput2: '',
+        });
+
+        // Show the thank you message
+        setIsSubmitted(true);
         // Submit the form data to an API or other endpoint
     };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // const MultiStepForm = () => {
+    //     const [step, setStep] = useState(1);
+    //     const [formData, setFormData] = useState({
+    //         name: '',
+    //         email: '',
+    //         telephone: '',
+    //         selectedOption1: '',
+    //         otherInput1: '',
+    //         selectedOption2: '',
+    //         otherInput2: '',
+    //         annualRevenue: '',
+    //         reasonForNewSystem: [], 
+    //         currentSystem: '',
+    //         projectBudget: '',
+    //         projectTimeline: '',
+    //         fixedAssetRegister: '',
+    //         numberOfCompanies: ''
+    //     });
+    
+    //     const [showOtherInput1, setShowOtherInput1] = useState(false);
+    //     const [showOtherInput2, setShowOtherInput2] = useState(false);
+    
+    //     const nextStep = () => {
+    //         setStep(step + 1);
+    //         window.scrollTo({ top: 0, behavior: 'smooth' });
+    //     };
+    
+    //     const prevStep = () => {
+    //         setStep(step - 1);
+    //         window.scrollTo({ top: 0, behavior: 'smooth' });
+    //     };
+    
+    //     const handleChange = (e) => {
+    //         const { name, value } = e.target;
+    //         setFormData((prevFormData) => {
+    //             const newFormData = { ...prevFormData, [name]: value };
+    
+    //             if (name === 'selectedOption1') {
+    //                 if (value === 'other') {
+    //                     setShowOtherInput1(true);
+    //                 } else {
+    //                     setShowOtherInput1(false);
+    //                     newFormData.otherInput1 = ''; /
+    //                 }
+    //             }
+    
+    //             if (name === 'selectedOption2') {
+    //                 if (value === 'other') {
+    //                     setShowOtherInput2(true);
+    //                 } else {
+    //                     setShowOtherInput2(false);
+    //                     newFormData.otherInput2 = ''; 
+    //                 }
+    //             }
+    
+    //             return newFormData;
+    //         });
+    //     };
+    
+    //     const handleCheckboxChange = (e) => {
+    //         const { value, checked } = e.target;
+    //         setFormData((prevFormData) => {
+    //             const newReasons = checked
+    //                 ? [...prevFormData.reasonForNewSystem, value]
+    //                 : prevFormData.reasonForNewSystem.filter((item) => item !== value);
+    
+    //             return { ...prevFormData, reasonForNewSystem: newReasons };
+    //         });
+    //     };
+    
+    //     const handleRadioChange = (e) => {
+    //         const { name, value } = e.target;
+    //         setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
+    //     };
+    
+    //     const handleSubmit = async (e) => {
+    //         e.preventDefault();
+    //         console.log(formData); 
+    
+    //         try {
+    //             const response = await fetch('https://api.example.com/submit', { 
+    //                 method: 'POST',
+    //                 headers: {
+    //                     'Content-Type': 'application/json',
+    //                 },
+    //                 body: JSON.stringify(formData),
+    //             });
+    
+    //             if (!response.ok) {
+    //                 throw new Error('Network response was not ok');
+    //             }
+    
+    //             const result = await response.json();
+    //             console.log(result); 
+    
+              
+    //             setFormData({
+    //                 name: '',
+    //                 email: '',
+    //                 telephone: '',
+    //                 selectedOption1: '',
+    //                 otherInput1: '',
+    //                 selectedOption2: '',
+    //                 otherInput2: '',
+    //                 annualRevenue: '',
+    //                 reasonForNewSystem: [],
+    //                 currentSystem: '',
+    //                 projectBudget: '',
+    //                 projectTimeline: '',
+    //                 fixedAssetRegister: '',
+    //                 numberOfCompanies: ''
+    //             });
+    //             setStep(1);
+    //             alert('Thank you for your submission!');
+    //         } catch (error) {
+    //             console.error('There was a problem with the fetch operation:', error);
+    //             alert('There was a problem with your submission. Please try again.');
+    //         }
+    //     };
+
+
+
+
+
+
 
     return (
         <>
@@ -64,6 +221,12 @@ const MultiStepForm = () => {
                 <div className='container'>
                     <div className='row justify-content-center pad-100'>
                         <div className='col-lg-7'>
+                        {isSubmitted ? (
+                            <div className="thank-you-message">
+                                <h2>Thank you for submitting the form!</h2>
+                            </div>
+                         ) : (
+                            <>
                             <ProgressBar step={step} />
                             <form onSubmit={handleSubmit} className='servay-form-new'>
                                 {step === 1 && (
@@ -395,6 +558,8 @@ const MultiStepForm = () => {
                                     </div>
                                 )}
                             </form>
+</>
+)}
                         </div>
                     </div>
                 </div>

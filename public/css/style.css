@@ -9164,6 +9164,22 @@ color:var(--color-red)
   bottom: -36px;
   z-index: 2;
 }
+.testmonial-slide-home .img-3{
+  position: absolute;
+  top: 7px;
+  right: 4px;
+  z-index: 2;
+  mix-blend-mode: multiply;
+  width: 170px;
+}
+.testmonial-slide-home .swiper-slide{
+  height: auto;
+    min-height: 300px;
+    background: #f2f8fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* .testmonial-slide-home .test-inner:before{
   content: "";
     width: 100%;
@@ -10549,7 +10565,7 @@ margin-bottom: 20px;
  
 }
 @media (min-width: 768px) and  (max-width: 1200px){
-
+  
   .ll-pic {
     margin-top: -120px;
 }
@@ -10885,6 +10901,7 @@ margin-bottom: 20px;
 }
 }
 @media (max-width: 600px) {
+  
   .fixed-top {
     background: #fff;
     padding: 15px 10px;
@@ -10928,6 +10945,11 @@ margin-bottom: 20px;
 }
 }
 @media (max-width: 768px) {
+  .testmonial-slide-home .img-3 {
+    top: -21px;
+    right: -20px;
+    width: 140px;
+}
   .exp-box .bottom-sec{
     height: 275px;
   }
