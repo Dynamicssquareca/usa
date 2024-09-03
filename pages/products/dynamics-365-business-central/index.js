@@ -3111,12 +3111,7 @@ const BusinessCentralNew = () => {
                     Businesses
                   </h3>
                   <p>
-                    We are the USA's reliable and trusted{" "}
-                    <Link href="/microsoft-dynamics-365-partner/">
-                      <a>Microsoft Dynamics 365 partner</a>
-                    </Link>
-                    , helping businesses work to their full potential while
-                    scaling operations for enhanced growth.
+                    We are the USA's reliable and trusted Microsoft Dynamics 365 partner, helping businesses work to their full potential while scaling operations for enhanced growth.
                   </p>
                   <Link href="/schedule-a-demo/">
                     <a className="btn btn-md">

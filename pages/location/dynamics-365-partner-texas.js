@@ -173,7 +173,7 @@ const Dynamics365PartnerTexas = () => {
                   <p>
                     As a leading{" "}
                     <Link href="/">
-                      <a>Microsoft Solutions Partner</a>
+                      <a>Microsoft Dynamics Partner</a>
                     </Link>
                     , we help you maximize your business growth by connecting
                     your data, processes, and teams with Microsoft's Powerful
@@ -186,11 +186,7 @@ const Dynamics365PartnerTexas = () => {
                       <a>Dynamics 365 Applications</a>
                     </Link>{" "}
                     seamlessly integrated with your existing systems to build a
-                    comprehensive business management system. As a Texas-based{" "}
-                    <Link href="/microsoft-dynamics-365-partner/">
-                      <a>Dynamics 365 Partner</a>
-                    </Link>
-                    , Dynamics Square can extensively guide you through the
+                    comprehensive business management system. As a Texas-based Dynamics 365 Partner, Dynamics Square can extensively guide you through the
                     evaluation process and customize the chosen ERP application
                     that meets your needs. We serve clients across the United
                     States and provide support for the entire Dynamics 365
