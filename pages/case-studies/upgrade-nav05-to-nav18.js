@@ -11,7 +11,7 @@ const CaseStudyTheLand = () => {
   return (
     <>
       <Head>
-      <title>Upgrade ERP from Dynamics NAV05 to NAV 2018 | Case Study</title>
+      <title>Upgrade ERP from Dynamics NAV05 to NAV 2018 - Case Study</title>
 <meta name="description" content="Discover how a flooring products company achieved greater efficiency and functionality by upgrading their ERP system from Dynamics NAV05 to NAV 2018. "/>
 <link rel="canonical" href="https://www.dynamicssquare.com/case-studies/upgrade-nav05-to-nav18/" />
       </Head>

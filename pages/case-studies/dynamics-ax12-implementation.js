@@ -11,7 +11,7 @@ const Dcube = () => {
   return (
     <>
       <Head>
-        <title> Implemented Microsoft Dynamics AX 2012 On-Premises</title>
+        <title> Implemented Microsoft Dynamics AX 2012 On-Premises - Case Study</title>
         <meta
           name="description"
           content="This case study highlights the successful implementation of Microsoft Dynamics AX 2012 On-Premises for a company, resulting in improved business processes."

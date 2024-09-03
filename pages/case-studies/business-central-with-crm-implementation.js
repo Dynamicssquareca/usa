@@ -11,7 +11,7 @@ const CaseStudyTwo = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Business Central and CRM implementation</title>
+        <title>Dynamics 365 Business Central and CRM implementation - Case Study</title>
         <meta
           name="description"
           content="Optimize operations and enhance customer relationships with Dynamics 365 Business Central and CRM implementation for growth and efficiency."
@@ -22,7 +22,7 @@ const CaseStudyTwo = () => {
         />
       <meta property="og:locale" content="US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Dynamics 365 Business Central and CRM implementation" />
+        <meta property="og:title" content="Dynamics 365 Business Central and CRM implementation - Case Study" />
         <meta property="og:description" content="Optimize operations and enhance customer relationships with Dynamics 365 Business Central and CRM implementation for growth and efficiency." />
         <meta property="og:url" content="https://www.dynamicssquare.com/case-studies/business-central-with-crm-implementation/" />
         <meta property="og:site_name" content="Dynamics Square USA" />
@@ -32,7 +32,7 @@ const CaseStudyTwo = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_us" />
-        <meta name="twitter:title" content="Dynamics 365 Business Central and CRM implementation" />
+        <meta name="twitter:title" content="Dynamics 365 Business Central and CRM implementation - Case Study" />
         <meta name="twitter:description" content="Optimize operations and enhance customer relationships with Dynamics 365 Business Central and CRM implementation for growth and efficiency." />
         <meta name="twitter:image" content="https://www.dynamicssquare.com/img/truecare-inner.png" />
       </Head>

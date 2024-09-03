@@ -12,7 +12,7 @@ const Nimr = () => {
   return (
     <>
       <Head>
-        <title>Implementation of Dynamics AX 2012 On-Premises | Case Study</title>
+        <title>Implementation of Dynamics AX 2012 On-Premises - Case Study</title>
         <meta
           name="description"
           content="Discover how a nonprofit advisory organization achieved operational excellence by implementing Dynamics AX 2012 On-Premises in this insightful case study"

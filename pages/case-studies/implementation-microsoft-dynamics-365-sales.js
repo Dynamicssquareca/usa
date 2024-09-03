@@ -11,7 +11,7 @@ const CaseStudyTwo = () => {
   return (
     <>
       <Head>
-        <title>Reimplementation of Microsoft Dynamics 365 Sales</title>
+        <title>Reimplementation of Microsoft Dynamics 365 Sales - Case Study</title>
         <meta
           name="description"
           content="Revamp your sales with Microsoft Dynamics 365 Sales reimplementation. Optimize processes, boost efficiency, and drive growth with tailored solutions."
@@ -22,7 +22,7 @@ const CaseStudyTwo = () => {
         />
       <meta property="og:locale" content="US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Reimplementation of Microsoft Dynamics 365 Sales" />
+        <meta property="og:title" content="Reimplementation of Microsoft Dynamics 365 Sales - Case Study" />
         <meta property="og:description" content="Revamp your sales with Microsoft Dynamics 365 Sales reimplementation. Optimize processes, boost efficiency, and drive growth with tailored solutions." />
         <meta property="og:url" content="https://www.dynamicssquare.com/case-studies/implementation-microsoft-dynamics-365-sales/" />
         <meta property="og:site_name" content="Dynamics Square USA" />
@@ -32,7 +32,7 @@ const CaseStudyTwo = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_us" />
-        <meta name="twitter:title" content="Reimplementation of Microsoft Dynamics 365 Sales" />
+        <meta name="twitter:title" content="Reimplementation of Microsoft Dynamics 365 Sales - Case Study" />
         <meta name="twitter:description" content="Revamp your sales with Microsoft Dynamics 365 Sales reimplementation. Optimize processes, boost efficiency, and drive growth with tailored solutions." />
         <meta name="twitter:image" content="https://www.dynamicssquare.com/img/stainless-inner.png" />
       </Head>

@@ -11,7 +11,7 @@ const CaseStudyTwo = () => {
   return (
     <>
       <Head>
-        <title>Migration from Salesforce to Microsoft Dynamics 365 Sales</title>
+        <title>Migration from Salesforce to Microsoft Dynamics 365 Sales - Case Study</title>
         <meta
           name="description"
           content="Effortlessly migrate from Salesforce to Microsoft Dynamics 365 Sales. Streamline data transfer and enhance CRM efficiency with improved features."
@@ -22,7 +22,7 @@ const CaseStudyTwo = () => {
         />
        <meta property="og:locale" content="US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Migration from Salesforce to Microsoft Dynamics 365 Sales" />
+        <meta property="og:title" content="Migration from Salesforce to Microsoft Dynamics 365 Sales - Case Study" />
         <meta property="og:description" content="Effortlessly migrate from Salesforce to Microsoft Dynamics 365 Sales. Streamline data transfer and enhance CRM efficiency with improved features." />
         <meta property="og:url" content="https://www.dynamicssquare.com/case-studies/salesforce-to-microsoft-dynamics-365-sales/" />
         <meta property="og:site_name" content="Dynamics Square USA" />
@@ -32,7 +32,7 @@ const CaseStudyTwo = () => {
         <meta property="og:image:type" content="image/png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dsquare_us" />
-        <meta name="twitter:title" content="Migration from Salesforce to Microsoft Dynamics 365 Sales" />
+        <meta name="twitter:title" content="Migration from Salesforce to Microsoft Dynamics 365 Sales - Case Study" />
         <meta name="twitter:description" content="Effortlessly migrate from Salesforce to Microsoft Dynamics 365 Sales. Streamline data transfer and enhance CRM efficiency with improved features." />
         <meta name="twitter:image" content="https://www.dynamicssquare.com/img/wedding-venues-banner.png" />
       </Head>
