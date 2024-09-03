@@ -248,10 +248,7 @@ const MicrosoftDynamicsPartnerUsa = () => {
                 <h2>
                   Your Trusted Microsoft Dynamics 365 Implementation Partners{" "}
                 </h2>
-                <p>
-                  Get Tailored Solutions That Meet Your Unique Requirements.
-                  with us. <Link href="/"><a>USA's Leading Microsoft Solutions Partner.</a></Link> 
-                </p>
+                <p>Get Tailored Solutions That Meet Your Unique Requirements, with us. We are Dynamics Square, USA's Leading <a href="/">Microsoft Dynamics Partner</a>.</p>
               </header>
             </div>
           </div>

@@ -1056,7 +1056,7 @@ const MicrosoftDynamicsCrm = () => {
                 </div>
                 <div className="rig">
                   <h3>Microsoft Gold Partner</h3>
-                  <p>Dynamics Square is an authorized <Link href="/"><a>Microsoft Gold partner</a></Link> or Microsoft Solutions partner with the perfect resources and infrastructure to support your business regardless of complexity.</p>
+                  <p>Dynamics Square is an authorized Microsoft Gold partner or <a href="/">Microsoft Dynamics partner</a> with the perfect resources and infrastructure to support your business regardless of complexity.</p>
                 </div>
               </div>
             </div>

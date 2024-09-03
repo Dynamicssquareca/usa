@@ -11,7 +11,7 @@ const Dmic = () => {
   return (
     <>
       <Head>
-        <title>Dynamics NAV 2013 to Business Central On-Premise Upgrade</title>
+        <title>Dynamics NAV 2013 to Business Central On-Premise Upgrade - Case Study</title>
         <meta
           name="description"
           content="America's leading aerospace manufacturing company migrated from Dynamics NAV 2013 to Business Central. Learn how they overcome the challenges."

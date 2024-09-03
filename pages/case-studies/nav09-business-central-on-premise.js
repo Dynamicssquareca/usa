@@ -11,7 +11,7 @@ const CaseStudyMaxiLand = () => {
   return (
     <>
       <Head>
-        <title>Upgrade from Dynamics NAV 2009 Business Central On-Premise</title>
+        <title>Upgrade from Dynamics NAV 2009 Business Central On-Premise - Case Study</title>
         <meta
           name="description"
           content="Mexi Land worked with Dynamics Square to upgrade Dynamics NAV 2009 to Business Central On-premise. Read the case story to gain insights."
