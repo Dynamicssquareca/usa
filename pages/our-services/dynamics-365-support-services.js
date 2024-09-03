@@ -122,9 +122,7 @@ const SupportServices = () => {
                   Dynamics 365 Support Plans We Offer
                 </h3>
                 <p>
-                <Link href="/">Dynamics Square</Link> will handle every aspect of your Dynamics 365
-                  system from user support, training, customization, technical
-                  consultancy to development work.
+                Dynamics Square, your trusted <a href="/">Microsoft Dynamics partner</a> will handle every aspect of your Dynamics 365 system from user support, training, customization, technical consultancy to development work.
                 </p>
               </div>
             </div>

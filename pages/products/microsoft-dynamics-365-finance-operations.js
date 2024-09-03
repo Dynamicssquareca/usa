@@ -1789,7 +1789,7 @@ const MicrosoftDynamics365FinanceOperations = () => {
             <div className="col-lg-7 align-self-center">
               <div className="left--side-title">
                 <h2>Dynamics Square: <br />Your Partner in Growth! </h2>
-                <p>Dynamics Square is a certified <Link href="/"><a>Microsoft Solutions Partner</a></Link> offering its reliable, trustworthy, and cost-effective services to global businesses. </p>
+                <p>Dynamics Square is a certified <Link href="/"><a>Microsoft Dynamics Partner</a></Link> offering its reliable, trustworthy, and cost-effective services to global businesses. </p>
               </div>
             </div>
             <div className="col-lg-5 align-self-center">

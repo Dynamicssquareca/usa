@@ -3032,7 +3032,7 @@ const BusinessCentralNew = () => {
                   <p>
                     As a{" "}
                     <Link href="/">
-                      <a>Microsoft Solutions Partner</a>
+                      <a>Microsoft Dynamics Partner</a>
                     </Link>
                     , we have 150+ Microsoft-certified Dynamics 365 consultants.
                     We are available to help you resolve any issue and build
