@@ -1,6 +1,7 @@
 import React from 'react';
 import MultiStepForm from '../components/MultiStepForm';
 import Head from 'next/head';
+import FooterHide from '../components/FooterHide';
 
 const TestForm = () => {
     
@@ -12,6 +13,8 @@ const TestForm = () => {
             </Head>
 
             <MultiStepForm />
+
+            <FooterHide />
         </div>
     );
 }

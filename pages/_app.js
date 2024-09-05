@@ -147,7 +147,7 @@ function MyApp({ Component, pageProps }) {
     router.asPath == '/thanks-webinar-registration/' ||
     router.asPath == '/dynamics-nav-support-ending-soon/' ||
     router.asPath == '/schedule-a-demo/' ||
-    router.asPath == '/schedule-a-demo'
+    router.asPath == '/test-form/' 
 
   ) {
     return (
