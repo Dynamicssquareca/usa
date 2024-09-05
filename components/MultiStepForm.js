@@ -11,6 +11,16 @@ const MultiStepForm = () => {
         regions: '',
         looking_for: '',
         financeSystem: '',
+        Fixed_assets: '',
+        budget_project: '',
+        expected_imeline: '',
+        business_include: '',
+        sales_orders: '',
+        hold_inventry: '',
+        ware_house:'',
+        manufacture_items:'',
+        access_system:'',
+        employees_count:'',
         name: '',
         email: '',
         companyName: '',
@@ -77,7 +87,7 @@ const MultiStepForm = () => {
         let valid = true;
         let errors = {};
 
-        if (step === 3) {
+        if (step === 4) {
             if (!formValues.name) {
                 errors.name = 'Name is required';
                 valid = false;
@@ -133,7 +143,17 @@ const MultiStepForm = () => {
                 annual_revenue: '',
                 regions: '',
                 financeSystem: '',
+                Fixed_assets: '',
                 looking_for: '',
+                sales_orders: '',
+                budget_project: '',
+                expected_imeline: '',
+                business_include: '',
+                hold_inventry: '',
+                ware_house:'',
+                manufacture_items:'',
+                access_system:'',
+                employees_count:'',
                 name: '',
                 email: '',
                 companyName: '',
@@ -160,8 +180,9 @@ const MultiStepForm = () => {
         }
 
         return (
-            <>
+            <> 
                 {stepData.fields.map((field, index) => (
+                   <>
                     <div className='f-start' key={index}>
                         <h4>{field.label}</h4>
                         <div className='mb-3'>
@@ -231,20 +252,33 @@ const MultiStepForm = () => {
                             )}
                         </div>
                     </div>
+                   </>
                 ))}
             </>
         );
     };
-
+    const currentStepData = formData[`step${step}`];
     return (
         <>
-            <section>
+            <section className='bg-dd'>
                 <div className='container'>
+                    <div className='row justify-content-center'>
+                        <div className='col-lg-7'>
+                            <div className='erp-head'>
+                                <h1>Get a quick quote for ERP</h1>
+                               <p>Streamline your Process Optimization and Automate Your Enterprise Data with Microsoft Dynamics ERP</p>
+                            </div>
+                        </div>
+                    </div>
                     <div className='row justify-content-center pad-100'>
                         <div className='col-lg-7'>
                             <ProgressBar step={step} />
+                          <div className='c-f-headin'>
+                          <h2>{currentStepData.heading}</h2>
+                          <p>{currentStepData.paragraph}</p>
+                          </div>
                             <form className='servay-form-new' onSubmit={handleSubmit}>
-                                {step === 3 ? (
+                                {step === 4 ? (
                                     <>
                                         <div className='f-start'>
                                             <h4>Name</h4>
@@ -335,7 +369,7 @@ const MultiStepForm = () => {
                                                 Previous
                                             </button>
                                         )}
-                                        {step < 3 && (
+                                        {step < 4 && (
                                             <button type="button" className='btn btn-success' onClick={nextStep}>
                                                 Next
                                             </button>
@@ -355,13 +389,15 @@ const MultiStepForm = () => {
 };
 
 const ProgressBar = ({ step }) => {
-    const steps = 3;
+    const steps = 4;
     const progress = (step / steps) * 100;
 
     return (
         <div className="progress-bar-container">
+            <div className='bb-whi'>
             <div className="progress-bar" style={{ width: `${progress}%` }}></div>
-            <p>{`Form ${step} of ${steps}`}</p>
+            </div>
+            <p>{`Page ${step} of ${steps}`}</p>
             <style jsx>{`
         .progress-bar-container {
           margin-bottom: 20px;
@@ -371,6 +407,9 @@ const ProgressBar = ({ step }) => {
           background-color: #0070f3;
           border-radius: 5px;
         }
+          .bb-whi{
+          background: #cad9eb;
+          }
       `}</style>
         </div>
     );
