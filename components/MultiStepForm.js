@@ -74,7 +74,12 @@ const MultiStepForm = () => {
                 return;
             }
         }
-
+        if (name === 'name' && type === 'text') {
+            // Allow only letters and spaces for name
+            if (!/^[a-zA-Z\s]*$/.test(value)) {
+                return;
+            }
+        }
 
         setFormValues((prevValues) => ({
             ...prevValues,
