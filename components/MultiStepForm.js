@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
-
+import { useRouter } from 'next/router';
 const MultiStepForm = () => {
+    const router = useRouter();
     const [step, setStep] = useState(1);
     const [formData, setFormData] = useState(null);
     const [formValues, setFormValues] = useState({
@@ -17,10 +18,10 @@ const MultiStepForm = () => {
         business_include: '',
         sales_orders: '',
         hold_inventry: '',
-        ware_house:'',
-        manufacture_items:'',
-        access_system:'',
-        employees_count:'',
+        ware_house: '',
+        manufacture_items: '',
+        access_system: '',
+        employees_count: '',
         name: '',
         email: '',
         companyName: '',
@@ -66,6 +67,15 @@ const MultiStepForm = () => {
     // Handle form input changes
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
+
+        if (name === 'phoneNumber' && type === 'text') {
+            // Allow only numeric values
+            if (!/^\d*$/.test(value)) {
+                return;
+            }
+        }
+
+
         setFormValues((prevValues) => ({
             ...prevValues,
             [name]: type === 'checkbox' ? checked : value
@@ -86,6 +96,11 @@ const MultiStepForm = () => {
     const validateStep = () => {
         let valid = true;
         let errors = {};
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+        const isValidPhoneNumber = (phone) => {
+            // Phone number should be between 10 to 15 characters
+            return /^\d{10,15}$/.test(phone);
+        };
 
         if (step === 4) {
             if (!formValues.name) {
@@ -95,8 +110,8 @@ const MultiStepForm = () => {
             if (!formValues.email) {
                 errors.email = 'Email is required';
                 valid = false;
-            } else if (!/\S+@\S+\.\S+/.test(formValues.email)) {
-                errors.email = 'Email is invalid';
+            } else if (!emailPattern.test(formValues.email)) {
+                errors.email = 'Email is invalid or is from a restricted domain';
                 valid = false;
             }
             if (!formValues.companyName) {
@@ -105,6 +120,9 @@ const MultiStepForm = () => {
             }
             if (!formValues.phoneNumber) {
                 errors.phoneNumber = 'Phone Number is required';
+                valid = false;
+            } else if (!isValidPhoneNumber(formValues.phoneNumber)) {
+                errors.phoneNumber = 'Phone Number must be between 10 to 15 digits and contain only numbers';
                 valid = false;
             }
             if (!formValues.agreement) {
@@ -132,7 +150,7 @@ const MultiStepForm = () => {
             const result = await emailjs.send(
                 'service_fg00l58',
                 'template_25hm17g',
-                formValues,
+                { ...formValues, url: router.asPath },
                 'QyvWavOKod6guRB-s'
             );
             console.log('Success:', result.text);
@@ -150,23 +168,27 @@ const MultiStepForm = () => {
                 expected_imeline: '',
                 business_include: '',
                 hold_inventry: '',
-                ware_house:'',
-                manufacture_items:'',
-                access_system:'',
-                employees_count:'',
+                ware_house: '',
+                manufacture_items: '',
+                access_system: '',
+                employees_count: '',
                 name: '',
                 email: '',
                 companyName: '',
                 phoneNumber: '',
                 agreement: false
             });
-            setStep(1);
+            // setStep(1);
         } catch (error) {
             console.error('Error:', error.text);
             setSuccessMessage('An error occurred. Please try again.');
         } finally {
             setLoading(false);
         }
+        setTimeout(function () {
+            e.target.reset();
+            router.push("/thank-you/");
+        }, 500);
     };
 
     if (!formData) {
@@ -180,79 +202,78 @@ const MultiStepForm = () => {
         }
 
         return (
-            <> 
+            <>
                 {stepData.fields.map((field, index) => (
-                   <>
-                    <div className='f-start' key={index}>
-                        <h4>{field.label}</h4>
-                        <div className='mb-3'>
-                            {field.type === 'select' && (
-                                <select
-                                    className="form-select"
-                                    aria-label="Default select example"
-                                    name={field.name}
-                                    value={formValues[field.name] || ''}
-                                    onChange={handleChange}
-                                >
-                                    <option value="">Choose...</option>
-                                    {field.options.map((option, idx) => (
-                                        <option key={idx} value={option}>{option}</option>
-                                    ))}
-                                </select>
-                            )}
-                            {field.type === 'text' && (
-                                <input
-                                    type="text"
-                                    className="form-control"
-                                    name={field.name}
-                                    value={formValues[field.name] || ''}
-                                    onChange={handleChange}
-                                />
-                            )}
-                            {field.type === 'checkbox' && (
-                                <>
-                                    {field.options.map((option, idx) => (
-                                        <div className="form-check" key={idx}>
-                                            <input
-                                                className="form-check-input"
-                                                type="checkbox"
-                                                id={`${field.name}-${idx}`} // Unique ID for each checkbox
-                                                name={field.name}
-                                                value={option}
-                                                checked={formValues[field.name] ? formValues[field.name].includes(option) : false}
-                                                onChange={handleCheckboxChange}
-                                            />
-                                            <label className="form-check-label" htmlFor={`${field.name}-${idx}`}>
-                                                {option}
-                                            </label>
-                                        </div>
-                                    ))}
-                                </>
-                            )}
-                            {field.type === 'radio' && (
-                                <>
-                                    {field.options.map((option, idx) => (
-                                        <div className={`form-check ${field.layout === 'inline' ? 'form-check-inline' : ''}`}
-                                        key={idx}>
-                                            <input
-                                                className="form-check-input"
-                                                type="radio"
-                                                name={field.name}
-                                                id={option}
-                                                value={option}
-                                                checked={formValues[field.name] === option}
-                                                onChange={handleChange}
-                                            />
-                                            <label className="form-check-label" htmlFor={option}>
-                                                {option}
-                                            </label>
-                                        </div>
-                                    ))}
-                                </>
-                            )}
+                    <>
+                        <div className='f-start' key={index}>
+                            <h4>{field.label}</h4>
+                            <div className='mb-3'>
+                                {field.type === 'select' && (
+                                    <select
+                                        className="form-select"
+                                        aria-label="Default select example"
+                                        name={field.name}
+                                        value={formValues[field.name] || ''}
+                                        onChange={handleChange}
+                                    >
+                                        <option value="">Choose...</option>
+                                        {field.options.map((option, idx) => (
+                                            <option key={idx} value={option}>{option}</option>
+                                        ))}
+                                    </select>
+                                )}
+                                {field.type === 'text' && (
+                                    <input
+                                        type="text"
+                                        className="form-control"
+                                        name={field.name}
+                                        value={formValues[field.name] || ''}
+                                        onChange={handleChange}
+                                    />
+                                )}
+                                {field.type === 'checkbox' && (
+                                    <>
+                                        {field.options.map((option, idx) => (
+                                            <div className="form-check" key={idx}>
+                                                <input
+                                                    className="form-check-input"
+                                                    type="checkbox"
+                                                    id={`${field.name}-${idx}`} // Unique ID for each checkbox
+                                                    name={field.name}
+                                                    value={option}
+                                                    checked={formValues[field.name] ? formValues[field.name].includes(option) : false}
+                                                    onChange={handleCheckboxChange}
+                                                />
+                                                <label className="form-check-label" htmlFor={`${field.name}-${idx}`}>
+                                                    {option}
+                                                </label>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                                {field.type === 'radio' && (
+                                    <>
+                                        {field.options.map((option, idx) => (
+                                            <div className={`form-check ${field.layout === 'inline' ? 'form-check-inline' : ''}`} key={idx}>
+                                                <input
+                                                    className="form-check-input"
+                                                    type="radio"
+                                                    name={field.name}
+                                                    id={`${field.name}-${idx}`} // Unique ID for each radio button
+                                                    value={option}
+                                                    checked={formValues[field.name] === option}
+                                                    onChange={handleChange}
+                                                />
+                                                <label className="form-check-label" htmlFor={`${field.name}-${idx}`}> {/* Unique ID for each label */}
+                                                    {option}
+                                                </label>
+                                            </div>
+                                        ))}
+                                    </>
+                                )}
+                            </div>
                         </div>
-                    </div>
-                   </>
+                    </>
                 ))}
             </>
         );
@@ -266,17 +287,17 @@ const MultiStepForm = () => {
                         <div className='col-lg-7'>
                             <div className='erp-head'>
                                 <h1>Get a quick quote for ERP</h1>
-                               <p>Streamline your Process Optimization and Automate Your Enterprise Data with Microsoft Dynamics ERP</p>
+                                <p>Streamline your Process Optimization and Automate Your Enterprise Data with Microsoft Dynamics ERP</p>
                             </div>
                         </div>
                     </div>
                     <div className='row justify-content-center pad-100'>
                         <div className='col-lg-7'>
                             <ProgressBar step={step} />
-                          <div className='c-f-headin'>
-                          <h2>{currentStepData.heading}</h2>
-                          <p>{currentStepData.paragraph}</p>
-                          </div>
+                            <div className='c-f-headin'>
+                                <h2>{currentStepData.heading}</h2>
+                                <p>{currentStepData.paragraph}</p>
+                            </div>
                             <form className='servay-form-new' onSubmit={handleSubmit}>
                                 {step === 4 ? (
                                     <>
@@ -290,6 +311,7 @@ const MultiStepForm = () => {
                                                     value={formValues.name}
                                                     onChange={handleChange}
                                                 />
+                                                <input type="hidden" value={router.asPath} name="url" />
                                                 {errors.name && <div className="error">{errors.name}</div>}
                                             </div>
                                         </div>
@@ -323,11 +345,12 @@ const MultiStepForm = () => {
                                             <h4>Phone Number</h4>
                                             <div className='mb-3'>
                                                 <input
-                                                    type="tel"
+                                                   type="text"
                                                     className="form-control"
                                                     name="phoneNumber"
                                                     value={formValues.phoneNumber}
                                                     onChange={handleChange}
+                                                     maxLength="15"
                                                 />
                                                 {errors.phoneNumber && <div className="error">{errors.phoneNumber}</div>}
                                             </div>
@@ -347,6 +370,7 @@ const MultiStepForm = () => {
                                                 {errors.agreement && <div className="error">{errors.agreement}</div>}
                                             </div>
                                         </div>
+                                        <input type="hidden" value={router.asPath} name="url" /> {/* Hidden URL field */}
                                         <button type="button" className='btn btn-secondary' onClick={prevStep}>
                                             Previous
                                         </button>
@@ -395,7 +419,7 @@ const ProgressBar = ({ step }) => {
     return (
         <div className="progress-bar-container">
             <div className='bb-whi'>
-            <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+                <div className="progress-bar" style={{ width: `${progress}%` }}></div>
             </div>
             <p>{`Page ${step} of ${steps}`}</p>
             <style jsx>{`
