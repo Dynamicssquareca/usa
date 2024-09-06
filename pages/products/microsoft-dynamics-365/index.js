@@ -7,10 +7,10 @@ const D360 = () => {
   return (
     <>
       <Head>
-      <title>Microsoft Dynamics 365: Cloud ERP & CRM Solutions | Dynamics Square</title>
+      <title>Microsoft Dynamics 365 Suite For CRM & Cloud ERP Solutions</title>
         <meta
           name="description"
-          content="Unleash your business potential with Microsoft Dynamics 365. Seamless Cloud ERP & CRM for productivity and growth. Transform your business now!"
+          content="Discover Microsoft Dynamics 365 Suite for seamless CRM and cloud ERP solutions, offering integrated management and enhanced business insights."
         />
         <link
           rel="canonical"
