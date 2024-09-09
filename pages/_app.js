@@ -7,7 +7,7 @@ import Header from '../components/Header';
 import CookieConsent from 'react-cookie-consent';
 import { useState, useEffect } from "react";
 import LoadingBar from "react-top-loading-bar";
-import ScrollPopupModal from '../components/ScrollPopupModal';
+// import ScrollPopupModal from '../components/ScrollPopupModal';
 import ToasterSlide from '../components/ToasterSlide';
 
 // function MyApp({ Component, pageProps }) {
@@ -185,7 +185,7 @@ function MyApp({ Component, pageProps }) {
       onLoaderFinished={() => setProgress(0)}
     />
     <Layouts>
-      <ScrollPopupModal />
+      {/* <ScrollPopupModal /> */}
       <ToasterSlide allowedURLs={[
         '/products/microsoft-dynamics-nav',
         '/dynamics-nav-to-business-central',
