@@ -6,10 +6,10 @@ const Erp = () => {
   return (
     <>
       <Head>
-        <title>Microsoft Dynamics ERP Solutions [Microsoft Gold Partner]</title>
+        <title>Microsoft Dynamics ERP Solutions - Dynamics Square</title>
         <meta
           name="description"
-          content="Dynamics Square offers Microsoft Dynamics ERP consulting. Optimize your business processes with best solutions and professional support. Call us now."
+          content="Dynamics Square offers Microsoft Dynamics ERP cloud solutions. Optimize your business processes with best solutions and professional support. Call us now."
         />
         <link
           rel="canonical"

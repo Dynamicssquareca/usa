@@ -11,10 +11,10 @@ const Finance = () => {
   return (
     <>
       <Head>
-        <title>Certified Microsoft Dynamics 365 Finance Consultant</title>
+        <title>Dynamics 365 Finance Partner - Dyanmics Square</title>
         <meta
           name="description"
-          content="Expert Microsoft Dynamics 365 Finance Consultant providing best solutions to optimize financial processes and drive business success."
+          content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business."
         />
         <link
           rel="canonical"
@@ -22,9 +22,9 @@ const Finance = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="Certified Microsoft Dynamics 365 Finance Consultant" />
+        <meta property="og:title" content="Dynamics 365 Finance Partner - Dyanmics Square" />
 
-        <meta property="og:description" content="Expert Microsoft Dynamics 365 Finance Consultant providing best solutions to optimize financial processes and drive business success." />
+        <meta property="og:description" content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business." />
 
         <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/" />
 
@@ -34,9 +34,9 @@ const Finance = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="Certified Microsoft Dynamics 365 Finance Consultant" />
+        <meta property="twitter:title" content="Dynamics 365 Finance Partner - Dyanmics Square" />
 
-        <meta property="twitter:description" content="Expert Microsoft Dynamics 365 Finance Consultant providing best solutions to optimize financial processes and drive business success." />
+        <meta property="twitter:description" content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business." />
 
         <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/" />
 
@@ -47,9 +47,9 @@ const Finance = () => {
             __html: JSON.stringify({
                 "@context": "https://schema.org/",
                 "@type": "Product",
-                "name": "Microsoft Dynamics 365 Finance Partner | Dynamics Square",
+                "name": "Dynamics 365 Finance Partner - Dyanmics Square",
                 "image": "https://www.dynamicssquare.com/img/Finance-banner-pic.png",
-                "description": "Dynamics Square, a leading Microsoft Dynamics 365 Finance partner, helps businesses optimize finances, improve security and make data-driven decisions.",
+                "description": "Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business.",
                 "brand": {
                    "@type": "Brand",
                    "name": "Dynamics Square USA"
