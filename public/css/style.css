@@ -15421,7 +15421,12 @@ position:relative
 .card-with-one {
   padding: 15px;
 }
-
+.tooltips-text {
+  width: clamp(100px, 100%, 370px);
+}
+.tooltips-text p{
+  font-size: 14px;
+}
 }
  
 
