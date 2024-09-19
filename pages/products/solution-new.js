@@ -60,7 +60,7 @@ const Solution = () => {
 
         <section className="bg-style-one">
           <div className="bb-img">
-            <img src="/img/mar-i-bg.png" alt="mar-i-bg" />
+            <img src="/img/mar-i-bg.png" alt="mar-i-bg" width={856} height={388} />
           </div>
           <div className="container">
             <div className="row justify-content-center">
@@ -176,7 +176,8 @@ const Solution = () => {
               </div>
               <div className="col-lg-6 align-self-center">
                 <div className="solution-new-cta-img">
-                  <img src="/img/group-9595.png" alt="" />
+                  <Image src="/img/group-9595.png" alt="Switch to Microsoft
+                    Dynamics 365 Business Central" width={547} height={322} />
                 </div>
               </div>
             </div>
@@ -198,21 +199,21 @@ const Solution = () => {
             <div className="row g-5 sliding-row">
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>General Ledger Management</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Accounts Payable</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Accounts Receivable</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
@@ -220,63 +221,63 @@ const Solution = () => {
 
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Bank Reconciliation</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Budgeting and Forecasting</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Fixed Asset Management</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Cash Flow Management</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Financial Reporting</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Intercompany Transactions</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Multi-currency Management</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Project Accounting</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" />
+                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
                   <h3>Expense Management</h3>
                   <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
                 </div>
@@ -302,7 +303,7 @@ const Solution = () => {
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-01.png" alt="Enhanced Productivity" />
+                    <img src="/img/icon-new-01.png" alt="Enhanced Productivity" width={40} height={40} />
                   </div>
                   <h3>Enhanced Productivity</h3>
                   <p>Automation of routine tasks including invoicing, payments, and reconciliations lowers manual effort and the chance of mistakes. This helps finance teams to concentrate on strategic initiatives and raises overall productivity.</p>
@@ -311,7 +312,7 @@ const Solution = () => {
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-02.png" alt="Improved Accuracy" />
+                    <img src="/img/icon-new-02.png" alt="Improved Accuracy" width={40} height={40} />
                   </div>
                   <h3>Improved Accuracy</h3>
                   <p>Consistent and real-time data due to integrated financial systems help companies to keep accurate financial records and lower the possibility of disparities. Adherence to regulatory requirements and wise decision-making depend on its correctness.</p>
@@ -320,7 +321,7 @@ const Solution = () => {
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-03.png" alt="Improved Cash Flow Management" />
+                    <img src="/img/icon-new-03.png" alt="Improved Cash Flow Management" width={40} height={40} />
                   </div>
                   <h3>Improved Cash Flow Management</h3>
                   <p>Dynamics 365 Business Central enables companies to better control their cash flow by offering real-time insights into accounts receivable, accounts payable, and cash flow projections, therefore lowering their risk of liquidity problems.</p>
@@ -329,7 +330,7 @@ const Solution = () => {
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-04.png" alt="Scalability" />
+                    <img src="/img/icon-new-04.png" alt="Scalability" width={40} height={40} />
                   </div>
                   <h3>Scalability</h3>
                   <p>Dynamics 365 Business Central is meant to expand alongside your company’s growth. The system can scale to fit your demands, supporting many currencies, businesses, and sophisticated organizational structures, whether you are managing finances for a small company or a large enterprise.</p>

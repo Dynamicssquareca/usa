@@ -15067,6 +15067,7 @@ blockquote a{
   /* animation */
   opacity: 0;
   transition: opacity 1s;
+  z-index:2
 }
 .tooltips-text p{
   color: #ffffff;
@@ -15244,6 +15245,9 @@ position:relative
   .s-head-two h2{
     font-size:32px
   }
+  .shot-ct-bott {
+    margin-bottom: -80px;
+}
 }
 
 @media (max-width: 1200px) {
@@ -15280,6 +15284,9 @@ position:relative
 }
 }
 @media (max-width: 992px) {
+  .shot-ct-bott{
+    margin-bottom:-20px
+  }
   .sec-bg-tt {
     padding: 60px 0px;
   }
