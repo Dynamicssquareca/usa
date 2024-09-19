@@ -328,8 +328,8 @@ const fetchCountryCodeByIP = () => {
 
       <section id="services" className="services bg-shape ovr-f hidesec">
         <div className="container" data-aos="fade-up">
-          <header className="section-header">
-            <h2>Book a Free Consultation</h2>
+          <header className="heading-colo-bg">
+            <h2>Book a Free <span>Consultation</span></h2>
             <p>
               See How Dynamics Square Can Help Transform Your Business With
               Microsoft Business Applications.

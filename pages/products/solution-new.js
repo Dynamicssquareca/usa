@@ -8,11 +8,10 @@ const Solution = () => {
   return (
     <>
       <Head>
-        <meta charSet="utf-8" />
-        <title>Microsoft Azure IoT (Internet of Things) | Dynamics Square</title>
+        <title>Financial Management in Dynamics 365 Business Central</title>
         <meta
           name="description"
-          content="Build and Deploy Highly Secured Azure IoT Solutions to Drive Growth, Sustainability, and Scalability. Get Azure IoT solutions today with Dynamics Square."
+          content="Streamline financial management with Microsoft Dynamics 365 Business Central. Manage efficiently, gain insights, and drive growth with this ERP solution."
         />
 
         <link
@@ -39,7 +38,7 @@ const Solution = () => {
                         data-bs-toggle="modal"
                         className="btn-get-started scrollto"
                       >
-                        <span>Schedule a Demo</span>
+                        <span>Get Started Today! </span>
                       </a>
                     </Link>
                   </div>
@@ -67,7 +66,7 @@ const Solution = () => {
               <div className="col-lg-10">
                 <div className="s-head-two">
                   <h2>Financial Management Challenges <br />Faced by Companies</h2>
-                  <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations within financial management is not just restricted to managing income and expenses. It comprises several crucial activities such as budgeting, forecasting, compliance, reporting, and cash flow management. <br />Companies, especially those growing at a promising pace, often face these challenges:</p>
+                  <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations within financial management is not just restricted to managing income and expenses. It comprises several crucial activities such as budgeting, forecasting, compliance, reporting, and cash flow management.  <br />Companies, especially those growing at a promising pace, often face these challenges: </p>
                 </div>
 
                 <div className="bott-list-tool">
@@ -191,7 +190,7 @@ const Solution = () => {
               <div className="col-lg-9">
                 <div className="heading-colo-bg">
                   <h2>Key Features of Dynamics 365 Business Central Financial Management</h2>
-                  <p>Business Central provides a complete Financial Management module including all financial procedures into a single, unified platform to help address these challenges. The following are the key features that render this solution absolutely essential:</p>
+                  <p><a href="/products/dynamics-365-business-central/">Business Central</a> provides a complete Financial Management module including all financial procedures into a single, unified platform to help address these challenges. The following are the key features that render this solution absolutely essential:</p>
                 </div>
               </div>
             </div>
@@ -199,87 +198,87 @@ const Solution = () => {
             <div className="row g-5 sliding-row">
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-01.png" alt="General Ledger Management" width={57} height={48} />
                   <h3>General Ledger Management</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-02.png" alt="Accounts Payable" width={57} height={48} />
                   <h3>Accounts Payable</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Track expenses effectively, control vendor payments, and generate invoices automatically. Manage credit, purchase orders, electronic payments, and while keeping payment terms compliant. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-03.png" alt="Accounts Receivable" width={57} height={48} />
                   <h3>Accounts Receivable</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Simplify invoice creation, manage customer payments, and handle collections. Automate reminders and dunning processes to improve cash flow and reduce outstanding receivables effectively. </p>
                 </div>
               </div>
 
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-04.png" alt="Bank Reconciliation" width={57} height={48} />
                   <h3>Bank Reconciliation</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Automate the reconciliation of bank transactions with financial records. Match entries, manage multiple accounts, and quickly correct differences to guarantee consistency and correctness. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-05.png" alt="Budgeting and Forecasting" width={57} height={48} />
                   <h3>Budgeting and Forecasting</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Create detailed budgets and forecasts to guide financial planning. Compare actual performance against budgets, analyze variances, and adjust strategies for better resource allocation and financial control. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-06.png" alt="Fixed Asset Management" width={57} height={48} />
                   <h3>Fixed Asset Management</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Track asset acquisition, depreciation, and disposal with automated processes. Manage multiple depreciation methods and maintain accurate asset records for compliance and financial reporting. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-07.png" alt="Cash Flow Management" width={57} height={48} />
                   <h3>Cash Flow Management</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Monitor and forecast cash inflows and outflows to ensure liquidity. Analyze cash flow patterns, anticipate shortfalls, and make informed decisions to optimize financial stability. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-08.png" alt="Financial Reporting" width={57} height={48} />
                   <h3>Financial Reporting</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Generate accurate and timely financial reports, including balance sheets and income statements. Utilize customizable reports and real-time dashboards to support compliance and strategic decision-making. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-09.png" alt="Intercompany Transactions" width={57} height={48} />
                   <h3>Intercompany Transactions</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Handle transactions between different company entities with seamless integration. Manage intercompany billing, reconcile accounts, and consolidate financial data for accurate reporting and compliance. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-10.png" alt="Multi-currency Management" width={57} height={48} />
                   <h3>Multi-currency Management</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Manage financial transactions and reporting across multiple currencies. Handle currency conversions, track exchange rate fluctuations, and ensure accurate multi-currency accounting and compliance. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-11.png" alt="Project Accounting" width={57} height={48} />
                   <h3>Project Accounting</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Monitor financial performance and costs associated with individual projects. Manage project budgets, expenses, and revenues, and analyze profitability for better project management and decision-making. </p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-01.png" alt="group-01" width={57} height={48} />
+                  <img src="/img/group-12.png" alt="Expense Management" width={57} height={48} />
                   <h3>Expense Management</h3>
-                  <p>Use a structured chart of accounts to centralize and control every financial transaction. Guarantee correct period-end closings, real-time updates, and thorough reporting including thorough audit traces.</p>
+                  <p>Automate expense tracking and approvals to streamline financial processes. Manage employee reimbursements, control spending, and ensure compliance with company policies and budgets. </p>
                 </div>
               </div>
             </div>
