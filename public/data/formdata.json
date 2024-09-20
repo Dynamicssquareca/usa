@@ -28,7 +28,7 @@
             },
             {
                 "label": "How many employees are there in your organisation?",
-                "type": "text",
+                "type": "number",
                 "name": "employees"
             },
             {
@@ -165,12 +165,12 @@
             },
             {
                 "label": "How many employees will need access to the system?",
-                "type": "text",
+                "type": "number",
                 "name": "access_system"
             },
             {
                 "label": "How many of those employees will only need to view data or approve transactions?",
-                "type": "text",
+                "type": "number",
                 "name": "employees_count"
             }
         ]

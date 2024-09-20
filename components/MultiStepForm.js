@@ -236,6 +236,15 @@ const MultiStepForm = () => {
                                         onChange={handleChange}
                                     />
                                 )}
+                                {field.type === 'number' && (
+                                    <input
+                                        type="number"
+                                        className="form-control"
+                                        name={field.name}
+                                        value={formValues[field.name] || ''}
+                                        onChange={handleChange}
+                                    />
+                                )}
                                 {field.type === 'checkbox' && (
                                     <>
                                         {field.options.map((option, idx) => (
