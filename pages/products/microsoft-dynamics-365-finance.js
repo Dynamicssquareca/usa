@@ -66,7 +66,9 @@ const Finance = () => {
         />
 
       </Head>
-
+      
+      <main>
+        
       <section className="Solution-banner pp-rrea new-main-heading">
         <div className="container">
           <div className="row g-5">
@@ -1748,6 +1750,7 @@ const Finance = () => {
           </div>
         </div>
       </section>
+      </main>
 
 
 

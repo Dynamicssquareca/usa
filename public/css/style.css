@@ -9743,6 +9743,13 @@ color:var(--color-red)
   font-family: "Work Sans", sans-serif;
   margin-bottom: 22px;
  }
+ .nw-bc-lef-h span,.heading-colo-bg span{
+  font-size: 14px;
+  font-weight: 600;
+  display:block;
+  color: #68708e;
+  margin-bottom: 5px;
+ }
  .heading-colo-bg p{
   
  }
@@ -15239,6 +15246,82 @@ position:relative
   background-color: #bb2b36;
   color: #ffffff;
 }
+
+.marg-12{
+  margin-top:0px
+}
+
+
+/* styles/tabs.css */
+.tabs-container {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  /* border-bottom: 2px solid #ddd; */
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.tabs-container  button {
+  flex: 1;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  text-align: center;
+}
+.tabs-container button:hover {
+ 
+  color: #fff;
+}
+.tabs-container button.active {
+
+  color: #fff;
+}
+.active-tab-indicator {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 50%; /* Assuming 3 tabs */
+  background-color: #ffcc00;
+  transition: left 0.3s ease-in-out; /* Slide animation */
+}
+
+
+.tabs-container .tab-content {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  color: #333;
+}
+
+.tabs-container button::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 0%;
+  height: 2px;
+  background-color: #ffcc00; /* Your chosen color */
+  transition: all 0.3s ease;
+}
+
+/* .tabs-container button:hover::before {
+  left: 0;
+  width: 100%;
+} */
 
 @media (max-width: 1400px) {
 
