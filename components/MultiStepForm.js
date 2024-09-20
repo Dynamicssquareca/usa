@@ -418,9 +418,7 @@ const MultiStepForm = () => {
                         </div>
                     </div>
                 </div>
-                <style jsx>{`
-          
-        `}</style>
+               
             </section>
         </>
     );
