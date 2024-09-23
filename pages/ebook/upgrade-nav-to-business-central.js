@@ -10,6 +10,8 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import emailjs from "@emailjs/browser";
 import { Autoplay, FreeMode, Pagination, Navigation } from "swiper";
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
 const StartGuide = () => {
 
   const router = useRouter();
