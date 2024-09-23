@@ -77,373 +77,7 @@ const MicrosoftPage = () => {
             </Head>
 
             <main>
-                <section>
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-12">
-                                <div className="tabs-container">
-                                    <div className="tab-buttons">
-                                        <button
-                                            className={activeTab === 0 ? "active" : ""}
-                                            onClick={() => handleTabClick(0)}
-                                        >
-                                            Enterprise Resource Planning (ERP)
-                                        </button>
-                                        <button
-                                            className={activeTab === 1 ? "active" : ""}
-                                            onClick={() => handleTabClick(1)}
-                                        >
-                                            Customer Engagement (CRM)
-                                        </button>
-                                        <div className="active-tab-indicator" style={{ left: `${activeTab * 50}%` }} />
-                                    </div>
 
-                                    <div className="tab-content">
-                                        {activeTab === 0 && 
-                                        <div>
-
-                                            <div className="row gy-4">
-                                                <div className="col-lg-4 col-md-6">
-                                                    <div className="service-box  service-box-blue service-box-blue-home">
-                                                        <div className="top">
-                                                            <img
-                                                                src="/img/business-center-logo.svg"
-                                                                alt="business-center-logo"
-                                                                className="icon"
-                                                                width="34"
-                                                                height="34"
-                                                            />
-                                                            <h3>
-                                                                Dynamics 365 <br /> Business Central
-                                                            </h3>
-                                                        </div>
-                                                        <p>
-                                                            An all-in-one business management solution specifically designed for SMBs and startups that offers a 360-degree holistic view of the entire business with full transparency across different operations.
-                                                        </p>
-                                                        <Link href="/products/dynamics-365-business-central/" >
-                                                            <a aria-label="business-central">
-                                                                <div className="h-s-call" >
-                                                                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                </div>
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-4 col-md-6">
-                                                    <div className="service-box service-box-blue service-box-blue-home">
-                                                        <div className="top">
-                                                            <img
-                                                                src="/img/finace-icons.svg"
-                                                                alt="finace-icons"
-                                                                className="icon"
-                                                                width="34"
-                                                                height="34"
-                                                            />
-                                                            <h3>
-                                                                Dynamics 365 <br />
-                                                                Finance
-                                                            </h3>
-                                                        </div>
-                                                        <p>
-                                                            Simplify complex financial operations while getting real-time data analytics and accurate insights. Avail automation, minimize investment costs, and monitor financial processes with data-driven insights.
-                                                        </p>
-                                                        <Link href="/products/microsoft-dynamics-365-finance/">
-                                                            <a aria-label="microsoft-dynamics-365-finance">
-                                                                <div className="h-s-call" >
-                                                                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                </div>
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-4 col-md-6">
-                                                    <div className="service-box service-box-blue service-box-blue-home">
-                                                        <div className="top">
-                                                            <img
-                                                                src="/img/supplychain-logo.svg"
-                                                                alt="supplychain-logo"
-                                                                className="icon"
-                                                                width="34"
-                                                                height="34"
-                                                            />
-                                                            <h3>
-                                                                Dynamics 365 <br />
-                                                                Supply Chain
-                                                            </h3>
-                                                        </div>
-                                                        <p>Automate your entire supply chain process with Dynamics 365 Supply Chain Management. Boost efficiency, cut costs, enhance accuracy, gain real-time insights, and improve customer service.</p>
-                                                        <Link href="/products/dynamics-365-supply-chain-management/">
-                                                            <a aria-label="dynamics-365-supply-chain-management">
-                                                                <div className="h-s-call" >
-                                                                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                </div>
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    className="col-lg-4 col-md-6"
-                                                >
-                                                    <div className="service-box service-box-blue service-box-blue-home">
-                                                        <div className="top">
-                                                            <img
-                                                                src="/img/Sales_scalable.svg"
-                                                                alt="Sales_scalable"
-                                                                className="icon"
-                                                                width="34"
-                                                                height="34"
-                                                            />
-                                                            <h3>
-                                                                Dynamics 365 <br />
-                                                                Sales
-                                                            </h3>
-                                                        </div>
-                                                        <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
-                                                        <Link href="/products/microsoft-dynamics-365-sales/">
-                                                            <a aria-label="microsoft-dynamics-365-sales">
-                                                                <div className="h-s-call" >
-                                                                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                </div>
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    className="col-lg-4 col-md-6"
-                                                >
-                                                    <div className="service-box service-box-blue service-box-blue-home">
-                                                        <div className="top">
-                                                            <img
-                                                                src="/img/powerbilogo.png"
-                                                                alt="Powerapps_power-apps"
-                                                                className="icon"
-                                                                width="34"
-                                                                height="34"
-                                                            />
-                                                            <h3>
-                                                                Microsoft <br />
-                                                                Power BI
-                                                            </h3>
-                                                        </div>
-                                                        <p>Analyze and visualize the huge stack of data with interactive graphical representations to make data-driven decisions in real-time. Transform your data to make it accessible and valuable to refine decision-making.</p>
-                                                        <Link href="/products/microsoft-power-bi/">
-                                                            <a aria-label="microsoft-power-bi">
-                                                                <div className="h-s-call" >
-                                                                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                </div>
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    className="col-lg-4 col-md-6"
-                                                >
-                                                    <div className="service-box service-box-blue service-box-blue-home">
-                                                        <div className="top">
-                                                            <img
-                                                                src="/img/home/NAV_scalable.png"
-                                                                alt="Azure-IoT"
-                                                                className="icon"
-                                                                width="34"
-                                                                height="34"
-                                                            />
-                                                            <h3>Microsoft <br />
-                                                                Dynamics NAV</h3>
-                                                        </div>
-                                                        <p>A simple yet powerful ERP solution to manage, control, and track entire business operations with full visibility. Connect different departments, automate sales, and manage all back-end processes with ease.</p>
-                                                        <Link href="/products/microsoft-dynamics-nav/">
-                                                            <a aria-label="microsoft-dynamics-nav">
-                                                                <div className="h-s-call" >
-                                                                    <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                </div>
-                                                            </a>
-                                                        </Link>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>}
-                                        {activeTab === 1 && 
-                                        
-                                        <div>
-
-                                        <div className="row gy-4">
-                                            <div className="col-lg-4 col-md-6">
-                                                <div className="service-box  service-box-blue service-box-blue-home">
-                                                    <div className="top">
-                                                        <img
-                                                            src="/img/business-center-logo.svg"
-                                                            alt="business-center-logo"
-                                                            className="icon"
-                                                            width="34"
-                                                            height="34"
-                                                        />
-                                                        <h3>
-                                                            Dynamics 365 <br /> Business Central
-                                                        </h3>
-                                                    </div>
-                                                    <p>
-                                                        An all-in-one business management solution specifically designed for SMBs and startups that offers a 360-degree holistic view of the entire business with full transparency across different operations.
-                                                    </p>
-                                                    <Link href="/products/dynamics-365-business-central/" >
-                                                        <a aria-label="business-central">
-                                                            <div className="h-s-call" >
-                                                                <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                            </div>
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4 col-md-6">
-                                                <div className="service-box service-box-blue service-box-blue-home">
-                                                    <div className="top">
-                                                        <img
-                                                            src="/img/finace-icons.svg"
-                                                            alt="finace-icons"
-                                                            className="icon"
-                                                            width="34"
-                                                            height="34"
-                                                        />
-                                                        <h3>
-                                                            Dynamics 365 <br />
-                                                            Finance
-                                                        </h3>
-                                                    </div>
-                                                    <p>
-                                                        Simplify complex financial operations while getting real-time data analytics and accurate insights. Avail automation, minimize investment costs, and monitor financial processes with data-driven insights.
-                                                    </p>
-                                                    <Link href="/products/microsoft-dynamics-365-finance/">
-                                                        <a aria-label="microsoft-dynamics-365-finance">
-                                                            <div className="h-s-call" >
-                                                                <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                            </div>
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-4 col-md-6">
-                                                <div className="service-box service-box-blue service-box-blue-home">
-                                                    <div className="top">
-                                                        <img
-                                                            src="/img/supplychain-logo.svg"
-                                                            alt="supplychain-logo"
-                                                            className="icon"
-                                                            width="34"
-                                                            height="34"
-                                                        />
-                                                        <h3>
-                                                            Dynamics 365 <br />
-                                                            Supply Chain
-                                                        </h3>
-                                                    </div>
-                                                    <p>Automate your entire supply chain process with Dynamics 365 Supply Chain Management. Boost efficiency, cut costs, enhance accuracy, gain real-time insights, and improve customer service.</p>
-                                                    <Link href="/products/dynamics-365-supply-chain-management/">
-                                                        <a aria-label="dynamics-365-supply-chain-management">
-                                                            <div className="h-s-call" >
-                                                                <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                            </div>
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                            <div
-                                                className="col-lg-4 col-md-6"
-                                            >
-                                                <div className="service-box service-box-blue service-box-blue-home">
-                                                    <div className="top">
-                                                        <img
-                                                            src="/img/Sales_scalable.svg"
-                                                            alt="Sales_scalable"
-                                                            className="icon"
-                                                            width="34"
-                                                            height="34"
-                                                        />
-                                                        <h3>
-                                                            Dynamics 365 <br />
-                                                            Sales
-                                                        </h3>
-                                                    </div>
-                                                    <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
-                                                    <Link href="/products/microsoft-dynamics-365-sales/">
-                                                        <a aria-label="microsoft-dynamics-365-sales">
-                                                            <div className="h-s-call" >
-                                                                <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                            </div>
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                            <div
-                                                className="col-lg-4 col-md-6"
-                                            >
-                                                <div className="service-box service-box-blue service-box-blue-home">
-                                                    <div className="top">
-                                                        <img
-                                                            src="/img/powerbilogo.png"
-                                                            alt="Powerapps_power-apps"
-                                                            className="icon"
-                                                            width="34"
-                                                            height="34"
-                                                        />
-                                                        <h3>
-                                                            Microsoft <br />
-                                                            Power BI
-                                                        </h3>
-                                                    </div>
-                                                    <p>Analyze and visualize the huge stack of data with interactive graphical representations to make data-driven decisions in real-time. Transform your data to make it accessible and valuable to refine decision-making.</p>
-                                                    <Link href="/products/microsoft-power-bi/">
-                                                        <a aria-label="microsoft-power-bi">
-                                                            <div className="h-s-call" >
-                                                                <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                            </div>
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                            <div
-                                                className="col-lg-4 col-md-6"
-                                            >
-                                                <div className="service-box service-box-blue service-box-blue-home">
-                                                    <div className="top">
-                                                        <img
-                                                            src="/img/home/NAV_scalable.png"
-                                                            alt="Azure-IoT"
-                                                            className="icon"
-                                                            width="34"
-                                                            height="34"
-                                                        />
-                                                        <h3>Microsoft <br />
-                                                            Dynamics NAV</h3>
-                                                    </div>
-                                                    <p>A simple yet powerful ERP solution to manage, control, and track entire business operations with full visibility. Connect different departments, automate sales, and manage all back-end processes with ease.</p>
-                                                    <Link href="/products/microsoft-dynamics-nav/">
-                                                        <a aria-label="microsoft-dynamics-nav">
-                                                            <div className="h-s-call" >
-                                                                <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                            </div>
-                                                        </a>
-                                                    </Link>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>}
-                                        
-                                        
-                                        
-                                    </div>
-
-                                    {/* Animated border */}
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <section className="Solution-banner pp-rrea new-main-heading">
                     <div className="container">
                         <div className="row g-5">
@@ -525,7 +159,7 @@ const MicrosoftPage = () => {
                     </div>
                 </section>
 
-                <section className="bg-style-one marg-12">
+                <section className="bg-style-one marg-12 marg-13">
                     <div className="bb-img">
                         <img src="/img/mar-i-bg.png" alt="mar-i-bg" width={856} height={388} />
                     </div>
@@ -537,7 +171,7 @@ const MicrosoftPage = () => {
                                     <p>Are you facing any of these challenges in your day-to-day operations?</p>
                                 </div>
 
-                                <div className="bott-list-tool">
+                                <div className="bott-list-tool m-p-30">
                                     <ul>
                                         <li>
                                             <div class="tooltips btn btn-secondary">
@@ -608,12 +242,12 @@ const MicrosoftPage = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="shot-ct-bott">
-                                    <p>How? It does so by centralizing scattered data into a single platform, automating manual and tedious operations to reduce errors, and guaranteeing compliance with changing rules. Besides, it streamlines complicated financial reporting, enhances cash flow control, and optimizes budgeting and planning. Its adaptable and flexible architecture also lets companies easily adapt and expand, therefore guaranteeing long-term accuracy and efficiency.</p>
+                                <div className="shot-ct-bottd">
+                                    <p>If you are facing one or more of these challenges, you are lagging behind your competitors. It isn’t an option, right? Or is it?</p>
                                 </div>
-                                <div className="shot-ct">
-                                    <p>Now, the question is, can Financial Management in Microsoft Dynamics 365 Business Central address these challenges?</p>
-                                    <span>The short and quick answer is - Yes.</span>
+                                <div className="shot-ct shot-ct-m">
+                                    <span>Microsoft Dynamics 365 software suite
+                                        is the answer to all these challenges</span>
                                 </div>
                                 <div className="text-center">
                                     <Link href="#exampleModal">
@@ -647,53 +281,65 @@ const MicrosoftPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row bc--top-pad">
-                            <div className="col-lg-3">
-                                <div className="bc--feat-box">
-                                    <Image
-                                        width={57}
-                                        height={48}
-                                        src="/img/Finance-small-icon-1.png"
-                                        alt="Proactive Decision Making"
-                                    />
-                                    <h3>Proactive Decision Making</h3>
-                                    <p>Leverage the advanced capabilities of AI and Copilot to enhance decision-making capabilities. Monitor cash flow, forecast trends, improve profit margins, perform proper budgeting, and analyze existing data to close accounts faster.</p>
+                        <div className="row g-5 pd-001 sliding-row">
+                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher">
+                                    <div className="card-with-one-img">
+                                        <img src="/img/icon-new-07.png" alt="Customer Engagement (CRM)" width={40} height={40} />
+                                    </div>
+                                    <h3>Customer Engagement (CRM)</h3>
+                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
+                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
-                                <div className="bc--feat-box">
-                                    <Image
-                                        width={57}
-                                        height={48}
-                                        src="/img/Finance-small-icon-2.png"
-                                        alt="Automate Operations"
-                                    />
-                                    <h3>Automate Operations</h3>
-                                    <p>Move your business towards digitalization while automating core financial processes. It can help you save time, cut labor costs, build an invoice workflow, create rules based on automation, and centralize data across Microsoft business applications.</p>
+                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher">
+                                    <div className="card-with-one-img">
+                                        <img src="/img/icon-new-08.png" alt="Enterprise Resource Planning (ERP)" width={40} height={40} />
+                                    </div>
+                                    <h3>Enterprise Resource Planning (ERP)</h3>
+                                    <p>Optimize and simplify your key business processes with strong ERP solutions. Handle your finances, optimize your supply chain and logistics, boost retail experiences, and oversee projects with the help of AI-driven real-time insights and automation. Now ensure operational efficiency at every level.</p>
+                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
-                                <div className="bc--feat-box">
-                                    <Image
-                                        width={57}
-                                        height={48}
-                                        src="/img/Finance-small-icon-3.png"
-                                        alt="Maximize Profit Margins"
-                                    />
-                                    <h3>Maximize Profit Margins</h3>
-                                    <p>Know the fluctuating market demands to understand customer behavior. Based on user insights, focus on products or services with a better margin ratio to maximize profits while reducing insignificant processes.</p>
+                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher">
+                                    <div className="card-with-one-img">
+                                        <img src="/img/icon-new-09.png" alt="Unified Data & AI Capabilities" width={40} height={40} />
+                                    </div>
+                                    <h3>Unified Data & AI Capabilities</h3>
+                                    <p>Unified data is the consolidation of data into a single platform, and it forms a solid foundation for the powerful Microsoft Dynamics 365 integration capability. Now leverage integrated data, AI-driven insights, and automation to improve decision-making and ensure smooth operations.</p>
+                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
-                                <div className="bc--feat-box">
-                                    <Image
-                                        width={57}
-                                        height={48}
-                                        src="/img/Finance-small-icon-4.png"
-                                        alt="Scale Globally"
-                                    />
-                                    <h3>Scale Globally</h3>
-                                    <p>Adapt to the changing global compliances and local tax regulations to build an international business. Accept multi-currency payments from global customers as Dynamics 365 for Finance supports 51 countries and 67 languages.</p>
+                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher">
+                                    <div className="card-with-one-img">
+                                        <img src="/img/icon-new-10.png" alt="Scalability and Customization" width={40} height={40} />
+                                    </div>
+                                    <h3>Scalability and Customization</h3>
+                                    <p>Change and scale in line with a modular system meant to adapt as your company grows. Whether you require a solution for a small team or a large enterprise, Microsoft Dynamics 365 suite provides configurable choices that adapt to your changing business demands.</p>
+                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher">
+                                    <div className="card-with-one-img">
+                                        <img src="/img/icon-new-11.png" alt="Security & Compliance" />
+                                    </div>
+                                    <h3>Security & Compliance</h3>
+                                    <p>Protect your business using enterprise-grade security. Developed on Microsoft Azure, Dynamics 365 guarantees risk management, compliance, and data protection using top-tier security mechanisms and role-based access to sensitive business data.</p>
+                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher">
+                                    <div className="card-with-one-img">
+                                        <img src="/img/icon-new-12.png" alt="Cloud & Mobility" />
+                                    </div>
+                                    <h3>Cloud & Mobility</h3>
+                                    <p>The flexibility and accessibility of cloud-based solutions allow you to remain connected and responsive. Through cloud and mobile access, running operations both in the office and remotely helps you enable a modern and connected workforce.</p>
+                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
                                 </div>
                             </div>
                         </div>
@@ -704,8 +350,368 @@ const MicrosoftPage = () => {
 
 
 
+                <section className="bg-2112">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-8 col-md-8">
+                                <div className="heading-colo-bg">
+                                    <span>Microsoft Dynamics 365 Capabilities and Features</span>
+                                    <h2>Dynamics 365 Finance Modules: Get Everything Simplified</h2>
+                                    <p>Microsoft Dynamics 365 Finance resolves the financial queries of the organization and gives a boost to simplify different operations of the business with different modules. Some of its modules are:</p>
+                                </div>
+                            </div>
+                        </div>
 
-                <section className="bbb" style={{ marginTop: '120px' }}>
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="shpe-bg">
+                                    <div className="abs"><img src="/img/home/nee-sahpe.png" alt="bgiconns" width={388} height={216} /></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div className="row justify-content-center services">
+                            <div className="col-lg-12">
+                                <div className="tabs-container">
+                                    <div className="tab-buttons">
+                                        <button
+                                            className={activeTab === 0 ? "active" : ""}
+                                            onClick={() => handleTabClick(0)}
+                                        >
+                                            Enterprise Resource Planning (ERP)
+                                        </button>
+                                        <button
+                                            className={activeTab === 1 ? "active" : ""}
+                                            onClick={() => handleTabClick(1)}
+                                        >
+                                            Customer Engagement (CRM)
+                                        </button>
+                                        <div className="active-tab-indicator" style={{ left: `${activeTab * 50}%` }} />
+                                    </div>
+
+                                    <div className="tab-content">
+                                        {activeTab === 0 &&
+                                            <div>
+
+                                                <div className="row gy-4">
+                                                    <div className="col-lg-4 col-md-6">
+                                                        <div className="service-box  service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/business-center-logo.svg"
+                                                                    alt="business-center-logo"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                    Dynamics 365 <br /> Business Central
+                                                                </h3>
+                                                            </div>
+                                                            <p>
+                                                                An all-in-one business management solution specifically designed for SMBs and startups that offers a 360-degree holistic view of the entire business with full transparency across different operations.
+                                                            </p>
+                                                            <Link href="/products/dynamics-365-business-central/" >
+                                                                <a aria-label="business-central">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-4 col-md-6">
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/finace-icons.svg"
+                                                                    alt="finace-icons"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                    Dynamics 365 <br />
+                                                                    Finance
+                                                                </h3>
+                                                            </div>
+                                                            <p>
+                                                                Simplify complex financial operations while getting real-time data analytics and accurate insights. Avail automation, minimize investment costs, and monitor financial processes with data-driven insights.
+                                                            </p>
+                                                            <Link href="/products/microsoft-dynamics-365-finance/">
+                                                                <a aria-label="microsoft-dynamics-365-finance">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-4 col-md-6">
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/supplychain-logo.svg"
+                                                                    alt="supplychain-logo"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                    Dynamics 365 <br />
+                                                                    Supply Chain
+                                                                </h3>
+                                                            </div>
+                                                            <p>Automate your entire supply chain process with Dynamics 365 Supply Chain Management. Boost efficiency, cut costs, enhance accuracy, gain real-time insights, and improve customer service.</p>
+                                                            <Link href="/products/dynamics-365-supply-chain-management/">
+                                                                <a aria-label="dynamics-365-supply-chain-management">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        className="col-lg-4 col-md-6"
+                                                    >
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/Sales_scalable.svg"
+                                                                    alt="Sales_scalable"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                    Dynamics 365 <br />
+                                                                    Sales
+                                                                </h3>
+                                                            </div>
+                                                            <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
+                                                            <Link href="/products/microsoft-dynamics-365-sales/">
+                                                                <a aria-label="microsoft-dynamics-365-sales">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        className="col-lg-4 col-md-6"
+                                                    >
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/powerbilogo.png"
+                                                                    alt="Powerapps_power-apps"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                    Microsoft <br />
+                                                                    Power BI
+                                                                </h3>
+                                                            </div>
+                                                            <p>Analyze and visualize the huge stack of data with interactive graphical representations to make data-driven decisions in real-time. Transform your data to make it accessible and valuable to refine decision-making.</p>
+                                                            <Link href="/products/microsoft-power-bi/">
+                                                                <a aria-label="microsoft-power-bi">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        className="col-lg-4 col-md-6"
+                                                    >
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/home/NAV_scalable.png"
+                                                                    alt="Azure-IoT"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>Microsoft <br />
+                                                                    Dynamics NAV</h3>
+                                                            </div>
+                                                            <p>A simple yet powerful ERP solution to manage, control, and track entire business operations with full visibility. Connect different departments, automate sales, and manage all back-end processes with ease.</p>
+                                                            <Link href="/products/microsoft-dynamics-nav/">
+                                                                <a aria-label="microsoft-dynamics-nav">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+                                            </div>}
+                                        {activeTab === 1 &&
+
+                                            <div>
+
+                                                <div className="row gy-4">
+                                                    <div className="col-lg-4 col-md-6">
+                                                        <div className="service-box  service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/business-center-logo.svg"
+                                                                    alt="business-center-logo"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                    Dynamics 365<br />
+                                                                    Sales
+                                                                </h3>
+                                                            </div>
+                                                            <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
+                                                            <Link href="/products/dynamics-365-business-central/" >
+                                                                <a aria-label="business-central">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-4 col-md-6">
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/finace-icons.svg"
+                                                                    alt="finace-icons"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                Dynamics 365<br />
+                                                                Customer Service
+                                                                </h3>
+                                                            </div>
+                                                            <p>Employ generative AI and the internet of things (IoT) to modernize your business operations while boosting overall agent efficiency. Give a personalized experience to the customer, track resources, and optimize the issue resolution process.</p>
+                                                            <Link href="/products/microsoft-dynamics-365-finance/">
+                                                                <a aria-label="microsoft-dynamics-365-finance">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-lg-4 col-md-6">
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/supplychain-logo.svg"
+                                                                    alt="supplychain-logo"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                Dynamics 365<br />
+                                                                Marketing
+                                                                </h3>
+                                                            </div>
+                                                            <p>Engage customers with your business, build brand value, and offer an exceptional customer experience. Unify your customer data, avail AI-powered automation, and offer personalized offers to maximize revenue.</p>
+                                                            <Link href="/products/dynamics-365-supply-chain-management/">
+                                                                <a aria-label="dynamics-365-supply-chain-management">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        className="col-lg-4 col-md-6"
+                                                    >
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/Sales_scalable.svg"
+                                                                    alt="Sales_scalable"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                Dynamics 365<br />
+                                                                Customer Insights
+                                                                </h3>
+                                                            </div>
+                                                            <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
+                                                            <Link href="/products/microsoft-dynamics-365-sales/">
+                                                                <a aria-label="microsoft-dynamics-365-sales">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        className="col-lg-4 col-md-6"
+                                                    >
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/powerbilogo.png"
+                                                                    alt="Powerapps_power-apps"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                Dynamics 365<br />
+                                                                Field Service
+                                                                </h3>
+                                                            </div>
+                                                            <p>Employ generative AI and the internet of things (IoT) to modernize your business operations while boosting overall agent efficiency. Give a personalized experience to the customer, track resources, and optimize the issue resolution process.</p>
+                                                            <Link href="/products/microsoft-power-bi/">
+                                                                <a aria-label="microsoft-power-bi">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                   
+                                                </div>
+
+
+                                            </div>}
+
+
+
+                                    </div>
+
+                                    {/* Animated border */}
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <section className="bbb">
                     <div className="heross">
                         <video
                             playsinline
