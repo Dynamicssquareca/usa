@@ -123,7 +123,7 @@ const fetchCountryCodeByIP = () => {
         company_name: '',
         phone: '',
       });
-      router.push("/thank-you/how-to-choose-right-erp/");
+      router.push("https://www.dynamicssquare.com/thank-you/how-to-choose-right-erp/");
     } catch (error) {
       console.error(error.text);
     } finally {

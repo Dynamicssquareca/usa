@@ -124,7 +124,7 @@ const fetchCountryCodeByIP = () => {
         company_name: '',
         phone: '',
       });
-      router.push("/guides/download/Pdf-dynamics-finance/");
+      router.push("https://www.dynamicssquare.com/guides/download/Pdf-dynamics-finance/");
     } catch (error) {
       console.error(error.text);
     } finally {

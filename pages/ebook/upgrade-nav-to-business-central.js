@@ -123,7 +123,7 @@ const fetchCountryCodeByIP = () => {
         company_name: '',
         phone: '',
       });
-      router.push("/thank-you-for-registration/");
+      router.push("https://www.dynamicssquare.com/thank-you-for-registration/");
     } catch (error) {
       console.error(error.text);
     } finally {
