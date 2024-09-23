@@ -2,7 +2,7 @@ import React, { useRef ,useState } from 'react';
 import Form from "./Form";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
-import FormFooterSubscriber from './FormFooterSubscriber';
+// import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
 const Footerold = () =>{
   
@@ -484,7 +484,7 @@ const Footerold = () =>{
                     Get Dynamics 365 Product Updates, Free Webinars, Blogs,
                     Offers And Much More!
                   </span>
-                  <FormFooterSubscriber />
+                  {/* <FormFooterSubscriber /> */}
                 </div>
               </div>
             </div>

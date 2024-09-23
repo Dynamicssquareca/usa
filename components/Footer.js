@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import Form from "./Form";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/router';
-import FormFooterSubscriber from './FormFooterSubscriber';
+// import FormFooterSubscriber from './FormFooterSubscriber';
 import Image from 'next/image';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
@@ -646,7 +646,7 @@ const fetchCountryCodeByIP = () => {
                     Get Dynamics 365 Product Updates, Free Webinars, Blogs,
                     Offers And Much More!
                   </span>
-                  <FormFooterSubscriber />
+                  {/* <FormFooterSubscriber /> */}
                 </div>
               </div>
             </div>
