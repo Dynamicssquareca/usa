@@ -111,7 +111,7 @@ const fetchCountryCodeByIP = () => {
 
 
     try {
-      const result = await emailjs.sendForm('service_cxxhqoq', 'template_f80fich', form.current, '7Ae4EIVY__86NsTQD');
+      const result = await emailjs.sendForm('service_xj9eves', 'template_q3l8afp', form.current, 'Iqyv5OO_yqxYVSNHf');
       console.log(result.text);
       setFormData({
         name: '',
