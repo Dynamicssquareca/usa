@@ -12,8 +12,10 @@ const TestForm = () => {
                 <meta name="robots" content="noindex, nofollow" />
             </Head>
 
+            <section>
             <MultiStepForm />
 
+            </section>
             <FooterHide />
         </div>
     );
