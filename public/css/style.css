@@ -14976,7 +14976,16 @@ blockquote a{
     position: relative;
 }
 .new-main-heading-top h1{
-  margin-bottom: 20px;
+  font-size: 48px !important;
+  font-weight: bold;
+  background: #542784;
+  line-height: normal;
+  background: linear-gradient(to right, #542784 10%, #307faf 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 0px;
+
 }
 .new-main-heading-top p{}
 .bg-style-one{
