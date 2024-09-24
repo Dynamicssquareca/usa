@@ -263,7 +263,7 @@ const fetchCountryCodeByIP = () => {
                         and
                         <a href="/terms-of-use/" target="_blank">
                           {" "}
-                          Terms of Service{" "}
+                          Terms of Service
                         </a>
                         .
                       </label>
