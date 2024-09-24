@@ -1,17 +1,20 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
 import Link from "next/link";
 
 const MicrosoftPage = () => {
-    const [isOpen, setOpen] = useState(false);
-    const [open, setsOpen] = useState(false);
-
     const [activeTab, setActiveTab] = useState(0);
+    const [previousTab, setPreviousTab] = useState(0); // To track previous tab for animation
 
     const handleTabClick = (index) => {
-        setActiveTab(index);
+        setPreviousTab(activeTab); // Store the current tab as previous
+        setActiveTab(index);       // Set the new active tab
+    };
+
+    const getSlideDirection = () => {
+        return activeTab > previousTab ? "slide-in-left" : "slide-in-right";
     };
 
 
@@ -78,7 +81,7 @@ const MicrosoftPage = () => {
 
             <main>
 
-                <section className="Solution-banner pp-rrea new-main-heading">
+                <section className="Solution-banner new-main-heading bg-gg-coloor">
                     <div className="container">
                         <div className="row g-5">
                             <div className="col-lg-6 align-self-center">
@@ -100,18 +103,10 @@ const MicrosoftPage = () => {
                             </div>
                             <div className="col-lg-6 align-self-center">
                                 <div className="banner-ne-im-t">
-                                    <div className="bf">
-                                        <Image
-                                            src="/img/f-o-shadow-1.png"
-                                            width={1228}
-                                            height={818}
-                                            alt="nn"
-                                        />
-                                    </div>
                                     <Image
-                                        src="/img/Finance-banner-pic.png"
-                                        alt="Microsoft Dynamics 365 Finance"
-                                        width={648}
+                                        src="/img/d-365-banner.png"
+                                        alt="d-365-banner.png"
+                                        width={679}
                                         height={355}
                                     />
                                 </div>
@@ -126,12 +121,12 @@ const MicrosoftPage = () => {
 
                         <div className="row pp-top-60 pp-bot-60 rever-1">
                             <div className="col-lg-5 align-self-center">
-                                <div className="new-pic-bc">
+                                <div className="new-pic-bc text-center">
                                     <Image
-                                        src="/img/Finance-pic-1.png"
+                                        src="/img/picture-1-may.png"
                                         alt="Dynamics 365 Finance"
-                                        width={469}
-                                        height={404}
+                                        width={590}
+                                        height={499}
                                     />
                                 </div>
                             </div>
@@ -159,7 +154,7 @@ const MicrosoftPage = () => {
                     </div>
                 </section>
 
-                <section className="bg-style-one marg-12 marg-13">
+                <section className="bg-style-one marg-12 marg-13 marg-14">
                     <div className="bb-img">
                         <img src="/img/mar-i-bg.png" alt="mar-i-bg" width={856} height={388} />
                     </div>
@@ -387,10 +382,10 @@ const MicrosoftPage = () => {
                                         >
                                             Customer Engagement (CRM)
                                         </button>
-                                        <div className="active-tab-indicator" style={{ left: `${activeTab * 50}%` }} />
+                                        <div className="active-tab-indicator" style={{ left: activeTab === 0 ? "calc(10% - 20px)" : "calc(61% - 20px)" }} />
                                     </div>
 
-                                    <div className="tab-content">
+                                    <div className={`tab-content ${getSlideDirection()}`}>
                                         {activeTab === 0 &&
                                             <div>
 
@@ -598,8 +593,8 @@ const MicrosoftPage = () => {
                                                                     height="34"
                                                                 />
                                                                 <h3>
-                                                                Dynamics 365<br />
-                                                                Customer Service
+                                                                    Dynamics 365<br />
+                                                                    Customer Service
                                                                 </h3>
                                                             </div>
                                                             <p>Employ generative AI and the internet of things (IoT) to modernize your business operations while boosting overall agent efficiency. Give a personalized experience to the customer, track resources, and optimize the issue resolution process.</p>
@@ -623,8 +618,8 @@ const MicrosoftPage = () => {
                                                                     height="34"
                                                                 />
                                                                 <h3>
-                                                                Dynamics 365<br />
-                                                                Marketing
+                                                                    Dynamics 365<br />
+                                                                    Marketing
                                                                 </h3>
                                                             </div>
                                                             <p>Engage customers with your business, build brand value, and offer an exceptional customer experience. Unify your customer data, avail AI-powered automation, and offer personalized offers to maximize revenue.</p>
@@ -650,8 +645,8 @@ const MicrosoftPage = () => {
                                                                     height="34"
                                                                 />
                                                                 <h3>
-                                                                Dynamics 365<br />
-                                                                Customer Insights
+                                                                    Dynamics 365<br />
+                                                                    Customer Insights
                                                                 </h3>
                                                             </div>
                                                             <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
@@ -677,8 +672,8 @@ const MicrosoftPage = () => {
                                                                     height="34"
                                                                 />
                                                                 <h3>
-                                                                Dynamics 365<br />
-                                                                Field Service
+                                                                    Dynamics 365<br />
+                                                                    Field Service
                                                                 </h3>
                                                             </div>
                                                             <p>Employ generative AI and the internet of things (IoT) to modernize your business operations while boosting overall agent efficiency. Give a personalized experience to the customer, track resources, and optimize the issue resolution process.</p>
@@ -691,7 +686,7 @@ const MicrosoftPage = () => {
                                                             </Link>
                                                         </div>
                                                     </div>
-                                                   
+
                                                 </div>
 
 
@@ -711,6 +706,251 @@ const MicrosoftPage = () => {
                 </section>
 
 
+                <section>
+                    <div className="container">
+                        <div className="cal-t-bg">
+                            <div className="row g-5">
+                                <div className="col-lg-12">
+                                    <div className="ffloat-im-top">
+                                        <img src="/img/group-352a75.png" alt="group-352a75" />
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 align-self-center">
+                                    <div className="ll-left">
+                                        <img src="/img/inside-searc-icons.png" alt="inside-searc-icons" /></div>
+                                </div>
+                                <div className="col-lg-4">
+                                    <div className="ll-right">
+                                        <span>50<sup>%</sup></span>
+                                        <p>Over 50% of organizations say that ERP systems like Dynamics 365 helped them reduce operational costs by streamlining processes</p>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4">
+                                    <div className="ll-right">
+                                        <span>60<sup>%</sup></span>
+
+                                        <p>60% of manufacturing companies have improved supply chain visibility with Dynamics 365 ERP</p></div>
+                                </div>
+                                <div className="col-lg-12">   <div className="ffloat-im-botm">
+                                    <img src="/img/group-352a75.png" alt="group-352a75" />
+                                </div></div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <section>
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-8 col-md-8">
+                                <div className="heading-colo-bg">
+                                    <span>Benefits of Microsoft Dynamics 365</span>
+                                    <h2>Business Benefits of Microsoft<br /> Dynamics 365</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row g-5">
+
+                            <div className="col-lg-6">
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-13.png"
+                                            alt="Enhanced Productivity:"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Enhanced Productivity:</h3>
+                                        <p>Think of your team focusing on things that truly matter to your business. Dynamics 365 automates repetitive and routine tasks to let your teams excel in their strategic roles.</p>
+                                    </div>
+                                </div>
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-14.png"
+                                            alt="Data-driven Insights"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Data-driven Insights</h3>
+                                        <p>By providing you with a clear picture of your business, it boosts your confidence in decision-making. With advanced analytics with AI-powered real-time data, you can identify patterns and make crucial adjustments to your strategies.</p>
+                                    </div>
+                                </div>
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-15.png"
+                                            alt="Integration"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Integration</h3>
+                                        <p>The ability to seamlessly integrate with other Microsoft products like Office 365 gives it an edge over other solutions. This boosts collaboration and productivity and provides a unified experience across different solutions.</p>
+                                    </div>
+                                </div>
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-16.png"
+                                            alt="Security and Compliance"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Security and Compliance</h3>
+                                        <p>Security takes absolute priority when it comes to Microsoft Dynamics 365 software suite. Powerful security features let you stay compliant with regulations, safeguarding your data and maintaining trust.</p>
+                                    </div>
+                                </div>
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-17.png"
+                                            alt="Enhanced Collaboration"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Enhanced Collaboration</h3>
+                                        <p>Dynamics 365 encourages better interaction and teamwork. Connected tools make it smoother for teams to interact, manage projects, and stay connected which ultimately leads to more cohesive operations.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-18.png"
+                                            alt="Improved Customer Engagement"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Improved Customer Engagement</h3>
+                                        <p>When you use Microsoft Dynamics CRM, you get to know your customers better. This helps you engage them in ways tailored to their specific requirements to win their trust and loyalty.</p>
+                                    </div>
+                                </div>
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-19.png"
+                                            alt="Easy Scalability"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Easy Scalability</h3>
+                                        <p>Say goodbye to your scalability woes. Microsoft Dynamics 365 scales with your business as its modular design allows you to effortlessly add or remove features without causing any disruption to your operations.</p>
+                                    </div>
+                                </div>
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-20.png"
+                                            alt="Customization"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Customization</h3>
+                                        <p>No two businesses are the same, and Dynamics 365 gets that. You can tailor it the way your business demands, be it your workflows, forms, or reports. This ensures the system aligns perfectly with your processes.</p>
+                                    </div>
+                                </div>
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-21.png"
+                                            alt="Cloud-based Accessibility"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Cloud-based Accessibility</h3>
+                                        <p>Now access your data and apps on the go anytime, and from anywhere! This provides your remote teams with the flexibility to access real-time data and ensures better collaboration.</p>
+                                    </div>
+                                </div>
+                                <div className="style-grid-1">
+                                    <div className="style-grid-icons style-grid-icons-round">
+                                        <img
+                                            src="/img/icon-new-22.png"
+                                            alt="Cost Efficiency"
+                                            width={40} height={40}
+                                        />
+                                    </div>
+                                    <div className="style-grid-content style-grid-two">
+                                        <h3>Cost Efficiency</h3>
+                                        <p>Microsoft Dynamics 365 helps reduce operational costs. It does so by letting you automate processes and ensure optimum resource management. Reduced costs translate into more savings, which improves the financial health of your business.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-8">
+                                <div className="heading-colo-bg heading-colo-bg-left">
+                                    <span>Microsoft Dynamics 365 Licensing and Cost?</span>
+                                    <h2>How Much is Microsoft Dynamics 365 Licensing and Cost?</h2>
+                                    <p>Various factors come into play when it comes to Microsoft Dynamics 365 pricing. These factors include:</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="lice-cost-wrper">
+                                    <div className="lice-cost-wrper-lst">
+                                        <ul>
+                                            <li><i class="bi bi-check-lg"></i> <span>Number of users</span></li>
+                                            <li><i class="bi bi-check-lg"></i> <span>Geographical location</span></li>
+                                            <li><i class="bi bi-check-lg"></i> <span>Support and maintenance</span></li>
+                                            <li><i class="bi bi-check-lg"></i> <span>Specific Dynamics 365 modules required</span></li>
+                                            <li><i class="bi bi-check-lg"></i> <span>Deployment model</span></li>
+                                            <li><i class="bi bi-check-lg"></i> <span>Licensing type</span></li>
+                                            <li><i class="bi bi-check-lg"></i> <span>Integration requirements</span></li>
+
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="lice-cost-wrper-para">
+                                    <p>However, Microsoft offers flexible pricing plans for Dynamics 365 Apps. You can opt for ERP or CRM, or the mixed capabilities of both solutions. Further, you can pay for selected apps despite owning the full CRM or ERP solution.</p>
+                                    <p>Contact Dynamics Square for the latest details on Dynamics 365 about licensing and cost. Or you can download our comprehensive guide on pricing and licensing for different apps under Dynamics 365 suite.</p>
+                                    <div className="text-lefts">
+                                        <Link href="#exampleModal">
+                                            <a
+                                                data-bs-toggle="modal"
+                                                className="btn-get-started scrollto"
+                                            >
+                                                <span>Dynamics 365 Pricing & Licensing Guide</span>
+                                            </a>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
                 <section className="bbb">
                     <div className="heross">
                         <video
@@ -728,11 +968,9 @@ const MicrosoftPage = () => {
                                 <div className="col-lg-5"></div>
                                 <div className="col-lg-7">
                                     <div className="psot-cl">
-                                        <h3>For personalized or detailed Dynamics 365 Finance pricing, feel free to contact our experts.</h3>
+                                        <h3>Looking to Implement Microsoft Dynamics 365 Business Apps?</h3>
                                         <Link href="/contact-us/">
-                                            <a className="btn btn-md">
-                                                Contact Dynamics 365 Consultant Now!
-                                            </a>
+                                            <a className="btn btn-md">Get a Free Demo</a>
                                         </Link>
                                     </div>
                                 </div>
@@ -747,8 +985,8 @@ const MicrosoftPage = () => {
                         <div className="row">
                             <div className="col-lg-7 align-self-center">
                                 <div className="left--side-title">
-                                    <h2>Why are Businesses choosing Dynamics Square over others?</h2>
-                                    <p>Partner with Dynamics Square to get access to a team of certified technical consultants who will guide us on the path of successful <Link href="/our-services/dynamics-365-implementation-services/"><a>Dynamics 365 implementation</a></Link>. Also, we will empower you to build a global market presence and optimize your financial processes for maximum business growth.</p>
+                                    <h2>Partner with Dynamics Square to Deploy Microsoft Dynamics 365 Apps</h2>
+                                    <p>We are a certified Microsoft Gold Partner who can you innovative and business-driven solutions along with seamless experience in upgrading/implementing Dynamics 365 modules without losing your existing data and business processes.</p>
                                 </div>
                             </div>
                             <div className="col-lg-5 align-self-center">
@@ -769,7 +1007,7 @@ const MicrosoftPage = () => {
                                         <Image
                                             width={57}
                                             height={48}
-                                            src="/img/Finance-small-icon-5.png"
+                                            src="/img/apps-color-1.png"
                                             alt="Proven Track Record"
                                         />
                                     </div>
@@ -785,7 +1023,7 @@ const MicrosoftPage = () => {
                                         <Image
                                             width={57}
                                             height={48}
-                                            src="/img/Finance-small-icon-6.png"
+                                            src="/img/apps-color-2.png"
                                             alt="Personalized Approach"
                                         />
                                     </div>
@@ -801,7 +1039,7 @@ const MicrosoftPage = () => {
                                         <Image
                                             width={57}
                                             height={48}
-                                            src="/img/Finance-small-icon-7.png"
+                                            src="/img/apps-color-3.png"
                                             alt="Agile Support System"
                                         />
                                     </div>
@@ -817,7 +1055,7 @@ const MicrosoftPage = () => {
                                         <Image
                                             width={57}
                                             height={48}
-                                            src="/img/Finance-small-icon-8.png"
+                                            src="/img/apps-color-4.png"
                                             alt="Global Infrastructure"
                                         />
                                     </div>
