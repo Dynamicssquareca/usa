@@ -75,7 +75,7 @@ const Solution = () => {
                       <div class="tooltips btn btn-secondary">
                         <i class="bi bi-check-lg"></i> <span>Fragmented financial data</span>
                         <span class="tooltips-text">
-                          <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                          <p>Disconnected systems result in incomplete and inaccurate financial information</p>
                         </span>
                       </div>
 
@@ -93,18 +93,18 @@ const Solution = () => {
                   <ul>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Lack of scalability and flexibility</span>
+                        <i class="bi bi-check-lg"></i> <span>Adherence to regulatory compliance</span>
                         <span class="tooltips-text">
-                          <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                          <p>The system must be frequently updated to fulfill ever-evolving financial regulations</p>
                         </span>
                       </div>
 
                     </li>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Poor budgeting and planning</span>
+                        <i class="bi bi-check-lg"></i> <span>Complex financial reporting</span>
                         <span class="tooltips-text">
-                          <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                          <p>Getting accurate and in-depth reports is challenging and resource intensive without a competent system</p>
                         </span>
                       </div>
 
@@ -113,7 +113,7 @@ const Solution = () => {
                       <div class="tooltips btn btn-secondary">
                         <i class="bi bi-check-lg"></i> <span>Inefficient cash flow management</span>
                         <span class="tooltips-text">
-                          <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                          <p>Happens due to poor visibility and control over cash inflows and outflows</p>
                         </span>
                       </div>
 
@@ -122,18 +122,18 @@ const Solution = () => {
                   <ul>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Complex financial reporting</span>
+                        <i class="bi bi-check-lg"></i> <span>Poor budgeting and planning</span>
                         <span class="tooltips-text">
-                          <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                          <p>Inaccurate projections and inadequate financial planning impede company development</p>
                         </span>
                       </div>
 
                     </li>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Adherence to regulatory compliance</span>
+                        <i class="bi bi-check-lg"></i> <span>Lack of scalability and flexibility</span>
                         <span class="tooltips-text">
-                          <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                          <p>Financial systems struggle to adapt to business growth and changing needs</p>
                         </span>
                       </div>
 
@@ -167,10 +167,10 @@ const Solution = () => {
             <div className="row bb-cc-colo">
               <div className="col-lg-6 align-self-center">
                 <div className="solution-new-cta">
-                  <h3>Switch to Microsoft
+                  <h3>Deploy Microsoft
                     Dynamics 365 Business Central</h3>
-                  <p>Business Central will digitally transform your business to help you stay ahead in the market while growing continuously.</p>
-                  <a href="" className="new-btn-wh">Connect with the Business Central Expert</a>
+                  <p>Revamp your financial operations, ensure compliance, and drive growth with Dynamics 365 Business Central Financial Management.</p>
+                  <a href="" className="new-btn-wh">Get Started Today!</a>
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -496,7 +496,7 @@ const Solution = () => {
       </section>
 
 
-      <section>
+      {/* <section>
         <div className="container">
         <div className="row justify-content-center">
               <div className="col-lg-9">
@@ -654,7 +654,7 @@ const Solution = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 
