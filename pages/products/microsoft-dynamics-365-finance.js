@@ -1579,7 +1579,7 @@ const Finance = () => {
                 </div>
                 <div className="pr-body">
                   <div className="pr-pice">
-                    <span>$180</span> per user/month
+                    <span>$210.00</span> per user/month
                   </div>
                   <div className="list-ul">
                     <ul>

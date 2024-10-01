@@ -439,7 +439,7 @@ const HumanResource = () => {
               <div className="box box-22">
                 <h3>Dynamics 365 Human Resources</h3>
                 <div className="price">
-                  $120<span>Per-User/Month</span>
+                  $135<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">

@@ -477,23 +477,7 @@ const SupplyChainManagement = () => {
             </p>
           </header>
           <div className="row gy-4 p-9">
-            <div className="col-lg-3">
-              {/* <div className="box">
-                        <h4>Business Central<br />
-                           Essentials
-                        </h4>
-                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
-                        <ul>
-                           <li> <i className="bi bi-check-lg"></i> Financial Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Inventory Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Order Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Purchase Order Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Project Management</li>
-                           <li> <i className="bi bi-check-lg"></i> Additional Capabilities</li>
-                        </ul>
-                       
-                     </div> */}
-            </div>
+            
             <div className="col-lg-6">
               <div className="box box-22">
                 <h3>
@@ -502,7 +486,7 @@ const SupplyChainManagement = () => {
                   Supply Chain Management
                 </h3>
                 <div className="price">
-                  $180<span>Per-User/Month</span>
+                  $210<span>Per-User/Month</span>
                 </div>
                 <ul>
                   <li className="text-center">
@@ -512,20 +496,24 @@ const SupplyChainManagement = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
-              {/* <div className="box">
-                        <h4>Business Central<br />
-                           Essentials
-                        </h4>
-                        <div className="price"><sup>£</sup>52.80<span>Per-User/Per Month</span></div>
-                        <ul>
-                           <li> <i className="bi bi-check-lg"></i> Read and Approve</li>
-                           <li> <i className="bi bi-check-lg"></i> Employee Self Serve</li>
-                           <li> <i className="bi bi-check-lg"></i> Run All Reports</li>
-                        </ul>
-                       
-                     </div> */}
+            <div className="col-lg-6">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365
+                  <br />
+                  Supply Chain Management Premium
+                </h3>
+                <div className="price">
+                  $300<span>Per-User/Month</span>
+                </div>
+                <ul>
+                  <li className="text-center">
+                   Enhance supply chain management with Copilot. 
+                  </li>
+                </ul>
+              </div>
             </div>
+             
           </div>
         </div>
       </section>

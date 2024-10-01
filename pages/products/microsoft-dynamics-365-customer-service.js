@@ -286,7 +286,7 @@ const CustomerService = () => {
           </div>
         </div>
       </section>
-      {/* <section id="pricing" className="pricing">
+      <section id="pricing" className="pricing">
         <div className="container">
           <header className="section-header">
             <h2>Dynamics 365 Customer Service Pricing</h2>
@@ -298,7 +298,7 @@ const CustomerService = () => {
             </p>
           </header>
           <div className="row gy-4 p-9">
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-4">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Customer Service
@@ -306,77 +306,50 @@ const CustomerService = () => {
                   Professional
                 </h3>
                 <div className="price">
-                  <sup>£</sup>52.80<span>Per-User/Per Month</span>
+                $50.00<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
-                    <i className="bi bi-check-lg"></i> Case management
+                    <i className="bi bi-check-lg"></i> Streamlined case management resources for service representatives and self=service
                   </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Knowledge management
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> SLAs
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Templates
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Unlimited number of users
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Additional Capabilities
-                  </li>
+                  
                 </ul>
               </div>
             </div>
 
-            <div className="col-lg-6 col-md-6">
+            <div className="col-lg-4 col-md-4">
               <div className="box box-22">
                 <h3>
                   Dynamics 365 Customer Service
                   <br />
-                  Essentials
+                  Enterprise
                 </h3>
                 <div className="price">
-                  <sup>£</sup>135.70<span>Per-User/Per Month</span>
+                $105.00<span>Per-User/Per Month</span>
                 </div>
                 <ul>
                   <li>
-                    <i className="bi bi-check-lg"></i> All features of the
-                    Professional set
+                    <i className="bi bi-check-lg"></i> Advanced AI-based customer service resources for representatives and self-service.
                   </li>
+                   
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-4">
+              <div className="box box-22">
+                <h3>
+                  Dynamics 365 Customer Service
+                  <br />
+                  Enterprise
+                </h3>
+                <div className="price">
+                $195.00<span>Per-User/Per Month</span>
+                </div>
+                <ul>
                   <li>
-                    <i className="bi bi-check-lg"></i> All features of the
-                    Professional set
+                    <i className="bi bi-check-lg"></i> Transform customer engagement with an integrated contact center and CRM service solution -all powered by AI generative.
                   </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Case management
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Unified service desk
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Embedded intelligence
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Context-driven
-                    suggestions
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Service gamification
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Customization and
-                    extensibility
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Portals
-                  </li>
-                  <li>
-                    <i className="bi bi-check-lg"></i> Analytics and KPI
-                    reporting
-                  </li>
+                   
                 </ul>
               </div>
             </div>
@@ -395,7 +368,7 @@ const CustomerService = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section> 
       <section className="call-to-action-center hero-4">
         <div className="container">
           <div className="row justify-content-center">
