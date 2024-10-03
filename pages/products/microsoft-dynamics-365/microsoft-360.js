@@ -87,7 +87,7 @@ const MicrosoftPage = () => {
                             <div className="col-lg-6 align-self-center">
                                 <h1 className="small-h">Microsoft Dynamics 365</h1>
                                 <h2>Empower your business with intelligent solutions!</h2>
-                                <p>Unify your business operations with Microsoft Dynamics 365. Enhance efficiency, reduce complexity, and drive growth with intelligent, interconnected solutions.</p>
+                                <p>Unify your business operations with <b> Microsoft Dynamics 365</b>. Enhance efficiency, reduce complexity, and drive growth with intelligent, interconnected solutions.</p>
                                 <div>
                                     <div className="text-center text-lg-start">
                                         <Link href="#exampleModal">
@@ -137,12 +137,9 @@ const MicrosoftPage = () => {
                                 <div className="nw-bc-lef-h nw-bc-lef-h-gren">
                                     <span>Overview</span>
                                     <h2>What is Microsoft Dynamics 365?</h2>
-                                    <p><b>Microsoft Dynamics 365 is a SaaS-based suite of business solutions that comprises sales, marketing, customer service, finance, human resources, and supply chain management, among others.</b></p>
-                                    <p>Every solution within Dynamics 365 has various modules that work in tandem with each other to provide companies with a complete business management solution. Besides, they allow easy integration with existing systems to offer a complete tech stack.</p>
-
-                                    <p>The data-driven design of Dynamics 365 connects various business functions to enable data sharing and remove silos. A hyperconnected ecosystem of Microsoft improves efficiency, productivity, and cost-effectiveness which makes MS Dynamics 365 a versatile business solution.</p>
-
-                                    <p>So, to answer the question, what is Dynamics 365, you can call it a suite of applications that can digitally transform your operations.</p>
+                                    <p><b>Microsoft Dynamics 365</b> is a SaaS-based suite of AI-driven ERP and CRM solutions that effortlessly connects your teams, processes, and data. This seamless integration helps you provide outstanding customer experiences and boosts your operational efficiency.</p>
+                                    <p>Dynamics 365 comprises sales, marketing, customer service, finance, human resources, and supply chain management, among others. Every solution within Dynamics 365 has various modules that work in tandem with each other to provide companies with a complete business management solution.</p>
+                                    <p>So, to answer the question, what is Dynamics 365, you can call it a suite of applications that can digitally transform your operations.   </p>
 
                                     <p><b>But, do you actually need it? Let’s find out!</b></p>
                                 </div>
@@ -170,72 +167,95 @@ const MicrosoftPage = () => {
                                     <ul>
                                         <li>
                                             <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Fragmented financial data</span>
+                                                <i class="bi bi-check-lg"></i> <span>Poor data management</span>
                                                 <span class="tooltips-text">
-                                                    <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                                                    <p>Inconsistent and scattered data across systems lead to increased operational costs and challenges</p>
                                                 </span>
                                             </div>
 
                                         </li>
                                         <li>
                                             <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Manual processes and errors</span>
+                                                <i class="bi bi-check-lg"></i> <span>Manual tasks</span>
                                                 <span class="tooltips-text">
-                                                    <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                                                    <p>Consumes a lot of productive time in doing repetitive tasks which leads to reduced productivity, higher error rates, and slower response times</p>
+                                                </span>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <div class="tooltips btn btn-secondary">
+                                                <i class="bi bi-check-lg"></i> <span>Limited insights</span>
+                                                <span class="tooltips-text">
+                                                    <p>Non-availability of advanced analytics and AI capabilities can deprive a business of getting deeper and actionable insights into their data</p>
                                                 </span>
                                             </div>
 
                                         </li>
                                     </ul>
                                     <ul>
+                                      
                                         <li>
                                             <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Lack of scalability and flexibility</span>
+                                                <i class="bi bi-check-lg"></i> <span>Regulatory compliance</span>
                                                 <span class="tooltips-text">
-                                                    <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                                                    <p>Becomes important when you operate a business across borders. Failing to comply with regulatory requirements can result in legal actions and operational shutdowns</p>
                                                 </span>
                                             </div>
 
                                         </li>
                                         <li>
                                             <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Poor budgeting and planning</span>
+                                                <i class="bi bi-check-lg"></i> <span>Insufficient reporting</span>
                                                 <span class="tooltips-text">
-                                                    <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                                                    <p>Translates into financial losses, compliance risks, poor decision-making, and customer dissatisfaction</p>
                                                 </span>
                                             </div>
 
                                         </li>
                                         <li>
                                             <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Inefficient cash flow management</span>
+                                                <i class="bi bi-check-lg"></i> <span>Limited customization</span>
                                                 <span class="tooltips-text">
-                                                    <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
+                                                    <p>Necessitates using multiple systems which leads to data silos and operational inefficiency</p>
                                                 </span>
                                             </div>
 
                                         </li>
+                                
                                     </ul>
                                     <ul>
-                                        <li>
-                                            <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Complex financial reporting</span>
-                                                <span class="tooltips-text">
-                                                    <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
-                                                </span>
-                                            </div>
+                                      
+                                      <li>
+                                          <div class="tooltips btn btn-secondary">
+                                              <i class="bi bi-check-lg"></i> <span>Disconnected systems</span>
+                                              <span class="tooltips-text">
+                                                  <p>Causes data silos, operational inefficiency, and communication gaps.</p>
+                                              </span>
+                                          </div>
 
-                                        </li>
-                                        <li>
-                                            <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Adherence to regulatory compliance</span>
-                                                <span class="tooltips-text">
-                                                    <p>Managing finances properly is a major difficulty for businesses of all kinds. The scope of operations</p>
-                                                </span>
-                                            </div>
+                                      </li>
+                                      <li>
+                                          <div class="tooltips btn btn-secondary">
+                                              <i class="bi bi-check-lg"></i> <span>Scalability issues</span>
+                                              <span class="tooltips-text">
+                                                  <p>Makes it challenging for companies to scale their operations as they grow</p>
+                                              </span>
+                                          </div>
 
-                                        </li>
-                                    </ul>
+                                      </li>
+                                      <li>
+                                          <div class="tooltips btn btn-secondary">
+                                              <i class="bi bi-check-lg"></i> <span>Poor customer relationship management</span>
+                                              <span class="tooltips-text">
+                                                  <p>Results in decreased customer satisfaction and loyalty which indicates loss of repeat business opportunities</p>
+                                              </span>
+                                          </div>
+
+                                      </li>
+                              
+                                  </ul>
+                                   
                                 </div>
                                 <div className="shot-ct-bottd">
                                     <p>If you are facing one or more of these challenges, you are lagging behind your competitors. It isn’t an option, right? Or is it?</p>
@@ -350,9 +370,9 @@ const MicrosoftPage = () => {
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
                                 <div className="heading-colo-bg">
-                                    <span>Microsoft Dynamics 365 Capabilities and Features</span>
-                                    <h2>Dynamics 365 Finance Modules: Get Everything Simplified</h2>
-                                    <p>Microsoft Dynamics 365 Finance resolves the financial queries of the organization and gives a boost to simplify different operations of the business with different modules. Some of its modules are:</p>
+                                    <span>Microsoft Dynamics 365 Solutions</span>
+                                    <h2>Explore Microsoft Dynamics 365 Solutions: Powerful and Effective</h2>
+                                    <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p>
                                 </div>
                             </div>
                         </div>
@@ -394,7 +414,7 @@ const MicrosoftPage = () => {
                                                         <div className="service-box  service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/business-center-logo.svg"
+                                                                    src="/img/icons-365-01.png"
                                                                     alt="business-center-logo"
                                                                     className="icon"
                                                                     width="34"
@@ -420,7 +440,7 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/finace-icons.svg"
+                                                                    src="/img/icons-365-02.png"
                                                                     alt="finace-icons"
                                                                     className="icon"
                                                                     width="34"
@@ -447,7 +467,7 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/supplychain-logo.svg"
+                                                                    src="/img/icons-365-03.png"
                                                                     alt="supplychain-logo"
                                                                     className="icon"
                                                                     width="34"
@@ -474,15 +494,15 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/Sales_scalable.svg"
+                                                                    src="/img/icons-365-04.png"
                                                                     alt="Sales_scalable"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
                                                                 />
                                                                 <h3>
-                                                                    Dynamics 365 <br />
-                                                                    Sales
+                                                                Dynamics 365<br />
+                                                                Commerce
                                                                 </h3>
                                                             </div>
                                                             <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
@@ -501,15 +521,15 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/powerbilogo.png"
+                                                                    src="/img/icons-365-05.png"
                                                                     alt="Powerapps_power-apps"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
                                                                 />
                                                                 <h3>
-                                                                    Microsoft <br />
-                                                                    Power BI
+                                                                Project<br />
+                                                                Operations
                                                                 </h3>
                                                             </div>
                                                             <p>Analyze and visualize the huge stack of data with interactive graphical representations to make data-driven decisions in real-time. Transform your data to make it accessible and valuable to refine decision-making.</p>
@@ -528,14 +548,14 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/home/NAV_scalable.png"
+                                                                    src="/img/icons-365-06.png"
                                                                     alt="Azure-IoT"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
                                                                 />
-                                                                <h3>Microsoft <br />
-                                                                    Dynamics NAV</h3>
+                                                                <h3>Human<br />
+                                                                Resources</h3>
                                                             </div>
                                                             <p>A simple yet powerful ERP solution to manage, control, and track entire business operations with full visibility. Connect different departments, automate sales, and manage all back-end processes with ease.</p>
                                                             <Link href="/products/microsoft-dynamics-nav/">
@@ -561,15 +581,15 @@ const MicrosoftPage = () => {
                                                         <div className="service-box  service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/business-center-logo.svg"
+                                                                    src="/img/icons-365-07.png"
                                                                     alt="business-center-logo"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
                                                                 />
                                                                 <h3>
-                                                                    Dynamics 365<br />
-                                                                    Sales
+                                                                Dynamics 365<br />
+                                                                Sales
                                                                 </h3>
                                                             </div>
                                                             <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
@@ -586,16 +606,14 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/finace-icons.svg"
+                                                                    src="/img/icons-365-08.png"
                                                                     alt="finace-icons"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
                                                                 />
-                                                                <h3>
-                                                                    Dynamics 365<br />
-                                                                    Customer Service
-                                                                </h3>
+                                                                <h3>Dynamics 365<br />
+                                                                Customer Service</h3>
                                                             </div>
                                                             <p>Employ generative AI and the internet of things (IoT) to modernize your business operations while boosting overall agent efficiency. Give a personalized experience to the customer, track resources, and optimize the issue resolution process.</p>
                                                             <Link href="/products/microsoft-dynamics-365-finance/">
@@ -611,16 +629,14 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/supplychain-logo.svg"
+                                                                    src="/img/icons-365-09.png"
                                                                     alt="supplychain-logo"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
                                                                 />
-                                                                <h3>
-                                                                    Dynamics 365<br />
-                                                                    Marketing
-                                                                </h3>
+                                                                <h3>Dynamics 365<br />
+                                                                Marketing</h3>
                                                             </div>
                                                             <p>Engage customers with your business, build brand value, and offer an exceptional customer experience. Unify your customer data, avail AI-powered automation, and offer personalized offers to maximize revenue.</p>
                                                             <Link href="/products/dynamics-365-supply-chain-management/">
@@ -638,7 +654,7 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/Sales_scalable.svg"
+                                                                    src="/img/icons-365-10.png"
                                                                     alt="Sales_scalable"
                                                                     className="icon"
                                                                     width="34"
@@ -665,7 +681,7 @@ const MicrosoftPage = () => {
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/powerbilogo.png"
+                                                                    src="/img/icons-365-11.png"
                                                                     alt="Powerapps_power-apps"
                                                                     className="icon"
                                                                     width="34"
