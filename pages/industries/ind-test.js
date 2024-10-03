@@ -134,7 +134,7 @@ const MicrosoftPage = () => {
                                 {/* <div className="brder-hr"></div> */}
                             </div>
                             <div className="col-lg-6">
-                                <div className="nw-bc-lef-h nw-bc-lef-h-gren">
+                                <div className="nw-bc-lef-h nw-bc-lef-h-blue">
                                     <h2>What is Dynamics 365 Finance?</h2>
                                     <p>Microsoft Dynamics 365 Finance is a powerful cloud-based ERP solution to manage, maintain, and resolve complex financial issues of an organization. Microsoft has designed this tool so perfectly that it helps businesses grow while eliminating financial redundancies from the system.</p>
                                     <p><strong>Dynamics 365 Finance offers you:</strong></p>
@@ -164,9 +164,11 @@ const MicrosoftPage = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <div className="pictur-cta-rigt">
-                                        <img src="/img/frame-123.png" alt="shape" />
-                                    </div>
+                                    {/* <div className="pictur-cta-rigt">
+                                       <div className="absii">
+                                       <img src="/img/frame-123.png" alt="shape" />
+                                       </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
@@ -181,78 +183,59 @@ const MicrosoftPage = () => {
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
                                 <div className="heading-colo-bg">
-                                    <span>Microsoft Dynamics 365 Capabilities and Features</span>
-                                    <h2>Key Capabilities of the Microsoft Dynamics 365 Suite</h2>
+
+                                    <h2>Dynamics 365 for Nonprofits</h2>
                                     <p>The Dynamics 365 suite combines various business solutions, including Microsoft Dynamics ERP, Microsoft Dynamics CRM, Microsoft Cloud for Industry, Collaboration, Power Platform, AI, Mixed Reality, Services, and Microsoft Platform.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="row g-5 pd-001 sliding-row">
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
+                            <div className="col-lg-3 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher card-ancher-h">
                                     <div className="card-with-one-img">
-                                        <img src="/img/icon-new-07.png" alt="Customer Engagement (CRM)" width={40} height={40} />
+                                        <img src="/img/scalable-1.png" alt="Customer Engagement (CRM)" width={32} height={32} />
                                     </div>
                                     <h3>Customer Engagement (CRM)</h3>
                                     <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
-                                    <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                    {/* <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
+                            <div className="col-lg-3 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher card-ancher-h">
                                     <div className="card-with-one-img">
-                                        <img src="/img/icon-new-08.png" alt="Enterprise Resource Planning (ERP)" width={40} height={40} />
+                                        <img src="/img/scalable-2.png" alt="Power Platform for Nonprofits" width={32} height={32} />
                                     </div>
-                                    <h3>Enterprise Resource Planning (ERP)</h3>
-                                    <p>Optimize and simplify your key business processes with strong ERP solutions. Handle your finances, optimize your supply chain and logistics, boost retail experiences, and oversee projects with the help of AI-driven real-time insights and automation. Now ensure operational efficiency at every level.</p>
-                                    <span><a href="/products/microsoft-dynamics-erp/">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                    <h3>Power Platform for Nonprofits</h3>
+                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
+                                    {/* <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
+                            <div className="col-lg-3 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher card-ancher-h">
                                     <div className="card-with-one-img">
-                                        <img src="/img/icon-new-09.png" alt="Unified Data & AI Capabilities" width={40} height={40} />
+                                        <img src="/img/scalable-3.png" alt="Microsoft 365 for Nonprofits" width={32} height={32} />
                                     </div>
-                                    <h3>Unified Data & AI Capabilities</h3>
-                                    <p>Unified data is the consolidation of data into a single platform, and it forms a solid foundation for the powerful <b>Microsoft Dynamics 365 integration</b> capability. Now leverage integrated data, AI-driven insights, and automation to improve decision-making and ensure smooth operations.</p>
-                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
+                                    <h3>Microsoft 365 for Nonprofits</h3>
+                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
+                                    {/* <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
+                            <div className="col-lg-3 col-sm-6 d-flex sliding-col">
+                                <div className="card-with-one card-ancher card-ancher-h">
                                     <div className="card-with-one-img">
-                                        <img src="/img/icon-new-10.png" alt="Scalability and Customization" width={40} height={40} />
+                                        <img src="/img/scalable-4.png" alt="LinkedIn for Nonprofits" width={32} height={32} />
                                     </div>
-                                    <h3>Scalability and Customization</h3>
-                                    <p>Change and scale in line with a modular system meant to adapt as your company grows. Whether you require a solution for a small team or a large enterprise, Microsoft Dynamics 365 suite provides configurable choices that adapt to your changing business demands.</p>
-                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
+                                    <h3>LinkedIn for Nonprofits</h3>
+                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
+                                    {/* <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
-                                    <div className="card-with-one-img">
-                                        <img src="/img/icon-new-11.png" alt="Security & Compliance" />
-                                    </div>
-                                    <h3>Security & Compliance</h3>
-                                    <p>Protect your business using enterprise-grade security. Developed on Microsoft Azure, Dynamics 365 guarantees risk management, compliance, and data protection using top-tier security mechanisms and role-based access to sensitive business data.</p>
-                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
-                                    <div className="card-with-one-img">
-                                        <img src="/img/icon-new-12.png" alt="Cloud & Mobility" />
-                                    </div>
-                                    <h3>Cloud & Mobility</h3>
-                                    <p>The flexibility and accessibility of cloud-based solutions allow you to remain connected and responsive. Through cloud and mobile access, running operations both in the office and remotely helps you enable a modern and connected workforce.</p>
-                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </section>
 
-                <section className="mines-m-t">
+                <section className="mines-m-aa">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
@@ -287,74 +270,44 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-12 col-md-12">
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>General Ledger </h4>
-                                                                    <p>Manage different accounts, track transactions, maintain financial records, and build financial reports.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Accounts Receivable</h4>
-                                                                    <p>Create tax invoices, maintain a balance sheet, track customer invoices, and manage incoming payments.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Accounts Payable</h4>
-                                                                    <p>Manage vendor invoices, automate the invoice approval journal, and build payment workflows.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Fixed Assets</h4>
-                                                                    <p>Maintain a balance between the open customer balance and the open vendor balance to track all cash. </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Bank and Cash Management</h4>
-                                                                    <p>Maintain bank accounts, forecast cash flow, reconcile bank statements, and generate reports.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Credit and Collections</h4>
-                                                                    <p>Manage customer credit, control sales flow, get a centralized view of accounts, and perform the collection generation process.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
 
 
                                                     </div>
@@ -383,73 +336,44 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-12 col-md-12">
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Budgeting</h4>
-                                                                    <p>Get the budgets of different departments, perform budget planning, control budgets, and follow the organization’s policies.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Forecasting</h4>
-                                                                    <p>Track expenses, forecast income, maintain cash flow, and manage revenue based on historical data.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Strategy Building</h4>
-                                                                    <p>Build different strategies, analyze market trends, maintain financial scenarios, and find areas for improvement.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Expense Management</h4>
-                                                                    <p>Store payment information, track all credit transactions, and automate reimbursement of expenses.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Revenue Recognition</h4>
-                                                                    <p>Manage multi-order elements, follow industry-specific guidelines, and perform the revenue recognition process.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Sensitivity Analysis </h4>
-                                                                    <p>Analyze the sensitivity of the performed forecasts, cross-check different assumptions, and find potential risks.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
 
 
                                                     </div>
@@ -478,69 +402,41 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-12 col-md-12">
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Cost Accounting</h4>
-                                                                    <p>Track all processes, analyze involved costs, maintain a cost accounting ledger, and streamline cost behavior.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Inventory Management </h4>
-                                                                    <p>Manage stock levels, track movements, automate the product location process, and optimize purchasing. </p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Project Management</h4>
-                                                                    <p>Manage different projects altogether, build strategies, track progress, and control costs.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Cost Allocation</h4>
-                                                                    <p>Distribute costs for projects, identify areas for improvement, and follow the cost allocation methodology.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Demand Forecasting</h4>
-                                                                    <p>Forecast future demands, perform production planning, optimize purchasing, and manage inventory levels.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Time and Expense Tracking</h4>
-                                                                    <p>Track the time and expenses of employees, manage each project cost, and perform accurate cost allocation.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -572,69 +468,41 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-12 col-md-12">
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Financial Reporting</h4>
-                                                                    <p>Maintain a balance sheet, build cash flow statements, and generate comprehensive financial reports.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Business Intelligence</h4>
-                                                                    <p>Analyze financial data, filter out useful information, build interactive reports, and gain useful insights.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Compliance Reporting</h4>
-                                                                    <p>Generate meaningful reports, comply with tax authorities, and follow international tax regulations.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Multi-Company Reporting</h4>
-                                                                    <p>Connect different entities, including subsidiaries, get a holistic view of the entire business, and build centralized financial reports.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Data Visualizations</h4>
-                                                                    <p>Fetch important information out of data, visualize data using interactive elements, and make informed decisions.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Audit Trails</h4>
-                                                                    <p>Maintain the entire audit log, record all activities, track the source of records, and trace the entire financial data.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -666,69 +534,41 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-12 col-md-12">
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Project Operations</h4>
-                                                                    <p>Track the progress of each project from start to finish, strategize resource distribution, and manage budgeting.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Supply Chain Management</h4>
-                                                                    <p>Streamline supply chain operations, track goods from production to distribution, and automate core processes.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-6 col-md-6">
+                                                        <div className="col-lg-10 col-md-10">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Manufacturing and Production</h4>
-                                                                    <p>Simplify different production processes, schedule manufacturing, and maintain optimum quality.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Human Resource</h4>
-                                                                    <p>Manage employees, perform payroll processes, and simplify all human resource processes.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Retail Management</h4>
-                                                                    <p>Manage your entire commerce business, track inventory levels, link all POS systems, and fulfill stocks on time.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-6 col-md-6">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Warehouse Management</h4>
-                                                                    <p>Optimize core warehouse processes, control inventory levels, and simplify the shipping of goods.</p>
+                                                                    <h4>360-degree View</h4>
+                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -744,8 +584,8 @@ const MicrosoftPage = () => {
                             </div>
                         </div>
 
-                        <div className="row busines-bg g-0">
-                            <div className="col-lg-3 no-pad">
+                        <div className="row busines-bgs g-0">
+                            <div className="col-lg-5 no-pad">
                                 <div
                                     className="nav flex-column nav-pills  bus-ser-left"
                                     id="v-pills-tab"
@@ -810,7 +650,7 @@ const MicrosoftPage = () => {
 
                                 </div>
                             </div>
-                            <div className="col-lg-9">
+                            <div className="col-lg-7">
                                 <div className="tab-content" id="v-pills-tabContent">
                                     <div
                                         className="tab-pane fade show active"
@@ -819,74 +659,44 @@ const MicrosoftPage = () => {
                                         aria-labelledby="v-pills-Finance-tab"
                                     >
                                         <div className="row busines-service-list-pad">
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="busines-service-list-hhs">
+                                                    <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>General Ledger </h4>
-                                                        <p>Manage different accounts, track transactions, maintain financial records, and build financial reports.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Accounts Receivable</h4>
-                                                        <p>Create tax invoices, maintain a balance sheet, track customer invoices, and manage incoming payments.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Accounts Payable</h4>
-                                                        <p>Manage vendor invoices, automate the invoice approval journal, and build payment workflows.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Fixed Assets</h4>
-                                                        <p>Maintain resources and track the assets of the organization, including machines, land, and inventory.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Bank and Cash Management</h4>
-                                                        <p>Maintain bank accounts, forecast cash flow, reconcile bank statements, and generate reports.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Credit and Collections</h4>
-                                                        <p>Manage customer credit, control sales flow, get a centralized view of accounts, and perform the collection generation process.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
 
 
                                         </div>
@@ -897,77 +707,51 @@ const MicrosoftPage = () => {
                                         role="tabpanel"
                                         aria-labelledby="v-pills-Sales-tab"
                                     >
-                                        <div className="row busines-service-list-pad">
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Budgeting</h4>
-                                                        <p>Get the budgets of different departments, perform budget planning, control budgets, and follow the organization’s policies.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Forecasting</h4>
-                                                        <p>Track expenses, forecast income, maintain cash flow, and manage revenue based on historical data.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Strategy Building</h4>
-                                                        <p>Build different strategies, analyze market trends, maintain financial scenarios, and find areas for improvement.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Expense Management</h4>
-                                                        <p>Store payment information, track all credit transactions, and automate reimbursement of expenses.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Revenue Recognition</h4>
-                                                        <p>Manage multi-order elements, follow industry-specific guidelines, and perform the revenue recognition process.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Sensitivity Analysis </h4>
-                                                        <p>Analyze the sensitivity of the performed forecasts, cross-check different assumptions, and find potential risks.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
 
+                                        <div className="row busines-service-list-pad">
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="busines-service-list-hhs">
+                                                    <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
 
 
                                         </div>
+
+
                                     </div>
                                     <div
                                         className="tab-pane fade"
@@ -976,74 +760,48 @@ const MicrosoftPage = () => {
                                         aria-labelledby="v-pills-Purchase-tab"
                                     >
                                         <div className="row busines-service-list-pad">
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="busines-service-list-hhs">
+                                                    <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Cost Accounting</h4>
-                                                        <p>Track all processes, analyze involved costs, maintain a cost accounting ledger, and streamline cost behavior.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Inventory Management </h4>
-                                                        <p>Manage stock levels, track movements, automate the product location process, and optimize purchasing. </p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Project Management</h4>
-                                                        <p>Manage different projects altogether, build strategies, track progress, and control costs.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Cost Allocation</h4>
-                                                        <p>Distribute costs for projects, identify areas for improvement, and follow the cost allocation methodology.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Demand Forecasting</h4>
-                                                        <p>Forecast future demands, perform production planning, optimize purchasing, and manage inventory levels.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Time and Expense Tracking</h4>
-                                                        <p>Track the time and expenses of employees, manage each project cost, and perform accurate cost allocation.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
 
+
                                         </div>
+
                                     </div>
                                     <div
                                         className="tab-pane fade"
@@ -1051,76 +809,50 @@ const MicrosoftPage = () => {
                                         role="tabpanel"
                                         aria-labelledby="v-pills-Management-tab"
                                     >
+
                                         <div className="row busines-service-list-pad">
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="busines-service-list-hhs">
+                                                    <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Financial Reporting</h4>
-                                                        <p>Maintain a balance sheet, build cash flow statements, and generate comprehensive financial reports.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Business Intelligence</h4>
-                                                        <p>Analyze financial data, filter out useful information, build interactive reports, and gain useful insights.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Compliance Reporting</h4>
-                                                        <p>Generate meaningful reports, comply with tax authorities, and follow international tax regulations.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Multi-Company Reporting</h4>
-                                                        <p>Connect different entities, including subsidiaries, get a holistic view of the entire business, and build centralized financial reports.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Data Visualizations</h4>
-                                                        <p>Fetch important information out of data, visualize data using interactive elements, and make informed decisions.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Audit Trails</h4>
-                                                        <p>Analyze customer interactions and make personalized decisions in real-time. </p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
 
 
                                         </div>
+
                                     </div>
                                     <div
                                         className="tab-pane fade"
@@ -1128,76 +860,51 @@ const MicrosoftPage = () => {
                                         role="tabpanel"
                                         aria-labelledby="v-pills-Inventory-tab"
                                     >
+
                                         <div className="row busines-service-list-pad">
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="busines-service-list-hhs">
+                                                    <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Project Operations</h4>
-                                                        <p>Track the progress of each project from start to finish, strategize resource distribution, and manage budgeting.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Supply Chain Management</h4>
-                                                        <p>Streamline supply chain operations, track goods from production to distribution, and automate core processes.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-6">
+                                            <div className="col-lg-10 col-md-10">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Manufacturing and Production</h4>
-                                                        <p>Simplify different production processes, schedule manufacturing, and maintain optimum quality.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Human Resource</h4>
-                                                        <p>Manage employees, perform payroll processes, and simplify all human resource processes.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Retail Management</h4>
-                                                        <p>Manage your entire commerce business, track inventory levels, link all POS systems, and fulfill stocks on time.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-6">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Warehouse Management</h4>
-                                                        <p>Optimize core warehouse processes, control inventory levels, and simplify the shipping of goods.</p>
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
                                                     </div>
                                                 </div>
                                             </div>
 
 
                                         </div>
+
+
                                     </div>
 
                                 </div>
