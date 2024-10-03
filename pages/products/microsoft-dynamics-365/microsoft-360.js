@@ -289,9 +289,9 @@ const MicrosoftPage = () => {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
-                                <div className="heading-colo-bg">
-                                    <span>Microsoft Dynamics 365 Capabilities and Features</span>
-                                    <h2>Key Capabilities of the Microsoft Dynamics 365 Suite</h2>
+                                <div className="heading-colo-new">
+                                    <h2>Microsoft Dynamics 365 Capabilities and Features</h2>
+                                    <span>Key Capabilities of the Microsoft Dynamics 365 Suite</span>
                                     <p>The Dynamics 365 suite combines various business solutions, including Microsoft Dynamics ERP, Microsoft Dynamics CRM, Microsoft Cloud for Industry, Collaboration, Power Platform, AI, Mixed Reality, Services, and Microsoft Platform.</p>
                                 </div>
                             </div>
@@ -369,7 +369,7 @@ const MicrosoftPage = () => {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
-                                <div className="heading-colo-bg">
+                            <div className="heading-colo-new">
                                     <span>Microsoft Dynamics 365 Solutions</span>
                                     <h2>Explore Microsoft Dynamics 365 Solutions: Powerful and Effective</h2>
                                     <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p>
@@ -761,9 +761,10 @@ const MicrosoftPage = () => {
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
-                                <div className="heading-colo-bg">
-                                    <span>Benefits of Microsoft Dynamics 365</span>
-                                    <h2>Business Benefits of Microsoft<br /> Dynamics 365</h2>
+                            <div className="heading-colo-new">
+                                    <h2>Benefits of Microsoft Dynamics 365</h2>
+                                    <span>Business Benefits of Microsoft<br /> Dynamics 365</span>
+                                    <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p>
                                 </div>
                             </div>
                         </div>
@@ -915,9 +916,9 @@ const MicrosoftPage = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-8">
-                                <div className="heading-colo-bg heading-colo-bg-left">
-                                    <span>Microsoft Dynamics 365 Licensing and Cost?</span>
-                                    <h2>How Much is Microsoft Dynamics 365 Licensing and Cost?</h2>
+                                <div className="heading-colo-new" style={{textAlign:'left'}}>
+                                    <h2>Microsoft Dynamics 365 Licensing and Cost?</h2>
+                                    <span>How Much is Microsoft Dynamics 365 Licensing and Cost?</span>
                                     <p>Various factors come into play when it comes to Microsoft Dynamics 365 pricing. These factors include:</p>
                                 </div>
                             </div>
