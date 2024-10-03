@@ -291,8 +291,8 @@ const MicrosoftPage = () => {
                             <div className="col-lg-8 col-md-8">
                                 <div className="heading-colo-bg">
                                     <span>Microsoft Dynamics 365 Capabilities and Features</span>
-                                    <h2>Dynamics 365 Finance Modules: Get Everything Simplified</h2>
-                                    <p>Microsoft Dynamics 365 Finance resolves the financial queries of the organization and gives a boost to simplify different operations of the business with different modules. Some of its modules are:</p>
+                                    <h2>Key Capabilities of the Microsoft Dynamics 365 Suite</h2>
+                                    <p>The Dynamics 365 suite combines various business solutions, including Microsoft Dynamics ERP, Microsoft Dynamics CRM, Microsoft Cloud for Industry, Collaboration, Power Platform, AI, Mixed Reality, Services, and Microsoft Platform.</p>
                                 </div>
                             </div>
                         </div>
@@ -304,7 +304,7 @@ const MicrosoftPage = () => {
                                     </div>
                                     <h3>Customer Engagement (CRM)</h3>
                                     <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
-                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                    <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-6 d-flex sliding-col">
@@ -314,7 +314,7 @@ const MicrosoftPage = () => {
                                     </div>
                                     <h3>Enterprise Resource Planning (ERP)</h3>
                                     <p>Optimize and simplify your key business processes with strong ERP solutions. Handle your finances, optimize your supply chain and logistics, boost retail experiences, and oversee projects with the help of AI-driven real-time insights and automation. Now ensure operational efficiency at every level.</p>
-                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                    <span><a href="/products/microsoft-dynamics-erp/">Learn More <i className="bi bi-arrow-right"></i></a></span>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-6 d-flex sliding-col">
@@ -323,8 +323,8 @@ const MicrosoftPage = () => {
                                         <img src="/img/icon-new-09.png" alt="Unified Data & AI Capabilities" width={40} height={40} />
                                     </div>
                                     <h3>Unified Data & AI Capabilities</h3>
-                                    <p>Unified data is the consolidation of data into a single platform, and it forms a solid foundation for the powerful Microsoft Dynamics 365 integration capability. Now leverage integrated data, AI-driven insights, and automation to improve decision-making and ensure smooth operations.</p>
-                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                    <p>Unified data is the consolidation of data into a single platform, and it forms a solid foundation for the powerful <b>Microsoft Dynamics 365 integration</b> capability. Now leverage integrated data, AI-driven insights, and automation to improve decision-making and ensure smooth operations.</p>
+                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-6 d-flex sliding-col">
@@ -334,7 +334,7 @@ const MicrosoftPage = () => {
                                     </div>
                                     <h3>Scalability and Customization</h3>
                                     <p>Change and scale in line with a modular system meant to adapt as your company grows. Whether you require a solution for a small team or a large enterprise, Microsoft Dynamics 365 suite provides configurable choices that adapt to your changing business demands.</p>
-                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-6 d-flex sliding-col">
@@ -344,7 +344,7 @@ const MicrosoftPage = () => {
                                     </div>
                                     <h3>Security & Compliance</h3>
                                     <p>Protect your business using enterprise-grade security. Developed on Microsoft Azure, Dynamics 365 guarantees risk management, compliance, and data protection using top-tier security mechanisms and role-based access to sensitive business data.</p>
-                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
                             <div className="col-lg-4 col-sm-6 d-flex sliding-col">
@@ -354,7 +354,7 @@ const MicrosoftPage = () => {
                                     </div>
                                     <h3>Cloud & Mobility</h3>
                                     <p>The flexibility and accessibility of cloud-based solutions allow you to remain connected and responsive. Through cloud and mobile access, running operations both in the office and remotely helps you enable a modern and connected workforce.</p>
-                                    <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span>
+                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
                         </div>
@@ -424,9 +424,7 @@ const MicrosoftPage = () => {
                                                                     Dynamics 365 <br /> Business Central
                                                                 </h3>
                                                             </div>
-                                                            <p>
-                                                                An all-in-one business management solution specifically designed for SMBs and startups that offers a 360-degree holistic view of the entire business with full transparency across different operations.
-                                                            </p>
+                                                            <p>Empower your SMB with an all-in-one ERP solution that seamlessly integrates finance, sales, operations, project management, and customer service. Do more, achieve more, and grow more with Dynamics 365 Business Central. </p>
                                                             <Link href="/products/dynamics-365-business-central/" >
                                                                 <a aria-label="business-central">
                                                                     <div className="h-s-call" >
@@ -451,9 +449,7 @@ const MicrosoftPage = () => {
                                                                     Finance
                                                                 </h3>
                                                             </div>
-                                                            <p>
-                                                                Simplify complex financial operations while getting real-time data analytics and accurate insights. Avail automation, minimize investment costs, and monitor financial processes with data-driven insights.
-                                                            </p>
+                                                            <p>Attain 106% ROI by implementing Dynamics 365 ERP. Revolutionize your financial management with Dynamics 365 Finance, a comprehensive ERP that combines AI and analytical capabilities. Drive growth, boost efficiency, and improve the financial health of your business now!</p>
                                                             <Link href="/products/microsoft-dynamics-365-finance/">
                                                                 <a aria-label="microsoft-dynamics-365-finance">
                                                                     <div className="h-s-call" >
@@ -478,7 +474,7 @@ const MicrosoftPage = () => {
                                                                     Supply Chain
                                                                 </h3>
                                                             </div>
-                                                            <p>Automate your entire supply chain process with Dynamics 365 Supply Chain Management. Boost efficiency, cut costs, enhance accuracy, gain real-time insights, and improve customer service.</p>
+                                                            <p>Navigate the supply chain disruptions smoothly with AI-powered insights. Make your business more resilient, proactive, and compliant to achieve unprecedented growth with the help of an all-encompassing ERP—Dynamics 365 Supply Chain Management.</p>
                                                             <Link href="/products/dynamics-365-supply-chain-management/">
                                                                 <a aria-label="dynamics-365-supply-chain-management">
                                                                     <div className="h-s-call" >
@@ -495,7 +491,7 @@ const MicrosoftPage = () => {
                                                             <div className="top">
                                                                 <img
                                                                     src="/img/icons-365-04.png"
-                                                                    alt="Sales_scalable"
+                                                                    alt="Dynamics 365 Commerce"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
@@ -505,8 +501,8 @@ const MicrosoftPage = () => {
                                                                 Commerce
                                                                 </h3>
                                                             </div>
-                                                            <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
-                                                            <Link href="/products/microsoft-dynamics-365-sales/">
+                                                            <p>Combines in-store, online, and back-office operations to render a flawless shopping experience and tailored customer engagement.</p>
+                                                            <Link href="/products/microsoft-dynamics-365-commerce/">
                                                                 <a aria-label="microsoft-dynamics-365-sales">
                                                                     <div className="h-s-call" >
                                                                         <span>Get Started </span> <i className="bi bi-arrow-right"></i>
@@ -522,7 +518,7 @@ const MicrosoftPage = () => {
                                                             <div className="top">
                                                                 <img
                                                                     src="/img/icons-365-05.png"
-                                                                    alt="Powerapps_power-apps"
+                                                                    alt="Dynamics 365 Project Operations"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
@@ -532,8 +528,8 @@ const MicrosoftPage = () => {
                                                                 Operations
                                                                 </h3>
                                                             </div>
-                                                            <p>Analyze and visualize the huge stack of data with interactive graphical representations to make data-driven decisions in real-time. Transform your data to make it accessible and valuable to refine decision-making.</p>
-                                                            <Link href="/products/microsoft-power-bi/">
+                                                            <p>Achieve over 106% ROI with Dynamics 365 Project Operations. Right from planning and execution to tracking and analysis, it helps to manage project-based businesses, ensuring projects are on time and within budget.</p>
+                                                            <Link href="/products/dynamics-365-project-operations/">
                                                                 <a aria-label="microsoft-power-bi">
                                                                     <div className="h-s-call" >
                                                                         <span>Get Started </span> <i className="bi bi-arrow-right"></i>
@@ -549,7 +545,7 @@ const MicrosoftPage = () => {
                                                             <div className="top">
                                                                 <img
                                                                     src="/img/icons-365-06.png"
-                                                                    alt="Azure-IoT"
+                                                                    alt="Dynamics 365 Human Resources"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
@@ -557,8 +553,8 @@ const MicrosoftPage = () => {
                                                                 <h3>Human<br />
                                                                 Resources</h3>
                                                             </div>
-                                                            <p>A simple yet powerful ERP solution to manage, control, and track entire business operations with full visibility. Connect different departments, automate sales, and manage all back-end processes with ease.</p>
-                                                            <Link href="/products/microsoft-dynamics-nav/">
+                                                            <p>Simplify your HR operations with Dynamics 365 Human Resources. From hiring and onboarding to training and development, this Dynamics 365 ERP lets you use advanced tools to build a vibrant workplace.</p>
+                                                            <Link href="/products/dynamics-365-human-resources/">
                                                                 <a aria-label="microsoft-dynamics-nav">
                                                                     <div className="h-s-call" >
                                                                         <span>Get Started </span> <i className="bi bi-arrow-right"></i>
@@ -577,37 +573,12 @@ const MicrosoftPage = () => {
                                             <div>
 
                                                 <div className="row gy-4">
-                                                    <div className="col-lg-4 col-md-6">
-                                                        <div className="service-box  service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-07.png"
-                                                                    alt="business-center-logo"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                Dynamics 365<br />
-                                                                Sales
-                                                                </h3>
-                                                            </div>
-                                                            <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
-                                                            <Link href="/products/dynamics-365-business-central/" >
-                                                                <a aria-label="business-central">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-4 col-md-6">
+                                                <div className="col-lg-4 col-md-6">
                                                         <div className="service-box service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
                                                                     src="/img/icons-365-08.png"
-                                                                    alt="finace-icons"
+                                                                    alt="Dynamics 365 Customer Service"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
@@ -615,8 +586,8 @@ const MicrosoftPage = () => {
                                                                 <h3>Dynamics 365<br />
                                                                 Customer Service</h3>
                                                             </div>
-                                                            <p>Employ generative AI and the internet of things (IoT) to modernize your business operations while boosting overall agent efficiency. Give a personalized experience to the customer, track resources, and optimize the issue resolution process.</p>
-                                                            <Link href="/products/microsoft-dynamics-365-finance/">
+                                                            <p>Use generative AI and automation to address customer issues faster. Experience a 40% reduction in call-tackling time. You can also create self-service portals and even help customers across multiple channels which include chat, voice, and social media.</p>
+                                                            <Link href="/products/microsoft-dynamics-365-customer-service/">
                                                                 <a aria-label="microsoft-dynamics-365-finance">
                                                                     <div className="h-s-call" >
                                                                         <span>Get Started </span> <i className="bi bi-arrow-right"></i>
@@ -626,48 +597,23 @@ const MicrosoftPage = () => {
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-4 col-md-6">
-                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                        <div className="service-box  service-box-blue service-box-blue-home">
                                                             <div className="top">
                                                                 <img
-                                                                    src="/img/icons-365-09.png"
-                                                                    alt="supplychain-logo"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>Dynamics 365<br />
-                                                                Marketing</h3>
-                                                            </div>
-                                                            <p>Engage customers with your business, build brand value, and offer an exceptional customer experience. Unify your customer data, avail AI-powered automation, and offer personalized offers to maximize revenue.</p>
-                                                            <Link href="/products/dynamics-365-supply-chain-management/">
-                                                                <a aria-label="dynamics-365-supply-chain-management">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        className="col-lg-4 col-md-6"
-                                                    >
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-10.png"
-                                                                    alt="Sales_scalable"
+                                                                    src="/img/icons-365-07.png"
+                                                                    alt="Dynamics 365 Sales"
                                                                     className="icon"
                                                                     width="34"
                                                                     height="34"
                                                                 />
                                                                 <h3>
-                                                                    Dynamics 365<br />
-                                                                    Customer Insights
+                                                                Dynamics 365<br />
+                                                                Sales
                                                                 </h3>
                                                             </div>
-                                                            <p>Get an omnichannel connection between the sales team, customers, and partners for a collaborative growth approach. Track the sales pipeline, get insights, maximize profit, and close more deals with the minimum resources.</p>
-                                                            <Link href="/products/microsoft-dynamics-365-sales/">
-                                                                <a aria-label="microsoft-dynamics-365-sales">
+                                                            <p>Close more deals with ease and confidence by relying on the AI assistant. With this Microsoft Dynamics CRM, empower your sales teams to access real-time actionable insights and tools to nurture relationships, finalize deals, and drive revenue growth.</p>
+                                                            <Link href="/products/microsoft-dynamics-365-sales/" >
+                                                                <a aria-label="business-central">
                                                                     <div className="h-s-call" >
                                                                         <span>Get Started </span> <i className="bi bi-arrow-right"></i>
                                                                     </div>
@@ -692,8 +638,8 @@ const MicrosoftPage = () => {
                                                                     Field Service
                                                                 </h3>
                                                             </div>
-                                                            <p>Employ generative AI and the internet of things (IoT) to modernize your business operations while boosting overall agent efficiency. Give a personalized experience to the customer, track resources, and optimize the issue resolution process.</p>
-                                                            <Link href="/products/microsoft-power-bi/">
+                                                            <p>Witness a 14% boost in field technician productivity with this feature-rich Dynamics 365 CRM. Use AI-based suggestions to improve service quality, increase first-time fix rates, boost customer gratification, and manage the mobile workforce.</p>
+                                                            <Link href="/products/microsoft-dynamics-365-field-service/">
                                                                 <a aria-label="microsoft-power-bi">
                                                                     <div className="h-s-call" >
                                                                         <span>Get Started </span> <i className="bi bi-arrow-right"></i>
@@ -702,6 +648,58 @@ const MicrosoftPage = () => {
                                                             </Link>
                                                         </div>
                                                     </div>
+                                                  
+                                                    {/* <div className="col-lg-4 col-md-6">
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/icons-365-09.png"
+                                                                    alt="supplychain-logo"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>Dynamics 365<br />
+                                                                Marketing</h3>
+                                                            </div>
+                                                            <p>Engage customers with your business, build brand value, and offer an exceptional customer experience. Unify your customer data, avail AI-powered automation, and offer personalized offers to maximize revenue.</p>
+                                                            <Link href="/products/dynamics-365-supply-chain-management/">
+                                                                <a aria-label="dynamics-365-supply-chain-management">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div> */}
+                                                    <div
+                                                        className="col-lg-4 col-md-6"
+                                                    >
+                                                        <div className="service-box service-box-blue service-box-blue-home">
+                                                            <div className="top">
+                                                                <img
+                                                                    src="/img/icons-365-10.png"
+                                                                    alt="Dynamics 365 Customer Insights"
+                                                                    className="icon"
+                                                                    width="34"
+                                                                    height="34"
+                                                                />
+                                                                <h3>
+                                                                    Dynamics 365<br />
+                                                                    Customer Insights
+                                                                </h3>
+                                                            </div>
+                                                            <p>Get a 360-degree view of customers by combining data from various sources to facilitate tailored marketing. Predict customer churn and revenue, personalize experiences, improve customer engagement, and create segments for marketing and journey management.   </p>
+                                                            <Link href="/products/microsoft-dynamics-365-marketing/">
+                                                                <a aria-label="microsoft-dynamics-365-sales">
+                                                                    <div className="h-s-call" >
+                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
+                                                                    </div>
+                                                                </a>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                  
 
                                                 </div>
 
@@ -822,7 +820,7 @@ const MicrosoftPage = () => {
                                     </div>
                                     <div className="style-grid-content style-grid-two">
                                         <h3>Security and Compliance</h3>
-                                        <p>Security takes absolute priority when it comes to Microsoft Dynamics 365 software suite. Powerful security features let you stay compliant with regulations, safeguarding your data and maintaining trust.</p>
+                                        <p>Security takes absolute priority when it comes to Microsoft <b>Dynamics 365 software</b> suite. Powerful security features let you stay compliant with regulations, safeguarding your data and maintaining trust.</p>
                                     </div>
                                 </div>
                                 <div className="style-grid-1">
@@ -1002,7 +1000,8 @@ const MicrosoftPage = () => {
                             <div className="col-lg-7 align-self-center">
                                 <div className="left--side-title">
                                     <h2>Partner with Dynamics Square to Deploy Microsoft Dynamics 365 Apps</h2>
-                                    <p>We are a certified Microsoft Gold Partner who can you innovative and business-driven solutions along with seamless experience in upgrading/implementing Dynamics 365 modules without losing your existing data and business processes.</p>
+                                    <p>We are a certified Microsoft Gold Partner who can you innovative and business-driven solutions along with seamless experience in upgrading/implementing <b>Dynamics 365 modules</b> without losing your existing data and business processes.</p>
+                                    <p>Being a reputed <a href="/"> Microsoft Dynamics partner</a> in the USA for more than 12 years now, we have successfully deployed over 350 projects. Here’s why you should consider Dynamics Square:</p>
                                 </div>
                             </div>
                             <div className="col-lg-5 align-self-center">
