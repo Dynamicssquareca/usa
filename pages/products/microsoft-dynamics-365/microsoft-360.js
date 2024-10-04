@@ -86,7 +86,7 @@ const MicrosoftPage = () => {
                         <div className="row g-5">
                             <div className="col-lg-6 align-self-center">
                                 <h1 className="small-h">Microsoft Dynamics 365</h1>
-                                <h2>Empower your business with intelligent solutions!</h2>
+                                <h2>Empower your business with AI-enabled ERP and CRM solutions!</h2>
                                 <p>Unify your business operations with <b> Microsoft Dynamics 365</b>. Enhance efficiency, reduce complexity, and drive growth with intelligent, interconnected solutions.</p>
                                 <div>
                                     <div className="text-center text-lg-start">
@@ -134,9 +134,9 @@ const MicrosoftPage = () => {
                                 {/* <div className="brder-hr"></div> */}
                             </div>
                             <div className="col-lg-6">
-                                <div className="nw-bc-lef-h nw-bc-lef-h-gren">
-                                    <span>Overview</span>
+                                <div className="heading-colo-new" style={{textAlign:'left'}}>
                                     <h2>What is Microsoft Dynamics 365?</h2>
+                                    <span>Give your business the much-needed edge with seamless AI-driven solutions</span>
                                     <p><b>Microsoft Dynamics 365</b> is a SaaS-based suite of AI-driven ERP and CRM solutions that effortlessly connects your teams, processes, and data. This seamless integration helps you provide outstanding customer experiences and boosts your operational efficiency.</p>
                                     <p>Dynamics 365 comprises sales, marketing, customer service, finance, human resources, and supply chain management, among others. Every solution within Dynamics 365 has various modules that work in tandem with each other to provide companies with a complete business management solution.</p>
                                     <p>So, to answer the question, what is Dynamics 365, you can call it a suite of applications that can digitally transform your operations.   </p>
@@ -291,7 +291,7 @@ const MicrosoftPage = () => {
                             <div className="col-lg-8 col-md-8">
                                 <div className="heading-colo-new">
                                     <h2>Microsoft Dynamics 365 Capabilities and Features</h2>
-                                    <span>Key Capabilities of the Microsoft Dynamics 365 Suite</span>
+                                    <span>Backend or frontend, streamline every aspect of your business for superior performance!</span>
                                     <p>The Dynamics 365 suite combines various business solutions, including Microsoft Dynamics ERP, Microsoft Dynamics CRM, Microsoft Cloud for Industry, Collaboration, Power Platform, AI, Mixed Reality, Services, and Microsoft Platform.</p>
                                 </div>
                             </div>
@@ -370,9 +370,9 @@ const MicrosoftPage = () => {
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
                             <div className="heading-colo-new">
-                                    <span>Microsoft Dynamics 365 Solutions</span>
-                                    <h2>Explore Microsoft Dynamics 365 Solutions: Powerful and Effective</h2>
-                                    <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p>
+                                    <h2>Microsoft Dynamics 365 Solutions</h2>
+                                    <span>Ensure comprehensive business management with the following Microsoft Dynamics 365 solutions!</span>
+                                    {/* <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p> */}
                                 </div>
                             </div>
                         </div>
@@ -763,8 +763,8 @@ const MicrosoftPage = () => {
                             <div className="col-lg-8 col-md-8">
                             <div className="heading-colo-new">
                                     <h2>Benefits of Microsoft Dynamics 365</h2>
-                                    <span>Business Benefits of Microsoft<br /> Dynamics 365</span>
-                                    <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p>
+                                    <span>Boost productivity, engage customers like never before, foster team collaboration, and make data-driven decisions with confidence!</span>
+                                    {/* <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p> */}
                                 </div>
                             </div>
                         </div>
