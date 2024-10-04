@@ -85,9 +85,9 @@ const MicrosoftPage = () => {
                     <div className="container">
                         <div className="row g-5">
                             <div className="col-lg-6 align-self-center">
-                                <h1 className="small-h">Microsoft Dynamics 365</h1>
-                                <h2>Empower your business with intelligent solutions!</h2>
-                                <p>Unify your business operations with <b> Microsoft Dynamics 365</b>. Enhance efficiency, reduce complexity, and drive growth with intelligent, interconnected solutions.</p>
+                                <h1 className="small-h">Microsoft Cloud for Nonprofit </h1>
+                                <h2>Little Efforts Count. Let’s Make It Big</h2>
+                                <p>Boost campaigns, find and engage supporters, donors, and volunteers, streamline fundraising efforts, and maximize your nonprofit’s potential with Microsoft Cloud. </p>
                                 <div>
                                     <div className="text-center text-lg-start">
                                         <Link href="#exampleModal">
@@ -95,7 +95,7 @@ const MicrosoftPage = () => {
                                                 data-bs-toggle="modal"
                                                 className="btn-get-started scrollto"
                                             >
-                                                <span>Get Dynamics 365!</span>
+                                                <span>Get a Free Consultation! </span>
                                             </a>
                                         </Link>
                                     </div>
@@ -135,14 +135,15 @@ const MicrosoftPage = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="nw-bc-lef-h nw-bc-lef-h-blue">
-                                    <h2>What is Dynamics 365 Finance?</h2>
-                                    <p>Microsoft Dynamics 365 Finance is a powerful cloud-based ERP solution to manage, maintain, and resolve complex financial issues of an organization. Microsoft has designed this tool so perfectly that it helps businesses grow while eliminating financial redundancies from the system.</p>
-                                    <p><strong>Dynamics 365 Finance offers you:</strong></p>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Advanced analytics and reporting</span></div>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Compliance with industry standards</span></div>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Invoicing and billing</span></div>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Cost Accounting</span></div>
-                                    <p>While Dynamics 365 for Finance isn't new, it's now standalone, offering focused finance management after separating from the broader Dynamics 365 Finance and Operations (earlier known as <Link href="/products/microsoft-dynamics-ax/"><a>Dynamics AX</a></Link>).</p>
+                                    <h2>What is Microsoft Cloud for Nonprofit? </h2>
+                                    <p><b>Microsoft Cloud for nonprofit</b> is a complete collection of cloud-based products specifically created to cater to the distinct requirements of nonprofit organizations. Utilizing the reliable Microsoft Cloud platform, this system effortlessly incorporates well-known resources, such as LinkedIn, Microsoft Azure, Microsoft 365, Dynamics 365, and <a href="/products/microsoft-power-automate/">Microsoft Power Automate</a>. This combination provides a comprehensive method for managing your operations and enhancing the effectiveness of your goal. </p>
+                                    <p><strong>Microsoft Cloud for Nonprofit allows you to:</strong></p>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Optimize program design and delivery initiatives</span></div>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Streamline fundraising initiatives and centralize donor information</span></div>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Enhance program management efficiency and empower volunteers</span></div>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Obtain actionable insights to enhance decision-making</span></div>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Ensure the confidentiality and compliance of your data</span></div>
+                                    <p><b>Experience</b> Microsoft Cloud for nonprofits and harness its potential to accelerate the outcomes of your mission objectives</p>
                                 </div>
                             </div>
 
