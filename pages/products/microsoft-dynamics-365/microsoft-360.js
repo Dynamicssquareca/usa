@@ -1,1095 +1,680 @@
-import { useState, useEffect } from "react";
-import Head from "next/head";
-import Image from "next/image";
-import Script from "next/script";
-import Link from "next/link";
+import Head from 'next/head';
+import Image from 'next/image';
+import Script from 'next/script';
+import Link from 'next/link';
 
-const MicrosoftPage = () => {
-    const [activeTab, setActiveTab] = useState(0);
-    const [previousTab, setPreviousTab] = useState(0); // To track previous tab for animation
+const D360 = () => {
+  return (
+    <>
+      <Head>
+      <title>Microsoft Dynamics 365 Suite For CRM & Cloud ERP Solutions</title>
+        <meta
+          name="description"
+          content="Discover Microsoft Dynamics 365 Suite for seamless CRM and cloud ERP solutions, offering integrated management and enhanced business insights."
+        />
+        <link
+          rel="canonical"
+          href="https://www.dynamicssquare.com/products/microsoft-dynamics-365/"
+        />
+           <meta name="robots" content="noindex, nofollow" />
+      </Head>
+      <section className="Solution-banner hero-1 hero">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 mobile-4 align-self-center">
+              <h1>
+              Microsoft Dynamics 365 
+              </h1>
+              <p>
+              Modernize your business through progressive business innovation - connect people, processes, AI, data, and mixed reality across different apps and services, including Microsoft Dynamics 365, LinkedIn, Teams, & Azure.<br /><br />Save time & costs and serve your customers and employees with Microsoft's comprehensive suite of business applications. </p>
+              <div>
+                <div className="text-center text-lg-start">
+                  <Link    href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get Dynamics 365!</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <Image src="/img/d360-banner.png" alt="Microsoft Dynamics 365" width={628} height={398} />
+            </div>
+          </div>
+        </div>
+      </section>
 
-    const handleTabClick = (index) => {
-        setPreviousTab(activeTab); // Store the current tab as previous
-        setActiveTab(index);       // Set the new active tab
-    };
+      <section className="busine_service_bottom custom001">
+        <div className="container">
+          <div className="row">
+            {/* <div className="col-lg-6 align-self-center">
+              <div className="busine_service_bottom-left">
+                <div className="busine_service_bottom-right">
+                  <img
+                    src="/img/d605-left.png"
+                    className="fix-im"
+                    alt="d605-left"
+                  />
+                </div>
+              </div>
+            </div> */}
+            <div className="col-lg-6">
+              <div className="side-heading">
+                <h2>What is Dynamics 365?</h2>
+              </div>
+              <div className="custom002">
+                <p>In 2016, Microsoft launched Dynamics 365, a next-gen integrated solution for all Enterprise Resource Planning (ERP) and Customer Relationship Management (CRM) needs, by merging Dynamics AX and the Dynamics CRM application. Microsoft Dynamics 365 is a unique all-in-one suite of cloud-based business apps/software modules that cater to changing trends, dropping the need to choose different ERP & CRM apps for your crucial business operations.</p>
+                <p>With D365, you move your business towards more standardized and consistent database schematics - today's need. Moreover, the Common Data Model allows you to integrate Dynamics 365's different modules with other Microsoft Business Apps (Power BI (Business Intelligence), Power Apps, Outlook, Teams, and more) as well as any other app using a standard API (Application Programming Interface).</p>
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <h3>Why you should implement Microsoft Dynamics 365:</h3>
+              <div className="custom002">
+                  <ul>
+                    <li>Connecting data, business ops, and people for advanced business growth.</li>
+                    <li>Making progressive/smart decisions using built-in AI (artificial intelligence), advanced analytics, and guided action suggestions for enhanced sales.</li>
+                    <li>Leaning more towards adapting the app for your needs rather than altering the business processes/methods.</li>
+                    <li>Options to integrate most applications with the existing ERP/CRM systems or customize with Microsoft Power Platform.</li>
+                    <li>Availability and access to several business apps through Microsoft's AppSource - a platform like Google Play Store or Apple's App Store.</li>
+                    <li>Opportunity to modernize your business by incorporating Microsoft Cloud, Azure services, mixed reality, AI/ML, social, and mobile capabilities for progressive business innovation.</li>
+                    <li>Ease of access; users can run through a web browser and a working internet connection, whether on mobile or desktop devices.</li>
+                  </ul>
+                  <p>Microsoft Cloud and Azure services have dropped the necessity of installing software on-premises. So, get your ERP/CRM app deployed on the cloud within a few months and start making an impact.</p>
+                  <br />
+              </div>
+            </div>
+            <div className="col-lg-12">
+            <div className="text-center">
+                  <Link href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                   
+                    className="btn-get-started scrollto"
+                  >
+                    <span>I Want to be Dynamics 365 User!</span></a>
+                  </Link>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    const getSlideDirection = () => {
-        return activeTab > previousTab ? "slide-in-left" : "slide-in-right";
-    };
+      <section className="new-bg">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>Why is Dynamics 365 the best choice for SMEs/SMBs? </h2>
+            <p>For small and mid-sized businesses, stability and sustainability are at the top of the priority list. Next, they not only want to be relevant but want to thrive. For that, they need one of the most efficient business management solutions available in the marketplace - Microsoft Dynamics 365. It is a powerful collection of cloud-based software modules and add-ons for all requirements related to ERP and CRM. Start seamlessly managing your finances, sales, purchases, inventory, manufacturing, human resources, and more.</p>
+            <p>Also, it is more flexible to extend the better support to end-users on time, whether they belong to manufacturing or after-sales service. Microsoft Dynamics 365 is the best business software that consists of modern CRM and ERP modules capable of building, deploying, and supporting advanced ERP and CRM features.</p>
+            <p><b>Features of Dynamics 365 that speak only results:</b></p>
+          </header>
+            </div>
+          </div>
+          <div className="row p-lg-6">
+            <div className="col-lg-6">
+              <div className="finace-acc">
+                <div className="accordion" id="accnew">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin1"
+                        aria-expanded="false"
+                        aria-controls="fin1"
+                      >
+                        <span>Improved Overall Efficiency</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin1"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Take advantage of increased overall efficiency - up to 2x with D365's user-friendly functions & features available in different modules like Customer Engagement, Customer Service, Sales, Finance, Operations, Human Resources, Field Service, Project Service Automation, and Marketing.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin2"
+                        aria-expanded="false"
+                        aria-controls="fin2"
+                      >
+                        
+                        <span>Built-in Analytics</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin2"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                       <p>Built-in analytics combines transactional and analytical information on one screen, serving a specific business purpose. Business apps under Dynamics 365 come with built-in analytics to provide actual data insights related to finance, accounting, and customer behavior. If apps are integrated with Microsoft Power BI, you will have deeper data for analysis, visualization, and hence smart decision-making.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin3"
+                        aria-expanded="false"
+                        aria-controls="fin3"
+                      >
+                        
+                        <span>Data Management</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin3"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnew"
+                    >
+                      <div className="accordion-body">
+                        <p>Microsoft Dynamics 365 makes managing and storing data easier and more secure. As a result, Microsoft makes sure that data is shared with the right people at the right organization. No data leaks at any cost.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div className="col-lg-6">
+              <div className="finace-acc">
+                <div className="accordion" id="accnews">
+                  <hr className="mob-disp" />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin5"
+                        aria-expanded="false"
+                        aria-controls="fin5"
+                      >
+                        
+                        <span>Support Scheduling</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin5"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnews"
+                    >
+                      <div className="accordion-body">
+                       <p>Support Scheduling is an essential solution for growing organizations to schedule customer support. Customer issues and requests can be managed centrally. Moreover, it uses the calendar to schedule the request using the required information. It allows employees to schedule meetings on time, making support convenient for everyone.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin6"
+                        aria-expanded="false"
+                        aria-controls="fin6"
+                      >
+                       
+                        <span>Integration with Outlook & Teams</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin6"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnews"
+                    >
+                      <div className="accordion-body">
+                       <p>Microsoft Dynamics 365 provides seamless integration not only with Outlook but also with other Microsoft business apps such as Teams, Excel, Microsoft .NET framework, web services, and <Link href="/products/microsoft-power-bi/">Power BI</Link>, making communication effortless and on time. It helps employees to manage clients' data and provide the desired solution.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="accordion-item">
+                    <h3 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#fin7"
+                        aria-expanded="false"
+                        aria-controls="fin7"
+                      >
+                        
+                        <span>Understanding Customers</span>
+                      </button>
+                    </h3>
+                    <div
+                      id="fin7"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accnews"
+                    >
+                      <div className="accordion-body">
+                      <p>Personalized interactions using a unified view of customer activity provides your employees with customer journeys to deliver better services. Also, with visualized data, it becomes easy to engage customers at the right time.  </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="call_to_action call_to_action-height">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5">
+              <div className="call_to_action-right over-img">
+                <img src="/img/MaskGroup8.png" alt="images" />
+              </div>
+            </div>
+            <div className="col-lg-7 align-self-center">
+              <div className="call_to_action-left">
+                <h3>Power Up All Your Business Ops with Dynamics 365 Capabilities</h3>
+                <p>As a leading Microsoft Gold Partner, Dynamics Square offers you a wide range of Microsoft-related services and products, including cloud services, software applications, solution deployments, and dedicated support. </p>
+                <div className="m-o-t m-o-t-inde">
+                  <Link  href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                  
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Begin Dynamics 365 Implementation Today</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    return (
-        <>
-            <Head>
-                <title>Dynamics 365 Finance Partner - Dyanmics Square</title>
-                <meta
-                    name="description"
-                    content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business."
+      <section className="new-style-bg">
+        <div className="container">
+        <div className="row justify-content-center">
+            <div className="col-lg-9 col-md-8">
+          <header className="section-header">
+            <h2>
+            Get Your Business to New Heights with Microsoft Dynamics 365 Apps 
+            </h2>
+            <p>Dynamics 365 Apps are designed and developed to go beyond just meeting the needs of small, medium, and large businesses. This complete suite of advanced business apps offers subscription-based apps and introduces industry-first plans that embrace the cross-functional way - today's requirement that organizations and employees are required to deliver customer-oriented services.</p>
+          </header>
+          </div></div>
+          <div className="row g-5 pad2xyr">
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Business Central </h3>
+                  <p>
+                  D365 BC is a comprehensive business management solution designed specifically for small to medium businesses. <Link href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</Link> simplifies processes, helps you make smart decisions, and accelerates overall growth of your business. 
+                  </p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Supply Chain Management </h3>
+                  <p>
+                  Enhance profitability by connecting supply chains and streamlining operations with <Link href="/products/dynamics-365-supply-chain-management/">Dynamics 365 Supply Chain Management</Link>. Utilizing modern digital technology and agile practices, you can improve your inventory management, vendor management, planning, production, warehousing, and transportation processes. 
+                  </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Sales</h3>
+                  <p>The rules of the game are changing for today's buyers. They need to have frictionless transactions to have an enjoyable experience. However, that's not enough. Deliver unique experiences that build trust with your buyers. Go beyond transactions and interactions. Use <Link href="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales</Link> to completely transform the sales experience.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Finance</h3>
+                  <p>Modernize and automate your global financial operations with <Link href="/products/microsoft-dynamics-365-finance/">Dynamics 365 Finance</Link>. Drive business growth by monitoring real-time performance, predicting future outcomes, and making data-driven decisions.</p>
+                </div>
+              </div>
+
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Customer Engagement</h3>
+                  <p>Start personalizing your communications with your customers by understanding your customers. <Link href="/products/dynamics-365-customer-engagement/"> Dynamics 365 Customer Engagement</Link> combines enterprise-grade system data with behavioral, transactional, and demographic dimensions to create meaningful customer insights. With these insights, you can perform trend identification and provide your customers with an omnichannel digital experience for marketing, advertising, and reporting.  </p>
+                </div>
+              </div>
+              <div className="style-grid-1">
+                <div className="style-grid-content">
+                  <h3>Dynamics 365 Customer Service</h3>
+                  <p>Empower your sales teams to provide customer loyalty with streamlined data and unified technology in a single customer service platform. Build your brand affinity by delivering seamless personalized experience with <Link href="/products/microsoft-dynamics-365-customer-service/">Dynamics 365 Customer Service</Link>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-shape">
+        <div className="container">
+         <div className="row justify-content-center">
+          <div className="col-lg-9">
+          <header className="section-header">
+            <h2>
+            Where does Microsoft Dynamics 365 Data get Stored? 
+            </h2>
+          </header>
+          </div>
+         </div>
+          
+
+          <div className="row">
+            <div className="col-lg-7 align-self-center">
+              <div className="commen-rit-info">
+                <p>Today, data safety is the primary concern for all business owners. After all, it's about building strong relationships with existing customers and attracting potential ones. Microsoft is increasingly investing in strengthening Dynamics 365 versions, which are:</p>
+                <ul>
+                  <li>Dynamics 365 Business for small businesses </li>
+                  <li>Dynamics 365 Enterprise for large industry</li>
+                </ul>
+                <p><b>Thus, based on your industry type and data storage facility from Microsoft Cloud & Azure services, you have the following data storage options:</b></p>
+                <ul>
+                  <li>Microsoft Dynamics online servers</li>
+                  <li>Hosted Server (to store data on-premises or using private servers) </li>
+                </ul>
+                <p>The Hosted Server costs you high compared to Microsoft's online servers. It is because setting up the on-premises or private servers costs you a ton of money and infrastructure, leaving loopholes for third-party attackers. Whereas Microsoft Azure ensures the safety and security of stored data and its transactions with strong encryption for the Microsoft Dynamics 365 Online Servers. No need to worry about data safety. Microsoft has one of the strongest secure cloud networks.</p>
+              </div>
+            </div>
+            <div className="col-lg-5 align-self-center">
+              <div className="commen-lef-pic">
+                <Image
+                  src="/img/d360-banner.png"
+                  alt="Microsoft Dynamics 365"
+                  width={628} height={398} 
                 />
-                <meta name="robots" content="noindex, nofollow" />
-                <link
-                    rel="canonical"
-                    href="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/"
-                />
-                <meta property="og:type" content="product" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="Solution-business-whys">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+            <header className="section-header">
+            <h2>How much is Microsoft Dynamics 365 Licensing and Cost?</h2>
+            <p>Microsoft offers flexible pricing plans for Dynamics 365 Apps. You can opt for ERP or CRM, or the mixed capabilities of both solutions. Further, you can pay for selected apps despite owning the full CRM or <Link href="/products/microsoft-dynamics-erp/">ERP solution</Link>. The Dynamics 365 suite of business apps include Finance, Supply Chain, Project Operations, Marketing/Retail, Human Resource/Talent Acquisition, Sales, Customer Service, Field Service, Project Service Automation, Customer Service, Customer Engagement, and Power Apps.</p>
+          </header>
+            </div>
+          </div>
+          <div className="row g-5 justify-content-center">
+          
+            <div className="col-lg-8">
+              <div className="parten-more parten-more-ss text-center">
+              <p>Contact Dynamics Square for the latest details on Dynamics 365 about licensing and cost. Or you can download our comprehensive guide on pricing and licensing for different apps under Dynamics 365 suite. </p>
+              </div>
+              <br />
+              <div className="text-center m-o-t new-btn-nn">
+                  <Link   href="#exampleModal"><a
+                    data-bs-toggle="modal"
+                  
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Dynamics 365 Pricing & Licensing Guide</span></a>
+                  </Link>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
 
-                <meta property="og:title" content="Dynamics 365 Finance Partner - Dyanmics Square" />
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="call-to-action-content">
+                <h3>Looking to implement Microsoft Dynamics 365 Business Apps?</h3>
+                <div className="text-center m-o-t new-btn-nn">
+                  <Link     href="#exampleModal"><a
+                    data-bs-toggle="modal"
+               
+                    className="btn-get-started scrollto"
+                  >
+                    <span>Get a Free Demo</span></a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <meta property="og:description" content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business." />
-
-                <meta property="og:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/" />
-
-                <meta property="og:site_name" content="Dynamics Square USA" />
-
-                <meta property="og:image" content="https://www.dynamicssquare.com/img/Finance-banner-pic.png" />
-
-                <meta property="twitter:card" content="summary_large_image" />
-
-                <meta property="twitter:title" content="Dynamics 365 Finance Partner - Dyanmics Square" />
-
-                <meta property="twitter:description" content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business." />
-
-                <meta property="twitter:url" content="https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/" />
-
-                <meta property="twitter:image" content="https://www.dynamicssquare.com/img/Finance-banner-pic.png" />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{
-                        __html: JSON.stringify({
-                            "@context": "https://schema.org/",
-                            "@type": "Product",
-                            "name": "Dynamics 365 Finance Partner - Dyanmics Square",
-                            "image": "https://www.dynamicssquare.com/img/Finance-banner-pic.png",
-                            "description": "Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business.",
-                            "brand": {
-                                "@type": "Brand",
-                                "name": "Dynamics Square USA"
-                            },
-                            "offers": {
-                                "@type": "AggregateOffer",
-                                "url": "https://www.dynamicssquare.com/products/microsoft-dynamics-365-finance/",
-                                "priceCurrency": "USD",
-                                "lowPrice": "180",
-                                "highPrice": "300"
-                            }
-                        }),
-                    }}
-                />
-
-            </Head>
-
-            <main>
-
-                <section className="Solution-banner new-main-heading bg-gg-coloor">
-                    <div className="container">
-                        <div className="row g-5">
-                            <div className="col-lg-6 align-self-center">
-                                <h1 className="small-h">Microsoft Dynamics 365</h1>
-                                <h2>Empower your business with AI-enabled ERP and CRM solutions!</h2>
-                                <p>Unify your business operations with <b> Microsoft Dynamics 365</b>. Enhance efficiency, reduce complexity, and drive growth with intelligent, interconnected solutions.</p>
-                                <div>
-                                    <div className="text-center text-lg-start">
-                                        <Link href="#exampleModal">
-                                            <a
-                                                data-bs-toggle="modal"
-                                                className="btn-get-started scrollto"
-                                            >
-                                                <span>Get Dynamics 365!</span>
-                                            </a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 align-self-center">
-                                <div className="banner-ne-im-t">
-                                    <Image
-                                        src="/img/d-365-banner.png"
-                                        alt="d-365-banner.png"
-                                        width={679}
-                                        height={355}
-                                    />
-                                </div>
-                            </div>
-                        </div>
+      <section className="bg-333">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+            <header className="section-header">
+            <h2>
+            Get Your Microsoft Dynamics 365 Implemented the Easy Way with Dynamics Square 
+            </h2>
+            <p>We are a certified Microsoft Gold Partner; we offer you innovative and business-driven solutions along with seamless experience in upgrading/implementing Dynamics 365 modules without losing your existing data and business processes.</p>
+          </header>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4">
+              <div className="commen-box-2">
+                <div className="icons">
+                  <img src="/img/Group774.svg" alt="Trustworthy Partner" width={48} height={48} />
+                </div>
+                <div className="commen-boc-2-info">
+                  <h3>A Partner You Can Trust</h3>
+                  <p>Trust is the cornerstone of building strong relationships. We do not comprise with that. Our experts are exceptionally talented and have diverse experience in delivering on-time deliveries. With a team of 135+ Microsoft Certified Professionals, we are serving 350+ clients across the globe and adding more every year.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="commen-box-2">
+                <div className="icons">
+                  <img src="/img/Group772.svg" alt="Trustworthy Partner" width={48} height={48} />
+                </div>
+                <div className="commen-boc-2-info">
+                  <h3>End-to-End Training</h3>
+                  <p>Our consulting and implementation services help you understand your existing and new systems effectively. We help your employees adapt to new features and functions with ease for smoother operation flow.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="commen-box-2">
+                <div className="icons">
+                  <img src="/img/Group773.svg" alt="Off-Hours Support" width={48} height={48} />
+                </div>
+                <div className="commen-boc-2-info">
+                  <h3>Best Customer Support</h3>
+                  <p>With our 11+ years of industry experience and dedicated 24/7/365 support for the upliftment of small and mid-sized businesses, we provide you with 99% satisfaction via any-time support.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section className="solution-faq faq">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-md-8">
+            <header className="section-header">
+            <h2>
+            Have you got questions about Microsoft Dynamics 365?   
+            </h2>
+            <p>Click through to our FAQ for the best answers!</p>
+          </header>
+            </div>
+          </div>
+          <div className="row justify-content-center mar-top-7">
+            <div className="col-lg-8">
+              <div className="accordion accordion-flush" id="faqlist1">
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                    What is Dynamics 365 used for?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-1"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft Dynamics 365 helps you manage customer relationship management (CRM) and enterprise resource planning (ERP). This modern suite of business apps uses other productivity applications and artificial intelligence tools for advancing your business growth.</p>
                     </div>
-                </section>
-
-                <section>
-                    <div className="container">
-
-
-                        <div className="row pp-top-60 pp-bot-60 rever-1">
-                            <div className="col-lg-5 align-self-center">
-                                <div className="new-pic-bc text-center">
-                                    <Image
-                                        src="/img/picture-1-may.png"
-                                        alt="Dynamics 365 Finance"
-                                        width={590}
-                                        height={499}
-                                    />
-                                </div>
-                            </div>
-                            <div className="col-lg-1 align-self-center">
-                                {/* <div className="brder-hr"></div> */}
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="heading-colo-new" style={{textAlign:'left'}}>
-                                    <h2>What is Microsoft Dynamics 365?</h2>
-                                    <span>Give your business the much-needed edge with seamless AI-driven solutions</span>
-                                    <p><b>Microsoft Dynamics 365</b> is a SaaS-based suite of AI-driven ERP and CRM solutions that effortlessly connects your teams, processes, and data. This seamless integration helps you provide outstanding customer experiences and boosts your operational efficiency.</p>
-                                    <p>Dynamics 365 comprises sales, marketing, customer service, finance, human resources, and supply chain management, among others. Every solution within Dynamics 365 has various modules that work in tandem with each other to provide companies with a complete business management solution.</p>
-                                    <p>So, to answer the question, what is Dynamics 365, you can call it a suite of applications that can digitally transform your operations.   </p>
-
-                                    <p><b>But, do you actually need it? Let’s find out!</b></p>
-                                </div>
-                            </div>
-
-                        </div>
-
-
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                    Is Dynamics 365 ERP or CRM?
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-2"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft Dynamics 365 consists of different apps that can be deployed on the cloud and on-premises. MSFT D365 is a product suite that has functionality covering CRM (front-office or for outbound purposes) and ERP (back-office or inbound process management). Microsoft began developing these apps in the 80s. Since then, ERP and CRM apps have evolved into various versions.</p>
                     </div>
-                </section>
-
-                <section className="bg-style-one marg-12 marg-13 marg-14">
-                    <div className="bb-img">
-                        <img src="/img/mar-i-bg.png" alt="mar-i-bg" width={856} height={388} />
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                    What is the difference between Microsoft 365 and Dynamics 365? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-3"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Microsoft 365, formerly known as Office 365, provides web, desktop, and mobile apps such as Outlook, Word, Excel, PowerPoint, and OneNote for communication and documentation, while Dynamics 365 is a multi-language, multi-currency ERP software - available for both on-premises and on the cloud.</p>
                     </div>
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-10">
-                                <div className="s-head-two">
-                                    <h2>Challenges Microsoft Dynamics 365 Software Suite Addresses</h2>
-                                    <p>Are you facing any of these challenges in your day-to-day operations?</p>
-                                </div>
-
-                                <div className="bott-list-tool m-p-30">
-                                    <ul>
-                                        <li>
-                                            <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Poor data management</span>
-                                                <span class="tooltips-text">
-                                                    <p>Inconsistent and scattered data across systems lead to increased operational costs and challenges</p>
-                                                </span>
-                                            </div>
-
-                                        </li>
-                                        <li>
-                                            <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Manual tasks</span>
-                                                <span class="tooltips-text">
-                                                    <p>Consumes a lot of productive time in doing repetitive tasks which leads to reduced productivity, higher error rates, and slower response times</p>
-                                                </span>
-                                            </div>
-
-                                        </li>
-                                        <li>
-                                            <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Limited insights</span>
-                                                <span class="tooltips-text">
-                                                    <p>Non-availability of advanced analytics and AI capabilities can deprive a business of getting deeper and actionable insights into their data</p>
-                                                </span>
-                                            </div>
-
-                                        </li>
-                                    </ul>
-                                    <ul>
-                                      
-                                        <li>
-                                            <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Regulatory compliance</span>
-                                                <span class="tooltips-text">
-                                                    <p>Becomes important when you operate a business across borders. Failing to comply with regulatory requirements can result in legal actions and operational shutdowns</p>
-                                                </span>
-                                            </div>
-
-                                        </li>
-                                        <li>
-                                            <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Insufficient reporting</span>
-                                                <span class="tooltips-text">
-                                                    <p>Translates into financial losses, compliance risks, poor decision-making, and customer dissatisfaction</p>
-                                                </span>
-                                            </div>
-
-                                        </li>
-                                        <li>
-                                            <div class="tooltips btn btn-secondary">
-                                                <i class="bi bi-check-lg"></i> <span>Limited customization</span>
-                                                <span class="tooltips-text">
-                                                    <p>Necessitates using multiple systems which leads to data silos and operational inefficiency</p>
-                                                </span>
-                                            </div>
-
-                                        </li>
-                                
-                                    </ul>
-                                    <ul>
-                                      
-                                      <li>
-                                          <div class="tooltips btn btn-secondary">
-                                              <i class="bi bi-check-lg"></i> <span>Disconnected systems</span>
-                                              <span class="tooltips-text">
-                                                  <p>Causes data silos, operational inefficiency, and communication gaps.</p>
-                                              </span>
-                                          </div>
-
-                                      </li>
-                                      <li>
-                                          <div class="tooltips btn btn-secondary">
-                                              <i class="bi bi-check-lg"></i> <span>Scalability issues</span>
-                                              <span class="tooltips-text">
-                                                  <p>Makes it challenging for companies to scale their operations as they grow</p>
-                                              </span>
-                                          </div>
-
-                                      </li>
-                                      <li>
-                                          <div class="tooltips btn btn-secondary">
-                                              <i class="bi bi-check-lg"></i> <span>Poor customer relationship management</span>
-                                              <span class="tooltips-text">
-                                                  <p>Results in decreased customer satisfaction and loyalty which indicates loss of repeat business opportunities</p>
-                                              </span>
-                                          </div>
-
-                                      </li>
-                              
-                                  </ul>
-                                   
-                                </div>
-                                <div className="shot-ct-bottd">
-                                    <p>If you are facing one or more of these challenges, you are lagging behind your competitors. It isn’t an option, right? Or is it?</p>
-                                </div>
-                                <div className="shot-ct shot-ct-m">
-                                    <span>Microsoft Dynamics 365 software suite
-                                        is the answer to all these challenges</span>
-                                </div>
-                                <div className="text-center">
-                                    <Link href="#exampleModal">
-                                        <a
-                                            data-bs-toggle="modal"
-                                            className="btn-get-started scrollto"
-                                        >
-                                            <span>Want to learn more? Talk to Our Experts Now!</span>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                     Is Dynamics 365 the same as Salesforce? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-4"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Both Salesforce and Microsoft Dynamics 365 are similar. And both have expansive platforms full of CRM and ERP tools that give you 360-degree business management support and assist you in improving all your business operations.</p>
                     </div>
-                </section>
-
-
-
-
-
-
-
-                <section className="mines-m">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-8 col-md-8">
-                                <div className="heading-colo-new">
-                                    <h2>Microsoft Dynamics 365 Capabilities and Features</h2>
-                                    <span>Backend or frontend, streamline every aspect of your business for superior performance!</span>
-                                    <p>The Dynamics 365 suite combines various business solutions, including Microsoft Dynamics ERP, Microsoft Dynamics CRM, Microsoft Cloud for Industry, Collaboration, Power Platform, AI, Mixed Reality, Services, and Microsoft Platform.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row g-5 pd-001 sliding-row">
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
-                                    <div className="card-with-one-img">
-                                        <img src="/img/icon-new-07.png" alt="Customer Engagement (CRM)" width={40} height={40} />
-                                    </div>
-                                    <h3>Customer Engagement (CRM)</h3>
-                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
-                                    <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
-                                    <div className="card-with-one-img">
-                                        <img src="/img/icon-new-08.png" alt="Enterprise Resource Planning (ERP)" width={40} height={40} />
-                                    </div>
-                                    <h3>Enterprise Resource Planning (ERP)</h3>
-                                    <p>Optimize and simplify your key business processes with strong ERP solutions. Handle your finances, optimize your supply chain and logistics, boost retail experiences, and oversee projects with the help of AI-driven real-time insights and automation. Now ensure operational efficiency at every level.</p>
-                                    <span><a href="/products/microsoft-dynamics-erp/">Learn More <i className="bi bi-arrow-right"></i></a></span>
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
-                                    <div className="card-with-one-img">
-                                        <img src="/img/icon-new-09.png" alt="Unified Data & AI Capabilities" width={40} height={40} />
-                                    </div>
-                                    <h3>Unified Data & AI Capabilities</h3>
-                                    <p>Unified data is the consolidation of data into a single platform, and it forms a solid foundation for the powerful <b>Microsoft Dynamics 365 integration</b> capability. Now leverage integrated data, AI-driven insights, and automation to improve decision-making and ensure smooth operations.</p>
-                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
-                                    <div className="card-with-one-img">
-                                        <img src="/img/icon-new-10.png" alt="Scalability and Customization" width={40} height={40} />
-                                    </div>
-                                    <h3>Scalability and Customization</h3>
-                                    <p>Change and scale in line with a modular system meant to adapt as your company grows. Whether you require a solution for a small team or a large enterprise, Microsoft Dynamics 365 suite provides configurable choices that adapt to your changing business demands.</p>
-                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
-                                    <div className="card-with-one-img">
-                                        <img src="/img/icon-new-11.png" alt="Security & Compliance" />
-                                    </div>
-                                    <h3>Security & Compliance</h3>
-                                    <p>Protect your business using enterprise-grade security. Developed on Microsoft Azure, Dynamics 365 guarantees risk management, compliance, and data protection using top-tier security mechanisms and role-based access to sensitive business data.</p>
-                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
-                                </div>
-                            </div>
-                            <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                                <div className="card-with-one card-ancher">
-                                    <div className="card-with-one-img">
-                                        <img src="/img/icon-new-12.png" alt="Cloud & Mobility" />
-                                    </div>
-                                    <h3>Cloud & Mobility</h3>
-                                    <p>The flexibility and accessibility of cloud-based solutions allow you to remain connected and responsive. Through cloud and mobile access, running operations both in the office and remotely helps you enable a modern and connected workforce.</p>
-                                    {/* <span><a href="#">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                     Is Dynamics 365 a SaaS (Software as a Service) or PaaS (platform as a service)? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-5"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                      <p>Dynamics 365 is a SaaS-Software as a Service. <Link href="/products/microsoft-dynamics-crm/">Microsoft Dynamics CRM</Link>, Office 365, and Dropbox are popular examples of SaaS-based services. </p>
                     </div>
-                </section>
-
-
-
-
-
-                <section className="bg-2112">
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-8 col-md-8">
-                            <div className="heading-colo-new">
-                                    <h2>Microsoft Dynamics 365 Solutions</h2>
-                                    <span>Ensure comprehensive business management with the following Microsoft Dynamics 365 solutions!</span>
-                                    {/* <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p> */}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="shpe-bg">
-                                    <div className="abs"><img src="/img/home/nee-sahpe.png" alt="bgiconns" width={388} height={216} /></div>
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div className="row justify-content-center services">
-                            <div className="col-lg-12">
-                                <div className="tabs-container">
-                                    <div className="tab-buttons">
-                                        <button
-                                            className={activeTab === 0 ? "active" : ""}
-                                            onClick={() => handleTabClick(0)}
-                                        >
-                                            Enterprise Resource Planning (ERP)
-                                        </button>
-                                        <button
-                                            className={activeTab === 1 ? "active" : ""}
-                                            onClick={() => handleTabClick(1)}
-                                        >
-                                            Customer Engagement (CRM)
-                                        </button>
-                                        <div className="active-tab-indicator" style={{ left: activeTab === 0 ? "calc(10% - 20px)" : "calc(61% - 20px)" }} />
-                                    </div>
-
-                                    <div className={`tab-content ${getSlideDirection()}`}>
-                                        {activeTab === 0 &&
-                                            <div>
-
-                                                <div className="row gy-4">
-                                                    <div className="col-lg-4 col-md-6">
-                                                        <div className="service-box  service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-01.png"
-                                                                    alt="business-center-logo"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                    Dynamics 365 <br /> Business Central
-                                                                </h3>
-                                                            </div>
-                                                            <p>Empower your SMB with an all-in-one ERP solution that seamlessly integrates finance, sales, operations, project management, and customer service. Do more, achieve more, and grow more with Dynamics 365 Business Central. </p>
-                                                            <Link href="/products/dynamics-365-business-central/" >
-                                                                <a aria-label="business-central">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-4 col-md-6">
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-02.png"
-                                                                    alt="finace-icons"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                    Dynamics 365 <br />
-                                                                    Finance
-                                                                </h3>
-                                                            </div>
-                                                            <p>Attain 106% ROI by implementing Dynamics 365 ERP. Revolutionize your financial management with Dynamics 365 Finance, a comprehensive ERP that combines AI and analytical capabilities. Drive growth, boost efficiency, and improve the financial health of your business now!</p>
-                                                            <Link href="/products/microsoft-dynamics-365-finance/">
-                                                                <a aria-label="microsoft-dynamics-365-finance">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-4 col-md-6">
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-03.png"
-                                                                    alt="supplychain-logo"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                    Dynamics 365 <br />
-                                                                    Supply Chain
-                                                                </h3>
-                                                            </div>
-                                                            <p>Navigate the supply chain disruptions smoothly with AI-powered insights. Make your business more resilient, proactive, and compliant to achieve unprecedented growth with the help of an all-encompassing ERP—Dynamics 365 Supply Chain Management.</p>
-                                                            <Link href="/products/dynamics-365-supply-chain-management/">
-                                                                <a aria-label="dynamics-365-supply-chain-management">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        className="col-lg-4 col-md-6"
-                                                    >
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-04.png"
-                                                                    alt="Dynamics 365 Commerce"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                Dynamics 365<br />
-                                                                Commerce
-                                                                </h3>
-                                                            </div>
-                                                            <p>Combines in-store, online, and back-office operations to render a flawless shopping experience and tailored customer engagement.</p>
-                                                            <Link href="/products/microsoft-dynamics-365-commerce/">
-                                                                <a aria-label="microsoft-dynamics-365-sales">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        className="col-lg-4 col-md-6"
-                                                    >
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-05.png"
-                                                                    alt="Dynamics 365 Project Operations"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                Project<br />
-                                                                Operations
-                                                                </h3>
-                                                            </div>
-                                                            <p>Achieve over 106% ROI with Dynamics 365 Project Operations. Right from planning and execution to tracking and analysis, it helps to manage project-based businesses, ensuring projects are on time and within budget.</p>
-                                                            <Link href="/products/dynamics-365-project-operations/">
-                                                                <a aria-label="microsoft-power-bi">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        className="col-lg-4 col-md-6"
-                                                    >
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-06.png"
-                                                                    alt="Dynamics 365 Human Resources"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>Human<br />
-                                                                Resources</h3>
-                                                            </div>
-                                                            <p>Simplify your HR operations with Dynamics 365 Human Resources. From hiring and onboarding to training and development, this Dynamics 365 ERP lets you use advanced tools to build a vibrant workplace.</p>
-                                                            <Link href="/products/dynamics-365-human-resources/">
-                                                                <a aria-label="microsoft-dynamics-nav">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-
-                                            </div>}
-                                        {activeTab === 1 &&
-
-                                            <div>
-
-                                                <div className="row gy-4">
-                                                <div className="col-lg-4 col-md-6">
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-08.png"
-                                                                    alt="Dynamics 365 Customer Service"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>Dynamics 365<br />
-                                                                Customer Service</h3>
-                                                            </div>
-                                                            <p>Use generative AI and automation to address customer issues faster. Experience a 40% reduction in call-tackling time. You can also create self-service portals and even help customers across multiple channels which include chat, voice, and social media.</p>
-                                                            <Link href="/products/microsoft-dynamics-365-customer-service/">
-                                                                <a aria-label="microsoft-dynamics-365-finance">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div className="col-lg-4 col-md-6">
-                                                        <div className="service-box  service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-07.png"
-                                                                    alt="Dynamics 365 Sales"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                Dynamics 365<br />
-                                                                Sales
-                                                                </h3>
-                                                            </div>
-                                                            <p>Close more deals with ease and confidence by relying on the AI assistant. With this Microsoft Dynamics CRM, empower your sales teams to access real-time actionable insights and tools to nurture relationships, finalize deals, and drive revenue growth.</p>
-                                                            <Link href="/products/microsoft-dynamics-365-sales/" >
-                                                                <a aria-label="business-central">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        className="col-lg-4 col-md-6"
-                                                    >
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-11.png"
-                                                                    alt="Powerapps_power-apps"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                    Dynamics 365<br />
-                                                                    Field Service
-                                                                </h3>
-                                                            </div>
-                                                            <p>Witness a 14% boost in field technician productivity with this feature-rich Dynamics 365 CRM. Use AI-based suggestions to improve service quality, increase first-time fix rates, boost customer gratification, and manage the mobile workforce.</p>
-                                                            <Link href="/products/microsoft-dynamics-365-field-service/">
-                                                                <a aria-label="microsoft-power-bi">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                  
-                                                    {/* <div className="col-lg-4 col-md-6">
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-09.png"
-                                                                    alt="supplychain-logo"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>Dynamics 365<br />
-                                                                Marketing</h3>
-                                                            </div>
-                                                            <p>Engage customers with your business, build brand value, and offer an exceptional customer experience. Unify your customer data, avail AI-powered automation, and offer personalized offers to maximize revenue.</p>
-                                                            <Link href="/products/dynamics-365-supply-chain-management/">
-                                                                <a aria-label="dynamics-365-supply-chain-management">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div> */}
-                                                    <div
-                                                        className="col-lg-4 col-md-6"
-                                                    >
-                                                        <div className="service-box service-box-blue service-box-blue-home">
-                                                            <div className="top">
-                                                                <img
-                                                                    src="/img/icons-365-10.png"
-                                                                    alt="Dynamics 365 Customer Insights"
-                                                                    className="icon"
-                                                                    width="34"
-                                                                    height="34"
-                                                                />
-                                                                <h3>
-                                                                    Dynamics 365<br />
-                                                                    Customer Insights
-                                                                </h3>
-                                                            </div>
-                                                            <p>Get a 360-degree view of customers by combining data from various sources to facilitate tailored marketing. Predict customer churn and revenue, personalize experiences, improve customer engagement, and create segments for marketing and journey management.   </p>
-                                                            <Link href="/products/microsoft-dynamics-365-marketing/">
-                                                                <a aria-label="microsoft-dynamics-365-sales">
-                                                                    <div className="h-s-call" >
-                                                                        <span>Get Started </span> <i className="bi bi-arrow-right"></i>
-                                                                    </div>
-                                                                </a>
-                                                            </Link>
-                                                        </div>
-                                                    </div>
-                                                  
-
-                                                </div>
-
-
-                                            </div>}
-
-
-
-                                    </div>
-
-                                    {/* Animated border */}
-
-                                </div>
-                            </div>
-                        </div>
-
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h3 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                     What are the benefits of using Dynamics 365? 
+                    </button>
+                  </h3>
+                  <div
+                    id="faq-content-6"
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div className="accordion-body">
+                    <p>Microsoft is known for making applications easy to use. Not only is Dynamics 365 simple to implement, but users can also use it in the cloud or a hybrid cloud setting. For business owners, it provides the following benefits: </p>
+                    <ul>
+                      <li>Scalability.</li>
+                      <li>Built-In Analytics.</li>
+                      <li>Data Privacy.</li>
+                      <li>Save Money.</li>
+                      <li>Customization.</li>
+                      <li>Better Customer Service Experience.</li>
+                      <li>Integrates with Microsoft Products.</li>
+                    </ul>
                     </div>
-                </section>
+                  </div>
+                </div>
 
-
-                <section>
-                    <div className="container">
-                        <div className="cal-t-bg">
-                            <div className="row g-5">
-                                <div className="col-lg-12">
-                                    <div className="ffloat-im-top">
-                                        <img src="/img/group-352a75.png" alt="group-352a75" />
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 align-self-center">
-                                    <div className="ll-left">
-                                        <img src="/img/inside-searc-icons.png" alt="inside-searc-icons" /></div>
-                                </div>
-                                <div className="col-lg-4">
-                                    <div className="ll-right">
-                                        <span>50<sup>%</sup></span>
-                                        <p>Over 50% of organizations say that ERP systems like Dynamics 365 helped them reduce operational costs by streamlining processes</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4">
-                                    <div className="ll-right">
-                                        <span>60<sup>%</sup></span>
-
-                                        <p>60% of manufacturing companies have improved supply chain visibility with Dynamics 365 ERP</p></div>
-                                </div>
-                                <div className="col-lg-12">   <div className="ffloat-im-botm">
-                                    <img src="/img/group-352a75.png" alt="group-352a75" />
-                                </div></div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-
-                <section>
-                    <div className="container">
-                        <div className="row justify-content-center">
-                            <div className="col-lg-8 col-md-8">
-                            <div className="heading-colo-new">
-                                    <h2>Benefits of Microsoft Dynamics 365</h2>
-                                    <span>Boost productivity, engage customers like never before, foster team collaboration, and make data-driven decisions with confidence!</span>
-                                    {/* <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p> */}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row g-5">
-
-                            <div className="col-lg-6">
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-13.png"
-                                            alt="Enhanced Productivity:"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Enhanced Productivity:</h3>
-                                        <p>Think of your team focusing on things that truly matter to your business. Dynamics 365 automates repetitive and routine tasks to let your teams excel in their strategic roles.</p>
-                                    </div>
-                                </div>
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-14.png"
-                                            alt="Data-driven Insights"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Data-driven Insights</h3>
-                                        <p>By providing you with a clear picture of your business, it boosts your confidence in decision-making. With advanced analytics with AI-powered real-time data, you can identify patterns and make crucial adjustments to your strategies.</p>
-                                    </div>
-                                </div>
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-15.png"
-                                            alt="Integration"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Integration</h3>
-                                        <p>The ability to seamlessly integrate with other Microsoft products like Office 365 gives it an edge over other solutions. This boosts collaboration and productivity and provides a unified experience across different solutions.</p>
-                                    </div>
-                                </div>
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-16.png"
-                                            alt="Security and Compliance"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Security and Compliance</h3>
-                                        <p>Security takes absolute priority when it comes to Microsoft <b>Dynamics 365 software</b> suite. Powerful security features let you stay compliant with regulations, safeguarding your data and maintaining trust.</p>
-                                    </div>
-                                </div>
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-17.png"
-                                            alt="Enhanced Collaboration"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Enhanced Collaboration</h3>
-                                        <p>Dynamics 365 encourages better interaction and teamwork. Connected tools make it smoother for teams to interact, manage projects, and stay connected which ultimately leads to more cohesive operations.</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-18.png"
-                                            alt="Improved Customer Engagement"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Improved Customer Engagement</h3>
-                                        <p>When you use Microsoft Dynamics CRM, you get to know your customers better. This helps you engage them in ways tailored to their specific requirements to win their trust and loyalty.</p>
-                                    </div>
-                                </div>
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-19.png"
-                                            alt="Easy Scalability"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Easy Scalability</h3>
-                                        <p>Say goodbye to your scalability woes. Microsoft Dynamics 365 scales with your business as its modular design allows you to effortlessly add or remove features without causing any disruption to your operations.</p>
-                                    </div>
-                                </div>
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-20.png"
-                                            alt="Customization"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Customization</h3>
-                                        <p>No two businesses are the same, and Dynamics 365 gets that. You can tailor it the way your business demands, be it your workflows, forms, or reports. This ensures the system aligns perfectly with your processes.</p>
-                                    </div>
-                                </div>
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-21.png"
-                                            alt="Cloud-based Accessibility"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Cloud-based Accessibility</h3>
-                                        <p>Now access your data and apps on the go anytime, and from anywhere! This provides your remote teams with the flexibility to access real-time data and ensures better collaboration.</p>
-                                    </div>
-                                </div>
-                                <div className="style-grid-1">
-                                    <div className="style-grid-icons style-grid-icons-round">
-                                        <img
-                                            src="/img/icon-new-22.png"
-                                            alt="Cost Efficiency"
-                                            width={40} height={40}
-                                        />
-                                    </div>
-                                    <div className="style-grid-content style-grid-two">
-                                        <h3>Cost Efficiency</h3>
-                                        <p>Microsoft Dynamics 365 helps reduce operational costs. It does so by letting you automate processes and ensure optimum resource management. Reduced costs translate into more savings, which improves the financial health of your business.</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-                <section>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-md-8">
-                                <div className="heading-colo-new" style={{textAlign:'left'}}>
-                                    <h2>Microsoft Dynamics 365 Licensing and Cost?</h2>
-                                    <span>How Much is Microsoft Dynamics 365 Licensing and Cost?</span>
-                                    <p>Various factors come into play when it comes to Microsoft Dynamics 365 pricing. These factors include:</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="lice-cost-wrper">
-                                    <div className="lice-cost-wrper-lst">
-                                        <ul>
-                                            <li><i class="bi bi-check-lg"></i> <span>Number of users</span></li>
-                                            <li><i class="bi bi-check-lg"></i> <span>Geographical location</span></li>
-                                            <li><i class="bi bi-check-lg"></i> <span>Support and maintenance</span></li>
-                                            <li><i class="bi bi-check-lg"></i> <span>Specific Dynamics 365 modules required</span></li>
-                                            <li><i class="bi bi-check-lg"></i> <span>Deployment model</span></li>
-                                            <li><i class="bi bi-check-lg"></i> <span>Licensing type</span></li>
-                                            <li><i class="bi bi-check-lg"></i> <span>Integration requirements</span></li>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="lice-cost-wrper-para">
-                                    <p>However, Microsoft offers flexible pricing plans for Dynamics 365 Apps. You can opt for ERP or CRM, or the mixed capabilities of both solutions. Further, you can pay for selected apps despite owning the full CRM or ERP solution.</p>
-                                    <p>Contact Dynamics Square for the latest details on Dynamics 365 about licensing and cost. Or you can download our comprehensive guide on pricing and licensing for different apps under Dynamics 365 suite.</p>
-                                    <div className="text-lefts">
-                                        <Link href="#exampleModal">
-                                            <a
-                                                data-bs-toggle="modal"
-                                                className="btn-get-started scrollto"
-                                            >
-                                                <span>Dynamics 365 Pricing & Licensing Guide</span>
-                                            </a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-
-
-
-                <section className="bbb">
-                    <div className="heross">
-                        <video
-                            playsinline
-                            autoPlay
-                            muted
-                            loop
-                            poster="/video/Rectangle-scree.png"
-                            className="background"
-                        >
-                            <source type="video/mp4" src="/video/Banner-DS-US.mp4" />
-                        </video>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-5"></div>
-                                <div className="col-lg-7">
-                                    <div className="psot-cl">
-                                        <h3>Looking to Implement Microsoft Dynamics 365 Business Apps?</h3>
-                                        <Link href="/contact-us/">
-                                            <a className="btn btn-md">Get a Free Demo</a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-                <section>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-7 align-self-center">
-                                <div className="left--side-title">
-                                    <h2>Partner with Dynamics Square to Deploy Microsoft Dynamics 365 Apps</h2>
-                                    <p>We are a certified Microsoft Gold Partner who can you innovative and business-driven solutions along with seamless experience in upgrading/implementing <b>Dynamics 365 modules</b> without losing your existing data and business processes.</p>
-                                    <p>Being a reputed <a href="/"> Microsoft Dynamics partner</a> in the USA for more than 12 years now, we have successfully deployed over 350 projects. Here’s why you should consider Dynamics Square:</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-5 align-self-center">
-                                <div className="right--side-pic right--side-pic-b">
-                                    <Image
-                                        width={579}
-                                        height={376}
-                                        src="/img/ds-new-shape.png"
-                                        alt="ds-new-shape-logo"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="bc---soprt">
-                                    <div className="lef">
-                                        <Image
-                                            width={57}
-                                            height={48}
-                                            src="/img/apps-color-1.png"
-                                            alt="Proven Track Record"
-                                        />
-                                    </div>
-                                    <div className="rig">
-                                        <h3>Proven Track Record</h3>
-                                        <p>We have a proven track record of implementing the <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 solution</a></Link> in more than 350 global businesses. Our extensive Dynamics 365 Finance implementation methodology has helped us reach diverse industries.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="bc---soprt">
-                                    <div className="lef">
-                                        <Image
-                                            width={57}
-                                            height={48}
-                                            src="/img/apps-color-2.png"
-                                            alt="Personalized Approach"
-                                        />
-                                    </div>
-                                    <div className="rig">
-                                        <h3>Personalized Approach</h3>
-                                        <p>Once you contact us, we will understand your business requirements, goals, and challenges to offer you a personalized solution that perfectly aligns with your unique business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="bc---soprt">
-                                    <div className="lef">
-                                        <Image
-                                            width={57}
-                                            height={48}
-                                            src="/img/apps-color-3.png"
-                                            alt="Agile Support System"
-                                        />
-                                    </div>
-                                    <div className="rig">
-                                        <h3>Agile Support System</h3>
-                                        <p>Dynamics Square is available for you before and after the implementation so that your business runs smoothly even in hard times. We will offer support, maintenance, and optimization services to help you gain a competitive advantage.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <div className="bc---soprt">
-                                    <div className="lef">
-                                        <Image
-                                            width={57}
-                                            height={48}
-                                            src="/img/apps-color-4.png"
-                                            alt="Global Infrastructure"
-                                        />
-                                    </div>
-                                    <div className="rig">
-                                        <h3>Global Infrastructure</h3>
-                                        <p>We are well versed in the infrastructure needed to offer reliable services, whether remote or on-site. Our 24x7 global support is always available by your side, following global compliances.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </main>
-
-
-
-        </>
-    );
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 };
 
-export default MicrosoftPage;
+export default D360;

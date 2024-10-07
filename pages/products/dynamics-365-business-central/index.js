@@ -13,7 +13,7 @@ const BusinessCentralNew = () => {
     <>
       <Head>
         <title>
-          Microsoft Dynamics 365 Business Central | Gold Partner USA
+          Trusted Microsoft Dynamics 365 Business Central Partner
         </title>
         <meta
           name="description"
@@ -28,7 +28,7 @@ const BusinessCentralNew = () => {
 
         <meta
           property="og:title"
-          content="Microsoft Dynamics 365 Business Central | Gold Partner USA"
+          content="Trusted Microsoft Dynamics 365 Business Central Partner"
         />
 
         <meta
@@ -52,7 +52,7 @@ const BusinessCentralNew = () => {
 
         <meta
           property="twitter:title"
-          content="Microsoft Dynamics 365 Business Central | Gold Partner USA"
+          content="Trusted Microsoft Dynamics 365 Business Central Partner"
         />
 
         <meta
@@ -76,7 +76,7 @@ const BusinessCentralNew = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org/",
               "@type": "Product",
-              name: "Microsoft Dynamics 365 Business Central | Gold Partner USA",
+              name: "Trusted Microsoft Dynamics 365 Business Central Partner",
               image:
                 "https://www.dynamicssquare.com/img/microsoft-dynamics-365-business-central.png/",
               description:
