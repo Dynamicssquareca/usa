@@ -10560,6 +10560,7 @@ margin-bottom: 20px;
 }
 @media (min-width:992px){
 
+
   .hide-tomedia-min{
     display:block
   }
@@ -10688,6 +10689,7 @@ margin-bottom: 20px;
 }
 
 @media (max-width: 992px) {
+
   .brder-hr{
     display:none
   }
@@ -15818,6 +15820,12 @@ color:#542784;
 }
 .nw-bc-lef-h{
   padding-bottom:30px
+}
+.col-n-cta-new{
+  padding: 30px;
+}
+.ss-heading h2 {
+  font-size: 26px;
 }
 }
 
