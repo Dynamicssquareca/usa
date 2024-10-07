@@ -104,8 +104,8 @@ const MicrosoftPage = () => {
                             <div className="col-lg-6 align-self-center">
                                 <div className="banner-ne-im-t">
                                     <Image
-                                        src="/img/d-365-banner.png"
-                                        alt="d-365-banner.png"
+                                        src="/img/nonprofit-cloude-new-banner.png"
+                                        alt="nonprofit-cloude-new-banner.png"
                                         width={679}
                                         height={355}
                                     />
@@ -123,10 +123,10 @@ const MicrosoftPage = () => {
                             <div className="col-lg-5 align-self-center">
                                 <div className="new-pic-bc text-center">
                                     <Image
-                                        src="/img/picture-1-may.png"
-                                        alt="Dynamics 365 Finance"
-                                        width={590}
-                                        height={499}
+                                        src="/img/nonprofit-cloude-new-side.png"
+                                        alt="nonprofit-cloude-new-side"
+                                        width={760}
+                                        height={760}
                                     />
                                 </div>
                             </div>
@@ -185,8 +185,8 @@ const MicrosoftPage = () => {
                             <div className="col-lg-8 col-md-8">
                                 <div className="heading-colo-bg">
 
-                                    <h2>Dynamics 365 for Nonprofits</h2>
-                                    <p>The Dynamics 365 suite combines various business solutions, including Microsoft Dynamics ERP, Microsoft Dynamics CRM, Microsoft Cloud for Industry, Collaboration, Power Platform, AI, Mixed Reality, Services, and Microsoft Platform.</p>
+                                    <h2>Microsoft Solutions for Nonprofits</h2>
+                                    <p>Microsoft Cloud for Nonprofit comprises a range of pre-configured solutions designed to address the unique requirements of nonprofit organizations.</p>
                                 </div>
                             </div>
                         </div>
@@ -196,8 +196,8 @@ const MicrosoftPage = () => {
                                     <div className="card-with-one-img">
                                         <img src="/img/scalable-1.png" alt="Customer Engagement (CRM)" width={32} height={32} />
                                     </div>
-                                    <h3>Customer Engagement (CRM)</h3>
-                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
+                                    <h3>Dynamics 365 for Nonprofits</h3>
+                                    <p>It enables efficient management of donor relationships, tracking of fundraising operations, and the acquisition of important donors’ insights. Nonprofits can specifically go for <a href="/products/dynamics-365-business-central/">Microsoft Dynamics 365 Business Central</a> to seamlessly manage their day-to-day operations.</p>
                                     {/* <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
@@ -207,7 +207,7 @@ const MicrosoftPage = () => {
                                         <img src="/img/scalable-2.png" alt="Power Platform for Nonprofits" width={32} height={32} />
                                     </div>
                                     <h3>Power Platform for Nonprofits</h3>
-                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
+                                    <p>It allows nonprofits to customize applications based on their requirements and automate tasks, resulting in streamlined processes and improved efficiency.</p>
                                     {/* <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
@@ -217,7 +217,7 @@ const MicrosoftPage = () => {
                                         <img src="/img/scalable-3.png" alt="Microsoft 365 for Nonprofits" width={32} height={32} />
                                     </div>
                                     <h3>Microsoft 365 for Nonprofits</h3>
-                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
+                                    <p>It offers familiar productivity tools to improve collaboration and communication among your team members and volunteers.</p>
                                     {/* <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
@@ -227,7 +227,7 @@ const MicrosoftPage = () => {
                                         <img src="/img/scalable-4.png" alt="LinkedIn for Nonprofits" width={32} height={32} />
                                     </div>
                                     <h3>LinkedIn for Nonprofits</h3>
-                                    <p>Give your sales, marketing, and service teams smart tools to improve customer relationships and boost growth. From AI-powered analytics to sales and marketing automation and customer journey to lead management, Dynamics 365 CRM helps your team surpass consumer expectations at every touchpoint.</p>
+                                    <p>Establish connections with prospective funders, volunteers, and collaborators via the impactful global professional network.</p>
                                     {/* <span><a href="/products/microsoft-dynamics-crm/">Learn More <i className="bi bi-arrow-right"></i></a></span> */}
                                 </div>
                             </div>
@@ -241,8 +241,8 @@ const MicrosoftPage = () => {
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
                                 <div className="heading-colo-bg">
-                                    <h2>Dynamics 365 Finance Modules: Get Everything Simplified</h2>
-                                    <p>Microsoft Dynamics 365 Finance resolves the financial queries of the organization and gives a boost to simplify different operations of the business with different modules. Some of its modules are:</p>
+                                    <h2>Benefits of Microsoft Cloud for Nonprofits</h2>
+                                    <p>Microsoft Cloud for Nonprofit comprises a range of pre-configured solutions designed to address the unique requirements of nonprofit organizations.</p>
                                 </div>
                             </div>
                         </div>
@@ -260,7 +260,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin1"
                                                 >
-                                                    <span>Core Finance</span>
+                                                    <span>Donor and Volunteer Management</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -293,8 +293,8 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Personalized Engagement</h4>
+                                                                    <p>Tailor messages for better communication and outreach using <b>Dynamics CRM</b>.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -304,12 +304,16 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Automated Processes</h4>
+                                                                    <p>Simplify tasks and boost operational efficiency.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-
+                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Improve the loyalty of donors and increase the involvement of volunteers by using advanced, intuitive solutions.</p>
+                                                            </div>
+                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -326,7 +330,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin2"
                                                 >
-                                                    <span>Budgeting and Forecasting</span>
+                                                    <span>Fundraising and Donation Management</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -339,7 +343,7 @@ const MicrosoftPage = () => {
                                                     <div className="row busines-service-list-pad">
                                                         <div className="col-lg-12 col-md-12">
                                                             <div className="busines-service-list-hhs">
-                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                                <p>Utilize Dynamics 365 resources for Nonprofits precisely made to suit the requirements of charitable organizations to drive successful fundraising campaigns. </p>
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-10 col-md-10">
@@ -348,19 +352,8 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Campaign Management</h4>
+                                                                    <p>Take full charge and manage campaigns end-to-end. Strategize and implement fundraising initiatives in an impactful manner.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -370,12 +363,27 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Empower Fundraisers</h4>
+                                                                    <p>Use Microsoft Sales Copilot and <a href="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales</a> in combination to reinforce relationships with donors and achieve the intended fundraising outcomes.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Donor Insights</h4>
+                                                                    <p>Get valuable insights into donor behavior and preferences to modify and enhance your fundraising campaigns.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Enhance the effectiveness and results of your fundraising campaigns by optimizing costs with Microsoft Cloud for Nonprofit.</p>
+                                                            </div>
+                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -392,7 +400,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin3"
                                                 >
-                                                    <span>Cost Management</span>
+                                                    <span>Program Delivery and Impact Tracking</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -402,10 +410,10 @@ const MicrosoftPage = () => {
                                                 data-bs-parent="#accnew"
                                             >
                                                 <div className="accordion-body">
-                                                    <div className="row busines-service-list-pad">
+                                                <div className="row busines-service-list-pad">
                                                         <div className="col-lg-12 col-md-12">
                                                             <div className="busines-service-list-hhs">
-                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                                <p>Deliver your programs and monitor their effectiveness using the Program Impact dashboard, built on the Nonprofit Common Data Model. On the dashboard, you will find these four options:</p>
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-10 col-md-10">
@@ -414,19 +422,8 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Impact Delivered</h4>
+                                                                    <p>Obtain a thorough overview of all programs, their total revenue, and the members they have served thus far. Supervise and manage programs from initiation to completion.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -436,12 +433,38 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Program Summary</h4>
+                                                                    <p>Use the '<b>Program Summary</b>' tab to gain deeper insights. Check out the important program metrics, such as the total number of active programs, status, number of programs by start date, number of donors, budget, and program participants. </p>
                                                                 </div>
                                                             </div>
                                                         </div>
-
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Program Monitoring</h4>
+                                                                    <p>Monitor, measure, and assess the impact of your programs in terms of revenue raised. Apply the time filter, check important parameters like revenue raised over time graph and people served this calendar year, and more.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Program Impact</h4>
+                                                                    <p>Get insights into the program’s objectives, key performance indicators, outcomes, number of individuals, causes served, and so on.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Ensure the progress of your programs is on track and showcase their effectiveness with confidence.</p>
+                                                            </div>
+                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -458,7 +481,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin4"
                                                 >
-                                                    <span>Financial Reporting and Analysis</span>
+                                                    <span>Financial Management</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -468,10 +491,10 @@ const MicrosoftPage = () => {
                                                 data-bs-parent="#accnew"
                                             >
                                                 <div className="accordion-body">
-                                                    <div className="row busines-service-list-pad">
+                                                <div className="row busines-service-list-pad">
                                                         <div className="col-lg-12 col-md-12">
                                                             <div className="busines-service-list-hhs">
-                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                                <p>Maintain financial transparency and effectiveness through the utilization of powerful financial management tools.</p>
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-10 col-md-10">
@@ -480,19 +503,8 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Payment Processing</h4>
+                                                                    <p>Experience hassle-free donation and award management with robust tools for smooth and uninterrupted payment processing.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -502,12 +514,38 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Financial Visibility</h4>
+                                                                    <p>Get real-time information regarding financial health, fund allocation, and expenditures.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Unified Data</h4>
+                                                                    <p>The centralization of data from various departments, including finance, operations, fundraising, and programs help eliminate data silos. This ensures data consistency and accuracy, leading to precise insights and improved decision-making.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Compliance</h4>
+                                                                    <p>Ensure adherence to financial regulations and standards.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Keep your nonprofit’s finances in check and maintain donor trust with Microsoft Cloud for Nonprofit.</p>
+                                                            </div>
+                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -524,7 +562,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin5"
                                                 >
-                                                    <span>Field Service</span>
+                                                    <span>Collaboration and Productivity</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -534,10 +572,10 @@ const MicrosoftPage = () => {
                                                 data-bs-parent="#accnew"
                                             >
                                                 <div className="accordion-body">
-                                                    <div className="row busines-service-list-pad">
+                                                <div className="row busines-service-list-pad">
                                                         <div className="col-lg-12 col-md-12">
                                                             <div className="busines-service-list-hhs">
-                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                                <p>Enhance collaboration and productivity across your organization with advanced tools. Improve collaboration and productivity across your nonprofit organization with advanced tools from Microsoft Cloud suite for nonprofit.</p>
                                                             </div>
                                                         </div>
                                                         <div className="col-lg-10 col-md-10">
@@ -546,19 +584,8 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Microsoft 365 for Nonprofits</h4>
+                                                                    <p>Leverage the familiar suite of productivity tools with SharePoint for seamless document management and information sharing.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -568,12 +595,172 @@ const MicrosoftPage = () => {
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Microsoft Teams for Nonprofits</h4>
+                                                                    <p>Engage and collaborate in real-time with team members, irrespective of their location.</p>
                                                                 </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Power Automate for Nonprofits</h4>
+                                                                    <p>Automate and streamline repetitive tasks and create new workflows based on your requirements to improve operational efficiency.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                      
+                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Encourage your team to collaborate in an effective and effortless manner. </p>
                                                             </div>
                                                         </div>
 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr />
+                                        <div className="accordion-item">
+                                            <h3 className="accordion-header" id="headingTwo">
+                                                <button
+                                                    className="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#fin6"
+                                                    aria-expanded="false"
+                                                    aria-controls="fin6"
+                                                >
+                                                    <span>Security and Compliance</span>
+                                                </button>
+                                            </h3>
+                                            <div
+                                                id="fin6"
+                                                className="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo"
+                                                data-bs-parent="#accnew"
+                                            >
+                                                <div className="accordion-body">
+                                                <div className="row busines-service-list-pad">
+                                                        <div className="col-lg-12 col-md-12">
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Safeguard your organization's data using strong security measures and comprehensive compliance features.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Data Security</h4>
+                                                                    <p>Protect critical information with advanced security measures.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Compliance Tools</h4>
+                                                                    <p>Ensure compliance with industry norms and regulations.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Risk Management</h4>
+                                                                    <p>Detect and mitigate potential risks.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                      
+                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Microsoft Defender for Cloud comprises capabilities that ensure the security and compliance of your data.</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr />
+                                        <div className="accordion-item">
+                                            <h3 className="accordion-header" id="headingTwo">
+                                                <button
+                                                    className="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#fin7"
+                                                    aria-expanded="false"
+                                                    aria-controls="fin7"
+                                                >
+                                                    <span>Scalability and Flexibility</span>
+                                                </button>
+                                            </h3>
+                                            <div
+                                                id="fin7"
+                                                className="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo"
+                                                data-bs-parent="#accnew"
+                                            >
+                                                <div className="accordion-body">
+                                                <div className="row busines-service-list-pad">
+                                                        <div className="col-lg-12 col-md-12">
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Expand your operations using adaptable cloud solutions purposely designed to accommodate the growth of your nonprofit organization.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Scalable Solutions</h4>
+                                                                    <p>Expand your capabilities as your nonprofit grows.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Flexible Tools</h4>
+                                                                    <p>Customize applications to meet the specific requirements of your nonprofit.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-10 col-md-10">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Future-proof</h4>
+                                                                    <p>Keep up with the most recent technological advancements with timely updates and upgrades from Microsoft.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                      
+                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
+                                                            <div className="busines-service-list-hhs">
+                                                                <p>Adopt and thrive with the ability to scale and customize as per your needs.</p>
+                                                            </div>
+                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -602,7 +789,7 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Finance"
                                         aria-selected="true"
                                     >
-                                        <h3>Core Finance</h3>
+                                        <h3>Donor and Volunteer Management</h3>
                                     </div>
                                     <div
                                         className="nav-link"
@@ -613,7 +800,7 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Sales"
                                         aria-selected="false"
                                     >
-                                        <h3>Budgeting and Forecasting</h3>
+                                        <h3>Fundraising and Donation Management</h3>
                                     </div>
                                     <div
                                         className="nav-link"
@@ -624,7 +811,7 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Purchase"
                                         aria-selected="false"
                                     >
-                                        <h3>Cost Management</h3>
+                                        <h3>Program Delivery and Impact Tracking</h3>
                                     </div>
                                     <div
                                         className="nav-link"
@@ -635,7 +822,7 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Management"
                                         aria-selected="false"
                                     >
-                                        <h3>Financial Reporting and Analysis</h3>
+                                        <h3>Financial Management</h3>
                                     </div>
                                     <div
                                         className="nav-link"
@@ -646,7 +833,29 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Inventory"
                                         aria-selected="false"
                                     >
-                                        <h3>Advanced Modules</h3>
+                                        <h3>Collaboration and Productivity</h3>
+                                    </div>
+                                    <div
+                                        className="nav-link"
+                                        id="v-pills-Inventory-01-tab"
+                                        data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-Inventory-01"
+                                        role="tab"
+                                        aria-controls="v-pills-Inventory-01"
+                                        aria-selected="false"
+                                    >
+                                        <h3>Security and Compliance</h3>
+                                    </div>
+                                    <div
+                                        className="nav-link"
+                                        id="v-pills-Inventory-02-tab"
+                                        data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-Inventory-02"
+                                        role="tab"
+                                        aria-controls="v-pills-Inventory-02"
+                                        aria-selected="false"
+                                    >
+                                        <h3>Scalability and Flexibility</h3>
                                     </div>
 
                                 </div>
@@ -907,6 +1116,110 @@ const MicrosoftPage = () => {
 
 
                                     </div>
+                                    <div
+                                        className="tab-pane fade"
+                                        id="v-pills-Inventory-01"
+                                        role="tabpanel"
+                                        aria-labelledby="v-pills-Inventory-01-tab"
+                                    >
+
+                                        <div className="row busines-service-list-pad">
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="busines-service-list-hhs">
+                                                    <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+                                    <div
+                                        className="tab-pane fade"
+                                        id="v-pills-Inventory-02"
+                                        role="tabpanel"
+                                        aria-labelledby="v-pills-Inventory-02-tab"
+                                    >
+
+                                        <div className="row busines-service-list-pad">
+                                            <div className="col-lg-12 col-md-12">
+                                                <div className="busines-service-list-hhs">
+                                                    <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-10 col-md-10">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>360-degree View</h4>
+                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
 
                                 </div>
                             </div>
@@ -956,9 +1269,9 @@ const MicrosoftPage = () => {
                         <div className="row">
                             <div className="col-lg-7 align-self-center">
                                 <div className="left--side-title">
-                                    <h2>Partner with Dynamics Square to Deploy Microsoft Dynamics 365 Apps</h2>
-                                    <p>We are a certified Microsoft Gold Partner who can you innovative and business-driven solutions along with seamless experience in upgrading/implementing <b>Dynamics 365 modules</b> without losing your existing data and business processes.</p>
-                                    <p>Being a reputed <a href="/"> Microsoft Dynamics partner</a> in the USA for more than 12 years now, we have successfully deployed over 350 projects. Here’s why you should consider Dynamics Square:</p>
+                                    <h2>Spread the Word and Make an Impact with Dynamics Square</h2>
+                                    <p>Dynamics Square is a prominent Dynamics 365 implementation partner, specializing in assisting nonprofit organizations. We help you leverage the potential of Microsoft Cloud for Nonprofit.</p>
+                                    <p>Our team of expert consultants will assist you:</p>
                                 </div>
                             </div>
                             <div className="col-lg-5 align-self-center">
@@ -985,7 +1298,7 @@ const MicrosoftPage = () => {
                                     </div>
                                     <div className="rig">
                                         <h3>Proven Track Record</h3>
-                                        <p>We have a proven track record of implementing the <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 solution</a></Link> in more than 350 global businesses. Our extensive Dynamics 365 Finance implementation methodology has helped us reach diverse industries.</p>
+                                        <p>We have a proven track record of implementing the Dynamics 365 solution in more than 350 global businesses. Our extensive Dynamics 365 Finance implementation methodology has helped us reach diverse industries.</p>
                                     </div>
                                 </div>
                             </div>
