@@ -1029,7 +1029,7 @@ const MicrosoftPage = () => {
                                     </div>
                                     <div className="rig">
                                         <h3>Proven Track Record</h3>
-                                        <p>We have a proven track record of implementing the <Link href="/products/microsoft-dynamics-365/"><a>Dynamics 365 solution</a></Link> in more than 350 global businesses. Our extensive Dynamics 365 Finance implementation methodology has helped us reach diverse industries.</p>
+                                        <p>We have a proven track record of implementing the Dynamics 365 solution in more than 350 global businesses. Our extensive Dynamics 365 Finance implementation methodology has helped us reach diverse industries.</p>
                                     </div>
                                 </div>
                             </div>
