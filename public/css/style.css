@@ -15637,7 +15637,30 @@ transition:.4s
 .mines-m-aa .busines-service-list .icons .bi{
 color:#542784;
 }
-
+.new-cc-11{
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgb(224 235 244);
+}
+.new-cc-11 h3{
+  font-size: 20px;
+    color: var(--color-blue);
+    font-weight: 600;
+}
+.new-cc-11 p{}
+.new-cc-11 h4{
+  font-size: 20px;
+    color: var(--color-blue);
+    font-weight: 600;
+}
+.new-cc-11 ul{
+  padding-left: 20px;
+}
+.new-cc-11 ul li{
+  font-size: 15px;
+    margin-bottom: 6px;
+}
 @media (max-width: 1400px) {
 
   .s-head-two h2{

@@ -1001,7 +1001,7 @@ const MicrosoftPage = () => {
                             <div className="col-lg-7 align-self-center">
                                 <div className="left--side-title">
                                     <h2>Partner with Dynamics Square to Deploy Microsoft Dynamics 365 Apps</h2>
-                                    <p>We are a certified Microsoft Gold Partner who can you innovative and business-driven solutions along with seamless experience in upgrading/implementing <b>Dynamics 365 modules</b> without losing your existing data and business processes.</p>
+                                    <p>We are a certified Microsoft Gold Partner who can provide you innovative and business-driven solutions along with seamless experience in upgrading/implementing <b>Dynamics 365 modules</b> without losing your existing data and business processes.</p>
                                     <p>Being a reputed <a href="/"> Microsoft Dynamics partner</a> in the USA for more than 12 years now, we have successfully deployed over 350 projects. Here’s why you should consider Dynamics Square:</p>
                                 </div>
                             </div>

@@ -343,7 +343,7 @@ const MicrosoftDynamicsGPMigration = () => {
             <div className="col-lg-9">
             <header className="section-header">
             <h2>What is the GP to Business Central Migration Cost?</h2>
-            <p>Migrating your GP license to <Link href="/products/dynamics-365-business-central/"><a>Business Central</a></Link> is free and allows access to new Azure licenses for just <b>$149</b> per user/month. Dynamics 365 Business Central is a SaaS model, like Office 365, which includes support and starts at <b>$90</b> per user/month.</p>
+            <p>If you're considering migrating from Dynamics GP to Business Central but are unsure about the costs, the price depends on what you needᅳlike data complexity, any special setups, and the level of support you're looking for. </p>
             <p><b>Migration Cost Table:</b></p>
           </header>
               <div className="tabls-cloud table-responsive" style={{marginTop:'-20px'}}>
@@ -378,6 +378,41 @@ const MicrosoftDynamicsGPMigration = () => {
                     </tr>
                   </tbody>
                 </table>
+              </div>
+
+              <div className="new-cc-11">
+                <h3>Let’s Find Out What Works for You</h3>
+                <p>Talking with one of our Microsoft Dynamics experts is the best way to get a clear idea of what’s involved. We’ll go through your current setup, discuss your specific needs, and provide an estimate tailored to your situation. No hard sell, just practical advice.</p>
+                <h4>Here’s What We’ll Do:</h4>
+                <ul>
+                  <li>Review your current system and pinpoint what needs to be migrated</li>
+                  <li>Outline the steps involved so you know exactly what to expect</li>
+                  <li>Identify the most efficient approach to fit your needs and budget</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="call-to-action-center hero-4">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="call-to-action-content">
+                <h3>Let’s Connect</h3>
+                <p>Schedule a call with us to get straightforward answers and see what your path to Business Central could look like</p>
+                <div className="text-center m-o-t new-btn-nn">
+                  <Link href="#exampleModal">
+                    <a
+                      data-bs-toggle="modal"
+                      className="btn-get-started scrollto"
+                    >
+                      <span>Let’s Talk</span>
+                    </a>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
