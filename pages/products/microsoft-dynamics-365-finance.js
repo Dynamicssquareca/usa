@@ -11,7 +11,7 @@ const Finance = () => {
   return (
     <>
       <Head>
-        <title>Dynamics 365 Finance Partner For Implementation & Support</title>
+        <title>Dynamics 365 Finance Partner | Dynamics Square</title>
         <meta
           name="description"
           content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business."
@@ -22,7 +22,7 @@ const Finance = () => {
         />
         <meta property="og:type" content="product" />
 
-        <meta property="og:title" content="Dynamics 365 Finance Partner For Implementation & Support" />
+        <meta property="og:title" content="Dynamics 365 Finance Partner | Dynamics Square" />
 
         <meta property="og:description" content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business." />
 
@@ -34,7 +34,7 @@ const Finance = () => {
 
         <meta property="twitter:card" content="summary_large_image" />
 
-        <meta property="twitter:title" content="Dynamics 365 Finance Partner For Implementation & Support" />
+        <meta property="twitter:title" content="Dynamics 365 Finance Partner | Dynamics Square" />
 
         <meta property="twitter:description" content="Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business." />
 
@@ -47,7 +47,7 @@ const Finance = () => {
             __html: JSON.stringify({
                 "@context": "https://schema.org/",
                 "@type": "Product",
-                "name": "Dynamics 365 Finance Partner For Implementation & Support",
+                "name": "Dynamics 365 Finance Partner | Dynamics Square",
                 "image": "https://www.dynamicssquare.com/img/Finance-banner-pic.png",
                 "description": "Maximize financial performance with Dynamics Square, a trusted Dynamics 365 Finance partner offering seamless integration and customized solutions for your business.",
                 "brand": {
