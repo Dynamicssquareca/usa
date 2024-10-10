@@ -32,7 +32,7 @@ const MicrosoftPage = () => {
                     name="description"
                     content="Empower your nonprofit with Microsoft Cloud for Nonprofit by Dynamics Square. Streamline operations and drive mission success."
                 />
-                 <meta name="robots" content="noindex, nofollow" />
+                <meta name="robots" content="noindex, nofollow" />
                 <link
                     rel="canonical"
                     href="https://www.dynamicssquare.com/industries/microsoft-cloud-for-nonprofit/"
@@ -69,7 +69,7 @@ const MicrosoftPage = () => {
                         <div className="row g-5">
                             <div className="col-lg-6 align-self-center">
                                 <h1 className="small-h">Microsoft Cloud for Manufacturing</h1>
-                                <h2>Design, Develop, and Function with AI-driven Intelligent Factories</h2>
+                                <h2>Design and operate with AI-driven Intelligent Factories</h2>
                                 <p>Transform your manufacturing facility by using capabilities such as mixed reality, digital twins, and AI with Microsoft Cloud for Manufacturing.</p>
                                 <div>
                                     <div className="text-center text-lg-start">
@@ -119,14 +119,13 @@ const MicrosoftPage = () => {
                             <div className="col-lg-6">
                                 <div className="nw-bc-lef-h nw-bc-lef-h-blue">
                                     <h2>Challenges Faced by Manufacturing Companies</h2>
-                                    <p><b>Microsoft Cloud for nonprofit</b> is a complete collection of cloud-based products specifically created to cater to the distinct requirements of nonprofit organizations. Utilizing the reliable Microsoft Cloud platform, this system effortlessly incorporates well-known resources, such as LinkedIn, Microsoft Azure, Microsoft 365, Dynamics 365, and <a href="/products/microsoft-power-automate/">Microsoft Power Automate</a>. This combination provides a comprehensive method for managing your operations and enhancing the effectiveness of your goal. </p>
-                                    <p><strong>Microsoft Cloud for Nonprofit allows you to:</strong></p>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Optimize program design and delivery initiatives</span></div>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Streamline fundraising initiatives and centralize donor information</span></div>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Enhance program management efficiency and empower volunteers</span></div>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Obtain actionable insights to enhance decision-making</span></div>
-                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Ensure the confidentiality and compliance of your data</span></div>
-                                    <p><b>Experience</b> Microsoft Cloud for nonprofits and harness its potential to accelerate the outcomes of your mission objectives</p>
+                                    <p>Manufacturing companies realize that production issues are prevalent. Due to those hurdles, they may experience market and supply chain disruptions, thus they must invest in technology intelligently to grow and sustain themselves. </p>
+                                    <p>Manufacturers require an ecosystem that empowers them to overcome problems. Microsoft Cloud for Manufacturing helps firms combine data, workflows, staff, technology, and smart solutions. It accelerates digital transformation across four important manufacturing value chain challenges:</p>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>No real-time production visibility or cost optimization </span></div>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Supply chain disruption prediction and mitigation </span></div>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Enhancing consumer experiences and innovation </span></div>
+                                    <div className="points-ui"><i className="bi bi-check-lg"></i> <span>Effectively creating, stimulating, and validating goods</span></div>
+
                                 </div>
                             </div>
 
@@ -146,7 +145,28 @@ const MicrosoftPage = () => {
                                             delay: 66666,
                                             disableOnInteraction: false,
                                         }}
-                                        slidesPerView={3}
+                                        breakpoints={{
+                                            640: {
+                                              slidesPerView: 1,
+                                              spaceBetween: 20,
+                                            },
+                                            768: {
+                                              slidesPerView: 1,
+                                              spaceBetween: 40,
+                                            },
+                                            1024: {
+                                              slidesPerView: 2,
+                                              spaceBetween: 10,
+                                            },
+                                            1300: {
+                                              slidesPerView: 3,
+                                              spaceBetween: 10,
+                                            },
+                                            1400: {
+                                              slidesPerView: 3,
+                                              spaceBetween: 10,
+                                            },
+                                          }}
                                         spaceBetween={30}
                                         freeMode={true}
                                         pagination={{
@@ -157,71 +177,64 @@ const MicrosoftPage = () => {
                                     >
                                         <SwiperSlide>
                                             <div className="swiper-n-inner-card">
-                                                <h3>Commission The Smart Factory of The Future</h3>
-                                                <p>To tackle the challenges of real-time production visibility and cost optimization, manufacturers need solutions that can enable them to fetch data from IT (information technology) and OT (operational technology) systems.</p>
-                                                <p>Microsoft Manufacturing software suite helps in setting up the smart factory of the future. With the help of intelligent factories powered by IT and OT systems, manufacturers can securely extract data and have insights for predictive maintenance and autonomous machine optimization at scale. Also, it provides onsite workers with insights with the help of collaboration tools like Microsoft Teams which help them with onboarding and upskilling in a faster way.</p>
+                                                <h3>Commission Intelligent Factory</h3>
+                                                <p><b>Microsoft Manufacturing software suite</b> helps build the smart factory of the future. IT and OT-powered intelligent factories allow businesses to securely extract data and get insights for predictive maintenance and autonomous machine optimization at scale. It gives onsite workers information via collaboration platforms like Microsoft Teams to speed up onboarding and upskilling.</p>
 
-                                                <p><b>Key aspects of enabling intelligent factories are:</b></p>
+                                                <p><b>Key aspects are:</b></p>
                                                 <ul>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Enhance program management efficiency and empower volunteers</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Obtain actionable insights to enhance decision-making.</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Ensure the confidentiality and compliance of your data.</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Connected and informed workers</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Production monitoring and optimization</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Maintenance and quality</span></li>
                                                 </ul>
-                                                <a href="">Learn how! <i className="bi bi-arrow-right"></i></a>
+                                                {/* <a href="">Learn how! <i className="bi bi-arrow-right"></i></a> */}
                                             </div>
 
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             <div className="swiper-n-inner-card">
-                                                <h3>Build Resilient and Sustainable Supply Chains</h3>
-                                                <p>To be able to manage the challenges of supply chain disruptions, manufacturers need to analyze supplier data and market signals. These insights can help them predict and proactively deal with supply chain disruptions.</p>
-                                                <p>Microsoft Cloud for Manufacturing uses AI capabilities embedded in business applications available in the suite to evaluate data and insights. This helps estimate supply chain disruptions and take necessary actions to avoid them which helps establish a resilient and sustainable supply chain.</p>
+                                                <h3>Build Resilient Supply Chains</h3>
+                                                <p>Manufacturers must analyze supplier data and market indications to manage supply chain disruptions. This information can help them predict and manage supply chain interruptions. Microsoft Cloud for Manufacturing uses AI capabilities embedded in business applications available in the suite to evaluate data and insights. This helps build a resilient and sustainable supply chain by estimating and preventing disruptions.</p>
 
-                                                <p><b>Key aspects of the resilient supply chain are:</b></p>
+                                                <p><b>Key aspects are:</b></p>
                                                 <ul>
-                                                    <li><i className="bi bi-check-lg"></i><span>	Visibility and risk management</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>	Forecasting and planning</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>	Warehousing and fulfilment</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Visibility and risk management</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Forecasting and planning</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Warehousing and fulfilment</span></li>
+
                                                 </ul>
-                                                <a href="">Learn how! <i className="bi bi-arrow-right"></i></a>
+                                                {/* <a href="">Learn how! <i className="bi bi-arrow-right"></i></a> */}
                                             </div>
 
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             <div className="swiper-n-inner-card">
-                                                <h3>Commission The Smart Factory of The Future</h3>
-                                                <p>To tackle the challenges of real-time production visibility and cost optimization, manufacturers need solutions that can enable them to fetch data from IT (information technology) and OT (operational technology) systems.
-                                                    Microsoft Manufacturing software suite helps in setting up the smart factory of the future. </p>
-                                                <p>With the help of intelligent factories powered by IT and OT systems, manufacturers can securely extract data and have insights for predictive maintenance and autonomous machine optimization at scale. Also, it provides onsite workers with insights with the help of collaboration tools like Microsoft Teams which help them with onboarding and upskilling in a faster way. </p>
+                                                <h3>Modernize Digital Sales & Services</h3>
+                                                <p>A business's ultimate goal is client satisfaction. Manufacturers must digitize sales and services to drive innovation and improve consumer experiences across the buying journey. Microsoft Cloud for Manufacturing includes intelligent business apps using mixed reality and AI. With real-time sales and service data, they can create and launch new products and services rapidly and affordably without sacrificing quality.</p>
 
-                                                <p><b>Key aspects of enabling intelligent factories are:</b></p>
+                                                <p><b>Key aspects are:</b></p>
                                                 <ul>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Optimizing sales and service with real-time insights </span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Improving customer service with AI-powered chats </span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Mixed-reality solutions create immersive experiences</span></li>
+
                                                 </ul>
-                                                <a href="">Learn how! <i className="bi bi-arrow-right"></i></a>
+                                                {/* <a href="">Learn how! <i className="bi bi-arrow-right"></i></a> */}
                                             </div>
 
                                         </SwiperSlide>
                                         <SwiperSlide>
                                             <div className="swiper-n-inner-card">
-                                                <h3>Commission The Smart Factory of The Future</h3>
-                                                <p>To tackle the challenges of real-time production visibility and cost optimization, manufacturers need solutions that can enable them to fetch data from IT (information technology) and OT (operational technology) systems.
-                                                    Microsoft Manufacturing software suite helps in setting up the smart factory of the future. </p>
-                                                <p>With the help of intelligent factories powered by IT and OT systems, manufacturers can securely extract data and have insights for predictive maintenance and autonomous machine optimization at scale. Also, it provides onsite workers with insights with the help of collaboration tools like Microsoft Teams which help them with onboarding and upskilling in a faster way. </p>
+                                                <h3>Innovative Product Design & Validation</h3>
+                                                <p>Manufacturers need scalable, on-demand high-performance computing and industrial Metaverse capabilities to design, stimulate, and validate products. Microsoft Cloud for Manufacturing provides this. Metaverse features like digital twins, mixed reality, and AI aid end-to-end product design and validation. This drives innovation in manufacturing and helps ensure product quality.</p>
 
-                                                <p><b>Key aspects of enabling intelligent factories are:</b></p>
+                                                <p><b>Key aspects are:</b></p>
                                                 <ul>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
-                                                    <li><i className="bi bi-check-lg"></i><span>Lack of real-time production visibility and cost optimization</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Creating and stimulating products, machines, and processes</span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Forecasting using historical data and algorithms </span></li>
+                                                    <li><i className="bi bi-check-lg"></i><span>Evaluating and optimizing product design</span></li>
+
                                                 </ul>
-                                                <a href="">Learn how! <i className="bi bi-arrow-right"></i></a>
+                                                {/* <a href="">Learn how! <i className="bi bi-arrow-right"></i></a> */}
                                             </div>
 
                                         </SwiperSlide>
@@ -239,9 +252,9 @@ const MicrosoftPage = () => {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="ss-heading">
-                                        <h2>Accelerate Your Mission with Microsoft Cloud for Nonprofit</h2>
-                                        <p>Modernize the process of donor engagement by creating tailored experiences. Use tools to save your time and streamline donation management and payment processing.</p>
-                                        <a href="#" className="btn-white-new">Connect with our Expert</a>
+                                        <h2>Set up AI-driven Intelligent Factories with Dynamics Square</h2>
+                                        <p>Let’s build smart factories that allow you to get real-time insights to streamline operations and drive efficiency and innovation.</p>
+                                        <a href="#exampleModal" data-bs-toggle="modal" className="btn-white-new">Know More!</a>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
@@ -259,15 +272,15 @@ const MicrosoftPage = () => {
 
 
 
-              
+
 
                 <section className="mines-m-aa">
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-8 col-md-8">
                                 <div className="heading-colo-bg">
-                                    <h2>Benefits of Microsoft Cloud for Nonprofits</h2>
-                                    <p>Microsoft Cloud for Nonprofit comprises a range of pre-configured solutions designed to address the unique requirements of nonprofit organizations.</p>
+                                    <h2>Explore Solutions for Manufacturing</h2>
+                                    <p>Check out the solutions that can help you revamp your business by bringing innovation into it.</p>
                                 </div>
                             </div>
                         </div>
@@ -285,7 +298,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin1"
                                                 >
-                                                    <span>Donor and Volunteer Management</span>
+                                                    <span>Commission Intelligent Factory</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -296,49 +309,130 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-12 col-md-12">
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
+
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>360-degree View</h4>
-                                                                    <p>Get all the information about your donors and volunteers in one place.</p>
+                                                                    <h4>Dynamics 365 Supply Chain Management </h4>
+                                                                    <p>It helps analyze production and operations data including supplier information and market signals.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Personalized Engagement</h4>
-                                                                    <p>Tailor messages for better communication and outreach using <b>Dynamics CRM</b>.</p>
+                                                                    <h4>Microsoft Power Platform </h4>
+                                                                    <p>It offers data solutions to simplify data management across Microsoft services like Microsoft 365, Dynamics 365, Azure, and Power Platform itself. </p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Automated Processes</h4>
-                                                                    <p>Simplify tasks and boost operational efficiency.</p>
+                                                                    <h4>Microsoft Fabric </h4>
+                                                                    <p>It improves data integration and analysis within the manufacturing industry. It does so by unifying OT with IT.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Improve the loyalty of donors and increase the involvement of volunteers by using advanced, intuitive solutions.</p>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Azure IoT Operations </h4>
+                                                                    <p>It helps capture data from multiple systems and integrate with solutions like Microsoft Fabric to deploy the industrial metaverse.</p>
+                                                                </div>
                                                             </div>
                                                         </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Dynamics 365 Guides </h4>
+                                                                    <p>It provides detailed instructions to help workers do complex tasks with precision and efficiency.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Azure AI Services </h4>
+                                                                    <p>It allows manufacturers to introduce AI capabilities into their processes and solutions.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Microsoft Defender for IoT </h4>
+                                                                    <p>It allows real-time asset discovery and manages cyber threat protection for IoT and industrial infrastructure.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Microsoft 365 for frontline workers </h4>
+                                                                    <p>It helps workers connect and collaborate for increased operational efficiency.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Dynamics 365 Remote Assist </h4>
+                                                                    <p>It helps connect field technicians with remote experts to address challenges quickly and effectively.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Microsoft Purview </h4>
+                                                                    <p>It helps improve data governance, visibility, and security of manufacturing operations.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Microsoft HoloLens 2 </h4>
+                                                                    <p>It facilitates immersive collaboration, digital twins and simulation, and self-guided instructions for workers. </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
 
                                                     </div>
                                                 </div>
@@ -355,7 +449,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin2"
                                                 >
-                                                    <span>Fundraising and Donation Management</span>
+                                                    <span>Build Resilient Supply Chains</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -366,47 +460,49 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-12 col-md-12">
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Utilize Dynamics 365 resources for Nonprofits precisely made to suit the requirements of charitable organizations to drive successful fundraising campaigns. </p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
+
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Campaign Management</h4>
-                                                                    <p>Take full charge and manage campaigns end-to-end. Strategize and implement fundraising initiatives in an impactful manner.</p>
+                                                                    <h4>Dynamics 365 Supply Chain Management </h4>
+                                                                    <p>It assists in evaluating data related to production and operations, including details about suppliers and market trends.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Empower Fundraisers</h4>
-                                                                    <p>Use Microsoft Sales Copilot and <a href="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales</a> in combination to reinforce relationships with donors and achieve the intended fundraising outcomes.</p>
+                                                                    <h4>Dynamics 365 Finance </h4>
+                                                                    <p>It brings agility in financial planning, budgeting, and forecasting through the use of Copilot within the scope of business performance management capabilities.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Donor Insights</h4>
-                                                                    <p>Get valuable insights into donor behavior and preferences to modify and enhance your fundraising campaigns.</p>
+                                                                    <h4>Microsoft Power BI </h4>
+                                                                    <p>It helps transform businesses by offering actionable insights across various operations.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Enhance the effectiveness and results of your fundraising campaigns by optimizing costs with Microsoft Cloud for Nonprofit.</p>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Microsoft Sustainability Manager </h4>
+                                                                    <p>It helps manufacturers reduce their environmental impact using data and AI. </p>
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -425,7 +521,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin3"
                                                 >
-                                                    <span>Program Delivery and Impact Tracking</span>
+                                                    <span>Modernize Digital Sales & Services</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -436,58 +532,71 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-12 col-md-12">
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Deliver your programs and monitor their effectiveness using the Program Impact dashboard, built on the Nonprofit Common Data Model. On the dashboard, you will find these four options:</p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
+
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Impact Delivered</h4>
-                                                                    <p>Obtain a thorough overview of all programs, their total revenue, and the members they have served thus far. Supervise and manage programs from initiation to completion.</p>
+                                                                    <h4>Dynamics 365 Customer Service </h4>
+                                                                    <p>With connected field service and service operations profit center, it helps improve the overall customer experience.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Program Summary</h4>
-                                                                    <p>Use the '<b>Program Summary</b>' tab to gain deeper insights. Check out the important program metrics, such as the total number of active programs, status, number of programs by start date, number of donors, budget, and program participants. </p>
+                                                                    <h4>Dynamics 365 Sales </h4>
+                                                                    <p>It streamlines sales processes that include lead management, opportunity management, sales forecasting, and so on.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Program Monitoring</h4>
-                                                                    <p>Monitor, measure, and assess the impact of your programs in terms of revenue raised. Apply the time filter, check important parameters like revenue raised over time graph and people served this calendar year, and more.</p>
+                                                                    <h4>Dynamics 365 Customer Insights </h4>
+                                                                    <p>It provides a 360-degree customer view and creates delightful experiences.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Program Impact</h4>
-                                                                    <p>Get insights into the program’s objectives, key performance indicators, outcomes, number of individuals, causes served, and so on.</p>
+                                                                    <h4>Dynamics 365 Field Service </h4>
+                                                                    <p>With connected field service, optimized service operations, and contractor support, it ensures efficient field service management.  </p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Ensure the progress of your programs is on track and showcase their effectiveness with confidence.</p>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Microsoft 365 for frontline workers </h4>
+                                                                    <p>It helps connect and engage the workforce, enhance workforce management, and onboard and train employees.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Microsoft Power BI </h4>
+                                                                    <p>It helps businesses transform by providing critical insights related to various operations.</p>
+                                                                </div>
                                                             </div>
                                                         </div>
 
@@ -506,7 +615,7 @@ const MicrosoftPage = () => {
                                                     aria-expanded="false"
                                                     aria-controls="fin4"
                                                 >
-                                                    <span>Financial Management</span>
+                                                    <span>Innovative Product Design & Validation</span>
                                                 </button>
                                             </h3>
                                             <div
@@ -517,275 +626,63 @@ const MicrosoftPage = () => {
                                             >
                                                 <div className="accordion-body">
                                                     <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-12 col-md-12">
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Maintain financial transparency and effectiveness through the utilization of powerful financial management tools.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Payment Processing</h4>
-                                                                    <p>Experience hassle-free donation and award management with robust tools for smooth and uninterrupted payment processing.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Financial Visibility</h4>
-                                                                    <p>Get real-time information regarding financial health, fund allocation, and expenditures.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Unified Data</h4>
-                                                                    <p>The centralization of data from various departments, including finance, operations, fundraising, and programs help eliminate data silos. This ensures data consistency and accuracy, leading to precise insights and improved decision-making.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Compliance</h4>
-                                                                    <p>Ensure adherence to financial regulations and standards.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Keep your nonprofit’s finances in check and maintain donor trust with Microsoft Cloud for Nonprofit.</p>
-                                                            </div>
-                                                        </div>
 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr />
-                                        <div className="accordion-item">
-                                            <h3 className="accordion-header" id="headingTwo">
-                                                <button
-                                                    className="accordion-button collapsed"
-                                                    type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#fin5"
-                                                    aria-expanded="false"
-                                                    aria-controls="fin5"
-                                                >
-                                                    <span>Collaboration and Productivity</span>
-                                                </button>
-                                            </h3>
-                                            <div
-                                                id="fin5"
-                                                className="accordion-collapse collapse"
-                                                aria-labelledby="headingTwo"
-                                                data-bs-parent="#accnew"
-                                            >
-                                                <div className="accordion-body">
-                                                    <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-12 col-md-12">
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Enhance collaboration and productivity across your organization with advanced tools. Improve collaboration and productivity across your nonprofit organization with advanced tools from Microsoft Cloud suite for nonprofit.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Microsoft 365 for Nonprofits</h4>
-                                                                    <p>Leverage the familiar suite of productivity tools with SharePoint for seamless document management and information sharing.</p>
+                                                                    <h4>Azure Compute </h4>
+                                                                    <p>It allows manufacturers to leverage high-performance computing to efficiently run their applications and workloads.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Microsoft Teams for Nonprofits</h4>
-                                                                    <p>Engage and collaborate in real-time with team members, irrespective of their location.</p>
+                                                                    <h4>Azure IoT Operations </h4>
+                                                                    <p>A set of modular, scalable, and highly available data services; it enables manufacturers to transform their physical operations.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div className="col-lg-10 col-md-10">
+                                                        <div className="col-lg-6 col-md-6">
                                                             <div className="busines-service-list">
                                                                 <div className="icons">
                                                                     <i className="bi bi-check-lg"></i>
                                                                 </div>
                                                                 <div className="content">
-                                                                    <h4>Power Automate for Nonprofits</h4>
-                                                                    <p>Automate and streamline repetitive tasks and create new workflows based on your requirements to improve operational efficiency.</p>
+                                                                    <h4>Azure Machine Learning </h4>
+                                                                    <p>It is a powerful component of the Microsoft Cloud for Manufacturing suite that enables safe and productive use of machine learning models.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Azure AI Services</h4>
+                                                                    <p>It enables businesses to incorporate artificial intelligence functionalities into their procedures and solutions.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col-lg-6 col-md-6">
+                                                            <div className="busines-service-list">
+                                                                <div className="icons">
+                                                                    <i className="bi bi-check-lg"></i>
+                                                                </div>
+                                                                <div className="content">
+                                                                    <h4>Azure SQL Database </h4>
+                                                                    <p>A fully managed PaaS database engine that allows seamless scaling of relational databases.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Encourage your team to collaborate in an effective and effortless manner. </p>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <hr />
-                                        <div className="accordion-item">
-                                            <h3 className="accordion-header" id="headingTwo">
-                                                <button
-                                                    className="accordion-button collapsed"
-                                                    type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#fin6"
-                                                    aria-expanded="false"
-                                                    aria-controls="fin6"
-                                                >
-                                                    <span>Security and Compliance</span>
-                                                </button>
-                                            </h3>
-                                            <div
-                                                id="fin6"
-                                                className="accordion-collapse collapse"
-                                                aria-labelledby="headingTwo"
-                                                data-bs-parent="#accnew"
-                                            >
-                                                <div className="accordion-body">
-                                                    <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-12 col-md-12">
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Safeguard your organization's data using strong security measures and comprehensive compliance features.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Data Security</h4>
-                                                                    <p>Protect critical information with advanced security measures.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Compliance Tools</h4>
-                                                                    <p>Ensure compliance with industry norms and regulations.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Risk Management</h4>
-                                                                    <p>Detect and mitigate potential risks.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Microsoft Defender for Cloud comprises capabilities that ensure the security and compliance of your data.</p>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <hr />
-                                        <div className="accordion-item">
-                                            <h3 className="accordion-header" id="headingTwo">
-                                                <button
-                                                    className="accordion-button collapsed"
-                                                    type="button"
-                                                    data-bs-toggle="collapse"
-                                                    data-bs-target="#fin7"
-                                                    aria-expanded="false"
-                                                    aria-controls="fin7"
-                                                >
-                                                    <span>Scalability and Flexibility</span>
-                                                </button>
-                                            </h3>
-                                            <div
-                                                id="fin7"
-                                                className="accordion-collapse collapse"
-                                                aria-labelledby="headingTwo"
-                                                data-bs-parent="#accnew"
-                                            >
-                                                <div className="accordion-body">
-                                                    <div className="row busines-service-list-pad">
-                                                        <div className="col-lg-12 col-md-12">
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Expand your operations using adaptable cloud solutions purposely designed to accommodate the growth of your nonprofit organization.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Scalable Solutions</h4>
-                                                                    <p>Expand your capabilities as your nonprofit grows.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Flexible Tools</h4>
-                                                                    <p>Customize applications to meet the specific requirements of your nonprofit.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-lg-10 col-md-10">
-                                                            <div className="busines-service-list">
-                                                                <div className="icons">
-                                                                    <i className="bi bi-check-lg"></i>
-                                                                </div>
-                                                                <div className="content">
-                                                                    <h4>Future-proof</h4>
-                                                                    <p>Keep up with the most recent technological advancements with timely updates and upgrades from Microsoft.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                            <div className="busines-service-list-hhs">
-                                                                <p>Adopt and thrive with the ability to scale and customize as per your needs.</p>
-                                                            </div>
-                                                        </div>
 
                                                     </div>
                                                 </div>
@@ -798,7 +695,7 @@ const MicrosoftPage = () => {
                         </div>
 
                         <div className="row busines-bgs g-0">
-                            <div className="col-lg-5 no-pad">
+                            <div className="col-lg-4 no-pad">
                                 <div
                                     className="nav flex-column nav-pills  bus-ser-left"
                                     id="v-pills-tab"
@@ -814,7 +711,7 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Finance"
                                         aria-selected="true"
                                     >
-                                        <h3>Donor and Volunteer Management</h3>
+                                        <h3>Commission Intelligent Factory</h3>
                                     </div>
                                     <div
                                         className="nav-link"
@@ -825,7 +722,7 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Sales"
                                         aria-selected="false"
                                     >
-                                        <h3>Fundraising and Donation Management</h3>
+                                        <h3>Build Resilient Supply Chains</h3>
                                     </div>
                                     <div
                                         className="nav-link"
@@ -836,7 +733,7 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Purchase"
                                         aria-selected="false"
                                     >
-                                        <h3>Program Delivery and Impact Tracking</h3>
+                                        <h3>Modernize Digital Sales & Services</h3>
                                     </div>
                                     <div
                                         className="nav-link"
@@ -847,45 +744,13 @@ const MicrosoftPage = () => {
                                         aria-controls="v-pills-Management"
                                         aria-selected="false"
                                     >
-                                        <h3>Financial Management</h3>
+                                        <h3>Innovative Product Design & Validation</h3>
                                     </div>
-                                    <div
-                                        className="nav-link"
-                                        id="v-pills-Inventory-tab"
-                                        data-bs-toggle="pill"
-                                        data-bs-target="#v-pills-Inventory"
-                                        role="tab"
-                                        aria-controls="v-pills-Inventory"
-                                        aria-selected="false"
-                                    >
-                                        <h3>Collaboration and Productivity</h3>
-                                    </div>
-                                    <div
-                                        className="nav-link"
-                                        id="v-pills-Inventory-01-tab"
-                                        data-bs-toggle="pill"
-                                        data-bs-target="#v-pills-Inventory-01"
-                                        role="tab"
-                                        aria-controls="v-pills-Inventory-01"
-                                        aria-selected="false"
-                                    >
-                                        <h3>Security and Compliance</h3>
-                                    </div>
-                                    <div
-                                        className="nav-link"
-                                        id="v-pills-Inventory-02-tab"
-                                        data-bs-toggle="pill"
-                                        data-bs-target="#v-pills-Inventory-02"
-                                        role="tab"
-                                        aria-controls="v-pills-Inventory-02"
-                                        aria-selected="false"
-                                    >
-                                        <h3>Scalability and Flexibility</h3>
-                                    </div>
+
 
                                 </div>
                             </div>
-                            <div className="col-lg-7">
+                            <div className="col-lg-8">
                                 <div className="tab-content" id="v-pills-tabContent">
                                     <div
                                         className="tab-pane fade show active"
@@ -894,49 +759,130 @@ const MicrosoftPage = () => {
                                         aria-labelledby="v-pills-Finance-tab"
                                     >
                                         <div className="row busines-service-list-pad">
-                                            <div className="col-lg-12 col-md-12">
-                                                <div className="busines-service-list-hhs">
-                                                    <p>One of the most challenging aspects of running a nonprofit organization is donor and volunteer management. Using Microsoft Cloud for nonprofits, you can build and manage relationships with supporters and volunteers.</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
+
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>360-degree View</h4>
-                                                        <p>Get all the information about your donors and volunteers in one place.</p>
+                                                        <h4>Dynamics 365 Supply Chain Management </h4>
+                                                        <p>It helps analyze production and operations data including supplier information and market signals.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-10 col-md-10">
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Personalized Engagement</h4>
-                                                        <p>Tailor messages for better communication and outreach using <b>Dynamics CRM</b>.</p>
+                                                        <h4>Microsoft Power Platform </h4>
+                                                        <p>It offers data solutions to simplify data management across Microsoft services like Microsoft 365, Dynamics 365, Azure, and Power Platform itself. </p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-10 col-md-10">
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Automated Processes</h4>
-                                                        <p>Simplify tasks and boost operational efficiency.</p>
+                                                        <h4>Microsoft Fabric </h4>
+                                                        <p>It improves data integration and analysis within the manufacturing industry. It does so by unifying OT with IT.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Improve the loyalty of donors and increase the involvement of volunteers by using advanced, intuitive solutions.</p>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Azure IoT Operations </h4>
+                                                        <p>It helps capture data from multiple systems and integrate with solutions like Microsoft Fabric to deploy the industrial metaverse.</p>
+                                                    </div>
                                                 </div>
                                             </div>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Dynamics 365 Guides </h4>
+                                                        <p>It provides detailed instructions to help workers do complex tasks with precision and efficiency.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Azure AI Services </h4>
+                                                        <p>It allows manufacturers to introduce AI capabilities into their processes and solutions.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Microsoft Defender for IoT </h4>
+                                                        <p>It allows real-time asset discovery and manages cyber threat protection for IoT and industrial infrastructure.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Microsoft 365 for frontline workers </h4>
+                                                        <p>It helps workers connect and collaborate for increased operational efficiency.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Dynamics 365 Remote Assist </h4>
+                                                        <p>It helps connect field technicians with remote experts to address challenges quickly and effectively.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Microsoft Purview </h4>
+                                                        <p>It helps improve data governance, visibility, and security of manufacturing operations.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Microsoft HoloLens 2 </h4>
+                                                        <p>It facilitates immersive collaboration, digital twins and simulation, and self-guided instructions for workers. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
 
                                         </div>
                                     </div>
@@ -949,47 +895,49 @@ const MicrosoftPage = () => {
 
                                         <div className="accordion-body">
                                             <div className="row busines-service-list-pad">
-                                                <div className="col-lg-12 col-md-12">
-                                                    <div className="busines-service-list-hhs">
-                                                        <p>Utilize Dynamics 365 resources for Nonprofits precisely made to suit the requirements of charitable organizations to drive successful fundraising campaigns. </p>
-                                                    </div>
-                                                </div>
-                                                <div className="col-lg-10 col-md-10">
+
+                                                <div className="col-lg-6 col-md-6">
                                                     <div className="busines-service-list">
                                                         <div className="icons">
                                                             <i className="bi bi-check-lg"></i>
                                                         </div>
                                                         <div className="content">
-                                                            <h4>Campaign Management</h4>
-                                                            <p>Take full charge and manage campaigns end-to-end. Strategize and implement fundraising initiatives in an impactful manner.</p>
+                                                            <h4>Dynamics 365 Supply Chain Management </h4>
+                                                            <p>It assists in evaluating data related to production and operations, including details about suppliers and market trends.</p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="col-lg-10 col-md-10">
+                                                <div className="col-lg-6 col-md-6">
                                                     <div className="busines-service-list">
                                                         <div className="icons">
                                                             <i className="bi bi-check-lg"></i>
                                                         </div>
                                                         <div className="content">
-                                                            <h4>Empower Fundraisers</h4>
-                                                            <p>Use Microsoft Sales Copilot and <a href="/products/microsoft-dynamics-365-sales/">Dynamics 365 Sales</a> in combination to reinforce relationships with donors and achieve the intended fundraising outcomes.</p>
+                                                            <h4>Dynamics 365 Finance </h4>
+                                                            <p>It brings agility in financial planning, budgeting, and forecasting through the use of Copilot within the scope of business performance management capabilities.</p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="col-lg-10 col-md-10">
+                                                <div className="col-lg-6 col-md-6">
                                                     <div className="busines-service-list">
                                                         <div className="icons">
                                                             <i className="bi bi-check-lg"></i>
                                                         </div>
                                                         <div className="content">
-                                                            <h4>Donor Insights</h4>
-                                                            <p>Get valuable insights into donor behavior and preferences to modify and enhance your fundraising campaigns.</p>
+                                                            <h4>Microsoft Power BI </h4>
+                                                            <p>It helps transform businesses by offering actionable insights across various operations.</p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                    <div className="busines-service-list-hhs">
-                                                        <p>Enhance the effectiveness and results of your fundraising campaigns by optimizing costs with Microsoft Cloud for Nonprofit.</p>
+                                                <div className="col-lg-6 col-md-6">
+                                                    <div className="busines-service-list">
+                                                        <div className="icons">
+                                                            <i className="bi bi-check-lg"></i>
+                                                        </div>
+                                                        <div className="content">
+                                                            <h4>Microsoft Sustainability Manager </h4>
+                                                            <p>It helps manufacturers reduce their environmental impact using data and AI. </p>
+                                                        </div>
                                                     </div>
                                                 </div>
 
@@ -1005,58 +953,71 @@ const MicrosoftPage = () => {
                                         aria-labelledby="v-pills-Purchase-tab"
                                     >
                                         <div className="row busines-service-list-pad">
-                                            <div className="col-lg-12 col-md-12">
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Deliver your programs and monitor their effectiveness using the Program Impact dashboard, built on the Nonprofit Common Data Model. On the dashboard, you will find these four options:</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
+
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Impact Delivered</h4>
-                                                        <p>Obtain a thorough overview of all programs, their total revenue, and the members they have served thus far. Supervise and manage programs from initiation to completion.</p>
+                                                        <h4>Dynamics 365 Customer Service </h4>
+                                                        <p>With connected field service and service operations profit center, it helps improve the overall customer experience.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-10 col-md-10">
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Program Summary</h4>
-                                                        <p>Use the '<b>Program Summary</b>' tab to gain deeper insights. Check out the important program metrics, such as the total number of active programs, status, number of programs by start date, number of donors, budget, and program participants. </p>
+                                                        <h4>Dynamics 365 Sales </h4>
+                                                        <p>It streamlines sales processes that include lead management, opportunity management, sales forecasting, and so on.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-10 col-md-10">
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Program Monitoring</h4>
-                                                        <p>Monitor, measure, and assess the impact of your programs in terms of revenue raised. Apply the time filter, check important parameters like revenue raised over time graph and people served this calendar year, and more.</p>
+                                                        <h4>Dynamics 365 Customer Insights </h4>
+                                                        <p>It provides a 360-degree customer view and creates delightful experiences.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-10 col-md-10">
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Program Impact</h4>
-                                                        <p>Get insights into the program’s objectives, key performance indicators, outcomes, number of individuals, causes served, and so on.</p>
+                                                        <h4>Dynamics 365 Field Service </h4>
+                                                        <p>With connected field service, optimized service operations, and contractor support, it ensures efficient field service management.  </p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Ensure the progress of your programs is on track and showcase their effectiveness with confidence.</p>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Microsoft 365 for frontline workers </h4>
+                                                        <p>It helps connect and engage the workforce, enhance workforce management, and onboard and train employees.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Microsoft Power BI </h4>
+                                                        <p>It helps businesses transform by providing critical insights related to various operations.</p>
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -1071,235 +1032,68 @@ const MicrosoftPage = () => {
                                     >
 
                                         <div className="row busines-service-list-pad">
-                                            <div className="col-lg-12 col-md-12">
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Maintain financial transparency and effectiveness through the utilization of powerful financial management tools.</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
+
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Payment Processing</h4>
-                                                        <p>Experience hassle-free donation and award management with robust tools for smooth and uninterrupted payment processing.</p>
+                                                        <h4>Azure Compute </h4>
+                                                        <p>It allows manufacturers to leverage high-performance computing to efficiently run their applications and workloads.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-10 col-md-10">
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Financial Visibility</h4>
-                                                        <p>Get real-time information regarding financial health, fund allocation, and expenditures.</p>
+                                                        <h4>Azure IoT Operations </h4>
+                                                        <p>A set of modular, scalable, and highly available data services; it enables manufacturers to transform their physical operations.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-10 col-md-10">
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Unified Data</h4>
-                                                        <p>The centralization of data from various departments, including finance, operations, fundraising, and programs help eliminate data silos. This ensures data consistency and accuracy, leading to precise insights and improved decision-making.</p>
+                                                        <h4>Azure Machine Learning </h4>
+                                                        <p>It is a powerful component of the Microsoft Cloud for Manufacturing suite that enables safe and productive use of machine learning models.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-10 col-md-10">
+                                            <div className="col-lg-6 col-md-6">
                                                 <div className="busines-service-list">
                                                     <div className="icons">
                                                         <i className="bi bi-check-lg"></i>
                                                     </div>
                                                     <div className="content">
-                                                        <h4>Compliance</h4>
-                                                        <p>Ensure adherence to financial regulations and standards.</p>
+                                                        <h4>Azure AI Services</h4>
+                                                        <p>It enables businesses to incorporate artificial intelligence functionalities into their procedures and solutions.</p>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Keep your nonprofit’s finances in check and maintain donor trust with Microsoft Cloud for Nonprofit.</p>
+                                            <div className="col-lg-6 col-md-6">
+                                                <div className="busines-service-list">
+                                                    <div className="icons">
+                                                        <i className="bi bi-check-lg"></i>
+                                                    </div>
+                                                    <div className="content">
+                                                        <h4>Azure SQL Database </h4>
+                                                        <p>A fully managed PaaS database engine that allows seamless scaling of relational databases.</p>
+                                                    </div>
                                                 </div>
                                             </div>
+
 
                                         </div>
 
                                     </div>
-                                    <div
-                                        className="tab-pane fade"
-                                        id="v-pills-Inventory"
-                                        role="tabpanel"
-                                        aria-labelledby="v-pills-Inventory-tab"
-                                    >
 
-                                        <div className="row busines-service-list-pad">
-                                            <div className="col-lg-12 col-md-12">
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Enhance collaboration and productivity across your organization with advanced tools. Improve collaboration and productivity across your nonprofit organization with advanced tools from Microsoft Cloud suite for nonprofit.</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Microsoft 365 for Nonprofits</h4>
-                                                        <p>Leverage the familiar suite of productivity tools with SharePoint for seamless document management and information sharing.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Microsoft Teams for Nonprofits</h4>
-                                                        <p>Engage and collaborate in real-time with team members, irrespective of their location.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Power Automate for Nonprofits</h4>
-                                                        <p>Automate and streamline repetitive tasks and create new workflows based on your requirements to improve operational efficiency.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Encourage your team to collaborate in an effective and effortless manner. </p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>
-                                    <div
-                                        className="tab-pane fade"
-                                        id="v-pills-Inventory-01"
-                                        role="tabpanel"
-                                        aria-labelledby="v-pills-Inventory-01-tab"
-                                    >
-
-                                        <div className="row busines-service-list-pad">
-                                            <div className="col-lg-12 col-md-12">
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Safeguard your organization's data using strong security measures and comprehensive compliance features.</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Data Security</h4>
-                                                        <p>Protect critical information with advanced security measures.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Compliance Tools</h4>
-                                                        <p>Ensure compliance with industry norms and regulations.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Risk Management</h4>
-                                                        <p>Detect and mitigate potential risks.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Microsoft Defender for Cloud comprises capabilities that ensure the security and compliance of your data.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>
-                                    <div
-                                        className="tab-pane fade"
-                                        id="v-pills-Inventory-02"
-                                        role="tabpanel"
-                                        aria-labelledby="v-pills-Inventory-02-tab"
-                                    >
-
-                                        <div className="row busines-service-list-pad">
-                                            <div className="col-lg-12 col-md-12">
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Expand your operations using adaptable cloud solutions purposely designed to accommodate the growth of your nonprofit organization.</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Scalable Solutions</h4>
-                                                        <p>Expand your capabilities as your nonprofit grows.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Flexible Tools</h4>
-                                                        <p>Customize applications to meet the specific requirements of your nonprofit.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-10 col-md-10">
-                                                <div className="busines-service-list">
-                                                    <div className="icons">
-                                                        <i className="bi bi-check-lg"></i>
-                                                    </div>
-                                                    <div className="content">
-                                                        <h4>Future-proof</h4>
-                                                        <p>Keep up with the most recent technological advancements with timely updates and upgrades from Microsoft.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div className="col-lg-12 col-md-12" style={{ paddingTop: "15px" }}>
-                                                <div className="busines-service-list-hhs">
-                                                    <p>Adopt and thrive with the ability to scale and customize as per your needs.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-
-                                    </div>
 
                                 </div>
                             </div>
@@ -1331,10 +1125,10 @@ const MicrosoftPage = () => {
                                 <div className="col-lg-5"></div>
                                 <div className="col-lg-7">
                                     <div className="psot-cl">
-                                        <h3>Ensure Timely and Efficient Delivery of Programs with Microsoft Cloud for Nonprofit</h3>
-                                        <p>Engage volunteers through the Volunteer Engagement solution and facilitate community training to provide customized training to communities and participants at scale.</p>
+                                        <h3>Let’s Set up Resilient and Sustainable Supply Chains with Dynamics Square</h3>
+                                        <p>Overcome supply chain disruptions with Microsoft Cloud for Manufacturing. Use AI-driven insights to predict and mitigate risks to stay ahead in the competitive market.</p>
                                         <Link href="/contact-us/">
-                                            <a className="btn btn-md">Yes, I want to Scale My Business!</a>
+                                            <a className="btn btn-md">Learn How!</a>
                                         </Link>
                                     </div>
                                 </div>

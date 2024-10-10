@@ -8201,7 +8201,7 @@ overflow:hidden
     flex: 10%;
     max-width: 10%;
     margin-top: -5px;
-    /* margin-right: 15px; */
+    margin-right: 10px; 
 }
 .busines-service-list .content{
   flex: 90%;
@@ -15678,7 +15678,7 @@ color:#542784;
   margin-top: 20px;
 }
 .swiper-n-inner-card h3{
-  font-size: 28px;
+  font-size: 24px;
   background-image: linear-gradient(104deg, #542784 -3%, #307faf 84%);
   font-weight: bold;
   font-stretch: normal;
@@ -15688,6 +15688,7 @@ color:#542784;
 }
 .swiper-n-inner-card p{
   color: #585858;
+  font-size: 15px;
 }
 .swiper-n-inner-card ul{
   list-style: none;
@@ -15697,6 +15698,7 @@ color:#542784;
 .swiper-n-inner-card ul li{
   margin-bottom: 7px;
   display: flex;
+  font-size: 15px;
 }
 .swiper-n-inner-card ul li .bi{
   color: #6a4d9f;
@@ -15733,7 +15735,7 @@ color:#542784;
   .full-width-right{
     margin-left: 10%;
   }
-  }
+
   .s-head-two h2{
     font-size:32px
   }
@@ -15784,7 +15786,9 @@ color:#542784;
 .sec-bg-tt {
   padding: 80px 0px;
 }
-
+.full-width-right {
+  margin-left: 0;
+}
 }
 @media (max-width: 992px) {
   .heading-colo-new span{
@@ -15896,6 +15900,9 @@ color:#542784;
 .ss-heading h2 {
   font-size: 26px;
 }
+.full-width-right {
+  margin-left: 0;
+}
 }
 
 @media (max-width: 768px) {
@@ -15955,6 +15962,9 @@ color:#542784;
 .lice-cost-wrper .lice-cost-wrper-lst ul li{
   flex: 100%;
     max-width: 100%;
+}
+.full-width-right {
+  margin-left: 0;
 }
 }
  
