@@ -15731,6 +15731,12 @@ color:#542784;
     margin-right: -50vw;
     margin-left: 15%;
 }
+.new-indus-swiper .swiper-button-next:after, .new-indus-swiper .swiper-button-prev:after{
+  color: #4b3e8f;
+}
+.new-indus-swiper .swiper-wrapper{
+  margin-left: -335px !important;
+}
 @media (max-width: 1400px) {
   .full-width-right{
     margin-left: 10%;
@@ -15788,6 +15794,9 @@ color:#542784;
 }
 .full-width-right {
   margin-left: 0;
+}
+.new-indus-swiper .swiper-wrapper{
+  margin-left: -0px !important;
 }
 }
 @media (max-width: 992px) {
