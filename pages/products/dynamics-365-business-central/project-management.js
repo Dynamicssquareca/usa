@@ -33,7 +33,7 @@ const FinancialManagement = () => {
 
         <meta
           property="og:url"
-          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/financial-management/"
+          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/project-management/"
         />
 
         <meta property="og:site_name" content="Dynamics Square USA" />
