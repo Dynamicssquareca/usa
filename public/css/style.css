@@ -15218,7 +15218,7 @@ padding:15px
 
 .sec-bg-tt{
   position:relative;
-  padding:140px 0px;
+  padding:100px 0px;
   background: url('/img/rectangle-808.jpg') no-repeat center / cover;
 }
 .sec-bg-tt::before{
@@ -15237,10 +15237,11 @@ position:relative
 .callto-action h2{
   font-size: 32px;
   font-weight: bold;
-  color:#ffffff
+  color:#ffffff;
+  margn-bottom:10px
 }
 .callto-action p{
-  
+  color:#ffffff
 }
 .white-btn{
   display: inline-block;
