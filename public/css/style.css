@@ -6935,6 +6935,7 @@ overflow:hidden
   padding-top: 30px;
 }
 .box-6-pics {
+  cursor: pointer;
 }
 .overmain-thumb,
 .overmain-thumb-1 {
