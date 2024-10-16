@@ -6,34 +6,34 @@ const FinancialManagement = () => {
   return (
     <>
       <Head>
-      <title>
-      Inventory Management in Dynamics 365 Business Central
+        <title>
+          Manufacturing Management in Dynamics 365 Business Central
         </title>
         <meta name="robots" content="noindex, nofollow"></meta>
         <meta
           name="description"
-          content="Optimize inventory with Dynamics 365 Business Central. Automate management and gain real-time insights for better control."
+          content="Streamline manufacturing with Dynamics 365 Business Central. Optimize production and manage resources for better efficiency and control."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/dynamics-365-business-central/inventory-management/"
+          href="https://www.dynamicssquare.com/products/dynamics-365-business-central/manufacturing-management/"
         />
 
         <meta property="og:type" content="product" />
 
         <meta
           property="og:title"
-          content="Inventory Management in Dynamics 365 Business Central"
+          content="Manufacturing Management in Dynamics 365 Business Central"
         />
 
         <meta
           property="og:description"
-          content="Optimize inventory with Dynamics 365 Business Central. Automate management and gain real-time insights for better control."
+          content="Streamline manufacturing with Dynamics 365 Business Central. Optimize production and manage resources for better efficiency and control."
         />
 
         <meta
           property="og:url"
-          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/inventory-management/"
+          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/manufacturing-management/"
         />
 
         <meta property="og:site_name" content="Dynamics Square USA" />
@@ -47,17 +47,17 @@ const FinancialManagement = () => {
 
         <meta
           property="twitter:title"
-          content="Inventory Management in Dynamics 365 Business Central"
+          content="Manufacturing Management in Dynamics 365 Business Central"
         />
 
         <meta
           property="twitter:description"
-          content="Optimize inventory with Dynamics 365 Business Central. Automate management and gain real-time insights for better control."
+          content="Streamline manufacturing with Dynamics 365 Business Central. Optimize production and manage resources for better efficiency and control."
         />
 
         <meta
           property="twitter:url"
-          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/inventory-management/"
+          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/manufacturing-management/"
         />
 
         <meta
@@ -65,14 +65,14 @@ const FinancialManagement = () => {
           content="https://www.dynamicssquare.com/img/finance-managme-banner-new.png"
         />
       </Head>
-      
+
       <main>
         <section className="Solution-banner new-main-heading-top">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 mobile-1 text-center">
-                <h1>Inventory Management in Dynamics 365 Business Central</h1>
-                <p>Get real-time visibility to make informed decisions to avoid overstocking or stockouts while optimizing production costs.</p>
+                <h1>Manufacturing Management in Dynamics 365 Business Central</h1>
+                <p>Increase production accuracy, drive efficiency, ensure optimum resource utilization, and simplify your manufacturing processes with <b>Microsoft Dynamics 365 Business Central</b> Manufacturing Management module.</p>
                 <div>
                   <div className="text-center">
                     <Link href="#exampleModal">
@@ -80,7 +80,7 @@ const FinancialManagement = () => {
                         data-bs-toggle="modal"
                         className="btn-get-started scrollto"
                       >
-                        <span>Optimize Inventory Now!</span>
+                        <span>Get Started Today!</span>
                       </a>
                     </Link>
                   </div>
@@ -107,81 +107,85 @@ const FinancialManagement = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="s-head-two">
-                  <h2>Inventory Management Challenges Faced by Companies </h2>
-                  <p>Traditional ways of managing inventory often do not work well and can be full of errors and time-consuming. This can cause problems in operations and lead to lost business opportunities. Common challenges companies deal with include manual data entry, limited visibility to inventory levels, struggling to track stock, poor stock management, and not having adequate automation.</p>
+                  <h2>Manufacturing Challenges Faced by Companies</h2>
+                  <p>Manufacturing companies have to deal with several complicated challenges that can slow them down, cost them more, and lower the quality of their products. To solve these problems, they need an all-in-one system like <a href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</a>. Companies, when they don’t have an adequate system, are likely to face these challenges:</p>
                 </div>
 
                 <div className="bott-list-tool">
                   <ul>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Manual Processes</span>
+                        <i class="bi bi-check-lg"></i> <span>Complex Production Processes</span>
                         <span class="tooltips-text">
-                          <p>Dependency on paper-based systems and manual data entry could cause errors and delays</p>
+                          <p>Monitoring complex production processes and guaranteeing that every component is available at the correct moment</p>
                         </span>
                       </div>
 
                     </li>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Lack of Visibility</span>
+                        <i class="bi bi-check-lg"></i> <span>Inventory Management</span>
                         <span class="tooltips-text">
-                          <p>Decision-making can be hampered by restricted access to stock levels, locations, and movements, therefore causing excess inventory or stockouts</p>
-                        </span>
-                      </div>
-
-                    </li>
-                  </ul>
-                  <br/>
-                  <ul>
-                    <li>
-                      <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Inefficient Stock Management</span>
-                        <span class="tooltips-text">
-                          <p>Strategies for poor stock management could lead to lower profitability and more expenses</p>
-                        </span>
-                      </div>
-
-                    </li>
-                    <li>
-                      <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Difficulty in Tracking</span>
-                        <span class="tooltips-text">
-                          <p>Tracking inventory with lot or serial numbers could be challenging and time-consuming</p>
-                        </span>
-                      </div>
-
-                    </li>
-                    <li>
-                      <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Limited Automation</span>
-                        <span class="tooltips-text">
-                          <p>Not having enough automated tools makes it harder to simplify operations and make processes better</p>
+                          <p>Maintaining track of raw materials, work-in-progress, and completed goods helps one prevent stockouts or overstocking</p>
                         </span>
                       </div>
 
                     </li>
                    
                   </ul>
-                  <br/>
+                  <br />
                   <ul>
-                    <li>
+                  <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Demand Forecasting Issues</span>
+                        <i class="bi bi-check-lg"></i> <span>Quality Control</span>
                         <span class="tooltips-text">
-                          <p>Inaccurate product demand projections can lead to overstocking or missed sales opportunities</p>
+                          <p>Maintaining high standards of quality while reducing defects and rework helps to ensure this</p>
                         </span>
                       </div>
 
                     </li>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Poor Supplier Management</span>
+                        <i class="bi bi-check-lg"></i> <span>Resource Allocation</span>
                         <span class="tooltips-text">
-                          <p>Firms struggle to track delivery dates, lead times, and supplier performance. As a result, it delays shipments, disrupts supply chains, and makes inventory management difficult</p>
+                          <p>Effective alignment of resources including personnel, machines, and materials will help to maximize output</p>
                         </span>
                       </div>
+
                     </li>
+                    <li>
+                      <div class="tooltips btn btn-secondary">
+                        <i class="bi bi-check-lg"></i> <span>Regulatory Compliance</span>
+                        <span class="tooltips-text">
+                          <p>Following industry standards and guidelines can be time-consuming and difficult without an adequate system</p>
+                        </span>
+                      </div>
+
+                    </li>
+                   
+
+                  </ul>
+                  <br />
+                  <ul>
+                  <li>
+                      <div class="tooltips btn btn-secondary">
+                        <i class="bi bi-check-lg"></i> <span>Cost Management</span>
+                        <span class="tooltips-text">
+                          <p>Controlling production costs helps to maintain profitability while guaranteeing product quality</p>
+                        </span>
+                      </div>
+
+                    </li>
+                    <li>
+                      <div class="tooltips btn btn-secondary">
+                        <i class="bi bi-check-lg"></i> <span>Supply Chain Coordination</span>
+                        <span class="tooltips-text">
+                          <p>Coordinating with suppliers and handling the supply chain will help to guarantee the timely delivery of materials</p>
+                        </span>
+                      </div>
+
+                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -194,10 +198,10 @@ const FinancialManagement = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="shot-ct">
-                  <span>Inefficient inventory management can cause operational inefficiencies, higher expenses, and missed growth possibilities. </span>
+                  <span>Ultimately, Dynamics 365 Business Central brings operational excellence! </span>
                 </div>
                 <div className="shot-ct-bott">
-                  <p>Businesses can solve these difficulties with real-time insights, automation, and optimized operations with advanced solutions like Microsoft Dynamics 365 Business Central. Business Central lets organizations optimize stock levels, estimate demand, and decrease manual errors for better decision-making and operational efficiency. This boosts profits and improves supply chain efficiency.</p>
+                  <p>It does so by providing a unified platform that can help simplify operations, improve visibility, and facilitate data-driven decision-making to maximize output, lower expenses, and maintain quality standards. The scalability and adaptability of the system help manufacturers to meet evolving needs and market conditions, therefore promoting innovation and development and guaranteeing long-term sustainability and competitiveness in a sector undergoing change.</p>
                 </div>
               </div>
             </div>
@@ -210,9 +214,9 @@ const FinancialManagement = () => {
             <div className="row bb-cc-colo">
               <div className="col-lg-6 align-self-center">
                 <div className="solution-new-cta">
-                  <h3>Manage Your Inventory with Dynamics 365 Business Central</h3>
-                  <p>Eliminate manual errors and inefficiencies! Get real-time insights and automated processes to improve decision-making and drive growth!</p>
-                  <a href="#exampleModal" data-bs-toggle="modal" className="new-btn-wh">Optimize Your Inventory Now!</a>
+                  <h3>Bring Operational Agility with Dynamics 365 Business Central</h3>
+                  <p>Optimize your manufacturing operations, improve quality, and reduce costs with a powerful, all-in-one manufacturing solution.</p>
+                  <a href="#exampleModal" data-bs-toggle="modal" className="new-btn-wh">Get Started Today!</a>
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -231,8 +235,8 @@ const FinancialManagement = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="heading-colo-bg">
-                  <h2>Key Features of Inventory Management in Dynamics 365 Business Central</h2>
-                  <p><a href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</a> offers a wide range of features to help you streamline your inventory management processes, improve visibility, automate processes, and reduce errors. This helps you increase efficiency and boost business growth.</p>
+                  <h2>Key Features of Dynamics 365 Business Central Manufacturing Management</h2>
+                  <p>The <b>Business Central Manufacturing Management module</b> empowers manufacturing companies to conduct their operations without any hiccups. From planning to tracking, it streamlines everything, thereby facilitating everyday operations, customer demand fulfillment, and quick market adaptation. Key features of this module include:</p>
                 </div>
               </div>
             </div>
@@ -240,82 +244,76 @@ const FinancialManagement = () => {
             <div className="row g-5 sliding-row">
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-02.png" alt="Real-time Inventory Visibility" width={57} height={48} />
-                  <h3>Real-time Inventory Visibility</h3>
-                  <p>Get clear, up-to-date inventory info, such as item counts, locations, and values. This helps to make better choices and run things more smoothly.</p>
+                  <img src="/img/group-02.png" alt="Production Planning" width={57} height={48} />
+                  <h3>Production Planning</h3>
+                  <p>Ensure optimum production with proper planning. Create thorough production plans, control production orders, and arrange operations to guarantee the timely completion of manufacturing activities.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-03.png" alt="Advanced Stock Management" width={57} height={48} />
-                  <h3>Advanced Stock Management</h3>
-                  <p>Use different stock methods like FIFO, LIFO, or average cost to keep accurate control and value of inventory, while avoiding overstocking and stockouts situations.</p>
+                  <img src="/img/group-03.png" alt="Bill of Materials (BOM)" width={57} height={48} />
+                  <h3>Bill of Materials (BOM)</h3>
+                  <p>Standardize your manufacturing process and reduce errors. Define and control Bill of Materials (BOMs) to guarantee exact product assembly. Track production-related components and subassemblies.</p>
                 </div>
               </div>
 
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-04.png" alt="Cost Control" width={57} height={48} />
-                  <h3>Cost Control</h3>
-                  <p>Use tools to track costs, manage budgets, analyze costs, and cut down on waste to keep profits up and finances in check.</p>
+                  <img src="/img/group-04.png" alt="Routings" width={57} height={48} />
+                  <h3>Routings</h3>
+                  <p>Ensure optimum production and utilization of resources. Set up and control routings to specify the order of processes needed to manufacture a good while minimizing lead times.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-05.png" alt="Supplier Management" width={57} height={48} />
-                  <h3>Supplier Management</h3>
-                  <p>Ensure effective purchase order management, supplier performance tracking, vendor communication, and cost negotiation.</p>
+                  <img src="/img/group-05.png" alt="Capacity Planning" width={57} height={48} />
+                  <h3>Capacity Planning</h3>
+                  <p>Align production capacity with demand forecasts. Minimize costs, reduce bottlenecks, improve efficiency, and meet production targets. Change production plans in line with resource availability.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-06.png" alt="Lot & Serial Number Tracking" width={57} height={48} />
-                  <h3>Lot & Serial Number Tracking</h3>
-                  <p>Maintain thorough traceability of individual items to ensure compliance and quality.</p>
+                  <img src="/img/group-06.png" alt="Shop Floor Control" width={57} height={48} />
+                  <h3>Shop Floor Control</h3>
+                  <p>Real-time monitoring and control of shop floor activity improve workflow, reduce waste, and enhance product quality. Track work progress and control labor and machine resources to guarantee efficiency.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-07.png" alt="Demand Forecasting" width={57} height={48} />
-                  <h3>Demand Forecasting</h3>
-                  <p>Use predictive analytics to project future inventory needs to avert stockouts or surplus supply.</p>
+                  <img src="/img/group-07.png" alt="Inventory Management" width={57} height={48} />
+                  <h3>Inventory Management</h3>
+                  <p>Minimize waste, ensure optimum stock levels at all times, and optimize production costs, while ensuring maximum productivity. Automate inventory replenishment and reduce carrying costs.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-08.png" alt="Warehouse Management" width={57} height={48} />
-                  <h3>Warehouse Management</h3>
-                  <p>Reduce operating expenses by simplifying warehouse operations like receiving, picking, packing, and shipping to boost supply chain flow and decrease errors.</p>
+                  <img src="/img/group-08.png" alt="Quality Management" width={57} height={48} />
+                  <h3>Quality Management</h3>
+                  <p>Use quality control techniques to guarantee that items meet specified standards. Control non-conformance problems and track quality metrics to address quality issues, minimize waste, and reduce inspection costs.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-09.png" alt="Receiving and Put-away" width={57} height={48} />
-                  <h3>Receiving and Put-away</h3>
-                  <p>Improve safety, storage, and deliveries by effectively handling the incoming inventory. Store items in the assigned locations to reduce travel time.</p>
+                  <img src="/img/group-09.png" alt="Cost Management" width={57} height={48} />
+                  <h3>Cost Management</h3>
+                  <p>Mitigate financial risks such as potential cost overruns, ensure efficient resource allocation, track manufacturing costs, examine cost variations, and use cost-cutting strategies to improve profitability.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-10.png" alt="Picking and Packing" width={57} height={48} />
-                  <h3>Picking and Packing</h3>
-                  <p>Make sure orders are picked and packed correctly based on what customers need and what’s in stock, leading to better fulfillment.</p>
+                  <img src="/img/group-10.png" alt="Supply Chain Management" width={57} height={48} />
+                  <h3>Supply Chain Management</h3>
+                  <p>Boost customer satisfaction and loyalty with a solid supply chain. Coordinate with suppliers, control procurement procedures, and guarantee timely delivery of materials. Simplify supply chains to cut lead times.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-11.png" alt="Shipping and Invoicing" width={57} height={48} />
-                  <h3>Shipping and Invoicing</h3>
-                  <p>Build customer trust and loyalty! Create shipping documents and invoices to complete the sales cycle, ensuring smooth order handling and timely deliveries.</p>
+                  <img src="/img/group-11.png" alt="Advanced Analytics" width={57} height={48} />
+                  <h3>Advanced Analytics</h3>
+                  <p>Use AI to evaluate large datasets and uncover deeper insights. Check your manufacturing performance, mitigate risks, ensure business continuity, and make wise choices to enhance productional efficiency.</p>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
-                <div className="sol-box-de-one">
-                  <img src="/img/group-12.png" alt="Inventory Adjustments" width={57} height={48} />
-                  <h3>Inventory Adjustments</h3>
-                  <p>Reduce waste with inventory adjustments. Manage inventory adjustments, including write-offs, returns, or damages to control costs and keep stock levels right.</p>
-                </div>
-              </div>
+             
             </div>
 
           </div>
@@ -328,7 +326,7 @@ const FinancialManagement = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="heading-colo-bg">
-                  <h2>Benefits of Using Business Central for Inventory Management</h2>
+                  <h2>Benefits of Manufacturing Management in Dynamics 365 Business Central</h2>
 
                 </div>
               </div>
@@ -337,64 +335,71 @@ const FinancialManagement = () => {
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-01.png" alt="Improved Inventory Accuracy" width={40} height={40} />
+                    <img src="/img/icon-new-01.png" alt="Enhanced Productivity" width={40} height={40} />
                   </div>
-                  <h3>Improved Inventory Accuracy</h3>
-                  <p>Accurately monitor inventory levels, whereabouts, and movements to boost operational efficiency, improve decision-making, and reduce the likelihood of mistakes. This leads to more effective inventory control and better company operations.</p>
-                  </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                <div className="card-with-one">
-                  <div className="card-with-one-img">
-                    <img src="/img/icon-new-02.png" alt="Optimized Stock Levels" width={40} height={40} />
-                  </div>
-                  <h3>Optimized Stock Levels</h3>
-                  <p>Maintain optimal inventory levels to avoid stockouts and overstocking, hence maintaining resource efficiency. This reduces expenses, improves cash flow, and increases customer satisfaction by continuously meeting demand without exceeding it.</p>
+                  <h3>Enhanced Productivity</h3>
+                  <p>Automating important manufacturing processes helps companies greatly cut repetitive work and manual tasks. This increases overall output, freeing teams to concentrate on high-value projects and hence improves operational efficiency across the board.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-03.png" alt="Cost-savings" width={40} height={40} />
+                    <img src="/img/icon-new-02.png" alt="Improved Accuracy" width={40} height={40} />
                   </div>
-                  <h3>Cost-savings</h3>
-                  <p>Reduce waste and operational expenses by managing inventory levels, reducing surplus stock, and avoiding shortages. This results in more effective utilization of resources, increased cash flow, and overall higher profitability.</p>
+                  <h3>Improved Accuracy</h3>
+                  <p>Completely connected systems ensure all production data is consistent and updated in real time. Accurate data results in improved record-keeping, which is necessary for seamless operations and informed, dependable decision-making.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-04.png" alt="Enhanced Customer Satisfaction" width={40} height={40} />
+                    <img src="/img/icon-new-03.png" alt="Better Resource Utilization" width={40} height={40} />
                   </div>
-                  <h3>Enhanced Customer Satisfaction</h3>
-                  <p>Quickly meet customer demand by maintaining precise inventory levels, reducing delays and stockouts. This results in enhanced dependability, higher customer satisfaction, and encourages repeat business through regular and timely order fulfillment.</p>
+                  <h3>Better Resource Utilization</h3>
+                  <p>Dynamics 365 Business Central facilitates more effective allocation of resources including labor, tools, and supplies. This guarantees the best use of assets, reduces idle time, and maximizes overall output.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-05.png" alt="Increased Operational Efficiency" />
+                    <img src="/img/icon-new-04.png" alt="Scalability" width={40} height={40} />
                   </div>
-                  <h3>Increased Operational Efficiency</h3>
-                  <p>Optimize inventory procedures by automating repetitive tasks, decreasing manual labor, and increasing accuracy. This increases overall productivity, reduces errors, and allows personnel to focus on higher-value tasks, thereby improving operational performance.</p>
+                  <h3>Scalability</h3>
+                  <p><b>Dynamics 365 Business Central</b> adapts to your needs. The system scales to fit your changing needs without any disturbance whether you are running several manufacturing sites, growing operations, or managing more volume.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-06.png" alt="Enhanced Decision-making" />
+                    <img src="/img/icon-new-05.png" alt="Compliance and Security" />
                   </div>
-                  <h3>Enhanced Decision-making</h3>
-                  <p>Real-time insights and powerful analytics can help you make informed inventory planning and management decisions. This improves forecasting, resource allocation, and overall efficiency, allowing for greater synchronization of supply and demand.</p>
+                  <h3>Compliance and Security</h3>
+                  <p>The system promises companies peace of mind by guaranteeing industry standards and laws are followed. Advanced security tools protect sensitive production data against illegal access and possible breaches.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-06.png" alt="Improved Compliance" />
+                    <img src="/img/icon-new-06.png" alt="Real-time Decision-making" />
                   </div>
-                  <h3>Improved Compliance</h3>
-                  <p>Maintaining precise inventory tracking and traceability helps to ensure compliance with industry regulations and standards. This lowers the risk of non-compliance, cuts potential penalties, and facilitates audits and reporting processes.</p>
+                  <h3>Real-time Decision-making</h3>
+                  <p>Instant access to real-time production data and advanced analytics helps companies to make quicker, well-informed decisions. This enables greater agility to help companies to react fast to market changes and competition.</p>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </section>
+
+
+        <section className="sec-bg-tt">
+          <div className="container">
+            <div className="row justify-content-end">
+              <div className="col-lg-7">
+                <div className="callto-action">
+                  <h2>Revolutionize Your Manufacturing Operations</h2>
+                  <p>Overcome industry challenges with Dynamics 365 Business Central, streamlining workflows and ensuring seamless coordination for enhanced growth and efficiency.</p>
+                  <a href="#exampleModal" data-bs-toggle="modal" className="white-btn">Discover How!</a>
                 </div>
               </div>
             </div>
@@ -402,146 +407,131 @@ const FinancialManagement = () => {
         </section>
 
 
-      <section className="sec-bg-tt">
-        <div className="container">
-          <div className="row justify-content-end">
-              <div className="col-lg-7">
-              <div className="callto-action">
-              <h2>Transform Your Inventory Processes Now!</h2>
-              <p>Experience efficient inventory management with Dynamics 365 Business Central. Empower your business to meet customer demands swiftly and effectively for sustainable growth.</p>
-                <a href="#exampleModal"  data-bs-toggle="modal" className="white-btn">Learn More Today!</a>
-              </div>
-              </div>
-          </div>
-        </div>
-      </section>
-    
-
-      <section>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-7 align-self-center">
-              <div className="left--side-title">
-                <h2>
-                  Why are Businesses choosing <br /> Dynamics Square over
-                  others?
-                </h2>
-                <p>
-                  Other than trust, reliable services, and competitive pricing,{" "}
-                  <br /> below are the few points that make us superior in{" "}
-                  <Link href="/products/microsoft-dynamics-365/">
-                    <a>Microsoft Dynamics 365</a>
-                  </Link>{" "}
-                  market.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-5 align-self-center">
-              <div className="right--side-pic right--side-pic-b">
-                <Image
-                  width={579}
-                  height={376}
-                  src="/img/ds-new-shape.png"
-                  alt="ds-new-shape-logo"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="bc---soprt">
-                <div className="lef">
-                  <Image
-                    width={57}
-                    height={48}
-                    src="/img/business-centric-solutions.png"
-                    alt="business-centric-solutions"
-                  />
-                </div>
-                <div className="rig">
-                  <h3>Business-Centric Solutions</h3>
+        <section>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-7 align-self-center">
+                <div className="left--side-title">
+                  <h2>
+                    Why are Businesses choosing <br /> Dynamics Square over
+                    others?
+                  </h2>
                   <p>
-                    We personalize Business Central based on your unique
-                    business and its operations to match up with market needs
-                    and customer demands.{" "}
+                    Other than trust, reliable services, and competitive pricing,{" "}
+                    <br /> below are the few points that make us superior in{" "}
+                    <Link href="/products/microsoft-dynamics-365/">
+                      <a>Microsoft Dynamics 365</a>
+                    </Link>{" "}
+                    market.
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="bc---soprt">
-                <div className="lef">
+              <div className="col-lg-5 align-self-center">
+                <div className="right--side-pic right--side-pic-b">
                   <Image
-                    width={57}
-                    height={48}
-                    src="/img/certified-consultants.png"
-                    alt="certified-consultants"
+                    width={579}
+                    height={376}
+                    src="/img/ds-new-shape.png"
+                    alt="ds-new-shape-logo"
                   />
-                </div>
-                <div className="rig">
-                  <h3>Microsoft Certified Consultants</h3>
-                  <p>
-                    As a{" "}
-                    <Link href="/">
-                      <a>Microsoft Dynamics Partner</a>
-                    </Link>
-                    , we have 150+ Microsoft-certified Dynamics 365 consultants.
-                    We are available to help you resolve any issue and build
-                    growth strategies.{" "}
-                  </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="bc---soprt">
-                <div className="lef">
-                  <Image
-                    width={57}
-                    height={48}
-                    src="/img/sufficient-resources.png"
-                    alt="sufficient-resources"
-                  />
-                </div>
-                <div className="rig">
-                  <h3>Sufficient Resources</h3>
-                  <p>
-                    Dynamics Square USA has sufficient resources and
-                    infrastructure to support growing businesses with Business
-                    Central{" "}
-                    <Link href="/our-services/dynamics-365-support-services/">
-                      <a>Dynamics 365 support services</a>
-                    </Link>
-                    .{" "}
-                  </p>
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="bc---soprt">
+                  <div className="lef">
+                    <Image
+                      width={57}
+                      height={48}
+                      src="/img/business-centric-solutions.png"
+                      alt="business-centric-solutions"
+                    />
+                  </div>
+                  <div className="rig">
+                    <h3>Business-Centric Solutions</h3>
+                    <p>
+                      We personalize Business Central based on your unique
+                      business and its operations to match up with market needs
+                      and customer demands.{" "}
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="bc---soprt">
-                <div className="lef">
-                  <Image
-                    width={57}
-                    height={48}
-                    src="/img/on-site-support.png"
-                    alt="on-site-support"
-                  />
+              <div className="col-lg-6">
+                <div className="bc---soprt">
+                  <div className="lef">
+                    <Image
+                      width={57}
+                      height={48}
+                      src="/img/certified-consultants.png"
+                      alt="certified-consultants"
+                    />
+                  </div>
+                  <div className="rig">
+                    <h3>Microsoft Certified Consultants</h3>
+                    <p>
+                      As a{" "}
+                      <Link href="/">
+                        <a>Microsoft Dynamics Partner</a>
+                      </Link>
+                      , we have 150+ Microsoft-certified Dynamics 365 consultants.
+                      We are available to help you resolve any issue and build
+                      growth strategies.{" "}
+                    </p>
+                  </div>
                 </div>
-                <div className="rig">
-                  <h3>On-site Support</h3>
-                  <p>
-                    Based on the complexity of a business issue or interruption,
-                    we do offer on-site support services for the utmost customer
-                    satisfaction at affordable prices.{" "}
-                  </p>
+              </div>
+              <div className="col-lg-6">
+                <div className="bc---soprt">
+                  <div className="lef">
+                    <Image
+                      width={57}
+                      height={48}
+                      src="/img/sufficient-resources.png"
+                      alt="sufficient-resources"
+                    />
+                  </div>
+                  <div className="rig">
+                    <h3>Sufficient Resources</h3>
+                    <p>
+                      Dynamics Square USA has sufficient resources and
+                      infrastructure to support growing businesses with Business
+                      Central{" "}
+                      <Link href="/our-services/dynamics-365-support-services/">
+                        <a>Dynamics 365 support services</a>
+                      </Link>
+                      .{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="bc---soprt">
+                  <div className="lef">
+                    <Image
+                      width={57}
+                      height={48}
+                      src="/img/on-site-support.png"
+                      alt="on-site-support"
+                    />
+                  </div>
+                  <div className="rig">
+                    <h3>On-site Support</h3>
+                    <p>
+                      Based on the complexity of a business issue or interruption,
+                      we do offer on-site support services for the utmost customer
+                      satisfaction at affordable prices.{" "}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
 
-      {/* <section>
+        {/* <section>
         <div className="container">
         <div className="row justify-content-center">
               <div className="col-lg-9">
@@ -705,7 +695,7 @@ const FinancialManagement = () => {
 
 
       </main>
-      
+
     </>
   );
 };

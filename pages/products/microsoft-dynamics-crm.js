@@ -291,7 +291,7 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-8 col-md-8">
               <div className="heading-colo-bg">
                 <h2>Dynamics  CRM Benefits: Leverage AI to Close more Sales</h2>
-                <p>Microsoft Dynamics  CRM offers numerous benefits, including the ability to strengthen customer relationships and close more deals utilizing predictive insights.</p>
+                <p>Microsoft Dynamics  CRM software offers numerous benefits, including the ability to strengthen customer relationships and close more deals utilizing predictive insights.</p>
               </div>
             </div>
           </div>
@@ -566,7 +566,7 @@ const MicrosoftDynamicsCrm = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="heading-colo-bg">
-                <h2>Dynamics  CRM Services</h2>
+                <h2>Microsoft Dynamics  CRM Services</h2>
                 <p>Employ our reliable and trustworthy services to supercharge your customer management game.</p>
               </div>
             </div>
@@ -644,7 +644,7 @@ const MicrosoftDynamicsCrm = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="heading-colo-bg">
-                <h2>Dynamics  CRM Pricing</h2>
+                <h2>Microsoft Dynamics  CRM Pricing</h2>
                 <p>There is no combined license to access all solutions in Microsoft Dynamics  CRM (CE). However, you can access the desired solution or set of solutions by purchasing their licenses.</p>
               </div>
             </div>
