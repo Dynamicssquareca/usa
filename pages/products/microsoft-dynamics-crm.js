@@ -73,7 +73,7 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-6 align-self-center">
               <h1 className="small-h">Microsoft Dynamics  CRM</h1>
               <h2>Build Relationships <br /> and Drive ROI</h2>
-              <p>Supercharge sales, engage customers with personalized interactions, drive a better customer experience, and accelerate business growth with Dynamics  CRM.</p>
+              <p>Supercharge sales, engage customers with personalized interactions, drive a better customer experience, and accelerate business growth with Microsoft Dynamics CRM.</p>
               <div>
                 <div className="text-center text-lg-start">
                   <Link href="#exampleModal">
@@ -129,6 +129,7 @@ const MicrosoftDynamicsCrm = () => {
                 <h2>What is Microsoft Dynamics  CRM?</h2>
                 <p>Microsoft Dynamics  CRM (Customer Relationship Management) is a set of different solutions to help you streamline all operations of sales, marketing, and customer service.</p>
                 <p>Leveraging the capabilities of Microsoft Dynamics 365 CRM, you can unify the data, simplify various processes, build long-lasting relationships with customers, enhance customer engagement, and supercharge productivity.</p>
+                <p>Moreover, Microsoft Dynamics CRM integration with Microsoft Dynamics ERP helps you have a more comprehensive business solution.</p><br/>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Microsoft CRM is not limited to big businesses anymore</span></div>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Manage leads and build relationships</span></div>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Close deal faster with tailored customer interaction</span></div>
@@ -147,7 +148,7 @@ const MicrosoftDynamicsCrm = () => {
             <div className="col-lg-6">
               <div className="nw-bc-lef-h">
                 <h2>Connect Sales and Marketing</h2>
-                <p>Dynamics  CRM unifies the data, systems, and processes of different sales and marketing operations to offer an exceptional experience to a customer through the sales cycle.</p>
+                <p>Microsoft Dynamics CRM unifies the data, systems, and processes of different sales and marketing operations to offer an exceptional experience to a customer through the sales cycle.</p>
                 <p>Collaborating in sales and marketing helps a business understand the exact requirements of the customer and furnish them using the right communication channel.</p>
                 <p>Dynamics 365 CRM empowers the team to prioritize the right leads, nurture existing leads, and boost sales numbers.</p>
                 <div className="points-ui color-blue"><i className="bi bi-check-lg"></i> <span>Unify data system and processes.</span></div>
@@ -566,7 +567,7 @@ const MicrosoftDynamicsCrm = () => {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="heading-colo-bg">
-                <h2>Microsoft Dynamics  CRM Services</h2>
+                <h2>Microsoft Dynamics  CRM Solutions</h2>
                 <p>Employ our reliable and trustworthy services to supercharge your customer management game.</p>
               </div>
             </div>

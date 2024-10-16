@@ -15,7 +15,7 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Certified Microsoft Dynamics 365 Implementation Partner</title>
+        <title>Trusted Microsoft Dynamics 365 Implementation Partner</title>
         <meta
           name="description"
           content="Optimize your operations, bring transparency in your process flow, drive a resilient approach, enable a 360-degree view into your Supply Chain practices with..."
@@ -103,9 +103,7 @@ const ImplementationServices = () => {
             <div className="col-lg-6 align-self-center">
               <div className="side-heading-custom-01">
                 <h2>
-                  Microsoft Dynamics
-                  <br />
-                  Implementation Partner
+                  Microsoft Dynamics 365 Implementation Partner
                 </h2>
               </div>
               <div className="custom-p-001">
@@ -549,7 +547,7 @@ const ImplementationServices = () => {
             <div className="col-lg-8 col-md-8">
               <header className="section-header">
                 <h2>
-                  Why Choose Us As A Microsoft Dynamics Implementation Partner
+                  Why Choose Us As A Microsoft Dynamics 365 Implementation Partner
                 </h2>
               </header>
             </div>
