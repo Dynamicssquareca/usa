@@ -10,6 +10,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { Autoplay, FreeMode, Pagination } from "swiper";
 import Blog from "../../components/Blog";
+import ZohoForm from "../../components/ZohoForm";
 const Startup = () => {
   const [isOpen, setOpen] = useState(false);
   const [open, setsOpen] = useState(false);
@@ -35,6 +36,9 @@ const Startup = () => {
         onClose={() => setOpen(false)}
       />
       <main>
+        <section>
+          <ZohoForm />
+        </section>
         <section className="Solution-banner hero-1 hero">
           <div className="container">
             <div className="row">
