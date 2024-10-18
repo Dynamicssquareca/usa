@@ -3,7 +3,7 @@ import Head from "next/head";
 // import FormFooterSubscriber from "../components/FormFooterSubscriber";
 import Link from "next/link";
 import Image from "next/image";
-import FormNewUI from "../components/FormNewUI";
+import ZohoForm from "../components/ZohoForm";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/pagination";
@@ -75,7 +75,7 @@ const ContactUs = () => {
 
               </div>
               <div className="col-lg-7 align-self-center">
-                <FormNewUI />
+                <ZohoForm />
               </div>
             </div>
           </div>
