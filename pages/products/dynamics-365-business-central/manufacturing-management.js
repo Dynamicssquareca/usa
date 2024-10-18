@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Head from 'next/head';
 import Link from "next/link";
 import Image from "next/image";
-const FinancialManagement = () => {
+const ManufacturingManagement = () => {
   return (
     <>
       <Head>
@@ -700,4 +700,4 @@ const FinancialManagement = () => {
   );
 };
 
-export default FinancialManagement;
+export default ManufacturingManagement;

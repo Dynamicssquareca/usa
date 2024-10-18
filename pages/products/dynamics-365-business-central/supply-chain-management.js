@@ -2,38 +2,38 @@ import React, { useState, useEffect } from "react";
 import Head from 'next/head';
 import Link from "next/link";
 import Image from "next/image";
-const InventoryManagement = () => {
+const SupplyChainManagement = () => {
   return (
     <>
       <Head>
       <title>
-      Inventory Management in Dynamics 365 Business Central
+          Supply Chain Management (SCM) in Business Central
         </title>
         <meta name="robots" content="noindex, nofollow"></meta>
         <meta
           name="description"
-          content="Optimize inventory with Dynamics 365 Business Central. Automate management and gain real-time insights for better control."
+          content="Optimize your supply chain with Microsoft Dynamics 365 Business Central. Streamline processes, enhance visibility, and improve efficiency in SCM."
         />
         <link
           rel="canonical"
-          href="https://www.dynamicssquare.com/products/dynamics-365-business-central/inventory-management/"
+          href="https://www.dynamicssquare.com/products/dynamics-365-business-central/supply-chain-management/"
         />
 
         <meta property="og:type" content="product" />
 
         <meta
           property="og:title"
-          content="Inventory Management in Dynamics 365 Business Central"
+          content="Supply Chain Management (SCM) in Business Central"
         />
 
         <meta
           property="og:description"
-          content="Optimize inventory with Dynamics 365 Business Central. Automate management and gain real-time insights for better control."
+          content="Optimize your supply chain with Microsoft Dynamics 365 Business Central. Streamline processes, enhance visibility, and improve efficiency in SCM."
         />
 
         <meta
           property="og:url"
-          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/inventory-management/"
+          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/supply-chain-management/"
         />
 
         <meta property="og:site_name" content="Dynamics Square USA" />
@@ -47,17 +47,17 @@ const InventoryManagement = () => {
 
         <meta
           property="twitter:title"
-          content="Inventory Management in Dynamics 365 Business Central"
+          content="Supply Chain Management (SCM) in Business Central"
         />
 
         <meta
           property="twitter:description"
-          content="Optimize inventory with Dynamics 365 Business Central. Automate management and gain real-time insights for better control."
+          content="Optimize your supply chain with Microsoft Dynamics 365 Business Central. Streamline processes, enhance visibility, and improve efficiency in SCM."
         />
 
         <meta
           property="twitter:url"
-          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/inventory-management/"
+          content="https://www.dynamicssquare.com/products/dynamics-365-business-central/supply-chain-management/"
         />
 
         <meta
@@ -71,8 +71,8 @@ const InventoryManagement = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 mobile-1 text-center">
-                <h1>Inventory Management in Dynamics 365 Business Central</h1>
-                <p>Get real-time visibility to make informed decisions to avoid overstocking or stockouts while optimizing production costs.</p>
+                <h1>Supply Chain Management (SCM) in Microsoft Dynamics 365 Business Central</h1>
+                <p>Optimize your supply chain with Dynamics 365 Business Central’s capabilities such as accurate demand forecasting, efficient inventory management, and improved supplier communication.</p>
                 <div>
                   <div className="text-center">
                     <Link href="#exampleModal">
@@ -80,7 +80,7 @@ const InventoryManagement = () => {
                         data-bs-toggle="modal"
                         className="btn-get-started scrollto"
                       >
-                        <span>Optimize Inventory Now!</span>
+                        <span>Optimize Your Supply Chain Today! </span>
                       </a>
                     </Link>
                   </div>
@@ -107,80 +107,77 @@ const InventoryManagement = () => {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="s-head-two">
-                  <h2>Inventory Management Challenges Faced by Companies </h2>
-                  <p>Traditional ways of managing inventory often do not work well and can be full of errors and time-consuming. This can cause problems in operations and lead to lost business opportunities. Common challenges companies deal with include manual data entry, limited visibility to inventory levels, struggling to track stock, poor stock management, and not having adequate automation.</p>
+                  <h2>Supply Chain Management Challenges Faced by Companies</h2>
+                  <p>Managing the supply chain is crucial for companies that work and manage intricate networks of manufacturers, distributors, and suppliers. This whole process has many challenges. These include keeping logistics smooth, dealing with stock changes, facing sudden issues, making sure goods arrive on time, and keeping costs low. Plus, changing tech and environmental issues add to the complexity, and strong plans are needed to keep things running well.</p>
                 </div>
 
                 <div className="bott-list-tool">
                   <ul>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Manual Processes</span>
+                        <i class="bi bi-check-lg"></i> <span>Demand Forecasting</span>
                         <span class="tooltips-text">
-                          <p>Dependency on paper-based systems and manual data entry could cause errors and delays</p>
+                          <p>Accurate customer demand prediction is vital but difficult given market instability and shifting consumer preferences</p>
                         </span>
                       </div>
 
                     </li>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Lack of Visibility</span>
+                        <i class="bi bi-check-lg"></i> <span>Inventory Management</span>
                         <span class="tooltips-text">
-                          <p>Decision-making can be hampered by restricted access to stock levels, locations, and movements, therefore causing excess inventory or stockouts</p>
+                          <p>Balancing inventory levels to prevent overstocking or stockouts calls for exact planning and real-time visibility</p>
                         </span>
                       </div>
-
                     </li>
+                    <li>
+                      <div class="tooltips btn btn-secondary">
+                        <i class="bi bi-check-lg"></i> <span>Supplier Coordination</span>
+                        <span class="tooltips-text">
+                          <p>Dealing with relationships and conversations with several suppliers can be challenging and time-consuming</p>
+                        </span>
+                      </div>
+                    </li>
+                    
                   </ul>
-                  <br/>
                   <ul>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Inefficient Stock Management</span>
+                        <i class="bi bi-check-lg"></i> <span>Compliance and Risk Management</span>
                         <span class="tooltips-text">
-                          <p>Strategies for poor stock management could lead to lower profitability and more expenses</p>
+                          <p>Following legal criteria and controlling risks including supplier dependability and geopolitical concerns</p>
                         </span>
                       </div>
 
                     </li>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Difficulty in Tracking</span>
+                        <i class="bi bi-check-lg"></i> <span>Logistics and Transportation</span>
                         <span class="tooltips-text">
-                          <p>Tracking inventory with lot or serial numbers could be challenging and time-consuming</p>
+                          <p>Ensuring timely delivery while reducing expenses and controlling disruptions in transportation networks presents a continuous challenge</p>
                         </span>
                       </div>
-
                     </li>
-                    <li>
-                      <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Limited Automation</span>
-                        <span class="tooltips-text">
-                          <p>Not having enough automated tools makes it harder to simplify operations and make processes better</p>
-                        </span>
-                      </div>
-
-                    </li>
-                   
                   </ul>
-                  <br/>
                   <ul>
-                    <li>
+                 
+                  <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Demand Forecasting Issues</span>
+                        <i class="bi bi-check-lg"></i> <span>Cost Control</span>
                         <span class="tooltips-text">
-                          <p>Inaccurate product demand projections can lead to overstocking or missed sales opportunities</p>
+                          <p>Maintaining high service levels and quality standards while keeping costs under control</p>
                         </span>
                       </div>
 
                     </li>
                     <li>
                       <div class="tooltips btn btn-secondary">
-                        <i class="bi bi-check-lg"></i> <span>Poor Supplier Management</span>
+                        <i class="bi bi-check-lg"></i> <span>Technology Integration</span>
                         <span class="tooltips-text">
-                          <p>Firms struggle to track delivery dates, lead times, and supplier performance. As a result, it delays shipments, disrupts supply chains, and makes inventory management difficult</p>
+                          <p>Combining several technologies and systems will help to simplify processes and improve data accuracy</p>
                         </span>
                       </div>
+
                     </li>
                   </ul>
                 </div>
@@ -194,10 +191,11 @@ const InventoryManagement = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="shot-ct">
-                  <span>Inefficient inventory management can cause operational inefficiencies, higher expenses, and missed growth possibilities. </span>
+                  <p>Using powerful analytics and AI-driven forecasts, <b>Dynamics 365 Business Central Supply Chain Management</b> efficiently solves supply chain problems. </p>
+                  {/* <span>The short and quick answer is - Yes.</span> */}
                 </div>
                 <div className="shot-ct-bott">
-                  <p>Businesses can solve these difficulties with real-time insights, automation, and optimized operations with advanced solutions like Microsoft Dynamics 365 Business Central. Business Central lets organizations optimize stock levels, estimate demand, and decrease manual errors for better decision-making and operational efficiency. This boosts profits and improves supply chain efficiency.</p>
+                  <p>Its strong reporting features help businesses to estimate demand precisely, maximize inventory levels, and have real-time operational knowledge. Using machine learning helps companies to foresee possible interruptions and make appropriate adjustments, hence improving decision-making and productivity. Furthermore, by providing a stronger and flexible supply chain, the integrated tools of the platform simplify supplier collaboration, enhance logistics management, and lower operational expenses.</p>
                 </div>
               </div>
             </div>
@@ -210,9 +208,10 @@ const InventoryManagement = () => {
             <div className="row bb-cc-colo">
               <div className="col-lg-6 align-self-center">
                 <div className="solution-new-cta">
-                  <h3>Manage Your Inventory with Dynamics 365 Business Central</h3>
-                  <p>Eliminate manual errors and inefficiencies! Get real-time insights and automated processes to improve decision-making and drive growth!</p>
-                  <a href="#exampleModal" data-bs-toggle="modal" className="new-btn-wh">Optimize Your Inventory Now!</a>
+                  <h3>Transform Your Supply Chain with AI Insights</h3>
+                  <p>Use AI-driven solutions to improve efficiency, optimize inventory, and streamline logistics for a flawless supply chain.</p>
+                        
+                  <a href="#exampleModal" data-bs-toggle="modal" className="new-btn-wh">Get Started Today!</a>
                 </div>
               </div>
               <div className="col-lg-6 align-self-center">
@@ -231,8 +230,8 @@ const InventoryManagement = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="heading-colo-bg">
-                  <h2>Key Features of Inventory Management in Dynamics 365 Business Central</h2>
-                  <p><a href="/products/dynamics-365-business-central/">Dynamics 365 Business Central</a> offers a wide range of features to help you streamline your inventory management processes, improve visibility, automate processes, and reduce errors. This helps you increase efficiency and boost business growth.</p>
+                  <h2>Key Features of Supply Chain Management in Dynamics 365 Business Central</h2>
+                  <p>The features in the supply chain management module of Dynamics 365  <a href="/products/dynamics-365-business-central/">Business Central</a> can help you run your operations smoothly and overcome obstacles. They help improve supplier collaboration and procurement processes and help firms make better decisions. Key features include:</p>
                 </div>
               </div>
             </div>
@@ -240,82 +239,83 @@ const InventoryManagement = () => {
             <div className="row g-5 sliding-row">
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-02.png" alt="Real-time Inventory Visibility" width={57} height={48} />
-                  <h3>Real-time Inventory Visibility</h3>
-                  <p>Get clear, up-to-date inventory info, such as item counts, locations, and values. This helps to make better choices and run things more smoothly.</p>
+                  <img src="/img/group-01.png" alt="Demand Forecasting" width={57} height={48} />
+                  <h3>Demand Forecasting </h3>
+                  <p>Uses artificial intelligence and machine learning to precisely estimate demand. This enables businesses to enhance their planning, lower surplus inventory, minimize the risk of stockouts, and create more effective supply chains.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-03.png" alt="Advanced Stock Management" width={57} height={48} />
-                  <h3>Advanced Stock Management</h3>
-                  <p>Use different stock methods like FIFO, LIFO, or average cost to keep accurate control and value of inventory, while avoiding overstocking and stockouts situations.</p>
+                  <img src="/img/group-02.png" alt="Inventory Management" width={57} height={48} />
+                  <h3>Inventory Management </h3>
+                  <p>Uses dynamic stock buffers, automated replenishment, and real-time visibility of inventory levels to maximize stock management, lower shortages, avoid overstocking, and guarantee effective resource allocation all across the supply chain.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
+                <div className="sol-box-de-one">
+                  <img src="/img/group-03.png" alt="Supplier Management" width={57} height={48} />
+                  <h3>Supplier Management </h3>
+                  <p>Helps ensure smooth communication and teamwork with suppliers with tools to track vendor work, automate buying tasks, and handle contracts. This boosts supplier relations, makes sourcing easier, and raises supply chain efficiency.</p>
                 </div>
               </div>
 
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-04.png" alt="Cost Control" width={57} height={48} />
-                  <h3>Cost Control</h3>
-                  <p>Use tools to track costs, manage budgets, analyze costs, and cut down on waste to keep profits up and finances in check.</p>
+                  <img src="/img/group-04.png" alt="Order Management" width={57} height={48} />
+                  <h3>Order Management </h3>
+                  <p>From intake to fulfillment, it simplifies the order management process. This guarantees accurate tracking, quick processing, and timely delivery, minimizing errors, increasing customer gratification happiness, and maximizing general supply chain efficiency.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-05.png" alt="Supplier Management" width={57} height={48} />
-                  <h3>Supplier Management</h3>
-                  <p>Ensure effective purchase order management, supplier performance tracking, vendor communication, and cost negotiation.</p>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
-                <div className="sol-box-de-one">
-                  <img src="/img/group-06.png" alt="Lot & Serial Number Tracking" width={57} height={48} />
-                  <h3>Lot & Serial Number Tracking</h3>
-                  <p>Maintain thorough traceability of individual items to ensure compliance and quality.</p>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
-                <div className="sol-box-de-one">
-                  <img src="/img/group-07.png" alt="Demand Forecasting" width={57} height={48} />
-                  <h3>Demand Forecasting</h3>
-                  <p>Use predictive analytics to project future inventory needs to avert stockouts or surplus supply.</p>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
-                <div className="sol-box-de-one">
-                  <img src="/img/group-08.png" alt="Warehouse Management" width={57} height={48} />
+                  <img src="/img/group-05.png" alt="Warehouse Management" width={57} height={48} />
                   <h3>Warehouse Management</h3>
-                  <p>Reduce operating expenses by simplifying warehouse operations like receiving, picking, packing, and shipping to boost supply chain flow and decrease errors.</p>
+                  <p>Leverages modern capabilities such as barcode scanning, automated picking, and real-time inventory tracking to greatly improve warehouse productivity. These features guarantee flawless inventory flow by lowering errors and increasing order accuracy.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-09.png" alt="Receiving and Put-away" width={57} height={48} />
-                  <h3>Receiving and Put-away</h3>
-                  <p>Improve safety, storage, and deliveries by effectively handling the incoming inventory. Store items in the assigned locations to reduce travel time.</p>
+                  <img src="/img/group-06.png" alt="Transportation Management" width={57} height={48} />
+                  <h3>Transportation Management</h3>
+                  <p>Real-time tracking and optimized routing integrated with carriers enable efficient transportation management. Better visibility of goods, improved delivery times, and lower transportation expenses, all these features serve to make logistics seamless and efficient.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-10.png" alt="Picking and Packing" width={57} height={48} />
-                  <h3>Picking and Packing</h3>
-                  <p>Make sure orders are picked and packed correctly based on what customers need and what’s in stock, leading to better fulfillment.</p>
+                  <img src="/img/group-07.png" alt="Compliance and Risk Management" width={57} height={48} />
+                  <h3>Compliance and Risk Management</h3>
+                  <p>Provides features for risk assessment and mitigation to ensure conformance to industry standards. This enables companies to proactively handle possible compliance concerns, reduce regulatory risks, and keep supply chain operational continuity.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-11.png" alt="Shipping and Invoicing" width={57} height={48} />
-                  <h3>Shipping and Invoicing</h3>
-                  <p>Build customer trust and loyalty! Create shipping documents and invoices to complete the sales cycle, ensuring smooth order handling and timely deliveries.</p>
+                  <img src="/img/group-08.png" alt="Analytics and Reporting" width={57} height={48} />
+                  <h3>Analytics and Reporting</h3>
+                  <p>Provides strong analytics and reporting capabilities to shed light on supply chain performance. Businesses can track key indicators, spot areas of inefficiencies, and make deliberate decisions to enhance supply chain operations.</p>
                 </div>
               </div>
               <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="sol-box-de-one">
-                  <img src="/img/group-12.png" alt="Inventory Adjustments" width={57} height={48} />
-                  <h3>Inventory Adjustments</h3>
-                  <p>Reduce waste with inventory adjustments. Manage inventory adjustments, including write-offs, returns, or damages to control costs and keep stock levels right.</p>
+                  <img src="/img/group-09.png" alt="Procurement and Sourcing" width={57} height={48} />
+                  <h3>Procurement and Sourcing</h3>
+                  <p>Right from vendor selection to purchase order development and approval procedures, it addresses every phase of the procurement process. This helps ensure optimized costs and simplified procurement and sourcing processes.</p>
                 </div>
               </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
+                <div className="sol-box-de-one">
+                  <img src="/img/group-09.png" alt="Production Planning" width={57} height={48} />
+                  <h3>Production Planning</h3>
+                  <p>Helps manage manufacturing activities, production scheduling, resource allocation, and workflow management. This aids in ensuring timely production, effective utilization of resources, and congruence with demand projections.</p>
+                </div>
+              </div>
+              <div className="col-xl-3 col-lg-4 col-sm-6 d-flex sliding-col">
+                <div className="sol-box-de-one">
+                  <img src="/img/group-09.png" alt="Quality Control" width={57} height={48} />
+                  <h3>Quality Control</h3>
+                  <p>By means of inspections, tests, and compliance checks, it guarantees product quality. This ensures that products satisfy consumer expectations and industry standards, thereby improving general supply chain dependability and minimizing defects.</p>
+                </div>
+              </div>
+             
             </div>
 
           </div>
@@ -328,7 +328,7 @@ const InventoryManagement = () => {
             <div className="row justify-content-center">
               <div className="col-lg-9">
                 <div className="heading-colo-bg">
-                  <h2>Benefits of Using Business Central for Inventory Management</h2>
+                  <h2>Benefits of Supply Chain Management in Dynamics 365 Business Central</h2>
 
                 </div>
               </div>
@@ -337,66 +337,58 @@ const InventoryManagement = () => {
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-01.png" alt="Improved Inventory Accuracy" width={40} height={40} />
+                    <img src="/img/icon-new-01.png" alt="Improved Forecast Accuracy" width={40} height={40} />
                   </div>
-                  <h3>Improved Inventory Accuracy</h3>
-                  <p>Accurately monitor inventory levels, whereabouts, and movements to boost operational efficiency, improve decision-making, and reduce the likelihood of mistakes. This leads to more effective inventory control and better company operations.</p>
-                  </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 d-flex sliding-col">
-                <div className="card-with-one">
-                  <div className="card-with-one-img">
-                    <img src="/img/icon-new-02.png" alt="Optimized Stock Levels" width={40} height={40} />
-                  </div>
-                  <h3>Optimized Stock Levels</h3>
-                  <p>Maintain optimal inventory levels to avoid stockouts and overstocking, hence maintaining resource efficiency. This reduces expenses, improves cash flow, and increases customer satisfaction by continuously meeting demand without exceeding it.</p>
+                  <h3>Improved Forecast Accuracy</h3>
+                  <p>Advanced demand forecasting lowers the possibility of stockouts and overstocking, therefore helping companies to keep ideal inventory levels. This reduces waste and helps businesses to better satisfy consumer needs by means of inventory control.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-03.png" alt="Cost-savings" width={40} height={40} />
+                    <img src="/img/icon-new-02.png" alt="Cost Savings" width={40} height={40} />
                   </div>
-                  <h3>Cost-savings</h3>
-                  <p>Reduce waste and operational expenses by managing inventory levels, reducing surplus stock, and avoiding shortages. This results in more effective utilization of resources, increased cash flow, and overall higher profitability.</p>
+                  <h3>Cost Savings</h3>
+                  <p>Automating and streamlining inventory systems helps businesses greatly cut running costs. Lowering holding costs, reducing manual labor, and eliminating mistakes, all of which lead to an increase in the cost efficiency of supply chain management.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-04.png" alt="Enhanced Customer Satisfaction" width={40} height={40} />
+                    <img src="/img/icon-new-03.png" alt="Enhanced Supplier Relationships" width={40} height={40} />
                   </div>
-                  <h3>Enhanced Customer Satisfaction</h3>
-                  <p>Quickly meet customer demand by maintaining precise inventory levels, reducing delays and stockouts. This results in enhanced dependability, higher customer satisfaction, and encourages repeat business through regular and timely order fulfillment.</p>
+                  <h3>Enhanced Supplier Relationships</h3>
+                  <p>Improved supplier relations follow from better lines of communication and strong performance tracking. This improves supplier dependability, builds confidence, and facilitates long-term alliances, benefiting the entire supply chain—the pillar of a manufacturing company.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-05.png" alt="Increased Operational Efficiency" />
+                    <img src="/img/icon-new-04.png" alt="Real-time Visibility" width={40} height={40} />
                   </div>
-                  <h3>Increased Operational Efficiency</h3>
-                  <p>Optimize inventory procedures by automating repetitive tasks, decreasing manual labor, and increasing accuracy. This increases overall productivity, reduces errors, and allows personnel to focus on higher-value tasks, thereby improving operational performance.</p>
+                  <h3>Real-time Visibility</h3>
+                  <p>Comprehensive, up-to-date insights into the entire supply chain are offered by comprehensive real-time data and analytics. This helps businesses to forecast possible problems, act proactively, and react more successfully to changes in the market.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-06.png" alt="Enhanced Decision-making" />
+                    <img src="/img/icon-new-05.png" alt="Scalability" />
                   </div>
-                  <h3>Enhanced Decision-making</h3>
-                  <p>Real-time insights and powerful analytics can help you make informed inventory planning and management decisions. This improves forecasting, resource allocation, and overall efficiency, allowing for greater synchronization of supply and demand.</p>
+                  <h3>Scalability</h3>
+                  <p>Dynamics 365 Business Central lets companies grow and adapt without any significant interruptions by including flexible and scalable capabilities. This helps businesses to react effectively to changing business growth and market situations.</p>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6 d-flex sliding-col">
                 <div className="card-with-one">
                   <div className="card-with-one-img">
-                    <img src="/img/icon-new-06.png" alt="Improved Compliance" />
+                    <img src="/img/icon-new-06.png" alt="Compliance & Risk Mitigation" />
                   </div>
-                  <h3>Improved Compliance</h3>
-                  <p>Maintaining precise inventory tracking and traceability helps to ensure compliance with industry regulations and standards. This lowers the risk of non-compliance, cuts potential penalties, and facilitates audits and reporting processes.</p>
+                  <h3>Compliance & Risk Mitigation</h3>
+                  <p>Built-in compliance tools and advanced risk-mitigating technology enable companies to satisfy industry standards, and hence minimize possible risks. This guarantees smooth operations and shields businesses from expensive legal or regulatory problems.</p>
                 </div>
               </div>
+            
             </div>
           </div>
         </section>
@@ -407,9 +399,9 @@ const InventoryManagement = () => {
           <div className="row justify-content-end">
               <div className="col-lg-7">
               <div className="callto-action">
-              <h2>Transform Your Inventory Processes Now!</h2>
-              <p>Experience efficient inventory management with Dynamics 365 Business Central. Empower your business to meet customer demands swiftly and effectively for sustainable growth.</p>
-                <a href="#exampleModal"  data-bs-toggle="modal" className="white-btn">Learn More Today!</a>
+              <h2>Boost Efficiency with Smarter Supply Chain Solutions</h2>
+              <p>Discover how AI and analytics can revolutionize your supply chain, improving accuracy, reducing costs, and enhancing overall performance.</p>
+                <a href="#exampleModal"  data-bs-toggle="modal" className="white-btn">Learn More Now! </a>
               </div>
               </div>
           </div>
@@ -710,4 +702,4 @@ const InventoryManagement = () => {
   );
 };
 
-export default InventoryManagement;
+export default SupplyChainManagement;

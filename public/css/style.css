@@ -6314,7 +6314,7 @@ overflow:hidden
 }
 
 .contact-list .content-right {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
 }
 
@@ -14978,8 +14978,8 @@ blockquote a{
   z-index: 2;
     position: relative;
 }
-.new-main-heading-top h1{
-  font-size: 48px !important;
+.Solution-banner.new-main-heading-top h1{
+  font-size: 48px !important ;
   font-weight: bold;
   background: #542784;
   line-height: normal;
@@ -15239,7 +15239,7 @@ position:relative
   font-size: 32px;
   font-weight: bold;
   color:#ffffff;
-  margn-bottom:10px
+  margin-bottom:10px
 }
 .callto-action p{
   color:#ffffff
@@ -15760,6 +15760,9 @@ color:#542784;
 .heading-colo-new span{
   font-size: 2rem;
 }
+.Solution-banner.new-main-heading-top h1{
+  font-size: 36px !important ;
+}
 }
 
 @media (max-width: 1200px) {
@@ -15799,6 +15802,9 @@ color:#542784;
 }
 .new-indus-swiper .swiper-wrapper{
   margin-left: -0px !important;
+}
+.Solution-banner.new-main-heading-top h1{
+  font-size: 32px ;
 }
 }
 @media (max-width: 992px) {
@@ -16123,4 +16129,3 @@ margin-bottom: 15px;
 .main-form-wrper .text-danger {
   font-size: 13px;
 }
-
