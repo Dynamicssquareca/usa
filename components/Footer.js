@@ -8,100 +8,75 @@ import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 const Footer = () => {
 
-  const router = useRouter();
-  const [display, setDisplay] = useState(false);
-  const [errors, setErrors] = useState({});
-  const [defaultCountryCode, setDefaultCountryCode] = useState('us'); 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company_name: '',
-    phone: '',
-    message: '',
-  });
-  const form = useRef();
+  const [display, setDisplay] = useState("dspn");
   const [closeModal, setCloseModal] = useState(false);
   function handleCloseModal() {
     document.getElementById("exampleModal").classList.remove("show", "d-block");
     document.querySelectorAll(".modal-backdrop")
       .forEach(el => el.classList.remove("modal-backdrop"));
   }
+  const router = useRouter();
+  const form = useRef();
+  const [currentPageUrl, setCurrentPageUrl] = useState('');
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    companyname: '',
+    message: '',
+    formtag: 'CTA Form',
+    // job: '',
+    // service: '',
+    currentPageUrl: '',
+  });
+
+  const [defaultCountryCode, setDefaultCountryCode] = useState('us'); // Default to 'us'
+
+  const [errors, setErrors] = useState({});
+  const [submitting, setSubmitting] = useState(false);
+
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
+
+  useEffect(() => {
+    setCurrentPageUrl(window.location.href);
+  }, []);
 
 
+  /*auto fetch*/
+  useEffect(() => {
+    // Fetch IP information when the component mounts
+    fetchCountryCodeByIP();
+  }, []);
 
-/*auto fetch*/
-useEffect(() => {
-  // Fetch IP information when the component mounts
-  fetchCountryCodeByIP();
-}, []);
-
-const fetchCountryCodeByIP = () => {
-  fetch(`https://api.ipdata.co?api-key=6047ffae1867788acd06e6870e8ee7a52268aa63e892e74e80b56b66`)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Failed to fetch IP information');
-      }
-      return response.json();
-    })
-    .then(data => {
-      let countryCode = data.country_code.toLowerCase(); 
-      console.log("Country Code:", countryCode); // 
-      setDefaultCountryCode(countryCode);
-      console.log("Default Country Code:", defaultCountryCode); 
-    })
-    .catch(error => {
-      console.error('Error fetching IP information:', error);
-      setDefaultCountryCode('us');
-    });
-};
-
-  const validate = () => {
-    const newErrors = {};
-
-    if (!formData.name) {
-      newErrors.name = 'Full Name is required';
-    }
-    const emailPattern = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
-    if (!emailPattern.test(formData.email)) {
-      newErrors.email = 'Invalid email address';
-    }
-    if (!formData.company_name) {
-      newErrors.company_name = 'Company Name is required';
-    }
-    if (!formData.message) {
-      newErrors.message = 'Message? is required';
-    }
-    if (!formData.phone.trim()) {
-      errors.phone = 'Phone number is required';
-    } else if (!isValidPhoneNumber(formData.phone)) {
-      errors.phone = 'Invalid phone number';
-    }
-    if (!formData.phone) {
-      newErrors.phone = 'Phone Number is required';
-    } else {
-      const phonePattern = /^\d{10,13}$/;
-      if (!phonePattern.test(formData.phone)) {
-        newErrors.phone = 'Invalid phone number';
-      }
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+  const fetchCountryCodeByIP = () => {
+    fetch(`https://api.ipdata.co?api-key=6047ffae1867788acd06e6870e8ee7a52268aa63e892e74e80b56b66`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to fetch IP information');
+        }
+        return response.json();
+      })
+      .then(data => {
+        let countryCode = data.country_code.toLowerCase(); 
+        console.log("Country Code:", countryCode); // 
+        setDefaultCountryCode(countryCode);
+        console.log("Default Country Code:", defaultCountryCode); 
+      })
+      .catch(error => {
+        console.error('Error fetching IP information:', error);
+        setDefaultCountryCode('us');
+      });
   };
+
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-    // Clear the error for the field being edited
-    if (errors[name]) {
-      setErrors({
-        ...errors,
-        [name]: '',
-      });
-    }
+    setFormData({ ...formData, [name]: value });
+    // Clear error message for the field being edited
+    setErrors((prevErrors) => ({ ...prevErrors, [name]: '' }));
   };
 
   const handlePhoneChange = (phone) => {
@@ -110,31 +85,99 @@ const fetchCountryCodeByIP = () => {
     setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
   };
 
+  // const handlePhoneChange = (e) => {
+  //   const { value } = e.target;
 
-  const sendEmail = async (e) => {
+  //   const cleanedValue = value.replace(/\D/g, '');
+
+  //   const truncatedValue = cleanedValue.slice(0, 13);
+  //   setFormData({ ...formData, phone: truncatedValue });
+
+  //   setErrors((prevErrors) => ({ ...prevErrors, phone: '' }));
+  // };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!validate()) {
-      return;
-    }
+    const validationErrors = validateForm(formData);
+    if (Object.keys(validationErrors).length === 0) {
+      setSubmitting(true);
+      try {
+        // Send form data via EmailJS
+        await emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', e.target, 'Z1IXZpfjgq01m5vW7');
+        // await emailjs.sendForm('service_lqazf46', 'template_e13glbp', e.target, 'JMglIoOzliJzdMCd4');
 
-    setDisplay(true);
-
-    try {
-      const result = await emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', form.current, 'Z1IXZpfjgq01m5vW7');
-      console.log(result.text);
-      setFormData({
-        name: '',
-        email: '',
-        company_name: '',
-        phone: '',
-        message: '',
-      });
-      router.push("/thank-you/");
-    } catch (error) {
-      console.error(error.text);
-    } finally {
-      setDisplay(false);
+        const response = await fetch('https://blognew.dynamicssquare.com/api/formData', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
+        if (response.ok) {
+          console.log('Form submitted successfully');
+          console.log('Form Data:', formData);
+          // Clear form data after successful submission
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            companyname: '',
+            message: '',
+            // job: '',
+            // service: '',
+            currentPageUrl: '',
+          });
+          setTimeout(() => {
+            router.push('/thank-you/');
+          }, 1000);
+        } else {
+          console.error('Form submission failed');
+        }
+      } catch (error) {
+        console.error('Error submitting form:', error);
+      } finally {
+        setSubmitting(false);
+      }
+    } else {
+      setErrors(validationErrors);
     }
+  };
+
+
+  const validateForm = (formData) => {
+    const errors = {};
+    if (!formData.name.trim()) {
+      errors.name = 'Name is required';
+    }
+    if (!formData.email.trim()) {
+      errors.email = 'Email is required';
+    } else if (!isValidEmail(formData.email)) {
+      errors.email = 'Invalid email address';
+    }
+    if (!formData.phone.trim()) {
+      errors.phone = 'Phone number is required';
+    } else if (!isValidPhoneNumber(formData.phone)) {
+      errors.phone = 'Invalid phone number';
+    }
+    if (!formData.companyname.trim()) {
+      errors.companyname = 'Company name is required';
+    }
+    if (!formData.message.trim()) {
+      errors.message = 'Message is required';
+    }
+    // if (!formData.job.trim()) {
+    //   errors.job = 'Job title is required';
+    // }
+    // if (!formData.service.trim()) {
+    //   errors.service = 'Service selection is required';
+    // }
+    return errors;
+  };
+
+  const isValidEmail = (email) => {
+    // Basic email format validation
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$/;
+    return emailRegex.test(email);
   };
 
   const isValidPhoneNumber = (phone) => {
@@ -142,25 +185,10 @@ const fetchCountryCodeByIP = () => {
     return /^\d{10,15}$/.test(phone);
   };
 
-  // const sendEmail = (e) => {
-  //   setDisplay("spinner-border text-success");
-  //   e.preventDefault();
 
-  //   emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', form.current, 'Z1IXZpfjgq01m5vW7')
 
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
 
-  //     setTimeout(function() {
-  //       setCloseModal(true);
-  //       e.target.reset();
-  //       router.push("/thank-you/");
-  //     }, 500);
 
-  // };
 
   return (
     <>
@@ -194,8 +222,8 @@ const fetchCountryCodeByIP = () => {
                 with one of our Microsoft consultants.
               </p>
               <div className="modal-body">
-                <div className="main-form-wrper">
-                  <form ref={form} onSubmit={sendEmail}>
+              <div className="main-form-wrper">
+                  <form ref={form} onSubmit={handleSubmit}>
                     <div className="mb-3">
                       <input
                         type="text"
@@ -205,10 +233,10 @@ const fetchCountryCodeByIP = () => {
                         value={formData.name}
                         onChange={handleChange}
                       />
-                      {errors.name && <span className="error">{errors.name}</span>}
-                      <input type="hidden" value={router.asPath} name="url" />
+                      <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+                      <input type="hidden" value="CTA Form" name="formtag" />
+                      {errors.name && <div className="text-danger">{errors.name}</div>}
                     </div>
-
                     <div className="mb-3">
                       <input
                         type="email"
@@ -218,21 +246,29 @@ const fetchCountryCodeByIP = () => {
                         value={formData.email}
                         onChange={handleChange}
                       />
-                      {errors.email && <span className="error">{errors.email}</span>}
+                      {errors.email && <div className="text-danger">{errors.email}</div>}
                     </div>
                     <div className="mb-3">
                       <input
                         type="text"
                         className="form-control"
                         placeholder="*Company Name"
-                        name="company_name"
-                        value={formData.company_name}
+                        name="companyname"
+                        value={formData.companyname}
                         onChange={handleChange}
                       />
-                      {errors.company_name && <span className="error">{errors.company_name}</span>}
+                      {errors.companyname && <div className="text-danger">{errors.companyname}</div>}
                     </div>
                     <div className="mb-3">
-                    <PhoneInput inputStyle={{ width: '100%', height: 'auto' }}
+                      {/* <input
+                        type="tel"
+                        className="form-control"
+                        placeholder="*Phone Number"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handlePhoneChange}
+                      /> */}
+                      <PhoneInput inputStyle={{ width: '100%', height: 'auto' }}
                         country={defaultCountryCode} // Set default country code
                         value={formData.phone}
                         onChange={handlePhoneChange}
@@ -253,21 +289,13 @@ const fetchCountryCodeByIP = () => {
                             }
                           }
                         }}
-                        countryCodeEditable={false}
                         // onlyCountries={['us', 'ca', 'mx', 'gb']}
+                        countryCodeEditable={false}
                         excludeCountries={['pk']}
                       />
-                      {errors.phone && <span className="error">{errors.phone}</span>}
-                      {/* <input
-                        type="tel"
-                        className="form-control"
-                        placeholder="Phone Number"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                      />
-                      {errors.phone && <span className="error">{errors.phone}</span>} */}
+                      {errors.phone && <div className="text-danger">{errors.phone}</div>}
                     </div>
+
                     <div className="mb-3">
                       <textarea
                         className="form-control"
@@ -276,46 +304,31 @@ const fetchCountryCodeByIP = () => {
                         name="message"
                         value={formData.message}
                         onChange={handleChange}
-                     
                       ></textarea>
-                      {errors.message && <span className="error">{errors.message}</span>}
+                      {errors.message && <div className="text-danger">{errors.message}</div>}
                     </div>
                     <div className="mb-3 form-check">
-                      <input
-                        type="checkbox"
-                        checked
-                        readOnly
-                        className="form-check-input"
-                        aria-label="form-check" 
-                      />
+                      <input type="checkbox" checked readOnly className="form-check-input" id="exampleCheck1" />
                       <label className="form-check-label">
                         I agree to the
                         <a href="/privacy-policy/" target="_blank">
-                          {" "}
-                          Privacy Policy{" "}
+                          {' '}
+                          Privacy Policy{' '}
                         </a>
                         and
                         <a href="/terms-of-use/" target="_blank">
-                          {" "}
-                          Terms of Service{" "}
+                          {' '}
+                          Terms of Service{' '}
                         </a>
                         .
                       </label>
                     </div>
 
-                    <div className="spinner-wrapper">
-                      <button
-                        type="submit"
-                        className="btn btn-primary fomr-submit"
-                        disabled={display}
-                      >
-                        {display ? 'Submitting...' : 'Submit'}
+                    <div className="spiner-wrper">
+                      <button type="submit" className="btn btn-primary fomr-submit" disabled={submitting}>
+                        {submitting ? 'Submitting...' : 'Submit'}
                       </button>
-                      {display && (
-                        <div className="spinner-border text-success" role="status">
-                          <span className="visually-hidden">Loading...</span>
-                        </div>
-                      )}
+                      {submitting && <div className="spinner-border text-primary" role="status"></div>}
                     </div>
                   </form>
                 </div>

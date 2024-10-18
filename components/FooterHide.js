@@ -6,36 +6,36 @@ import { useRouter } from 'next/router';
 import Image from 'next/image';
 const FooterHide = () =>{
   
-  const router = useRouter();
-  const [display, setDisplay] = useState("dspn");
-  const form = useRef();
-  const [closeModal, setCloseModal]  = useState(false);
-  function handleCloseModal(){            
-    document.getElementById("exampleModal").classList.remove("show", "d-block");
-    document.querySelectorAll(".modal-backdrop")
-            .forEach(el => el.classList.remove("modal-backdrop"));
-}
+//   const router = useRouter();
+//   const [display, setDisplay] = useState("dspn");
+//   const form = useRef();
+//   const [closeModal, setCloseModal]  = useState(false);
+//   function handleCloseModal(){            
+//     document.getElementById("exampleModal").classList.remove("show", "d-block");
+//     document.querySelectorAll(".modal-backdrop")
+//             .forEach(el => el.classList.remove("modal-backdrop"));
+// }
 
 
-  const sendEmail = (e) => {
-    setDisplay("spinner-border text-success");
-    e.preventDefault();
+//   const sendEmail = (e) => {
+//     setDisplay("spinner-border text-success");
+//     e.preventDefault();
 
-    emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', form.current, 'Z1IXZpfjgq01m5vW7')
+//     emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', form.current, 'Z1IXZpfjgq01m5vW7')
 
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+//       .then((result) => {
+//           console.log(result.text);
+//       }, (error) => {
+//           console.log(error.text);
+//       });
      
-      setTimeout(function() {
-        setCloseModal(true);
-        e.target.reset();
-        router.push("/thank-you/");
-      }, 500);
+//       setTimeout(function() {
+//         setCloseModal(true);
+//         e.target.reset();
+//         router.push("/thank-you/");
+//       }, 500);
       
-  };
+//   };
 
     return(
     <>

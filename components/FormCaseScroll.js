@@ -6,21 +6,19 @@ import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
 
 const FormCaseScroll = ({ onClose }) => {
-    const router = useRouter();
-  const [formSubmitted, setFormSubmitted] = useState(false);
-
+  const router = useRouter();
   const form = useRef();
-//   const [currentPageUrl, setCurrentPageUrl] = useState('');
+  const [currentPageUrl, setCurrentPageUrl] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
-    company_name: '',
+    companyname: '',
     message: '',
     // job: '',
     // service: '',
-    // currentPageUrl: '',
-    formtag: 'Case Studies form'
+    currentPageUrl: '',
+    formtag: 'FormCaseScroll'
   });
 
   const [defaultCountryCode, setDefaultCountryCode] = useState('us'); // Default to 'us'
@@ -28,13 +26,13 @@ const FormCaseScroll = ({ onClose }) => {
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
-//   useEffect(() => {
-//     setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
-//   }, [currentPageUrl]);
+  useEffect(() => {
+    setFormData((prevFormData) => ({ ...prevFormData, currentPageUrl }));
+  }, [currentPageUrl]);
 
-//   useEffect(() => {
-//     setCurrentPageUrl(window.location.href);
-//   }, []);
+  useEffect(() => {
+    setCurrentPageUrl(window.location.href);
+  }, []);
 
 
   /*auto fetch*/
@@ -89,23 +87,20 @@ const FormCaseScroll = ({ onClose }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
- 
     const validationErrors = validateForm(formData);
-   
     if (Object.keys(validationErrors).length === 0) {
       setSubmitting(true);
-      onClose();
       try {
         // Send form data via EmailJS
         await emailjs.sendForm('service_ioc4m3m', 'template_gaio8jq', e.target, 'Z1IXZpfjgq01m5vW7');
 
-        // const response = await fetch('https://blognew.dynamicssquare.co.uk/api/formData', {
-        //   method: 'POST',
-        //   headers: {
-        //     'Content-Type': 'application/json',
-        //   },
-        //   body: JSON.stringify(formData),
-        // });
+        const response = await fetch('https://blognew.dynamicssquare.com/api/formData', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        });
         if (response.ok) {
           console.log('Form submitted successfully');
           console.log('Form Data:', formData);
@@ -114,14 +109,15 @@ const FormCaseScroll = ({ onClose }) => {
             name: '',
             email: '',
             phone: '',
-            company_name: '',
+            companyname: '',
+            message: '',
             // job: '',
             // service: '',
+            currentPageUrl: '',
           });
-
-          setFormSubmitted(true);
-       
-         
+          setTimeout(() => {
+            router.push('/thank-you/');
+          }, 1000);
         } else {
           console.error('Form submission failed');
         }
@@ -133,7 +129,6 @@ const FormCaseScroll = ({ onClose }) => {
     } else {
       setErrors(validationErrors);
     }
-  
   };
 
 
@@ -152,10 +147,12 @@ const FormCaseScroll = ({ onClose }) => {
     } else if (!isValidPhoneNumber(formData.phone)) {
       errors.phone = 'Invalid phone number';
     }
-    if (!formData.company_name.trim()) {
-      errors.company_name = 'Company name is required';
+    if (!formData.companyname.trim()) {
+      errors.companyname = 'Company name is required';
     }
-  
+    if (!formData.message.trim()) {
+      errors.message = 'Message is required';
+    }
     // if (!formData.job.trim()) {
     //   errors.job = 'Job title is required';
     // }
@@ -175,16 +172,6 @@ const FormCaseScroll = ({ onClose }) => {
     // Phone number should be between 10 to 13 characters
     return /^\d{10,15}$/.test(phone);
   };
-
-
- 
-
-//   const handleSubmit = (event) => {
-//     event.preventDefault();
-//     setFormSubmitted(true);
-//     onClose();
-//   };
-
   return (
     <div className="popup-overlay">
       <div className="popup-form">
@@ -200,7 +187,7 @@ const FormCaseScroll = ({ onClose }) => {
           <button type="submit">Submit</button>
         </form> */}
          <div className="main-form-wrper">
-        <form ref={form} onSubmit={handleSubmit}>
+         <form ref={form} onSubmit={handleSubmit}>
           <div className="mb-3">
             <input
               type="text"
@@ -210,8 +197,8 @@ const FormCaseScroll = ({ onClose }) => {
               value={formData.name}
               onChange={handleChange}
             />
-              <input type="hidden" value={router.asPath} name="url" />
-            <input type="hidden" value="Case Studies Form" name="formtag" />
+            <input type="hidden" name="currentPageUrl" value={currentPageUrl} />
+            <input type="hidden" value="FormCaseScroll" name="formtag" />
             {errors.name && <div className="text-danger">{errors.name}</div>}
           </div>
           <div className="mb-3">
@@ -230,11 +217,11 @@ const FormCaseScroll = ({ onClose }) => {
               type="text"
               className="form-control"
               placeholder="*Company Name"
-              name="company_name"
-              value={formData.company_name}
+              name="companyname"
+              value={formData.companyname}
               onChange={handleChange}
             />
-            {errors.company_name && <div className="text-danger">{errors.company_name}</div>}
+            {errors.companyname && <div className="text-danger">{errors.companyname}</div>}
           </div>
           <div className="mb-3">
             {/* <input
@@ -292,7 +279,7 @@ const FormCaseScroll = ({ onClose }) => {
               onChange={handleChange}
             >
               <option disabled hidden value="">
-                Looking For?
+                what you're looking for
               </option>
               <option value="Implementation">Implementation</option>
               <option value="Upgrade/Migration">Upgrade/Migration</option>
@@ -300,7 +287,17 @@ const FormCaseScroll = ({ onClose }) => {
             </select>
             {errors.service && <div className="text-danger">{errors.service}</div>}
           </div> */}
-         
+          <div className="mb-3">
+            <textarea
+              className="form-control"
+              placeholder="*How Can We Help You?"
+              rows="3"
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+            ></textarea>
+            {errors.message && <div className="text-danger">{errors.message}</div>}
+          </div>
           <div className="mb-3 form-check">
             <input type="checkbox" checked readOnly className="form-check-input" id="exampleCheck1" />
             <label className="form-check-label">

@@ -23,7 +23,7 @@ const ZohoForm = () => {
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
 
-  const [defaultCountryCode, setDefaultCountryCode] = useState('gb'); // Default to 'us'
+  const [defaultCountryCode, setDefaultCountryCode] = useState('us'); // Default to 'us'
 
 
 
@@ -57,7 +57,7 @@ const ZohoForm = () => {
       })
       .catch(error => {
         console.error('Error fetching IP information:', error);
-        setDefaultCountryCode('gb');
+        setDefaultCountryCode('us');
       });
   };
 
