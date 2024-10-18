@@ -15739,6 +15739,29 @@ color:#542784;
 .new-indus-swiper .swiper-wrapper{
   margin-left: -335px !important;
 }
+
+.thnak-page{
+  margin-bottom: 100px;
+}
+.thnak-page .iner-divv {
+  box-shadow: 0px 3px 25px rgb(42 66 97 / 37%);
+  padding: 60px 60px;
+  border-radius: 18px;
+}
+.thnak-page .iner-divv h1{
+  background: #542784;
+    line-height: normal;
+    background: linear-gradient(to right, #542784 10%, #307faf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 44px !important;
+}
+.thnak-page .iner-divv p{
+  
+}
+
 @media (max-width: 1400px) {
   .full-width-right{
     margin-left: 10%;
@@ -15923,6 +15946,12 @@ color:#542784;
 }
 
 @media (max-width: 768px) {
+  .thnak-page .iner-divv{
+    padding:40px
+  }
+  .thnak-page .iner-divv h1{
+    font-size: 32px !important;
+  }
   .shot-ct {
     border-radius: 10px;
     padding: 20px 30px;
