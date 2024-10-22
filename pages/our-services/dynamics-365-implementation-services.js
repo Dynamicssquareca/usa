@@ -15,7 +15,7 @@ const ImplementationServices = () => {
   return (
     <>
       <Head>
-        <title>Trusted Microsoft Dynamics 365 Implementation Partner</title>
+        <title>Microsoft Dynamics 365 Implementation Services</title>
         <meta
           name="description"
           content="Optimize your operations, bring transparency in your process flow, drive a resilient approach, enable a 360-degree view into your Supply Chain practices with..."
