@@ -163,11 +163,11 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>Dynamics 365 Business Central: The Level-up Version of Dynamics NAV</h2>
-                <p>Microsoft Dynamics NAV is a powerful ERP solution that has been transformed into <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> to meet modern business demands. <b>A NAV to Business Central upgrade</b> lets you sign up for a more advanced business solution without exiting the Microsoft ecosystem.</p>
+                <p>Microsoft Dynamics NAV is a powerful ERP solution that has been transformed into <Link href="/products/dynamics-365-business-central/"><a>Dynamics 365 Business Central</a></Link> to meet modern business demands. A NAV to Business Central upgrade lets you sign up for a more advanced business solution without exiting the Microsoft ecosystem.</p>
                 <p>Microsoft ensures that Business Central retains the capabilities of Dynamics NAV and offers advanced tools to manage supply chain, finance, operations, sales, and customer service, more efficiently than ever. </p>
-                <p>Still not sure about the <b>NAV upgrade</b>? Well, Business Central is everything Dynamics NAV but with several advanced tools that not only enhance the capabilities of the ERP but also push your business towards making it more modern.</p>
-                <p>Speaking of deployment options for <b>NAV to BC upgrade</b>, Microsoft provides organizations with the right to choose between cloud-based and on-premises implementation options depending on their business model and requirements.  </p>
-                <p>When you <strong>upgrade NAV to Business Central</strong>, it isn’t just a name change. With Dynamics Business Central, Microsoft enables you to leverage cloud technology, leaving on-premises systems behind, to achieve greater levels of growth, flexibility, and scalability.</p>
+                <p>Still not sure about the NAV upgrade? Well, Business Central is everything Dynamics NAV but with several advanced tools that not only enhance the capabilities of the ERP but also push your business towards making it more modern.</p>
+                <p>Speaking of deployment options for NAV to BC upgrade, Microsoft provides organizations with the right to choose between cloud-based and on-premises implementation options depending on their business model and requirements.  </p>
+                <p>When you upgrade NAV to Business Central, it isn’t just a name change. With Dynamics Business Central, Microsoft enables you to leverage cloud technology, leaving on-premises systems behind, to achieve greater levels of growth, flexibility, and scalability.</p>
                 <p><strong>Are you in for a Dynamics NAV upgrade to Business Central?</strong></p>
                 <a data-bs-toggle="modal" class="btn-get-started scrollto" href="#exampleModal"><span>Schedule a Free Call today! </span></a>
               </div>
@@ -197,7 +197,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>Why NAV to Business Central Upgrade is Essential?</h2>
-                <p>So, what does <b>Navision to Business Central migration</b> bring to the table? Well, moving from Dynamics NAV to Microsoft Business Central is like upgrading an old & slow device with a fast & new one. Business Central comes with advanced tools and capabilities that Dynamics Navision lacks.</p>
+                <p>So, what does Navision to Business Central migration bring to the table? Well, moving from Dynamics NAV to Microsoft Business Central is like upgrading an old & slow device with a fast & new one. Business Central comes with advanced tools and capabilities that Dynamics Navision lacks.</p>
                 <p>Microsoft Dynamics 365 Business Central empowers you to access cloud technology which means you can access it from anywhere, at any time. Besides, it offers seamless integration, high-end security, real-time data, and more limitless features. Most importantly, it is flexible and scalable, which allows you to scale the system's performance without any hassle whenever needed.</p>
                 <p>When you upgrade Dynamics NAV to Business Central, you sign up for:</p>
 
@@ -364,7 +364,7 @@ const DynamicsNavToBusinessCentral = () => {
             <div className="col-lg-6 align-self-center">
               <div className="commen-rit-info commen-rit-info-list">
                 <h2>Concerned About Sensitive Data? Secure Data Migration for NAV to Business Central Upgrade!</h2>
-                <p>When it comes to <b>NAV to BC migration</b>, businesses are often concerned about the safety of their data. This is because it is an asset, and there are numerous risks associated with transferring the data from Dynamics NAV to Dynamics 365 Business Central. Such issues include:</p>
+                <p>When it comes to NAV to BC migration, businesses are often concerned about the safety of their data. This is because it is an asset, and there are numerous risks associated with transferring the data from Dynamics NAV to Dynamics 365 Business Central. Such issues include:</p>
                 <div className="points-ui point-short">
                   <i className="bi bi-check-lg"></i> <span>Compatibility issues</span>
                 </div>

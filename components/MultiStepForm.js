@@ -221,7 +221,7 @@ const MultiStepForm = () => {
     console.log('Submitting Data:', structuredData);
 
     // Make the API request
-    const response = await fetch('https://blognew.dynamicssquare.co.uk/api/estimation-submit', {
+    const response = await fetch('https://blognew.dynamicssquare.com/api/estimation-submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
