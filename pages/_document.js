@@ -97,9 +97,9 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-          {/* <script src="//code.jivosite.com/widget/UMeAIYNyyq" async></script> */}
+          <script src="//code.jivosite.com/widget/UMeAIYNyyq" async></script>
 
-          <script
+          {/* <script
           dangerouslySetInnerHTML={{
             __html: `window.$zoho=window.$zoho || {};
                      $zoho.salesiq=$zoho.salesiq||{ready:function(){}}`,
@@ -109,7 +109,7 @@ class MyDocument extends Document {
           id="zsiqscript"
           src="https://salesiq.zohopublic.in/widget?wc=siqa1d21659128246963b1bfd6729ca7a6ac00f331e21309d928c735dbd0b6596db"
           defer
-        ></script>
+        ></script> */}
 
         </body>
       </Html>
