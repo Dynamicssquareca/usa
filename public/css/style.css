@@ -16097,11 +16097,11 @@ color:#542784;
   border-radius: 0 !important;
 }
 .servay-form-new .mb-3 {
-  margin-bottom: 1.5rem !important;
+  /* margin-bottom: 1.5rem !important;
   background: #fff;
   padding: 15px 20px;
   border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #ddd; */
 }
 .servay-form-new .btn {
   padding: 0.6rem 3.5rem;
@@ -16162,4 +16162,449 @@ margin-bottom: 15px;
 .erp-head p{}
 .main-form-wrper .text-danger {
   font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*multidetp form*/
+.pad-100 {
+  background: #fff;
+  padding: 30px 140px;
+}
+.servay-form-new {
+  padding: 30px 200px 0px;
+}
+.servay-form-new .form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d3557;
+  margin-bottom: 15px;
+}
+.servay-form-new .form-control {
+  height: 50px;
+  border: 2px solid #f1f0f4;
+  border-radius: 5px;
+  background-color: #f1f0f4;
+  position:relative
+}
+.servay-form-new .error-message{
+position:absolute;
+font-size: 12px;
+}
+.servay-form-new .form-select {
+  height: 45px;
+  border: 2px solid #f1f0f4;
+  border-radius: 5px;
+  background-color: #f1f0f4;
+}
+.servay-form-new .form-check {
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+.servay-form-new .form-check.form-check-inline{
+  margin-bottom: 0px;
+}
+.servay-form-new .form-check label{
+
+}
+.x-customa-sd .form-check .form-check-input {
+    width: 24px;
+    height: 24px;
+    border-radius: 50% !important;
+    margin: 18px 15px;
+}
+.servay-form-new .mb-3 {
+  margin-bottom: 1.5rem !important;
+  background: #fff;
+  border-radius: 8px;
+  /* border: 1px solid #ddd; */
+}
+.servay-form-new .btn {
+  padding: 0.6rem 3.5rem;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.form-check-input {
+}
+.servay-form-new .form-select:focus, .servay-form-new .form-control:focus {
+  border-color: #f1f0f4;
+  outline: 0;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+.error {
+  color: red;
+  font-size: 12px;
+}
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.servay-form-new h4{
+color:#1d3557;
+font-size: 14px;
+margin-bottom: 15px;
+}
+
+.c-f-headin{
+  margin-bottom: 25px;
+}
+.c-f-headin h2{
+  font-size: 24px;
+    font-weight: 600;
+    color: #1d3557;
+    margin-bottom: 5px;
+}
+.c-f-headin p{
+  font-size: 16px;
+    margin-bottom: 0;
+}
+.bg-dd{
+  background: #ededed;
+  margin-bottom: 100px;
+}
+.erp-head{
+  text-align: center;
+    padding-bottom: 20px;
+}
+.erp-head h1{
+  font-size: 36px !important;
+    font-weight: 600;
+    color: #1f2b53;
+}
+.erp-head p{}
+.main-form-wrper .text-danger {
+  font-size: 13px;
+}
+.x-custom{
+  display: flex !important;
+    flex-wrap: wrap;
+    padding-left: 0;
+    gap: 20px;
+}
+.shdee{
+  position: relative;
+ 
+}
+.f-cust-height{
+  min-height: 350px;
+}
+.x-customs{
+  flex: 48% 1;
+    max-width: 48%;
+    border-radius: 8px;
+    box-shadow: 0 5px 60px 0 rgba(22, 92, 196, 0.1);
+    border: solid 1px #e5e8f2;
+    /* padding: 18px 20px; */
+    border:1px solid transparent;
+    transition:.4s ease
+}
+.x-customs:hover{
+  border:1px solid #542784
+}
+.x-customs label{
+  display: block;
+  cursor: pointer;
+  padding: 19px 15px;
+  font-size:15px;
+  line-height: 1.4;
+}
+.t-ti-head{
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  display: block;
+  color: #1d3557;
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+.x-customs .form-check-input:checked {
+  background-color: #5096c1;
+  border-color: #ffffff;
+}
+.servay-form-new  .form-check .form-check-input{
+
+}
+.servay-form-new
+
+.cc-button,.button-group-style{
+  text-align:right
+}
+.cc-button button,.ccx-button .button-group-style{
+  border-radius: 4px;
+  box-shadow: 0 5px 30px 0 rgba(65, 84, 241, 0.4);
+  background-color: #bb2b36;
+  color: #fff;
+  border: none;
+  padding: 8px 38px;
+  font-size: 16px;
+}
+.button-group-stylea{
+  background-color: #bb2b36;
+  color: #fff;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.n-ned {
+  position: absolute;
+  top: 10px;
+  left: 19px;
+  border-radius: 50%;
+  background: #a4b5e0;
+  color: #fff;
+  border: none;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+}
+.ccx-button {
+  text-align: right;
+}
+.ccx-button .button-group-style {
+  position: absolute;
+  top: 80%;
+  right: 30px;
+  transform: translateY(-70%);
+}
+.n-ned .button-group-style{
+
+}
+.shdee{
+  border-radius: 24px;
+  /* box-shadow: 0 20px 40px 0 rgba(86, 106, 173, 0.16); */
+  background-color: #fff;
+}
+.x-customa-sd{
+  /* border-radius: 24px;
+  box-shadow: 0 20px 40px 0 rgba(86, 106, 173, 0.16);
+  background-color: #fff; */
+  padding: 40px 60px 100px;
+}
+.progress-bar-container {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.progress-bar {
+  height: 5px;
+  background-image: linear-gradient(to left, #6ebbfc 69%, #0f45bf 30%);
+  transition: width 0.3s;
+}
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+.spinner {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto; /* Center the spinner */
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.ks-pding{
+  padding-top: 110px;
+  padding-bottom: 140px;
+}
+
+.tt-heading-box {
+  text-align: center;
+  position: relative;
+  top: -140px;
+  margin-bottom: -80px;
+}
+/* .x-customs .form-check-input:checked[type=radio]{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-color: #007bff;
+} */
+
+.tt-heading-box{}
+.tt-heading-box h1,.tt-heading-box h2{
+  background-image: linear-gradient(95deg, #307faf -3%, #542784 82%);
+  font-size: 30px !important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tt-heading-box p{
+  font-size: 17px;
+  font-weight: 500;
+  color: #585858;
+  line-height: 1.5;
+}
+
+.tt-text-cet {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.tt-text-cet h2 {
+  font-size: 24px;
+  color: #ee3442;
+  font-weight: 600;
+}
+.myloading{
+  width:100%;
+  height:600px;
+  position:relative
+}
+.myloading .spinner{
+  position: absolute;
+  top:30%;
+  left:50%;
+  transform:translate(-50px, -50px)
+}
+.s-fontz{
+
+}
+.s-fontz span{
+  margin-left: 14px;
+  font-size:14px
+}
+.tt-heading-box.tt-heading-box-two
+{
+  top: -165px;
+  margin-bottom: -125px;
+}
+
+.thnak-page{
+  margin-bottom: 100px;
+}
+.thnak-page .iner-divv {
+  box-shadow: 0px 3px 25px rgb(42 66 97 / 37%);
+  padding: 60px 60px;
+  border-radius: 18px;
+}
+.thnak-page .iner-divv h1{
+  background: #542784;
+    line-height: normal;
+    background: linear-gradient(to right, #542784 10%, #307faf 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 44px !important;
+}
+.thnak-page .iner-divv p{
+  
+}
+
+@media (max-width:1400px){
+  .tt-heading-box.tt-heading-box-two
+{
+  top: -165px;
+    margin-bottom: -90px;
+}
+.tt-heading-box p{
+  font-size: 16px;
+}
+}
+@media (max-width:1100px){
+  
+.servay-form-new {
+  padding: 20px 120px 0;
+}
+
+}
+@media (max-width:992px){
+  .ks-pding {
+    padding-top: 150px;
+  }
+  .tt-heading-box.tt-heading-box-two {
+    top: -183px;
+    margin-bottom: -140px;
+}
+}
+@media (max-width:768px){
+  .x-customs{
+    flex: 100% 1;
+    max-width: 100%;
+  }
+  .ccx-button .button-group-style{
+    position: absolute;
+    top: inherit;
+    right: 30px;
+    transform: inherit;
+    bottom: 20px;
+  }
+  .x-customa-sd {
+    padding: 40px 20px 85px;
+}
+.n-ned {
+
+  width: 34px;
+  height: 34px;
+  font-size: 15px;
+}
+.servay-form-new {
+  padding: 30px 20px 0px;
+}
+.tt-heading-box.tt-heading-box-two{
+  margin-bottom: -120px;
+}
+.dd-fflex{
+  display: flex !important;
+        align-items: center;
+}
+.dd-fflex .s-fontz span{
+  line-height: 1.3;
+        display: inline-block;
+}
+.dd-fflex input{
+  margin-top: -20px;
+}
+.tt-heading-box p {
+  font-size: 14px;
+}
+.t-ti-head{
+  font-size: 18px;
+}
+.ks-pding {
+  padding-top: 120px;
+}
+.thnak-page .iner-divv{
+  padding:40px
+}
+.thnak-page .iner-divv h1{
+  font-size: 32px !important;
+}
 }
