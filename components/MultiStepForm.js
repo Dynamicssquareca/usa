@@ -215,6 +215,7 @@ const MultiStepForm = () => {
       'name': formData.name,
       'email': formData.email,
       'phone': formData.phone,
+      'company': formData.company,
       'terms_agree': formData.agreed ? 1 : 0, // Convert boolean to 1 or 0
     };
 
