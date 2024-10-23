@@ -48,7 +48,7 @@ const MultiStepForm = () => {
       setShowQuestion(false); // Reset visibility
       const timer = setTimeout(() => {
         setShowQuestion(true);
-      }, 100); // 2 seconds delay before showing the question
+      }, 500); // 2 seconds delay before showing the question
       return () => clearTimeout(timer);
     }
   }, [currentStep, loading, questions]);
@@ -345,11 +345,12 @@ const MultiStepForm = () => {
                           <label className='s-fontz'><span>I agree to the<a href="/privacy-policy/" target="_blank"> Privacy Policy</a> and <a href="/terms-of-use/" target="_blank"> Terms of Service </a>.</span></label>
                           {staticErrorMessages.agreement && <div className="error-message">{staticErrorMessages.agreement}</div>}
                         </div>
+                        
                         <button type="button" onClick={handleSubmit} className='btn-submit button-group-stylea'>See Your Estimate</button>
                       </form>
                     )
                   ) : (
-                    <div>Loading...</div>
+                    <div className='loadd'>Loading...</div>
                   )}
 
                   <div className='button-group ccx-button'>

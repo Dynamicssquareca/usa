@@ -16527,7 +16527,21 @@ margin-bottom: 15px;
 .thnak-page .iner-divv p{
   
 }
-
+.loadd{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: linear-gradient(95deg, #307faf -3%, #542784 82%);
+    font-size: 20px !important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 @media (max-width:1400px){
   .tt-heading-box.tt-heading-box-two
 {
