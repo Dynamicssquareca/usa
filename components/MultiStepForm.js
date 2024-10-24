@@ -285,7 +285,7 @@ const MultiStepForm = () => {
                     ) : (
                       <form className='servay-form-new'>
                         <div className='tt-heading-box tt-heading-box-two'>
-                          <h2>Almot there!</h2>
+                          <h2>Almost there!</h2>
                           <p>Say goodbye to hours of research. With our ERP Pricing Estimator, you can streamline your decision-making process and make an informed choice in minutes.</p>
                         </div>
                         <div  className="mb-3 form-group">

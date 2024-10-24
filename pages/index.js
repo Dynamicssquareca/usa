@@ -421,8 +421,8 @@ export default function Home() {
 
             <div className="col-lg-9">
               <div className="new-sub-heading">
-                <h2>Get Microsoft Cloud Solutions For Your Business Needs</h2>
-                <p>Drive your business success by implementing tailored and powerful innovative solutions for all industries.</p>
+                <h2>Get Cloud Solutions from a Renowned Microsoft Dynamics Partner </h2>
+                <p>Drive your business success by implementing tailored and powerful innovative solutions for all industries from Dynamics Square, a reputed Microsoft Dynamics 365 partner.</p>
               </div>
             </div>
           </div>
@@ -612,7 +612,7 @@ export default function Home() {
           <div className="col-lg-9">
             <div className="new-sub-heading">
               <h2>Industry <br /> Specific Dynamics 365 Solutions</h2>
-              <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries, harness the data, and capture insights using AI-enabled software.</p>
+              <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries from the trusted Microsoft Dynamics 365 Partner in the USA—Dynamics Square!</p>
             </div>
           </div>
         </div>
@@ -808,7 +808,7 @@ export default function Home() {
                 <img src="/img/home/shape-down.png" alt="shape-down" width={388} height={216} />
               </div>
               <h2>Industry <br /> Specific Dynamics 365 Solutions</h2>
-              <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries, harness the data, and capture insights using AI-enabled software.</p>
+              <p>Bring agility, sustainability, and empower your businesses to achieve more. Get tailored solutions for all industries from the trusted Microsoft Dynamics 365 Partner in the USA—Dynamics Square! </p>
             </div>
           </div>
 
@@ -820,7 +820,7 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="new-sub-heading">
-                <h2>Why Businesses Trust Dynamics Square?</h2>
+                <h2>What Businesses Say About Dynamics Square as a Microsoft Partner </h2>
                 <p>Dynamics Square is the leading Microsoft Solution partner, offering future-ready business solutions to global organizations.</p>
               </div>
             </div>
@@ -901,8 +901,8 @@ export default function Home() {
           <div className="row justify-content-center">
             <div className="col-lg-9">
               <div className="new-sub-heading">
-                <h2>Best Microsoft Dynamics 365 Partner Solutions for Business Growth</h2>
-                <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions.</p>
+                <h2>Get the Best Solutions for Business Growth from Microsoft Dynamics 365 Partner </h2>
+                <p>Automate your business, simplify operations, and redefine the way you deal with new opportunities using powerful Dynamics 365 solutions from the renowned Microsoft Dynamics 365 partner in the USA. </p>
               </div>
             </div>
           </div>
@@ -1131,7 +1131,7 @@ Marketing</h3>
             <div className="col-lg-8">
               <div className='call-to-home-action-inner text-center'>
                 <h3>Roar ahead with <br />AI-Powered Solutions</h3>
-                <p>Fear no business competition, conquer endless opportunities, acquire great strength, <br /> and become a fierce brand with Dynamics Square.</p>
+                <p>Fear no business competition, conquer endless opportunities, acquire great strength, and become a fierce brand with Dynamics Square, your trusted Microsoft Dynamics partner.</p>
                 <div className="new-btn-home">
                   <Link href="#exampleModal" >
                     <a className="bts" data-bs-toggle="modal">
